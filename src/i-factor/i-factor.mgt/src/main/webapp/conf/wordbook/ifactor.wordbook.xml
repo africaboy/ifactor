@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<applicationJSCSS desc="Customized JSCSS"> 
+		<item id="GAPGlobal.js">/GAP/js/GAPGlobal.js</item>
+		<item id="common.js">/resources/common/js/common.js</item>
+		<item id="workflowaction.js">/system/workflow/plugin/js/workflowaction.js</item>
+		<item id="application.js">/app/ifactor/js/application.js</item>
+		<item id="mainTab.js">/app/ifactor/js/mainTab.js</item>
+		<item id="previewImageData.js">/app/ifactor/js/previewImageData.js</item>
+		<item id="imageUploadItemList.js">/app/ifactor/js/imageUploadItemList.js</item>
+		<item id="flow.css">/app/ifactor/css/flow.css</item>
+		<!--image upload refrence start-->
+		<item id="swfupload.js">/app/ifactor/upload/swfupload/swfupload.js</item>  
+		<item id="image-slideshow-vertical.js">/app/ifactor/upload/image-slideshow-vertical.js</item>  
+		<item id="uploadPanel.js">/app/ifactor/upload/uploadPanel.js</item>  
+		<item id="uploadPanel.css">/app/ifactor/upload/css/uploadPanel.css</item>
+		<item id="image-slideshow-vertical.css">/app/ifactor/upload/css/image-slideshow-vertical.css</item>
+		<!--image upload refrence end-->
+		<item id="application.js">/app/lib/js/application.js</item>
+		<!--global variable-->
+		<item id="share.js">/app/ifactor/js/share.js</item>
+		<item id="pdfobject.js">/app/ifactor/js/pdfobject.js</item>
+	</applicationJSCSS>  
+	<default-menu-icon> 
+		<item id="/GAP/welcome/default_menu_icon/web_icon_001.png">001</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_002.png">002</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_006.png">006</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_009.png">009</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_010.png">010</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_012.png">012</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_014.png">014</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_015.png">015</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_016.png">016</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_018.png">018</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_019.png">019</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_021.png">021</item> 
+	</default-menu-icon> 
+	<operatorGt desc="calculate operator gt"> 
+		<item id="01" desc="&gt;">&gt;</item>  
+		<item id="02" desc="&gt;=">&gt;=</item>
+	</operatorGt>
+	<operatorLt desc="calculate operator lt">  
+		<item id="01" desc="&lt;">&lt;</item>
+		<item id="02" desc="&lt;=">&lt;=</item>
+	</operatorLt>
+
+	<user-type desc="User Type"> 
+		<item id="1">Local</item>  
+		<item id="2">Internal</item>  
+		<item id="3">External</item> 
+	</user-type>  
+	<user-workstatus desc="Work Status"> 
+		<item id="0">Normal</item>  
+		<item id="-1">Resigned</item>  
+		<item id="-2">On Leave</item>  
+		<item id="-3">Away</item> 
+	</user-workstatus>  
+	<user-workstatus-session desc="Work Session Status"> 
+		<item id="0">Normal</item>  
+		<item id="-3">Away</item> 
+	</user-workstatus-session>  
+	<user-rating desc="Level"> 
+		<item id="1" desc="" idx="1">Head Office Senior</item>  
+		<item id="3" desc="" idx="2">Head Office Mid-level</item>  
+		<item id="2" desc="" idx="3">Regional Senior</item>  
+		<item id="4" desc="" idx="4">Regional Mid-level</item>  
+		<item id="5" desc="" idx="5">General Staff</item> 
+	</user-rating>  
+	<group-rating desc="Group Level"> 
+		<item id="1">Company/Office</item>  
+		<item id="2">Department</item> 
+	</group-rating>  
+	<job desc="用户职务"> 
+		<item id="风控总监" desc="" idx="">Chief Risk Officer</item>  
+		<item id="信审经理">Credit Approval Manager</item>  
+		<item id="总监助理">Chief Officer Assistant</item>  
+		<item id="信审主任">Head of Credit Officer</item>  
+		<item id="信审员">Credit Officer</item>  
+		<item id="稽核员">Auditor</item>  
+		<item id="数据分析员">Data Analyst</item>  
+		<item id="团队经理">Group Manager</item>  
+		<item id="业务员">Sales</item>  
+		<item id="客服">Customer Service</item>  
+		<item id="职员">Staff</item> 
+	</job>  
+	<area desc="Area/Region"> 
+		<item id="00">Head Office</item>  
+		<item id="01">East</item>  
+		<item id="02">South</item> 
+	</area>   
+	<fc_opinion desc="first check opinion selects of buyer flow"> 
+		<item id="Confirmed">Confirm</item>  
+		<item id="Modify">Modify</item> 
+	</fc_opinion> 
+	<dc_opinion desc="double check opinion selects of buyer flow"> 
+		<item id="Confirmed">Confirm</item>  
+		<item id="Modify">Modify</item>
+	</dc_opinion> 
+	<blc_opinion desc="blacklist check opinion selects of buyer flow"> 
+		<item id="Accept">Accept as Potential Buyer</item>  
+		<item id="Reject">Reject</item> 
+	</blc_opinion> 
+	<bc_opinion desc="buyer confirm opinion selects of buyer flow"> 
+		<item id="Confirmed">Confirmed</item>  
+		<item id="UnConfirmed">Not Confirmed</item> 
+	</bc_opinion>
+	<fieldcheck_opinion desc="double check field visit doc opinion"> 
+		<item id="Accept">Accept</item>  
+		<item id="Reject">Reject</item> 
+	</fieldcheck_opinion>
+	<common_opinion>
+		<item id="Confirmed">Confirm</item> 
+		<item id="Reject">Reject</item>
+	</common_opinion> 
+	<smecheck_opinion>
+		<item id="Confirmed">Confirm</item> 
+		<item id="Modify">Modify</item>
+	</smecheck_opinion>
+	<mapscore_opinion>
+		<item id="Confirmed">Accept</item> 
+		<item id="Reject">Reject</item> 
+		<item id="Review">Review</item> 
+	</mapscore_opinion>
+	<fieldvisit_opinion>
+		<item id="Required">Field Visit Required</item> 
+		<item id="NotRequired">Field Visit Not Required</item> 
+	</fieldvisit_opinion>
+	<doublecheckverify_opinion>
+		<item id="Confirmed">Confirmed</item> 
+		<item id="VerifyAgain">Check and Verify Again</item>
+	</doublecheckverify_opinion>
+	<fscheckreview_opinion>
+		<item id="Confirmed">Confirm</item> 
+		<item id="FSModify">FS Modify</item>
+	</fscheckreview_opinion>
+	<ba_stauts desc="buyer apply status">
+		<item id="FTDaNkdaIp">Registration</item>  
+		<item id="FTDaNkdaIp_frTGUAcenq">First completeness and correctness check</item> 
+		<item id="frTGUAcenq_xzaEBsKadm">Second completeness and correctness check</item> 
+		<item id="frTGUAcenq_AyrbNcfEYW">Pending for data modification from customer</item> 
+		<item id="AyrbNcfEYW_frTGUAcenq">First completeness and correctness check (Resubmission)</item> 
+		<item id="xzaEBsKadm_yjoUTSRriH">Blacklist check</item> 
+		<item id="xzaEBsKadm_frTGUAcenq">Confirm decision on data modification</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_0">Pending for CS to contact</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_1">Contacted by CS</item> 
+		<item id="AyrbNcfEYW_xzaEBsKadm">Second completeness and correctness check (Resubmission)</item>
+		<item id="yjoUTSRriH_ZgoGbrkOWm">Buyer's identity confirmation</item> 
+		<item id="yjoUTSRriH_ANAzqfzpXu">Rejected</item> 
+		<item id="ZgoGbrkOWm_wqeytIZGJg">Pending for documents signing</item> 
+		<item id="ZgoGbrkOWm_IumoNgdgWo">Pending for closing account</item> 
+		<item id="IumoNgdgWo_ANAzqfzpXu">Buyer account closed</item>
+		<item id="wqeytIZGJg_PBwYjzcgYL">Signed documents double checking</item> 
+		<item id="PBwYjzcgYL_wqeytIZGJg">Pending for documents signing (Amendment)</item> 
+		<item id="PBwYjzcgYL_ANAzqfzpXu">Buyer released</item> 
+		<item id="AyrbNcfEYW_ANAzqfzpXu">Application closed</item> 
+	</ba_stauts> 
+	<ida_stauts desc="invoice delivery apply status"> 
+		<item id="szIeAMROkl">Registration</item>  
+		<item id="szIeAMROkl_mVolpvvEFY">First completeness and correctness check</item>  
+		<item id="mVolpvvEFY_RyXlLYLUHF">Pending for data modification from customer</item>
+		<item id="mVolpvvEFY_RyXlLYLUHF_0">Pending for CS to contact</item> 
+		<item id="mVolpvvEFY_RyXlLYLUHF_1">Contacted by CS</item>   
+		<item id="mVolpvvEFY_bquDuCwisW">Manual check</item>  
+		<item id="bquDuCwisW_dSHAvdyhfW">Rejected</item>  
+		<item id="bquDuCwisW_ibvYshlyGv">Second completeness and correctness check</item>  
+		<item id="ibvYshlyGv_vBdcCEIXvk">Blacklist check</item>  
+		<item id="ibvYshlyGv_mVolpvvEFY">Confirm decision on data modification</item>  
+		<item id="RyXlLYLUHF_mVolpvvEFY">First completeness and correctness check (Resubmission)</item>
+		<item id="RyXlLYLUHF_ibvYshlyGv">Second completeness and correctness check (Resubmission)</item>
+		<item id="vBdcCEIXvk_dSHAvdyhfW">Rejected</item>  
+		<item id="vBdcCEIXvk_YCcCAeFtUg">Eligibility check</item>
+		<item id="YCcCAeFtUg_dSHAvdyhfW">Rejected</item>
+		<item id="YCcCAeFtUg_xhLGTcqzFh">Pending for original invoice verification</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW">Invoice released</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW_0">Rejected</item>
+		<item id="RyXlLYLUHF_dSHAvdyhfW">Application closed</item>
+	</ida_stauts> 
+	<ida_fc_opinion desc="first check opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">Confirm</item>  
+		<item id="Modify">Modify</item> 
+	</ida_fc_opinion>
+	<ida_mp_opinion desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">Confirm</item>  
+		<item id="Reject">Reject</item> 
+	</ida_mp_opinion>
+	<ida_mp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">Goods of contract and  invoice is on the industry's blacklist</item>  
+		<item id="02">Contract/invoice arising from illegal agreement/transaction</item> 
+		<item id="03">Contract/invoice arising from in dispute agreement/transaction</item> 
+		<item id="04">Seller business industry is unrelated to invoice's goods</item> 
+		<item id="05">Seller's industry is not suitable to the business license</item> 
+		<item id="06">Info on the uploaded documents does not match</item> 
+		<item id="07">Transferrable invoice as per the Law and Contract/Invoice is not prohibited for transfer</item> 
+		<item id="08">Contract/Invoice provides special regulations like "contract under form of consignment";" returnable goods";"payment upon installation and good test only". Seller's responsibilities are not deemed completed upon delivery of goods.</item> 
+		<item id="09">Invoice was collateralized, mortgaged</item> 
+		<item id="10">Invoice period is not within contract's payment period</item> 
+		<item id="11">Seller and Debtor are related</item> 
+	</ida_mp_reject_reason>
+	<ida_doublemp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">Goods of contract and  invoice is on the industry's blacklist</item>  
+		<item id="02">Contract/invoice arising from illegal agreement/transaction</item> 
+		<item id="03">Contract/invoice arising from in dispute agreement/transaction</item> 
+		<item id="04">Seller business industry is unrelated to invoice's goods</item> 
+		<item id="05">Seller's industry is not suitable to the business license</item> 
+		<item id="06">Info on the uploaded documents does not match</item> 
+		<item id="07">Transferrable invoice as per the Law and Contract/Invoice is not prohibited for transfer</item> 
+		<item id="08">Contract/Invoice provides special regulations like "contract under form of consignment";" returnable goods";"payment upon installation and good test only". Seller's responsibilities are not deemed completed upon delivery of goods.</item> 
+		<item id="09">Invoice was collateralized, mortgaged</item> 
+		<item id="10">Invoice period is not within contract's payment period</item> 
+		<item id="11">Seller and Debtor are related</item> 
+		<item id="12">Deviation not accepted</item> 
+	</ida_doublemp_reject_reason>
+	<bltype desc="The blacklist type">
+		<item id="01">Cancellation</item>  
+		<item id="02">Fraud</item> 
+		<item id="03">Industry</item>
+		<item id="04">Regulatory</item>
+		<item id="05">Internal</item>
+		<item id="06">Bad payment</item>
+	</bltype> 
+	<image_item_type desc="Image data types"> 
+		<item id="idcard" desc="idcard">ID</item>  
+		<item id="checkDoc" desc="check documents">Check_Docs</item>
+		<item id="license" desc="license">License</item> 
+		<item id="taxcode" desc="taxcode">Tax_Code</item>
+		<item id="fs" desc="fs">FS</item>
+		<item id="invoice" desc="invoice">Invoices</item>
+		<item id="signed" desc="signed">Signed_Docs</item>
+		<item id="terms" desc="terms">Terms</item>
+		<item id="visitForm" desc="field visit request form">Field_Visit</item>
+	</image_item_type>  
+	
+	<common_yesorno desc="yes or no"> 
+		<item id="01" desc="yes">Yes</item>  
+		<item id="02" desc="no">No</item> 
+	</common_yesorno>
+	
+	<cic_haveornone desc="have or none"> 
+		<item id="01" desc="have">Available</item>  
+		<item id="02" desc="none">Not Available</item> 
+	</cic_haveornone>
+	
+	<smeapplystatus>
+		<item id="UHQvMFrkXQ" desc="Registration">Registration</item>
+		<item id="UHQvMFrkXQ_FUoVuacHWV" desc="first check">First completeness and correctness check</item>
+		<item id="FUoVuacHWV_mRizDYBctr" desc="double check">Second completeness and correctness check</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF" desc="data modify">Pending for data modification from customer</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF_0">Pending for CS to contact</item> 
+		<item id="FUoVuacHWV_cMxzCQLUrF_1">Contacted by CS</item>   
+		<item id="mRizDYBctr_FUoVuacHWV" desc="data modify">Confirm decision on data modification</item>
+		<item id="cMxzCQLUrF_FUoVuacHWV" desc="completed data modify">First completeness and correctness check (Resubmission)</item>
+		<item id="cMxzCQLUrF_mRizDYBctr" desc="completed data modify">Second completeness and correctness check (Resubmission)</item>
+		<item id="mRizDYBctr_zIeeUKnBZF" desc="license check">License check</item>
+		<item id="zIeeUKnBZF_zXusSDxdAs" desc="blacklist check">Blacklist check</item>
+		<item id="zIeeUKnBZF_oQfYjWhRHs" desc="rejection">Rejected by license check</item>
+		<item id="zXusSDxdAs_wVbebSTCKW" desc="CIC check">CIC check</item>
+		<item id="zXusSDxdAs_oQfYjWhRHs" desc="rejection">Rejected by blacklist check</item>
+		<item id="wVbebSTCKW_pvPsOAQpXx" desc="FS">FS information input</item>
+		<item id="wVbebSTCKW_oQfYjWhRHs" desc="rejection">Rejected by CIC check</item>
+		<item id="pvPsOAQpXx_KJtCGqzGmT" desc="FS check and review">FS information review</item>
+		<item id="KJtCGqzGmT_pvPsOAQpXx" desc="FS modify">FS information modification</item>
+		<item id="KJtCGqzGmT_VmnUSmpded" desc="eligibility check">Eligibility check</item>
+		<item id="VmnUSmpded_ulccaPXdZe" desc="map score">SME risk rating</item>
+		<item id="VmnUSmpded_oQfYjWhRHs" desc="rejection">Rejected by eligibility check</item>
+		<item id="ulccaPXdZe_KDJlQmRchM" desc="verify ID and sign documents">Pending for ID verification and documents signing</item>
+		<item id="ulccaPXdZe_oQfYjWhRHs" desc="rejection">Rejected by risk rating</item>
+		<item id="ulccaPXdZe_BlSPDaIKLf" desc="field visit">Decision on field visit</item>
+		<item id="BlSPDaIKLf_inertjGixd" desc="field visit staff assigned">Field visit staff assignment</item>
+		<item id="inertjGixd_LmZdhEzbKy" desc="upload the completed list">Field visit report submission</item>
+		<item id="BlSPDaIKLf_KDJlQmRchM" desc="verify ID and sign documents">Pending for ID verification and documents signing</item>
+		<item id="LmZdhEzbKy_HQrcOamWus" desc="double check field visit doc">Field visit report double checking</item>
+		<item id="HQrcOamWus_LmZdhEzbKy" desc="check and upload paper doc again">Field visit report submission (Amendment)</item>
+		<item id="HQrcOamWus_mKISSmbTdc" desc="assess and result">Field visit report assessment</item>
+		<item id="mKISSmbTdc_oQfYjWhRHs" desc="rejection">Rejected by field visit report assessment</item>
+		<item id="mKISSmbTdc_KDJlQmRchM" desc="verify ID and sign documents">Pending for ID verification and documents signing</item>
+		<item id="KDJlQmRchM_cPjfdskOtZ" desc="double check and verify">Signed documents double checking</item>
+		<item id="cPjfdskOtZ_KDJlQmRchM" desc="verify ID and sign documents again">Pending for ID verification and documents signing (Amendment)</item>
+		<item id="cPjfdskOtZ_oQfYjWhRHs" desc="release">SME released to auction</item>
+		<item id="cMxzCQLUrF_oQfYjWhRHs">Application closed</item>
+	</smeapplystatus>
+		
+	<gender>
+		<item id="Male" desc="male">Male</item>
+		<item id="Female" desc="female">Female</item>
+	</gender>
+
+	<country>
+		<item id="Afghanistan" desc="Afghanistan">Afghanistan</item>
+		<item id="Albania" desc="Albania">Albania</item>
+		<item id="Algeria" desc="Algeria">Algeria</item>
+		<item id="American Samoa" desc="American Samoa">American Samoa</item>
+		<item id="Andorra" desc="Andorra">Andorra</item>
+		<item id="Anguilla" desc="Anguilla">Anguilla</item>
+		<item id="Antarctica" desc="Antarctica">Antarctica</item>
+		<item id="Antigua And Barbuda" desc="Antigua And Barbuda">Antigua And Barbuda</item>
+		<item id="Argentina" desc="Argentina">Argentina</item>
+		<item id="Armenia" desc="Armenia">Armenia</item>
+		<item id="Aruba" desc="Aruba">Aruba</item>
+		<item id="Australia" desc="Australia">Australia</item>
+		<item id="Austria" desc="Austria">Austria</item>
+		<item id="Ayerbaijan" desc="Ayerbaijan">Ayerbaijan</item>
+		<item id="Bahamas" desc="Bahamas">Bahamas</item>
+		<item id="Bahrain" desc="Bahrain">Bahrain</item>
+		<item id="Bangladesh" desc="Bangladesh">Bangladesh</item>
+		<item id="Barbados" desc="Barbados">Barbados</item>
+		<item id="Belarus" desc="Belarus">Belarus</item>
+		<item id="Belize" desc="Belize">Belize</item>
+		<item id="Belgium" desc="Belgium">Belgium</item>
+		<item id="Benin" desc="Benin">Benin</item>
+		<item id="Bermuda" desc="Bermuda">Bermuda</item>
+		<item id="Bhutan" desc="Bhutan">Bhutan</item>
+		<item id="Bolivia" desc="Bolivia">Bolivia</item>
+		<item id="Bouvet Is" desc="Bouvet Is">Bouvet Is</item>
+		<item id="Bosnia and Herzegovina" desc="Bosnia and Herzegovina">Bosnia and Herzegovina</item>
+		<item id="Botswana" desc="Botswana">Botswana</item>
+		<item id="Brazil" desc="Brazil">Brazil</item>
+		<item id="British Indian Ocean Territory" desc="British Indian Ocean Territory">British Indian Ocean Territory</item>
+		<item id="Brunei" desc="Brunei">Brunei</item>
+		<item id="Bulgaria" desc="Bulgaria">Bulgaria</item>
+		<item id="Burkina Faso" desc="Burkina Faso">Burkina Faso</item>
+		<item id="Burundi" desc="Burundi">Burundi</item>
+		<item id="Cambodia" desc="Cambodia">Cambodia</item>
+		<item id="Cameroon" desc="Cameroon">Cameroon</item>
+		<item id="Canada" desc="Canada">Canada</item>
+		<item id="Cape Verde" desc="Cape Verde">Cape Verde</item>
+		<item id="Cayman Is" desc="Cayman Is">Cayman Is</item>
+		<item id="Central African Republic" desc="Central African Republic">Central African Republic</item>
+		<item id="Chad" desc="Chad">Chad</item>
+		<item id="Chile" desc="Chile">Chile</item>
+		<item id="China" desc="China">China</item>
+		<item id="China (Hong Kong S.A.R.)" desc="China (Hong Kong S.A.R.)">China (Hong Kong S.A.R.)</item>
+		<item id="China (Macau S.A.R.)" desc="China (Macau S.A.R.)">China (Macau S.A.R.)</item>
+		<item id="China (Taiwan T.W)" desc="China (Taiwan T.W)">China (Taiwan T.W)</item>
+		<item id="Christmas Is" desc="Christmas Is">Christmas Is</item>
+		<item id="Cocos (Keeling) Is" desc="Cocos (Keeling) Is">Cocos (Keeling) Is</item>
+		<item id="Colombia" desc="Colombia">Colombia</item>
+		<item id="Comoros" desc="Comoros">Comoros</item>
+		<item id="Cook Islands" desc="Cook Islands">Cook Islands</item>
+		<item id="Costa Rica" desc="Costa Rica">Costa Rica</item>
+		<item id="Cote D'Ivoire (Ivory Coast)" desc="Cote D'Ivoire (Ivory Coast)">Cote D'Ivoire (Ivory Coast)</item>
+		<item id="Croatia (Hrvatska)" desc="Croatia (Hrvatska)">Croatia (Hrvatska)</item>
+		<item id="Cyprus" desc="Cyprus">Cyprus</item>
+		<item id="Czech Republic" desc="Czech Republic">Czech Republic</item>
+		<item id="Democratic Republic of the Congo" desc="Democratic Republic of the Congo">Democratic Republic of the Congo</item>
+		<item id="Denmark" desc="Denmark">Denmark</item>
+		<item id="Dominica" desc="Dominica">Dominica</item>
+		<item id="Dominican Republic" desc="Dominican Republic">Dominican Republic</item>
+		<item id="Djibouti" desc="Djibouti">Djibouti</item>
+		<item id="East Timor" desc="East Timor">East Timor</item>
+		<item id="Ecuador" desc="Ecuador">Ecuador</item>
+		<item id="Egypt" desc="Egypt">Egypt</item>
+		<item id="El Salvador" desc="El Salvador">El Salvador</item>
+		<item id="Equatorial Guinea" desc="Equatorial Guinea">Equatorial Guinea</item>
+		<item id="Eritrea" desc="Eritrea">Eritrea</item>
+		<item id="Estonia" desc="Estonia">Estonia</item>
+		<item id="Ethiopia" desc="Ethiopia">Ethiopia</item>
+		<item id="Falkland Is (Is Malvinas)" desc="Falkland Is (Is Malvinas)">Falkland Is (Is Malvinas)</item>
+		<item id="Faroe Islands" desc="Faroe Islands">Faroe Islands</item>
+		<item id="Fiji Islands" desc="Fiji Islands">Fiji Islands</item>
+		<item id="Finland" desc="Finland">Finland</item>
+		<item id="France" desc="France">France</item>
+		<item id="French Guiana" desc="French Guiana">French Guiana</item>
+		<item id="French Polynesia" desc="French Polynesia">French Polynesia</item>
+		<item id="French Southern Territories" desc="French Southern Territories">French Southern Territories</item>
+		<item id="F.Y.R.O. Macedonia" desc="F.Y.R.O. Macedonia">F.Y.R.O. Macedonia</item>
+		<item id="Gabon" desc="Gabon">Gabon</item>
+		<item id="Gambia, The" desc="Gambia, The">Gambia, The</item>
+		<item id="Georgia" desc="Georgia">Georgia</item>
+		<item id="Germany" desc="Germany">Germany</item>
+		<item id="Ghana" desc="Ghana">Ghana</item>
+		<item id="Gibraltar" desc="Gibraltar">Gibraltar</item>
+		<item id="Greece" desc="Greece">Greece</item>
+		<item id="Greenland" desc="Greenland">Greenland</item>
+		<item id="Grenada" desc="Grenada">Grenada</item>
+		<item id="Guadeloupe" desc="Guadeloupe">Guadeloupe</item>
+		<item id="Guam" desc="Guam">Guam</item>
+		<item id="Guatemala" desc="Guatemala">Guatemala</item>
+		<item id="Guinea" desc="Guinea">Guinea</item>
+		<item id="Guinea-Bissau" desc="Guinea-Bissau">Guinea-Bissau</item>
+		<item id="Guyana" desc="Guyana">Guyana</item>
+		<item id="Haiti" desc="Haiti">Haiti</item>
+		<item id="Heard and McDonald Is" desc="Heard and McDonald Is">Heard and McDonald Is</item>
+		<item id="Honduras" desc="Honduras">Honduras</item>
+		<item id="Hungary" desc="Hungary">Hungary</item>
+		<item id="Iceland" desc="Iceland">Iceland</item>
+		<item id="India" desc="India">India</item>
+		<item id="Indonesia" desc="Indonesia">Indonesia</item>
+		<item id="Ireland" desc="Ireland">Ireland</item>
+		<item id="Israel" desc="Israel">Israel</item>
+		<item id="Italy" desc="Italy">Italy</item>
+		<item id="Jamaica" desc="Jamaica">Jamaica</item>
+		<item id="Japan" desc="Japan">Japan</item>
+		<item id="Jordan" desc="Jordan">Jordan</item>
+		<item id="Kayakhstan" desc="Kayakhstan">Kayakhstan</item>
+		<item id="Kenya" desc="Kenya">Kenya</item>
+		<item id="Kiribati" desc="Kiribati">Kiribati</item>
+		<item id="Korea, South" desc="Korea, South">Korea, South</item>
+		<item id="Kuwait" desc="Kuwait">Kuwait</item>
+		<item id="Kyrgyzstan" desc="Kyrgyzstan">Kyrgyzstan</item>
+		<item id="Laos" desc="Laos">Laos</item>
+		<item id="Latvia" desc="Latvia">Latvia</item>
+		<item id="Lebanon" desc="Lebanon">Lebanon</item>
+		<item id="Lesotho" desc="Lesotho">Lesotho</item>
+		<item id="Liberia" desc="Liberia">Liberia</item>
+		<item id="Liechtenstein" desc="Liechtenstein">Liechtenstein</item>
+		<item id="Lithuania" desc="Lithuania">Lithuania</item>
+		<item id="Luxembourg" desc="Luxembourg">Luxembourg</item>
+		<item id="Madagascar" desc="Madagascar">Madagascar</item>
+		<item id="Malawi" desc="Malawi">Malawi</item>
+		<item id="Malaysia" desc="Malaysia">Malaysia</item>
+		<item id="Maldives" desc="Maldives">Maldives</item>
+		<item id="Mali" desc="Mali">Mali</item>
+		<item id="Malta" desc="Malta">Malta</item>
+		<item id="Marshall Is" desc="Marshall Is">Marshall Is</item>
+		<item id="Mauritania" desc="Mauritania">Mauritania</item>
+		<item id="Mauritius" desc="Mauritius">Mauritius</item>
+		<item id="Martinique" desc="Martinique">Martinique</item>
+		<item id="Mayotte" desc="Mayotte">Mayotte</item>
+		<item id="Mexico" desc="Mexico">Mexico</item>
+		<item id="Micronesia" desc="Micronesia">Micronesia</item>
+		<item id="Moldova" desc="Moldova">Moldova</item>
+		<item id="Monaco" desc="Monaco">Monaco</item>
+		<item id="Mongolia" desc="Mongolia">Mongolia</item>
+		<item id="Montserrat" desc="Montserrat">Montserrat</item>
+		<item id="Morocco" desc="Morocco">Morocco</item>
+		<item id="Mozambique" desc="Mozambique">Mozambique</item>
+		<item id="Myanmar" desc="Myanmar">Myanmar</item>
+		<item id="Namibia" desc="Namibia">Namibia</item>
+		<item id="Nauru" desc="Nauru">Nauru</item>
+		<item id="Nepal" desc="Nepal">Nepal</item>
+		<item id="Netherlands, The" desc="Netherlands, The">Netherlands, The</item>
+		<item id="Netherlands Antilles" desc="Netherlands Antilles">Netherlands Antilles</item>
+		<item id="New Caledonia" desc="New Caledonia">New Caledonia</item>
+		<item id="New Zealand" desc="New Zealand">New Zealand</item>
+		<item id="Nicaragua" desc="Nicaragua">Nicaragua</item>
+		<item id="Niger" desc="Niger">Niger</item>
+		<item id="Nigeria" desc="Nigeria">Nigeria</item>
+		<item id="Niue" desc="Niue">Niue</item>
+		<item id="Norway" desc="Norway">Norway</item>
+		<item id="Norfolk Island" desc="Norfolk Island">Norfolk Island</item>
+		<item id="Northern Mariana Is" desc="Northern Mariana Is">Northern Mariana Is</item>
+		<item id="Oman" desc="Oman">Oman</item>
+		<item id="Pakistan" desc="Pakistan">Pakistan</item>
+		<item id="Palau" desc="Palau">Palau</item>
+		<item id="Panama" desc="Panama">Panama</item>
+		<item id="Papua new Guinea" desc="Papua new Guinea">Papua new Guinea</item>
+		<item id="Paraguay" desc="Paraguay">Paraguay</item>
+		<item id="Peru" desc="Peru">Peru</item>
+		<item id="Philippines" desc="Philippines">Philippines</item>
+		<item id="Pitcairn Island" desc="Pitcairn Island">Pitcairn Island</item>
+		<item id="Poland" desc="Poland">Poland</item>
+		<item id="Portugal" desc="Portugal">Portugal</item>
+		<item id="Puerto Rico" desc="Puerto Rico">Puerto Rico</item>
+		<item id="Qatar" desc="Qatar">Qatar</item>
+		<item id="Republic of the Congo" desc="Republic of the Congo">Republic of the Congo</item>
+		<item id="Reunion" desc="Reunion">Reunion</item>
+		<item id="Romania" desc="Romania">Romania</item>
+		<item id="Russia" desc="Russia">Russia</item>
+		<item id="Saint Helena" desc="Saint Helena">Saint Helena</item>
+		<item id="Saint Kitts And Nevis" desc="Saint Kitts And Nevis">Saint Kitts And Nevis</item>
+		<item id="Saint Lucia" desc="Saint Lucia">Saint Lucia</item>
+		<item id="Saint Pierre and Miquelon" desc="Saint Pierre and Miquelon">Saint Pierre and Miquelon</item>
+		<item id="Saint Vincent And The Grenadines" desc="Saint Vincent And The Grenadines">Saint Vincent And The Grenadines</item>
+		<item id="Samoa" desc="Samoa">Samoa</item>
+		<item id="San Marino" desc="San Marino">San Marino</item>
+		<item id="Sao Tome and Principe" desc="Sao Tome and Principe">Sao Tome and Principe</item>
+		<item id="Saudi Arabia" desc="Saudi Arabia">Saudi Arabia</item>
+		<item id="Senegal" desc="Senegal">Senegal</item>
+		<item id="Seychelles" desc="Seychelles">Seychelles</item>
+		<item id="Sierra Leone" desc="Sierra Leone">Sierra Leone</item>
+		<item id="Singapore" desc="Singapore">Singapore</item>
+		<item id="Slovakia" desc="Slovakia">Slovakia</item>
+		<item id="Slovenia" desc="Slovenia">Slovenia</item>
+		<item id="Solomon Islands" desc="Solomon Islands">Solomon Islands</item>
+		<item id="Somalia" desc="Somalia">Somalia</item>
+		<item id="South Africa" desc="South Africa">South Africa</item>
+		<item id="South Georgia &amp; The S. Sandwich Is" desc="South Georgia &amp; The S. Sandwich Is">South Georgia &amp; The S. Sandwich Is</item>
+		<item id="Spain" desc="Spain">Spain</item>
+		<item id="Sri Lanka" desc="Sri Lanka">Sri Lanka</item>
+		<item id="Suriname" desc="Suriname">Suriname</item>
+		<item id="Svalbard And Jan Mayen Is" desc="Svalbard And Jan Mayen Is">Svalbard And Jan Mayen Is</item>
+		<item id="Swaziland" desc="Swaziland">Swaziland</item>
+		<item id="Sweden" desc="Sweden">Sweden</item>
+		<item id="Switzerland" desc="Switzerland">Switzerland</item>
+		<item id="Syria" desc="Syria">Syria</item>
+		<item id="Tajikistan" desc="Tajikistan">Tajikistan</item>
+		<item id="Tanzania" desc="Tanzania">Tanzania</item>
+		<item id="Thailand" desc="Thailand">Thailand</item>
+		<item id="Timor-Leste" desc="Timor-Leste">Timor-Leste</item>
+		<item id="Togo" desc="Togo">Togo</item>
+		<item id="Tokelau" desc="Tokelau">Tokelau</item>
+		<item id="Tonga" desc="Tonga">Tonga</item>
+		<item id="Trinidad And Tobago" desc="Trinidad And Tobago">Trinidad And Tobago</item>
+		<item id="Tunisia" desc="Tunisia">Tunisia</item>
+		<item id="Turkey" desc="Turkey">Turkey</item>
+		<item id="Turks And Caicos Is" desc="Turks And Caicos Is">Turks And Caicos Is</item>
+		<item id="Turkmenistan" desc="Turkmenistan">Turkmenistan</item>
+		<item id="Tuvalu" desc="Tuvalu">Tuvalu</item>
+		<item id="Uganda" desc="Uganda">Uganda</item>
+		<item id="Ukraine" desc="Ukraine">Ukraine</item>
+		<item id="United Arab Emirates" desc="United Arab Emirates">United Arab Emirates</item>
+		<item id="United Kingdom" desc="United Kingdom">United Kingdom</item>
+		<item id="United States" desc="United States">United States</item>
+		<item id="United States Minor Outlying Is" desc="United States Minor Outlying Is">United States Minor Outlying Is</item>
+		<item id="Uruguay" desc="Uruguay">Uruguay</item>
+		<item id="Uzbekistan" desc="Uzbekistan">Uzbekistan</item>
+		<item id="Vanuatu" desc="Vanuatu">Vanuatu</item>
+		<item id="Vatican City State (Holy See)" desc="Vatican City State (Holy See)">Vatican City State (Holy See)</item>
+		<item id="Venezuela" desc="Venezuela">Venezuela</item>
+		<item id="Vietnam" desc="Vietnam">Vietnam</item>
+		<item id="Virgin Islands (British)" desc="Virgin Islands (British)">Virgin Islands (British)</item>
+		<item id="Virgin Islands (US)" desc="Virgin Islands (US)">Virgin Islands (US)</item>
+		<item id="Wallis And Futuna Islands" desc="Wallis And Futuna Islands">Wallis And Futuna Islands</item>
+		<item id="Western Sahara" desc="Western Sahara">Western Sahara</item>
+		<item id="Yemen" desc="Yemen">Yemen</item>
+		<item id="Zambia" desc="Zambia">Zambia</item>
+		<item id="Zimbabwe" desc="Zimbabwe">Zimbabwe</item>
+	</country>
+
+	<idtype>
+		<item id="Card" desc="ID card">ID card</item>
+		<item id="Passport" desc="Passport">Passport</item>
+	</idtype>
+
+	<position>
+		<item id="CEO/General Director" desc="CEO/General Director">CEO/General Director</item>
+		<item id="CFO" desc="CFO">CFO</item>
+		<item id="Chief Accountant" desc="Chief Accountant">Chief Accountant</item>
+		<item id="Investment Director/Head of Investment" desc="Investment Director/Head of Investment">Investment Director/Head of Investment</item>
+		<item id="Portfolio Manager" desc="Portfolio Manager">Portfolio Manager</item>
+	</position>
+
+	<estimatedag desc="Annual revenue at last fiscal year end">
+		<item id="A" desc="VND 100 million - 500 million">VND 100 million - 500 million</item>
+		<item id="B" desc="VND 500 million - 1 billion">VND 500 million - 1 billion</item>
+		<item id="C" desc="VND 1 billion - 2 billion">VND 1 billion - 2 billion</item>
+		<item id="D" desc="VND 2 billion - 3 billion">VND 2 billion - 3 billion</item>
+		<item id="E" desc="VND 3 billion - 4 billion">VND 3 billion - 4 billion</item>
+		<item id="F" desc="VND 4 billion - 5 billion">VND 4 billion - 5 billion</item>
+		<item id="G" desc="Above VND 5 billionn">Above VND 5 billion</item>
+	</estimatedag>
+
+	<industryOper desc="Industry sector company operates in">
+		<item id="01" desc="AGRICULTURE, FORESTRY AND FISHERIES">AGRICULTURE, FORESTRY AND FISHERIES</item>
+		<item id="0101" desc="Agriculture">Agriculture</item>
+		<item id="010101" desc="Annual crops">Annual crops</item>
+		<item id="010102" desc="Growing of rubber tree">Growing of rubber tree</item>
+		<item id="010103" desc="Growing of coffee tree">Growing of coffee tree</item>
+		<item id="010104" desc="Growing of pepper tree">Growing of pepper tree</item>
+		<item id="010105" desc="Growing of cashew nuts">Growing of cashew nuts</item>
+		<item id="010106" desc="Other perennial crops">Other perennial crops</item>
+		<item id="010107" desc="Breed">Breed</item>
+		<item id="010108" desc="Planting, mixed feeding">Planting, mixed feeding</item>
+		<item id="010109" desc="Agricultural service activities">Agricultural service activities</item>
+		<item id="0102" desc="Forestry">Forestry</item>
+		<item id="010201" desc="Planting and tending">Planting and tending</item>
+		<item id="010202" desc="Timber Harvesting">Timber Harvesting</item>
+		<item id="010203" desc="Exploitation of forest products (excluding timber)">Exploitation of forest products (excluding timber)</item>
+		<item id="010204" desc="Collecting forest products and non-timber forest products">Collecting forest products and non-timber forest products</item>
+		<item id="010205" desc="Activities other forestry services">Activities other forestry services</item>
+		<item id="0103" desc="Fisheries">Fisheries</item>
+		<item id="010301" desc="Fishing">Fishing</item>
+		<item id="010302" desc="Aquaculture">Aquaculture</item>
+		<item id="02" desc="MINING">MINING</item>
+		<item id="0201" desc="Mining of coal and lignite">Mining of coal and lignite</item>
+		<item id="0202" desc="Extraction of crude petroleum and natural gas">Extraction of crude petroleum and natural gas</item>
+		<item id="0203" desc="Mining of metal ores">Mining of metal ores</item>
+		<item id="0204" desc="Other mining (stone, sand, gravel, clay, salt, minerals, chemicals, mineral fertilizers, ...)">Other mining (stone, sand, gravel, clay, salt, minerals, chemicals, mineral fertilizers, ...)</item>
+		<item id="0205" desc="Support services activites for mining ores">Support services activites for mining ores</item>
+		<item id="03" desc="PRODUCTION, PROCESSING, FOOD, DRINK, TOBACCO, FEED">PRODUCTION, PROCESSING, FOOD, DRINK, TOBACCO, FEED</item>
+		<item id="0301" desc="Seafood processing">Seafood processing</item>
+		<item id="030101" desc="Processed and canned seafood">Processed and canned seafood</item>
+		<item id="030102" desc="Processing and storage of frozen seafood, dried seafood">Processing and storage of frozen seafood, dried seafood</item>
+		<item id="030103" desc="Processing and preserving of fish sauce">Processing and preserving of fish sauce</item>
+		<item id="030104" desc="Processing and preservation of aquatic and other fishery products">Processing and preservation of aquatic and other fishery products</item>
+		<item id="0302" desc="Production, processing food">Production, processing food</item>
+		<item id="030201" desc="Processing and preserving of meat and meat products">Processing and preserving of meat and meat products</item>
+		<item id="030202" desc="Processing and preservation of fruits and vegetables">Processing and preservation of fruits and vegetables</item>
+		<item id="030203" desc="Manufacture of vegetable and animal oils and fats">Manufacture of vegetable and animal oils and fats</item>
+		<item id="030204" desc="Processing of milk and milky products">Processing of milk and milky products</item>
+		<item id="030205" desc="Milling and production flour">Milling and production flour</item>
+		<item id="030206" desc="Coffee processing">Coffee processing</item>
+		<item id="030207" desc="Manufacture of other food products (sugar, cacao, wheat, bread jam, ...)">Manufacture of other food products (sugar, cacao, wheat, bread jam, ...)</item>
+		<item id="0303" desc="Production of animal , poultry and aquatic food">Production of animal , poultry and aquatic food</item>
+		<item id="0304" desc="Manufacture of beverages">Manufacture of beverages</item>
+		<item id="030401" desc="Production of wine, beer">Production of wine, beer</item>
+		<item id="030402" desc="Production of mineral waters, non-alcoholic beverages">Production of mineral waters, non-alcoholic beverages</item>
+		<item id="0305" desc="Manufacture of tobacco products">Manufacture of tobacco products</item>
+		<item id="04" desc="Textile, leather, paper">Textile, leather, paper</item>
+		<item id="0401" desc="Textile">Textile</item>
+		<item id="040101" desc="Production of fabric, yarn, carpets, blankets, and other textile products">Production of fabric, yarn, carpets, blankets, and other textile products</item>
+		<item id="040102" desc="Manufacture of wearing apparel">Manufacture of wearing apparel</item>
+		<item id="0402" desc="Leather, footwear">Leather, footwear</item>
+		<item id="040201" desc="Tanning and dressing of leather, manufacture of leather products (suitcases, bags, ...)">Tanning and dressing of leather, manufacture of leather products (suitcases, bags, ...)</item>
+		<item id="040202" desc="Manufacture of footwear">Manufacture of footwear</item>
+		<item id="05" desc="PROCESSING OF WOOD AND WOOD PRODUCTS">PROCESSING OF WOOD AND WOOD PRODUCTS</item>
+		<item id="0501" desc="Wood processing">Wood processing</item>
+		<item id="0502" desc="Producing products from wood, bamboo (except bed, cabinet, table, chairs); production of straw and plaiting materials">Producing products from wood, bamboo (except bed, cabinet, table, chairs); production of straw and plaiting materials</item>
+		<item id="050201" desc="Production of plywood, veneer, plywood and other veneer">Production of plywood, veneer, plywood and other veneer</item>
+		<item id="050202" desc="Manufacturing building furniture">Manufacturing building furniture</item>
+		<item id="050203" desc="Production of wooden packaging">Production of wooden packaging</item>
+		<item id="050204" desc="Production of forest products (excluding timber), sedge and plaiting materials">Production of forest products (excluding timber), sedge and plaiting materials</item>
+		<item id="050205" desc="Manufacture of other products of wood">Manufacture of other products of wood</item>
+		<item id="06" desc="PRODUCTION OF PAPER AND PAPER PRODUCTS, PRINTING">PRODUCTION OF PAPER AND PAPER PRODUCTS, PRINTING</item>
+		<item id="0601" desc="Manufacture of paper and paper products">Manufacture of paper and paper products</item>
+		<item id="060101" desc="Production of pulp, paper and paperboard">Production of pulp, paper and paperboard</item>
+		<item id="060102" desc="Manufacture of paper wrinkled, wrinkled cardboard, paper packaging and cardboard">Manufacture of paper wrinkled, wrinkled cardboard, paper packaging and cardboard</item>
+		<item id="060103" desc="Production of paper and other paperboard products">Production of paper and other paperboard products</item>
+		<item id="0602" desc="Printing and reproduction of recorded media">Printing and reproduction of recorded media</item>
+		<item id="060201" desc="Printing and print-related services">Printing and print-related services</item>
+		<item id="060202" desc="Copy of recorded">Copy of recorded</item>
+		<item id="07" desc="Manufacture of coke, refined petroleum PRODUCTS">Manufacture of coke, refined petroleum PRODUCTS</item>
+		<item id="0701" desc="Production of coke">Production of coke</item>
+		<item id="0702" desc="Manufacture of refined petroleum products">Manufacture of refined petroleum products</item>
+		<item id="08" desc="Manufacture of chemicals, chemical products, products made of rubber and plastics">Manufacture of chemicals, chemical products, products made of rubber and plastics</item>
+		<item id="0801" desc="Manufacture of chemicals and chemical products">Manufacture of chemicals and chemical products</item>
+		<item id="080101" desc="Manufacture of basic chemicals">Manufacture of basic chemicals</item>
+		<item id="080102" desc="Manufacture of fertilizers and nitrogen compounds">Manufacture of fertilizers and nitrogen compounds</item>
+		<item id="080103" desc="Manufacture of plastics and synthetic rubber in primary forms">Manufacture of plastics and synthetic rubber in primary forms</item>
+		<item id="080104" desc="Manufacture of pesticides and other chemical products used in agriculture">Manufacture of pesticides and other chemical products used in agriculture</item>
+		<item id="080105" desc="Manufacture of paints, varnishes and coatings similar; manufacturing ink and mastics">Manufacture of paints, varnishes and coatings similar; manufacturing ink and mastics</item>
+		<item id="080106" desc="Production of man-made fibers">Production of man-made fibers</item>
+		<item id="0802" desc="Manufacture of cosmetic, soap, detergents, perfumes and toilet preparations">Manufacture of cosmetic, soap, detergents, perfumes and toilet preparations</item>
+		<item id="0803" desc="Manufacture products from rubber and plastic">Manufacture products from rubber and plastic</item>
+		<item id="080301" desc="Manufacture of rubber products">Manufacture of rubber products</item>
+		<item id="080302" desc="Manufacture of plastic products">Manufacture of plastic products</item>
+		<item id="0804" desc="Manufacture of other chemical products n.e.c">Manufacture of other chemical products n.e.c</item>
+		<item id="09" desc="MANUFACTURING, PHARMACEUTICAL PRODUCTS, PHARMACEUTICAL MEDICAL EQUIPMENT AND MATERIALS">MANUFACTURING, PHARMACEUTICAL PRODUCTS, PHARMACEUTICAL MEDICAL EQUIPMENT AND MATERIALS</item>
+		<item id="0901" desc="Production of all kinds of drug">Production of all kinds of drug</item>
+		<item id="0902" desc="Manufacture of pharmaceutical and medicinal">Manufacture of pharmaceutical and medicinal</item>
+		<item id="0903" desc="Production equipment, medical instruments, dental, orthopedic and rehabilitation">Production equipment, medical instruments, dental, orthopedic and rehabilitation</item>
+		<item id="10" desc="Manufacture of other non-metallic mineral products ">Manufacture of other non-metallic mineral products </item>
+		<item id="1001" desc="Manufacture of glass and glass products ">Manufacture of glass and glass products </item>
+		<item id="1002" desc="Production of construction materials (except steel, paint, putty, and similar materials)">Production of construction materials (except steel, paint, putty, and similar materials)</item>
+		<item id="100201" desc="Manufacture of refractory products">Manufacture of refractory products</item>
+		<item id="100202" desc="Manufacture of clay building materials ">Manufacture of clay building materials </item>
+		<item id="100203" desc="Manufacture of other ceramic products">Manufacture of other ceramic products</item>
+		<item id="100204" desc="Production of cement, lime and plaster">Production of cement, lime and plaster</item>
+		<item id="100205" desc="Production of concrete, cement and gypsum products">Production of concrete, cement and gypsum products</item>
+		<item id="100206" desc="Cutting, shaping and finishing of stone">Cutting, shaping and finishing of stone</item>
+		<item id="100207" desc="Manufacture of other non-metallic mineral products n.e.c">Manufacture of other non-metallic mineral products n.e.c</item>
+		<item id="11" desc="METAL MANUFACTURING">METAL MANUFACTURING</item>
+		<item id="1101" desc="Manufacture of basic iron and steel ">Manufacture of basic iron and steel </item>
+		<item id="110101" desc="Manufacture of steel">Manufacture of steel</item>
+		<item id="110102" desc="Manufacture of steel billet">Manufacture of steel billet</item>
+		<item id="1102" desc="Production of non-ferrous and precious metals">Production of non-ferrous and precious metals</item>
+		<item id="12" desc="MANUFACTURING, REPAIR, MAINTENANCE ENGINEERING PRODUCTS, MACHINERY">MANUFACTURING, REPAIR, MAINTENANCE ENGINEERING PRODUCTS, MACHINERY</item>
+		<item id="1201" desc="Manufacture of fabricated metal products (except machinery and equipment)">Manufacture of fabricated metal products (except machinery and equipment)</item>
+		<item id="120101" desc="Manufacture of metal structures, tanks, reservoirs and steam generators">Manufacture of metal structures, tanks, reservoirs and steam generators</item>
+		<item id="120102" desc="Manufacture of other metal products; processing services, metal processing">Manufacture of other metal products; processing services, metal processing</item>
+		<item id="1202" desc="Manufacture of motor vehicles">Manufacture of motor vehicles</item>
+		<item id="120201" desc="Automobile production">Automobile production</item>
+		<item id="120202" desc="Motorcycle Manufacture">Motorcycle Manufacture</item>
+		<item id="120203" desc="Manufacture of other motor vehicles">Manufacture of other motor vehicles</item>
+		<item id="120204" desc="Production of motor vehicle body, trailers and semi-trailers">Production of motor vehicle body, trailers and semi-trailers</item>
+		<item id="120205" desc="Production of spare parts and accessories for motor vehicles and motor vehicle">Production of spare parts and accessories for motor vehicles and motor vehicle</item>
+		<item id="1203" desc="Manufacture of other transport">Manufacture of other transport</item>
+		<item id="120301" desc="Shipbuilding and ship">Shipbuilding and ship</item>
+		<item id="120302" desc="Production of locomotives, trams and cars">Production of locomotives, trams and cars</item>
+		<item id="120303" desc="Production aircraft, spacecraft and related machinery">Production aircraft, spacecraft and related machinery</item>
+		<item id="120304" desc="Production of vehicles and transport equipment n.e.c">Production of vehicles and transport equipment n.e.c</item>
+		<item id="1204" desc="Defense equipment">Defense equipment</item>
+		<item id="120401" desc="Manufacture of weapons and ammunition">Manufacture of weapons and ammunition</item>
+		<item id="120402" desc="Manufacture of military fighting vehicles ">Manufacture of military fighting vehicles </item>
+		<item id="120403" desc="Manufacture of machinery and other equipment used in defense">Manufacture of machinery and other equipment used in defense</item>
+		<item id="1205" desc="Machinery, common and other specialized common equipment">Machinery, common and other specialized common equipment</item>
+		<item id="120501" desc="Production of mining machines and construction">Production of mining machines and construction</item>
+		<item id="120502" desc="Machinery, common and other specialized common equipment">Machinery, common and other specialized common equipment</item>
+		<item id="1206" desc="Repair, maintenance and installation of machinery and equipment">Repair, maintenance and installation of machinery and equipment</item>
+		<item id="13" desc="MANUFACTURING CONSUMER GOODS">MANUFACTURING CONSUMER GOODS</item>
+		<item id="1301" desc="Production of beds, wardrobes, tables, chairs">Production of beds, wardrobes, tables, chairs</item>
+		<item id="130101" desc="Production of wooden beds, wardrobes, tables, chairs">Production of wooden beds, wardrobes, tables, chairs</item>
+		<item id="130102" desc="Production of beds, wardrobes, tables, chairs in different materials">Production of beds, wardrobes, tables, chairs in different materials</item>
+		<item id="1302" desc="Entertainment Production">Entertainment Production</item>
+		<item id="130201" desc="Manufacture of musical instruments ">Manufacture of musical instruments </item>
+		<item id="130202" desc="Manufacture of sports goods ">Manufacture of sports goods </item>
+		<item id="130203" desc="Manufacturing toys, games">Manufacturing toys, games</item>
+		<item id="1303" desc="Manufacture of consumer electronics products">Manufacture of consumer electronics products</item>
+		<item id="1304" desc="Production of consumer goods">Production of consumer goods</item>
+		<item id="130401" desc="Manufacture of jewellery, bijouterie and related articles">Manufacture of jewellery, bijouterie and related articles</item>
+		<item id="130402" desc="Production of household appliances, other consumer goods n.e.c">Production of household appliances, other consumer goods n.e.c</item>
+		<item id="14" desc="PRODUCTION ELECTRONIC EQUIPMENT AND OPTICAL PRODUCTS">PRODUCTION ELECTRONIC EQUIPMENT AND OPTICAL PRODUCTS</item>
+		<item id="1401" desc="Manufacture of computer, electronic, optical product">Manufacture of computer, electronic, optical product</item>
+		<item id="140101" desc="Manufacture of electronic components ">Manufacture of electronic components </item>
+		<item id="140102" desc="Manufature of measuring, testing, navigating and control equipment, watches and clocks">Manufature of measuring, testing, navigating and control equipment, watches and clocks</item>
+		<item id="140103" desc="Manufacture of optical instruments and equipment">Manufacture of optical instruments and equipment</item>
+		<item id="140104" desc="Manufacture of tape, magnetic and optical disks">Manufacture of tape, magnetic and optical disks</item>
+		<item id="1402" desc="Manufacture of electrical equipment">Manufacture of electrical equipment</item>
+		<item id="140201" desc="Manufacture of electric motor, generators, transformers and electricity distribution and control apparatus">Manufacture of electric motor, generators, transformers and electricity distribution and control apparatus</item>
+		<item id="140202" desc="Manufacture of batteries and accumulators">Manufacture of batteries and accumulators</item>
+		<item id="140203" desc="Manufacture of wiring and wiring devices">Manufacture of wiring and wiring devices</item>
+		<item id="140204" desc="Manufacture of electric lighting equipment ">Manufacture of electric lighting equipment </item>
+		<item id="140205" desc="Manufacture of domestic electric appliances">Manufacture of domestic electric appliances</item>
+		<item id="140206" desc="Manufacture of other electrical equipment">Manufacture of other electrical equipment</item>
+		<item id="15" desc="Manufacture of electronic and telecommunications eqipments and supplies">Manufacture of electronic and telecommunications eqipments and supplies</item>
+		<item id="1501" desc="Manufacture of computer equipment, telecommunications, information technology">Manufacture of computer equipment, telecommunications, information technology</item>
+		<item id="150101" desc="Manufacture of computers and peripheral equipment ">Manufacture of computers and peripheral equipment </item>
+		<item id="150102" desc="Manufacture of communication equipment">Manufacture of communication equipment</item>
+		<item id="1502" desc="Manufacture of office machinery and equipment except computers and peripheral equipment ">Manufacture of office machinery and equipment except computers and peripheral equipment </item>
+		<item id="16" desc="Manufacture of electricity, gas, steam and air condition supply ">Manufacture of electricity, gas, steam and air condition supply </item>
+		<item id="1601" desc="Manufacture of electric power generation, transmission and distribution">Manufacture of electric power generation, transmission and distribution</item>
+		<item id="160101" desc="Manufacture of Electric power generation ">Manufacture of Electric power generation </item>
+		<item id="160102" desc="Electric power transmission and distribution">Electric power transmission and distribution</item>
+		<item id="1602" desc="Manufacture of gas: distribution of gaseous fuel through mains ">Manufacture of gas: distribution of gaseous fuel through mains </item>
+		<item id="1603" desc="Manufacture of steam and air condition supply; production of ice">Manufacture of steam and air condition supply; production of ice</item>
+		<item id="160301" desc="Manufacture and distribution of steam and air condition supply ">Manufacture and distribution of steam and air condition supply </item>
+		<item id="160302" desc="Manufacture of ice">Manufacture of ice</item>
+		<item id="17" desc="Water Supply; Sewerage, Waste Management and Remediation Activities ">Water Supply; Sewerage, Waste Management and Remediation Activities </item>
+		<item id="1701" desc="Water supply, sewerage, and waste management ">Water supply, sewerage, and waste management </item>
+		<item id="170101" desc="Water collection, treatment and supply">Water collection, treatment and supply</item>
+		<item id="170102" desc="Sewerage">Sewerage</item>
+		<item id="170103" desc="Waste Treament">Waste Treament</item>
+		<item id="1702" desc="Waste collection, treament and disposal activities, materials recovery">Waste collection, treament and disposal activities, materials recovery</item>
+		<item id="170201" desc="Waste collection">Waste collection</item>
+		<item id="170202" desc="Waste treament and disposal">Waste treament and disposal</item>
+		<item id="170203" desc="Material recovery ">Material recovery </item>
+		<item id="170204" desc="Remediation activities and other waste management services ">Remediation activities and other waste management services </item>
+		<item id="18" desc="Construction ">Construction </item>
+		<item id="1801" desc="Constructions of buildings ">Constructions of buildings </item>
+		<item id="1802" desc="Construction of civil engineering projects">Construction of civil engineering projects</item>
+		<item id="180201" desc="Construction of roads and railways">Construction of roads and railways</item>
+		<item id="180202" desc="Construction of utility projects">Construction of utility projects</item>
+		<item id="180203" desc="Construction of other civil engineering projects">Construction of other civil engineering projects</item>
+		<item id="1803" desc="Specialized construction activities ">Specialized construction activities </item>
+		<item id="180301" desc="Demolition and site preparation">Demolition and site preparation</item>
+		<item id="180302" desc="Electrical, plumbing and other construction installation activities">Electrical, plumbing and other construction installation activities</item>
+		<item id="180303" desc="Building completion and finishing ">Building completion and finishing </item>
+		<item id="180304" desc="Other specialized construction activities">Other specialized construction activities</item>
+		<item id="19" desc="LIGHT INDUSTRIAL GOODS TRADING AND CONSUMPTION">LIGHT INDUSTRIAL GOODS TRADING AND CONSUMPTION</item>
+		<item id="1901" desc="Wholesale of agricultural, forestrial materials and animals">Wholesale of agricultural, forestrial materials and animals</item>
+		<item id="190101" desc="Wholesale of feeds and feed materials for animals, poultry and aquatic">Wholesale of feeds and feed materials for animals, poultry and aquatic</item>
+		<item id="190102" desc="Wholesale of rice ">Wholesale of rice </item>
+		<item id="190103" desc="Wholesale of coffee">Wholesale of coffee</item>
+		<item id="190104" desc="Wholesale of pepper, cashew nuts">Wholesale of pepper, cashew nuts</item>
+		<item id="190105" desc="Bán bu?n hàng n?ng, lam s?n và ??ng v?t s?ng khác">Bán bu?n hàng n?ng, lam s?n và ??ng v?t s?ng khác</item>
+		<item id="1902" desc="Wholesale of food, beverages and tobacco">Wholesale of food, beverages and tobacco</item>
+		<item id="190201" desc="Wholesale of fish, crustaceans and molluscs">Wholesale of fish, crustaceans and molluscs</item>
+		<item id="190202" desc="Wholesale of food, beverages and tobacco">Wholesale of food, beverages and tobacco</item>
+		<item id="1903" desc="Wholesale of consumer goods">Wholesale of consumer goods</item>
+		<item id="190301" desc="Wholesale of textiles, clothing, footwear ">Wholesale of textiles, clothing, footwear </item>
+		<item id="190302" desc="Wholesale of furniture and home furnishings ">Wholesale of furniture and home furnishings </item>
+		<item id="190303" desc="Wholesale of cosmetic ">Wholesale of cosmetic </item>
+		<item id="190304" desc="Wholesale of electric lightning equipment, domestic appliances">Wholesale of electric lightning equipment, domestic appliances</item>
+		<item id="190305" desc="Wholesale of other household goods n.e.c">Wholesale of other household goods n.e.c</item>
+		<item id="1904" desc="Wholesale of gold, silver and other precious metals">Wholesale of gold, silver and other precious metals</item>
+		<item id="1905" desc="Wholesale of light industrual goods and consumption goods ">Wholesale of light industrual goods and consumption goods </item>
+		<item id="190501" desc="Activities of agents, brokers, auction ">Activities of agents, brokers, auction </item>
+		<item id="190502" desc="Wholesale of light industrual goods and consumption goods ">Wholesale of light industrual goods and consumption goods </item>
+		<item id="1906" desc="Retail trade, except of motor vehicles and  motorcycles">Retail trade, except of motor vehicles and  motorcycles</item>
+		<item id="190601" desc="Retail sale in non-specialized stores">Retail sale in non-specialized stores</item>
+		<item id="190602" desc="Retail sale in non-specialized stores with food, beverages or tobacco predominating ">Retail sale in non-specialized stores with food, beverages or tobacco predominating </item>
+		<item id="190603" desc="Retail sale of gold, silver and other precious stones, jewelry in specialized stores">Retail sale of gold, silver and other precious stones, jewelry in specialized stores</item>
+		<item id="190604" desc="Retail sale of other consumption goods ">Retail sale of other consumption goods </item>
+		<item id="190605" desc="Retail sale via stalls and markets">Retail sale via stalls and markets</item>
+		<item id="20" desc="WHOLESALE AND RETAIL TRADE, REPAIR OF CARS, MOTOR VEHICLES AND MOTORCYCLES">WHOLESALE AND RETAIL TRADE, REPAIR OF CARS, MOTOR VEHICLES AND MOTORCYCLES</item>
+		<item id="2001" desc="Wholesale of car (under 12 seats)">Wholesale of car (under 12 seats)</item>
+		<item id="2002" desc="Wholesale of other motor vehicles">Wholesale of other motor vehicles</item>
+		<item id="2003" desc="Sales of motor vehicles">Sales of motor vehicles</item>
+		<item id="2004" desc="Sale, maintenance and repair of motorcycles and related parts and accessories ">Sale, maintenance and repair of motorcycles and related parts and accessories </item>
+		<item id="21" desc="FERTILIZERS, CHEMICALS, RUBBER, PHARMACEUTICALS AND MEDICAL EQUIPMENT TRADING ">FERTILIZERS, CHEMICALS, RUBBER, PHARMACEUTICALS AND MEDICAL EQUIPMENT TRADING </item>
+		<item id="2101" desc="Sales of chemicals and chemical products">Sales of chemicals and chemical products</item>
+		<item id="210101" desc="Wholesale of pesticides, fertilizers and agricultural chemicals">Wholesale of pesticides, fertilizers and agricultural chemicals</item>
+		<item id="210102" desc="Wholesale of rubber">Wholesale of rubber</item>
+		<item id="210103" desc="Wholesale of plastics in primary forms (including plastic beads)">Wholesale of plastics in primary forms (including plastic beads)</item>
+		<item id="210104" desc="Wholesale of other chemicals, except agricultural chemicals">Wholesale of other chemicals, except agricultural chemicals</item>
+		<item id="2102" desc="Wholesale of pharmaceuticals and medical equipments ">Wholesale of pharmaceuticals and medical equipments </item>
+		<item id="210201" desc="Wholesale of pharmaceutical, medical chemical and botanical products ">Wholesale of pharmaceutical, medical chemical and botanical products </item>
+		<item id="210202" desc="Wholesale of medical equipments">Wholesale of medical equipments</item>
+		<item id="22" desc=" INDUSTRIAL PRODUCTS TRADING"> INDUSTRIAL PRODUCTS TRADING</item>
+		<item id="2201" desc="Computer, telecommunications, information technology ">Computer, telecommunications, information technology </item>
+		<item id="220101" desc="Wholesale of computer and peripheral devides">Wholesale of computer and peripheral devides</item>
+		<item id="220102" desc="Wholesale of electronic and telecommunications equipment and supplies ">Wholesale of electronic and telecommunications equipment and supplies </item>
+		<item id="220103" desc="Wholesale of office machinery and equipment(except computers and peripheral equipment)">Wholesale of office machinery and equipment(except computers and peripheral equipment)</item>
+		<item id="2202" desc="Electronic and optical products">Electronic and optical products</item>
+		<item id="2203" desc="Other machinery and equipments">Other machinery and equipments</item>
+		<item id="220301" desc="Wholesale of machinery and equipment for mining, quarrying and construction">Wholesale of machinery and equipment for mining, quarrying and construction</item>
+		<item id="220302" desc="Machinery and equipment for defense">Machinery and equipment for defense</item>
+		<item id="220303" desc="Wholesale of other machinery and equipment n.e.c">Wholesale of other machinery and equipment n.e.c</item>
+		<item id="23" desc="FUEL TRADE AND RELATED PRODUCTS">FUEL TRADE AND RELATED PRODUCTS</item>
+		<item id="2301" desc="Kinh doanh than ?á và nhiên li?u r?n khác">Kinh doanh than ?á và nhiên li?u r?n khác</item>
+		<item id="2302" desc="Kinh doanh x?ng, d?u, khí ??t">Kinh doanh x?ng, d?u, khí ??t</item>
+		<item id="2303" desc="Wholesale of solid, liquid and gaseous fuels and related products">Wholesale of solid, liquid and gaseous fuels and related products</item>
+		<item id="24" desc="WHOLESALE OF METALS AND METAL ORES">WHOLESALE OF METALS AND METAL ORES</item>
+		<item id="2401" desc="Wholesale of petroleum, oil and gasoues fuel">Wholesale of petroleum, oil and gasoues fuel</item>
+		<item id="2402" desc="Wholesale of metal ores ">Wholesale of metal ores </item>
+		<item id="240201" desc="Wholesale of iron, steel ">Wholesale of iron, steel </item>
+		<item id="240202" desc="Wholesale of other metals">Wholesale of other metals</item>
+		<item id="25" desc="WHOLESALE OF CONSTRUCTION MATERIALS">WHOLESALE OF CONSTRUCTION MATERIALS</item>
+		<item id="2501" desc="Wholesle of construction materials,">Wholesle of construction materials,</item>
+		<item id="2502" desc="Wholesale of construction glass, paints, cement, bricks, sand, stones, wallpaper, floor covering, sanity equipments. ">Wholesale of construction glass, paints, cement, bricks, sand, stones, wallpaper, floor covering, sanity equipments. </item>
+		<item id="26" desc="TRANSPORTATION AND STORAGE ">TRANSPORTATION AND STORAGE </item>
+		<item id="2601" desc="Land transport, transport via railways, via pipeline ">Land transport, transport via railways, via pipeline </item>
+		<item id="260101" desc="Transport via railways">Transport via railways</item>
+		<item id="260102" desc="Transport via bus">Transport via bus</item>
+		<item id="260103" desc="Other land transport">Other land transport</item>
+		<item id="260104" desc="Transport via pipeline ">Transport via pipeline </item>
+		<item id="2602" desc="Water transport ">Water transport </item>
+		<item id="260201" desc="Sea and coastal water transport ">Sea and coastal water transport </item>
+		<item id="260202" desc="Inland water transport ">Inland water transport </item>
+		<item id="2603" desc="Air transport">Air transport</item>
+		<item id="2604" desc="Warehousing and support activities for transportation">Warehousing and support activities for transportation</item>
+		<item id="260401" desc="Warehousing and storage">Warehousing and storage</item>
+		<item id="260402" desc="Support activities for transportation">Support activities for transportation</item>
+		<item id="2605" desc="Postal and courier activities">Postal and courier activities</item>
+		<item id="27" desc="ACCOMMODATION AND FOOD SERVICE ACTIVITIES">ACCOMMODATION AND FOOD SERVICE ACTIVITIES</item>
+		<item id="2701" desc="Accommodation">Accommodation</item>
+		<item id="270101" desc="Short-term accommodation activities">Short-term accommodation activities</item>
+		<item id="270102" desc="Hotels ">Hotels </item>
+		<item id="270103" desc="Other accommodation ">Other accommodation </item>
+		<item id="2702" desc="Restaurants ">Restaurants </item>
+		<item id="270201" desc="Event catering and other food service activities">Event catering and other food service activities</item>
+		<item id="270202" desc="0 Irregular event catering activities such as wedding, workshops… ">0 Irregular event catering activities such as wedding, workshops… </item>
+		<item id="270203" desc="Beverage serving activities and Other beverage serving activities ">Beverage serving activities and Other beverage serving activities </item>
+		<item id="2703" desc="ARTS, ENTERTAINMENT AND RECREATION ACTIVITIES">ARTS, ENTERTAINMENT AND RECREATION ACTIVITIES</item>
+		<item id="2704" desc="Libraries, archives, museums and other cultural activities">Libraries, archives, museums and other cultural activities</item>
+		<item id="2705" desc="Lottery activities, Gambling and betting activities ">Lottery activities, Gambling and betting activities </item>
+		<item id="2706" desc="Sports activities and amusement and recreation activities">Sports activities and amusement and recreation activities</item>
+		<item id="270601" desc="Clubing, Karaoke">Clubing, Karaoke</item>
+		<item id="270602" desc="Sport and entertainment activities">Sport and entertainment activities</item>
+		<item id="2707" desc="Travel agency, tour operator and other reservation service activities">Travel agency, tour operator and other reservation service activities</item>
+		<item id="28" desc="MEDIA">MEDIA</item>
+		<item id="2801" desc="Publishing activities ">Publishing activities </item>
+		<item id="2802" desc="Motion picture, video and television programme activities; Sound recording and music publishing activities">Motion picture, video and television programme activities; Sound recording and music publishing activities</item>
+		<item id="2803" desc="Motion picture, video and television programme distribution activities">Motion picture, video and television programme distribution activities</item>
+		<item id="2804" desc="Advertising, PR, Event management and market research ">Advertising, PR, Event management and market research </item>
+		<item id="29" desc="INFORMATION TECHNOLOGY, TELECOMMUNICATIONS AND COMMUNICATIONS">INFORMATION TECHNOLOGY, TELECOMMUNICATIONS AND COMMUNICATIONS</item>
+		<item id="2901" desc="Software publishing ">Software publishing </item>
+		<item id="2902" desc="Telecommunication">Telecommunication</item>
+		<item id="2903" desc="Telecommunication Services">Telecommunication Services</item>
+		<item id="30" desc="PROFESSIONAL, SCIENTIFIC, TECHNICAL, HEALTHCARE, EDUCATION AND TRAINING, ADMINISTRATION AND SUPPORT">PROFESSIONAL, SCIENTIFIC, TECHNICAL, HEALTHCARE, EDUCATION AND TRAINING, ADMINISTRATION AND SUPPORT</item>
+		<item id="3001" desc="PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES">PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES</item>
+		<item id="300101" desc="Legal, accounting and auditting activities">Legal, accounting and auditting activities</item>
+		<item id="300102" desc="Activities of head office; management consultancy activities ">Activities of head office; management consultancy activities </item>
+		<item id="300103" desc="Architectural and engineering activities; Technical testing and analysis ">Architectural and engineering activities; Technical testing and analysis </item>
+		<item id="300104" desc="Scientific research and development">Scientific research and development</item>
+		<item id="300105" desc="Market research and public opinion polling">Market research and public opinion polling</item>
+		<item id="300106" desc="Other professional, scientific, and technical acitivities">Other professional, scientific, and technical acitivities</item>
+		<item id="300107" desc="Veterinary activities">Veterinary activities</item>
+		<item id="3002" desc="ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES">ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES</item>
+		<item id="300201" desc="Renting and leasing of machinery and equipment (without operator); of personal and household goods; of no financial intangible assets.">Renting and leasing of machinery and equipment (without operator); of personal and household goods; of no financial intangible assets.</item>
+		<item id="300202" desc="Employment activities">Employment activities</item>
+		<item id="300203" desc="Cleaning, landscape care and maintenance service activities">Cleaning, landscape care and maintenance service activities</item>
+		<item id="300204" desc="Office administrative and support activities">Office administrative and support activities</item>
+		<item id="300205" desc="Activities of call centres">Activities of call centres</item>
+		<item id="300206" desc="Organization of conventions and trade shows ">Organization of conventions and trade shows </item>
+		<item id="300207" desc="Other business suport service activities n.e.c">Other business suport service activities n.e.c</item>
+		<item id="3003" desc="COMMUNIST PARTY, SOCIO-POLITICAL ORGANIZATIONS ACTIVITIES; PUBLIC ADMINISTRATION AND DEFENSE; COMPULSORY SOCIAL SECURITY">COMMUNIST PARTY, SOCIO-POLITICAL ORGANIZATIONS ACTIVITIES; PUBLIC ADMINISTRATION AND DEFENSE; COMPULSORY SOCIAL SECURITY</item>
+		<item id="3004" desc="EDUCATION ">EDUCATION </item>
+		<item id="3005" desc="HUMAN HEALTH AND SOCIAL WORK ACTIVITIES">HUMAN HEALTH AND SOCIAL WORK ACTIVITIES</item>
+		<item id="300501" desc="Human health activities ">Human health activities </item>
+		<item id="300502" desc="Activities of Commune nursing homes and ministry healthcare centre ">Activities of Commune nursing homes and ministry healthcare centre </item>
+		<item id="3006" desc="Social support activities">Social support activities</item>
+		<item id="3007" desc="OTHER SERVICE ACTIVITIES ">OTHER SERVICE ACTIVITIES </item>
+		<item id="300701" desc="Sauna and steam baths, massage and similar health care services (except sport activities)">Sauna and steam baths, massage and similar health care services (except sport activities)</item>
+		<item id="300702" desc="Repair of computers and personal and households goods">Repair of computers and personal and households goods</item>
+		<item id="300703" desc="Other service activities n.e.c">Other service activities n.e.c</item>
+		<item id="3008" desc="ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE">ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE</item>
+		<item id="3009" desc="Activities of the institutions and international agencies">Activities of the institutions and international agencies</item>
+		<item id="31" desc="FINANCIAL, BANKING AND INSURANCE ACTIVITIES">FINANCIAL, BANKING AND INSURANCE ACTIVITIES</item>
+		<item id="3101" desc="Central banking ">Central banking </item>
+		<item id="3102" desc="Financial service activities, except insurance and social security">Financial service activities, except insurance and social security</item>
+		<item id="310201" desc="Financial Leasing">Financial Leasing</item>
+		<item id="310202" desc="Pawning Activities">Pawning Activities</item>
+		<item id="310203" desc="Other Financial service activities n.e.c, except insurance and social security">Other Financial service activities n.e.c, except insurance and social security</item>
+		<item id="3103" desc="Insurance, reinsurance and pension funding, except compulsory social security ">Insurance, reinsurance and pension funding, except compulsory social security </item>
+		<item id="3104" desc="Securities trading activities">Securities trading activities</item>
+		<item id="3105" desc="Other Financial, banking, and insurance activities">Other Financial, banking, and insurance activities</item>
+		<item id="32" desc="REAL ESTATE ACTIVITIES ">REAL ESTATE ACTIVITIES </item>
+		<item id="3201" desc="Real estate activities with own or leased property">Real estate activities with own or leased property</item>
+		<item id="320101" desc="Real estate activities for residental use, shopping mall, and office">Real estate activities for residental use, shopping mall, and office</item>
+		<item id="320102" desc="Real estate activities for infrastructure of industrial zones, urban areas, water supply, traffic BOT projects of bridges, roads, ... (investment phase and recovery phase)">Real estate activities for infrastructure of industrial zones, urban areas, water supply, traffic BOT projects of bridges, roads, ... (investment phase and recovery phase)</item>
+		<item id="3202" desc="Consultant, Broker, real estate auctions, auction of land use rights">Consultant, Broker, real estate auctions, auction of land use rights</item>
+	</industryOper>
+
+	<comIndustry>
+		<item id="0500 Oil &amp; Gas" desc="0500 Oil &amp; Gas">0500 Oil &amp; Gas</item>
+		<item id="1300 Chemicals" desc="1300 Chemicals">1300 Chemicals</item>
+		<item id="1700 Basic Resources" desc="1700 Basic Resources">1700 Basic Resources</item>
+		<item id="2300 Construction &amp; Materials" desc="2300 Construction &amp; Materials">2300 Construction &amp; Materials</item>
+		<item id="2700 Industrial Goods &amp; Services" desc="2700 Industrial Goods &amp; Services">2700 Industrial Goods &amp; Services</item>
+		<item id="3300 Automobiles &amp; Parts" desc="3300 Automobiles &amp; Parts">3300 Automobiles &amp; Parts</item>
+		<item id="3500 Food &amp; Beverage" desc="3500 Food &amp; Beverage">3500 Food &amp; Beverage</item>
+		<item id="3700 Personal &amp; Household Goods" desc="3700 Personal &amp; Household Goods">3700 Personal &amp; Household Goods</item>
+		<item id="4500 Health Care" desc="4500 Health Care">4500 Health Care</item>
+		<item id="5300 Retail" desc="5300 Retail">5300 Retail</item>
+		<item id="5500 Media" desc="5500 Media">5500 Media</item>
+		<item id="5700 Travel &amp; Leisure" desc="5700 Travel &amp; Leisure">5700 Travel &amp; Leisure</item>
+		<item id="6500 Telecommunications" desc="6500 Telecommunications">6500 Telecommunications</item>
+		<item id="7500 Utilities" desc="7500 Utilities">7500 Utilities</item>
+		<item id="8300 Banks" desc="8300 Banks">8300 Banks</item>
+		<item id="8500 Insurance" desc="8500 Insurance">8500 Insurance</item>
+		<item id="8700 Financial Services" desc="8700 Financial Services">8700 Financial Services</item>
+		<item id="9500 Technology" desc="9500 Technology">9500 Technology</item>
+	</comIndustry>
+
+	<comDurationInVt>
+		<item id="Below 1 year" desc="Below 1 year">Below 1 year</item>
+		<item id="1 - 2 years" desc="1 - 2 years">1 - 2 years</item>
+		<item id="2 - 5 years" desc="2 - 5 years">2 - 5 years</item>
+		<item id="5 - 10 years" desc="5 - 10 years">5 - 10 years</item>
+		<item id="More than 10 years" desc="More than 10 years">More than 10 years</item>
+	</comDurationInVt>
+
+	<entityType>
+		<item id="Limited partnership" desc="Limited partnership">Limited partnership</item>
+		<item id="Limited Company" desc="Limited Company">Limited Company</item>
+		<item id="Trust" desc="Trust">Trust</item>
+		<item id="Collective Investment Scheme or Fund" desc="Collective Investment Scheme or Fund">Collective Investment Scheme or Fund</item>
+		<item id="Other" desc="Other">Other</item>
+	</entityType>
+
+	<comType>
+		<item id="Fund management/Asset management" desc="Fund management/Asset management">Fund management/Asset management</item>
+		<item id="Securities company" desc="Securities company">Securities company</item>
+		<item id="Insurance company" desc="Insurance company">Insurance company</item>
+		<item id="Finance/Financial leasing company" desc="Finance/Financial leasing company">Finance/Financial leasing company</item>
+		<item id="Bank/Credit institution" desc="Bank/Credit institution">Bank/Credit institution</item>
+		<item id="Other financial institution establised in Vietnam" desc="Other financial institution establised in Vietnam">Other financial institution establised in Vietnam</item>
+	</comType>
+
+	<nearestsign desc="Choose the nearest SME center you would like to go for contract signing">
+		<item id="Head office" desc="Head office">Head office</item>
+		<item id="Trung Hoa Nhan Chinh" desc="Trung Hoa Nhan Chinh">Trung Hoa Nhan Chinh</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chuong Duong</item>
+		<item id="Van Quan" desc="Van Quan">Van Quan</item>
+		<item id="Gia Dinh" desc="Gia Dinh">Gia Dinh</item>
+		<item id="Cong Hoa" desc="Cong Hoa">Cong Hoa</item>
+		<item id="Phu Lam" desc="Phu Lam">Phu Lam</item>
+		<item id="Phu My Hung" desc="Phu My Hung">Phu My Hung</item>
+		<item id="So Giao Dich" desc="So Giao Dich">So Giao Dich</item>
+		<item id="Ngo Quyen" desc="Ngo Quyen">Ngo Quyen</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chuong Duong</item>
+		<item id="Ha Noi" desc="Ha Noi">Ha Noi</item>
+		<item id="Linh Dam" desc="Linh Dam">Linh Dam</item>
+		<item id="Thuy Khue" desc="Thuy Khue">Thuy Khue</item>
+		<item id="Dong Do" desc="Dong Do">Dong Do</item>
+		<item id="Kinh Do" desc="Kinh Do">Kinh Do</item>
+		<item id="Ha Thanh" desc="Ha Thanh">Ha Thanh</item>
+		<item id="Giang Vo" desc="Giang Vo">Giang Vo</item>
+		<item id="Ha Tay" desc="Ha Tay">Ha Tay</item>
+		<item id="Thang Long" desc="Thang Long">Thang Long</item>
+		<item id="Tran Thai Tong" desc="Tran Thai Tong">Tran Thai Tong</item>
+		<item id="Hai Phong" desc="Hai Phong">Hai Phong</item>
+		<item id="Hai Duong" desc="Hai Duong">Hai Duong</item>
+		<item id="Quang Ninh" desc="Quang Ninh">Quang Ninh</item>
+		<item id="Mong Cai" desc="Mong Cai">Mong Cai</item>
+		<item id="Thai Binh" desc="Thai Binh">Thai Binh</item>
+		<item id="Bac Giang" desc="Bac Giang">Bac Giang</item>
+		<item id="Bac Ninh" desc="Bac Ninh">Bac Ninh</item>
+		<item id="Hoa Binh" desc="Hoa Binh">Hoa Binh</item>
+		<item id="Phu Tho" desc="Phu Tho">Phu Tho</item>
+		<item id="Thai Nguyen" desc="Thai Nguyen">Thai Nguyen</item>
+		<item id="Vinh Phuc" desc="Vinh Phuc">Vinh Phuc</item>
+		<item id="Ha Tinh" desc="Ha Tinh">Ha Tinh</item>
+		<item id="Nghe An" desc="Nghe An">Nghe An</item>
+		<item id="Thanh Hoa" desc="Thanh Hoa">Thanh Hoa</item>
+		<item id="Nam Dinh" desc="Nam Dinh">Nam Dinh</item>
+		<item id="Da Nang" desc="Da Nang">Da Nang</item>
+		<item id="Hue" desc="Hue">Hue</item>
+		<item id="Quang Binh" desc="Quang Binh">Quang Binh</item>
+		<item id="Quang Tri" desc="Quang Tri">Quang Tri</item>
+		<item id="Ho Chi Minh" desc="Ho Chi Minh">Ho Chi Minh</item>
+		<item id="District 3" desc="District 3">District 3</item>
+		<item id="Dong Nai" desc="Dong Nai">Dong Nai</item>
+		<item id="Binh Duong" desc="Binh Duong">Binh Duong</item>
+		<item id="Sai Gon" desc="Sai Gon">Sai Gon</item>
+		<item id="Cho Lon" desc="Cho Lon">Cho Lon</item>
+		<item id="District 10" desc="District 10">District 10</item>
+		<item id="Ly Thuong Kiet" desc="Ly Thuong Kiet">Ly Thuong Kiet</item>
+		<item id="Binh Dinh" desc="Binh Dinh">Binh Dinh</item>
+		<item id="Nha Trang" desc="Nha Trang">Nha Trang</item>
+		<item id="Binh Thuan" desc="Binh Thuan">Binh Thuan</item>
+		<item id="Gia Lai" desc="Gia Lai">Gia Lai</item>
+		<item id="Vung Tau" desc="Vung Tau">Vung Tau</item>
+		<item id="Long An" desc="Long An">Long An</item>
+		<item id="Dong Thap" desc="Dong Thap">Dong Thap</item>
+		<item id="An Giang" desc="An Giang">An Giang</item>
+		<item id="Can Tho" desc="Can Tho">Can Tho</item>
+		<item id="Vinh Long" desc="Vinh Long">Vinh Long</item>
+		<item id="Kien Giang" desc="Kien Giang">Kien Giang</item>
+	</nearestsign>
+
+	<title>
+		<item id="Mr." desc="Mr">Mr.</item>
+		<item id="Ms." desc="Ms">Ms.</item>
+	</title>
+	
+	<auction_status desc="invoice auction status">  
+		<item id="IAS_01" desc="To auction">To auction</item>
+		<item id="IAS_02" desc="In VPBank auction">In VPBank auction</item>
+		<item id="IAS_03" desc="In public auction">In public auction</item>
+		<item id="IAS_04" desc="Auction closed – transaction signed">Auction closed – transaction signed</item>
+		<item id="IAS_05" desc="Auction closed – waiting for signature">Auction closed – waiting for signature</item>
+		<item id="IAS_06" desc="Auction closed – delisted">Auction closed – delisted</item>
+		<item id="IAS_07" desc="Auction closed – Unsuccessfully disbursed">Auction closed – Unsuccessfully disbursed</item>
+		<item id="IAS_08" desc="Auction closed – Disbursed">Auction closed – Disbursed</item>
+		<item id="IAS_09" desc="overdue">overdue</item>
+		<item id="IAS_10" desc="Auction closed – Unsuccessfully dealed">Auction closed – Unsuccessfully dealed</item>
+		<item id="IAS_11" desc="Auction closed – Reopen">Auction closed – Reopen</item>
+		<item id="IAS_12" desc="Auction closed – Rejected when reopen">Auction closed – Rejected when reopen</item>
+		<item id="IAS_13" desc="Auction closed – Fully settled">Auction closed – Fully settled</item>
+		<item id="IAS_14" desc="Auction closed – Partially settled">Auction closed – Partially settled</item>
+	</auction_status>
+	
+	<proxy-service>
+		<item id="image-service" desc="image service address">http://127.0.0.1:9080/document</item>
+		<item id="image-localservice" desc="image local service address">http://127.0.0.1:8080/document</item>
+	</proxy-service>
+
+	<enterprise-type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">Medium SME</item>
+		<item id="03" desc="Micro SME">Micro SME</item>
+	</enterprise-type>
+	
+	<cp_type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">Medium MSME</item>
+	</cp_type>
+	
+	<score_item_type>
+		<item id="1" desc="constant">constant</item>
+		<item id="2" desc="function">function</item>
+	</score_item_type>
+	
+	<score_rating_level>
+		<item id="01" desc="Low-Risk">Low-Risk</item>
+		<item id="02" desc="High-Risk">High-Risk</item>
+		<item id="03" desc="Rejected">Rejected</item>
+	</score_rating_level>
+	
+	<workflow>
+		<item id="01" desc="smeApplyFlow">SME Approval Flow</item>
+		<item id="02" desc="buyerApplyFlow">Buyer Approval Flow</item>
+		<item id="03" desc="invoiceDeliveryFlow">Invoice Approval Flow</item>
+	</workflow>
+
+	<sysVars>
+		<item id="01" desc="auction advance min">20</item>
+		<item id="02" desc="auction advance step">5</item>
+		<item id="03" desc="auction interest min">6</item>
+		<item id="04" desc="auction interest step">0.5</item>
+	</sysVars>
+
+	<invoiceLimit>
+		<item id="minimum" desc="Minimum invoice amount">100000000</item>
+		<item id="msmehmax" desc="High-risk MSME Maximum invoice amount">800000000</item>
+		<item id="msmelmax" desc="Low-risk MSME Maximum invoice amount">8000000000</item>
+		<item id="smehmax" desc="High-risk SME Maximum invoice amount">1000000000</item>
+		<item id="smelmax" desc="Low-risk SME Maximum invoice amount">1000000000</item>
+		<item id="resolvemsme" desc="Revolving limit of MSME">1700000000</item>
+		<item id="resolvesme" desc="Revolving limit of SME">2000000000</item>
+	</invoiceLimit>
+
+	<invoiceReport>
+		<item id="01" desc="Region">Region</item>
+		<item id="02" desc="SME segment">SME segment</item>
+		<item id="03" desc="Seller rating">Seller rating</item>
+	</invoiceReport>
+	
+	<buyerReport>
+		<item id="01" desc="Region">Region</item>
+		<item id="02" desc="investor ">Investor type</item>
+		<item id="03" desc="Company Industry">Company Industry</item>
+	</buyerReport>
+	
+	<investor>
+		<item id="01" desc="Private investor">Private investor</item>
+		<item id="02" desc="Company/Institution">Company/Institution</item>
+	</investor>
+	
+	<feeType>
+		<item id="01" desc="Transaction Fee">Transaction Fee</item>
+		<item id="02" desc="Cancellation Fee">Cancellation Fee</item>
+		<item id="03" desc="Late Payment Interest Fee">Late Payment Interest Fee</item>
+	</feeType>
+
+	<dar desc="Debtor Acknowledgement Requirement">
+		<item id="01" desc="required">required</item>
+		<item id="02" desc="not required">not required</item>
+	</dar>
+	<iov_stauts desc="original invoice verification flow status"> 
+		<item id="tYNhqiLCIc">Original invoice matching registration</item>
+		<item id="tYNhqiLCIc_gPeJDndBdI">Pending for original invoice matching</item>  
+		<item id="gPeJDndBdI_CbPtGRnrkJ">Pending for original invoice verification</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP">Invoice Released</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP_0">Rejected</item>
+	</iov_stauts>
+	<oriver_opinion desc="original invoice verification opinion"> 
+		<item id="Accept">Accept</item>  
+		<item id="Reject">Reject</item> 
+	</oriver_opinion>
+
+	<smeInbox desc="Seller inbox info">
+		<item id="FUoVuacHWV_cMxzCQLUrF_TIT">Application modification</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF_CON"> 
+		  &lt;div&gt; 
+			 Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			Your application is incomplete. Please click on the link below to fill out the missing information in 3 days.&lt;br/&gt; &lt;br/&gt;  
+			Suggestion: 2 days  -&gt;  Agreed to be 3 days by SME
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Should you need assistance, please refer to our Help menu or email us at cs@i-factor
+			&lt;br/&gt; &lt;br/&gt; 
+			Best regards,&lt;br/&gt; 
+			The i-factor team
+		  &lt;/div&gt; 
+	    </item>
+		<item id="zIeeUKnBZF_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="zIeeUKnBZF_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="zXusSDxdAs_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="zXusSDxdAs_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="wVbebSTCKW_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="wVbebSTCKW_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="VmnUSmpded_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="VmnUSmpded_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="ulccaPXdZe_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="ulccaPXdZe_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="mKISSmbTdc_oQfYjWhRHs_TIT">Application has been rejected</item>
+		<item id="mKISSmbTdc_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been rejected for violation. For more information, please check out the reasons stated below. Please contact us immediately if the provided reasons are not applicable. -&gt;  Changed as suggested by VPB
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+			One of the following reasons for refusal was discovered:&lt;br /&gt; 
+			• Violations of mandatory conditions for the Sellers&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; &lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Information about the mandatory conditions for the Seller&lt;/a&gt; &lt;br /&gt;   
+		  &lt;/div&gt;  
+	    </item>
+		<item id="cPjfdskOtZ_oQfYjWhRHs_TIT">Application has been accepted</item>
+		<item id="cPjfdskOtZ_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			Your application has successfully passed our qualification process. Please come to our SME center immediately to sign the service agreement, receive the i-Factor package and perform other necessary procedures. i-Factor customer service will contact you as soon as possible to arrange time and place.
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			Your client ID: ${apply.sellerId}
+			&lt;a href=&quot;${base}/branch/search&quot;&gt; To the nearest  VPBank branch &lt;/a&gt; &lt;br&gt; 
+			&lt;a href=&quot;${base}&quot;&gt; Service agreement to use the i-Factor platform &lt;/a&gt; 
+			EF comments: in i-Factor platform, so far we dun have this function, Seller and Buyer can't download the service agreement from platform. In the final version of process, seller and buyer only can go to the branch to sign the contract, no download function. if VPB would like to have this function, it will cause delay and extra cost for this workload. Pls have a review and modify accordingly.
+		  &lt;/div&gt;   
+	    </item>
+		<item id="cMxzCQLUrF_oQfYjWhRHs_TIT">Application has been closed</item>
+		<item id="cMxzCQLUrF_oQfYjWhRHs_CON"> 
+		  &lt;div&gt; 
+			Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			We are sorry, your application has been closed. Please contact us if the reason is not applicable to you
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			Reason(s) for application closed:&lt;br /&gt; 
+			- Your application is not modified within the time limit&lt;br /&gt; 
+			&lt;a href=&quot;${base}/seller/account/view&quot;&gt; Go to application&lt;/a&gt; 
+		  &lt;/div&gt;  
+	    </item>
+	</smeInbox>
+	
+	<buyerInbox desc="Buyer inbox info">
+		<item id="frTGUAcenq_AyrbNcfEYW_TIT">Application modification</item>
+		<item id="frTGUAcenq_AyrbNcfEYW_CON"> 
+		  &lt;div&gt; 
+			 Dear Client,
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff&quot;&gt; 
+			Your application is incomplete. Please click on the link below to fill out the missing information in 3 days.&lt;br/&gt; &lt;br/&gt;  
+			Suggestion: 2 days  -&gt;  Agreed to be 3 days by SME
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Here are the details of your &lt;b&gt; application&lt;/b&gt; 
+		  &lt;/div&gt; 
+		  &lt;div style=&quot;background:#fff;&quot;&gt; 
+			&lt;a href=&quot;${base}/seller/account/update&quot;&gt; Go to application form &lt;/a&gt;  (To see specific reason)
+		  &lt;/div&gt; 
+		  &lt;div&gt; 
+			Should you need assistance, please refer to our Help menu or email us at cs@i-factor
+			&lt;br/&gt; &lt;br/&gt; 
+			Best regards,&lt;br/&gt; 
+			The i-factor team
+		  &lt;/div&gt; 
+	    </item>
+	</buyerInbox>
+</wordbook>

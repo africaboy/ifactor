@@ -1,0 +1,23 @@
+.objqueryset {
+	background-image: url(../images/search.gif) !important;
+}
+
+.exp {
+	background-image: url(../images/exp.png) !important;
+}
+
+.expxls {
+	background-image: url(../images/file_xls.png) !important;
+}
+
+.expxml {
+	background-image: url(../images/file_xml.png) !important;
+}
+
+.exphtml {
+	background-image: url(../images/file_htm.png) !important;
+}
+
+.expjson {
+	background-image: url(../images/file_json.png) !important;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+ <step-type desc="node type"> 
+  <item id="-1" desc="end node">End node</item>  
+  <item id="0" desc="start node">Start node</item>  
+  <item id="1" desc="general node">General node</item>  
+  <item id="2" desc="transition node">Transition node</item>  
+  <item id="3" desc="number node">Number node</item> 
+ </step-type>  
+ <stepgrouprange desc="Process link (link) to handle the range (group) type"> 
+  <item id="5" desc="">specific group</item>  
+  <item id="4" desc="">All groups (does not contain groups)</item>  
+  <item id="3" desc="">All groups (including group)</item>  
+  <item id="2" desc="">Associated with session user belongs to group of a group (do not include the groups)</item>  
+  <item id="1" desc="">Associated with session user belongs to group of a group (including group)</item>  
+  <item id="0" desc="">The session user belongs to a group</item> 
+ </stepgrouprange>  
+ <steprangeuser desc="Process link (link) to handle the range (user) type"> 
+  <item id="5" desc="">Specific to deal with people</item>  
+  <item id="4" desc="">Specific level (exclusive himself)</item>  
+  <item id="3" desc="">Specific level (including himself)</item>  
+  <item id="2" desc="">With the session user level (does not contain the session user)</item>  
+  <item id="1" desc="">With the session user level (including the session user)</item>  
+  <item id="0" desc="">All the people</item> 
+ </steprangeuser>  
+ <stepgrouprange desc="To begin to link process link to complete range (group) type"> 
+  <item id="5" desc="">specific group</item>  
+  <item id="3" desc="">All groups</item> 
+ </stepgrouprange>  
+ <steprangeuser desc="To begin to link process link to complete according to the user Settings"> 
+  <item id="5" desc="">Specific to deal with people</item>  
+  <item id="3" desc="">Specific level</item>  
+  <item id="0" desc="">All the people</item> 
+ </steprangeuser>  
+ <inner-type desc="Workflow branch flow category"> 
+  <item id="2" desc="">seec</item>  
+  <item id="1" desc="">sign</item>  
+  <item id="0" desc="">non branch</item> 
+ </inner-type>  
+</wordbook>

@@ -1,0 +1,126 @@
+#header {
+	border: 0 none;
+	background: #1E4176 url(../images/layout-browser-hd-bg.gif) repeat-x 0 0
+		;
+	padding-top: 3px;
+	padding-left: 3px;
+}
+
+.docs-header .x-panel-body {
+	background: transparent;
+}
+
+#header .api-title {
+	font: normal 16px tahoma, arial, sans-serif;
+	color: white;
+	margin: 5px;
+}
+
+#header .api-title a {
+	FONT-SIZE: 12px;
+	COLOR: #E0E0E0;
+}
+
+#header .api-title a:link {
+	FONT-SIZE: 12px;
+	COLOR: #E0E0E0;
+}
+
+#header .api-title a:visited {
+	FONT-SIZE: 12px;
+	COLOR: #E0E0E0;
+}
+
+#header .api-title a:hover {
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+}
+
+.north-header {
+	background: transparent;
+}
+
+#loading-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20000;
+	background-color: white;
+}
+
+#loading {
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+}
+
+#loading img {
+	margin-bottom: 5px;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #555;
+	font: bold 13px tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	height: auto;
+}
+
+.nav {
+	background-image: url(../images/application_go.png);
+}
+
+.icon-expand-all {
+	background-image: url(../images/expand-all.gif) !important;
+}
+
+.icon-collapse-all {
+	background-image: url(../images/collapse-all.gif) !important;
+}
+
+.icon-quit {
+	background-image: url(../images/go.png) !important;
+}
+
+.icon-pkg {
+	background-image: url(../images/pkg.gif) !important;
+}
+
+.icon-cls {
+	background-image: url(../images/class.gif) !important;
+}
+
+.tabs {
+	background-image: url( ../images/tabs.gif ) !important;
+}
+
+.helptabs {
+	background-image: url( ../images/user_comment.png) !important;
+}
+
+.pwd {
+	background-image: url( ../images/pwd.png) !important;
+}
+
+.log {
+	background-image: url( ../images/log.gif) !important;
+}
+
+.cmd {
+	background-image: url( ../images/cmd.png) !important;
+}
+
+.param {
+	background-image: url( ../images/param.png) !important;
+}
+
+.refresh {
+	background-image: url( ../images/refresh.png) !important;
+}

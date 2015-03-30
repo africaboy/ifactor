@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="ifactor_invoice_oriver">
+		<name>original invoice verification form</name>
+		<desc>original invoice verification form</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_ORIVER</primaryTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_ORIVER_SELLER</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_ORIVER_DEBTOR</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_ORIVER_FINANC</foreignTable>
+		<size>{height:400,width:1100,columnCount:2}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="APP_PK_ID" tableName="IF_MGT_INVOICE_ORIVER" type="hidden" param="{}" />
+			<item name="IOV_UPDATED_DATE" tableName="IF_MGT_INVOICE_ORIVER" type="hidden" param="{}" dv="@thizTime" />
+			<item name="IOV_CODE" type="input" param="{readOnly:true,newline:true,group:'Application Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="000"/>
+			<item name="IOV_DATE" type="date" param="{readOnly:true}" idx="001"/>
+			<item name="IOV_ADVANCE" type="number" param="{allowBlank:false,readOnly:true}" idx="002"/>
+			<item name="IOV_INTEREST" type="number" param="{allowBlank:false,readOnly:true}" idx="003"/>
+			<item name="IOV_CYCLESTART" type="date" param="{readOnly:true}" idx="004"/>
+			<item name="IOV_CYCLEEND" type="date" param="{readOnly:true}" idx="005"/>
+			<item name="COMPANY_NAME" label="Company name" type="input" tableName="IF_MGT_INVOICE_ORIVER_SELLER" param="{newline:true,readOnly:true,group:'Seller Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="010"/>
+			<item name="IOVS_USER" type="input" tableName="IF_MGT_INVOICE_ORIVER_SELLER" param="{readOnly:true}" idx="012"/>
+			
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR"  type="input" param="{newline:true,readOnly:true,group:'Debtor Information', groupWidth:1050, groupParam : {groupCollapsed:false},columnCount:2}" idx="031"/>
+			<item name="ADDRESS" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="035"/>
+			<item name="DISTRICT" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="036"/>
+			<item name="CITY" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="037"/>
+			<item name="REGION" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="038"/>
+			<item name="COUNTRY" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="039"/>
+			<item name="POSTCODE" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="040"/>
+			<item name="REGIST_NO" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="041"/>
+			<item name="TAX_CODE" type="input" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" param="{readOnly:true}" idx="042"/>
+			
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC"  type="input" param="{newline:true,readOnly:true,group:'Financing Information', groupWidth:1050, groupParam : {groupCollapsed:false},columnCount:2}" idx="051"/>
+			<item name="SERIAL_NUMBER" type="input" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="051"/>
+			<item name="INVOICE_NUMBER" type="input" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="052"/>
+			<item name="INVOICE_ISSUANCE_DATE" type="date" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="033"/>
+			<item name="INVOICE_AMOUNT" type="money" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="054"/>
+			<item name="INVOICE_OBJECT" type="input" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="055"/>
+			<item name="DUE_DATE" type="date" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="056"/>
+			<item name="EXPECTED_PAYMENT_DATE" type="date" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="057"/>
+			<item name="REMAINING_TERM" type="input" tableName="IF_MGT_INVOICE_ORIVER_FINANC" param="{readOnly:true}" idx="058"/>
+		</component>
+	</view>
+
+	<view ID="ifactor_invoice_original_verification_opinion">
+		<name>Original Invoice Verification Opinion</name>
+		<desc>Original invoice verification opinion view for original invoice verification flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_ORIVER_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<param>{listenLayout:true}</param>
+		<listener>InvoiceOriVerOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'oriver_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+</table-view>

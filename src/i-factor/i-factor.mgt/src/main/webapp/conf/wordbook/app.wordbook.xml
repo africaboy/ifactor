@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook>
+    <appFilterException>
+    </appFilterException>
+    <includeFilterException>
+    	<item id="/views/api/">0</item>
+    </includeFilterException>
+	<user-type desc="用户类别"> 
+		<item id="1">本地</item>  
+		<item id="2">内派</item>  
+		<item id="3">外派</item> 
+	</user-type>
+	<user-workstatus desc="用户工作状态"> 
+		<item id="-1">离职</item> 
+		<item id="0">正常</item>  
+		<item id="2">休假</item> 
+	</user-workstatus>  
+	<user-rating desc="用户级别"> 
+		<item id="1" desc="" idx="1">总部高层</item>  
+		<item id="3" desc="" idx="2">总部中层</item>  
+		<item id="2" desc="" idx="3">办事处高层</item>  
+		<item id="4" desc="" idx="4">办事处中层</item>  
+		<item id="5" desc="" idx="5">普通员工</item> 
+	</user-rating>  
+	<group-rating desc="组级别"> 
+		<item id="1">公司/办事处</item>  
+		<item id="2">一级部门</item> 
+	</group-rating>  
+	<job desc="用户职务"> 
+		<item id="董事长" desc="" idx="">董事长</item>  
+		<item id="总经理">总经理</item>  
+		<item id="副总经理">副总经理</item>  
+		<item id="财务总监">财务总监</item>  
+		<item id="财务副总监">财务副总监</item>  
+		<item id="经理">经理</item>  
+		<item id="副经理">副经理</item>  
+		<item id="职员">职员</item> 
+	</job>  
+	<area desc="公司所属区域"> 
+		<item id="00">海外</item>  
+		<item id="01">集团总部</item>  
+		<item id="02">北京区域</item>  
+		<item id="03">广州区域</item>  
+		<item id="04">上海区域</item> 
+	</area>
+	<system-configure desc="system-configure"> 
+		<item id="systemName" desc="系统名称">GBV</item>  
+		<item id="systemWelcome" desc="欢迎语"/>  
+		<item id="systemLogin" desc="系统登录页面"/>  
+		<item id="systemIndex" desc="系统首页面"/>  
+		<item id="systemTitle" desc="系统页面标题"/>  
+		<item id="systemCopyright" desc="系统版权声明"/>  
+		<item id="systemVersion" desc="软件版本"/>  
+		<item id="systemProducer" desc="软件生产商"/>  
+		<item id="systemDesktop" desc="系统桌面"/> 
+	</system-configure> 
+	<owner-configure desc="owner-configure"> 
+		<item id="ownerName" desc="所有者"></item>  
+		<item id="ownerLogo" desc="商标">/system/console/images/web_logo.png</item>  
+		<item id="ownerLogoCSS" desc="商标样式">defaultlogo</item>
+		<item id="ownerURL" desc="网络地址">/GAP/index.jsp</item>  
+	</owner-configure> 
+</wordbook>

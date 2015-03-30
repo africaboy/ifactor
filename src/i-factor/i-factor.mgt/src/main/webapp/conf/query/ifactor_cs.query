@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="sme_apply_cs_monitor_list">
+		<name>SME application service list</name>
+		<desc>customer serivce team handle SME application</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<jsurl>/app/ifactor/js/cs/sme_apply_cs_monitor_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<showchk>1</showchk>
+		<param>{listenRemix:true,listenRender:true,singleSelect:true,listenClick:true,columnCount:2,width:700,height:200,enableHdMenu:false}</param>
+		<outrosql>
+			(IF_MGT_CP_APPLY.USERID = '@sessionUserId@' OR IF_MGT_CP_APPLY.USERID IS NULL)
+		</outrosql>
+		<query-item>   
+			<item name="MYFNAME" type="input" mode="06" idx="01"/>
+			<item name="MYLNAME"  type="input" mode="06" idx="02"/>
+			<item name="MYEMAIL" type="input" mode="06" idx="03"/>
+			<item name="CPSTATUS" label="Current Status" type="select" jsonParam="{wordbook:'smeapplystatus', target:'CPSTATUS_VAL',listWidth:400}" mode="01" idx="05"/>
+			<item name="CPSTATUS_VAL" label="Current Status" type="hidden" mode="00" />
+			<item name="CPCTIME" label="Apply Date" type="date" mode="09" idx="06"/>
+		</query-item>
+		<result-item>           
+		    <item name="CPCTIME" label="apply date" align="left"/>  
+			<item name = "MYTITLE" align="left"/>
+			<item name = "MYFNAME" align="left"/>
+			<item name = "MYLNAME" align="left"/>
+			<item name = "MYGENDER" align="left"/>
+			<item name = "MYDOB" align="left"/>
+			<item name = "MYIDTYPE" align="left"/>
+			<item name = "MYIDNUMBER" align="left"/>
+			<item name = "MYMPHONE" align="left"/>
+			<item name = "DATAMODIFY" show="-1"/>
+			<item name = "CSCALLME" show="-1"/>
+			<item name = "CPSTATUS" show="-1"/>
+			<item name = "CPSTATUS_VAL" label="apply status" width="300" align="left"/>
+		</result-item>
+		<restraint-item>
+			<!--<item name = "CPSTATUS_VAL" param="Pending for data modify" mode="01"/>-->
+		</restraint-item>
+		<orderby-item>
+			<item name="CPCTIME" mode="DESC"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="buyer_apply_cs_monitor_list">
+		<name>query  apply registration for cs to contract investor</name>
+		<desc>query  apply registration for cs to contract investor</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<relate-item>
+			<leftitem name="IBA_PK_ID" tableName="IF_MGT_BUYER_APPLY"></leftitem>
+			<rightitem name="IBA_PK_ID" tableName="IF_MGT_BUYER_BASIC_INFO"></rightitem>
+		</relate-item>
+		<jsurl>/app/ifactor/js/cs/buyer_apply_cs_monitor_list.js</jsurl>
+		<showchk>1</showchk>
+		<param>{listenRemix:true,listenRender:true,listenClick:true,columnCount:2,width:700,height:200,singleSelect:true,enableHdMenu:false}</param>
+		<purview/>
+		<purviewRole/>
+		<outrosql>
+			(IF_MGT_BUYER_APPLY.USERID = '@sessionUserId@' OR IF_MGT_BUYER_APPLY.USERID IS NULL)
+		</outrosql>
+		<query-item>
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="01"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="02"/>
+			<item name="EMAIL" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="03"/>
+			<item name="BA_STATUS" label="Current Status" tableName="IF_MGT_BUYER_APPLY" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL',listWidth:400}" mode="01" idx="05"/>
+			<item name="BA_STATUS_VAL" label="Current Status" tableName="IF_MGT_BUYER_APPLY" type="hidden" mode="00" />
+			<item name="BA_APPLY_DATE" label="Apply Date" tableName="IF_MGT_BUYER_APPLY" type="date" mode="09" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "BA_APPLY_CODE" width="150" align="left"/>         
+			<item name = "BA_APPLY_DATE" width="150" align="left"/>
+			<item name = "TITLE" tableName="IF_MGT_BUYER_BASIC_INFO" width="150" align="left"/>
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="150" align="left"/>
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="150" align="left"/>
+			<item name = "ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" width="150" align="left"/>
+			<item name = "NATIONALITY" tableName="IF_MGT_BUYER_BASIC_INFO" width="150" align="left"/>
+			<item name="BA_STATUS_VAL" width="200" align="left"/>         
+		</result-item>  
+		<restraint-item>
+		</restraint-item>
+		<orderby-item>
+			<item name="BA_APPLY_DATE" tableName="IF_MGT_BUYER_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="delivery_apply_cs_monitor_list">
+		<name>customer serivce team handle invoice application</name>
+		<desc>customer serivce team handle invoice application</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_APPLY</table>
+		<table>IF_MGT_INVOICE_SELLER</table>
+		<relate-item>
+			<leftitem name="IIDA_PK_ID" tableName="IF_MGT_INVOICE_APPLY"></leftitem>
+			<rightitem name="IIDA_PK_ID" tableName="IF_MGT_INVOICE_SELLER"></rightitem>
+		</relate-item>
+		<jsurl>/app/ifactor/js/cs/delivery_apply_cs_monitor_list.js</jsurl>
+		<showchk>1</showchk>
+		<param>{listenRemix:true,listenRender:true,listenClick:true,forceFit:true,columnCount:2,width:700,height:200,singleSelect:true,enableHdMenu:false,labelWidth:110}</param>
+		<purview/>
+		<purviewRole/>
+		<outrosql>
+			(IF_MGT_INVOICE_APPLY.USERID = '@sessionUserId@' OR IF_MGT_INVOICE_APPLY.USERID IS NULL)
+		</outrosql>
+		<query-item>
+			<item name="IIDSI_USER" label="Last name" tableName="IF_MGT_INVOICE_SELLER" type="input" mode="06" idx="02"/>
+			<item name="COMPANY_NAME" label="Company Name" tableName="IF_MGT_INVOICE_SELLER" type="input" mode="06" idx="03"/>
+			<item name="IDA_DATE" label="Application Date" tableName="IF_MGT_INVOICE_APPLY" type="date" mode="09" idx="04"/>
+			<item name="IDA_STATUS" label="Current Status" tableName="IF_MGT_INVOICE_APPLY" type="select" jsonParam="{wordbook:'ida_stauts', target:'IDA_STATUS_VAL',listWidth:400}" mode="01" idx="05"/>
+			<item name="IDA_STATUS_VAL" label="Current Status" tableName="IF_MGT_INVOICE_APPLY" type="hidden" mode="00" />
+		</query-item>
+		<result-item>
+			<item name = "IDA_CODE" align="left"/>         
+			<item name = "IDA_DATE" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" align="left"/>
+			<item name = "IIDSI_USER" tableName="IF_MGT_INVOICE_SELLER" align="left"/>
+			<item name = "IDA_STATUS_VAL" align="left"/>         
+		</result-item>  
+		<restraint-item>
+		</restraint-item>
+		<orderby-item>
+			<item name="IDA_DATE" tableName="IF_MGT_INVOICE_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+</table-query>

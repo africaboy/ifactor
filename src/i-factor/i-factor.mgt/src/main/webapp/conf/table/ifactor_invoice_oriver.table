@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_INVOICE_ORIVER" description="original invoice verification">
+		<column>
+			<name>IOV_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IOV_CODE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>application no</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>IOV_DATE</name>
+			<type>varchar</type>
+			<description>application date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IOV_UPDATED_DATE</name>
+			<type>varchar</type>
+			<description>last updated date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RELEASE_DATE</name>
+			<type>varchar</type>
+			<description>Release date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IOV_STATUS</name>
+			<type>varchar</type>
+			<description>application status</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>IOV_STATUS_VAL</name>
+			<type>varchar</type>
+			<description>application statua</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>IOV_ADVANCE</name>
+			<type>decimal</type>
+			<description>Advance</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IOV_INTEREST</name>
+			<type>decimal</type>
+			<description>Interest</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IOV_CYCLESTART</name>
+			<type>varchar</type>
+			<description>auction begin</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IOV_CYCLEEND</name>
+			<type>varchar</type>
+			<description>auction end</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>SME_APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding seller line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>USERID</name>
+			<type>varchar</type>
+			<description>user id</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ISACCEPTED</name>
+			<type>varchar</type>
+			<description>invoice delivery apply is accepted</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_ORIVER_SELLER" description="original invoice verification seller info">
+		<column>
+			<name>IOVS_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IOV_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>original invoice verification</description> 
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_ORIVER</referencing-table>  
+				<referencing-column>IOV_PK_ID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>COMPANY_NAME</name>
+			<type>varchar</type>
+			<description>Name of your Company</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>IOVS_TITLE</name>
+			<type>varchar</type>
+			<description>the title who Represente the company</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IOVS_TITLE_VAL</name>
+			<type>varchar</type>
+			<description>the title who Represente the company</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>IOVS_USER</name>
+			<type>varchar</type>
+			<description>Representive</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DAR</name>
+			<type>varchar</type>
+			<description>Debtor Acknowledgement Requirement</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RATING</name>
+			<type>varchar</type>
+			<description>Rating score</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RISKLEVEL</name>
+			<type>varchar</type>
+			<description>Risk level</description>
+			<length>50</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_ORIVER_DEBTOR" description="original invoice verification debtor info">
+		<column>
+			<name>IOVD_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IOV_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>original invoice verification</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_ORIVER</referencing-table>  
+				<referencing-column>IOV_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ADDRESS</name>
+			<type>varchar</type>
+			<description>Address </description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>POSTCODE</name>
+			<type>varchar</type>
+			<description>Post code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGIST_NO</name>
+			<type>varchar</type>
+			<description>Registration NO</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>TAX_CODE</name>
+			<type>varchar</type>
+			<description>Tax Code</description>
+			<length>50</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_ORIVER_FINANC" description="invoice delivery financ info">
+		<column>
+			<name>IIDFI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IOV_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>original invoice verification</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_ORIVER</referencing-table>  
+				<referencing-column>IOV_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>STICKER_ID</name>
+			<type>varchar</type>
+			<description>Sticker ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>SERIAL_NUMBER</name>
+			<type>varchar</type>
+			<description>Serial number of Invoice</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>INVOICE_NUMBER</name>
+			<type>varchar</type>
+			<description>VAT Invoice Number</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>INVOICE_ISSUANCE_DATE</name>
+			<type>varchar</type>
+			<description>Invoice issuance date</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_AMOUNT</name>
+			<type>varchar</type>
+			<description>Invoice amount</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_OBJECT</name>
+			<type>varchar</type>
+			<description>Object of invoice</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_OBJECT_VAL</name>
+			<type>varchar</type>
+			<description>Object of invoice</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DUE_DATE</name>
+			<type>varchar</type>
+			<description>Due date according to the contract</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>EXPECTED_PAYMENT_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REMAINING_TERM</name>
+			<type>varchar</type>
+			<description>Remaining maturity term</description>
+			<length>10</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_ORIVER_OPINION" description="opinion info of original verificatonal flow">
+		<column>
+			<name>IOVF_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION</name>
+			<type>varchar</type>
+			<description>handle opinion key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION_VAL</name>
+			<type>varchar</type>
+			<description>handle opinion name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>OPINION_TXT</name>
+			<type>varchar</type>
+			<description>handle opinion remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CYCLEDATE</name>
+			<type>varchar</type>
+			<description>Auction end</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CYCLE</name>
+			<type>integer</type>
+			<description>Auction cycle</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

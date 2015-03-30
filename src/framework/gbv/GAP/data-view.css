@@ -1,0 +1,119 @@
+#loading-mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20000;
+	background-color: white;
+}
+
+#loading {
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	padding: 2px;
+	z-index: 20001;
+	height: auto;
+}
+
+#loading img {
+	margin-bottom: 5px;
+}
+
+#loading .loading-indicator {
+	background: white;
+	color: #555;
+	font: bold 13px "Microsoft YaHei", tahoma, arial, helvetica;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	height: auto;
+}
+
+.icon-pwd {
+	background-image: url(welcome/img/pwd.png) !important;
+}
+
+.icon-online {
+	background-image: url(welcome/img/monitor.png) !important;
+}
+
+.icon-quit {
+	background-image: url(welcome/img/monitor_off.png) !important;
+}
+
+.icon-setting {
+	background-image: url(welcome/img/setting.png) !important;
+}
+
+.tabs {
+	background-image: url(welcome/img/tab.png) !important;
+}
+.icon-star {
+	background-image: url(welcome/img/award_star_gold_3.png) !important;
+}
+
+
+#images-view .x-panel-body {
+	font:normal 12px 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+
+#images-view .thumb {
+	background: #dddddd;
+	/*padding: 3px;*/
+	padding:26px;
+}
+
+#images-view .thumb img {
+	height: 94px;
+	width: 96px;
+}
+
+#images-view .thumb-wrap {
+	float: left;
+	margin: 4px;
+	margin-right: 0;
+	padding: 5px;
+}
+
+#images-view .thumb-wrap span {
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+#images-view .x-editable {
+	border-top: none;
+	padding: 3px 3px 0px 10px;
+	margin: 2px;
+}
+
+#images-view .x-view-over {
+	border: 1px solid #dddddd;
+	background: #efefef
+		url(welcome/img/row-over.gif) repeat-x left
+		top;
+	padding: 4px;
+	cursor : hand;
+}
+
+#images-view .x-view-selected {
+	background: #eff5fb url(welcome/img/selected.gif) no-repeat right bottom;
+	border: 1px solid #99bbe8;
+	padding: 4px;
+}
+
+#images-view .x-view-selected .thumb {
+	background: transparent;
+}
+
+#images-view .loading-indicator {
+	font-size: 11px;
+	background-image: url('../../resources/images/default/grid/loading.gif')
+		;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 20px;
+	margin: 10px;
+}

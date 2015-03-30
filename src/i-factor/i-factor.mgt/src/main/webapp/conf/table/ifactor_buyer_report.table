@@ -1,0 +1,173 @@
+<annotate>
+	<table name="IF_MGT_BUYER_DETAIL_REPORT" description="buyer detail report template">
+		<column>
+			<name>BUYER_ID</name>
+			<type>varchar</type>
+			<description>Buyer ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVESTOR</name>
+			<type>varchar</type>
+			<description>Investor type</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BIDS_PLACED</name>
+			<type>integer</type>
+			<description>Number of bids placed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BIDS_ACCEPTED</name>
+			<type>integer</type>
+			<description>Number of bid accepted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BIDS_SUCCESSFUL</name>
+			<type>integer</type>
+			<description>% of successful bid</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>NOTSIGNED</name>
+			<type>integer</type>
+			<description>Number of Invoices not signed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CANCELLSUCCESS</name>
+			<type>integer</type>
+			<description>Number of successful auctions cancelled</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FINANCED</name>
+			<type>integer</type>
+			<description>Number of invoices financed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FINANCEDAMOUNT</name>
+			<type>integer</type>
+			<description>Total financed amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICEAMOUNT</name>
+			<type>decimal</type>
+			<description>Total invoice amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>TOTALRETURN</name>
+			<type>integer</type>
+			<description>Total Return</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ADVANCE</name>
+			<type>decimal</type>
+			<description>Weighted average advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INTEREST</name>
+			<type>decimal</type>
+			<description>Weighted average advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_BUYER_REPORT" description="buyer report by all template">
+		<column> 
+			<name>APPLIED</name>
+			<type>integer</type>
+			<description>Applied</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPTED</name>
+			<type>integer</type>
+			<description>Accepted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>APPROVAL_RATE</name>
+			<type>decimal</type>
+			<description>Approval Rate</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVESTED</name>
+			<type>decimal</type>
+			<description>Total Invested Amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REGULATORY_BLACKLIST</name>
+			<type>integer</type>
+			<description>Regulatory blacklisted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CANCELL_BLACKLIST</name>
+			<type>integer</type>
+			<description>Cancellation blacklisted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTTYPE</name>
+			<type>varchar</type>
+			<description>Report Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REPORTTYPENUM</name>
+			<type>integer</type>
+			<description>Report Type</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>REPORTBYTYPE</name>
+			<type>varchar</type>
+			<description>Report By Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

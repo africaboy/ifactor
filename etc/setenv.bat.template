@@ -1,0 +1,13 @@
+set JAVA_HOME=D:\devel\Java\jdk1.6.0_18
+
+set M2_HOME=D:\devel\maven\apache-maven-3.0.5
+set GRADLE_HOME=D:\devel\gradle\gradle-1.12
+set NEXUS_HOME=C:\devel\nexus\nexus-2.1.2
+set ECLIPSE_HOME=D:\devel\eclipse\eclipse-4.2.2
+
+set ORA_HOME=C:\oraclexe\app\oracle\product\11.2.0\server
+set ORA_LOGON=ifactor/ifactor
+set ORA_DATADIR=C:\oraclexe\app\oracle\oradata\XE
+
+set MYSQL_HOME=C:\Program Files\MySQL\MySQL Server 5.5
+set MYSQL_LOGON=-uroot -proot

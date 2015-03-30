@@ -1,0 +1,112 @@
+.form-wizard .steps > li > a.step > .desc {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+}
+.form-wizard .steps > li.active > a.step .number {
+    background-color: #3C4DC2;
+    color: #fff;
+}
+.form-wizard .steps > li.done > a.step .number {
+    background-color: #8ADF9F;
+    color: #fff;
+}
+.form-wizard .steps {
+    padding: 10px 0;
+    margin-bottom: 0px;
+    background-color: white;
+    background-image: none;
+    filter: none;
+    border: 0px;
+    box-shadow: none;
+}
+.form-wizard .steps > li > a.step > .number {
+    background-color: #eee;
+    display: inline-block;
+    text-align: center !important;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 11px 15px 13px 15px;
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+.progress > .progress-bar-success {
+    background-color: #3C4DC2;
+}
+.form-wizard .progress {
+    margin-bottom: 10px;
+}
+.form-horizontal .tab-content .form-group{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.tab-pane div{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.form-wizard .tab-content{
+    border: solid thin #B3AA9F;
+}
+.form-wizard .step-title{
+    background-color: #B3AA9F;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.form-wizard .btn{
+    min-width: 100px;
+}
+
+.form-wizard .btn-qry{
+    min-width: 66px;
+    height: 28px;
+}
+
+.tab-content{
+    padding-bottom: 30px;
+}
+.tab-content h6{
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .form-wizard .steps > li > a.step > .desc{
+        display: inline-block;
+    }
+}
+
+/**
+*file upload button
+**/
+.filediv{
+	padding-top:5px;
+}
+.file-extend{
+	width:72px;
+	display:block;
+	float:left;
+}
+.file-uploadBtn{
+	width:72px;
+	height:20px;
+	background-image: url(../img/fileupload.jpg);
+	text-align:center;
+	font-size:12px;
+	display:block;
+	line-height:20px;
+}
+.filename{
+	margin-left:10px;
+	line-height:20px;
+	float:left;
+	display:inline;
+}

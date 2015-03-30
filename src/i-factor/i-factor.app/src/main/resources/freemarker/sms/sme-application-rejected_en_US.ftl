@@ -1,0 +1,1 @@
+<EntroAuction> Your application has been rejected.  Please check your email for more information or contact <hotline>  for support.

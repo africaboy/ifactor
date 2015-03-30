@@ -1,0 +1,83 @@
+{
+	"images" : [{
+				"name" : "User",
+				"shortname" : "westpanel-user",
+				"desc" : "",
+				"url" : "welcome\/icon\/User.png"
+			}, {
+				"name" : "Group",
+				"shortname" : "westpanel-group",
+				"desc" : "",
+				"url" : "welcome\/icon\/Group.png"
+			}, {
+				"name" : "GroupS",
+				"shortname" : "westpanel-groupadjust",
+				"desc" : "",
+				"url" : "welcome\/icon\/GroupS.png"
+			}, {
+				"name" : "Role",
+				"shortname" : "westpanel-role",
+				"desc" : "",
+				"url" : "welcome\/icon\/Role.png"
+			}, {
+				"shortname" : "westpanel-module",
+				"name" : "Module",
+				"desc" : "",
+				"url" : "welcome\/icon\/Module.png"
+			}, /*{
+				"shortname" : "westpanel-tablequery",
+				"name" : "TableQuery",
+				"desc" : "",
+				"url" : "welcome\/icon\/TableQuery.png"
+			}, {
+				"shortname" : "对象查询配置",
+				"name" : "ObjectQuery",
+				"desc" : "",
+				"url" : "welcome\/icon\/ObjectQuery.png"
+			}, {
+				"shortname" : "westpanel-tableview",
+				"name" : "View",
+				"desc" : "",
+				"url" : "welcome\/icon\/View.png"
+			}, */{
+				"shortname" : "westpanel-workflow",
+				"name" : "Workflow",
+				"desc" : "",
+				"url" : "welcome\/icon\/Workflow.png"
+			}, {
+				"shortname" : "westpanel-dataindex",
+				"name" : "Dataindex",
+				"desc" : "",
+				"url" : "welcome\/icon\/DataIndex.png"
+			}, {
+				"shortname" : "westpanel-wordbook",
+				"name" : "Wordbook",
+				"desc" : "",
+				"url" : "welcome\/icon\/Wordbook.png"
+			}, /*{
+				"shortname" : "westpanel-table",
+				"name" : "Table",
+				"desc" : "",
+				"url" : "welcome\/icon\/Table.png"
+			},*/ {
+				"shortname" : "westpanel-databackup",
+				"name" : "TableBackup",
+				"desc" : "",
+				"url" : "welcome\/icon\/TableBackup.png"
+			}, {
+				"shortname" : "westpanel-datarestore",
+				"name" : "TableRestore",
+				"desc" : "",
+				"url" : "welcome\/icon\/TableRestore.png"
+			}, {
+				"shortname" : "westpanel-syslog",
+				"name" : "Syslog",
+				"desc" : "",
+				"url" : "welcome\/icon\/SySLog.png"
+			}, {
+				"shortname" : "westpanel-annex",
+				"name" : "Annex",
+				"desc" : "",
+				"url" : "welcome\/icon\/Annex.png"
+			}]
+}

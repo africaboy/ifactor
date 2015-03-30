@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<examples_t1_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">List2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">List2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">List3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">List3_name</item>
+		<item id="EXAMPLES_T1_T3_NUMBER" desc="">3.Number</item>
+		<item id="EXAMPLES_T1_T3_MONEY" desc="">T3.Money</item>
+	</examples_t1_add>
+	<examples_t1_special_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">List2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">List2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">List3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">List3_name</item>
+		<item id="EXAMPLES_T1_L3_TYPE" desc="">List3_type</item>
+		<item id="EXAMPLES_T1_T2_PKID" desc="">T2.Primary key</item>
+		<item id="EXAMPLES_T1_T2_NAME" desc="">T2.Name</item>
+		<item id="EXAMPLES_T1_T2_TYPE" desc="">T2.Type</item>
+		<item id="EXAMPLES_T1_T3_PKID" desc="">T3.Primary key</item>
+		<item id="EXAMPLES_T1_T3_NAME" desc="">T3.Name</item>
+		<item id="EXAMPLES_T1_T3_TYPE" desc="">T3.Type</item>
+		<item id="EXAMPLES_T1_T4_PKID" desc="">T4.Primary key</item>
+		<item id="EXAMPLES_T1_T4_NAME" desc="">T4.Name</item>
+		<item id="EXAMPLES_T1_T4_TYPE" desc="">T4.Type</item>
+		<item id="EXAMPLES_T1_T5_PKID" desc="">T5.Primary key</item>
+		<item id="EXAMPLES_T1_T5_NAME" desc="">T5.Name</item>
+		<item id="EXAMPLES_T1_T5_TYPE" desc="">T5.Type</item>
+		<item id="EXAMPLES_T1_T6_PKID" desc="">T6.Primary key</item>
+		<item id="EXAMPLES_T1_T7_PKID" desc="">电话</item>
+		<item id="EXAMPLES_T1_T7_NAME" desc="">T7.Name</item>
+		<item id="EXAMPLES_T1_T7_TYPE" desc="">T7.Type</item>
+	</examples_t1_special_add>
+	<examples_t1_edit>
+		<item id="EXAMPLES_T1_NAME" desc="">Name</item>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+	</examples_t1_edit>
+	<ifactor_image_items_add>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">Loại hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">Mã hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">Tên hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">Nếu bắt buộc</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">Nếu Tên là bắt buộc</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">Tên loại hình ảnh</item>
+	</ifactor_image_items_add>
+	<if_mgt_image_items_edit>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">Loại hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">Mã hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">Tên hình ảnh</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">Nếu bắt buộc</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">Nếu tên là bắt buộc</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">Tên loại hình ảnh</item>
+	</if_mgt_image_items_edit>
+	<ifactor_param_setting_edit>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_CODE" desc="">Mã tham số</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_VALUE" desc="">Giá trị tham số</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_DESC" desc="">Mô tả tham số</item>
+	</ifactor_param_setting_edit>
+	<if_mgt_dfield_match_add>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW" desc="">Quy trình</item>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW_VALUE" desc="">Quy trình</item>
+		<item id="IF_MGT_DFIELD_MATCH_MGT_FIELD" desc="">Tên danh sách</item>
+		<item id="IF_MGT_DFIELD_MATCH_APP_FIELD" desc="">Tên hồ sơ</item>
+		<item id="IF_MGT_DFIELD_MATCH_DESCRIPTION" desc="">Mô tả</item>
+	</if_mgt_dfield_match_add>
+	<if_mgt_sysvars_edit>
+		<item id="IF_MGT_SYSVARS_SYSVARS_PK_ID" desc="">Khóa chính</item>
+		<item id="IF_MGT_SYSVARS_CODE" desc="">Mã</item>
+		<item id="IF_MGT_SYSVARS_DESCRIBE" desc="">Mô tả mã</item>
+		<item id="IF_MGT_SYSVARS_VALUE" desc="">Giá trị</item>
+	</if_mgt_sysvars_edit>
+	<ifactor_buyer_apply>
+		<item id="IF_MGT_BUYER_APPLY_APP_PK_ID" desc="">ID Dòng Cam kết</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_CODE" desc="">Số thứ tự Hồ sơ</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">Ngày nộp Hồ sơ</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_TITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">Tên</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Họ</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_GENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_NATIONALITY" desc="">Quốc tịch</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_RESIDENCE_COUNTRY" desc="">Quốc gia Cư trú</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_TYPE" desc="">Loại ID</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_BIRTH_DATE" desc="">Ngày sinh</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PLOCALCODE" desc="">Mã Điện thoại Quốc gia</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PHONE" desc="">Số điện thoại</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MLOCALCODE" desc="">Mã Điện thoại Di động Quốc gia</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">Số điện thoại Di động</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_EMAIL" desc="">Email</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_PRIVATE" desc="">Đầu tư với tư cách là Nhà đầu tư Cá nhân</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_REGION" desc="">Vùng, miền</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_CITY" desc="">Thành phố</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_DISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_RESIDENCE_ADDRESS" desc="">Địa chỉ cư trú</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_OCCUPATION" desc="">Công việc/ Cơ quan Hiện tại</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EMPLOYER_NAME" desc="">Tên Người quản lý Hiện tại</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COMPANY_INDUSTRY" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_TRADEPLATFORM" desc="">Ngoài cổ phiếu, anh/chị có sử dụng sàn/phần mềm giao dịch nào để giao dịch các danh mục tài sản khác không?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ASSET" desc="">Nếu có, đó là danh mục tài sản gì?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_YEARSINVESTOR" desc="">Thời gian anh/chị tham gia đầu tư</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISFACTORING" desc="">Anh/chị có quen với dịch vụ bao thanh toán không?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISAUCTION" desc="">Anh/chị có quen với đấu giá không?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISPROVIDER" desc="">Anh/chị có nhà cung cấp dịch vụ môi giới chứng khoán không?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISASSET" desc="">Anh/chị có nhà quản trị tài sản/danh mục đầu tư không?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_MAJOR" desc="">Nguồn thu nhập chính của anh/chị là gì?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EALAST" desc="">Khoản đầu tư ước tính (trừ tài sản) trong năm trước?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EATHIS" desc="">Khoản đầu tư ước tính (trừ tài sản) trong năm nay?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_PLATFORM" desc="">Trung bình mỗi tháng, anh/chị định đầu tư bao nhiêu vào sàn giao dịch này (i-Factor)?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_BUSINESSFROM" desc="">Nếu anh/chị được giới thiệu bởi nhân viên ngân hàng, đó là nhân viên ở bộ phận nào?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">Tên Công ty</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_COMPANY" desc="">Đầu tư với tư cách là công ty/tổ chức</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISREGISTVN" desc="">Công ty có đăng ký kinh doanh ở Việt Nam không?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_COUNTRY" desc="">Quốc gia Công ty đăng ký kinh doanh</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_NUMBER" desc="">Số đăng ký kinh doanh</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TAX_CODE" desc="">Mã số Thuế</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ESTABLISH_DATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ORGANIZATION" desc="">Tổ chức của anh/chị thành lập ở Việt Nam được bao lâu?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_COUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_REGION" desc="">Vùng</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_CITY" desc="">Thành phố</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_DISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_ADDRESS" desc="">Địa chỉ</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_POST_CODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TYPECOMPANY" desc="">Loại Công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINDUSTRY" desc="">Vui lòng ghi rõ ngành nghề hoạt động của công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTURNOVER" desc="">Doanh thu của công ty trong năm trước?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPENGAGED" desc="">Công ty đã từng sử dụng dịch vụ bao thanh đếnán hoặc giao dịch hóa đơn chưa?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPASSET" desc="">Công ty có đầu tư vào các tài sản ngắn hạn không?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPASSET" desc="">Thời hạn của phần lớn tài sản ngắn hạn mà công ty sở hữu?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINVESTMENT" desc="">Khoản đầu tư của công ty vào các tài sản ngắn hạn trong năm trước. Vui lòng chọn N/A nếu không áp dụng</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGE" desc="">Với công ty quản lý quỹ, quản lý tài sản và quản lý đầu tư, khoản đầu tư trung bình vào các tài sản ngắn hạn là bao nhiêu? Vui lòng chọn N/A nếu không áp dụng</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGEPER" desc="">Trung bình mỗi tháng, công ty anh/chị định đầu tư bao nhiêu vào sàn giao dịch này (EntroAuction)?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPBUSINESSFROM" desc="">Nếu anh/chị được giới thiệu bởi nhân viên ngân hàng, đó là nhân viên ở bộ phận nào?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION" desc="">Chức vụ của anh/chị trong công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_ADDRESS" desc="">Địa chỉ Công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_DISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_CITY" desc="">Thành phố</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_REGION" desc="">Vùng, Bang hoặc Tỉnh</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFPOST_CODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">Nếu không, vui lòng ghi rõ thông tin cá nhân của người đại diện</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">Nếu không, vui lòng ghi rõ thông tin cá nhân của người đại diện</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPOPERATE" desc="">Anh/chị có phải người đại diện quản lý việc giao dịch trên sàn này không?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPFNAME" desc="">Tên</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPLNAME" desc="">Họ</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPEMAIL" desc="">Email</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION1" desc="">Vị trí</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPGENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPDOB" desc="">Ngày sinh</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPNATIONALITY" desc="">Quốc tịch</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPRESIDENCE" desc="">Quốc gia Cư trú</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDTYPE" desc="">Loại ID</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDNUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONECODE" desc="">Mã Quốc gia Số điện thoại Công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONE" desc="">Số điện thoại Công ty</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONECODE" desc="">Mã Quốc gia Số điện thoại Di động</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONE" desc="">Số điện thoại Di động</item>
+	</ifactor_buyer_apply>
+	<if_cp_profile>
+		<item id="IF_MGT_CP_PROFILE_CINUMBER" desc="">ID Khách hàng</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANY" desc="">Tên Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYCDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYRNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYTAXCODE" desc="">Mã số Thuế</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYOIN" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANIESTYPE" desc="">Danh sách Ngành nghề Kinh doanh</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYADDRESS" desc="">Địa chỉ Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYREGISTRATION" desc="">Quốc gia Công ty đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_PROFILE_SMECENTERSIGN" desc="">Trung tâm SME Ký Hợp đồng</item>
+		<item id="IF_MGT_CP_PROFILE_BANKACCOUNT" desc="">Số Tài khoản Ngân hàng</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPADDRESS" desc="">Địa chỉ</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPDISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCITY" desc="">Thành phố</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPREIZON" desc="">Vùng, Bang hoặc Tỉnh</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCOUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPPOSTCODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_CP_PROFILE_DAR" desc="">Yêu cầu Xác nhận Người mua hàng</item>
+		<item id="IF_MGT_CP_PROFILE_RATING" desc="">Xếp hạng Rủi ro Tổng thể</item>
+		<item id="IF_MGT_CP_PROFILE_RISKLEVEL" desc="">Xếp hạng Rủi ro</item>
+		<item id="IF_MGT_CP_PROFILE_OILIMIT" desc="">Giá trị Số dư của Hóa đơn</item>
+		<item id="IF_MGT_CP_PROFILE_MIAMOUNT" desc="">Số lượng Hóa đơn Nhỏ nhất</item>
+		<item id="IF_MGT_CP_PROFILE_MAAMOUNT" desc="">Số lượng Hóa đơn Lớn nhất</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICELIMIT" desc="">Hạn mức Tuần hoàn</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS1" desc="">Người mua hàng Đủ điều kiện đầu tiên</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS2" desc="">Người mua hàng Đủ điều kiện thứ hai</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS3" desc="">Người mua hàng Đủ điều kiện thứ ba</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS4" desc="">Người mua hàng Đủ điều kiện thứ tư</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS5" desc="">Người mua hàng Đủ điều kiện thứ năm</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICEAMMOUNT" desc="">Số lượng hóa đơn trung bình của công ty anh/chị hàng năm</item>
+		<item id="IF_MGT_CP_PROFILE_SERIALNUM" desc="">Số se-ri của Token (Chữ ký Điện tử)</item>
+		<item id="IF_MGT_CP_PROFILE_MYTITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_CP_PROFILE_MYFNAME" desc="">Tên</item>
+		<item id="IF_MGT_CP_PROFILE_MYLNAME" desc="">Họ</item>
+		<item id="IF_MGT_CP_PROFILE_MYGENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_CP_PROFILE_MYDOB" desc="">Ngày sinh</item>
+		<item id="IF_MGT_CP_PROFILE_MYNATIONALITY" desc="">Quốc tịch</item>
+		<item id="IF_MGT_CP_PROFILE_MYCOUNTRY" desc="">Quốc gia Cư trú</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDTYPE" desc="">Loại ID</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDNUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_CP_PROFILE_MYPOSITION" desc="">Vị trí</item>
+		<item id="IF_MGT_CP_PROFILE_WLOCALCODE" desc="">Mã Quốc gia Số điện thoại Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_MYWPHONE" desc="">Số điện thoại Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_MLOCALCODE" desc="">Mã Quốc gia Số điện thoại Di động</item>
+		<item id="IF_MGT_CP_PROFILE_MYMPHONE" desc="">Số điện thoại Di động</item>
+		<item id="IF_MGT_CP_PROFILE_MYEMAIL" desc="">Địa chỉ Email</item>
+	</if_cp_profile>
+	<ifactor_buyer_cpprofile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">Invest as</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">Client ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY" desc="">company name</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYCDATE" desc="">Company establishment date</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYRNUMBER" desc="">Company registration number</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYTAXCODE" desc="">Company tax code</item>
+		<item id="IF_MGT_BUYER_PROFILE_TYPECOMPANY" desc="">Company type</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYOIN" desc="">Industry sector</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYADDRESS" desc="">Company address</item>
+		<item id="IF_MGT_BUYER_PROFILE_REGIST_COUNTRY" desc="">Country of registration</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">Bank account number</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">Different mailing address</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">Different mailing address</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_ADDRESS" desc="">Company address</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_CITY" desc="">City</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_REGION" desc="">Region, state or county</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFPOST_CODE" desc="">Postcode</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">Title</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">First name</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">Last name</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">Gender</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">Date of Birth</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">ID type</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">Phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">Mobile phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_POSITION" desc="">Position</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">Email address</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPTURNOVER" desc="">What is the company turnover in last year?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPENGAGED" desc="">Has the company ever engaged in factoring service or traded company invoice?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPASSET" desc="">Does the company invest in short term asset classes?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPASSET" desc="">What is the life of the company's major short term asset class?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPINVESTMENT" desc="">What is the company's investment in short term asset class in last year?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGE" desc="">For fund, asset and investment management firm, what is the average size of fund that the company invests in short term asset class? Please choose N/A if this is not applicable</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGEPER" desc="">On average how much do your company intend to invest on this platform (i-factor) per month?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPBUSINESSFROM" desc="">If you are introduced by Bank staff, which business is he/she from?</item>
+	</ifactor_buyer_cpprofile>
+	<if_cp_apply_add>
+		<item id="IF_MGT_CP_APPLY_APP_PK_ID" desc="">ID Dòng Cam kết</item>
+		<item id="IF_MGT_CP_APPLY_UPDATEDDATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_CP_APPLY_SA_APPLY_CODE" desc="">Số thứ tự Hồ sơ</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Ngày tạo Hồ sơ</item>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">Tên</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Họ</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDERID" desc="">Giới tính</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_CP_APPLY_MYDOB" desc="">Ngày sinh</item>
+		<item id="IF_MGT_CP_APPLY_MYNATIONALITY" desc="">Quốc tịch</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRYID" desc="">Quốc gia Cư trú</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRY" desc="">Quốc gia Cư trú</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPEID" desc="">Loại ID</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPE" desc="">Loại ID</item>
+		<item id="IF_MGT_CP_APPLY_MYIDNUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_CP_APPLY_WLOCALCODE" desc="">Mã Quốc gia Số điện thoại Công ty</item>
+		<item id="IF_MGT_CP_APPLY_MYWPHONE" desc="">Số điện thoại Công ty</item>
+		<item id="IF_MGT_CP_APPLY_MLOCALCODE" desc="">Mã Quốc gia Số điện thoại Di động</item>
+		<item id="IF_MGT_CP_APPLY_MYMPHONE" desc="">Số điện thoại Di động</item>
+		<item id="IF_MGT_CP_APPLY_MYPOSITION" desc="">Vị trí</item>
+		<item id="IF_MGT_CP_APPLY_MYEMAIL" desc="">Email</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Tên Công ty</item>
+		<item id="IF_MGT_CP_APPLY_ISCOMVIETNAM" desc="">Công ty có đăng ký kinh doanh ở Việt Nam không?</item>
+		<item id="IF_MGT_CP_APPLY_CPRCOUNTRY" desc="">Quốc gia Công ty đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_APPLY_CPDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPE" desc="">Danh sách Ngành nghề Doanh nghiệp</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPEID" desc="">Danh sách Ngành nghề Doanh nghiệp</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTORID" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTOR" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_CP_APPLY_CPTAXCODE" desc="">Mã số Thuế</item>
+		<item id="IF_MGT_CP_APPLY_CPADDRESS" desc="">Địa chỉ Công ty</item>
+		<item id="IF_MGT_CP_APPLY_CPDISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_CP_APPLY_CPCITY" desc="">Thành phố</item>
+		<item id="IF_MGT_CP_APPLY_CPREIZON" desc="">Vùng, Bang hoặc Tỉnh</item>
+		<item id="IF_MGT_CP_APPLY_CPCOUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_CP_APPLY_CPPOSTCODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_CP_APPLY_NEARESTSIGN" desc="">Vui lòng chọn trung tâm SME gần nhất anh/chị muốn đến để ký hợp đồng</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Địa chỉ khác</item>
+		<item id="IF_MGT_CP_APPLY_DFCPADDRESS" desc="">Địa chỉ</item>
+		<item id="IF_MGT_CP_APPLY_DFCPDISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCITY" desc="">Thành phố</item>
+		<item id="IF_MGT_CP_APPLY_DFCPREIZON" desc="">Vùng, Bang hoặc Tỉnh</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCOUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_CP_APPLY_DFCPPOSTCODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS1" desc="">Người mua hàng Đủ điều kiện đầu tiên</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS2" desc="">Người mua hàng Đủ điều kiện thứ hai</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS3" desc="">Người mua hàng Đủ điều kiện thứ ba</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS4" desc="">Người mua hàng Đủ điều kiện thứ tư</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS5" desc="">Người mua hàng Đủ điều kiện thứ năm</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS1" desc="">Người mua hàng đầu tiên không có trên Danh sách</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS2" desc="">Người mua hàng thứ hai không có trên Danh sách</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS3" desc="">Người mua hàng thứ ba không có trên Danh sách</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS4" desc="">Người mua hàng thứ tư không có trên Danh sách</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS5" desc="">Người mua hàng thứ năm không có trên Danh sách</item>
+		<item id="IF_MGT_CP_APPLY_INVOICEAMMOUNT" desc="">Số lượng hóa đơn trung bình của công ty anh/chị hàng năm</item>
+		<item id="IF_MGT_CP_APPLY_SERIALNUM" desc="">Nếu anh/chị có token để sử dụng chữ ký điện tử, vui lòng nhập chính xác số se-ri trên token</item>
+		<item id="IF_MGT_CP_APPLY_DATAMODIFY" desc="">Chỉnh sửa</item>
+	</if_cp_apply_add>
+	<ifactor_buyer_profile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">Loại nhà đầu tư</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">ID khách hàng</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">Tên</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">Họ</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">Ngày sinh</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">Quốc tịch</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">Quốc gia cư trú</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">Loại ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_ADDRESS" desc="">Địa chỉ</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">Số điện thoại công ty</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">Số điện thoại di động</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">Địa chỉ Email</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">Số tài khoản ngân hàng</item>
+		<item id="IF_MGT_BUYER_PROFILE_OCCUPATION" desc="">Công việc</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_NAME" desc="">Tên người quản lý</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY_INDUSTRY" desc="">Ngành nghề kinh doanh của công ty</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_ADDRESS" desc="">Cơ quan Hiện tại</item>
+		<item id="IF_MGT_BUYER_PROFILE_TRADEPLATFORM" desc=""> Ngoài cổ phiếu, anh/chị có sử dụng sàn/phần mềm giao dịch nào để giao dịch các danh mục tài sản khác không?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ASSET" desc="">Nếu có, đó là danh mục tài sản gì?</item>
+		<item id="IF_MGT_BUYER_PROFILE_YEARSINVESTOR" desc=""> Thời gian anh/chị tham gia đầu tư</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISFACTORING" desc="">Anh/chị có quen với dịch vụ bao thanh toán không?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISAUCTION" desc="">Anh/chị có quen với đấu giá không?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISPROVIDER" desc="">Anh/chị có nhà cung cấp dịch vụ môi giới chứng khoán không?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISASSET" desc="">Anh/chị có nhà quản trị tài sản/danh mục đầu tư không?</item>
+		<item id="IF_MGT_BUYER_PROFILE_MAJOR" desc="">Nguồn thu nhập chính của anh/chị là gì?</item>
+		<item id="IF_MGT_BUYER_PROFILE_EALAST" desc="">Khoản đầu tư ước tính (trừ tài sản) trong năm trước?</item>
+		<item id="IF_MGT_BUYER_PROFILE_EATHIS" desc="">Khoản đầu tư ước tính (trừ tài sản) trong năm nay?</item>
+		<item id="IF_MGT_BUYER_PROFILE_PLATFORM" desc="">Trung bình mỗi tháng, anh/chị định đầu tư bao nhiêu vào sàn giao dịch này (EntroAuction)?</item>
+		<item id="IF_MGT_BUYER_PROFILE_BUSINESSFROM" desc="">Nếu anh/chị được giới thiệu bởi nhân viên Ngân hàng, đó là nhân viên ở bộ phận nào?</item>
+	</ifactor_buyer_profile>
+	<ifactor_buyer_flow_firstcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho Khách hàng</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_buyer_flow_firstcheck_opinion>
+	<ifactor_buyer_flow_doublecheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Tên Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho Khách hàng</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_buyer_flow_doublecheck_opinion>
+	<ifactor_buyer_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Ý kiến</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Tên Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_buyer_flow_blacklistcheck_opinion>
+	<ifactor_buyer_flow_buyerconfirm_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Tên Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_buyer_flow_buyerconfirm_opinion>
+	<if_buyer_flow_documentsign_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_NAME" desc="">Tên Khách hàng</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IDCARD" desc="">Số ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BANKACCOUNT" desc="">Số Tài khoản Ngân hàng</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BALANCE" desc="">Số dư tài khoản</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</if_buyer_flow_documentsign_opinion>
+	<ifactor_buyer_flow_documentcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Tên Quyết định</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_buyer_flow_documentcheck_opinion>
+	<ifactor_buyer_flow_cs_record_add>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_REMARK" desc="">Đánh dấu</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_APPLY_CODE" desc="">Số Hồ sơ</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_INS_ID" desc="">ID Khởi tạo</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_A_ID" desc="">ID Trạng thái</item>
+	</ifactor_buyer_flow_cs_record_add>
+	<ifactor_invoice_delivery_apply>
+		<item id="IF_MGT_INVOICE_APPLY_ISVERIFICATION" desc="">Original Invoice Check Result</item>
+		<item id="IF_MGT_INVOICE_APPLY_APP_PK_ID" desc="">ID Ràng buộc</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CODE" desc="">Số thứ tự nộp Hóa đơn</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">Ngày nộp Hóa Đơn</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">Advance Rate(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">Interest Rate(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLESTART" desc="">Ngày bắt đầu Đấu giá</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLEEND" desc="">Ngày gỡ Hóa đơn</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Tên công ty</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_TITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Đại diện</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Tên Người mua hàng</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_ADDRESS" desc="">Địa chỉ</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DISTRICT" desc="">Quận</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_CITY" desc="">Thành phố</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGION" desc="">Vùng/Miền</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_COUNTRY" desc="">Quốc gia</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_POSTCODE" desc="">Mã Bưu điện</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGIST_NO" desc="">Số Đăng kí Kinh doanh</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_TAX_CODE" desc="">Mã số Thuế</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">ID nhãn dán của hóa đơn</item>
+		<item id="IF_MGT_INVOICE_FINANC_SERIAL_NUMBER" desc="">Số Seri của Hóa đơn</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">Mã số Hóa đơn VAT</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_ISSUANCE_DATE" desc="">Ngày phát hành Hóa đơn</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_OBJECT" desc="">Mục đích cỉa Hóa đơn</item>
+		<item id="IF_MGT_INVOICE_FINANC_DUE_DATE" desc="">Thời hạn theo Hợp đồng</item>
+		<item id="IF_MGT_INVOICE_FINANC_EXPECTED_PAYMENT_DATE" desc="">Ngày thanh toán dự kiến</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">Remaining Term to Maturity(Days)</item>
+	</ifactor_invoice_delivery_apply>
+	<ifactor_invoice_delivery_flow_firstcheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho Khách hàng</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID Người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên Người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã Người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên Người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_firstcheck_opinion>
+	<ifactor_invoice_delivery_flow_manualprogress_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">Lý do từ chối</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">Tên lý do từ chối</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã của người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên của người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_manualprogress_opinion>
+	<ifactor_invoice_delivery_flow_doublecheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho khách hàng</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã của người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên của người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_doublecheck_opinion>
+	<ifactor_invoice_delivery_flow_doublemanual_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">Lý do từ chối</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">Tên lý do từ chối</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLEDATE" desc="">Ngày gỡ hóa đơn xuống</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLE" desc="">Thời gian hóa đơn trong đấu giá</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã cùa người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên của người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_doublemanual_opinion>
+	<ifactor_invoice_delivery_flow_check_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã của người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên của người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_check_opinion>
+	<ifactor_invoice_delivery_flow_oriver_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT_VAL" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Mã của người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Tên của người dùng đảm nhận</item>
+	</ifactor_invoice_delivery_flow_oriver_opinion>
+	<ifactor_invoice_flow_cs_record_add>
+		<item id="IF_MGT_INVOICE_CS_RECORD_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_REMARK" desc="">Đánh dấu</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_APPLY_CODE" desc="">Số hồ sơ.</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_INS_ID" desc="">Instance ID</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_A_ID" desc="">Activity ID</item>
+	</ifactor_invoice_flow_cs_record_add>
+	<ifactor_invoice_auction_view>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">Invoice ID</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Seller Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_RISKLEVEL" desc="">Seller Risk</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debter Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_DAR" desc="">Debtor Ac</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">Remaining Term</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">Ready to sell advance%</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">Ready to sell interest</item>
+		<item id="ifactor_invoice_auction_view_documents" desc="">Check doc</item>
+		<item id="ifactor_invoice_auction_view_Minimum Price" desc="">Minimum Price</item>
+		<item id="ifactor_invoice_auction_view_Index Rate" desc="">Index Rate</item>
+	</ifactor_invoice_auction_view>
+	<if_cp_fs_add>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">Số đăng ký kinh doanh</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">Khách hàng</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">Số CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">Loại báo cáo</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">Tính chất báo cáo</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">Năm</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">Thời gian</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">Đơn vị</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">Tỷ giá</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">Tên công ty kiểm toán</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">Năm N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">Tài sản ngắn hạn(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">Tiền và các khoản tương đương tiền(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">Tiền(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">Các khoản tương đương tiền(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">Các khoản đầu tư tài chính ngắn hạn(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">Đầu tư ngăn hạn(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">Dự phòng giảm giá đầu tư ngắn hạn (*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">Các khoản phải thu ngắn hạn(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">Phải thu khách hàng(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">Trả trước cho người bán(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">Phải thu Nội bộ ngắn hạn(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">Phải thu theo tiến độ kế hoạch hợp đồng xây dựng(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">Các khoản phải thu khác(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">Dự phòng phải thu ngắn hạn khó đòi (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">Hàng tồn kho(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">Hàng tồn kho(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">Dự phòng giảm giá hàng tồn kho (*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">Tài sản ngắn hạn khác(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">Chi phí trả trước ngắn hạn(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">Thuế GTGT được khấu trừ(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc=""> Thuế và các khoản khác phải thu Nhà Nước(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">Tài sản ngắn hạn khác(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">Tài sản dài hạn(200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">Long-term receivables(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">Phải thu dài hạn của khách hàng(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">Vốn kinh doanh ở đơn vị trực thuộc(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">Phải thu dài hạn Nội bộ(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">Phải thu dài hạn khác(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">Dự phòng phải thu dài hạn khó đòi (*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">Tài sản cố định(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">Tài sản cố định hữu hình(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">Nguyên giá(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">Giá trị hao mòn lũy kế (*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">Tài sản cố định thuê tài chính(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">Nguyên giá(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">Giá trị hao mòn lũy kế (*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc="">Tài sản cố định vô hình(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">Nguyên giá(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">Giá trị hao mòn lũy kế (*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">Chi phí xây dựng cơ bản dở dang(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">Bất động sản đầu tư(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">Nguyên giá(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">Giá trị hao mòn lũy kế (*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">Các khoản đầu tư tài chính dài hạn(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">Đầu tư vào công ty con(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">Đầu tư vào công ty liên kết, liên doanh(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">Đầu tư dài hạn khác(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">Dự phòng giảm giá đầu tư tài chính dài hạn (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">Tài sản dài hạn khác(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">Chi phí trả trước dài hạn(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">Tài sản thuế thu nhập hoãn lại(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">Tài sản dài hạn khác(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">Lợi thế thương mại(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">Tổng cộng tài sản(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">Nợ phải trả(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">Nợ ngắn hạn(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">Vay và nợ ngắn hạn(311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">Nợ dài hạn đến hạn thanh toán(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">Phải trả người bán(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">Người mua trả tiền trước(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">Thuế và các khoản phải nộp Nhà Nước(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">Phải trả người lao động(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc="">Chi phí phải trả(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">Phải trả Nội bộ(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc=""> Phải trả theo tiến độ kế hoạch hợp đồng xây dựng(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">Các khoản phải trả, phải nộp ngắn hạn khác(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">Dự phòng phải trả ngắn hạn(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">Quỹ khen thưởng phúc lợi(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">Nợ dài hạn(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">Phải trả dài hạn người bán(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">Phải trả dài hạn Nội bộ(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">Phải trả dài hạn khác(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">Vay và nợ dài hạn(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">Thuế thu nhập hoãn lại phải trả(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">Dự phòng trợ cấp mất việc làm(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">Dự phòng phải trả dài hạn(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">Doanh thu chưa thực hiện(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">Quỹ phát triển khoa học công nghệ(339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">Vốn chủ sở hữu(400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">Vốn chủ sở hữu(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc="">Vốn đầu tư của chủ sở hữu(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">Thặng dư vốn cổ phần(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">Vốn khác của chủ sở hữu(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc=""> Cổ phiếu quỹ (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">Chênh lệch đánh giá lại tài sản(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">Chênh lệch tỷ giá hối đoái(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">Quỹ đầu tư phát triển(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">Quỹ dự phòng tài chính(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">Quỹ khác thuộc vốn chủ sở hữu(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">Lợi nhuận sau thuế chưa phân phối(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">Nguồn vốn đầu tư XDCB(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">Quỹ hỗ trợ sắp xếp doanh nghiệp(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">Nguồn kinh phí và quỹ khác(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc=""> Nguồn kinh phí(432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">Nguồn kinh phí đã hình thành TSCĐ(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">Lợi ích cổ đông thiểu số(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">Tổng cộng nguồn vốn(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc=""> Tổng cộng Tài sản - Tổng cộng Nguồn vốn(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">Doanh thu bán hàng và cung cấp dịch vụ(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">Các khoản giảm trừ doanh thu (*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">Doanh thu thuần về bán hàng và cung cấp dịch vụ(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">Giá vốn hàng bán (*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">Lợi nhuận gộp về bán hàng và cung cấp dịch vụ(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">Doanh thu hoạt động tài chính(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">Chi phí tài chính (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">Chi phí lãi vay (*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc="">Chi phí bán hàng (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">Chi phí quản lý doanh nghiệp (*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">Cổ tức(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc=""> Lợi nhuận thuần từ hoạt động kinh doanh(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc="">Thu nhập khác(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">Chi phí khác (*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">Lợi nhuận khác(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">Lãi/lỗ từ Công ty Liên kết, Liên doanh(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">Tổng lợi nhuận kế toán trước thuế (50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">Chi phí thuế TNDN hiện hành (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">Chi phí thuế TNDN hoãn lại(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">Lợi nhuận sau thuế thu nhập doanh nghiệp(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">Lãi cơ bản trên cổ phiếu(70)</item>
+	</if_cp_fs_add>
+	<if_cp_fs_add1>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">Số đăng kí kinh doanh</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">Khách hàng</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">Số CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">Loại báo cáo</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">Tính chất báo cáo</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">Năm</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">Thời gian</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">Đơn vị</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">Tỷ giá</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">Tên công ty kiểm toán</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">Năm N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">Tài sản ngắn hạn(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">Tiền và các khoản tương đương tiền(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">Tiền(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">Các khoản tương đương tiền(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">Các khoản đầu tư tài chính ngắn hạn(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">Đầu tư ngắn hạn(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">Dự phòng giảm giá đầu tư ngắn hạn (*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">Các khoản phải thu ngắn hạn(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">Phải thu khách hàng(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">Trả trước cho người bán(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">Phải thu Nội bộ ngắn hạn(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">Phải thu theo tiến độ kế hoạch hợp đồng xây dựng(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">Các khoản phải thu khác(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">Dự phòng phải thu ngắn hạn khó đòi (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">Hàng tồn kho(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">Hàng tồn kho(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">Dự phòng giảm giá hàng tồn kho (*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">Tài sản ngắn hạn khác(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">Chi phí trả trước ngắn hạn(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">Thuế GTGT được khấu trừ(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc="">Thuế và các khoản khác phải thu Nhà nước(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">Tài sản ngắn hạn khác(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">Tài sản dài hạn (200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">Các khoản phải thu dài hạn(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">Phải thu dài hạn của khách hàng(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">Vốn kinh doanh ở đơn vị trực thuộc(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">Phải thu dài hạn Nội bộ(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">Phải thu dài hạn khác(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">Dự phòng phải thu dài hạn khó đòi (*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">Tài sản cố định(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">Tài sản cố định hữu hình(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">Nguyên giá(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">Giá trị hao mòn luỹ kế (*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">Tài sản cố định thuê tài chính(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">Nguyên giá(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">Giá trị hao mòn luỹ kế (*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc="">Tài sản cố định vô hình(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">Nguyên giá(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">Giá trị hao mòn luỹ kế (*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">Chi phí xây dựng cơ bản dở dang(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">Bất động sản đầu tư(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">Nguyên giá(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">Giá trị hao mòn luỹ kế (*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">Các khoản đầu tư tài chính dài hạn(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">Đầu tư vào công ty con(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">Đầu tư vào công ty liên kết, liên doanh(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">Đầu tư dài hạn khác(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">Dự phòng giảm giá đầu tư tài chính dài hạn (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">Tài sản dài hạn khác(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">Chi phí trả trước dài hạn(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">Tài sản thuế thu nhập hoãn lại(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">Tài sản dài hạn khác(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">Lợi thế thương mại(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">Tổng cộng tài sản(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">Nợ phải trả(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">Nợ ngắn hạn(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">Vay và nợ ngắn hạn(311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">Nợ dài hạn đến hạn thanh toán(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">Phải trả người bán(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">Người mua trả tiền trước(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">Thuế và các khoản phải nộp Nhà nước(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">Phải trả người lao động(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc="">Chi phí phải trả(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">Phải trả Nội bộ(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc="">Phải trả theo tiến độ kế hoạch hợp đồng xây dựng(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">Các khoản phải trả, phải nộp ngắn hạn khác(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">Dự phòng phải trả ngắn hạn(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">Quỹ khen thưởng phúc lợi(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">Nợ dài hạn(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">Phải trả dài hạn người bán(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">Phải trả dài hạn Nội bộ(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">Phải trả dài hạn khác(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">Vay và nợ dài hạn(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">Thuế thu nhập hoãn lại phải trả(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">Dự phòng trợ cấp mất việc làm(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">Dự phòng phải trả dài hạn(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">Doanh thu chưa thực hiện(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">Quỹ phát triển khoa học công nghệ(339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">Vốn chủ sở hữu(400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">Vốn chủ sở hữu(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc="">Vốn chủ sở hữu(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">Thặng dư vốn cổ phần(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">Vốn khác của chủ sở hữu(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc="">Cổ phiếu quỹ  (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">Chênh lệch đánh giá lại tài sản(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">Chênh lệch tỷ giá hối đoái(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">Quỹ đầu tư phát triển(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">Quỹ dự phòng tài chính(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">Quỹ khác thuộc vốn chủ sở hữu(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">Lợi nhuận sau thuế chưa phân phối(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">Nguồn vốn đầu tư XDCB(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">Quỹ hỗ trợ sắp xếp doanh nghiệp(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">Nguồn kinh phí và quỹ khác(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc="">Nguồn kinh phí(432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">Nguồn kinh phí đã hình thành TSCĐ(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">Lợi ích cổ đông thiểu số(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">Tổng cộng Nguồn vốn(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc="">Tổng cộng Tài sản-Tổng cộng Nguồn vốn(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">Doanh thu bán hàng và cung cấp dịch vụ(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">Các khoản giảm trừ doanh thu (*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">Doanh thu thuần về bán hàng và cung cấp dịch vụ(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">Giá vốn hàng bán (*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">Lợi nhuận gộp về bán hàng và cung cấp dịch vụ(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">Doanh thu hoạt động tài chính(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">Chi phí tài chính (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">Chi phí lãi vay (*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc=""> Chi phí bán hàng (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">Chi phí quản lý doanh nghiệp (*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">Cổ tức(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc="">Lợi nhuận thuần từ hoạt động kinh doanh(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc="">Thu nhập khác(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">Chi phí khác (*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">Lợi nhuận khác(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">Lãi/lỗ từ Công ty liên kết, liên doanh(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">Tổng lợi nhuận kế toán trước thuế(50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">Chi phí thuế TNDN hiện hành (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">Chi phí thuế TNDN hoãn lại(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">Lợi nhuận sau thuế thu nhập doanh nghiệp(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">Lãi cơ bản trên cổ phiếu(70)</item>
+	</if_cp_fs_add1>
+	<ifactor_fs_equation>
+		<item id="IF_MGT_FS_EQUATION_CATEGORYID" desc="">ID Danh mục Chấm điểm</item>
+		<item id="IF_MGT_FS_EQUATION_DIVISORFIELD" desc="">Thiết lập &quot;chia cho 0&quot;</item>
+	</ifactor_fs_equation>
+	<if_scoring_equation>
+		<item id="IF_MGT_SCORING_EQUATION_EQUATIONDES" desc="">Mô tả Phương trình Tính điểm</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUM" desc="">Tối đa</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUMOPE" desc="">Hoạt động Tương ứng Giá trị Lớn nhất</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUM" desc="">Tối thiểu</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUMOPE" desc="">Hoạt động Tương ứng Giá trị Nhỏ nhất</item>
+		<item id="IF_MGT_SCORING_EQUATION_SCORE" desc="">Điểm</item>
+	</if_scoring_equation>
+	<if_scoring_items_add>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_ID" desc="">ID Loại Báo cáo Tài chính</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">Tên loại Báo cáo Tài chính</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_CODE" desc="">Mã Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">Tên Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE" desc="">Loại Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">Loại Tham số(1:Hằng số，2：Công thức)</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">Giá trị Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">Chức năng Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">Tên Trường dữ liệu</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">Tên Mã</item>
+	</if_scoring_items_add>
+	<if_scoring_items_edit>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">Tên loại Báo cáo Tài chính</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">Tên Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">Loại Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">Giá trị Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">Chức năng Tham số</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">Tên Trường dữ liệu</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">Tên Mã</item>
+	</if_scoring_items_edit>
+	<if_scoring_rating_add>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE_VAL" desc="">Loại hình Doanh nghiệp</item>
+		<item id="IF_MGT_SCORING_RATING_RATING" desc="">Xếp hạng Khung đánh giá tổng thể</item>
+		<item id="IF_MGT_SCORING_RATING_PDLOW" desc="">Xác suất vỡ nợ thấp</item>
+		<item id="IF_MGT_SCORING_RATING_PDHIGH" desc="">Xác suất vỡ nợ cao</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL" desc="">Xếp hạng rủi ro</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL_VAL" desc="">Giá trị xếp hạng rủi ro</item>
+	</if_scoring_rating_add>
+	<if_cp_cic>
+		<item id="IF_MGT_CP_CIC_NCIF" desc="">Không có thông tin từ trung tâm thông tin tín dụng CIC</item>
+		<item id="IF_MGT_CP_CIC_NCIFLABEL" desc="">Không có thông tin từ trung tâm thông tin tín dụng CIC</item>
+		<item id="IF_MGT_CP_CIC_CICKO1" desc="">Nợ xấu (nhóm 3-5) trong vòng 12 tháng qua</item>
+		<item id="IF_MGT_CP_CIC_CICKO1LABEL" desc="">Nợ xấu (nhóm 3-5) trong vòng 12 tháng qua</item>
+		<item id="IF_MGT_CP_CIC_CICKO2" desc="">Nợ nhóm 2 tại thời điểm nộp hồ sơ</item>
+		<item id="IF_MGT_CP_CIC_CICKO2LABEL" desc="">Nợ nhóm 2 tại thời điểm nộp hồ sơ</item>
+		<item id="IF_MGT_CP_CIC_CICKO3" desc="">Số lần Khách hàng phát sinh nợ nhóm 2 trong vòng 12 tháng qua</item>
+		<item id="IF_MGT_CP_CIC_TSTATEMENT" desc="">Số Tổ chức Tín dụng Khách hàng có dư nợ</item>
+	</if_cp_cic>
+	<if_scoring_result>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY1" desc="">Tỷ số Lợi nhuận trước Thuế và Lãi vay trên Nợ dài hạn và Vốn CHủ sở hữu</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY2" desc="">Tỷ số Lợi nhuận trước Thuế và Chi phí Tài chính trên Doanh thu thuần về bán hàng và cung cấp dịch vụ</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY3" desc="">Chỉ số Hiệu quả hoạt động</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY4" desc="">Tỷ số Doanh thu thuần về bán hàng và cung cấp dịch vụ trên Tài sản Ngắn hạn</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY5" desc="">Hệ số Khả năng thanh toán Khoản vay </item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY6" desc="">Tỷ số Vay và Nợ dài hạn trên Vốn Chủ sở hữu</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY7" desc="">Quy mô</item>
+		<item id="IF_MGT_SCORING_RESULT_LENDERSNUMBER" desc="">Thông tin Tín dụng</item>
+		<item id="IF_MGT_SCORING_RESULT_RESULT" desc="">Tổng số điểm</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVELLABEL" desc="">Xếp hạng Rủi ro</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVEL" desc="">Xếp hạng Rủi ro</item>
+	</if_scoring_result>
+	<if_sme_flow_firstcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho Khách hàng</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_firstcheck_opinion>
+	<if_sme_flow_doublecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Ý kiến</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">Đánh dấu cho Khách hàng</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_doublecheck_opinion>
+	<if_sme_flow_licensecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_licensecheck_opinion>
+	<if_sme_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_blacklistcheck_opinion>
+	<if_sme_flow_ciccheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_ciccheck_opinion>
+	<if_sme_flow_eligibilitycheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_eligibilitycheck_opinion>
+	<if_sme_flow_mapscore_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Khuyến nghị</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_mapscore_opinion>
+	<if_sme_flow_doublecheckverify_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc=""> Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_doublecheckverify_opinion>
+	<if_sme_flow_fscheckreview_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc=""> Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_fscheckreview_opinion>
+	<if_sme_flow_fieldvisit_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc=""> Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_fieldvisit_opinion>
+	<if_sme_flow_assign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ASSIGNTO" desc="">Chỉ định đến</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_assign_opinion>
+	<if_sme_flow_documentsign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_NAME" desc="">Tên Khách hàng</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IDCARD" desc=""> Số ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BANKACCOUNT" desc="">Số Tài khoản Ngân hàng</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BALANCE" desc="">Số dư Tài khoản</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_documentsign_opinion>
+	<if_sme_flow_doublecheckfvdoc_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc=""> Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_doublecheckfvdoc_opinion>
+	<if_sme_flow_assesresult_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc=""> Tên quyết định</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Các mục có vấn đề</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Đánh dấu cho sử dụng Nội bộ</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+	</if_sme_flow_assesresult_opinion>
+	<ifactor_seller_flow_cs_record_add>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_REMARK" desc="">Đánh dấu</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_ID" desc="">ID đảm nhận</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_NAME" desc="">Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_ID" desc="">Org. Mã người dùng đảm nhận</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_NAME" desc="">Org. Tên người dùng đảm nhận</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_APPLY_ID" desc="">Số Hồ sơ</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_INS_ID" desc="">Instance ID</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_A_ID" desc="">ID Hoạt động</item>
+	</ifactor_seller_flow_cs_record_add>
+	<if_mgt_vpbank_user_edit>
+		<item id="IF_MGT_VPBANK_USER_LOGIN_NAME" desc="">Tên Đăng nhập</item>
+		<item id="IF_MGT_VPBANK_USER_PASSWORD" desc="">Mật khẩu</item>
+		<item id="IF_MGT_VPBANK_USER_CREATE_TIME" desc="">Ngày tạo</item>
+		<item id="IF_MGT_VPBANK_USER_UPDATE_TIME" desc="">Lần cập nhật gần nhất</item>
+		<item id="IF_MGT_VPBANK_USER_STATUS" desc="">Trạng thái</item>
+		<item id="IF_MGT_VPBANK_USER_TITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_VPBANK_USER_FIRST_NAME" desc="">Tên</item>
+		<item id="IF_MGT_VPBANK_USER_LAST_NAME" desc="">Họ</item>
+		<item id="IF_MGT_VPBANK_USER_GENDER" desc="">Giới tính</item>
+		<item id="IF_MGT_VPBANK_USER_POSITION" desc="">Vị trí</item>
+		<item id="IF_MGT_VPBANK_USER_EMAIL" desc="">Email</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_COUNTRY_CODE" desc="">Số điện thoại Di động bao gồm Mã Quốc gia</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_PHONE" desc="">Số điện thoại di động</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_COUNTRY_CODE" desc="">Số điện thoại Công ty bao gồm Mã Quốc gia</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_PHONE" desc="">Số điện thoại Công ty</item>
+		<item id="IF_MGT_VPBANK_USER_DEFAULT_LOCALE" desc="">Vị trí Mặc định</item>
+	</if_mgt_vpbank_user_edit>
+	<ifactor_invoice_oriver>
+		<item id="IF_MGT_INVOICE_ORIVER_APP_PK_ID" desc="">Binding line id</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CODE" desc="">Submission No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_ADVANCE" desc="">Advance Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_INTEREST" desc="">Interest Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLESTART" desc="">Auction Start Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLEEND" desc="">Delisting Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_TITLE" desc="">Title</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_USER" desc="">Represented by</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_CITY" desc="">City</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGION" desc="">Region, State or County</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_POSTCODE" desc="">Post Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_TAX_CODE" desc="">Tax Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_SERIAL_NUMBER" desc="">Serial Number of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_NUMBER" desc="">VAT Invoice Number</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_ISSUANCE_DATE" desc="">Invoice Issuance Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_OBJECT" desc="">Object of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_DUE_DATE" desc="">Due Date According to the Contract</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_EXPECTED_PAYMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_REMAINING_TERM" desc="">Remaining Term to Maturity(Days)</item>
+	</ifactor_invoice_oriver>
+	<ifactor_invoice_original_verification_opinion>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_original_verification_opinion>
+</wordbook>

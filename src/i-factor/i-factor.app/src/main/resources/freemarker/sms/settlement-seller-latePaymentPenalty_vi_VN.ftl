@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don so <000000> da bi cham thanh toan xx ngay, quy khach se bi thu phi cham tra va lai suat theo quy dinh trong hop dong. Vui long kiem tra chi tiet tren website hoac lien he <hotline>

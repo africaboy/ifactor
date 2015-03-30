@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<extframe-module>
+		<item id="businessHandling">Business Handling</item>
+		<item id="customerServiceMonitor">Customer Service Monitor</item>
+		<item id="flowMonitor">Flow Monitor</item>
+		<item id="systemSetting">System Setting</item>
+		<item id="clientProfiles">Client Profiles</item>
+		<item id="reportingTemplates">Reporting Templates</item>
+	</extframe-module>
+	<extframe-menu>
+		<item id="businessHandling-01">Buyer Underwriting Task List</item>
+		<item id="businessHandling-02">Buyer Approval Task List</item>
+		<item id="businessHandling-03">Buyer Signing Task List</item>
+		<item id="businessHandling-04">Invoice Underwriting Task List</item>
+		<item id="businessHandling-05">Invoice Approval Task List</item>
+		<item id="businessHandling-06">SME Underwriting Task List</item>
+		<item id="businessHandling-07">SME Approval Task List</item>
+		<item id="businessHandling-08">SME Signing Task List</item>
+		<item id="businessHandling-09">SME FV List</item>
+		<item id="businessHandling-10">SME FV Report Checking Task</item>
+		<item id="businessHandling-11">SME FV Staff Assignment Task List</item>
+		<item id="businessHandling-12">Buyer Verification Task List</item>
+		<item id="businessHandling-13">Invoice Ready for Auction List</item>
+		<item id="customerServiceMonitor-01">Buyer Approval Flow CS Monitor</item>
+		<item id="customerServiceMonitor-02">Invoice Approval Flow CS Monitor</item>
+		<item id="customerServiceMonitor-03">SME Approval Flow CS Monitor</item>
+		<item id="customerServiceMonitor-04">SME Approval Flow CS Reminder</item>
+		<item id="flowMonitor-01">Buyer Approval Flow Monitor</item>
+		<item id="flowMonitor-02">Invoice Approval Flow Monitor</item>
+		<item id="flowMonitor-03">SME Approval Flow Monitor</item>
+		<item id="flowMonitor-04">SME Approval Flow Monitor</item>
+		<item id="flowMonitor-05">Invoice Approval Flow Monitor</item>
+		<item id="flowMonitor-06">Buyer Approval Flow Monitor</item>
+		<item id="flowMonitor-07">SME Approval Flow Monitor</item>
+		<item id="flowMonitor-08">Invoice Approval Flow Monitor</item>
+		<item id="flowMonitor-09">Buyer Approval Flow Monitor</item>
+		<item id="systemSetting-01">Image Item Setting</item>
+		<item id="systemSetting-02">Blacklist Data Import</item>
+		<item id="systemSetting-03">Scorecard Item List</item>
+		<item id="systemSetting-04">Scorecard Rating Info List</item>
+		<item id="systemSetting-05">Data Field Relationship List</item>
+		<item id="systemSetting-06">Auction Rule Maintenance</item>
+		<item id="systemSetting-07">Invoice Amount Limit Maintenance</item>
+		<item id="systemSetting-08">Bank User List</item>
+		<item id="systemSetting-09">System Params Setting</item>
+		<item id="clientProfiles-01">SME Information List</item>
+		<item id="clientProfiles-02">Buyer Information List</item>
+		<item id="report-01">Aggregate Invoice Report</item>
+		<item id="report-02">Seller Detail Report</item>
+		<item id="report-03">Seller By Type Report</item>
+		<item id="report-04">Unfunded Invoice Report</item>
+		<item id="report-05">Disbursed Invoice Report</item>
+		<item id="report-06">Buyer Detail Report</item>
+		<item id="report-07">Buyer By Type Report</item>
+		<item id="report-08">Debtor detail report</item>
+		<item id="report-09">Debtor Overdue Report</item>
+		<item id="report-10">Overdue By Type And Uploaded Date Report</item>
+		<item id="report-11">Overdue By Type And Settlement Date Report</item>
+		<item id="report-12">Overdue Detail Report</item>
+		<item id="report-13">Invoice Fee Report</item>
+		<item id="report-14">Interest Payment Report</item>
+		<item id="report-15">Late Interest Payment Report</item>
+		<item id="report-16">TFI Of Sellers by Region Report</item>
+		<item id="report-17">TFI Of Sellers By Segment Report</item>
+		<item id="report-18">TFI Of Sellers By Rating Report</item>
+		<item id="report-19">TFI Of Buyers By Region Report</item>
+		<item id="report-20">TFI By Buyer Type Report</item>
+		<item id="report-21">Debtor Payment History Report</item>
+		<item id="report-22">Buyer Payment History Report</item>
+	</extframe-menu>
+</wordbook>

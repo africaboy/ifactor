@@ -1,0 +1,25 @@
+[ {
+  "name" : "ADMIN"
+}, {
+  "name" : "SELLER"
+}, {
+  "name" : "BUYER"
+}, {
+  "name" : "VPBANK"
+}, {
+  "name" : "PRE_SELLER"
+}, {
+  "name" : "PRE_BUYER"
+}, {
+  "name" : "PRE_SELLER_VIEW"
+}, {
+  "name" : "PRE_SELLER_UPDATEAPP"
+}, {
+  "name" : "PRE_SELLER_UPDATE"
+}, {
+  "name" : "PRE_BUYER_VIEW"
+}, {
+  "name" : "PRE_BUYER_UPDATEAPP"
+}, {
+  "name" : "PRE_BUYER_UPDATE"
+} ]

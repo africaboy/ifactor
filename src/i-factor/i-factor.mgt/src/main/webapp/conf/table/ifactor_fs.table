@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_CP_FS" description="Financial statement information table">
+		<column>
+			<name>FSID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BRNUMBER</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>Business registration number</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CUSTOMER</name>
+			<type>varchar</type>
+			<description>Customer</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CIF</name>
+			<type>varchar</type>
+			<description>CIF</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>TSTATEMENT</name>
+			<type>varchar</type>
+			<description>Type of statement</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>NSTATEMENT</name>
+			<type>varchar</type>
+			<description>Nature of statement</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>YEAR</name>
+			<type>varchar</type>
+			<description>Year</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PERIOD</name>
+			<type>varchar</type>
+			<description>Period</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>UNIT</name>
+			<type>varchar</type>
+			<description>Unit</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ERATE</name>
+			<type>varchar</type>
+			<description>Exchange rate</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>AUDITOR</name>
+			<type>varchar</type>
+			<description>Name of the Auditor</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>YEARTYPE</name>
+			<type>varchar</type>
+			<description>YEAR N-N</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>LENDERSNUMBER</name>
+			<type>decimal</type>
+			<description>What is number of lenders outstanding from the CIC form?</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_CP_FSASSET" description="Financial statement information asset table">
+		<column>
+			<name>FSASSETID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>FSID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Financial statement information table</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_FS</referencing-table>  
+				<referencing-column>FSID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>STATOTAL</name>
+			<type>decimal</type>
+			<description>Short-term asset(100)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STACCE</name>
+			<type>decimal</type>
+			<description>Cash and Cash equivalents(110)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STACCECASH</name>
+			<type>decimal</type>
+			<description>Cash(111)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STACCECASHE</name>
+			<type>decimal</type>
+			<description>Cash equivalents(112)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTFI</name>
+			<type>decimal</type>
+			<description>Short-term financial investment(120)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTFISTI</name>
+			<type>decimal</type>
+			<description>Short-term  investment(121)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTFIPDSTI</name>
+			<type>decimal</type>
+			<description>Provision for decrease in Short-term investment (*)(129)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTR</name>
+			<type>decimal</type>
+			<description>Short-term receivables(130)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTRRC</name>
+			<type>decimal</type>
+			<description>Receivables from customers(131)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTRPS</name>
+			<type>decimal</type>
+			<description>Prepayment to sellers(132)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTRSTIR</name>
+			<type>decimal</type>
+			<description>Short-term internal receivables(133)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTRRPC</name>
+			<type>decimal</type>
+			<description>Receivables on progress of the contract(134)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTROR</name>
+			<type>decimal</type>
+			<description>Other Receiveables(135)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>STASTRPR</name>
+			<type>decimal</type>
+			<description>Provision for receivables (*)(139)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVENTORYTOTAL</name>
+			<type>decimal</type>
+			<description>Inventory(140)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVENTORY</name>
+			<type>decimal</type>
+			<description>Inventory(141)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVENTORYPDPI</name>
+			<type>decimal</type>
+			<description>Provision for decrease in price of inventory (*)(149)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OSTATOTAL</name>
+			<type>decimal</type>
+			<description>Other short-term asset(150)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OSTASTA</name>
+			<type>decimal</type>
+			<description>Short term Accruals(151)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OSTAAV</name>
+			<type>decimal</type>
+			<description>Discounted VAT(152)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OSTATFR</name>
+			<type>decimal</type>
+			<description>Tax and fees receivables(154)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OSTAOTHERS</name>
+			<type>decimal</type>
+			<description>Others(158)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTATOTAL</name>
+			<type>decimal</type>
+			<description>Long-term asset(200)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTALTR</name>
+			<type>decimal</type>
+			<description>Long-term receivables(210)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTARC</name>
+			<type>decimal</type>
+			<description>Receivables from customers(211)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTABCS</name>
+			<type>decimal</type>
+			<description>Business capital at subordinates(212)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTALTIR</name>
+			<type>decimal</type>
+			<description>Long term internal receivables(213)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTAOTHERS</name>
+			<type>decimal</type>
+			<description>Others(218)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTAPLTR</name>
+			<type>decimal</type>
+			<description>Provision for long term receivables (*)(219)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FATOTAL</name>
+			<type>decimal</type>
+			<description>Fixed assets(220)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FATFA</name>
+			<type>decimal</type>
+			<description>Tangible fixed assets(221)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FATFAOC</name>
+			<type>decimal</type>
+			<description>Original cost(222)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FATFAAD</name>
+			<type>decimal</type>
+			<description>Accumulated depreciation (*)(223)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAFLA</name>
+			<type>decimal</type>
+			<description>financial leasing asset(224)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAFLAOC</name>
+			<type>decimal</type>
+			<description>Original cost(225)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAFLAAD</name>
+			<type>decimal</type>
+			<description>Accumulated depreciation (*)(226)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAIFA</name>
+			<type>decimal</type>
+			<description>Intangible fixed assets(227)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAIFA</name>
+			<type>decimal</type>
+			<description>Intangible fixed assets(227)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAIFAOC</name>
+			<type>decimal</type>
+			<description>Original cost(228)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAIFAAD</name>
+			<type>decimal</type>
+			<description>Accumulated depreciation (*)(229)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FAWBCC</name>
+			<type>decimal</type>
+			<description>WIP basic construction cost(230)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IRETOTAL</name>
+			<type>decimal</type>
+			<description>Invested real estates(240)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IREOC</name>
+			<type>decimal</type>
+			<description>Original cost(241)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IREAD</name>
+			<type>decimal</type>
+			<description>Accumulated depreciation (*)(242)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTFITOTAL</name>
+			<type>decimal</type>
+			<description>Long-term financial investment(250)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTFIIS</name>
+			<type>decimal</type>
+			<description>Investment in subsiadiaries(251)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTFIIAJV</name>
+			<type>decimal</type>
+			<description>Investment in associates and joint ventures(252)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTFIOTHER</name>
+			<type>decimal</type>
+			<description>Other long-term investment(258)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTFIPDLFI</name>
+			<type>decimal</type>
+			<description>Provision for decrease in longterm financial investment (*)(259)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OLATOTAL</name>
+			<type>decimal</type>
+			<description>Other longterm asset(260)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OLALTPE</name>
+			<type>decimal</type>
+			<description>Long-term prepayment expenses(261)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OLADIT</name>
+			<type>decimal</type>
+			<description>Deferred income tax(262)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OLA</name>
+			<type>decimal</type>
+			<description>Other long-term asset(268)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OLACA</name>
+			<type>decimal</type>
+			<description>Commercial advantages(269)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>TOTALASSETS</name>
+			<type>decimal</type>
+			<description>Total Assets(270)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_CP_FSEL" description="Equity and Liabilities">
+		<column>
+			<name>FSELID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>FSID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Financial statement information table</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_FS</referencing-table>  
+				<referencing-column>FSID</referencing-column> 
+			</foreign> 
+		</column> 
+		<column>
+			<name>LIABILITIES</name>
+			<type>decimal</type>
+			<description>Liabilities(300)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLTOTAL</name>
+			<type>decimal</type>
+			<description>Current Liabilities(310)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLSTB</name>
+			<type>decimal</type>
+			<description>Short-term borrowings(311)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLSTBLTDM</name>
+			<type>decimal</type>
+			<description>Long-term debt matured(3111)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLAP</name>
+			<type>decimal</type>
+			<description>Accounts payables(312)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLPAR</name>
+			<type>decimal</type>
+			<description>Prepaid accounts receivables(313)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLTP</name>
+			<type>decimal</type>
+			<description>Tax payable(314)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLSEP</name>
+			<type>decimal</type>
+			<description>Staff expense payble(315)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLAE</name>
+			<type>decimal</type>
+			<description>Accrued expenses(316)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLIP</name>
+			<type>decimal</type>
+			<description>Intercompany payables(317)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLPAPC</name>
+			<type>decimal</type>
+			<description>Payables according to the progress of the contract(318)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLOTHERS</name>
+			<type>decimal</type>
+			<description>Other current liabilities(319)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLPCL</name>
+			<type>decimal</type>
+			<description>Provision for current liabilities(320)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CLWF</name>
+			<type>decimal</type>
+			<description>Welfare Fund(323)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLTOTAL</name>
+			<type>decimal</type>
+			<description>Non-current Liabilities(330)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLLTAP</name>
+			<type>decimal</type>
+			<description>Long-term accounts paybles(331)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLLTIP</name>
+			<type>decimal</type>
+			<description>Long-term intercompany payables(332)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLOTHERS</name>
+			<type>decimal</type>
+			<description>Other long-term payables(333)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLLTB</name>
+			<type>decimal</type>
+			<description>Long-term borrowings(334)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLDTR</name>
+			<type>decimal</type>
+			<description>Deferred tax returns(335)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLRA</name>
+			<type>decimal</type>
+			<description>Redundancy Allowance(336)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLPLTL</name>
+			<type>decimal</type>
+			<description>Provision for long-term liabilities(337)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLUR</name>
+			<type>decimal</type>
+			<description>Unearned Revenues(338)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>NCLRDF</name>
+			<type>decimal</type>
+			<description>Research Development Fund(339)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQUITY</name>
+			<type>decimal</type>
+			<description>Equity(400)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQTOTAL</name>
+			<type>decimal</type>
+			<description>Equity(410)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQIC</name>
+			<type>decimal</type>
+			<description>Invested Capital(411)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQSE</name>
+			<type>decimal</type>
+			<description>Surplus Equity(412)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQOS</name>
+			<type>decimal</type>
+			<description>Other reserves(413)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQTS</name>
+			<type>decimal</type>
+			<description>Treasury shares (*)(414)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQRS</name>
+			<type>decimal</type>
+			<description>Revaluation reserves(415)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQFED</name>
+			<type>decimal</type>
+			<description>Foreign Exchange differences(416)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQIDF</name>
+			<type>decimal</type>
+			<description>Investment Development Fund(417)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQFFR</name>
+			<type>decimal</type>
+			<description>Financial Fund reserves(418)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQOF</name>
+			<type>decimal</type>
+			<description>Other Funds(419)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQUPAT</name>
+			<type>decimal</type>
+			<description>Undistributed profits after tax(420)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQCCI</name>
+			<type>decimal</type>
+			<description>Capital Construction Investment(421)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EQBASF</name>
+			<type>decimal</type>
+			<description>Business Arrangement Supporting Fund(422)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>FOFTOTAL</name>
+			<type>decimal</type>
+			<description>Funds and Other Funds(430)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EOFFUNDS</name>
+			<type>decimal</type>
+			<description>Funds(432)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>EOFFIFA</name>
+			<type>decimal</type>
+			<description>Funds invested in Fixed Assets(433)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>MITOTAL</name>
+			<type>decimal</type>
+			<description>Minority Interest(439)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>TOTALEQUITY</name>
+			<type>decimal</type>
+			<description>TOTAL EQUITY(440)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>TOTALASSETSEQUITY</name>
+			<type>decimal</type>
+			<description>ASSETS-TOTAL EQUITY(500)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_CP_FSOR" description="OPERATING RESULTS">
+		<column>
+			<name>FSORID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>FSID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Financial statement information table</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_FS</referencing-table>  
+				<referencing-column>FSID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>ORRGS</name>
+			<type>decimal</type>
+			<description>Revenues from goods and services(01)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORRDI</name>
+			<type>decimal</type>
+			<description>Revenue deductible items (*)(02)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORNRGS</name>
+			<type>decimal</type>
+			<description>Net Revenues from goods and services(10)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORCS</name>
+			<type>decimal</type>
+			<description>Cost of Sales (*)(11)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORGP</name>
+			<type>decimal</type>
+			<description>Gross Profits(20)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORFR</name>
+			<type>decimal</type>
+			<description>Financial Revenues(21)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORFE</name>
+			<type>decimal</type>
+			<description>Financial Expenses (*)(22)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORIE</name>
+			<type>decimal</type>
+			<description>Interest Expense (*)(23)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORSE</name>
+			<type>decimal</type>
+			<description>Selling Expense (*)(24)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORMAE</name>
+			<type>decimal</type>
+			<description>Management and Administrative Expense (*)(25)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORDIVIDENDS</name>
+			<type>decimal</type>
+			<description>Dividends(28)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORNPO</name>
+			<type>decimal</type>
+			<description>Net profits from operation(30)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OROI</name>
+			<type>decimal</type>
+			<description>Other Income(31)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OROE</name>
+			<type>decimal</type>
+			<description>Other Expenses (*)(32)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OROP</name>
+			<type>decimal</type>
+			<description>Other Profits(40)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORPLAJV</name>
+			<type>decimal</type>
+			<description>Profits/Losses from Associates and Joint Ventures(45)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORPT</name>
+			<type>decimal</type>
+			<description>Profist before Tax(50)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORCT</name>
+			<type>decimal</type>
+			<description>Corporate Tax (*)(51)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORDT</name>
+			<type>decimal</type>
+			<description>Deferred Coporate Tax(52)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORPCT</name>
+			<type>decimal</type>
+			<description>Profit after Corporate Tax(60)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ORBEPS</name>
+			<type>decimal</type>
+			<description>Basic Earnings per share(70)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+	</table>
+</annotate>

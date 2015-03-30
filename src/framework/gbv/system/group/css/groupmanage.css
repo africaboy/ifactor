@@ -1,0 +1,20 @@
+.icon-group {
+    background-image: url(../images/group.png) !important;
+}
+.icon-group1 {
+    background-image: url(../images/class.gif) !important;
+}
+.icon-grouptemp {
+    background-image: url(../images/grouptemp.gif) !important;
+}
+.icon-user {
+    background-image: url(../images/user.gif) !important;
+}
+
+.icon-chk {
+    background-image: url(../images/ok.gif) !important;
+}
+
+.icon-userfemale {
+    background-image: url(../images/user_female.gif) !important;
+}

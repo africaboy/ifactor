@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<examples_t1_list_query>
+		<item id="EXAMPLES_T1_NAME" desc="">名称</item>
+		<item id="EXAMPLES_T1_L1_ID" desc="">列表1</item>
+	</examples_t1_list_query>
+	<examples_t1_list_result>
+		<item id="NAME" desc="">名称</item>
+		<item id="L1_ID" desc="">列表1</item>
+		<item id="L1_NAME" desc="">列表1</item>
+		<item id="L2_ID" desc="">列表2</item>
+		<item id="L2_NAME" desc="">列表2</item>
+		<item id="L3_ID" desc="">列表3</item>
+		<item id="L3_NAME" desc="">列表3_名称</item>
+		<item id="T2_PKID" desc="">T2.主键</item>
+		<item id="T2_NAME" desc="">T2.名称</item>
+		<item id="T3_NUMBER" desc="">3.编号</item>
+		<item id="T3_MONEY" desc="">T3.金额</item>
+		<item id="T3_PKID" desc="">T3.主键</item>
+		<item id="T3_NAME" desc="">T3.名称</item>
+		<item id="T3_TYPE" desc="">T3.类型</item>
+		<item id="T4_PKID" desc="">T4.主键</item>
+		<item id="T4_NAME" desc="">T4.名称</item>
+		<item id="T4_TYPE" desc="">T4.类型</item>
+		<item id="T5_PKID" desc="">T5.主键</item>
+		<item id="T5_NAME" desc="">T5.名称</item>
+		<item id="T5_TYPE" desc="">T5.类型</item>
+		<item id="T6_PKID" desc="">T6.主键</item>
+		<item id="SP" desc="">操作</item>
+	</examples_t1_list_result>
+	<ifactor_image_items_list_query>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">图片名称</item>
+	</ifactor_image_items_list_query>
+	<ifactor_image_items_list_result>
+		<item id="ITEM_CODE" desc="">图片编号</item>
+		<item id="ITEM_NAME" desc="">图片名称</item>
+		<item id="IS_MUST_NEED_NAME" desc="">是否必填</item>
+		<item id="SP" desc="">操作</item>
+	</ifactor_image_items_list_result>
+	<ifactor_param_setting_list_query>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_CODE" desc="">参数代码</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_VALUE" desc="">参数值</item>
+	</ifactor_param_setting_list_query>
+	<ifactor_param_setting_list_result>
+		<item id="PARAM_CODE" desc="">参数代码</item>
+		<item id="PARAM_VALUE" desc="">参数值</item>
+		<item id="PARAM_DESC" desc="">参数描述</item>
+		<item id="LAST_MODIFY_TIME" desc="">最后一次更改时间</item>
+	</ifactor_param_setting_list_result>
+	<ifactor_invoice_delivery_auction_list_query>
+		<item id="IF_MGT_INVOICE_AUCTION_INVOICE_ID" desc="">发票ID</item>
+	</ifactor_invoice_delivery_auction_list_query>
+	<ifactor_invoice_delivery_auction_list_result>
+		<item id="INVOICE_ID" desc="">发票ID</item>
+		<item id="IDA_CODE" desc="">申请编号</item>
+		<item id="ACCEPT_TIME" desc="">接受时间</item>
+		<item id="LOCKER_NAME" desc="">当前处理人</item>
+		<item id="IIDA_PK_ID" desc="">发票交付</item>
+	</ifactor_invoice_delivery_auction_list_result>
+	<if_mgt_dfield_match_list_query>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW" desc="">工作流</item>
+		<item id="IF_MGT_DFIELD_MATCH_MGT_FIELD" desc="">线下字段</item>
+	</if_mgt_dfield_match_list_query>
+	<if_mgt_dfield_match_list_result>
+		<item id="WORK_FLOW_VALUE" desc="">工作流</item>
+		<item id="MGT_FIELD" desc="">线下字段</item>
+		<item id="APP_FIELD" desc="">线上字段</item>
+		<item id="DESCRIPTION" desc="">描述</item>
+		<item id="SP" desc="">操作</item>
+	</if_mgt_dfield_match_list_result>
+	<if_mgt_sysvars_list_result>
+		<item id="CODE" desc="">代码</item>
+		<item id="DESCRIBE" desc="">描述</item>
+		<item id="VALUE" desc="">值</item>
+		<item id="SP" desc="">操作</item>
+	</if_mgt_sysvars_list_result>
+	<ifactor_blacklist_result>
+		<item id="CPNUMBER" desc="">编号</item>
+		<item id="CPNAME" desc="">名称</item>
+		<item id="BLTYPEID" desc="">黑名单类型ID</item>
+		<item id="BLTYPE" desc="">黑名单类型</item>
+		<item id="BLDATE" desc="">日期</item>
+		<item id="BLCAUSE" desc="">原因</item>
+		<item id="FLOWTYPE" desc="">流程类型</item>
+		<item id="BLSTATUS" desc="">状态</item>
+	</ifactor_blacklist_result>
+	<ifactor_blacklist_result_result>
+		<item id="DUPTYPE" desc="">符合黑名单类型</item>
+	</ifactor_blacklist_result_result>
+	<buyer_apply_list_query>	
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS" desc="">投资者类型</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+	</buyer_apply_list_query>
+	<buyer_apply_list_result>
+		<item id="SP" desc="">详情</item>
+		<item id="BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="BA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="INVEST_AS" desc="">投资者类型</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="FIRST_NAME" desc="">名</item>
+		<item id="LAST_NAME" desc="">姓</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人</item>
+	</buyer_apply_list_result>
+	<buyer_apply_confirm_list_query>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS" desc="">投资者类型</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+	</buyer_apply_confirm_list_query>
+	<buyer_apply_confirm_list_result>
+		<item id="SP" desc="">详情</item>
+		<item id="BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="BA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="INVEST_AS" desc="">投资者类型</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="FIRST_NAME" desc="">名</item>
+		<item id="LAST_NAME" desc="">姓</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人</item>
+	</buyer_apply_confirm_list_result>
+	<buyer_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">活动记录ID</item>
+		<item id="INS_ID" desc="">实例ID</item>
+		<item id="A_TITLE" desc="">当前环节</item>
+		<item id="A_LOCKNAME" desc="">参与者</item>
+		<item id="A_ETIME" desc="">操作时间</item>
+		<item id="OPINION_VAL" desc="">意见</item>
+		<item id="OPINION_TXT" desc="">意见内容</item>
+		<item id="TABLEVIEW" desc="">tableviewID</item>
+	</buyer_apply_opinion_query_list_result>
+	<buyer_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">环节名称</item>
+		<item id="USER_NAME" desc="">操作人</item>
+		<item id="CREATE_DATE" desc="">创建日期</item>
+		<item id="REMARK" desc="">备注</item>
+	</buyer_apply_cs_record_list_result>
+	<buyer_apply_profile_query_list_query>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY" desc="">公司名称</item>
+		<item id="IF_MGT_BUYER_PROFILE_RELEASETIME" desc="">发布日期</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYRNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">投资者类型</item>
+	</buyer_apply_profile_query_list_query>
+	<buyer_apply_profile_query_list_result>
+		<item id="CINUMBER" desc="">客户ID</item>
+		<item id="RELEASETIME" desc="">发布日期</item>
+		<item id="INVEST" desc="">投资者类型</item>
+		<item id="FIRST_NAME" desc="">名</item>
+		<item id="LAST_NAME" desc="">姓</item>
+		<item id="EMAIL" desc="">邮箱</item>
+		<item id="COMPANY" desc="">公司名称</item>
+		<item id="COMPANYRNUMBER" desc="">注册编号</item>
+		<item id="COMPANYTAXCODE" desc="">免税代码</item>
+		<item id="ISINVEST" desc="">投资者类型</item>
+	</buyer_apply_profile_query_list_result>
+	<sme_apply_cs_monitor_list_query>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_MYEMAIL" desc="">邮箱</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">状态id</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">申请日期</item>
+	</sme_apply_cs_monitor_list_query>
+	<sme_apply_cs_monitor_list_result>
+		<item id="CPCTIME" desc="">申请日期</item>
+		<item id="MYTITLE" desc="">称谓</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="MYGENDER" desc="">性别</item>
+		<item id="MYDOB" desc="">出生日期</item>
+		<item id="MYIDTYPE" desc="">证件类型</item>
+		<item id="MYIDNUMBER" desc="">证件编号</item>
+		<item id="MYMPHONE" desc="">手机号</item>
+		<item id="DATAMODIFY" desc="">更新日期</item>
+		<item id="CSCALLME" desc="">提醒状态</item>
+		<item id="CPSTATUS" desc="">状态id</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+	</sme_apply_cs_monitor_list_result>
+	<buyer_apply_cs_monitor_list_query>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_EMAIL" desc="">邮箱</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">申请日期</item>
+	</buyer_apply_cs_monitor_list_query>
+	<buyer_apply_cs_monitor_list_result>
+		<item id="BA_APPLY_CODE" desc="">申请编号</item>
+		<item id="BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="TITLE" desc="">称谓</item>
+		<item id="FIRST_NAME" desc="">名</item>
+		<item id="LAST_NAME" desc="">姓</item>
+		<item id="ID_NUMBER" desc="">证件编号</item>
+		<item id="NATIONALITY" desc="">国籍</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+	</buyer_apply_cs_monitor_list_result>
+	<delivery_apply_cs_monitor_list_query>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">代表人</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">申请日期</item>
+	</delivery_apply_cs_monitor_list_query>
+	<delivery_apply_cs_monitor_list_result>
+		<item id="IDA_CODE" desc="">申请编号</item>
+		<item id="IDA_DATE" desc="">申请日期</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="IIDSI_USER" desc="">代表人</item>
+		<item id="IDA_STATUS_VAL" desc="">申请状态</item>
+	</delivery_apply_cs_monitor_list_result>
+	<invoice_delivery_apply_list_query>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGIST_NO" desc="">注册编号</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">申请状态</item>
+	</invoice_delivery_apply_list_query>
+	<invoice_delivery_apply_list_result>
+		<item id="SP" desc="">详情</item>
+		<item id="IDA_DATE" desc="">申请日期</item>
+		<item id="IDA_UPDATED_DATE" desc="">更新日期</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="REGIST_NO" desc="">注册编号</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item> 
+		<item id="IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人ID</item>
+	</invoice_delivery_apply_list_result>
+	<delivery_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">活动记录ID</item>
+		<item id="INS_ID" desc="">实例ID</item>
+		<item id="A_TITLE" desc="">当前环节</item>
+		<item id="A_LOCKNAME" desc="">参与者</item>
+		<item id="A_ETIME" desc="">操作时间</item>
+		<item id="OPINION_VAL" desc="">意见</item>
+		<item id="OPINION_TXT" desc="">意见内容</item>
+		<item id="TABLEVIEW" desc="">tableviewID</item>
+	</delivery_apply_opinion_query_list_result>
+	<invoice_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">当前环节</item>
+		<item id="USER_NAME" desc="">操作人</item>
+		<item id="CREATE_DATE" desc="">创建日期</item>
+		<item id="REMARK" desc="">备注</item>
+	</invoice_apply_cs_record_list_result>
+	<buyer_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">手机号码</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</buyer_apply_flow_monitor_query>
+	<buyer_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="FIRST_NAME" desc="">姓</item>
+		<item id="LAST_NAME" desc="">名</item>
+		<item id="ID_NUMBER" desc="">证件编号</item>
+		<item id="MOBILE_PHONE" desc="">手机号码</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</buyer_apply_flow_monitor_result>
+	<buyer_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">手机号码</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</buyer_apply_flow_monitor1_query>
+	<buyer_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="FIRST_NAME" desc="">姓</item>
+		<item id="LAST_NAME" desc="">名</item>
+		<item id="ID_NUMBER" desc="">证件编号</item>
+		<item id="MOBILE_PHONE" desc="">手机号码</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</buyer_apply_flow_monitor1_result>
+	<buyer_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">手机号码</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</buyer_apply_flow_monitor2_query>
+	<buyer_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="BA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="FIRST_NAME" desc="">姓</item>
+		<item id="LAST_NAME" desc="">名</item>
+		<item id="ID_NUMBER" desc="">证件编号</item>
+		<item id="MOBILE_PHONE" desc="">手机号码</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</buyer_apply_flow_monitor2_result>
+	<invoice_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</invoice_apply_flow_monitor_query>
+	<invoice_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</invoice_apply_flow_monitor_result>
+	<invoice_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</invoice_apply_flow_monitor1_query>
+	<invoice_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</invoice_apply_flow_monitor1_result>
+	<invoice_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</invoice_apply_flow_monitor2_query>
+	<invoice_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IDA_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</invoice_apply_flow_monitor2_result>
+	<sme_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">公司名称</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</sme_apply_flow_monitor_query>
+	<sme_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</sme_apply_flow_monitor_result>
+	<sme_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">公司名称</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</sme_apply_flow_monitor1_query>
+	<sme_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</sme_apply_flow_monitor1_result>
+	<sme_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">公司名称</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</sme_apply_flow_monitor2_query>
+	<sme_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</sme_apply_flow_monitor2_result>
+	<if_scoring_category_query>
+		<item id="IF_MGT_SCORING_CATEGORY_ENTERPRISE" desc="">企业类型</item>
+	</if_scoring_category_query>
+	<if_scoring_category_result>
+		<item id="CATEGORY" desc="">类别</item>
+		<item id="EQUATIONDES" desc="">方程描述</item>
+		<item id="SP" desc="">处理人</item>
+	</if_scoring_category_result>
+	<if_scoring_equation_result>
+		<item id="CATEGORYID" desc="">得分类别</item>
+		<item id="EQUATIONID" desc="">财务报表方程</item>
+		<item id="EQUATIONDES" desc="">得分方程描述</item>
+		<item id="SCORE" desc="">得分</item>
+		<item id="MINIMUM" desc="">最小值</item>
+		<item id="MINIMUMOPE" desc="">最小供应商</item>
+		<item id="MAXIMUM" desc="">最大值</item>
+		<item id="MAXIMUMOPE" desc="">最大供应商</item>
+	</if_scoring_equation_result>
+	<if_scoring_items_list_result>
+		<item id="CP_TYPE_VAL" desc="">公司类型</item>
+		<item id="CATALOG_NAME" desc="">类别名称</item>
+		<item id="ITEM_CODE" desc="">代码</item>
+		<item id="ITEM_TYPE" desc="">类型</item>
+		<item id="ITEM_VALUE" desc="">值</item>
+		<item id="ITEM_FUNC" desc="">计算公式</item>
+		<item id="FIELD_NAME" desc="">字段名</item>
+		<item id="CODE_NAME" desc="">代码名称</item>
+		<item id="SP" desc="">操作</item>
+	</if_scoring_items_list_result>
+	<if_scoring_rating_list_result>
+		<item id="CP_TYPE_VAL" desc="">公司类型</item>
+		<item id="RATING" desc="">Bank评级</item>
+		<item id="PDLOW" desc="">低风险</item>
+		<item id="PDHIGH" desc="">高风险</item>
+		<item id="RATING_LEVEL_VAL" desc="">评级水平</item>
+		<item id="SP" desc="">操作</item>
+	</if_scoring_rating_list_result>
+	<sme_apply_list_query>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">申请时间</item>
+		<item id="IF_MGT_CP_APPLY_UPDATEDDATE" desc="">更新时间</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">公司名称</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">申请状态</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">申请状态</item>	
+	</sme_apply_list_query>
+	<sme_apply_list_result>
+		<item id="SP" desc="">详细</item>
+		<item id="CPCTIME" desc="">申请时间</item>
+		<item id="UPDATEDDATE" desc="">更新时间</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人ID</item>
+	</sme_apply_list_result>
+	<sme_apply_remind_list_query>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">称谓</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">申请时间</item>
+	</sme_apply_remind_list_query>
+	<sme_apply_remind_list_result>
+		<item id="SA_APPLY_CODE" desc="">申请编号</item>
+		<item id="MYTITLE" desc="">称谓</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="MYIDNUMBER" desc="">证件编号</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="CPDATE" desc="">成立时间</item>
+		<item id="CPCTIME" desc="">申请时间</item>
+		<item id="CPSTATUS_VAL" desc="">申请状态</item>
+		<item id="REMIND" desc="">是否提醒</item>
+	</sme_apply_remind_list_result>
+	<sme_apply_locked_list_query>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">称谓</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">申请时间</item>
+	</sme_apply_locked_list_query>
+	<sme_apply_locked_list_result>
+		<item id="MYTITLE" desc="">称谓</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="MYIDNUMBER" desc="">证件编号</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+		<item id="CPDATE" desc="">成立时间</item>
+		<item id="CPCTIME" desc="">申请时间</item>
+		<item id="CPSTATUS_VAL" desc="">申请单状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人ID</item>
+	</sme_apply_locked_list_result>
+	<sme_todo_assign_list_query>
+		<item id="IF_MGT_CP_APPLY_MYIDNUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">注册编号</item>
+	</sme_todo_assign_list_query>
+	<sme_todo_assign_list_result>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人ID</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="A_LOCKNAME" desc="">当前处理人</item>
+		<item id="MYTITLE" desc="">称谓</item>
+		<item id="MYFNAME" desc="">名</item>
+		<item id="MYLNAME" desc="">姓</item>
+		<item id="MYIDNUMBER" desc="">证件编号</item>
+		<item id="CPCTIME" desc="">创建时间</item>
+		<item id="CPNAME" desc="">公司名称</item>
+		<item id="CPNUMBER" desc="">注册编号</item>
+	</sme_todo_assign_list_result>
+	<sme_todo_assign_selectlist_result>
+		<item id="NAME" desc="">用户姓名</item>
+		<item id="EMPLOYEENUMBER" desc="">员工编号</item>
+		<item id="JOB" desc="">职位</item>
+		<item id="SEX" desc="">性别</item>
+		<item id="PHONE" desc="">员工电话</item>
+	</sme_todo_assign_selectlist_result>
+	<sme_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">活动记录ID</item>
+		<item id="INS_ID" desc="">实例ID</item>
+		<item id="A_TITLE" desc="">当前环节</item>
+		<item id="A_LOCKNAME" desc="">当前处理人</item>
+		<item id="A_ETIME" desc="">签署时间</item>
+		<item id="OPINION_VAL" desc="">意见</item>
+		<item id="OPINION_TXT" desc="">意见内容</item>
+		<item id="TABLEVIEW" desc="">tableviewID</item>
+	</sme_apply_opinion_query_list_result>
+	<seller_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">当前环节</item>
+		<item id="USER_NAME" desc="">当前处理人</item>
+		<item id="CREATE_DATE" desc="">创建日期</item>
+		<item id="REMARK" desc="">备注</item>
+	</seller_apply_cs_record_list_result>
+	<sme_apply_profile_query_list_query>
+		<item id="IF_MGT_CP_PROFILE_COMPANY" desc="">公司名称</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYCDATE" desc="">成立时间</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYRNUMBER" desc="">注册编号</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYOIN" desc="">运作行业</item>
+	</sme_apply_profile_query_list_query>
+	<sme_apply_profile_query_list_result>
+		<item id="CINUMBER" desc="">客户端ID</item>
+		<item id="CREATETIME" desc="">发布日期</item>
+		<item id="COMPANIESTYPE" desc="">公司类型</item>
+		<item id="COMPANY" desc="">公司名称</item>
+		<item id="COMPANYRNUMBER" desc="">注册编号</item>
+		<item id="COMPANYTAXCODE" desc="">税法代码</item>
+		<item id="COMPANYCDATE" desc="">成立时间</item>
+		<item id="COMPANYOIN" desc="">公司运作行业</item>
+		<item id="RISKLEVEL" desc="">风险级别</item>
+	</sme_apply_profile_query_list_result>
+	<ifactor_vpbank_users_list_query>
+		<item id="IF_MGT_VPBANK_USER_TITLE" desc="">称谓</item>
+		<item id="IF_MGT_VPBANK_USER_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_VPBANK_USER_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_VPBANK_USER_STATUS" desc="">状态</item>
+	</ifactor_vpbank_users_list_query>
+	<ifactor_vpbank_users_list_result>
+		<item id="TITLE" desc="">称谓</item>
+		<item id="FIRST_NAME" desc="">名</item>
+		<item id="LAST_NAME" desc="">姓</item>
+		<item id="GENDER" desc="">性别</item>
+		<item id="POSITION" desc="">职位</item>
+		<item id="EMAIL" desc="">邮箱</item>
+		<item id="UPDATE_TIME" desc="">更新时间</item>
+		<item id="STATUS" desc="">状态</item>
+		<item id="SP" desc="">操作</item>
+	</ifactor_vpbank_users_list_result>
+	<abandoneworkflowlist_query>
+		<item id="WF_INSTANCE_INS_START" desc="">实例开始时间</item>
+	</abandoneworkflowlist_query>
+	<abandoneworkflowlist_result>
+		<item id="CG_NAME" desc="">工作流</item>
+		<item id="INS_START" desc="">创建时间</item>
+		<item id="INS_CREATORID" desc="">实例创建人ID</item>
+		<item id="INS_CREATORNAME" desc="">创建人</item>
+		<item id="INS_CUNITID" desc="">创建人所在组ID</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="INS_CUNITNAME" desc="">部门</item>
+		<item id="SP" desc="">操作</item>
+	</abandoneworkflowlist_result>
+	<allinstancelist_query>
+		<item id="WF_INSTANCE_INS_START" desc="">实例开始时间</item>
+	</allinstancelist_query>
+	<allinstancelist_result>
+		<item id="ZHUJIAN" desc="">主键</item>
+		<item id="CG_NAME" desc="">工作流</item>
+		<item id="INS_START" desc="">创建时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">状态</item>
+		<item id="INS_CREATORID" desc="">实例创建人ID</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+		<item id="INS_CREATORNAME" desc="">创建人</item>
+		<item id="INS_CUNITID" desc="">创建人所在组ID</item>
+		<item id="INS_CUNITNAME" desc="">部门</item>
+		<item id="SP" desc="">操作</item>
+	</allinstancelist_result>
+	<flowsteplist_result>
+		<item id="S_NAME" desc="">名称</item>
+	</flowsteplist_result>
+	<invoice_oriver_list_query>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_UPDATED_DATE" desc="">更新日期</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGIST_NO" desc="">注册编号</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">申请状态</item>
+	</invoice_oriver_list_query>
+	<invoice_oriver_list_result>
+		<item id="SP" desc="">详情</item>
+		<item id="IOV_DATE" desc="">申请日期</item>
+		<item id="IOV_UPDATED_DATE" desc="">更新日期</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="REGIST_NO" desc="">注册编号</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item> 
+		<item id="IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="A_ID" desc="">主键</item>
+		<item id="A_STATE" desc="">活动状态</item>
+		<item id="A_LOCKID" desc="">锁定人ID</item>
+	</invoice_oriver_list_result>
+	<invoice_oriver_opinion_query_list_result>
+		<item id="A_ID" desc="">活动记录ID</item>
+		<item id="INS_ID" desc="">实例ID</item>
+		<item id="A_TITLE" desc="">当前环节</item>
+		<item id="A_LOCKNAME" desc="">参与者</item>
+		<item id="A_ETIME" desc="">操作时间</item>
+		<item id="OPINION_VAL" desc="">意见</item>
+		<item id="OPINION_TXT" desc="">意见内容</item>
+		<item id="TABLEVIEW" desc="">tableviewID</item>
+	</invoice_oriver_opinion_query_list_result>
+	<original_invoice_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</original_invoice_flow_monitor_query>
+	<original_invoice_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</original_invoice_flow_monitor_result>
+	<original_invoice_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</original_invoice_flow_monitor1_query>
+	<original_invoice_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</original_invoice_flow_monitor1_result>
+	<original_invoice_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">更新时间</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">债务人</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">发票标签ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">申请状态</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">当前环节</item>
+	</original_invoice_flow_monitor2_query>
+	<original_invoice_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">更新时间</item>
+		<item id="INS_CURRENTSTATUS" desc="">当前环节</item>
+		<item id="IOV_STATUS_VAL" desc="">申请状态</item>
+		<item id="INS_YESORNO" desc="">是否接受</item>
+		<item id="COMPANY_NAME" desc="">公司名称</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="STICKER_ID" desc="">发票标签ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="INS_ID" desc="">主键</item>
+		<item id="INS_STATE" desc="">实例状态</item>
+	</original_invoice_flow_monitor2_result>
+	<buyer_detail_report_list_query>
+		<item id="IF_MGT_BUYER_DETAIL_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_BUYER_DETAIL_REPORT_UPLOADDATE" desc="">上传日期</item>
+	</buyer_detail_report_list_query>
+	<buyer_detail_report_list_result>
+		<item id="BUYER_ID" desc="">买家编号</item>
+		<item id="INVESTOR" desc="">投资者类型</item>
+		<item id="REGION" desc="">区域</item>
+		<item id="BIDS_PLACED" desc="">投标次数</item>
+		<item id="BIDS_ACCEPTED" desc="">中标次数</item>
+		<item id="BIDS_SUCCESSFUL" desc="">成交百分比</item>
+		<item id="NOTSIGNED" desc="">没签约次数</item>
+		<item id="CANCELLSUCCESS" desc="">被取消拍卖次数</item>
+		<item id="FINANCED" desc="">投资发票数量</item>
+		<item id="FINANCEDAMOUNT" desc="">投资总金额</item>
+		<item id="INVOICEAMOUNT" desc="">发票总数量</item>
+		<item id="TOTALRETURN" desc="">总收益</item>
+		<item id="ADVANCE" desc="">权重平均预付款 (%)</item>
+		<item id="INTEREST" desc="">权重平均利率 (%)</item>
+	</buyer_detail_report_list_result>
+	<buyer_report_list_query>
+		<item id="IF_MGT_BUYER_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_BUYER_REPORT_UPLOADDATE" desc="">上传日期</item>
+		<item id="IF_MGT_BUYER_REPORT_REPORTBYTYPE" desc="">统计类型</item>
+	</buyer_report_list_query>
+	<buyer_report_list_result>
+		<item id="REPORTTYPE" desc="">统计类型</item>
+		<item id="APPLIED" desc="">申请次数</item>
+		<item id="ACCEPTED" desc="">接受次数</item>
+		<item id="APPROVAL_RATE" desc="">接受率</item>
+		<item id="INVESTED" desc="">被投资总数量</item>
+		<item id="REGULATORY_BLACKLIST" desc="">监管黑名单数量</item>
+		<item id="CANCELL_BLACKLIST" desc="">取消黑名单数量</item>
+		<item id="REPORTTYPENUM" desc="">统计类型</item>
+	</buyer_report_list_result>
+	<debtor_report_list_query>
+		<item id="IF_MGT_DEBTOR_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_DEBTOR_REPORT_UPLOADDATE" desc="">上传日期</item>
+	</debtor_report_list_query>
+	<debtor_report_list_result>
+		<item id="DEBTORNAME" desc="">债务人</item>
+		<item id="UPLOADED_NO" desc="">上传发票数量</item>
+		<item id="ACCEPTED_NO" desc="">被接受数量</item>
+		<item id="DISBURSED_NO" desc="">支付成功数量</item>
+		<item id="DISBURSED_AMOUNT" desc="">支付成功金额</item>
+		<item id="OVERDUE_NO" desc="">逾期数量</item>
+		<item id="OVERDUE_AMOUNT" desc="">逾期金额</item>
+		<item id="OVERDUE_DAYS" desc="">逾期总天数</item>
+		<item id="OVER_THIRTYNO" desc="">逾期超过30天总数量</item>
+		<item id="OVER_THIRTYAMOUNT" desc="">逾期超过30天总金额</item>
+		<item id="OVER_AVERAGEDAYS" desc="">平均逾期天数</item>
+		<item id="SETTLED_NO" desc="">清分发票数量</item>
+		<item id="SETTLED_AMOUNT" desc="">清分发票金额</item>
+		<item id="SETTLEMENT_DAYS" desc="">清分总天数</item>
+		<item id="AVERAGE_CPAYMENT" desc="">平均逾期天数根据合同到期日期</item>
+		<item id="AVERAGE_SPAYMENT" desc="">平均逾期天数根据预计结算日期</item>
+	</debtor_report_list_result>
+	<inv_fee_report_list_query>
+		<item id="IF_MGT_INV_FEE_REPORT_INV_ID" desc="">发票ID</item>
+		<item id="IF_MGT_INV_FEE_REPORT_FEE_TYPE" desc="">费用类型</item>
+		<item id="IF_MGT_INV_FEE_REPORT_FEE_TYPE_VAL" desc="">费用类型</item>
+	</inv_fee_report_list_query>
+	<inv_fee_report_list_result>
+		<item id="INV_ID" desc="">发票ID</item>
+		<item id="FEE_TYPE" desc="">费用类型</item>
+		<item id="FEE_AMOUNT" desc="">费用金额</item>
+		<item id="CUSTOMER_TYPE" desc="">客户类型</item>
+		<item id="PAYER_ID" desc="">证件ID</item>
+		<item id="PAID_TIME" desc="">支付时间</item>
+	</inv_fee_report_list_result>
+	<if_mgt_interest_report_list_query>
+		<item id="IF_MGT_INTEREST_REPORT_UPLOADED_DATE" desc="">上传日期</item>
+		<item id="IF_MGT_INTEREST_REPORT_INV_ID" desc="">发票ID</item>
+		<item id="IF_MGT_INTEREST_REPORT_SELLER_ID" desc="">卖家ID</item>
+	</if_mgt_interest_report_list_query>
+	<if_mgt_interest_report_list_result>
+		<item id="AMOUNT" desc="">收益金额</item>
+		<item id="INV_AMOUNT" desc="">发票金额</item>
+		<item id="INV_ID" desc="">发票ID</item>
+		<item id="SELLER_ID" desc="">卖家ID</item>
+		<item id="PAID_TIME" desc="">支付时间</item>
+		<item id="RATE" desc="">利率</item>
+		<item id="DIBURSE_DATE" desc="">发布日期</item>
+		<item id="TO_DATE" desc="">到期日期</item>
+		<item id="ACTUAL_TERM" desc="">借款期限</item>
+		<item id="UPLOADED_DATE" desc="">上传日期</item>
+	</if_mgt_interest_report_list_result>
+	<if_mgt_late_interest_report_list_query>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_UPLOADED_DATE" desc="">上传日期</item>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_INV_ID" desc="">发票ID</item>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_PAYER_ID" desc="">支付人ID</item>
+	</if_mgt_late_interest_report_list_query>
+	<if_mgt_late_interest_report_list_result>
+		<item id="AMOUNT" desc="">收益金额</item>
+		<item id="INV_AMOUNT" desc="">发票金额</item>
+		<item id="INV_ID" desc="">发票ID</item>
+		<item id="PAYER_ID" desc="">支付人ID</item>
+		<item id="PAID_TIME" desc="">支付时间</item>
+		<item id="RATE" desc="">利率</item>
+		<item id="EXP_SETTLE_DATE" desc="">预期结清日期</item>
+		<item id="TO_DATE" desc="">到期日期</item>
+		<item id="LATE_DAYS" desc="">逾期天数</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_late_interest_report_list_result>
+	<if_mgt_tfi_region_report_list_query>
+		<item id="IF_MGT_TFI_REGION_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_region_report_list_query>
+	<if_mgt_tfi_region_report_list_result>
+		<item id="REGION" desc="">区域</item>
+		<item id="SELLERS_NUM" desc="">卖家数</item>
+		<item id="APPROVED_INV_NUM" desc="">审批通过发票数</item>
+		<item id="DISBURSE_INV_NUM" desc="">已支付的发票数</item>
+		<item id="TOTAL_TRANS_FEES" desc="">总交易费</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">总销号费</item>
+		<item id="TOTAL_LATE_INFEES" desc="">总逾期费</item>
+		<item id="TOTAL_INTEREST" desc="">总利息收益</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">总逾期利息</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_region_report_list_result>
+	<if_mgt_tfi_segment_report_list_query>
+		<item id="IF_MGT_TFI_SEGMENT_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_segment_report_list_query>
+	<if_mgt_tfi_segment_report_list_result>
+		<item id="SEGMENT" desc="">分段</item>
+		<item id="SELLERS_NUM" desc="">卖家数</item>
+		<item id="APPROVED_INV_NUM" desc="">审批通过发票数</item>
+		<item id="DISBURSE_INV_NUM" desc="">已支付的发票数</item>
+		<item id="TOTAL_TRANS_FEES" desc="">总交易费</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">总销号费</item>
+		<item id="TOTAL_LATE_INFEES" desc="">总逾期费</item>
+		<item id="TOTAL_INTEREST" desc="">总利息收益</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">总逾期利息</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_segment_report_list_result>
+	<if_mgt_tfi_rating_report_list_query>
+		<item id="IF_MGT_TFI_RATING_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_rating_report_list_query>
+	<if_mgt_tfi_rating_report_list_result>
+		<item id="SELLER_RATING" desc="">卖家级别</item>
+		<item id="SELLERS_NUM" desc="">卖家数</item>
+		<item id="APPROVED_INV_NUM" desc="">审批通过发票数</item>
+		<item id="DISBURSE_INV_NUM" desc="">已支付的发票数</item>
+		<item id="TOTAL_TRANS_FEES" desc="">总交易费</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">总销号费</item>
+		<item id="TOTAL_LATE_INFEES" desc="">总逾期费</item>
+		<item id="TOTAL_INTEREST" desc="">总利息收益</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">总逾期利息</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfi_rating_report_list_result>
+	<if_mgt_tfib_region_report_list_query>
+		<item id="IF_MGT_TFIB_REGION_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfib_region_report_list_query>
+	<if_mgt_tfib_region_report_list_result>
+		<item id="REGION" desc="">区域</item>
+		<item id="BUYERS_NUM" desc="">买家数</item>
+		<item id="TOTAL_TRANS_FEES" desc="">总交易费</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">总销号费</item>
+		<item id="TOTAL_LATE_INFEES" desc="">总逾期费</item>
+		<item id="TOTAL_INTEREST" desc="">总利息收益</item>
+		<item id="PAID_TIME" desc="">支付时间</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfib_region_report_list_result>
+	<if_mgt_tfib_type_report_list_query>
+		<item id="IF_MGT_TFIB_TYPE_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfib_type_report_list_query>
+	<if_mgt_tfib_type_report_list_result>
+		<item id="TYPE" desc="">类型</item>
+		<item id="BUYERS_NUM" desc="">买家数</item>
+		<item id="TOTAL_TRANS_FEES" desc="">总交易费</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">总销号费</item>
+		<item id="TOTAL_LATE_INFEES" desc="">总逾期费</item>
+		<item id="TOTAL_INTEREST" desc="">总利息收益</item>
+		<item id="PAID_TIME" desc="">支付时间</item>
+		<item id="UPLOADED_DATE" desc="">上传时间</item>
+	</if_mgt_tfib_type_report_list_result>
+	<invoice_report_list_query>
+		<item id="IF_MGT_INVOICE_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_INVOICE_REPORT_UPLOADDATE" desc="">申请日期</item>
+		<item id="IF_MGT_INVOICE_REPORT_REPORTBYTYPE" desc="">报表统计类型</item>
+	</invoice_report_list_query>
+	<invoice_report_list_result>
+		<item id="REPORTTYPE" desc="">报告类型</item>
+		<item id="UPLOADED_NO" desc="">已上传数量</item>
+		<item id="UPLOADED_AMOUNT" desc="">已上传金额</item>
+		<item id="INPRO_NO" desc="">审批中数量</item>
+		<item id="INPRO_AMOUNT" desc="">审批中金额</item>
+		<item id="REJECTED_NO" desc="">拒绝数量</item>
+		<item id="REJECTED_AMOUNT" desc="">拒绝金额</item>
+		<item id="ACCEPTED_NO" desc="">接受数量</item>
+		<item id="ACCEPTED_AMOUNT" desc="">接受金额</item>
+		<item id="REOPEN_NO" desc="">重新拍卖数量</item>
+		<item id="REOPEN_AMOUNT" desc="">重新拍卖金额</item>
+		<item id="INAUCBID_NO" desc="">拍下数量</item>
+		<item id="INAUCBID_AMOUNT" desc="">拍下金额</item>
+		<item id="INAUCUNBID_NO" desc="">在拍卖数量</item>
+		<item id="INAUCUNBID_AMOUNT" desc="">在拍卖金额</item>
+		<item id="DELISTED_NO" desc="">下架数量</item>
+		<item id="DELISTED_AMOUNT" desc="">下架金额</item>
+		<item id="DEALED_NO" desc="">确认成交数量</item>
+		<item id="DEALED_AMOUNT" desc="">确认成交金额</item>
+		<item id="UNDEALED_NO" desc="">未确认成交数量</item>
+		<item id="UNDEALED_AMOUNT" desc="">未确认成交金额</item>
+		<item id="UNDISBURSED_NO" desc="">未成功支付数量</item>
+		<item id="UNDISBURSED_AMOUNT" desc="">未成功支付金额</item>
+		<item id="DISBURSED_NO" desc="">支付数量</item>
+		<item id="DISBURSED_AMOUNT" desc="">支付金额</item>
+		<item id="SETTLEDED_NO" desc="">清分数量</item>
+		<item id="SETTLEDED_AMOUNT" desc="">清分金额</item>
+		<item id="OVERDUE_NO" desc="">逾期数量</item>
+		<item id="OVERDUE_AMOUNT" desc="">逾期金额</item>
+		<item id="REPORTTYPENUM" desc="">报表类型序号</item>
+	</invoice_report_list_result>
+	<invoice_unfunded_report_list_query>
+		<item id="IF_MGT_UNFUNDED_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_UNFUNDED_REPORT_UPLOADDATE" desc="">上传日期</item>
+	</invoice_unfunded_report_list_query>
+	<invoice_unfunded_report_list_result>
+		<item id="INVOICEID" desc="">发票ID</item>
+		<item id="INVOICE_AMMOUNT" desc="">发票金额</item>
+		<item id="SELLERID" desc="">卖家ID</item>
+		<item id="SELLER_RATING" desc="">卖家风险评级</item>
+		<item id="SELLER_RISK" desc="">卖家风险评级级别</item>
+		<item id="REGION" desc="">卖家区域</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="VIP_DATE" desc="">发布于VIP日期</item>
+		<item id="PUBLIC_DATE" desc="">发布于公众日期</item>
+		<item id="CLOSE_DATE" desc="">拍卖关闭日期</item>
+		<item id="DELISTING_DATE" desc="">下架日期</item>
+		<item id="SETTLEMENT_DATE" desc="">预计支付日期</item>
+		<item id="PDURATION_DAYS" desc="">拍卖于公众的天数</item>
+		<item id="TDURATION_DAYS" desc="">总共拍卖天数</item>
+		<item id="TOTAL_BIDS" desc="">总共出价次数</item>
+		<item id="TERMVIP_DAYS" desc="">预计发布于VIP的天数</item>
+		<item id="TERMPUBLIC_DAYS" desc="">预计发布于公众的天数</item>
+		<item id="TERMCLOSE_DAYS" desc="">预计拍卖关闭的天数</item>
+		<item id="READY_ADVANCE" desc="">准备出售的金额 (%)</item>
+		<item id="READY_INTEREST" desc="">准备出售的利率 (%)</item>
+		<item id="BEST_ADVANCE" desc="">最好的出价金额(%)</item>
+		<item id="BEST_INTEREST" desc="">最好的出价利率(%)</item>
+	</invoice_unfunded_report_list_result>
+	<invoice_disbursed_report_list_query>
+		<item id="IF_MGT_DISBURSED_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_DISBURSED_REPORT_UPLOADDATE" desc="">上传日期</item>
+	</invoice_disbursed_report_list_query>
+	<invoice_disbursed_report_list_result>
+		<item id="INVOICEID" desc="">发票ID</item>
+		<item id="INVOICE_AMMOUNT" desc="">发票金额</item>
+		<item id="SELLERID" desc="">卖家ID</item>
+		<item id="SELLER_RATING" desc="">风险评级</item>
+		<item id="SELLER_RISK" desc="">风险评级级别</item>
+		<item id="REGION" desc="">区域</item>
+		<item id="BUYERID" desc="">买家ID</item>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="VIP_DATE" desc="">发布于VIP日期</item>
+		<item id="PUBLIC_DATE" desc="">发布于公众日期</item>
+		<item id="CLOSE_DATE" desc="">拍卖关闭日期</item>
+		<item id="DISBURSEMENT_DATE" desc="">支付日期</item>
+		<item id="SETTLEMENT_DATE" desc="">预计支付日期</item>
+		<item id="PDURATION_DAYS" desc="">拍卖于公众的天数</item>
+		<item id="TDURATION_DAYS" desc="">拍卖总天数</item>
+		<item id="TOTAL_BIDS" desc="">出价总数</item>
+		<item id="TERMVIP_DAYS" desc="">预计发布于VIP天数</item>
+		<item id="TERMPUBLIC_DAYS" desc="">预计发布于公众天数</item>
+		<item id="TERMCLOSE_DAYS" desc="">预计拍卖结束天数</item>
+		<item id="DISBURSED_DAYS" desc="">预计支付天数</item>
+		<item id="DELISTING_DATE" desc="">下架日期</item>
+		<item id="DAYSDELISTING" desc="">到下架天数</item>
+		<item id="ACCEPT_ADVANCE" desc="">接受的金额率 (%)</item>
+		<item id="ACCEPT_INTEREST" desc="">接受的利率 (%)</item>
+		<item id="READY_ADVANCE" desc="">准备出售金额率 (%)</item>
+		<item id="READY_INTEREST" desc="">准备出售利率 (%)</item>
+		<item id="SELLER_AMOUNT" desc="">卖家支付金额</item>
+		<item id="SELLER_FEES" desc="">卖家出的酬金</item>
+		<item id="BUYER_AMOUNT" desc="">买家支付金额</item>
+		<item id="BUYER_FEES" desc="">买家支付的酬金</item>
+		<item id="BUYER_RETURN" desc="">买家收益</item>
+	</invoice_disbursed_report_list_result>
+	<overdue_report_uploaded_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">查询条件</item>
+		<item id="IF_MGT_OVERDUE_REPORT_UPLOADDATE" desc="">上传日期</item>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTBYTYPE" desc="">统计类型</item>
+	</overdue_report_uploaded_query>
+	<overdue_report_uploaded_result>
+		<item id="REPORTTYPE" desc="">统计类型</item>
+		<item id="NOOVERDUE_NO" desc="">逾期天数 #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">逾期金额 $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+		<item id="REPORTTYPENUM" desc="">统计日期</item>
+	</overdue_report_uploaded_result>
+	<overdue_report_settlement_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">查询条件</item>
+		<item id="IF_MGT_OVERDUE_REPORT_SETTLEMENTDATE" desc="">预计支付日期</item>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTBYTYPE" desc="">统计日期</item>
+	</overdue_report_settlement_query>
+	<overdue_report_settlement_result>
+		<item id="REPORTTYPE" desc="">统计类型</item>
+		<item id="NOOVERDUE_NO" desc="">逾期数量 #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">逾期金额 $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+		<item id="REPORTTYPENUM" desc="">统计类型</item>
+	</overdue_report_settlement_result>
+	<overdue_report_debtor_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">查询条件</item>
+		<item id="IF_MGT_OVERDUE_REPORT_SETTLEMENTDATE" desc="">预计支付日期</item>
+	</overdue_report_debtor_query>
+	<overdue_report_debtor_result>
+		<item id="DEBTOR" desc="">债务人</item>
+		<item id="NOOVERDUE_NO" desc="">逾期数量 #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">逾期金额 $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+	</overdue_report_debtor_result>
+	<overdue_detail_report_query>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_UPLOADDATE" desc="">上传日期</item>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_SETTLEMENT_DATE" desc="">预计支付日期</item>
+	</overdue_detail_report_query>
+	<overdue_detail_report_result>
+		<item id="INVOICE_ID" desc="">发票ID</item>
+		<item id="INVOICE_AMOUNT" desc="">发票金额</item>
+		<item id="SETTLEMENT_DATE" desc="">预计支付日期</item>
+		<item id="OVERDUE_DAYS" desc="">逾期天数</item>
+		<item id="SELLER_ID" desc="">卖家ID</item>
+		<item id="SELLER_RATING" desc="">卖家风险级别</item>
+		<item id="BUYER_ID" desc="">买家ID</item>
+		<item id="DEBTOR" desc="">债务人</item>
+	</overdue_detail_report_result>
+	<if_mgt_debtor_pay_report_list_query>
+		<item id="IF_MGT_DEBTOR_PAY_REPORT_UPLOADED_DATE" desc="">上传时间</item>
+		<item id="IF_MGT_DEBTOR_PAY_REPORT_SETTLE_DATE" desc="">结算日期</item>
+	</if_mgt_debtor_pay_report_list_query>
+	<if_mgt_debtor_pay_report_list_result>
+		<item id="INV_NO" desc="">发票编号</item>
+		<item id="SELLER_ID" desc="">卖家ID</item>
+		<item id="BUYER_ID" desc="">买家ID</item>
+		<item id="DEBTOR_NAME" desc="">债务人名称</item>
+		<item id="EXP_SETTLE_DATE" desc="">预结算日期</item>
+		<item id="SETTLE_DATE" desc="">结算日期</item>
+		<item id="PAY_AMOUNT" desc="">支付金额</item>
+		<item id="INV_AMOUNT" desc="">发票金额</item>
+		<item id="UPLOADED_DATE" desc="">上传日期</item>
+	</if_mgt_debtor_pay_report_list_result>
+	<if_mgt_buyer_pay_report_list_query>
+		<item id="IF_MGT_BUYER_PAY_REPORT_UPLOADED_DATE" desc="">上传日期</item>
+		<item id="IF_MGT_BUYER_PAY_REPORT_SETTLE_DATE" desc="">结算日期</item>
+	</if_mgt_buyer_pay_report_list_query>
+	<if_mgt_buyer_pay_report_list_result>
+		<item id="INV_NO" desc="">发票编号</item>
+		<item id="SELLER_ID" desc="">卖家ID</item>
+		<item id="BUYER_ID" desc="">买家ID</item>
+		<item id="DEBTOR_NAME" desc="">债务人名称</item>
+		<item id="DISBURSED_DATE" desc="">已支付日期</item>
+		<item id="SETTLE_DATE" desc="">结算日期</item>
+		<item id="PAY_AMOUNT" desc="">付款金额</item>
+		<item id="EXP_PAY_AMOUNT" desc="">预期付款金额</item>
+		<item id="UPLOADED_DATE" desc="">上传日期</item>
+	</if_mgt_buyer_pay_report_list_result>
+	<seller_detail_report_list_query>
+		<item id="IF_MGT_DETAIL_SELLER_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_DETAIL_SELLER_REPORT_UPLOADDATE" desc="">上传日期</item>
+	</seller_detail_report_list_query>
+	<seller_detail_report_list_result>
+		<item id="SELLER_ID" desc="">卖家编号</item>
+		<item id="SELLER_RATING" desc="">卖家风险级别</item>
+		<item id="REGION" desc="">区别</item>
+		<item id="SUBMITTED" desc="">发票申请数量</item>
+		<item id="ACCEPTED_NO" desc="">被接受发票数量</item>
+		<item id="ACCEPTED_AMOUNT" desc="">被接受发票金额</item>
+		<item id="DISBURSED_NO" desc="">发票支付成功数量</item>
+		<item id="DISBURSED_AMOUNT" desc="">发票支付成功金额</item>
+		<item id="AVERAGE_ADVANCE" desc="">权重平均预付款 (%)</item>
+		<item id="AVERAGE_INTEREST" desc="">权重平均利率 (%)</item>
+		<item id="CANCELLATION" desc="">取消黑名单数量</item>
+	</seller_detail_report_list_result>
+	<seller_report_list_query>
+		<item id="IF_MGT_SELLER_REPORT_REPORTDATE" desc="">统计日期</item>
+		<item id="IF_MGT_SELLER_REPORT_UPLOADDATE" desc="">上传日期</item>
+		<item id="IF_MGT_SELLER_REPORT_REPORTBYTYPE" desc="">统计类型</item>
+	</seller_report_list_query>
+	<seller_report_list_result>
+		<item id="REPORTTYPE" desc="">统计类型</item>
+		<item id="APPLIED" desc="">申请数量</item>
+		<item id="ACCEPTED" desc="">接受数量</item>
+		<item id="FINANCED" desc="">投资数量</item>
+		<item id="FRAUD_BLACKLIST" desc="">欺诈黑名单数量</item>
+		<item id="CANCELL_BLACKLIST" desc="">取消黑名单数量</item>
+		<item id="AVERAGE_ADVANCE" desc="">权重平均预付款 (%)</item>
+		<item id="AVERAGE_INTEREST" desc="">权重平均利率 (%)</item>
+		<item id="REPORTTYPENUM" desc="">统计类型</item>
+	</seller_report_list_result>
+</wordbook>

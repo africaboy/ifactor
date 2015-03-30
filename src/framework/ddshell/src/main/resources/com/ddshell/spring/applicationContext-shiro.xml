@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
+  default-lazy-init="true">
+
+  <bean id="shiroFilter" class="com.ddshell.framework.app.shiro.ShiroDbFilterFactoryBean">
+    <property name="securityManager" ref="securityManager" />
+    <property name="loginUrl" value="/login" />
+    <property name="successUrl" value="/" />
+    <property name="filterChainDefinitions">
+      <value>
+        /login = authc
+        /logout = logout
+        /favicon.ico = anon
+        /static/** = anon
+      </value>
+    </property>
+  </bean>
+
+  <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+    <property name="realm" ref="shiroDbRealm" />
+    <property name="cacheManager" ref="shiroEhcacheManager" />
+  </bean>
+
+  <bean id="shiroEhcacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+    <property name="cacheManager" ref="ehCacheManager"/>
+  </bean>
+
+  <bean id="ehCacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"> 
+    <property name="configLocation" value="classpath:com/ddshell/ehcache.xml"/>
+    <property name="shared" value="true"/>
+  </bean>
+
+  <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+    <property name="hashAlgorithmName" value="${app.shiro.hashAlgorithmName:SHA-1}" />
+    <property name="hashIterations" value="${app.shiro.hashIterations:1}" />
+  </bean>
+
+  <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+</beans>

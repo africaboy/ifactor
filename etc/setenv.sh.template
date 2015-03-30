@@ -1,0 +1,11 @@
+#!/bin/sh
+
+JAVA_HOME=`/usr/libexec/java_home`
+
+M2_HOME=/Users/duanaiguo/Documents/Macbook/work/maven/apache-maven-3.0.5
+GRADLE_HOME=/Users/duanaiguo/Documents/Macbook/work/gradle/gradle-1.8
+NEXUS_HOME=/Users/duanaiguo/Documents/Macbook/work/nexus/nexus-2.1.2
+ECLIPSE_HOME=/Users/duanaiguo/Documents/Macbook/work/eclipse/eclipse-4.3.1
+
+MYSQL_HOME=/usr/local/Cellar/mysql/5.6.13
+MYSQL_LOGON=-uroot

@@ -1,0 +1,1 @@
+ Invoice - ID <000000> has reached due date but not paid by debtor.  According to sub-contract, Bank/The Bank will provide collection profile and support you to collect debt from the seller. Hotline: xxx

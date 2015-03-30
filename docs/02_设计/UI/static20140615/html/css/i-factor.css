@@ -1,0 +1,84 @@
+#div-logo {
+    background: url(../images/logo-bg.png) repeat-x;
+}
+
+#div-sidenav {
+    padding:0;
+    margin:0;
+    width: 400px;
+    height:500px;
+    float:left;
+    overflow:auto;
+background:#FFFFFF;
+}
+
+#div-main {
+    padding:0;
+    margin:0;
+    background:#FFFFFF;
+    width:600px;
+    float:left;
+    overflow:visible;
+}
+
+
+#footer {
+    text-align: center;
+    background: none repeat scroll 0 0 #515151;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#bottom-nav {
+    height: 33px;
+    text-align: center;
+    background: url("../images/bottom-nav-bg.png") center right repeat-x;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+#bottom-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 33px;
+}
+
+#company {
+    height: 160px;
+    background: url(../images/footer-company.png) no-repeat;
+}
+
+#copyright {
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #414141;
+}
+
+
+#form-div {
+    margin:0 auto;
+    overflow:auto;
+}
+
+#form-title {
+    background-color:#3888d1;
+    height:50px;
+    line-height:50px;
+    width:882px;
+    text-align:center;
+    margin-top:0;
+
+    font-size:20px;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+#form-main {
+    padding-top:12px;
+    padding-left:12px;
+    border:1px solid #3888d1;
+    min-height:350px;
+    width:880px;
+}

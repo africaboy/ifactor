@@ -1,0 +1,23 @@
+
+#dev7link {
+    position:absolute;
+    top:0;
+    left:0px;
+    background:url(images/dev7logo.png) no-repeat;
+    width:60px;
+    height:67px;
+    border:0;
+    display:block;
+    text-indent:-9999px;
+}
+
+.slider-wrapper { 
+	width: 100%; 
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

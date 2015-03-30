@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_SCORING_ITEMS" description="scoring items">
+		<column>
+			<name>ITEM_ID</name>
+			<type>integer</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>ITEM_CODE</name>
+			<type>varchar</type>
+			<description>item code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ITEM_NAME</name>
+			<type>varchar</type>
+			<description>item code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ITEM_TYPE</name>
+			<type>varchar</type>
+			<description>item type(1:constant，2：formula)</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>ITEM_TYPE_VAL</name>
+			<type>varchar</type>
+			<description>item type(1:constant，2：formula)</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>ITEM_VALUE</name>
+			<type>varchar</type>
+			<description>item value</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ITEM_FUNC</name>
+			<type>varchar</type>
+			<description>item function</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>CATALOG_ID</name>
+			<type>varchar</type>
+			<description>catalog id </description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>CATALOG_NAME</name>
+			<type>varchar</type>
+			<description>catalog name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>FIELD_NAME</name>
+			<type>varchar</type>
+			<description>field name</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>CODE_NAME</name>
+			<type>varchar</type>
+			<description>code name</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>CP_TYPE</name>
+			<type>varchar</type>
+			<description>cp type</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CP_TYPE_VAL</name>
+			<type>varchar</type>
+			<description>cp type value</description>
+			<length>100</length>
+		</column>
+	</table>
+	<table name="IF_MGT_SCORING_RATING" description="scoring vpb rating">
+		<column>
+			<name>RATING_ID</name>
+			<type>integer</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>RATING</name>
+			<type>varchar</type>
+			<description>VPB Rating</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>PDLOW</name>
+			<type>varchar</type>
+			<description>PD-Low</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>PDHIGH</name>
+			<type>varchar</type>
+			<description>PD-High</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CP_TYPE</name>
+			<type>varchar</type>
+			<description>cp type</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CP_TYPE_VAL</name>
+			<type>varchar</type>
+			<description>cp type value</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>RATING_LEVEL</name>
+			<type>varchar</type>
+			<description>rating level</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>RATING_LEVEL_VAL</name>
+			<type>varchar</type>
+			<description>rating level value</description>
+			<length>30</length>
+		</column>
+	</table>
+</annotate>

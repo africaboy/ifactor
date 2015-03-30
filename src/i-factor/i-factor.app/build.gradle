@@ -1,0 +1,64 @@
+import org.gradle.api.plugins.jetty.internal.JettyPluginWebAppContext
+
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+task cleanEclipseOutput(type: Delete) {
+  delete eclipse.classpath.defaultOutputDir
+}
+
+task processDdshellResources(type: Copy) {
+
+}
+
+dependencies {
+  def lib = new File(project(':').projectDir.parentFile, 'lib/flat')
+  
+  compile project(':i-factor.api')
+  compile "com.jhlabs:filters:2.0.235"
+  compile "com.octo.captcha:jcaptcha-api:1.0"
+  compile files(new File(lib, 'jcaptcha/jcaptcha-2.0-alpha-1-SNAPSHOT.jar'))
+  runtime "jstl:jstl:$jstlVersion"
+  providedCompile "javax.servlet:servlet-api:$servletVersion"
+}
+
+processResources.dependsOn processDdshellResources
+
+war {
+  from(project(':ddshell').webAppDir) {
+    exclude { details -> 
+      if ( details.isDirectory() ) {
+        return false
+      }
+      def target = new File(project.webAppDir, details.path)
+      return target.exists() && target.isFile()
+    }
+    exclude '/WEB-INF/views/themes'
+  }
+}
+
+jettyRun.dependsOn cleanEclipseOutput
+
+jettyRun {
+  httpPort = 9080
+  contextPath = ''
+  reload = 'manual'
+  //scanIntervalSeconds = 1
+  classpath = files(eclipse.classpath.defaultOutputDir) + classpath + configurations.jdbc
+}
+
+jettyRun.doFirst {
+  def shell = new GroovyShell(JettyPluginWebAppContext.class.classLoader, new Binding([jettyRun: jettyRun]))
+
+  def jettyConfRoot = new File(project(':').projectDir.parentFile, 'conf/jetty')
+  
+  def context = shell.evaluate(new File(jettyConfRoot, 'jetty-context.groovy'))
+
+  context.baseResource.setResources([
+    project.webAppDir.path,
+    project(':ddshell').webAppDir.path
+  ] as String[])
+
+  jettyRun.webAppConfig = context
+  jettyRun.webDefaultXml = new File(jettyConfRoot, 'jetty-webdefault.xml')
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook>
+	<ifcommon-language>
+		<item id="input_ambiguous" desc="">Nếu đầu vào không chắc chắn, vui lòng kiểm tra!</item>
+		<item id="stockings_view" desc="">Không có lưu trữ cho bảng hiển thị</item>
+		<item id="input_field" desc="">Trường dữ liệu đầu vào ({0}) không chắc chắn.</item>
+		<item id="input_file" desc="">Tập tin ảnh ({0}) không chắc chắn.</item>
+		<item id="blacklist_check" desc="">Danh sách thông tin danh sách đen </item>
+		<item id="blacklist_check_btn" desc="">Kiểm tra Danh sách đen</item>
+		<item id="blacklist_check_results" desc="">Chọn kết quả kiểm tra trên danh sách</item>
+		<item id="image_upload" desc="">Tập tin mới Tải lên</item>
+		<item id="image_describe" desc="">Tập tin mới Tải lên</item>
+		<item id="image_view" desc="">Tải lên Tài liệu</item>
+		<item id="image_vdescribe" desc="">Tải lên Tài liệu</item>
+		<item id="hint" desc="">Gợi ý</item>
+		<item id="tickbox" desc="">Chưa đánh dấu bất kỳ ô nào!</item>
+		<item id="opinion_check" desc="">Kết quả kiểm tra hệ thống là {0}, Bạn có chắc chắn thay đổi?</item>
+		<item id="get_blacklist_result" desc="">Lấy thông tin kết quả kiểm tra danh sách đen không thành công</item>
+		<item id="view_opinion_info1" desc="">Ấn để xem {0} thông tin chi tiết ý kiến</item>
+		<item id="view_opinion_info2" desc="">Hiển thị {0} thông tin chi tiết ý kiến</item>
+		<item id="deal" desc="">Nhấn vào để thỏa thuận</item>
+		<item id="canceldeal" desc="">Hủy thỏa thuận</item>
+		<item id="graphics_monitor" desc="">Giám sát tiến độ đồ họa</item>
+		<item id="see_process" desc="">Ấn vào để hiện thị tiến độ</item>
+		<item id="see_detail" desc="">Ấn vào để hiển thị chi tiết</item>
+		<item id="see_process_list" desc="">Hiển thị danh sách dữ liệu vận hành lịch sử</item>
+		<item id="data_loadmasktext" desc="">Đang tải dữ liệu, vui lòng chờ...</item>
+		<item id="bbar_emptymsg" desc="">Không có bản lưu nào</item>
+		<item id="bbar_displaymsg" desc="">Tổng số bản lưu {0} - {1} trong {2}</item>
+		<item id="close" desc="">Đóng</item>
+		<item id="valid" desc="">Hợp lệ</item>
+		<item id="invalid" desc="">Không hợp lệ</item>
+		<item id="import" desc="">Nhập Dữ liệu</item>
+		<item id="edit" desc="">Chinh sửa</item>
+		<item id="delete" desc="">Xóa</item>
+		<item id="exception" desc="">Hệ thống đang chạy không bình thường!</item>
+		<item id="call_service" desc="">Dịch vụ chăm sóc khách hàng qua điện thoại</item>
+		<item id="call_list" desc="">Danh sách bản lưu lịch sử cuộc gọi từ Chăm sóc Khách hàng</item>
+		<item id="cs_success" desc="">Lưu lịch sử cuộc gọi từ Chăm sóc Khách hàng thành công!</item>
+		<item id="process_instance" desc="">Khởi tạo quy trình phát sinh bất thường!</item>
+		<item id="details" desc="">Details</item>
+		<item id="accepted" desc="">Accepted</item>
+		<item id="rejected" desc="">Rejected</item>
+	</ifcommon-language>
+	<seller-language>
+		<item id="seller_apply" desc="">Đăng ký SME</item>
+		<item id="view_detail_info1" desc="">Ấn vào để xem thông tin chi tiết đăng ký SME</item>
+		<item id="view_detail_info2" desc="">Hiển thị thông tin chi tiết đăng ký SME</item>
+		<item id="not_call" desc="">Chưa gọi</item>
+		<item id="called" desc="">Đã gọi</item>
+		<item id="program_abnormal" desc="">Chương trình phát sinh bất thường!</item>
+		<item id="update_remind" desc="">Nhắc lại thành công!</item>
+		<item id="view_profile_info1" desc="">Ấn vào để xem {0} thông tin chi tiết hồ sơ</item>
+		<item id="view_profile_info2" desc="">Hiển thị {0} thông tin chi tiết hồ sơ</item>
+		<item id="data_file" desc="">Tập tin dữ liệu</item>
+	    <item id="blacklist_import" desc="">Nhập dữ liệu danh sách đen</item>
+		<item id="vpbank_import" desc="">Nhập dữ liệu ngân hàng</item>
+	    <item id="perform_import" desc="">Thực hiện nhập dữ liệu</item>
+	    <item id="file_version" desc="">Tập tin dữ liệu phải là phiên bản Excel 2003</item>
+		<item id="data_imported" desc="">Dữ liệu đã được nhập...</item>
+		<item id="import_successful" desc="">Nhập dữ liệu thành công!</item>
+		<item id="import_failure" desc="">Nhập dữ liệu không thành công!</item>
+		<item id="cs_record" desc="">Lưu dữ liệu chăm sóc khách hàng đăng ký là Người bán</item>
+		<item id="score_item" desc="">Thêm tham số tính điểm</item>
+		<item id="get_score_item" desc="">Đọc tham số tính điểm không thành công!</item>
+	</seller-language>
+	<buyer-language>
+		<item id="buyer_apply" desc="">Đăng ký là Người mua</item>
+		<item id="view_profile_info1" desc="">Ấn vào để xem {0} thông tin chi tiết hồ sơ</item>
+		<item id="view_profile_info2" desc="">Hiển thị {0} thông tin chi tiết hồ sơ</item>
+		<item id="cs_record" desc="">Lưu dữ liệu chăm sóc khách hàng đăng ký là Người mua</item>
+	</buyer-language>
+	<invoice-language>
+		<item id="oriverinvoice_apply" desc="">Original invoice verification apply</item>
+		<item id="invoice_apply" desc="">Đăng ký hóa đơn</item>
+		<item id="auction_end_check1" desc="">Phải sau ngày hôm nay!</item>
+		<item id="auction_end_check2" desc="">Ngày thanh toán dự kiến" - "Chu kỳ hóa đơn kết thúc" không thể nhỏ hơn 22 ngày!</item>
+		<item id="cs_record" desc="">Lưu dữ liệu chăm sóc khách hàng đăng ký hóa đơn</item>
+		<item id="ready_to_sell" desc="">Chấp nhận giá bán ngay</item>
+		<item id="place_bid" desc="">Đặt giá</item>
+		<item id="open_investor" desc="">Mở cho nhà đầu tư</item>
+		<item id="keep_vpbank" desc="">Giữ lại cho Ngân hàng</item>
+		<item id="setauction_status" desc="">Trạng thái đấu giá được đặt thành công!</item>
+		<item id="original_check" desc="">Original invoice verification not completed, please complete the original invoice verification issued again.</item>
+	</invoice-language>
+	<image-language>
+		<item id="image_number" desc="">Số ảnh</item>
+		<item id="image_name" desc="">Tên ảnh</item>
+		<item id="querybtn_text" desc="">Truy vấn</item>
+		<item id="resetbtn_text" desc="">Thiết lập lại</item>
+		<item id="serial_number" desc="">Số se-ri</item>
+		<item id="image_code" desc="">Mã ảnh</item>
+		<item id="last_upload_time" desc="">Lần tải lên gần nhất</item>
+		<item id="uploaded_file_number" desc="">Số tập tin tải lên</item>
+		<item id="handle" desc="">Xử lý</item>
+		<item id="upload_image" desc="">Tải lên hình ảnh</item>
+		<item id="view_image_data" desc="">Hiển thị Dữ liệu Hình ảnh</item>
+		<item id="left_rotation" desc="">Quay sang trái</item>
+		<item id="right_rotation" desc="">Quay sang phải</item>
+		<item id="previous" desc="">Trước</item>
+		<item id="next" desc="">Sau</item>
+		<item id="file_name" desc="">Tên tập tin</item>
+		<item id="file_type" desc="">Loại tập tin</item>
+		<item id="size" desc="">Kích thước</item>
+		<item id="progress" desc="">Tiến độ</item>
+		<item id="status" desc="">Trạng thái</item>
+		<item id="all_files" desc="">Tất cả tập tin</item>
+		<item id="add_files" desc="">Thêm tập tin</item>
+		<item id="del_all" desc="">Xóa tất cả</item>
+		<item id="upload" desc="">Tải lên</item>
+		<item id="not_upload" desc="">Không tải lên</item>
+		<item id="are_uploading" desc="">Đang tải lên</item>
+		<item id="upload_failed" desc="">Tải lên không thành công</item>
+		<item id="upload_complete" desc="">Hoàn tất tải lên</item>
+		<item id="upload_cancel" desc="">Hủy tải lên</item>
+		<item id="file_format_error" desc="">Lỗi định dạng tập tin</item>
+		<item id="file_error_100" desc="">Một số danh sách tập tin sẽ bị hủy nếu tải lên, không thể chọn!</item>
+		<item id="file_error_110" desc="">Tập tin quá lớn, không thể chọn!</item>
+		<item id="file_error_120" desc="">Là 0, không thể chọn do kích thước tập tin!</item>
+		<item id="file_error_130" desc="">Các loại tập tin chưa tải lên!</item>
+		<item id="deletefile" desc="">Xóa tập tin này</item>
+		<item id="remove" desc="">Xóa</item>
+		<item id="no." desc="">Số thứ tự</item>
+	</image-language>
+</wordbook>

@@ -1,0 +1,15 @@
+.delwbtype {
+	background-image: url(../images/delete.gif) !important
+}
+
+.addwbtype {
+	background-image: url(../images/add.gif) !important
+}
+
+.addwbitem {
+	background-image: url(../images/additem.gif) !important
+}
+
+.savewbitem {
+	background-image: url(../images/save.gif) !important
+}

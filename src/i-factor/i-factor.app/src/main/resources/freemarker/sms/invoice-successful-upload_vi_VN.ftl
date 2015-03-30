@@ -1,0 +1,1 @@
+<EntroAuction>Hoa don tai len thanh cong. ID hoa don duoc khoi tao <000000>. Xin vui long cung cap hoa don goc de quy trinh giai ngan duoc thuc hien.

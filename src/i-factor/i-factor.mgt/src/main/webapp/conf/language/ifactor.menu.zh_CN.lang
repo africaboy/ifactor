@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<extframe-module>
+		<item id="businessHandling">业务处理</item>
+		<item id="customerServiceMonitor">客服服务</item>
+		<item id="flowMonitor">流程监控</item>
+		<item id="systemSetting">系统设置</item>
+		<item id="clientProfiles">客户信息</item>
+		<item id="reportingTemplates">报表模板</item>
+	</extframe-module>
+	<extframe-menu>
+		<item id="businessHandling-01">买家申请检查列表</item>
+		<item id="businessHandling-02">买家申请审批列表</item>
+		<item id="businessHandling-03">买家申请签署列表</item>
+		<item id="businessHandling-04">发票交付申请检查列表</item>
+		<item id="businessHandling-05">发票交付申请审批列表</item>
+		<item id="businessHandling-06">卖家申请检查列表</item>
+		<item id="businessHandling-07">卖家申请审批列表</item>
+		<item id="businessHandling-08">卖家申请核实和签署列表</item>
+		<item id="businessHandling-09">卖家申请实地访问列表</item>
+		<item id="businessHandling-10">卖家申请检查调查文件列表</item>
+		<item id="businessHandling-11">卖家申请人员分配列表</item>
+		<item id="businessHandling-12">买家申请确认列表</item>
+		<item id="businessHandling-13">发票支付拍卖列表</item>
+		<item id="customerServiceMonitor-01">买家申请客服监控列表</item>
+		<item id="customerServiceMonitor-02">发票支付申请客服监控列表</item>
+		<item id="customerServiceMonitor-03">卖家申请客服监控列表</item>
+		<item id="customerServiceMonitor-04">卖家申请客服提醒列表</item>
+		<item id="flowMonitor-01">买家申请流程监控列表</item>
+		<item id="flowMonitor-02">发票支付申请流程监控列表</item>
+		<item id="flowMonitor-03">卖家申请流程监控列表</item>
+		<item id="flowMonitor-04">卖家申请流程任务监控列表</item>
+		<item id="flowMonitor-05">发票支付申请流程任务监控列表</item>
+		<item id="flowMonitor-06">买家申请流程任务监控列表</item>
+		<item id="flowMonitor-07">卖家申请流程任务监控列表</item>
+		<item id="flowMonitor-08">发票支付申请流程任务监控列表</item>
+		<item id="flowMonitor-09">买家申请流程任务监控列表</item>
+		<item id="systemSetting-01">影像项设置</item>
+		<item id="systemSetting-02">黑名单数据导入</item>
+		<item id="systemSetting-03">评分卡项列表</item>
+		<item id="systemSetting-04">评分卡评级信息列表</item>
+		<item id="systemSetting-05">字段对应关系列表</item>
+		<item id="systemSetting-06">拍卖起价维护项</item>
+		<item id="systemSetting-07">发票金额限制维护项</item>
+		<item id="systemSetting-08">Bank 用户列表</item>
+		<item id="systemSetting-09">系统参数设置</item>
+		<item id="clientProfiles-01">卖家信息列表</item>
+		<item id="clientProfiles-02">买家信息列表</item>
+		<item id="report-01">发票报表</item>
+		<item id="report-02">卖家信息报表</item>
+		<item id="report-03">卖家按类型报表</item>
+		<item id="report-04">未成功拍卖的发票报表</item>
+		<item id="report-05">支付成功的发票报表</item>
+		<item id="report-06">买家信息报表</item>
+		<item id="report-07">买家按类型报表</item>
+		<item id="report-08">债务人信息报表</item>
+		<item id="report-09">债务人逾期报表</item>
+		<item id="report-10">逾期按类型和上传日期报表</item>
+		<item id="report-11">逾期按类型和支付日期报表</item>
+		<item id="report-12">逾期信息报表</item>
+		<item id="report-13">发票酬金报表</item>
+		<item id="report-14">利息支付报表</item>
+		<item id="report-15">逾期利息支付报表</item>
+		<item id="report-16">总酬金和利息按卖家区域统计报表</item>
+		<item id="report-17">总酬金和利息按卖家企业类型统计报表</item>
+		<item id="report-18">总酬金和利息按卖家风险评级统计报表</item>
+		<item id="report-19">总酬金和利息按买家区域统计报表</item>
+		<item id="report-20">总酬金和利息按买家类型统计报表</item>
+		<item id="report-21">债务人支付历史报表</item>
+		<item id="report-22">买家支付历史报表</item>
+	</extframe-menu>
+</wordbook>

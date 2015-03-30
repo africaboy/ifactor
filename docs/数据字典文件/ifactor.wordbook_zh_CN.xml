@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<applicationJSCSS desc="自定义JSCSS"> 
+		<item id="GAPGlobal.js">/GAP/js/GAPGlobal.js</item>
+		<item id="common.js">/resources/common/js/common.js</item>
+		<item id="workflowaction.js">/system/workflow/plugin/js/workflowaction.js</item>
+		<item id="application.js">/app/ifactor/js/application.js</item>
+		<item id="mainTab.js">/app/ifactor/js/mainTab.js</item>
+		<item id="previewImageData.js">/app/ifactor/js/previewImageData.js</item>
+		<item id="imageUploadItemList.js">/app/ifactor/js/imageUploadItemList.js</item>
+		<item id="flow.css">/app/ifactor/css/flow.css</item>
+		<!--image upload refrence start-->
+		<item id="swfupload.js">/app/ifactor/upload/swfupload/swfupload.js</item>  
+		<item id="image-slideshow-vertical.js">/app/ifactor/upload/image-slideshow-vertical.js</item>  
+		<item id="uploadPanel.js">/app/ifactor/upload/uploadPanel.js</item>  
+		<item id="uploadPanel.css">/app/ifactor/upload/css/uploadPanel.css</item>
+		<item id="image-slideshow-vertical.css">/app/ifactor/upload/css/image-slideshow-vertical.css</item>
+		<!--image upload refrence end-->
+		<item id="application.js">/app/lib/js/application.js</item>
+		<!--global variable-->
+		<item id="share.js">/app/ifactor/js/share.js</item>
+		<item id="pdfobject.js">/app/ifactor/js/pdfobject.js</item>
+	</applicationJSCSS>
+	<default-menu-icon> 
+		<item id="/GAP/welcome/default_menu_icon/web_icon_001.png">001</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_002.png">002</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_006.png">006</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_009.png">009</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_010.png">010</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_012.png">012</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_014.png">014</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_015.png">015</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_016.png">016</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_018.png">018</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_019.png">019</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_021.png">021</item> 
+	</default-menu-icon>  
+	<operatorGt desc="calculate operator gt"> 
+		<item id="01" desc="&gt;">&gt;</item>  
+		<item id="02" desc="&gt;=">&gt;=</item>
+	</operatorGt>
+	<operatorLt desc="calculate operator lt">  
+		<item id="01" desc="&lt;">&lt;</item>
+		<item id="02" desc="&lt;=">&lt;=</item>
+	</operatorLt>
+
+	<user-type desc="用户类别"> 
+		<item id="1">本地</item>  
+		<item id="2">内派</item>  
+		<item id="3">外派</item> 
+	</user-type>  
+	<user-workstatus desc="用户工作状态"> 
+		<item id="0">正常</item>  
+		<item id="-1">离职</item>  
+		<item id="-2">休假</item>  
+		<item id="-3">离开</item> 
+	</user-workstatus>  
+	<user-workstatus-session desc="用户工作会话状态"> 
+		<item id="0">正常</item>  
+		<item id="-3">离开</item> 
+	</user-workstatus-session>  
+	<user-rating desc="用户级别"> 
+		<item id="1" desc="" idx="1">总部高层</item>  
+		<item id="3" desc="" idx="2">总部中层</item>  
+		<item id="2" desc="" idx="3">区域高层</item>  
+		<item id="4" desc="" idx="4">区域中层</item>  
+		<item id="5" desc="" idx="5">普通员工</item> 
+	</user-rating>  
+	<group-rating desc="组级别"> 
+		<item id="1">公司/办事处</item>  
+		<item id="2">一级部门</item> 
+	</group-rating>  
+	<job desc="用户职务"> 
+		<item id="风控总监" desc="" idx="">风控总监</item>  
+		<item id="信审经理">信审经理</item>  
+		<item id="总监助理">总监助理</item>  
+		<item id="信审主任">信审主任</item>  
+		<item id="信审员">信审员</item>  
+		<item id="稽核员">稽核员</item>  
+		<item id="数据分析员">数据分析员</item>  
+		<item id="团队经理">团队经理</item>  
+		<item id="业务员">业务员</item>  
+		<item id="客服">客服</item>  
+		<item id="职员">职员</item> 
+	</job>  
+	<area desc="部门所属区域"> 
+		<item id="00">北京总部</item>  
+		<item id="01">东区</item>  
+		<item id="02">南区</item> 
+	</area>   
+	<fc_opinion desc="first check opinion selects of buyer flow"> 
+		<item id="Confirmed">已确认</item>  
+		<item id="Modify">数据修改</item> 
+	</fc_opinion> 
+	<dc_opinion desc="double check opinion selects of buyer flow"> 
+		<item id="Confirmed">已确认</item>  
+		<item id="Modify">数据修改</item>
+	</dc_opinion> 
+	<blc_opinion desc="blacklist check opinion selects of buyer flow"> 
+		<item id="Accept">接受</item>  
+		<item id="Reject">拒绝</item> 
+	</blc_opinion> 
+	<bc_opinion desc="buyer confirm opinion selects of buyer flow"> 
+		<item id="Confirmed">已确认</item>  
+		<item id="UnConfirmed">未经证实</item> 
+	</bc_opinion>
+	<fieldcheck_opinion desc="double check field visit doc opinion"> 
+		<item id="Accept">接受</item>  
+		<item id="Reject">拒绝</item> 
+	</fieldcheck_opinion>
+	<common_opinion>
+		<item id="Confirmed">已确认</item> 
+		<item id="Reject">拒绝</item>
+	</common_opinion> 
+	<smecheck_opinion>
+		<item id="Confirmed">已确认</item> 
+		<item id="Modify">数据修改</item>
+	</smecheck_opinion>
+	<mapscore_opinion>
+		<item id="Confirmed">已确认</item> 
+		<item id="Reject">拒绝</item> 
+		<item id="Review">复审</item> 
+	</mapscore_opinion>
+	<fieldvisit_opinion>
+		<item id="Required">需要实地考察</item> 
+		<item id="NotRequired">不需要实地考察</item> 
+	</fieldvisit_opinion>
+	<doublecheckverify_opinion>
+		<item id="Confirmed">已确认</item> 
+		<item id="VerifyAgain">检查并再次验证</item>
+	</doublecheckverify_opinion>
+	<fscheckreview_opinion>
+		<item id="Confirmed">已确认</item> 
+		<item id="FSModify">财务报表修改</item>
+	</fscheckreview_opinion>
+	<ba_stauts desc="买家申请状态">
+		<item id="FTDaNkdaIp">注册</item>  
+		<item id="FTDaNkdaIp_frTGUAcenq">待处理的完整性和正确性检查</item> 
+		<item id="frTGUAcenq_xzaEBsKadm">待处理的完整性和正确性再次检查</item> 
+		<item id="frTGUAcenq_AyrbNcfEYW">待处理的数据修改</item> 
+		<item id="AyrbNcfEYW_frTGUAcenq">待处理的完整性和正确性检查</item> 
+		<item id="xzaEBsKadm_yjoUTSRriH">待处理的黑名单检查</item> 
+		<item id="xzaEBsKadm_frTGUAcenq">待处理的数据修改</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_0">待处理的客服联系</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_1">通过客服联系</item> 
+		<item id="AyrbNcfEYW_xzaEBsKadm">待处理的完整性和正确性再次检查</item>
+		<item id="yjoUTSRriH_ZgoGbrkOWm">待处理的买方确认</item> 
+		<item id="yjoUTSRriH_ANAzqfzpXu">拒绝</item> 
+		<item id="ZgoGbrkOWm_wqeytIZGJg">待处理的验证和签署</item> 
+		<item id="ZgoGbrkOWm_IumoNgdgWo">待处理的关闭申请</item> 
+		<item id="IumoNgdgWo_ANAzqfzpXu">关闭买家</item>
+		<item id="wqeytIZGJg_PBwYjzcgYL">待处理的文件双重检查</item> 
+		<item id="PBwYjzcgYL_wqeytIZGJg">待处理的再次签署和验证</item> 
+		<item id="PBwYjzcgYL_ANAzqfzpXu">买家申请通过</item> 
+		<item id="AyrbNcfEYW_ANAzqfzpXu">申请关闭</item> 
+	</ba_stauts> 
+	<ida_stauts desc="发票交付使用状态"> 
+		<item id="szIeAMROkl">注册</item>  
+		<item id="szIeAMROkl_mVolpvvEFY">待处理的完整性和正确性检查</item>  
+		<item id="mVolpvvEFY_RyXlLYLUHF">待处理的数据修改</item>
+		<item id="mVolpvvEFY_RyXlLYLUHF_0">待定的CS到联系</item> 
+		<item id="mVolpvvEFY_RyXlLYLUHF_1">通过CS联系</item>   
+		<item id="mVolpvvEFY_bquDuCwisW">待处理的人工检查</item>  
+		<item id="bquDuCwisW_dSHAvdyhfW">拒绝</item>  
+		<item id="bquDuCwisW_ibvYshlyGv">待处理的完整性和正确性再次检查</item>  
+		<item id="ibvYshlyGv_vBdcCEIXvk">待处理的黑名单检查</item>  
+		<item id="ibvYshlyGv_mVolpvvEFY">待处理的数据修改</item>  
+		<item id="RyXlLYLUHF_mVolpvvEFY">待处理的完整性和正确性检查</item>
+		<item id="RyXlLYLUHF_ibvYshlyGv">待处理的完整性和正确性再次检查</item>
+		<item id="vBdcCEIXvk_dSHAvdyhfW">拒绝</item>  
+		<item id="vBdcCEIXvk_YCcCAeFtUg">待处理的资格检查</item>
+		<item id="YCcCAeFtUg_dSHAvdyhfW">拒绝</item>
+		<item id="YCcCAeFtUg_xhLGTcqzFh">待处理的实物发票检查</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW">申请通过</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW_0">拒绝</item>
+		<item id="RyXlLYLUHF_dSHAvdyhfW">申请关闭</item>
+	</ida_stauts> 
+	<ida_fc_opinion desc="first check opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">已确认</item>  
+		<item id="Modify">数据修改</item> 
+	</ida_fc_opinion>
+	<ida_mp_opinion desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">已确认</item>  
+		<item id="Reject">拒绝</item> 
+	</ida_mp_opinion>
+	<ida_mp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">合同和发票的商品是对行业的黑名单</item>  
+		<item id="02">非法协议/交易而产生的合同/发票</item> 
+		<item id="03">从争议的协议/交易而产生的合同/发票</item> 
+		<item id="04">卖家经营业无关的发票的商品</item> 
+		<item id="05">卖家的行业是不适合的企业法人营业执照</item> 
+		<item id="06">上载的文件信息不匹配</item> 
+		<item id="07">是不是禁止转移转让发票按照法律和合同/发票</item> 
+		<item id="08">合同/发票提供了特殊的规定，如“合同项下货物的形式”，“可回收物品” ; “支付仅在安装和测试好后” 。卖方的责任不被视为交付货物后完成。</item> 
+		<item id="09">发票被抵押，抵押</item> 
+		<item id="10">发票期限合同不付款期限内</item> 
+		<item id="11">卖方和债务人的相关</item> 
+	</ida_mp_reject_reason>
+	<ida_doublemp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">合同和发票的商品是对行业的黑名单</item>  
+		<item id="02">非法协议/交易而产生的合同/发票</item> 
+		<item id="03">从争议的协议/交易而产生的合同/发票</item> 
+		<item id="04">卖家经营业无关的发票的商品</item> 
+		<item id="05">卖家的行业是不适合的企业法人营业执照</item> 
+		<item id="06">上载的文件信息不匹配</item> 
+		<item id="07">是不是禁止转移转让发票按照法律和合同/发票</item> 
+		<item id="08">合同/发票提供了特殊的规定，如“合同项下货物的形式”，“可回收物品” ; “支付仅在安装和测试好后” 。卖方的责任不被视为交付货物后完成。</item> 
+		<item id="09">发票被抵押，抵押</item> 
+		<item id="10">发票期限合同不付款期限内</item> 
+		<item id="11">卖方和债务人的相关</item> 
+		<item id="12">偏差不接受</item> 
+	</ida_doublemp_reject_reason>
+	<bltype desc="黑名单类型">
+		<item id="01">取消</item>  
+		<item id="02">欺诈</item> 
+		<item id="03">行业</item>
+		<item id="04">监管</item>
+		<item id="05">内部</item>
+		<item id="06">付款不良</item>
+	</bltype> 
+	<image_item_type desc="Image data types"> 
+		<item id="idcard" desc="idcard">idcard</item>  
+		<item id="checkDoc" desc="check documents">checkDoc</item>
+		<item id="license" desc="license">license</item> 
+		<item id="taxcode" desc="taxcode">taxcode</item>
+		<item id="fs" desc="fs">fs</item>
+		<item id="invoice" desc="invoice">invoice</item>
+		<item id="signed" desc="signed">signed</item>
+		<item id="terms" desc="terms">terms</item>
+		<item id="visitForm" desc="field visit request form">visitForm</item>
+	</image_item_type>  
+	
+	<common_yesorno desc="yes or no"> 
+		<item id="01" desc="yes">是</item>  
+		<item id="02" desc="no">否</item> 
+	</common_yesorno>
+	
+	<cic_haveornone desc="have or none"> 
+		<item id="01" desc="have">有</item>  
+		<item id="02" desc="none">无</item> 
+	</cic_haveornone>
+	
+	<smeapplystatus>
+		<item id="UHQvMFrkXQ" desc="Registration">注册</item>
+		<item id="UHQvMFrkXQ_FUoVuacHWV" desc="first check">待处理的完整性和正确性检查</item>
+		<item id="FUoVuacHWV_mRizDYBctr" desc="double check">待处理的完整性和正确性再次检查</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF" desc="data modify">待处理的数据修改</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF_0">待定的CS到联系</item> 
+		<item id="FUoVuacHWV_cMxzCQLUrF_1">通过CS联系</item>   
+		<item id="mRizDYBctr_FUoVuacHWV" desc="data modify">待处理的数据修改</item>
+		<item id="cMxzCQLUrF_FUoVuacHWV" desc="completed data modify">待处理的完整性和正确性检查</item>
+		<item id="cMxzCQLUrF_mRizDYBctr" desc="completed data modify">待处理的完整性和正确性再次检查</item>
+		<item id="mRizDYBctr_zIeeUKnBZF" desc="license check">待处理的许可检查</item>
+		<item id="zIeeUKnBZF_zXusSDxdAs" desc="blacklist check">待处理的黑名单检查</item>
+		<item id="zIeeUKnBZF_oQfYjWhRHs" desc="rejection">许可证检查未通过</item>
+		<item id="zXusSDxdAs_wVbebSTCKW" desc="CIC check">待处理中投公司检查</item>
+		<item id="zXusSDxdAs_oQfYjWhRHs" desc="rejection">黑名单检查未通过</item>
+		<item id="wVbebSTCKW_pvPsOAQpXx" desc="FS">待填写报表信息</item>
+		<item id="wVbebSTCKW_oQfYjWhRHs" desc="rejection">中投公司检查未通过</item>
+		<item id="pvPsOAQpXx_KJtCGqzGmT" desc="FS check and review">待处理的财务报表检查和审查</item>
+		<item id="KJtCGqzGmT_pvPsOAQpXx" desc="FS modify">待处理的财务报表修改</item>
+		<item id="KJtCGqzGmT_VmnUSmpded" desc="eligibility check">待处理的资格检查</item>
+		<item id="VmnUSmpded_ulccaPXdZe" desc="map score">待处理的评分卡结果检查</item>
+		<item id="VmnUSmpded_oQfYjWhRHs" desc="rejection">资格检查未通过</item>
+		<item id="ulccaPXdZe_KDJlQmRchM" desc="verify ID and sign documents">待处理的验证和签署文件</item>
+		<item id="ulccaPXdZe_oQfYjWhRHs" desc="rejection">评分卡结果检查未通过</item>
+		<item id="ulccaPXdZe_BlSPDaIKLf" desc="field visit">待处理的实地考察</item>
+		<item id="BlSPDaIKLf_inertjGixd" desc="field visit staff assigned">待处理的实地考察工作分配</item>
+		<item id="inertjGixd_LmZdhEzbKy" desc="upload the completed list">待处理的上传文件</item>
+		<item id="BlSPDaIKLf_KDJlQmRchM" desc="verify ID and sign documents">待处理的验证和签署文件</item>
+		<item id="LmZdhEzbKy_HQrcOamWus" desc="double check field visit doc">待处理的再次检查现场考察文件</item>
+		<item id="HQrcOamWus_LmZdhEzbKy" desc="check and upload paper doc again">待处理的再次检查和上传文件</item>
+		<item id="HQrcOamWus_mKISSmbTdc" desc="assess and result">待定的评估和结果</item>
+		<item id="mKISSmbTdc_oQfYjWhRHs" desc="rejection">评估结果未通过</item>
+		<item id="mKISSmbTdc_KDJlQmRchM" desc="verify ID and sign documents">待处理的验证和签署文件</item>
+		<item id="KDJlQmRchM_cPjfdskOtZ" desc="double check and verify">待处理的再次检查和验证</item>
+		<item id="cPjfdskOtZ_KDJlQmRchM" desc="verify ID and sign documents again">待处理的验证 ，并再次签署文件</item>
+		<item id="cPjfdskOtZ_oQfYjWhRHs" desc="release">卖家申请通过</item>
+		<item id="cMxzCQLUrF_oQfYjWhRHs">申请关闭</item>
+	</smeapplystatus>
+		
+	<gender>
+		<item id="Male" desc="male">男</item>
+		<item id="Female" desc="female">女</item>
+	</gender>
+
+	<country>
+		<item id="Afghanistan" desc="Afghanistan">阿富汗</item>
+		<item id="Albania" desc="Albania">阿尔巴尼亚</item>
+		<item id="Algeria" desc="Algeria">阿尔及利亚</item>
+		<item id="American Samoa" desc="American Samoa">美属萨摩亚</item>
+		<item id="Andorra" desc="Andorra">安道尔</item>
+		<item id="Anguilla" desc="Anguilla">安圭拉</item>
+		<item id="Antarctica" desc="Antarctica">南极洲</item>
+		<item id="Antigua And Barbuda" desc="Antigua And Barbuda">安提瓜和巴布达</item>
+		<item id="Argentina" desc="Argentina">阿根廷</item>
+		<item id="Armenia" desc="Armenia">亚美尼亚</item>
+		<item id="Aruba" desc="Aruba">阿鲁巴</item>
+		<item id="Australia" desc="Australia">澳大利亚</item>
+		<item id="Austria" desc="Austria">奥地利</item>
+		<item id="Ayerbaijan" desc="Ayerbaijan">艾尔白扬</item>
+		<item id="Bahamas" desc="Bahamas">巴哈马</item>
+		<item id="Bahrain" desc="Bahrain">巴林</item>
+		<item id="Bangladesh" desc="Bangladesh">孟加拉国</item>
+		<item id="Barbados" desc="Barbados">巴巴多斯</item>
+		<item id="Belarus" desc="Belarus">白俄罗斯</item>
+		<item id="Belize" desc="Belize">伯利兹</item>
+		<item id="Belgium" desc="Belgium">比利时</item>
+		<item id="Benin" desc="Benin">贝宁</item>
+		<item id="Bermuda" desc="Bermuda">百慕大</item>
+		<item id="Bhutan" desc="Bhutan">不丹</item>
+		<item id="Bolivia" desc="Bolivia">玻利维亚</item>
+		<item id="Bouvet Is" desc="Bouvet Is">布维是</item>
+		<item id="Bosnia and Herzegovina" desc="Bosnia and Herzegovina">波斯尼亚和黑塞哥维那</item>
+		<item id="Botswana" desc="Botswana">博茨瓦纳</item>
+		<item id="Brazil" desc="Brazil">巴西</item>
+		<item id="British Indian Ocean Territory" desc="British Indian Ocean Territory">英属印度洋领地英属印度洋领地</item>
+		<item id="Brunei" desc="Brunei">文莱</item>
+		<item id="Bulgaria" desc="Bulgaria">保加利亚</item>
+		<item id="Burkina Faso" desc="Burkina Faso">布基纳法索</item>
+		<item id="Burundi" desc="Burundi">布隆迪</item>
+		<item id="Cambodia" desc="Cambodia">柬埔寨</item>
+		<item id="Cameroon" desc="Cameroon">喀麦隆</item>
+		<item id="Canada" desc="Canada">加拿大</item>
+		<item id="Cape Verde" desc="Cape Verde">佛得角</item>
+		<item id="Cayman Is" desc="Cayman Is">开曼群岛</item>
+		<item id="Central African Republic" desc="Central African Republic">中非共和国</item>
+		<item id="Chad" desc="Chad">乍得</item>
+		<item id="Chile" desc="Chile">智利</item>
+		<item id="China" desc="China">中国</item>
+		<item id="China (Hong Kong S.A.R.)" desc="China (Hong Kong S.A.R.)">中国（香港特别行政区）</item>
+		<item id="China (Macau S.A.R.)" desc="China (Macau S.A.R.)">中国（澳门特别行政区）</item>
+		<item id="China (Taiwan T.W)" desc="China (Taiwan T.W)">中国（台湾T.W ）</item>
+		<item id="Christmas Is" desc="Christmas Is">圣诞岛</item>
+		<item id="Cocos (Keeling) Is" desc="Cocos (Keeling) Is">科科斯群岛</item>
+		<item id="Colombia" desc="Colombia">哥伦比亚</item>
+		<item id="Comoros" desc="Comoros">科摩罗</item>
+		<item id="Cook Islands" desc="Cook Islands">库克群岛</item>
+		<item id="Costa Rica" desc="Costa Rica">哥斯达黎加</item>
+		<item id="Cote D'Ivoire (Ivory Coast)" desc="Cote D'Ivoire (Ivory Coast)">科特迪瓦（象牙海岸）</item>
+		<item id="Croatia (Hrvatska)" desc="Croatia (Hrvatska)">克罗地亚（赫尔瓦次卡）</item>
+		<item id="Cyprus" desc="Cyprus">塞浦路斯</item>
+		<item id="Czech Republic" desc="Czech Republic">捷克共和国</item>
+		<item id="Democratic Republic of the Congo" desc="Democratic Republic of the Congo">刚果民主共和国</item>
+		<item id="Denmark" desc="Denmark">丹麦</item>
+		<item id="Dominica" desc="Dominica">多米尼加</item>
+		<item id="Dominican Republic" desc="Dominican Republic">多明尼加共和国</item>
+		<item id="Djibouti" desc="Djibouti">吉布提</item>
+		<item id="East Timor" desc="East Timor">东帝汶</item>
+		<item id="Ecuador" desc="Ecuador">厄瓜多尔</item>
+		<item id="Egypt" desc="Egypt">埃及</item>
+		<item id="El Salvador" desc="El Salvador">萨尔瓦多</item>
+		<item id="Equatorial Guinea" desc="Equatorial Guinea">赤道几内亚</item>
+		<item id="Eritrea" desc="Eritrea">厄立特里亚</item>
+		<item id="Estonia" desc="Estonia">爱沙尼亚</item>
+		<item id="Ethiopia" desc="Ethiopia">埃塞俄比亚</item>
+		<item id="Falkland Is (Is Malvinas)" desc="Falkland Is (Is Malvinas)">福克兰是（是马尔维纳斯群岛）</item>
+		<item id="Faroe Islands" desc="Faroe Islands">法罗群岛</item>
+		<item id="Fiji Islands" desc="Fiji Islands">斐济群岛</item>
+		<item id="Finland" desc="Finland">芬兰</item>
+		<item id="France" desc="France">法国</item>
+		<item id="French Guiana" desc="French Guiana">法属圭亚那</item>
+		<item id="French Polynesia" desc="French Polynesia">法属波利尼西亚</item>
+		<item id="French Southern Territories" desc="French Southern Territories">法国南方的领土</item>
+		<item id="F.Y.R.O. Macedonia" desc="F.Y.R.O. Macedonia">F.Y.R.O.马其顿</item>
+		<item id="Gabon" desc="Gabon">加蓬</item>
+		<item id="Gambia, The" desc="Gambia, The">冈比亚</item>
+		<item id="Georgia" desc="Georgia">格鲁吉亚</item>
+		<item id="Germany" desc="Germany">德国</item>
+		<item id="Ghana" desc="Ghana">加纳</item>
+		<item id="Gibraltar" desc="Gibraltar">直布罗陀</item>
+		<item id="Greece" desc="Greece">希腊</item>
+		<item id="Greenland" desc="Greenland">格陵兰</item>
+		<item id="Grenada" desc="Grenada">格林纳达</item>
+		<item id="Guadeloupe" desc="Guadeloupe">瓜德罗普岛</item>
+		<item id="Guam" desc="Guam">关岛</item>
+		<item id="Guatemala" desc="Guatemala">危地马拉</item>
+		<item id="Guinea" desc="Guinea">几内亚</item>
+		<item id="Guinea-Bissau" desc="Guinea-Bissau">几内亚比绍</item>
+		<item id="Guyana" desc="Guyana">圭亚那</item>
+		<item id="Haiti" desc="Haiti">海地</item>
+		<item id="Heard and McDonald Is" desc="Heard and McDonald Is">赫德和麦克唐纳群岛</item>
+		<item id="Honduras" desc="Honduras">洪都拉斯</item>
+		<item id="Hungary" desc="Hungary">匈牙利</item>
+		<item id="Iceland" desc="Iceland">冰岛</item>
+		<item id="India" desc="India">印度</item>
+		<item id="Indonesia" desc="Indonesia">印尼</item>
+		<item id="Ireland" desc="Ireland">爱尔兰</item>
+		<item id="Israel" desc="Israel">以色列</item>
+		<item id="Italy" desc="Italy">意大利</item>
+		<item id="Jamaica" desc="Jamaica">牙买加</item>
+		<item id="Japan" desc="Japan">日本</item>
+		<item id="Jordan" desc="Jordan">约旦</item>
+		<item id="Kayakhstan" desc="Kayakhstan">哈萨克斯坦</item>
+		<item id="Kenya" desc="Kenya">肯尼亚</item>
+		<item id="Kiribati" desc="Kiribati">基里巴斯</item>
+		<item id="Korea, South" desc="Korea, South">韩国</item>
+		<item id="Kuwait" desc="Kuwait">科威特</item>
+		<item id="Kyrgyzstan" desc="Kyrgyzstan">吉尔吉斯斯坦</item>
+		<item id="Laos" desc="Laos">老挝</item>
+		<item id="Latvia" desc="Latvia">拉脱维亚</item>
+		<item id="Lebanon" desc="Lebanon">黎巴嫩</item>
+		<item id="Lesotho" desc="Lesotho">莱索托</item>
+		<item id="Liberia" desc="Liberia">利比里亚</item>
+		<item id="Liechtenstein" desc="Liechtenstein">列支敦士登</item>
+		<item id="Lithuania" desc="Lithuania">立陶宛</item>
+		<item id="Luxembourg" desc="Luxembourg">卢森堡</item>
+		<item id="Madagascar" desc="Madagascar">马达加斯加</item>
+		<item id="Malawi" desc="Malawi">马拉维</item>
+		<item id="Malaysia" desc="Malaysia">马来西亚</item>
+		<item id="Maldives" desc="Maldives">马尔代夫</item>
+		<item id="Mali" desc="Mali">马里</item>
+		<item id="Malta" desc="Malta">马耳他</item>
+		<item id="Marshall Is" desc="Marshall Is">马绍尔群岛</item>
+		<item id="Mauritania" desc="Mauritania">毛里塔尼亚</item>
+		<item id="Mauritius" desc="Mauritius">毛里求斯</item>
+		<item id="Martinique" desc="Martinique">马提尼克</item>
+		<item id="Mayotte" desc="Mayotte">马约特岛</item>
+		<item id="Mexico" desc="Mexico">墨西哥</item>
+		<item id="Micronesia" desc="Micronesia">密克罗尼西亚</item>
+		<item id="Moldova" desc="Moldova">摩尔多瓦</item>
+		<item id="Monaco" desc="Monaco">摩纳哥</item>
+		<item id="Mongolia" desc="Mongolia">蒙古</item>
+		<item id="Montserrat" desc="Montserrat">蒙特塞拉特</item>
+		<item id="Morocco" desc="Morocco">摩洛哥</item>
+		<item id="Mozambique" desc="Mozambique">莫桑比克</item>
+		<item id="Myanmar" desc="Myanmar">缅甸</item>
+		<item id="Namibia" desc="Namibia">纳米比亚</item>
+		<item id="Nauru" desc="Nauru">瑙鲁</item>
+		<item id="Nepal" desc="Nepal">尼泊尔</item>
+		<item id="Netherlands, The" desc="Netherlands, The">荷兰</item>
+		<item id="Netherlands Antilles" desc="Netherlands Antilles">荷属安的列斯</item>
+		<item id="New Caledonia" desc="New Caledonia">新喀里多尼亚</item>
+		<item id="New Zealand" desc="New Zealand">新西兰</item>
+		<item id="Nicaragua" desc="Nicaragua">尼加拉瓜</item>
+		<item id="Niger" desc="Niger">尼日尔</item>
+		<item id="Nigeria" desc="Nigeria">尼日利亚</item>
+		<item id="Niue" desc="Niue">纽埃</item>
+		<item id="Norway" desc="Norway">挪威</item>
+		<item id="Norfolk Island" desc="Norfolk Island">诺福克岛</item>
+		<item id="Northern Mariana Is" desc="Northern Mariana Is">北马里亚纳岛</item>
+		<item id="Oman" desc="Oman">阿曼</item>
+		<item id="Pakistan" desc="Pakistan">巴基斯坦</item>
+		<item id="Palau" desc="Palau">帕劳</item>
+		<item id="Panama" desc="Panama">巴拿马</item>
+		<item id="Papua new Guinea" desc="Papua new Guinea">巴布亚新几内亚</item>
+		<item id="Paraguay" desc="Paraguay">巴拉圭</item>
+		<item id="Peru" desc="Peru">秘鲁</item>
+		<item id="Philippines" desc="Philippines">菲律宾</item>
+		<item id="Pitcairn Island" desc="Pitcairn Island">皮特凯恩岛</item>
+		<item id="Poland" desc="Poland">波兰</item>
+		<item id="Portugal" desc="Portugal">葡萄牙</item>
+		<item id="Puerto Rico" desc="Puerto Rico">波多黎各</item>
+		<item id="Qatar" desc="Qatar">卡塔尔</item>
+		<item id="Republic of the Congo" desc="Republic of the Congo">刚果共和国</item>
+		<item id="Reunion" desc="Reunion">团圆</item>
+		<item id="Romania" desc="Romania">罗马尼亚</item>
+		<item id="Russia" desc="Russia">俄罗斯</item>
+		<item id="Saint Helena" desc="Saint Helena">圣赫勒拿</item>
+		<item id="Saint Kitts And Nevis" desc="Saint Kitts And Nevis">圣基茨和尼维斯</item>
+		<item id="Saint Lucia" desc="Saint Lucia">圣卢西亚</item>
+		<item id="Saint Pierre and Miquelon" desc="Saint Pierre and Miquelon">圣皮埃尔和密克隆</item>
+		<item id="Saint Vincent And The Grenadines" desc="Saint Vincent And The Grenadines">圣文森特和格林纳丁斯</item>
+		<item id="Samoa" desc="Samoa">萨摩亚</item>
+		<item id="San Marino" desc="San Marino">圣马力诺</item>
+		<item id="Sao Tome and Principe" desc="Sao Tome and Principe">圣多美和普林西比</item>
+		<item id="Saudi Arabia" desc="Saudi Arabia">沙特阿拉伯</item>
+		<item id="Senegal" desc="Senegal">塞内加尔</item>
+		<item id="Seychelles" desc="Seychelles">塞舌尔</item>
+		<item id="Sierra Leone" desc="Sierra Leone">塞拉利昂</item>
+		<item id="Singapore" desc="Singapore">新加坡</item>
+		<item id="Slovakia" desc="Slovakia">斯洛伐克</item>
+		<item id="Slovenia" desc="Slovenia">斯洛文尼亚</item>
+		<item id="Solomon Islands" desc="Solomon Islands">所罗门群岛</item>
+		<item id="Somalia" desc="Somalia">索马里</item>
+		<item id="South Africa" desc="South Africa">南非</item>
+		<item id="South Georgia &amp; The S. Sandwich Is" desc="South Georgia &amp; The S. Sandwich Is">South Georgia &amp; The S. Sandwich Is</item>
+		<item id="Spain" desc="Spain">西班牙</item>
+		<item id="Sri Lanka" desc="Sri Lanka">Sri Lanka</item>
+		<item id="Suriname" desc="Suriname">苏里南</item>
+		<item id="Svalbard And Jan Mayen Is" desc="Svalbard And Jan Mayen Is">斯瓦尔巴群岛和扬马延岛</item>
+		<item id="Swaziland" desc="Swaziland">斯威士兰</item>
+		<item id="Sweden" desc="Sweden">瑞典</item>
+		<item id="Switzerland" desc="Switzerland">瑞士</item>
+		<item id="Syria" desc="Syria">叙利亚</item>
+		<item id="Tajikistan" desc="Tajikistan">塔吉克斯坦</item>
+		<item id="Tanzania" desc="Tanzania">坦桑尼亚</item>
+		<item id="Thailand" desc="Thailand">泰国</item>
+		<item id="Timor-Leste" desc="Timor-Leste">东帝汶</item>
+		<item id="Togo" desc="Togo">多哥</item>
+		<item id="Tokelau" desc="Tokelau">托克劳</item>
+		<item id="Tonga" desc="Tonga">汤加</item>
+		<item id="Trinidad And Tobago" desc="Trinidad And Tobago">特立尼达和多巴哥</item>
+		<item id="Tunisia" desc="Tunisia">突尼斯</item>
+		<item id="Turkey" desc="Turkey">火鸡</item>
+		<item id="Turks And Caicos Is" desc="Turks And Caicos Is">特克斯和凯科斯群岛</item>
+		<item id="Turkmenistan" desc="Turkmenistan">土库曼斯坦</item>
+		<item id="Tuvalu" desc="Tuvalu">图瓦卢</item>
+		<item id="Uganda" desc="Uganda">乌干达</item>
+		<item id="Ukraine" desc="Ukraine">乌克兰</item>
+		<item id="United Arab Emirates" desc="United Arab Emirates">阿拉伯联合酋长国</item>
+		<item id="United Kingdom" desc="United Kingdom">英国</item>
+		<item id="United States" desc="United States">美国</item>
+		<item id="United States Minor Outlying Is" desc="United States Minor Outlying Is">美国本土外小为</item>
+		<item id="Uruguay" desc="Uruguay">乌拉圭</item>
+		<item id="Uzbekistan" desc="Uzbekistan">乌兹别克斯坦</item>
+		<item id="Vanuatu" desc="Vanuatu">瓦努阿图</item>
+		<item id="Vatican City State (Holy See)" desc="Vatican City State (Holy See)">梵蒂冈城国（教廷）</item>
+		<item id="Venezuela" desc="Venezuela">委内瑞拉</item>
+		<item id="Vietnam" desc="Vietnam">越南</item>
+		<item id="Virgin Islands (British)" desc="Virgin Islands (British)">维尔京群岛（英属）</item>
+		<item id="Virgin Islands (US)" desc="Virgin Islands (US)">维尔京群岛（美国）</item>
+		<item id="Wallis And Futuna Islands" desc="Wallis And Futuna Islands">瓦利斯群岛和富图纳群岛</item>
+		<item id="Western Sahara" desc="Western Sahara">西撒哈拉</item>
+		<item id="Yemen" desc="Yemen">也门</item>
+		<item id="Zambia" desc="Zambia">赞比亚</item>
+		<item id="Zimbabwe" desc="Zimbabwe">津巴布韦</item>
+	</country>
+
+	<idtype>
+		<item id="Card" desc="ID card">居民身份证</item>
+		<item id="Passport" desc="Passport">护照</item>
+	</idtype>
+
+	<position>
+		<item id="CEO/General Director" desc="CEO/General Director">CEO /总经理</item>
+		<item id="CFO" desc="CFO">CFO</item>
+		<item id="Chief Accountant" desc="Chief Accountant">总会计师</item>
+		<item id="Investment Director/Head of Investment" desc="Investment Director/Head of Investment">投资投资总监/主管</item>
+		<item id="Portfolio Manager" desc="Portfolio Manager">投资组合经理</item>
+	</position>
+
+	<estimatedag desc="Annual revenue at last fiscal year end">
+		<item id="A" desc="VND 100 million - 500 million">越南盾亿 - 5亿</item>
+		<item id="B" desc="VND 500 million - 1 billion">越南盾5亿 -  1十亿</item>
+		<item id="C" desc="VND 1 billion - 2 billion">越南盾1十亿 -  2十亿</item>
+		<item id="D" desc="VND 2 billion - 3 billion">越南盾2十亿 -  3十亿</item>
+		<item id="E" desc="VND 3 billion - 4 billion">越南盾3十亿 -  4十亿</item>
+		<item id="F" desc="VND 4 billion - 5 billion">越南盾41十亿 -  5十亿</item>
+		<item id="G" desc="Above VND 5 billionn">上述越南盾5 billionn</item>
+	</estimatedag>
+
+	<industryOper desc="Industry sector company operates in">
+		<item id="01" desc="AGRICULTURE, FORESTRY AND FISHERIES">农业，林业和渔业</item>
+		<item id="0101" desc="Agriculture">农业</item>
+		<item id="010101" desc="Annual crops">一年生作物</item>
+		<item id="010102" desc="Growing of rubber tree">种植橡胶树</item>
+		<item id="010103" desc="Growing of coffee tree">种植咖啡树</item>
+		<item id="010104" desc="Growing of pepper tree">不断增长的胡椒树</item>
+		<item id="010105" desc="Growing of cashew nuts">越来越多的腰果</item>
+		<item id="010106" desc="Other perennial crops">其他多年生作物</item>
+		<item id="010107" desc="Breed">品种</item>
+		<item id="010108" desc="Planting, mixed feeding">种植，混合喂养</item>
+		<item id="010109" desc="Agricultural service activities">农化服务活动</item>
+		<item id="0102" desc="Forestry">林业</item>
+		<item id="010201" desc="Planting and tending">种植和抚育</item>
+		<item id="010202" desc="Timber Harvesting">木材采伐</item>
+		<item id="010203" desc="Exploitation of forest products (excluding timber)">林产品的开发（不含木材）</item>
+		<item id="010204" desc="Collecting forest products and non-timber forest products">采集林产品和非木质林产品</item>
+		<item id="010205" desc="Activities other forestry services">活动的其他林业服务</item>
+		<item id="0103" desc="Fisheries">渔业</item>
+		<item id="010301" desc="Fishing">钓鱼</item>
+		<item id="010302" desc="Aquaculture">水产养殖</item>
+		<item id="02" desc="MINING">矿业</item>
+		<item id="0201" desc="Mining of coal and lignite">煤和褐煤的开采</item>
+		<item id="0202" desc="Extraction of crude petroleum and natural gas">对原油和天然气开采</item>
+		<item id="0203" desc="Mining of metal ores">金属矿产开采</item>
+		<item id="0204" desc="Other mining (stone, sand, gravel, clay, salt, minerals, chemicals, mineral fertilizers, ...)">其他采矿（石，砂，砾石，粘土​​，盐，矿产，化工，化肥， ... ）</item>
+		<item id="0205" desc="Support services activites for mining ores">支持服务activites开采矿石</item>
+		<item id="03" desc="PRODUCTION, PROCESSING, FOOD, DRINK, TOBACCO, FEED">生产，加工，食品，饮料，烟草，饲料</item>
+		<item id="0301" desc="Seafood processing">海产品加工</item>
+		<item id="030101" desc="Processed and canned seafood">加工和罐头海产品</item>
+		<item id="030102" desc="Processing and storage of frozen seafood, dried seafood">加工和储存的冷冻海鲜，海味</item>
+		<item id="030103" desc="Processing and preserving of fish sauce">加工和保藏的鱼酱</item>
+		<item id="030104" desc="Processing and preservation of aquatic and other fishery products">加工和保存的水产品和其他渔业产品</item>
+		<item id="0302" desc="Production, processing food">生产，加工食品</item>
+		<item id="030201" desc="Processing and preserving of meat and meat products">加工和保藏的肉及肉制品</item>
+		<item id="030202" desc="Processing and preservation of fruits and vegetables">加工水果和蔬菜的保鲜</item>
+		<item id="030203" desc="Manufacture of vegetable and animal oils and fats">生产的植物和动物油和脂肪</item>
+		<item id="030204" desc="Processing of milk and milky products">牛奶和乳白色的产品加工</item>
+		<item id="030205" desc="Milling and production flour">铣削和面粉生产</item>
+		<item id="030206" desc="Coffee processing">咖啡加工</item>
+		<item id="030207" desc="Manufacture of other food products (sugar, cacao, wheat, bread jam, ...)">制造其他食品（糖，可可，小麦，面包果酱， ... ）</item>
+		<item id="0303" desc="Production of animal , poultry and aquatic food">生产的动物，家禽和水产品的</item>
+		<item id="0304" desc="Manufacture of beverages">饮料制造业</item>
+		<item id="030401" desc="Production of wine, beer">生产的葡萄酒，啤酒</item>
+		<item id="030402" desc="Production of mineral waters, non-alcoholic beverages">生产矿泉水，无酒精饮料</item>
+		<item id="0305" desc="Manufacture of tobacco products">制造烟草制品的</item>
+		<item id="04" desc="Textile, leather, paper">纺织，皮革，造纸</item>
+		<item id="0401" desc="Textile">纺织品</item>
+		<item id="040101" desc="Production of fabric, yarn, carpets, blankets, and other textile products">生产的面料，纱线，地毯，毛毯等家纺产品</item>
+		<item id="040102" desc="Manufacture of wearing apparel">服装的制造</item>
+		<item id="0402" desc="Leather, footwear">皮革，鞋类</item>
+		<item id="040201" desc="Tanning and dressing of leather, manufacture of leather products (suitcases, bags, ...)">制革和皮革修整，制造皮具产品（箱包，袋， ... ）</item>
+		<item id="040202" desc="Manufacture of footwear">制造鞋类</item>
+		<item id="05" desc="PROCESSING OF WOOD AND WOOD PRODUCTS">PROCESSING OF WOOD AND WOOD PRODUCTS</item>
+		<item id="0501" desc="Wood processing">木材加工</item>
+		<item id="0502" desc="Producing products from wood, bamboo (except bed, cabinet, table, chairs); production of straw and plaiting materials">生产的产品由木，竹（除了床，柜，桌，椅） ;生产草编制品及编织材料</item>
+		<item id="050201" desc="Production of plywood, veneer, plywood and other veneer">生产胶合板，单板，胶合板和其他单板</item>
+		<item id="050202" desc="Manufacturing building furniture">建筑材料制造家具</item>
+		<item id="050203" desc="Production of wooden packaging">生产木箱包装</item>
+		<item id="050204" desc="Production of forest products (excluding timber), sedge and plaiting materials">生产林产品（木材除外） ，莎草科和编结材料</item>
+		<item id="050205" desc="Manufacture of other products of wood">木材加工等产品</item>
+		<item id="06" desc="PRODUCTION OF PAPER AND PAPER PRODUCTS, PRINTING">生产纸和纸制品，印刷</item>
+		<item id="0601" desc="Manufacture of paper and paper products">造纸及纸制品</item>
+		<item id="060101" desc="Production of pulp, paper and paperboard">生产的纸浆，纸和纸板</item>
+		<item id="060102" desc="Manufacture of paper wrinkled, wrinkled cardboard, paper packaging and cardboard">制造纸皱，皱纸板，纸包装和纸板</item>
+		<item id="060103" desc="Production of paper and other paperboard products">生产的纸和其它纸板制品</item>
+		<item id="0602" desc="Printing and reproduction of recorded media">印刷和记录媒介的复制</item>
+		<item id="060201" desc="Printing and print-related services">打印和打印相关的服务</item>
+		<item id="060202" desc="Copy of recorded">记录副本</item>
+		<item id="07" desc="Manufacture of coke, refined petroleum PRODUCTS">生产焦炭，精炼石油产品</item>
+		<item id="0701" desc="Production of coke">生产焦炭</item>
+		<item id="0702" desc="Manufacture of refined petroleum products">生产精炼石油产品</item>
+		<item id="08" desc="Manufacture of chemicals, chemical products, products made of rubber and plastics">生产化学品，化工产品，产品由橡胶和塑料</item>
+		<item id="0801" desc="Manufacture of chemicals and chemical products">化学品及化学产品</item>
+		<item id="080101" desc="Manufacture of basic chemicals">生产基础化学品</item>
+		<item id="080102" desc="Manufacture of fertilizers and nitrogen compounds">制造肥料和氮化合物的</item>
+		<item id="080103" desc="Manufacture of plastics and synthetic rubber in primary forms">制造塑料和合成橡胶，初级形状</item>
+		<item id="080104" desc="Manufacture of pesticides and other chemical products used in agriculture">用于农业生产农药以及其他化工产品</item>
+		<item id="080105" desc="Manufacture of paints, varnishes and coatings similar; manufacturing ink and mastics">制造的涂料，清漆和涂料相似;制造油墨及胶粘剂</item>
+		<item id="080106" desc="Production of man-made fibers">生产人造纤维的</item>
+		<item id="0802" desc="Manufacture of cosmetic, soap, detergents, perfumes and toilet preparations">生产化妆品，肥皂，清洁剂，香水和厕所准备</item>
+		<item id="0803" desc="Manufacture products from rubber and plastic">从橡胶和塑料制品的制造</item>
+		<item id="080301" desc="Manufacture of rubber products">橡胶制品业</item>
+		<item id="080302" desc="Manufacture of plastic products">制造塑料制品</item>
+		<item id="0804" desc="Manufacture of other chemical products n.e.c">制造其他化学品n.e.c</item>
+		<item id="09" desc="MANUFACTURING, PHARMACEUTICAL PRODUCTS, PHARMACEUTICAL MEDICAL EQUIPMENT AND MATERIALS">制造业，医药产品，医药医疗设备和材料</item>
+		<item id="0901" desc="Production of all kinds of drug">生产各种药物的</item>
+		<item id="0902" desc="Manufacture of pharmaceutical and medicinal">医药制造和医药的</item>
+		<item id="0903" desc="Production equipment, medical instruments, dental, orthopedic and rehabilitation">生产设备，医疗器械，牙科，骨科和康复</item>
+		<item id="10" desc="Manufacture of other non-metallic mineral products ">制造其他非金属矿物制品</item>
+		<item id="1001" desc="Manufacture of glass and glass products ">制造玻璃和玻璃制品</item>
+		<item id="1002" desc="Production of construction materials (except steel, paint, putty, and similar materials)">生产建筑材料（除钢，涂料，腻子，和类似材料）</item>
+		<item id="100201" desc="Manufacture of refractory products">制造耐火制品</item>
+		<item id="100202" desc="Manufacture of clay building materials ">生产粘土建材 </item>
+		<item id="100203" desc="Manufacture of other ceramic products">制造其他陶瓷制品</item>
+		<item id="100204" desc="Production of cement, lime and plaster">生产水泥，石灰和石膏</item>
+		<item id="100205" desc="Production of concrete, cement and gypsum products">生产的混凝土，水泥和石膏制品</item>
+		<item id="100206" desc="Cutting, shaping and finishing of stone">切割，成型和石头整理</item>
+		<item id="100207" desc="Manufacture of other non-metallic mineral products n.e.c">制造其他非金属矿物制品制造业</item>
+		<item id="11" desc="METAL MANUFACTURING">金属制品</item>
+		<item id="1101" desc="Manufacture of basic iron and steel ">制造基本钢铁 </item>
+		<item id="110101" desc="Manufacture of steel">制造钢</item>
+		<item id="110102" desc="Manufacture of steel billet">生产钢坯</item>
+		<item id="1102" desc="Production of non-ferrous and precious metals">生产的有色金属和贵金属</item>
+		<item id="12" desc="MANUFACTURING, REPAIR, MAINTENANCE ENGINEERING PRODUCTS, MACHINERY">制造，维修，保养工程制品，机械</item>
+		<item id="1201" desc="Manufacture of fabricated metal products (except machinery and equipment)">制造金属制品业（机械及设备除外）</item>
+		<item id="120101" desc="Manufacture of metal structures, tanks, reservoirs and steam generators">制造金属结构，油罐，水箱和蒸汽发生器</item>
+		<item id="120102" desc="Manufacture of other metal products; processing services, metal processing">制造其他金属制品;加工服务，金属加工</item>
+		<item id="1202" desc="Manufacture of motor vehicles">制造汽车的</item>
+		<item id="120201" desc="Automobile production">汽车生产</item>
+		<item id="120202" desc="Motorcycle Manufacture">摩托车制造</item>
+		<item id="120203" desc="Manufacture of other motor vehicles">制造其他机动车辆</item>
+		<item id="120204" desc="Production of motor vehicle body, trailers and semi-trailers">生产汽车车身，挂车和半挂车的</item>
+		<item id="120205" desc="Production of spare parts and accessories for motor vehicles and motor vehicle">生产的零部件和配件的机动车辆和机动车辆</item>
+		<item id="1203" desc="Manufacture of other transport">制造其他交通工具</item>
+		<item id="120301" desc="Shipbuilding and ship">造船及船舶</item>
+		<item id="120302" desc="Production of locomotives, trams and cars">生产的机车，电车和汽车</item>
+		<item id="120303" desc="Production aircraft, spacecraft and related machinery">生产型飞机，航天器及相关机械</item>
+		<item id="120304" desc="Production of vehicles and transport equipment n.e.c">生产的车辆和运输设备制造业的</item>
+		<item id="1204" desc="Defense equipment">防御装备</item>
+		<item id="120401" desc="Manufacture of weapons and ammunition">制造的武器和弹药</item>
+		<item id="120402" desc="Manufacture of military fighting vehicles ">制造军用战车</item>
+		<item id="120403" desc="Manufacture of machinery and other equipment used in defense">用于国防制造机械和其他设备</item>
+		<item id="1205" desc="Machinery, common and other specialized common equipment">机械，通用等专门通用设备</item>
+		<item id="120501" desc="Production of mining machines and construction">Production of mining machines and construction</item>
+		<item id="120502" desc="Machinery, common and other specialized common equipment">机械，通用等专门通用设备</item>
+		<item id="1206" desc="Repair, maintenance and installation of machinery and equipment">机械设备的维修，保养及安装</item>
+		<item id="13" desc="MANUFACTURING CONSUMER GOODS">制造消费品</item>
+		<item id="1301" desc="Production of beds, wardrobes, tables, chairs">生产的床，衣柜，桌子，椅子</item>
+		<item id="130101" desc="Production of wooden beds, wardrobes, tables, chairs">生产木制床，衣柜，桌子，椅子</item>
+		<item id="130102" desc="Production of beds, wardrobes, tables, chairs in different materials">生产的床，衣柜，桌子，椅子在不同的材料</item>
+		<item id="1302" desc="Entertainment Production">娱乐产品</item>
+		<item id="130201" desc="Manufacture of musical instruments ">制造乐器</item>
+		<item id="130202" desc="Manufacture of sports goods ">生产体育用品 </item>
+		<item id="130203" desc="Manufacturing toys, games">制造玩具，游戏</item>
+		<item id="1303" desc="Manufacture of consumer electronics products">制造的消费类电子产品</item>
+		<item id="1304" desc="Production of consumer goods">消费品生产</item>
+		<item id="130401" desc="Manufacture of jewellery, bijouterie and related articles">制造珠宝首饰，珠宝首饰及有关物品的</item>
+		<item id="130402" desc="Production of household appliances, other consumer goods n.e.c">生产家用电器，其他消费品制造业</item>
+		<item id="14" desc="PRODUCTION ELECTRONIC EQUIPMENT AND OPTICAL PRODUCTS">生产的电子设备及光学产品</item>
+		<item id="1401" desc="Manufacture of computer, electronic, optical product">制造计算机，电子，光学产品的</item>
+		<item id="140101" desc="Manufacture of electronic components ">制造电子元件的</item>
+		<item id="140102" desc="Manufature of measuring, testing, navigating and control equipment, watches and clocks">测量，检验，导航和控制设备，钟表</item>
+		<item id="140103" desc="Manufacture of optical instruments and equipment">光学仪器及设备</item>
+		<item id="140104" desc="Manufacture of tape, magnetic and optical disks">制造的磁带，磁盘和光盘</item>
+		<item id="1402" desc="Manufacture of electrical equipment">制造的电气设备</item>
+		<item id="140201" desc="Manufacture of electric motor, generators, transformers and electricity distribution and control apparatus">生产电动机，发电机，变压器和配电和控制设备</item>
+		<item id="140202" desc="Manufacture of batteries and accumulators">制造电池和蓄电池</item>
+		<item id="140203" desc="Manufacture of wiring and wiring devices">制造配线和接线装置</item>
+		<item id="140204" desc="Manufacture of electric lighting equipment ">生产电力照明设备</item>
+		<item id="140205" desc="Manufacture of domestic electric appliances">制造家用电器的</item>
+		<item id="140206" desc="Manufacture of other electrical equipment">制造其他电气设备</item>
+		<item id="15" desc="Manufacture of electronic and telecommunications eqipments and supplies">制造电子和电信eqipments和用品</item>
+		<item id="1501" desc="Manufacture of computer equipment, telecommunications, information technology">生产计算机设备，电信，信息技术</item>
+		<item id="150101" desc="Manufacture of computers and peripheral equipment ">生产电脑及周边设备 </item>
+		<item id="150102" desc="Manufacture of communication equipment">通信设备的制造</item>
+		<item id="1502" desc="Manufacture of office machinery and equipment except computers and peripheral equipment ">制造办公机械和设备，除了电脑和外围设备 </item>
+		<item id="16" desc="Manufacture of electricity, gas, steam and air condition supply ">制造业电力，煤气，蒸汽和空调供应 </item>
+		<item id="1601" desc="Manufacture of electric power generation, transmission and distribution">生产发电，输电和配电的</item>
+		<item id="160101" desc="Manufacture of Electric power generation ">制造电动发电</item>
+		<item id="160102" desc="Electric power transmission and distribution">电力传输和分配</item>
+		<item id="1602" desc="Manufacture of gas: distribution of gaseous fuel through mains ">煤气的制造：通过主管道输送的气体燃料</item>
+		<item id="1603" desc="Manufacture of steam and air condition supply; production of ice">生产蒸汽和空调供应;制冰的</item>
+		<item id="160301" desc="Manufacture and distribution of steam and air condition supply ">制造和蒸汽和空调供应分布</item>
+		<item id="160302" desc="Manufacture of ice">制造冰毒</item>
+		<item id="17" desc="Water Supply; Sewerage, Waste Management and Remediation Activities ">供水;污水处理，废弃物管理及污染防治活动 </item>
+		<item id="1701" desc="Water supply, sewerage, and waste management ">供水，污水处理和废物管理 </item>
+		<item id="170101" desc="Water collection, treatment and supply">水的收集，处理和供应</item>
+		<item id="170102" desc="Sewerage">污水处理</item>
+		<item id="170103" desc="Waste Treament">废物处理</item>
+		<item id="1702" desc="Waste collection, treament and disposal activities, materials recovery">废物收集， 处理和处置活动，物资回收</item>
+		<item id="170201" desc="Waste collection">废物收集</item>
+		<item id="170202" desc="Waste treament and disposal">废物处理和处置</item>
+		<item id="170203" desc="Material recovery ">材料回收 </item>
+		<item id="170204" desc="Remediation activities and other waste management services ">整治活动和其他废物管理服务</item>
+		<item id="18" desc="Construction ">施工 </item>
+		<item id="1801" desc="Constructions of buildings ">建筑结构</item>
+		<item id="1802" desc="Construction of civil engineering projects">土木工程项目的建设</item>
+		<item id="180201" desc="Construction of roads and railways">公路和铁路建设</item>
+		<item id="180202" desc="Construction of utility projects">公用事业项目建设</item>
+		<item id="180203" desc="Construction of other civil engineering projects">其他土木工程项目建设</item>
+		<item id="1803" desc="Specialized construction activities ">专业建筑活动</item>
+		<item id="180301" desc="Demolition and site preparation">拆迁和场地平整</item>
+		<item id="180302" desc="Electrical, plumbing and other construction installation activities">电气，给排水等工程的安装活动</item>
+		<item id="180303" desc="Building completion and finishing ">建设完成后整理</item>
+		<item id="180304" desc="Other specialized construction activities">其他专门的建筑活动</item>
+		<item id="19" desc="LIGHT INDUSTRIAL GOODS TRADING AND CONSUMPTION">轻工产品贸易与消费</item>
+		<item id="1901" desc="Wholesale of agricultural, forestrial materials and animals">农业，农林材料和动物批发</item>
+		<item id="190101" desc="Wholesale of feeds and feed materials for animals, poultry and aquatic">饲料批发和饲料原料的动物，家禽和水产品</item>
+		<item id="190102" desc="Wholesale of rice ">大米批发 </item>
+		<item id="190103" desc="Wholesale of coffee">咖啡批发</item>
+		<item id="190104" desc="Wholesale of pepper, cashew nuts">胡椒，腰果批发</item>
+		<item id="190105" desc="Bán bu?n hàng n?ng, lam s?n và ??ng v?t s?ng khác">Bán bu?n hàng n?ng, lam s?n và ??ng v?t s?ng khác</item>
+		<item id="1902" desc="Wholesale of food, beverages and tobacco">食品，饮料和烟草的批发</item>
+		<item id="190201" desc="Wholesale of fish, crustaceans and molluscs">鱼类，甲壳类和软体动物批发</item>
+		<item id="190202" desc="Wholesale of food, beverages and tobacco">食品，饮料和烟草的批发</item>
+		<item id="1903" desc="Wholesale of consumer goods">消费品批发</item>
+		<item id="190301" desc="Wholesale of textiles, clothing, footwear ">纺织品的批发，服装，鞋帽</item>
+		<item id="190302" desc="Wholesale of furniture and home furnishings ">家具和家居用品批发 </item>
+		<item id="190303" desc="Wholesale of cosmetic ">化妆品批发 </item>
+		<item id="190304" desc="Wholesale of electric lightning equipment, domestic appliances">防雷电设备，家用电器的批发</item>
+		<item id="190305" desc="Wholesale of other household goods n.e.c">其他家庭用品批发n.e.c</item>
+		<item id="1904" desc="Wholesale of gold, silver and other precious metals">黄金，白银等贵金属批发</item>
+		<item id="1905" desc="Wholesale of light industrual goods and consumption goods ">轻工产品和消费品批发 </item>
+		<item id="190501" desc="Activities of agents, brokers, auction ">代理商，经纪人，拍卖活动 </item>
+		<item id="190502" desc="Wholesale of light industrual goods and consumption goods ">轻工产品和消费品批发</item>
+		<item id="1906" desc="Retail trade, except of motor vehicles and  motorcycles">零售贸易，汽车和摩托车除外</item>
+		<item id="190601" desc="Retail sale in non-specialized stores">在非专门商店的零售</item>
+		<item id="190602" desc="Retail sale in non-specialized stores with food, beverages or tobacco predominating ">在非专门商店的零售销售食品，饮料或烟草为主</item>
+		<item id="190603" desc="Retail sale of gold, silver and other precious stones, jewelry in specialized stores">零售销售黄金，白银和其他贵重宝石，珠宝专门店</item>
+		<item id="190604" desc="Retail sale of other consumption goods ">零售等消费品 </item>
+		<item id="190605" desc="Retail sale via stalls and markets">通过摊位和市场的零售销售</item>
+		<item id="20" desc="WHOLESALE AND RETAIL TRADE, REPAIR OF CARS, MOTOR VEHICLES AND MOTORCYCLES">批发和零售贸易，修车，汽车及摩托车</item>
+		<item id="2001" desc="Wholesale of car (under 12 seats)">汽车的批发（ 12个座位）</item>
+		<item id="2002" desc="Wholesale of other motor vehicles">其他机动车辆批发</item>
+		<item id="2003" desc="Sales of motor vehicles">汽车的销售</item>
+		<item id="2004" desc="Sale, maintenance and repair of motorcycles and related parts and accessories ">销售，维护和修理摩托车及有关零件和附件</item>
+		<item id="21" desc="FERTILIZERS, CHEMICALS, RUBBER, PHARMACEUTICALS AND MEDICAL EQUIPMENT TRADING ">化肥，化工，橡胶，药品和医疗设备交易</item>
+		<item id="2101" desc="Sales of chemicals and chemical products">销售化学原料及化学制品</item>
+		<item id="210101" desc="Wholesale of pesticides, fertilizers and agricultural chemicals">农药，化肥和农业化学品的批发</item>
+		<item id="210102" desc="Wholesale of rubber">橡胶批发</item>
+		<item id="210103" desc="Wholesale of plastics in primary forms (including plastic beads)">初级形状（包括塑料珠）塑料批发</item>
+		<item id="210104" desc="Wholesale of other chemicals, except agricultural chemicals">批发其他化学品的，除农用化学品</item>
+		<item id="2102" desc="Wholesale of pharmaceuticals and medical equipments ">药品和医疗器械的批发</item>
+		<item id="210201" desc="Wholesale of pharmaceutical, medical chemical and botanical products ">制药，医疗化学和植物产品的批发</item>
+		<item id="210202" desc="Wholesale of medical equipments">医疗器械的批发</item>
+		<item id="22" desc=" INDUSTRIAL PRODUCTS TRADING"> 工业品贸易</item>
+		<item id="2201" desc="Computer, telecommunications, information technology ">计算机，通信，信息技术</item>
+		<item id="220101" desc="Wholesale of computer and peripheral devides">计算机和外围设备的批发</item>
+		<item id="220102" desc="Wholesale of electronic and telecommunications equipment and supplies ">电子及通信设备及用品批发 </item>
+		<item id="220103" desc="Wholesale of office machinery and equipment(except computers and peripheral equipment)">办公机械和设备的批发（除计算机及外围设备）</item>
+		<item id="2202" desc="Electronic and optical products">电子及光学产品</item>
+		<item id="2203" desc="Other machinery and equipments">其他机械和设备</item>
+		<item id="220301" desc="Wholesale of machinery and equipment for mining, quarrying and construction">机械设备采矿，采石和建筑批发</item>
+		<item id="220302" desc="Machinery and equipment for defense">机械及设备防御</item>
+		<item id="220303" desc="Wholesale of other machinery and equipment n.e.c">其他机械设备n.e.c批发</item>
+		<item id="23" desc="FUEL TRADE AND RELATED PRODUCTS">燃油贸易及相关产品</item>
+		<item id="2301" desc="Kinh doanh than ?á và nhiên li?u r?n khác">Kinh doanh than ?á và nhiên li?u r?n khác</item>
+		<item id="2302" desc="Kinh doanh x?ng, d?u, khí ??t">Kinh doanh x?ng, d?u, khí ??t</item>
+		<item id="2303" desc="Wholesale of solid, liquid and gaseous fuels and related products">固体，液体和气体燃料及相关产品批发</item>
+		<item id="24" desc="WHOLESALE OF METALS AND METAL ORES">批发金属和金属矿物的</item>
+		<item id="2401" desc="Wholesale of petroleum, oil and gasoues fuel">石油，石油和气体燃料的批发</item>
+		<item id="2402" desc="Wholesale of metal ores ">金属矿批发</item>
+		<item id="240201" desc="Wholesale of iron, steel ">铁批发，钢 </item>
+		<item id="240202" desc="Wholesale of other metals">对其他金属的批发点</item>
+		<item id="25" desc="WHOLESALE OF CONSTRUCTION MATERIALS">批发建筑材料</item>
+		<item id="2501" desc="Wholesle of construction materials,">建筑材料的批发</item>
+		<item id="2502" desc="Wholesale of construction glass, paints, cement, bricks, sand, stones, wallpaper, floor covering, sanity equipments. ">批发建筑玻璃，油漆，水泥，砖，砂，石，壁纸，地板，神智设备。 </item>
+		<item id="26" desc="TRANSPORTATION AND STORAGE ">交通运输与储存 </item>
+		<item id="2601" desc="Land transport, transport via railways, via pipeline ">陆路运输，通过铁路运输，通过管道 </item>
+		<item id="260101" desc="Transport via railways">通过铁路运输</item>
+		<item id="260102" desc="Transport via bus">通过总线传输</item>
+		<item id="260103" desc="Other land transport">其他陆路运输</item>
+		<item id="260104" desc="Transport via pipeline ">通过管道运输 </item>
+		<item id="2602" desc="Water transport ">水运</item>
+		<item id="260201" desc="Sea and coastal water transport ">海洋及沿岸海上运输业</item>
+		<item id="260202" desc="Inland water transport ">内河运输</item>
+		<item id="2603" desc="Air transport">航空运输</item>
+		<item id="2604" desc="Warehousing and support activities for transportation">从运输仓储和支持活动</item>
+		<item id="260401" desc="Warehousing and storage">仓储</item>
+		<item id="260402" desc="Support activities for transportation">对于运输辅助活动</item>
+		<item id="2605" desc="Postal and courier activities">从邮政及速递活动</item>
+		<item id="27" desc="ACCOMMODATION AND FOOD SERVICE ACTIVITIES">食品和服务活动住宿</item>
+		<item id="2701" desc="Accommodation">住宿</item>
+		<item id="270101" desc="Short-term accommodation activities">短期住宿活动</item>
+		<item id="270102" desc="Hotels ">酒店</item>
+		<item id="270103" desc="Other accommodation ">其他住宿</item>
+		<item id="2702" desc="Restaurants ">餐厅 </item>
+		<item id="270201" desc="Event catering and other food service activities">从其他点活动餐饮服务和餐饮服务活动</item>
+		<item id="270202" desc="0 Irregular event catering activities such as wedding, workshops… ">来自新和成婚礼宴会活动0不正常的活动，研讨会...</item>
+		<item id="270203" desc="Beverage serving activities and Other beverage serving activities ">饮料服务活动，从服务于饮料和其他活动 </item>
+		<item id="2703" desc="ARTS, ENTERTAINMENT AND RECREATION ACTIVITIES">艺术，娱乐和休闲活动</item>
+		<item id="2704" desc="Libraries, archives, museums and other cultural activities">图书馆，档案馆，博物馆和其他点文化活动</item>
+		<item id="2705" desc="Lottery activities, Gambling and betting activities ">彩票活动，赌博和博彩活动</item>
+		<item id="2706" desc="Sports activities and amusement and recreation activities">从运动和活动，娱乐和休闲活动</item>
+		<item id="270601" desc="Clubing, Karaoke">泡吧，卡拉OK</item>
+		<item id="270602" desc="Sport and entertainment activities">从体育和娱乐活动</item>
+		<item id="2707" desc="Travel agency, tour operator and other reservation service activities">旅行社，旅游经营者和其他的预订服务活动</item>
+		<item id="28" desc="MEDIA">媒体</item>
+		<item id="2801" desc="Publishing activities ">从发布活动</item>
+		<item id="2802" desc="Motion picture, video and television programme activities; Sound recording and music publishing activities">电影，从计划录像和电视活动;从录音及音乐出版活动</item>
+		<item id="2803" desc="Motion picture, video and television programme distribution activities">从计划电影，录像和电视发行活动</item>
+		<item id="2804" desc="Advertising, PR, Event management and market research ">广告，公关，事件管理和市场研究</item>
+		<item id="29" desc="INFORMATION TECHNOLOGY, TELECOMMUNICATIONS AND COMMUNICATIONS">信息技术，电信及通讯</item>
+		<item id="2901" desc="Software publishing ">软件发布 </item>
+		<item id="2902" desc="Telecommunication">电信</item>
+		<item id="2903" desc="Telecommunication Services">电信服务</item>
+		<item id="30" desc="PROFESSIONAL, SCIENTIFIC, TECHNICAL, HEALTHCARE, EDUCATION AND TRAINING, ADMINISTRATION AND SUPPORT">专业，科学，技术，医疗保健，教育培训，管理和支持</item>
+		<item id="3001" desc="PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES">专业，科学及技术活动</item>
+		<item id="300101" desc="Legal, accounting and auditting activities">法律，会计和审计活动</item>
+		<item id="300102" desc="Activities of head office; management consultancy activities ">总公司的活动;从管理咨询活动</item>
+		<item id="300103" desc="Architectural and engineering activities; Technical testing and analysis ">从建筑和工程活动;技术测试和分析</item>
+		<item id="300104" desc="Scientific research and development">科研开发</item>
+		<item id="300105" desc="Market research and public opinion polling">民意调查的市场研究和公共</item>
+		<item id="300106" desc="Other professional, scientific, and technical acitivities">其他专业，科学及技术活动</item>
+		<item id="300107" desc="Veterinary activities">从兽医活动</item>
+		<item id="3002" desc="ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES">行政及支援服务活动</item>
+		<item id="300201" desc="Renting and leasing of machinery and equipment (without operator); of personal and household goods; of no financial intangible assets.">租赁及机械设备（不含运营商）租赁;个人和家庭用品;没有金融无形资产的任务。</item>
+		<item id="300202" desc="Employment activities">就业活动</item>
+		<item id="300203" desc="Cleaning, landscape care and maintenance service activities">清洁，景观维护和保养服务活动</item>
+		<item id="300204" desc="Office administrative and support activities">办公室管理和辅助活动</item>
+		<item id="300205" desc="Activities of call centres">呼叫中心的活动</item>
+		<item id="300206" desc="Organization of conventions and trade shows ">会议和贸易展览组织 </item>
+		<item id="300207" desc="Other business suport service activities n.e.c">其他业务支承的培养服务活动n.e.c</item>
+		<item id="3003" desc="COMMUNIST PARTY, SOCIO-POLITICAL ORGANIZATIONS ACTIVITIES; PUBLIC ADMINISTRATION AND DEFENSE; COMPULSORY SOCIAL SECURITY">共产党，社会政治组织的活动;公共管理与国防;强制性社会保障</item>
+		<item id="3004" desc="EDUCATION ">教育</item>
+		<item id="3005" desc="HUMAN HEALTH AND SOCIAL WORK ACTIVITIES">人类健康和社会工作活动</item>
+		<item id="300501" desc="Human health activities ">人体健康活动 </item>
+		<item id="300502" desc="Activities of Commune nursing homes and ministry healthcare centre ">公社养老院和事工的医疗中心活动 </item>
+		<item id="3006" desc="Social support activities">社会支持活动</item>
+		<item id="3007" desc="OTHER SERVICE ACTIVITIES ">其他服务活动</item>
+		<item id="300701" desc="Sauna and steam baths, massage and similar health care services (except sport activities)">桑拿浴室和蒸汽浴室，按摩和类似的医疗保健服务（除体育活动）</item>
+		<item id="300702" desc="Repair of computers and personal and households goods">修电脑，个人及家庭物品</item>
+		<item id="300703" desc="Other service activities n.e.c">其他服务活动n.e.c</item>
+		<item id="3008" desc="ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE">家庭作为雇主的活动;未分化货物和服务的生产居民家庭自用活动</item>
+		<item id="3009" desc="Activities of the institutions and international agencies">机构和国际机构的活动</item>
+		<item id="31" desc="FINANCIAL, BANKING AND INSURANCE ACTIVITIES">财政，金融和保险活动</item>
+		<item id="3101" desc="Central banking ">中央银行 </item>
+		<item id="3102" desc="Financial service activities, except insurance and social security">除保险和社会保障的金融服务活动</item>
+		<item id="310201" desc="Financial Leasing">金融租赁</item>
+		<item id="310202" desc="Pawning Activities">典当活动</item>
+		<item id="310203" desc="Other Financial service activities n.e.c, except insurance and social security">其他金融服务活动，除保险和社会保障</item>
+		<item id="3103" desc="Insurance, reinsurance and pension funding, except compulsory social security ">保险，再保险及养老基金，除了强制性社会保障</item>
+		<item id="3104" desc="Securities trading activities">证券交易活动</item>
+		<item id="3105" desc="Other Financial, banking, and insurance activities">其他金融，银行和保险活动</item>
+		<item id="32" desc="REAL ESTATE ACTIVITIES ">房地产活动 </item>
+		<item id="3201" desc="Real estate activities with own or leased property">房地产活动，自有或租赁资产</item>
+		<item id="320101" desc="Real estate activities for residental use, shopping mall, and office">房地产活动的住宅使用，商场，办公</item>
+		<item id="320102" desc="Real estate activities for infrastructure of industrial zones, urban areas, water supply, traffic BOT projects of bridges, roads, ... (investment phase and recovery phase)">房地产活动的工业区，市区，供水，桥梁，道路交通BOT项目的基础设施建设，...（投资期，恢复期）</item>
+		<item id="3202" desc="Consultant, Broker, real estate auctions, auction of land use rights">顾问，经纪，房地产拍卖，土地使用权拍卖</item>
+	</industryOper>
+
+	<comIndustry>
+		<item id="0500 Oil &amp; Gas" desc="0500 Oil &amp; Gas">0500 Oil &amp; Gas</item>
+		<item id="1300 Chemicals" desc="1300 Chemicals">1300化学品</item>
+		<item id="1700 Basic Resources" desc="1700 Basic Resources">1700基础资源</item>
+		<item id="2300 Construction &amp; Materials" desc="2300 Construction &amp; Materials">2300 Construction &amp; Materials</item>
+		<item id="2700 Industrial Goods &amp; Services" desc="2700 Industrial Goods &amp; Services">2700 Industrial Goods &amp; Services</item>
+		<item id="3300 Automobiles &amp; Parts" desc="3300 Automobiles &amp; Parts">3300 Automobiles &amp; Parts</item>
+		<item id="3500 Food &amp; Beverage" desc="3500 Food &amp; Beverage">3500 Food &amp; Beverage</item>
+		<item id="3700 Personal &amp; Household Goods" desc="3700 Personal &amp; Household Goods">3700 Personal &amp; Household Goods</item>
+		<item id="4500 Health Care" desc="4500 Health Care">4500保健</item>
+		<item id="5300 Retail" desc="5300 Retail">5300零售</item>
+		<item id="5500 Media" desc="5500 Media">5500媒体</item>
+		<item id="5700 Travel &amp; Leisure" desc="5700 Travel &amp; Leisure">5700 Travel &amp; Leisure</item>
+		<item id="6500 Telecommunications" desc="6500 Telecommunications">6500电信</item>
+		<item id="7500 Utilities" desc="7500 Utilities">7500实用工具</item>
+		<item id="8300 Banks" desc="8300 Banks">8300银行</item>
+		<item id="8500 Insurance" desc="8500 Insurance">8500保险</item>
+		<item id="8700 Financial Services" desc="8700 Financial Services">8700金融服务</item>
+		<item id="9500 Technology" desc="9500 Technology">9500科技</item>
+	</comIndustry>
+
+	<comDurationInVt>
+		<item id="Below 1 year" desc="Below 1 year">1年以下</item>
+		<item id="1 - 2 years" desc="1 - 2 years">1 - 2 年</item>
+		<item id="2 - 5 years" desc="2 - 5 years">2 - 5 年</item>
+		<item id="5 - 10 years" desc="5 - 10 years">5 - 10 年</item>
+		<item id="More than 10 years" desc="More than 10 years">超过10年</item>
+	</comDurationInVt>
+
+	<entityType>
+		<item id="Limited partnership" desc="Limited partnership">有限合伙企业</item>
+		<item id="Limited Company" desc="Limited Company">有限责任公司</item>
+		<item id="Trust" desc="Trust">信任</item>
+		<item id="Collective Investment Scheme or Fund" desc="Collective Investment Scheme or Fund">集体投资计划或基金</item>
+		<item id="Other" desc="Other">其他</item>
+	</entityType>
+
+	<comType>
+		<item id="Fund management/Asset management" desc="Fund management/Asset management">基金管理/资产管理</item>
+		<item id="Securities company" desc="Securities company">证券公司</item>
+		<item id="Insurance company" desc="Insurance company">保险公司</item>
+		<item id="Finance/Financial leasing company" desc="Finance/Financial leasing company">财务/金融租赁公司</item>
+		<item id="Bank/Credit institution" desc="Bank/Credit institution">银行/信贷机构</item>
+		<item id="Other financial institution establised in Vietnam" desc="Other financial institution establised in Vietnam">在越南设立的其他金融机构</item>
+	</comType>
+
+	<nearestsign desc="Choose the nearest SME center you would like to go for contract signing">
+		<item id="Head office" desc="Head office">总公司</item>
+		<item id="Trung Hoa Nhan Chinh" desc="Trung Hoa Nhan Chinh">Trung Hoa Nhan Chinh</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chuong Duong</item>
+		<item id="Van Quan" desc="Van Quan">Van Quan</item>
+		<item id="Gia Dinh" desc="Gia Dinh">Gia Dinh</item>
+		<item id="Cong Hoa" desc="Cong Hoa">Cong Hoa</item>
+		<item id="Phu Lam" desc="Phu Lam">Phu Lam</item>
+		<item id="Phu My Hung" desc="Phu My Hung">Phu My Hung</item>
+		<item id="So Giao Dich" desc="So Giao Dich">So Giao Dich</item>
+		<item id="Ngo Quyen" desc="Ngo Quyen">Ngo Quyen</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chuong Duong</item>
+		<item id="Ha Noi" desc="Ha Noi">Ha Noi</item>
+		<item id="Linh Dam" desc="Linh Dam">Linh Dam</item>
+		<item id="Thuy Khue" desc="Thuy Khue">Thuy Khue</item>
+		<item id="Dong Do" desc="Dong Do">Dong Do</item>
+		<item id="Kinh Do" desc="Kinh Do">Kinh Do</item>
+		<item id="Ha Thanh" desc="Ha Thanh">Ha Thanh</item>
+		<item id="Giang Vo" desc="Giang Vo">Giang Vo</item>
+		<item id="Ha Tay" desc="Ha Tay">Ha Tay</item>
+		<item id="Thang Long" desc="Thang Long">Thang Long</item>
+		<item id="Tran Thai Tong" desc="Tran Thai Tong">Tran Thai Tong</item>
+		<item id="Hai Phong" desc="Hai Phong">Hai Phong</item>
+		<item id="Hai Duong" desc="Hai Duong">Hai Duong</item>
+		<item id="Quang Ninh" desc="Quang Ninh">Quang Ninh</item>
+		<item id="Mong Cai" desc="Mong Cai">Mong Cai</item>
+		<item id="Thai Binh" desc="Thai Binh">Thai Binh</item>
+		<item id="Bac Giang" desc="Bac Giang">Bac Giang</item>
+		<item id="Bac Ninh" desc="Bac Ninh">Bac Ninh</item>
+		<item id="Hoa Binh" desc="Hoa Binh">Hoa Binh</item>
+		<item id="Phu Tho" desc="Phu Tho">Phu Tho</item>
+		<item id="Thai Nguyen" desc="Thai Nguyen">Thai Nguyen</item>
+		<item id="Vinh Phuc" desc="Vinh Phuc">Vinh Phuc</item>
+		<item id="Ha Tinh" desc="Ha Tinh">Ha Tinh</item>
+		<item id="Nghe An" desc="Nghe An">Nghe An</item>
+		<item id="Thanh Hoa" desc="Thanh Hoa">Thanh Hoa</item>
+		<item id="Nam Dinh" desc="Nam Dinh">Nam Dinh</item>
+		<item id="Da Nang" desc="Da Nang">Da Nang</item>
+		<item id="Hue" desc="Hue">Hue</item>
+		<item id="Quang Binh" desc="Quang Binh">Quang Binh</item>
+		<item id="Quang Tri" desc="Quang Tri">Quang Tri</item>
+		<item id="Ho Chi Minh" desc="Ho Chi Minh">Ho Chi Minh</item>
+		<item id="District 3" desc="District 3">District 3</item>
+		<item id="Dong Nai" desc="Dong Nai">Dong Nai</item>
+		<item id="Binh Duong" desc="Binh Duong">Binh Duong</item>
+		<item id="Sai Gon" desc="Sai Gon">Sai Gon</item>
+		<item id="Cho Lon" desc="Cho Lon">Cho Lon</item>
+		<item id="District 10" desc="District 10">District 10</item>
+		<item id="Ly Thuong Kiet" desc="Ly Thuong Kiet">Ly Thuong Kiet</item>
+		<item id="Binh Dinh" desc="Binh Dinh">Binh Dinh</item>
+		<item id="Nha Trang" desc="Nha Trang">Nha Trang</item>
+		<item id="Binh Thuan" desc="Binh Thuan">Binh Thuan</item>
+		<item id="Gia Lai" desc="Gia Lai">Gia Lai</item>
+		<item id="Vung Tau" desc="Vung Tau">Vung Tau</item>
+		<item id="Long An" desc="Long An">Long An</item>
+		<item id="Dong Thap" desc="Dong Thap">Dong Thap</item>
+		<item id="An Giang" desc="An Giang">An Giang</item>
+		<item id="Can Tho" desc="Can Tho">Can Tho</item>
+		<item id="Vinh Long" desc="Vinh Long">Vinh Long</item>
+		<item id="Kien Giang" desc="Kien Giang">Kien Giang</item>
+	</nearestsign>
+
+	<title>
+		<item id="Mr." desc="Mr">先生</item>
+		<item id="Ms." desc="Ms">女士</item>
+	</title>
+	
+	<auction_status desc="invoice auction status">  
+		<item id="IAS_01" desc="To auction">拍卖</item>
+		<item id="IAS_02" desc="In VPBank auction">在拍卖行副总裁</item>
+		<item id="IAS_03" desc="In public auction">在公开拍卖</item>
+		<item id="IAS_04" desc="Auction closed – transaction signed">拍卖结束 - 交易签约</item>
+		<item id="IAS_05" desc="Auction closed – waiting for signature">拍卖结束 - 等待签约</item>
+		<item id="IAS_06" desc="Auction closed – delisted">拍卖结束 - 摘牌</item>
+		<item id="IAS_07" desc="Auction closed – Unsuccessfully disbursed">拍卖结束 - 支付失败</item>
+		<item id="IAS_08" desc="Auction closed – Disbursed">拍卖结束 - 已支付</item>
+		<item id="IAS_09" desc="Auction Overdue">逾期拍卖</item>
+		<item id="IAS_10" desc="Auction closed – Unsuccessfully dealed">拍卖结束 - 失败处理</item>
+		<item id="IAS_11" desc="Auction closed – Reopen">拍卖结束 - 重新打开</item>
+		<item id="IAS_12" desc="Auction closed – Rejected when reopen">拍卖结束 - 拒绝重新打开</item>
+		<item id="IAS_13" desc="Auction closed – Fully settled">拍卖结束 – 完全清分</item>
+		<item id="IAS_14" desc="Auction closed – Partially settled">拍卖结束 – 部分清分</item>
+	</auction_status>
+	
+	<proxy-service>
+		<item id="image-service" desc="image service address">http://127.0.0.1:9080/document</item>
+		<item id="image-localservice" desc="image local service address">http://127.0.0.1:8080/document</item>
+	</proxy-service>
+
+	<enterprise-type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">Medium SME</item>
+		<item id="03" desc="Micro SME">Micro SME</item>
+	</enterprise-type>
+	
+	<cp_type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">MSME</item>
+	</cp_type>
+	
+	<score_item_type>
+		<item id="1" desc="constant">constant</item>
+		<item id="2" desc="function">function</item>
+	</score_item_type>
+	
+	<score_rating_level>
+		<item id="01" desc="Low-Risk">Low-Risk</item>
+		<item id="02" desc="High-Risk">High-Risk</item>
+		<item id="03" desc="Rejected">Rejected</item>
+	</score_rating_level>
+	
+	<workflow>
+		<item id="01" desc="smeApplyFlow">smeApplyFlow</item>
+		<item id="02" desc="buyerApplyFlow">buyerApplyFlow</item>
+		<item id="03" desc="invoiceDeliveryFlow">invoiceDeliveryFlow</item>
+	</workflow>
+
+	<sysVars>
+		<item id="01" desc="auction advance min">20</item>
+		<item id="02" desc="auction advance step">5</item>
+		<item id="03" desc="auction interest min">6</item>
+		<item id="04" desc="auction interest step">0.5</item>
+	</sysVars>
+
+	<invoiceLimit>
+		<item id="minimum" desc="Minimum invoice amount">100000000</item>
+		<item id="msmehmax" desc="High-risk MSME Maximum invoice amount">800000000</item>
+		<item id="msmelmax" desc="Low-risk MSME Maximum invoice amount">8000000000</item>
+		<item id="smehmax" desc="High-risk SME Maximum invoice amount">1000000000</item>
+		<item id="smelmax" desc="Low-risk SME Maximum invoice amount">1000000000</item>
+		<item id="resolvemsme" desc="Revolving limit of MSME">1700000000</item>
+		<item id="resolvesme" desc="Revolving limit of SME">2000000000</item>
+	</invoiceLimit>
+
+	<invoiceReport>
+		<item id="01" desc="Region">区域</item>
+		<item id="02" desc="SME segment">企业类型</item>
+		<item id="03" desc="Seller rating">风险评级</item>
+	</invoiceReport>
+
+	<buyerReport>
+		<item id="01" desc="Region">区域</item>
+		<item id="02" desc="investor ">投资者类型</item>
+		<item id="03" desc="Company Industry">公司行业</item>
+	</buyerReport>
+
+	<investor>
+		<item id="01" desc="Private investor">私人投资者</item>
+		<item id="02" desc="Company/Institution">公司/机构投资者</item>
+	</investor>
+
+	<feeType>
+		<item id="01" desc="Transaction Fee">Transaction Fee</item>
+		<item id="02" desc="Cancellation Fee">Cancellation Fee</item>
+		<item id="03" desc="Late Payment Interest Fee">Late Payment Interest Fee</item>
+	</feeType>
+
+	<dar desc="Debtor Acknowledgement Requirement">
+		<item id="01" desc="required">required</item>
+		<item id="02" desc="not required">not required</item>
+	</dar>
+	<iov_stauts desc="original invoice verification flow status"> 
+		<item id="tYNhqiLCIc">实物发票信息注册</item>
+		<item id="tYNhqiLCIc_gPeJDndBdI">等待匹配实物发票信息</item>  
+		<item id="gPeJDndBdI_CbPtGRnrkJ">等待实物发票检查</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP">实物发票审核通过</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP_0">实物发票审核未通过</item>
+	</iov_stauts>
+	<oriver_opinion desc="original invoice verification opinion"> 
+		<item id="Accept">接受</item>  
+		<item id="Reject">拒绝</item> 
+	</oriver_opinion>
+</wordbook>

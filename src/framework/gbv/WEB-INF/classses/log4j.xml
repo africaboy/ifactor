@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- param name="ConversionPattern" value="%p - %C{1}.%M(%L) | %m%n"/ -->
+			<param name="ConversionPattern" value="[%-5p] %d{HH:mm:ss SSS} %c - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="logs/gbv.log" />
+		<param name="datePattern" value="'.'yyyy-MM-dd" />
+		<param name="append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%-5p] %d{yyyy-MM-dd HH:mm:ss SSS} %c - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="ASYNC_LOG" class="org.apache.log4j.AsyncAppender">
+		<param name="BufferSize" value="256" />
+		<param name="LocationInfo" value="true" />
+		<appender-ref ref="FILE" />
+	</appender>
+	
+	<logger name="org.apache">
+		<level value="warn"></level>
+		<appender-ref ref="ASYNC_LOG"/>
+	</logger>
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="ASYNC_LOG" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+
+</log4j:configuration>

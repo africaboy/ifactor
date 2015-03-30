@@ -1,0 +1,1 @@
+<EntroAuction> Thong tin hoa don ID <000000>  tai len chua hoan thien. Xin vui long kiem tra email de biet them chi tiet hoac lien he <hotline> de duoc ho tro.

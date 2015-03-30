@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_OVERDUE_REPORT" description="Overdue report by all template">
+		<column>
+			<name>NOOVERDUE_NO</name>
+			<type>integer</type>
+			<description>No overdue #</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>NOOVERDUE_AMOUNT</name>
+			<type>decimal</type>
+			<description>No overdue $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LTHIRTY_NO</name>
+			<type>integer</type>
+			<description>1-30 DPD #</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LTHIRTY_AMOUNT</name>
+			<type>decimal</type>
+			<description>1-30 DPD $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>GTHIRTY_NO</name>
+			<type>decimal</type>
+			<description>>30 DPD #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>GTHIRTY_AMOUNT</name>
+			<type>decimal</type>
+			<description>>30 DPD $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REPORTTYPE</name>
+			<type>varchar</type>
+			<description>Report Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REPORTTYPENUM</name>
+			<type>integer</type>
+			<description>Report Type</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>REPORTBYTYPE</name>
+			<type>varchar</type>
+			<description>Report By Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLEMENTDATE</name>
+			<type>varchar</type>
+			<description>Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>QUERYCONDITION</name>
+			<type>varchar</type>
+			<description>Query Condition</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_OVERDUE_DETAIL_REPORT" description="Invoice overdue detail report">
+		<column>
+			<name>INVOICE_ID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICE_AMOUNT</name>
+			<type>decimal</type>
+			<description>Invoice amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SETTLEMENT_DATE</name>
+			<type>varchar</type>
+			<description>Expected settlement date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OVERDUE_DAYS</name>
+			<type>integer</type>
+			<description>No. of overdue days</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_ID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>varchar</type>
+			<description>Seller rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BUYER_ID</name>
+			<type>varchar</type>
+			<description>Buyer ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

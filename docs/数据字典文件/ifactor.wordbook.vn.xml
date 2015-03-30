@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<applicationJSCSS desc="Customized JSCSS"> 
+		<item id="GAPGlobal.js">/GAP/js/GAPGlobal.js</item>
+		<item id="common.js">/resources/common/js/common.js</item>
+		<item id="workflowaction.js">/system/workflow/plugin/js/workflowaction.js</item>
+		<item id="application.js">/app/ifactor/js/application.js</item>
+		<item id="mainTab.js">/app/ifactor/js/mainTab.js</item>
+		<item id="previewImageData.js">/app/ifactor/js/previewImageData.js</item>
+		<item id="imageUploadItemList.js">/app/ifactor/js/imageUploadItemList.js</item>
+		<item id="flow.css">/app/ifactor/css/flow.css</item>
+		<!--image upload refrence start-->
+		<item id="swfupload.js">/app/ifactor/upload/swfupload/swfupload.js</item>  
+		<item id="image-slideshow-vertical.js">/app/ifactor/upload/image-slideshow-vertical.js</item>  
+		<item id="uploadPanel.js">/app/ifactor/upload/uploadPanel.js</item>  
+		<item id="uploadPanel.css">/app/ifactor/upload/css/uploadPanel.css</item>
+		<item id="image-slideshow-vertical.css">/app/ifactor/upload/css/image-slideshow-vertical.css</item>
+		<!--image upload refrence end-->
+		<item id="application.js">/app/lib/js/application.js</item>
+		<!--global variable-->
+		<item id="share.js">/app/ifactor/js/share.js</item>
+		<item id="pdfobject.js">/app/ifactor/js/pdfobject.js</item>
+	</applicationJSCSS>  
+	<default-menu-icon> 
+		<item id="/GAP/welcome/default_menu_icon/web_icon_001.png">001</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_002.png">002</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_006.png">006</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_009.png">009</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_010.png">010</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_012.png">012</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_014.png">014</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_015.png">015</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_016.png">016</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_018.png">018</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_019.png">019</item>  
+		<item id="/GAP/welcome/default_menu_icon/web_icon_021.png">021</item> 
+	</default-menu-icon>
+	<operatorGt desc="calculate operator gt"> 
+		<item id="01" desc="&gt;">&gt;</item>  
+		<item id="02" desc="&gt;=">&gt;=</item>
+	</operatorGt>
+	<operatorLt desc="calculate operator lt">  
+		<item id="01" desc="&lt;">&lt;</item>
+		<item id="02" desc="&lt;=">&lt;=</item>
+	</operatorLt>
+
+	<user-type desc="User Type"> 
+		<item id="1">Local</item>  
+		<item id="2">Nội bộ</item>  
+		<item id="3">Bên ngoài</item> 
+	</user-type>  
+	<user-workstatus desc="Work Status"> 
+		<item id="0">Bình thường</item>  
+		<item id="-1">Nghỉ việc</item>  
+		<item id="-2">Nghỉ phép</item>  
+		<item id="-3">Vắng mặt</item> 
+	</user-workstatus>  
+	<user-workstatus-session desc="Work Session Status"> 
+		<item id="0">Bình thường</item>  
+		<item id="-3">Vắng mặt</item> 
+	</user-workstatus-session>  
+	<user-rating desc="Level"> 
+		<item id="1" desc="" idx="1">Nhân sự Cao cấp tại Hội sở</item>  
+		<item id="3" desc="" idx="2">Nhân sự Trung cấp tại Hội sở</item>  
+		<item id="2" desc="" idx="3">Nhân sự Cao cấp Vùng</item>  
+		<item id="4" desc="" idx="4">Nhân sự Trung cấp Vùng</item>  
+		<item id="5" desc="" idx="5">Nhân viên</item> 
+	</user-rating>  
+	<group-rating desc="Group Level"> 
+		<item id="1">Công ty/Văn phòng</item>  
+		<item id="2">Khối</item> 
+	</group-rating>  
+	<job desc="用户职务"> 
+		<item id="风控总监" desc="" idx="">Giám đốc Quản lý Rủi ro</item>  
+		<item id="信审经理">Trưởng phòng phê duyệt Tín dụng</item>  
+		<item id="总监助理">Trợ lý Giám đốc</item>  
+		<item id="信审主任">Trưởng phòng Tín dụng</item>  
+		<item id="信审员">Nhân viên Tín dụng</item>  
+		<item id="稽核员">Kiểm toán viên</item>  
+		<item id="数据分析员">Chuyên gia phân tích dữ liệu</item>  
+		<item id="团队经理">Trưởng Nhóm</item>  
+		<item id="业务员">Kinh doanh</item>  
+		<item id="客服">Dịch vụ chăm sóc khách hàng</item>  
+		<item id="职员">Nhân viên</item> 
+	</job>  
+	<area desc="Area/Region"> 
+		<item id="00">Hội sở</item>  
+		<item id="01">Đông</item>  
+		<item id="02">Nam</item> 
+	</area>   
+	<fc_opinion desc="first check opinion selects of buyer flow"> 
+		<item id="Confirmed">Xác nhận</item>  
+		<item id="Modify">Chỉnh sửa</item> 
+	</fc_opinion> 
+	<dc_opinion desc="double check opinion selects of buyer flow"> 
+		<item id="Confirmed">Xác nhận</item>  
+		<item id="Modify">Chỉnh sửa</item>
+	</dc_opinion> 
+	<blc_opinion desc="blacklist check opinion selects of buyer flow"> 
+		<item id="Accept">Chấp nhận là Người mua tiềm năng</item>  
+		<item id="Reject">Từ chối</item> 
+	</blc_opinion> 
+	<bc_opinion desc="buyer confirm opinion selects of buyer flow"> 
+		<item id="Confirmed">Đã được xác nhận</item>  
+		<item id="UnConfirmed">Chưa được xác nhận</item>
+	</bc_opinion>
+	<fieldcheck_opinion desc="double check field visit doc opinion"> 
+		<item id="Accept">Chấp nhận</item>  
+		<item id="Reject">Từ chối</item> 
+	</fieldcheck_opinion>
+	<common_opinion>
+		<item id="Confirmed">Xác nhận</item> 
+		<item id="Reject">Từ chối</item>
+	</common_opinion> 
+	<smecheck_opinion>
+		<item id="Confirmed">Xác nhận</item> 
+		<item id="Modify">Chỉnh sửa</item>
+	</smecheck_opinion>
+	<mapscore_opinion>
+		<item id="Confirmed">Chấp nhận</item> 
+		<item id="Reject">Từ chối</item> 
+		<item id="Review">Xem lại</item> 
+	</mapscore_opinion>
+	<fieldvisit_opinion>
+		<item id="Required">Yêu cầu Thực địa</item> 
+		<item id="NotRequired">Không yêu cầu Thực địa</item> 
+	</fieldvisit_opinion>
+	<doublecheckverify_opinion>
+		<item id="Confirmed">Đã được xác nhận</item> 
+		<item id="VerifyAgain">Kiểm tra và Xác thực lại</item>
+	</doublecheckverify_opinion>
+	<fscheckreview_opinion>
+		<item id="Confirmed">Xác nhận</item> 
+		<item id="FSModify">Yêu cầu Chỉnh sửa Báo cáo Tài chính</item>
+	</fscheckreview_opinion>
+	<ba_stauts desc="buyer apply status">
+		<item id="FTDaNkdaIp">Đăng ký</item>  
+		<item id="FTDaNkdaIp_frTGUAcenq">Kiểm tra Tính Chính xác và Đầy đủ lần một</item> 
+		<item id="frTGUAcenq_xzaEBsKadm">Kiểm tra Tính Chính xác và Đầy đủ lần hai</item> 
+		<item id="frTGUAcenq_AyrbNcfEYW">Chờ Chỉnh sửa Dữ liệu từ Người mua</item> 
+		<item id="AyrbNcfEYW_frTGUAcenq">Kiểm tra Tính Chính xác và Đầy đủ lần một (Nộp lại)</item> 
+		<item id="xzaEBsKadm_yjoUTSRriH">Kiểm tra Danh sách đen</item> 
+		<item id="xzaEBsKadm_frTGUAcenq">Xác nhận Yêu cầu chỉnh sửa dữ liệu</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_0">Chờ để CS Liên hệ với Người mua</item> 
+		<item id="xzaEBsKadm_AyrbNcfEYW_1">CS đã Liên hệ với Người mua</item> 
+		<item id="AyrbNcfEYW_xzaEBsKadm">Kiểm tra Tính Chính xác và Đầy đủ lần hai (Nộp lại)</item>
+		<item id="yjoUTSRriH_ZgoGbrkOWm">Xác nhận Tinh Xác thực của Người mua</item> 
+		<item id="yjoUTSRriH_ANAzqfzpXu">Từ chối</item> 
+		<item id="ZgoGbrkOWm_wqeytIZGJg">Chờ Ký Hợp đồng</item> 
+		<item id="ZgoGbrkOWm_IumoNgdgWo">Chờ để đóng Tài khoản Người mua</item> 
+		<item id="IumoNgdgWo_ANAzqfzpXu">Tài khoản của Người mua đã được đóng</item>
+		<item id="wqeytIZGJg_PBwYjzcgYL">Kiểm tra lại việc Ký Hợp đồng</item> 
+		<item id="PBwYjzcgYL_wqeytIZGJg">Chờ ký Hợp đồng (Sửa đổi)</item> 
+		<item id="PBwYjzcgYL_ANAzqfzpXu">Chính thức chấp nhận Người mua</item> 
+		<item id="AyrbNcfEYW_ANAzqfzpXu">Đóng Hồ sơ</item> 
+	</ba_stauts> 
+	<ida_stauts desc="invoice delivery apply status"> 
+		<item id="szIeAMROkl">Registration</item>  
+		<item id="szIeAMROkl_mVolpvvEFY">First completeness and correctness check</item>  
+		<item id="mVolpvvEFY_RyXlLYLUHF">Pending for data modification from customer</item>
+		<item id="mVolpvvEFY_RyXlLYLUHF_0">Pending for CS to contact</item> 
+		<item id="mVolpvvEFY_RyXlLYLUHF_1">Contacted by CS</item>   
+		<item id="mVolpvvEFY_bquDuCwisW">Manual check</item>  
+		<item id="bquDuCwisW_dSHAvdyhfW">Rejected</item>  
+		<item id="bquDuCwisW_ibvYshlyGv">Second completeness and correctness check</item>  
+		<item id="ibvYshlyGv_vBdcCEIXvk">Blacklist check</item>  
+		<item id="ibvYshlyGv_mVolpvvEFY">Confirm decision on data modification</item>  
+		<item id="RyXlLYLUHF_mVolpvvEFY">First completeness and correctness check (Resubmission)</item>
+		<item id="RyXlLYLUHF_ibvYshlyGv">Second completeness and correctness check (Resubmission)</item>
+		<item id="vBdcCEIXvk_dSHAvdyhfW">Rejected</item>  
+		<item id="vBdcCEIXvk_YCcCAeFtUg">Eligibility check</item>
+		<item id="YCcCAeFtUg_dSHAvdyhfW">Rejected</item>
+		<item id="YCcCAeFtUg_xhLGTcqzFh">Pending for original invoice verification</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW">Invoice released</item>
+		<item id="xhLGTcqzFh_dSHAvdyhfW_0">Rejected</item>
+		<item id="RyXlLYLUHF_dSHAvdyhfW">Application closed</item>
+	</ida_stauts> 
+	<ida_fc_opinion desc="first check opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">Xác nhận</item>  
+		<item id="Modify">Chỉnh sửa</item> 
+	</ida_fc_opinion>
+	<ida_mp_opinion desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="Confirmed">Xác nhận</item>  
+		<item id="Reject">Từ chối</item> 
+	</ida_mp_opinion>
+	<ida_mp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">Hàng hóa của Hợp đồng và Hóa đơn nằm trong danh sách đen Ngành nghề</item>  
+		<item id="02">Hợp đồng/Hóa đơn phát sinh từ Giao dịch bất hợp pháp</item> 
+		<item id="03">Hợp đồng/Hóa đơn phát sinh từ Giao dịch đang tranh chấp</item> 
+		<item id="04">Ngành nghề Kinh doanh của Người bán không liên quan đến Hòa hóa ghi trong Hóa đơn</item> 
+		<item id="05">Ngành nghề Kinh doanh của Người bán không đúng với Đăng ký kinh doanh</item> 
+		<item id="06">Thông tin tài liệu đã tải lên không đúng</item> 
+		<item id="07">Hóa đơn theo Luật và Hợp đồng/Hóa đơn không được phép chuyển nhượng</item> 
+		<item id="08">Hợp đồng/Hóa đơn có các quy định đặc biệt như "Hợp đồng theo hình thức ký gửi", "Hàng hóa có thể trả lại", "Chỉ thanh toán sau khi cài đặt và thử nghiệm tốt". Trách nhiệm của Người bán vẫn chưa hoàn thành khi giao hàng.</item> 
+		<item id="09">Hóa đơn đã được Cầm cố, Thế chấp</item> 
+		<item id="10">Thời gian của Hóa đơn không nằm trong thời gian thanh toán của Hợp đồng</item> 
+		<item id="11">Người bán và Người mua có mối liên hệ từ trước</item> 
+	</ida_mp_reject_reason>
+	<ida_doublemp_reject_reason desc="manual progress opinion selects of invoice delivery flow"> 
+		<item id="01">Hàng hóa của Hợp đồng và Hóa đơn nằm trong danh sách đen Ngành nghề</item>  
+		<item id="02">Hợp đồng/Hóa đơn phát sinh từ Giao dịch bất hợp pháp</item> 
+		<item id="03">Hợp đồng/Hóa đơn phát sinh từ Giao dịch đang tranh chấp</item> 
+		<item id="04">Ngành nghề Kinh doanh của Người bán không liên quan đến Hòa hóa ghi trong Hóa đơn</item> 
+		<item id="05">Ngành nghề Kinh doanh của Người bán không đúng với Đăng ký kinh doanh</item> 
+		<item id="06">Thông tin tài liệu đã tải lên không đúng</item> 
+		<item id="07">Hóa đơn theo Luật và Hợp đồng/Hóa đơn không được phép chuyển nhượng</item> 
+		<item id="08">Hợp đồng/Hóa đơn có các quy định đặc biệt như "Hợp đồng theo hình thức ký gửi", "Hàng hóa có thể trả lại", "Chỉ thanh toán sau khi cài đặt và thử nghiệm tốt". Trách nhiệm của Người bán vẫn chưa hoàn thành khi giao hàng.</item> 
+		<item id="09">Hóa đơn đã được Cầm cố, Thế chấp</item> 
+		<item id="10">Thời gian của Hóa đơn không nằm trong thời gian thanh toán của Hợp đồng</item> 
+		<item id="11">Người bán và Người mua có mối liên hệ từ trước</item> 
+		<item id="12">Ngoại lệ không được chấp nhận</item> 
+	</ida_doublemp_reject_reason>
+	<bltype desc="The blacklist type">
+		<item id="01">Danh sách đen Hủy giao dịch</item>  
+		<item id="02">Danh sách đen Gian lận</item> 
+		<item id="03">Danh sách đen Ngành nghề</item>
+		<item id="04">Danh sách đen Luật pháp</item>
+		<item id="05">Danh sách đen Nội bộ</item>
+		<item id="06">Nợ xấu</item>
+	</bltype> 
+	<image_item_type desc="Image data types"> 
+		<item id="idcard" desc="idcard">ID</item>  
+		<item id="checkDoc" desc="check documents">Kiểm tra Tài liệu</item>
+		<item id="license" desc="license">Đăng ký kinh doanh</item> 
+		<item id="taxcode" desc="taxcode">Mã số Thuế</item>
+		<item id="fs" desc="fs">Báo cáo Tài chính</item>
+		<item id="invoice" desc="invoices">Hóa đơn</item>
+		<item id="signed" desc="signed">Các Tài liệu đã ký</item>
+		<item id="terms" desc="terms">Các điều khoản</item>
+		<item id="visitForm" desc="field visit request form">Thực địa</item>
+	</image_item_type>  
+	
+	<common_yesorno desc="yes or no"> 
+		<item id="01" desc="yes">Đồng ý</item>  
+		<item id="02" desc="no">Không đồng ý</item> 
+	</common_yesorno>
+	
+	<cic_haveornone desc="have or none"> 
+		<item id="01" desc="have">Có</item>  
+		<item id="02" desc="none">Không có</item> 
+	</cic_haveornone>
+	
+	<smeapplystatus>
+		<item id="UHQvMFrkXQ" desc="Registration">Đăng ký</item>
+		<item id="UHQvMFrkXQ_FUoVuacHWV" desc="first check">Kiểm tra Tính Chính xác và Đầy đủ lần một</item>
+		<item id="FUoVuacHWV_mRizDYBctr" desc="double check">Kiểm tra Tính Chính xác và Đầy đủ lần hai</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF" desc="data modify">Chờ Chỉnh sửa Dữ liệu từ Người bán</item>
+		<item id="FUoVuacHWV_cMxzCQLUrF_0">Chờ để CS Liên hệ với Người bán</item> 
+		<item id="FUoVuacHWV_cMxzCQLUrF_1">CS đã liên hệ với Người bán</item>   
+		<item id="mRizDYBctr_FUoVuacHWV" desc="data modify">Xác nhận Yêu cầu chỉnh sửa dữ liệu</item>
+		<item id="cMxzCQLUrF_FUoVuacHWV" desc="completed data modify">Kiểm tra Tính Chính xác và Đầy đủ lần một (Nộp lại)</item>
+		<item id="cMxzCQLUrF_mRizDYBctr" desc="completed data modify">Kiểm tra Tính Chính xác và Đầy đủ lần hai (Nộp lại)</item>
+		<item id="mRizDYBctr_zIeeUKnBZF" desc="license check">Kiểm tra Đăng ký Kinh doanh</item>
+		<item id="zIeeUKnBZF_zXusSDxdAs" desc="blacklist check">Kiểm tra Danh sách đen</item>
+		<item id="zIeeUKnBZF_oQfYjWhRHs" desc="rejection">Từ chối vì không qua vòng Kiểm tra Đăng ký Kinh doanh</item>
+		<item id="zXusSDxdAs_wVbebSTCKW" desc="CIC check">Kiểm tra thông tin Tín dụng CIC</item>
+		<item id="zXusSDxdAs_oQfYjWhRHs" desc="rejection">Từ chối vì không qua vòng Kiểm tra Danh sách đen</item>
+		<item id="wVbebSTCKW_pvPsOAQpXx" desc="FS">Nhập thông tin Báo cáo Tài chính</item>
+		<item id="wVbebSTCKW_oQfYjWhRHs" desc="rejection">Từ chối vì không qua vòng Kiểm tra Thông tin Tín dụng CIC</item>
+		<item id="pvPsOAQpXx_KJtCGqzGmT" desc="FS check and review">Kiểm tra lại thông tin Báo cáo Tài chính</item>
+		<item id="KJtCGqzGmT_pvPsOAQpXx" desc="FS modify">Yêu cầu Chỉnh sửa thông tin Báo cáo Tài chính</item>
+		<item id="KJtCGqzGmT_VmnUSmpded" desc="eligibility check">Kiểm tra Tính hợp cách</item>
+		<item id="VmnUSmpded_ulccaPXdZe" desc="map score">Xếp hạng Rủi ro SME</item>
+		<item id="VmnUSmpded_oQfYjWhRHs" desc="rejection">Từ chối vì không qua vòng Kiểm tra Tính Hợp cách</item>
+		<item id="ulccaPXdZe_KDJlQmRchM" desc="verify ID and sign documents">Chờ Xác thực và Ký Hợp đồng (Rủi ro thấp)</item>
+		<item id="ulccaPXdZe_oQfYjWhRHs" desc="rejection">Từ chối vì Xếp hạng Rủi ro quá cao</item>
+		<item id="ulccaPXdZe_BlSPDaIKLf" desc="field visit">Yêu cầu Thực địa</item>
+		<item id="BlSPDaIKLf_inertjGixd" desc="field visit staff assigned">Phân công Thực địa</item>
+		<item id="inertjGixd_LmZdhEzbKy" desc="upload the completed list">Nộp Báo cáo thực địa</item>
+		<item id="BlSPDaIKLf_KDJlQmRchM" desc="verify ID and sign documents">Chờ Xác thực ID và Ký Hợp đồng (Rủi ro cao)</item>
+		<item id="LmZdhEzbKy_HQrcOamWus" desc="double check field visit doc">Kiểm tra lại Báo cáo thực địa</item>
+		<item id="HQrcOamWus_LmZdhEzbKy" desc="check and upload paper doc again">Nộp Báo cáo thực địa (Sửa đổi)</item>
+		<item id="HQrcOamWus_mKISSmbTdc" desc="assess and result">Thẩm định Báo cáo Thực địa</item>
+		<item id="mKISSmbTdc_oQfYjWhRHs" desc="rejection">Từ chối vì không qua vòng Thẩm định Báo cáo Thực địa</item>
+		<item id="mKISSmbTdc_KDJlQmRchM" desc="verify ID and sign documents">Chờ Xác thực ID và Ký Hợp đồng (Rủi ro cao sau khi Thực địa)</item>
+		<item id="KDJlQmRchM_cPjfdskOtZ" desc="double check and verify">Kiểm tra lại việc Ký hợp đồng</item>
+		<item id="cPjfdskOtZ_KDJlQmRchM" desc="verify ID and sign documents again">Chờ Xác thực ID và Ký Hợp đồng (Sửa đổi)</item>
+		<item id="cPjfdskOtZ_oQfYjWhRHs" desc="release">Chính thức chấp nhận Người bán</item>
+		<item id="cMxzCQLUrF_oQfYjWhRHs">Đóng Hồ sơ</item>
+	</smeapplystatus>
+		
+	<gender>
+		<item id="male" desc="male">Nam</item>
+		<item id="female" desc="female">Nữ</item>
+	</gender>
+
+	<country>
+		<item id="Afghanistan" desc="Afghanistan">Afghanistan</item>
+		<item id="Albania" desc="Albania">Albania</item>
+		<item id="Algeria" desc="Algeria">Algeria</item>
+		<item id="American Samoa" desc="American Samoa">American Samoa</item>
+		<item id="Andorra" desc="Andorra">Andorra</item>
+		<item id="Anguilla" desc="Anguilla">Anguilla</item>
+		<item id="Antarctica" desc="Antarctica">Antarctica</item>
+		<item id="Antigua And Barbuda" desc="Antigua And Barbuda">Antigua And Barbuda</item>
+		<item id="Argentina" desc="Argentina">Argentina</item>
+		<item id="Armenia" desc="Armenia">Armenia</item>
+		<item id="Aruba" desc="Aruba">Aruba</item>
+		<item id="Australia" desc="Australia">Australia</item>
+		<item id="Austria" desc="Austria">Austria</item>
+		<item id="Ayerbaijan" desc="Ayerbaijan">Ayerbaijan</item>
+		<item id="Bahamas" desc="Bahamas">Bahamas</item>
+		<item id="Bahrain" desc="Bahrain">Bahrain</item>
+		<item id="Bangladesh" desc="Bangladesh">Bangladesh</item>
+		<item id="Barbados" desc="Barbados">Barbados</item>
+		<item id="Belarus" desc="Belarus">Belarus</item>
+		<item id="Belize" desc="Belize">Belize</item>
+		<item id="Belgium" desc="Belgium">Belgium</item>
+		<item id="Benin" desc="Benin">Benin</item>
+		<item id="Bermuda" desc="Bermuda">Bermuda</item>
+		<item id="Bhutan" desc="Bhutan">Bhutan</item>
+		<item id="Bolivia" desc="Bolivia">Bolivia</item>
+		<item id="Bouvet Is" desc="Bouvet Is">Bouvet Is</item>
+		<item id="Bosnia and Herzegovina" desc="Bosnia and Herzegovina">Bosnia and Herzegovina</item>
+		<item id="Botswana" desc="Botswana">Botswana</item>
+		<item id="Brazil" desc="Brazil">Brazil</item>
+		<item id="British Indian Ocean Territory" desc="British Indian Ocean Territory">British Indian Ocean Territory</item>
+		<item id="Brunei" desc="Brunei">Brunei</item>
+		<item id="Bulgaria" desc="Bulgaria">Bulgaria</item>
+		<item id="Burkina Faso" desc="Burkina Faso">Burkina Faso</item>
+		<item id="Burundi" desc="Burundi">Burundi</item>
+		<item id="Cambodia" desc="Cambodia">Cambodia</item>
+		<item id="Cameroon" desc="Cameroon">Cameroon</item>
+		<item id="Canada" desc="Canada">Canada</item>
+		<item id="Cape Verde" desc="Cape Verde">Cape Verde</item>
+		<item id="Cayman Is" desc="Cayman Is">Cayman Is</item>
+		<item id="Central African Republic" desc="Central African Republic">Central African Republic</item>
+		<item id="Chad" desc="Chad">Chad</item>
+		<item id="Chile" desc="Chile">Chile</item>
+		<item id="China" desc="China">China</item>
+		<item id="China (Hong Kong S.A.R.)" desc="China (Hong Kong S.A.R.)">China (Hong Kong S.A.R.)</item>
+		<item id="China (Macau S.A.R.)" desc="China (Macau S.A.R.)">China (Macau S.A.R.)</item>
+		<item id="China (Taiwan T.W)" desc="China (Taiwan T.W)">China (Taiwan T.W)</item>
+		<item id="Christmas Is" desc="Christmas Is">Christmas Is</item>
+		<item id="Cocos (Keeling) Is" desc="Cocos (Keeling) Is">Cocos (Keeling) Is</item>
+		<item id="Colombia" desc="Colombia">Colombia</item>
+		<item id="Comoros" desc="Comoros">Comoros</item>
+		<item id="Cook Islands" desc="Cook Islands">Cook Islands</item>
+		<item id="Costa Rica" desc="Costa Rica">Costa Rica</item>
+		<item id="Cote D'Ivoire (Ivory Coast)" desc="Cote D'Ivoire (Ivory Coast)">Cote D'Ivoire (Ivory Coast)</item>
+		<item id="Croatia (Hrvatska)" desc="Croatia (Hrvatska)">Croatia (Hrvatska)</item>
+		<item id="Cyprus" desc="Cyprus">Cyprus</item>
+		<item id="Czech Republic" desc="Czech Republic">Czech Republic</item>
+		<item id="Democratic Republic of the Congo" desc="Democratic Republic of the Congo">Democratic Republic of the Congo</item>
+		<item id="Denmark" desc="Denmark">Denmark</item>
+		<item id="Dominica" desc="Dominica">Dominica</item>
+		<item id="Dominican Republic" desc="Dominican Republic">Dominican Republic</item>
+		<item id="Djibouti" desc="Djibouti">Djibouti</item>
+		<item id="East Timor" desc="East Timor">East Timor</item>
+		<item id="Ecuador" desc="Ecuador">Ecuador</item>
+		<item id="Egypt" desc="Egypt">Egypt</item>
+		<item id="El Salvador" desc="El Salvador">El Salvador</item>
+		<item id="Equatorial Guinea" desc="Equatorial Guinea">Equatorial Guinea</item>
+		<item id="Eritrea" desc="Eritrea">Eritrea</item>
+		<item id="Estonia" desc="Estonia">Estonia</item>
+		<item id="Ethiopia" desc="Ethiopia">Ethiopia</item>
+		<item id="Falkland Is (Is Malvinas)" desc="Falkland Is (Is Malvinas)">Falkland Is (Is Malvinas)</item>
+		<item id="Faroe Islands" desc="Faroe Islands">Faroe Islands</item>
+		<item id="Fiji Islands" desc="Fiji Islands">Fiji Islands</item>
+		<item id="Finland" desc="Finland">Finland</item>
+		<item id="France" desc="France">France</item>
+		<item id="French Guiana" desc="French Guiana">French Guiana</item>
+		<item id="French Polynesia" desc="French Polynesia">French Polynesia</item>
+		<item id="French Southern Territories" desc="French Southern Territories">French Southern Territories</item>
+		<item id="F.Y.R.O. Macedonia" desc="F.Y.R.O. Macedonia">F.Y.R.O. Macedonia</item>
+		<item id="Gabon" desc="Gabon">Gabon</item>
+		<item id="Gambia, The" desc="Gambia, The">Gambia, The</item>
+		<item id="Georgia" desc="Georgia">Georgia</item>
+		<item id="Germany" desc="Germany">Germany</item>
+		<item id="Ghana" desc="Ghana">Ghana</item>
+		<item id="Gibraltar" desc="Gibraltar">Gibraltar</item>
+		<item id="Greece" desc="Greece">Greece</item>
+		<item id="Greenland" desc="Greenland">Greenland</item>
+		<item id="Grenada" desc="Grenada">Grenada</item>
+		<item id="Guadeloupe" desc="Guadeloupe">Guadeloupe</item>
+		<item id="Guam" desc="Guam">Guam</item>
+		<item id="Guatemala" desc="Guatemala">Guatemala</item>
+		<item id="Guinea" desc="Guinea">Guinea</item>
+		<item id="Guinea-Bissau" desc="Guinea-Bissau">Guinea-Bissau</item>
+		<item id="Guyana" desc="Guyana">Guyana</item>
+		<item id="Haiti" desc="Haiti">Haiti</item>
+		<item id="Heard and McDonald Is" desc="Heard and McDonald Is">Heard and McDonald Is</item>
+		<item id="Honduras" desc="Honduras">Honduras</item>
+		<item id="Hungary" desc="Hungary">Hungary</item>
+		<item id="Iceland" desc="Iceland">Iceland</item>
+		<item id="India" desc="India">India</item>
+		<item id="Indonesia" desc="Indonesia">Indonesia</item>
+		<item id="Ireland" desc="Ireland">Ireland</item>
+		<item id="Israel" desc="Israel">Israel</item>
+		<item id="Italy" desc="Italy">Italy</item>
+		<item id="Jamaica" desc="Jamaica">Jamaica</item>
+		<item id="Japan" desc="Japan">Japan</item>
+		<item id="Jordan" desc="Jordan">Jordan</item>
+		<item id="Kayakhstan" desc="Kayakhstan">Kayakhstan</item>
+		<item id="Kenya" desc="Kenya">Kenya</item>
+		<item id="Kiribati" desc="Kiribati">Kiribati</item>
+		<item id="Korea, South" desc="Korea, South">Korea, South</item>
+		<item id="Kuwait" desc="Kuwait">Kuwait</item>
+		<item id="Kyrgyzstan" desc="Kyrgyzstan">Kyrgyzstan</item>
+		<item id="Laos" desc="Laos">Laos</item>
+		<item id="Latvia" desc="Latvia">Latvia</item>
+		<item id="Lebanon" desc="Lebanon">Lebanon</item>
+		<item id="Lesotho" desc="Lesotho">Lesotho</item>
+		<item id="Liberia" desc="Liberia">Liberia</item>
+		<item id="Liechtenstein" desc="Liechtenstein">Liechtenstein</item>
+		<item id="Lithuania" desc="Lithuania">Lithuania</item>
+		<item id="Luxembourg" desc="Luxembourg">Luxembourg</item>
+		<item id="Madagascar" desc="Madagascar">Madagascar</item>
+		<item id="Malawi" desc="Malawi">Malawi</item>
+		<item id="Malaysia" desc="Malaysia">Malaysia</item>
+		<item id="Maldives" desc="Maldives">Maldives</item>
+		<item id="Mali" desc="Mali">Mali</item>
+		<item id="Malta" desc="Malta">Malta</item>
+		<item id="Marshall Is" desc="Marshall Is">Marshall Is</item>
+		<item id="Mauritania" desc="Mauritania">Mauritania</item>
+		<item id="Mauritius" desc="Mauritius">Mauritius</item>
+		<item id="Martinique" desc="Martinique">Martinique</item>
+		<item id="Mayotte" desc="Mayotte">Mayotte</item>
+		<item id="Mexico" desc="Mexico">Mexico</item>
+		<item id="Micronesia" desc="Micronesia">Micronesia</item>
+		<item id="Moldova" desc="Moldova">Moldova</item>
+		<item id="Monaco" desc="Monaco">Monaco</item>
+		<item id="Mongolia" desc="Mongolia">Mongolia</item>
+		<item id="Montserrat" desc="Montserrat">Montserrat</item>
+		<item id="Morocco" desc="Morocco">Morocco</item>
+		<item id="Mozambique" desc="Mozambique">Mozambique</item>
+		<item id="Myanmar" desc="Myanmar">Myanmar</item>
+		<item id="Namibia" desc="Namibia">Namibia</item>
+		<item id="Nauru" desc="Nauru">Nauru</item>
+		<item id="Nepal" desc="Nepal">Nepal</item>
+		<item id="Netherlands, The" desc="Netherlands, The">Netherlands, The</item>
+		<item id="Netherlands Antilles" desc="Netherlands Antilles">Netherlands Antilles</item>
+		<item id="New Caledonia" desc="New Caledonia">New Caledonia</item>
+		<item id="New Zealand" desc="New Zealand">New Zealand</item>
+		<item id="Nicaragua" desc="Nicaragua">Nicaragua</item>
+		<item id="Niger" desc="Niger">Niger</item>
+		<item id="Nigeria" desc="Nigeria">Nigeria</item>
+		<item id="Niue" desc="Niue">Niue</item>
+		<item id="Norway" desc="Norway">Norway</item>
+		<item id="Norfolk Island" desc="Norfolk Island">Norfolk Island</item>
+		<item id="Northern Mariana Is" desc="Northern Mariana Is">Northern Mariana Is</item>
+		<item id="Oman" desc="Oman">Oman</item>
+		<item id="Pakistan" desc="Pakistan">Pakistan</item>
+		<item id="Palau" desc="Palau">Palau</item>
+		<item id="Panama" desc="Panama">Panama</item>
+		<item id="Papua new Guinea" desc="Papua new Guinea">Papua new Guinea</item>
+		<item id="Paraguay" desc="Paraguay">Paraguay</item>
+		<item id="Peru" desc="Peru">Peru</item>
+		<item id="Philippines" desc="Philippines">Philippines</item>
+		<item id="Pitcairn Island" desc="Pitcairn Island">Pitcairn Island</item>
+		<item id="Poland" desc="Poland">Poland</item>
+		<item id="Portugal" desc="Portugal">Portugal</item>
+		<item id="Puerto Rico" desc="Puerto Rico">Puerto Rico</item>
+		<item id="Qatar" desc="Qatar">Qatar</item>
+		<item id="Republic of the Congo" desc="Republic of the Congo">Republic of the Congo</item>
+		<item id="Reunion" desc="Reunion">Reunion</item>
+		<item id="Romania" desc="Romania">Romania</item>
+		<item id="Russia" desc="Russia">Russia</item>
+		<item id="Saint Helena" desc="Saint Helena">Saint Helena</item>
+		<item id="Saint Kitts And Nevis" desc="Saint Kitts And Nevis">Saint Kitts And Nevis</item>
+		<item id="Saint Lucia" desc="Saint Lucia">Saint Lucia</item>
+		<item id="Saint Pierre and Miquelon" desc="Saint Pierre and Miquelon">Saint Pierre and Miquelon</item>
+		<item id="Saint Vincent And The Grenadines" desc="Saint Vincent And The Grenadines">Saint Vincent And The Grenadines</item>
+		<item id="Samoa" desc="Samoa">Samoa</item>
+		<item id="San Marino" desc="San Marino">San Marino</item>
+		<item id="Sao Tome and Principe" desc="Sao Tome and Principe">Sao Tome and Principe</item>
+		<item id="Saudi Arabia" desc="Saudi Arabia">Saudi Arabia</item>
+		<item id="Senegal" desc="Senegal">Senegal</item>
+		<item id="Seychelles" desc="Seychelles">Seychelles</item>
+		<item id="Sierra Leone" desc="Sierra Leone">Sierra Leone</item>
+		<item id="Singapore" desc="Singapore">Singapore</item>
+		<item id="Slovakia" desc="Slovakia">Slovakia</item>
+		<item id="Slovenia" desc="Slovenia">Slovenia</item>
+		<item id="Solomon Islands" desc="Solomon Islands">Solomon Islands</item>
+		<item id="Somalia" desc="Somalia">Somalia</item>
+		<item id="South Africa" desc="South Africa">South Africa</item>
+		<item id="South Georgia &amp; The S. Sandwich Is" desc="South Georgia &amp; The S. Sandwich Is">South Georgia &amp; The S. Sandwich Is</item>
+		<item id="Spain" desc="Spain">Spain</item>
+		<item id="Sri Lanka" desc="Sri Lanka">Sri Lanka</item>
+		<item id="Suriname" desc="Suriname">Suriname</item>
+		<item id="Svalbard And Jan Mayen Is" desc="Svalbard And Jan Mayen Is">Svalbard And Jan Mayen Is</item>
+		<item id="Swaziland" desc="Swaziland">Swaziland</item>
+		<item id="Sweden" desc="Sweden">Sweden</item>
+		<item id="Switzerland" desc="Switzerland">Switzerland</item>
+		<item id="Syria" desc="Syria">Syria</item>
+		<item id="Tajikistan" desc="Tajikistan">Tajikistan</item>
+		<item id="Tanzania" desc="Tanzania">Tanzania</item>
+		<item id="Thailand" desc="Thailand">Thailand</item>
+		<item id="Timor-Leste" desc="Timor-Leste">Timor-Leste</item>
+		<item id="Togo" desc="Togo">Togo</item>
+		<item id="Tokelau" desc="Tokelau">Tokelau</item>
+		<item id="Tonga" desc="Tonga">Tonga</item>
+		<item id="Trinidad And Tobago" desc="Trinidad And Tobago">Trinidad And Tobago</item>
+		<item id="Tunisia" desc="Tunisia">Tunisia</item>
+		<item id="Turkey" desc="Turkey">Turkey</item>
+		<item id="Turks And Caicos Is" desc="Turks And Caicos Is">Turks And Caicos Is</item>
+		<item id="Turkmenistan" desc="Turkmenistan">Turkmenistan</item>
+		<item id="Tuvalu" desc="Tuvalu">Tuvalu</item>
+		<item id="Uganda" desc="Uganda">Uganda</item>
+		<item id="Ukraine" desc="Ukraine">Ukraine</item>
+		<item id="United Arab Emirates" desc="United Arab Emirates">United Arab Emirates</item>
+		<item id="United Kingdom" desc="United Kingdom">United Kingdom</item>
+		<item id="United States" desc="United States">United States</item>
+		<item id="United States Minor Outlying Is" desc="United States Minor Outlying Is">United States Minor Outlying Is</item>
+		<item id="Uruguay" desc="Uruguay">Uruguay</item>
+		<item id="Uzbekistan" desc="Uzbekistan">Uzbekistan</item>
+		<item id="Vanuatu" desc="Vanuatu">Vanuatu</item>
+		<item id="Vatican City State (Holy See)" desc="Vatican City State (Holy See)">Vatican City State (Holy See)</item>
+		<item id="Venezuela" desc="Venezuela">Venezuela</item>
+		<item id="Vietnam" desc="Vietnam">Vietnam</item>
+		<item id="Virgin Islands (British)" desc="Virgin Islands (British)">Virgin Islands (British)</item>
+		<item id="Virgin Islands (US)" desc="Virgin Islands (US)">Virgin Islands (US)</item>
+		<item id="Wallis And Futuna Islands" desc="Wallis And Futuna Islands">Wallis And Futuna Islands</item>
+		<item id="Western Sahara" desc="Western Sahara">Western Sahara</item>
+		<item id="Yemen" desc="Yemen">Yemen</item>
+		<item id="Zambia" desc="Zambia">Zambia</item>
+		<item id="Zimbabwe" desc="Zimbabwe">Zimbabwe</item>
+	</country>
+
+	<idtype>
+		<item id="Card" desc="ID card">Số Chứng minh thư nhân dân</item>
+		<item id="Passport" desc="Passport">Hộ chiếu</item>
+	</idtype>
+
+	<position>
+		<item id="CEO/General Director" desc="CEO/General Director">CEO/Tổng giám đốc</item>
+		<item id="CFO" desc="CFO">CFO</item>
+		<item id="Chief Accountant" desc="Chief Accountant">Kế toán trưởng</item>
+		<item id="Investment Director/Head of Investment" desc="Investment Director/Head of Investment">Giám đốc/Trưởng phòng Đầu tư</item>
+		<item id="Portfolio Manager" desc="Portfolio Manager">Portfolio Manager</item>
+	</position>
+
+	<estimatedag desc="Annual revenue at last fiscal year end">
+		<item id="A" desc="VND 100 million - 500 million">VND 100 Triệu - 500 Triệu</item>
+		<item id="B" desc="VND 500 million - 1 billion">VND 500 Triệu - 1 Tỷ</item>
+		<item id="C" desc="VND 1 billion - 2 billion">VND 1 Tỷ - 2 Tỷ</item>
+		<item id="D" desc="VND 2 billion - 3 billion">VND 2 Tỷ - 3 Tỷ</item>
+		<item id="E" desc="VND 3 billion - 4 billion">VND 3 Tỷ - 4 Tỷ</item>
+		<item id="F" desc="VND 4 billion - 5 billion">VND 4 Tỷ - 5 Tỷ</item>
+		<item id="G" desc="Above VND 5 billionn">Trên VND 5 Tỷ</item>
+	</estimatedag>
+
+	<industryOper desc="Industry sector company operates in">
+		<item id="01" desc="AGRICULTURE, FORESTRY AND FISHERIES">NÔNG NGHIỆP, LÂM NGHIỆP VÀ THUỶ SẢN </item>
+		<item id="0101" desc="Agriculture">Nông nghiệp</item>
+		<item id="010101" desc="Annual crops">Trồng cây hàng năm</item>
+		<item id="010102" desc="Growing of rubber tree">Trông cây cao su</item>
+		<item id="010103" desc="Growing of coffee tree">Trông cây cà phê</item>
+		<item id="010104" desc="Growing of pepper tree">Trông cây tiêu</item>
+		<item id="010105" desc="Growing of cashew nuts">Trồng cây điều</item>
+		<item id="010106" desc="Other perennial crops">Trồng cây lâu năm khác</item>
+		<item id="010107" desc="Breed">Chăn nuôi</item>
+		<item id="010108" desc="Planting, mixed feeding">Trồng trọt, chăn nuôi hỗn hợp</item>
+		<item id="010109" desc="Agricultural service activities">Hoạt động dịch vụ nông nghiệp</item>
+		<item id="0102" desc="Forestry">Lâm nghiệp</item>
+		<item id="010201" desc="Planting and tending">Trồng rừng và chăm sóc rừng</item>
+		<item id="010202" desc="Timber Harvesting">Khai thác gỗ</item>
+		<item id="010203" desc="Exploitation of forest products (excluding timber)">Khai thác lâm sản khác(trừ gỗ)</item>
+		<item id="010204" desc="Collecting forest products and non-timber forest products">Thu nhặt sản phẩm từ rừng không phải gỗ và lâm sản khác</item>
+		<item id="010205" desc="Activities other forestry services">Hoạt động dịch vụ lâm nghiệp khác</item>
+		<item id="0103" desc="Fisheries">Khai thác, nuôi trồng thủy sản</item>
+		<item id="010301" desc="Fishing">Khai thác thủy sản</item>
+		<item id="010302" desc="Aquaculture">Nuôi trồng thủy sản</item>
+		<item id="02" desc="MINING">KHAI KHOÁNG</item>
+		<item id="0201" desc="Mining of coal and lignite">Khai thác than cứng và than non</item>
+		<item id="0202" desc="Extraction of crude petroleum and natural gas">Khai thác dầu thô và khí đốt tự nhiên</item>
+		<item id="0203" desc="Mining of metal ores">Khai thác quặng kim loại</item>
+		<item id="0204" desc="Other mining (stone, sand, gravel, clay, salt, minerals, chemicals, mineral fertilizers, ...)">Khai khoáng khác (đá, cát, sỏi, đất sét, muối, khoáng hóa) </item>
+		<item id="0205" desc="Support services activites for mining ores">Hoạt động dịch vụ hỗ trợ khai thác mỏ và quặng</item>
+		<item id="03" desc="PRODUCTION, PROCESSING, FOOD, DRINK, TOBACCO, FEED">SẢN XUẤT, CHẾ BIẾN THỰC PHẨM, ĐỒ UỐNG, THUỐC LÁ, THỨC ĂN CHĂN NUÔI</item>
+		<item id="0301" desc="Seafood processing">Chế biến thủy sản</item>
+		<item id="030101" desc="Processed and canned seafood">Chế biến và đóng hộp thuỷ sản</item>
+		<item id="030102" desc="Processing and storage of frozen seafood, dried seafood">Chế biến và bảo quản thuỷ sản đông lạnh, thủy sản khô</item>
+		<item id="030103" desc="Processing and preserving of fish sauce">Chế biến và bảo quản nước mắm</item>
+		<item id="030104" desc="Processing and preservation of aquatic and other fishery products">Chế biến, bảo quản thuỷ sản và các sản phẩm từ thuỷ sản </item>
+		<item id="0302" desc="Production, processing food">Sản xuất chế biến thực phẩm</item>
+		<item id="030201" desc="Processing and preserving of meat and meat products">Chế biến, bảo quản thịt và các sản phẩm từ thịt</item>
+		<item id="030202" desc="Processing and preservation of fruits and vegetables">Sản xuất dầu, mỡ động, thực vật</item>
+		<item id="030203" desc="Manufacture of vegetable and animal oils and fats">Chế biến và bảo quản rau quả</item>
+		<item id="030204" desc="Processing of milk and milky products">Chế biến sữa và các sản phẩm từ sữa</item>
+		<item id="030205" desc="Milling and production flour">Xay xát và sản xuất bột </item>
+		<item id="030206" desc="Coffee processing">Chế biến cà phê</item>
+		<item id="030207" desc="Manufacture of other food products (sugar, cacao, wheat, bread jam, ...)">Sản xuất thực phẩm khác (đường, ca cao, mỳ, bánh mứt...)</item>
+		<item id="0303" desc="Production of animal , poultry and aquatic food">Sản xuất thức ăn gia súc, gia cầm và thuỷ sản</item>
+		<item id="0304" desc="Manufacture of beverages">Sản xuất đồ uống </item>
+		<item id="030401" desc="Production of wine, beer">Sản xuất rượu, bia</item>
+		<item id="030402" desc="Production of mineral waters, non-alcoholic beverages">Sản xuất nước khoáng, đồ uống không cồn</item>
+		<item id="0305" desc="Manufacture of tobacco products">Sản xuất sản phẩm thuốc lá</item>
+		<item id="04" desc="Textile, leather, paper">DỆT MAY, DA, GIẦY</item>
+		<item id="0401" desc="Textile">Dệt may</item>
+		<item id="040101" desc="Production of fabric, yarn, carpets, blankets, and other textile products">Sản xuất vải, sợi, thảm, chăn đệm, hàng dệt khác</item>
+		<item id="040102" desc="Manufacture of wearing apparel">Sản xuất trang phục</item>
+		<item id="0402" desc="Leather, footwear">Da, giầy</item>
+		<item id="040201" desc="Tanning and dressing of leather, manufacture of leather products (suitcases, bags, ...)">Thuộc, sơ chế da, sản xuất các sản phẩm từ da (va li, túi xách...) </item>
+		<item id="040202" desc="Manufacture of footwear">Sản xuất giầy dép</item>
+		<item id="05" desc="PROCESSING OF WOOD AND WOOD PRODUCTS">CHẾ BIẾN GỖ VÀ CÁC SẢN PHẨM TỪ GỖ</item>
+		<item id="0501" desc="Wood processing">Chế biến gỗ </item>
+		<item id="0502" desc="Producing products from wood, bamboo (except bed, cabinet, table, chairs); production of straw and plaiting materials">Sản xuất sản phẩm từ gỗ, tre, nứa (trừ giường, tủ, bàn, ghế); sản xuất sản phẩm từ rơm, rạ và vật liệu tết bện</item>
+		<item id="050201" desc="Production of plywood, veneer, plywood and other veneer">Sản xuất gỗ dán, gỗ lạng, ván ép và ván mỏng khác</item>
+		<item id="050202" desc="Manufacturing building furniture">Sản xuất đồ gỗ xây dựng</item>
+		<item id="050203" desc="Production of wooden packaging">Sản xuất bao bì bằng gỗ</item>
+		<item id="050204" desc="Production of forest products (excluding timber), sedge and plaiting materials">Sản xuất sản phẩm từ lâm sản (trừ gỗ), cói và vật liệu tết bện</item>
+		<item id="050205" desc="Manufacture of other products of wood">Sản xuất sản phẩm khác từ gỗ</item>
+		<item id="06" desc="PRODUCTION OF PAPER AND PAPER PRODUCTS, PRINTING">SẢN XUẤT GIẤY VÀ CÁC SẢN PHẨM TỪ GIẤY, IN ẤN</item>
+		<item id="0601" desc="Manufacture of paper and paper products">Sản xuất giấy và sản phẩm từ giấy</item>
+		<item id="060101" desc="Production of pulp, paper and paperboard">Sản xuất bột giấy, giấy và bìa</item>
+		<item id="060102" desc="Manufacture of paper wrinkled, wrinkled cardboard, paper packaging and cardboard">Sản xuất giấy nhăn, bìa nhăn, bao bì từ giấy và bìa</item>
+		<item id="060103" desc="Production of paper and other paperboard products">Sản xuất các sản phẩm từ giấy và bìa khác</item>
+		<item id="0602" desc="Printing and reproduction of recorded media">In, sao chép bản ghi các loại</item>
+		<item id="060201" desc="Printing and print-related services">In ấn và dịch vụ liên quan đến in</item>
+		<item id="060202" desc="Copy of recorded">Sao chép bản ghi các loại</item>
+		<item id="07" desc="Manufacture of coke, refined petroleum PRODUCTS">SẢN XUẤT THAN CỐC, SẢN PHẨM DẦU MỎ TINH CHẾ</item>
+		<item id="0701" desc="Production of coke">Sản xuất than cốc</item>
+		<item id="0702" desc="Manufacture of refined petroleum products">Sản xuất sản phẩm dầu mỏ tinh chế</item>
+		<item id="08" desc="Manufacture of chemicals, chemical products, products made of rubber and plastics">SẢN XUẤT HÓA CHẤT, SẢN PHẨM HÓA CHẤT, SẢN PHẨM TỪ CAO SU VÀ PLASTIC</item>
+		<item id="0801" desc="Manufacture of chemicals and chemical products">Sản xuất hóa chất và các sản phẩm hóa chất</item>
+		<item id="080101" desc="Manufacture of basic chemicals">Sản xuất hoá chất cơ bản</item>
+		<item id="080102" desc="Manufacture of fertilizers and nitrogen compounds">Sản xuất phân bón và hợp chất ni tơ</item>
+		<item id="080103" desc="Manufacture of plastics and synthetic rubber in primary forms">Sản xuất plastic và cao su tổng hợp dạng nguyên sinh</item>
+		<item id="080104" desc="Manufacture of pesticides and other chemical products used in agriculture">Sản xuất thuốc trừ sâu và sản phẩm hoá chất khác dùng trong nông nghiệp</item>
+		<item id="080105" desc="Manufacture of paints, varnishes and coatings similar; manufacturing ink and mastics">Sản xuất sơn, véc ni và các chất sơn, quét tương tự; sản xuất mực in và ma tít</item>
+		<item id="080106" desc="Production of man-made fibers">Sản xuất sợi nhân tạo</item>
+		<item id="0802" desc="Manufacture of cosmetic, soap, detergents, perfumes and toilet preparations">Sản xuất hóa mỹ phầm, xà phòng, chất tẩy rửa, làm bóng và chế phẩm vệ sinh</item>
+		<item id="0803" desc="Manufacture products from rubber and plastic">Sản xuất sản phẩm từ cao su và plastic</item>
+		<item id="080301" desc="Manufacture of rubber products">Sản xuất sản phẩm từ cao su</item>
+		<item id="080302" desc="Manufacture of plastic products">Sản xuất sản phẩm từ plastic</item>
+		<item id="0804" desc="Manufacture of other chemical products n.e.c">Sản xuất sản phẩm hoá chất khác chưa được phân vào đâu </item>
+		<item id="09" desc="MANUFACTURING, PHARMACEUTICAL PRODUCTS, PHARMACEUTICAL MEDICAL EQUIPMENT AND MATERIALS">SẢN XUẤT THUỐC, HÓA DƯỢC, DƯỢC LIỆU VÀ THIẾT BỊ Y TẾ</item>
+		<item id="0901" desc="Production of all kinds of drug">Sản xuất thuốc các loại</item>
+		<item id="0902" desc="Manufacture of pharmaceutical and medicinal">Sản xuất thuốc các loại</item>
+		<item id="0903" desc="Production equipment, medical instruments, dental, orthopedic and rehabilitation">Sản xuất thiết bị, dụng cụ y tế, nha khoa, chỉnh hình và phục hồi chức năng</item>
+		<item id="10" desc="Manufacture of other non-metallic mineral products ">SẢN XUẤT SẢN PHẨM TỪ KHOÁNG PHI KIM LOẠI </item>
+		<item id="1001" desc="Manufacture of glass and glass products ">Sản xuất thuỷ tinh và sản phẩm từ thuỷ tinh </item>
+		<item id="1002" desc="Production of construction materials (except steel, paint, putty, and similar materials)">Sản xuất VLXD (trừ thép, sơn, ma tít và các chất tương tự)</item>
+		<item id="100201" desc="Manufacture of refractory products">Sản xuất sản phẩm chịu lửa</item>
+		<item id="100202" desc="Manufacture of clay building materials ">Sản xuất vật liệu xây dựng từ đất sét </item>
+		<item id="100203" desc="Manufacture of other ceramic products">Sản xuất sản phẩm gốm sứ khác</item>
+		<item id="100204" desc="Production of cement, lime and plaster">Sản xuất xi măng, vôi và thạch cao</item>
+		<item id="100205" desc="Production of concrete, cement and gypsum products">Sản xuất bê tông và các sản phẩm từ xi măng và thạch cao</item>
+		<item id="100206" desc="Cutting, shaping and finishing of stone">Cắt tạo dáng và hoàn thiện đá</item>
+		<item id="100207" desc="Manufacture of other non-metallic mineral products n.e.c">Sản xuất sản phẩm từ chất khoáng phi kim loại khác chưa được phân vào đâu</item>
+		<item id="11" desc="METAL MANUFACTURING">SẢN XUẤT KIM LOẠI</item>
+		<item id="1101" desc="Manufacture of basic iron and steel ">Sản xuất sắt, thép gang </item>
+		<item id="110101" desc="Manufacture of steel">Sản xuất thép thành phẩm</item>
+		<item id="110102" desc="Manufacture of steel billet">Sản xuất phôi thép</item>
+		<item id="1102" desc="Production of non-ferrous and precious metals">Sản xuất kim loại màu và kim loại quýs</item>
+		<item id="12" desc="MANUFACTURING, REPAIR, MAINTENANCE ENGINEERING PRODUCTS, MACHINERY">SẢN XUẤT, SỬA CHỮA, BẢO DƯỠNG SẢN PHẨM CƠ KHÍ, MÁY MÓC THIẾT BỊ</item>
+		<item id="1201" desc="Manufacture of fabricated metal products (except machinery and equipment)">Sản xuất sản phẩm từ kim loại đúc sẵn (trừ máy móc, thiết bị)</item>
+		<item id="120101" desc="Manufacture of metal structures, tanks, reservoirs and steam generators">Sản xuất các cấu kiện kim loại, thùng, bể chứa và nồi hơi</item>
+		<item id="120102" desc="Manufacture of other metal products; processing services, metal processing">Sản xuất sản phẩm khác bằng kim loại; các dịch vụ xử lý, gia công kim loại</item>
+		<item id="1202" desc="Manufacture of motor vehicles">Sản xuất xe có động cơ</item>
+		<item id="120201" desc="Automobile production">Sản xuất ô tô các loại</item>
+		<item id="120202" desc="Motorcycle Manufacture">Sản xuất xe máy</item>
+		<item id="120203" desc="Manufacture of other motor vehicles">Sản xuất xe có động cơ khác</item>
+		<item id="120204" desc="Production of motor vehicle body, trailers and semi-trailers">PSản xuất thân xe có động cơ, rơ moóc và bán rơ moóc</item>
+		<item id="120205" desc="Production of spare parts and accessories for motor vehicles and motor vehicle">Sản xuất phụ tùng và bộ phận phụ trợ cho xe có động cơ và động cơ xe</item>
+		<item id="1203" desc="Manufacture of other transport">Sản xuất phương tiện vận tải khác</item>
+		<item id="120301" desc="Shipbuilding and ship">Đóng tàu và thuyền</item>
+		<item id="120302" desc="Production of locomotives, trams and cars">Sản xuất đầu máy xe lửa, xe điện và toa xe</item>
+		<item id="120303" desc="Production aircraft, spacecraft and related machinery">Sản xuất máy bay, tàu vũ trụ và máy móc liên quan</item>
+		<item id="120304" desc="Production of vehicles and transport equipment n.e.c">Sản xuất phương tiện và thiết bị vận tải chưa được phân vào đâu</item>
+		<item id="1204" desc="Defense equipment">Thiết bị quốc phòng</item>
+		<item id="120401" desc="Manufacture of weapons and ammunition">Sản xuất vũ khí và đạn dược</item>
+		<item id="120402" desc="Manufacture of military fighting vehicles ">Sản xuất xe cơ giới chiến đấu dùng trong quân đội </item>
+		<item id="120403" desc="Manufacture of machinery and other equipment used in defense">Sản xuất máy móc, thiết bị khác dùng trong quốc phòng</item>
+		<item id="1205" desc="Machinery, common and other specialized common equipment">Máy móc, thiết bị thông dụng và chuyên dụng</item>
+		<item id="120501" desc="Production of mining machines and construction">Sản xuất máy khai thác mỏ và xây dựng</item>
+		<item id="120502" desc="Machinery, common and other specialized common equipment">Máy móc, thiết bị thông dụng và chuyên dụng khác</item>
+		<item id="1206" desc="Repair, maintenance and installation of machinery and equipment">Sửa chữa, bảo dưỡng và lắp đặt máy móc và thiết bị</item>
+		<item id="13" desc="MANUFACTURING CONSUMER GOODS">SẢN XUẤT HÀNG TIÊU DÙNG</item>
+		<item id="1301" desc="Production of beds, wardrobes, tables, chairs">Sản xuất giường, tủ, bàn, ghế</item>
+		<item id="130101" desc="Production of wooden beds, wardrobes, tables, chairs">Sản xuất giường, tủ, bàn, ghế bằng gỗ</item>
+		<item id="130102" desc="Production of beds, wardrobes, tables, chairs in different materials">Sản xuất giường, tủ, bàn, ghế bằng vật liệu khác</item>
+		<item id="1302" desc="Entertainment Production">Sản xuất hàng giải trí</item>
+		<item id="130201" desc="Manufacture of musical instruments ">Sản xuất nhạc cụ  </item>
+		<item id="130202" desc="Manufacture of sports goods ">Sản xuất dụng cụ thể dục, thể thao </item>
+		<item id="130203" desc="Manufacturing toys, games">Sản xuất đồ chơi, trò chơi</item>
+		<item id="1303" desc="Manufacture of consumer electronics products">Sản xuất sản phẩm điện tử dân dụng</item>
+		<item id="1304" desc="Production of consumer goods">Sản xuất hàng tiêu dùng khác</item>
+		<item id="130401" desc="Manufacture of jewellery, bijouterie and related articles">Sản xuất đồ kim hoàn, đồ giả kim hoàn và các chi tiết liên quan</item>
+		<item id="130402" desc="Production of household appliances, other consumer goods n.e.c">Sản xuất đồ dùng gia đình, hàng tiêu dùng khác chưa được phân </item>
+		<item id="14" desc="PRODUCTION ELECTRONIC EQUIPMENT AND OPTICAL PRODUCTS">SẢN XUẤT THIẾT BỊ ĐIỆN, ĐIỆN TỬ VÀ SẢN PHẨM QUANG HỌC</item>
+		<item id="1401" desc="Manufacture of computer, electronic, optical product">Sản xuất sản phẩm điện tử và sản phẩm quang học</item>
+		<item id="140101" desc="Manufacture of electronic components ">Sản xuất linh kiện điện tử </item>
+		<item id="140102" desc="Manufature of measuring, testing, navigating and control equipment, watches and clocks">Sản xuất thiết bị đo lường, kiểm tra, định hướng và điều khiển; sản xuất đồng hồ</item>
+		<item id="140103" desc="Manufacture of optical instruments and equipment">Sản xuất thiết bị và dụng cụ quang học</item>
+		<item id="140104" desc="Manufacture of tape, magnetic and optical disks">Sản xuất băng, đĩa từ tính và quang học</item>
+		<item id="1402" desc="Manufacture of electrical equipment">Sản xuất thiết bị điện</item>
+		<item id="140201" desc="Manufacture of electric motor, generators, transformers and electricity distribution and control apparatus">Sản xuất mô tơ, máy phát, biến thế điện, thiết bị phân phối và điều khiển điện</item>
+		<item id="140202" desc="Manufacture of batteries and accumulators">Sản xuất pin và ắc quy</item>
+		<item id="140203" desc="Manufacture of wiring and wiring devices">Sản xuất dây và thiết bị dây dẫn </item>
+		<item id="140204" desc="Manufacture of electric lighting equipment ">Sản xuất thiết bị điện chiếu sáng </item>
+		<item id="140205" desc="Manufacture of domestic electric appliances">Sản xuất đồ điện dân dụng</item>
+		<item id="140206" desc="Manufacture of other electrical equipment">Sản xuất thiết bị điện khác</item>
+		<item id="15" desc="Manufacture of electronic and telecommunications eqipments and supplies">SẢN XUẤT THIẾT BỊ CÔNG NGHỆ THÔNG TIN, VIỄN THÔNG</item>
+		<item id="1501" desc="Manufacture of computer equipment, telecommunications, information technology">Sản xuất thiết bị tin học, viễn thông, công nghệ thông tin</item>
+		<item id="150101" desc="Manufacture of computers and peripheral equipment ">Sản xuất máy vi tính và thiết bị ngoại vi của máy vi tính </item>
+		<item id="150102" desc="Manufacture of communication equipment">Sản xuất thiết bị truyền thông, liên lạc</item>
+		<item id="1502" desc="Manufacture of office machinery and equipment except computers and peripheral equipment ">Sản xuất máy móc và thiết bị văn phòng (trừ máy vi tính và thiết bị ngoại vi của máy vi tính) </item>
+		<item id="16" desc="Manufacture of electricity, gas, steam and air condition supply ">SẢN XUẤT VÀ PHÂN PHỐI ĐIỆN, KHÍ ĐỐT, NƯỚC NÓNG, HƠI NƯỚC VÀ ĐIỀU HOÀ KHÔNG KHÍ </item>
+		<item id="1601" desc="Manufacture of electric power generation, transmission and distribution">Sản xuất, truyền tải và phân phối điện</item>
+		<item id="160101" desc="Manufacture of Electric power generation ">Sản xuất điện </item>
+		<item id="160102" desc="Electric power transmission and distribution">Truyền tải và phân phối điện</item>
+		<item id="1602" desc="Manufacture of gas: distribution of gaseous fuel through mains ">Sản xuất khí đốt, phân phối nhiên liệu khí bằng đường ống </item>
+		<item id="1603" desc="Manufacture of steam and air condition supply; production of ice">Sản xuất, phân phối hơi nước, nước nóng, điều hoà không khí và sản xuất nước đá</item>
+		<item id="160301" desc="Manufacture and distribution of steam and air condition supply ">Sản xuất, phân phối hơi nước, nước nóng và điều hoà không khí </item>
+		<item id="160302" desc="Manufacture of ice">Sản xuất nước đá</item>
+		<item id="17" desc="Water Supply; Sewerage, Waste Management and Remediation Activities ">CUNG CẤP NƯỚC; HOẠT ĐỘNG QUẢN LÝ VÀ XỬ LÝ RÁC THẢI, NƯỚC THẢI </item>
+		<item id="1701" desc="Water supply, sewerage, and waste management ">Cấp, thoát nước và xử lý nước thải </item>
+		<item id="170101" desc="Water collection, treatment and supply">Khai thác, xử lý và cung cấp nước</item>
+		<item id="170102" desc="Sewerage">Thoát nước </item>
+		<item id="170103" desc="Waste Treament">Xử lý nước thải</item>
+		<item id="1702" desc="Waste collection, treament and disposal activities, materials recovery">Hoạt động thu gom, xử lý và tiêu huỷ rác thải; tái chế phế liệu</item>
+		<item id="170201" desc="Waste collection">Thu gom rác thải</item>
+		<item id="170202" desc="Waste treament and disposal">Xử lý và tiêu huỷ rác thải</item>
+		<item id="170203" desc="Material recovery ">Tái chế phế liệu </item>
+		<item id="170204" desc="Remediation activities and other waste management services ">Xử lý ô nhiễm và hoạt động quản lý chất thải khác </item>
+		<item id="18" desc="Construction ">XÂY DỰNG </item>
+		<item id="1801" desc="Constructions of buildings ">Xây dựng nhà các loại </item>
+		<item id="1802" desc="Construction of civil engineering projects">Xây dựng công trình kỹ thuật dân dụng</item>
+		<item id="180201" desc="Construction of roads and railways">Xây dựng công trình đường sắt và đường bộ</item>
+		<item id="180202" desc="Construction of utility projects">Xây dựng công trình công ích</item>
+		<item id="180203" desc="Construction of other civil engineering projects">Xây dựng công trình kỹ thuật dân dụng khác</item>
+		<item id="1803" desc="Specialized construction activities ">Hoạt động xây dựng chuyên dụng </item>
+		<item id="180301" desc="Demolition and site preparation">Phá dỡ và chuẩn bị mặt bằng</item>
+		<item id="180302" desc="Electrical, plumbing and other construction installation activities">Lắp đặt hệ thống điện, hệ thống cấp thoát nước và lắp đặt xây dựng khác</item>
+		<item id="180303" desc="Building completion and finishing ">Hoàn thiện công trình xây dựng </item>
+		<item id="180304" desc="Other specialized construction activities">Hoạt động xây dựng chuyên dụng khác</item>
+		<item id="19" desc="LIGHT INDUSTRIAL GOODS TRADING AND CONSUMPTION">THƯƠNG MẠI HÀNG CÔNG NGHIỆP NHẸ VÀ TIÊU DÙNG</item>
+		<item id="1901" desc="Wholesale of agricultural, forestrial materials and animals">Bán buôn hàng nông, lâm sản và động vật</item>
+		<item id="190101" desc="Wholesale of feeds and feed materials for animals, poultry and aquatic">Bán buôn thức ăn và nguyên liệu làm thức ăn cho gia súc, gia cầm và thuỷ sản</item>
+		<item id="190102" desc="Wholesale of rice ">Bán buôn gạo </item>
+		<item id="190103" desc="Wholesale of coffee">Bán buôn cà phê</item>
+		<item id="190104" desc="Wholesale of pepper, cashew nuts">Bán buôn tiêu, điều</item>
+		<item id="190105" desc="Wholesale of agricultural, forestry and other live animals">Bán buôn hàng nông, lâm sản và động vật sống khác</item>
+		<item id="1902" desc="Wholesale of food, beverages and tobacco">Bán buôn thực phẩm, đồ uống và thuốc lá</item>
+		<item id="190201" desc="Wholesale of fish, crustaceans and molluscs">Bán buôn thủy sản</item>
+		<item id="190202" desc="Wholesale of food, beverages and tobacco">Wholesale of food, beverages and tobacco</item>
+		<item id="1903" desc="Wholesale of consumer goods">Bán buôn hàng tiêu dùng</item>
+		<item id="190301" desc="Wholesale of textiles, clothing, footwear ">Bán buôn vải, hàng may sẵn, giày dép </item>
+		<item id="190302" desc="Wholesale of furniture and home furnishings ">Bán buôn giường tủ bàn ghế và đồ dùng nội thất tương tự </item>
+		<item id="190303" desc="Wholesale of cosmetic ">Bán buôn hàng mỹ phẫm và hóa mỹ phẩm </item>
+		<item id="190304" desc="Wholesale of electric lightning equipment, domestic appliances">Bán buôn đồ điện tử dân dụng, điện gia dụng, đèn và bộ đèn điện</item>
+		<item id="190305" desc="Wholesale of other household goods n.e.c">Bán buôn đồ dùng gia đình khác</item>
+		<item id="1904" desc="Wholesale of gold, silver and other precious metals">Bán buôn vàng, bạc, kim loại quý khác</item>
+		<item id="1905" desc="Wholesale of light industrual goods and consumption goods ">Bán buôn hàng công nghiệp nhẹ và hàng tiêu dùng khác </item>
+		<item id="190501" desc="Activities of agents, brokers, auction ">Đại lý, môi giới, đấu giá </item>
+		<item id="190502" desc="Wholesale of light industrual goods and consumption goods ">Bán buôn hàng công nghiệp nhẹ và hàng tiêu dùng khác </item>
+		<item id="1906" desc="Retail trade, except of motor vehicles and  motorcycles">Bán lẻ hàng công nghiệp nhẹ và hàng tiêu dùng (trừ ô tô, xe máy và các xe có động cơ khác)</item>
+		<item id="190601" desc="Retail sale in non-specialized stores">Bán lẻ trong các cửa hàng kinh doanh tổng hợp</item>
+		<item id="190602" desc="Retail sale in non-specialized stores with food, beverages or tobacco predominating ">Bán lẻ lương thực, thực phẩm, đồ uống hoặc thuốc lá, thuốc lào trong các cửa hàng chuyên doanh  </item>
+		<item id="190603" desc="Retail sale of gold, silver and other precious stones, jewelry in specialized stores">Bán lẻ vàng, bạc, đá quí và đá bán quí, đồ trang sức trong các cửa hàng chuyên doanh</item>
+		<item id="190604" desc="Retail sale of other consumption goods ">Bán lẻ hàng tiêu dùng khác </item>
+		<item id="190605" desc="Retail sale via stalls and markets">Bán lẻ lưu động hoặc bán tại chợ và bán lẻ bằng các hình thức khác</item>
+		<item id="20" desc="WHOLESALE AND RETAIL TRADE, REPAIR OF CARS, MOTOR VEHICLES AND MOTORCYCLES">KINH DOANH, SỬA CHỮA Ô TÔ, MÔ TÔ, XE MÁY VÀ XE CÓ ĐỘNG CƠ KHÁC</item>
+		<item id="2001" desc="Wholesale of car (under 12 seats)">Kinh doanh ô tô (ô tô con dưới 12 chỗ)</item>
+		<item id="2002" desc="Wholesale of other motor vehicles">Kinh doanh xe có động cơ khác</item>
+		<item id="2003" desc="Sales of motor vehicles">Kinh doanh mô tô, xe máy</item>
+		<item id="2004" desc="Sale, maintenance and repair of motorcycles and related parts and accessories ">Bán phụ tùng và bảo dưỡng, sửa chữa ô tô, xe có động cơ, mô tô, xe máy </item>
+		<item id="21" desc="FERTILIZERS, CHEMICALS, RUBBER, PHARMACEUTICALS AND MEDICAL EQUIPMENT TRADING ">THƯƠNG MẠI PHÂN BÓN, HÓA CHẤT, CAO SU, DƯỢC PHẨM, THIẾT BỊ Y TẾ </item>
+		<item id="2101" desc="Sales of chemicals and chemical products">Kinh doanh hóa chất và các sản phẩm hóa chất</item>
+		<item id="210101" desc="Wholesale of pesticides, fertilizers and agricultural chemicals">Kinh doanh phân bón và thuốc trừ sâu và hóa chất khác sử dụng trong nông nghiệp</item>
+		<item id="210102" desc="Wholesale of rubber">Kinh doanh cao su</item>
+		<item id="210103" desc="Wholesale of plastics in primary forms (including plastic beads)">Kinh doanh chất dẻo dạng nguyên sinh (gồm hạt nhựa)</item>
+		<item id="210104" desc="Wholesale of other chemicals, except agricultural chemicals">Kinh doanh hóa chất và sản phẩm hóa chất khác (trừ loại sử dụng trong nông nghiệp)</item>
+		<item id="2102" desc="Wholesale of pharmaceuticals and medical equipments ">Kinh doanh thuốc, hóa dược, dược liệu, thiết bị y tế </item>
+		<item id="210201" desc="Wholesale of pharmaceutical, medical chemical and botanical products ">Kinh doanh thuốc, hóa dược, dược liệu </item>
+		<item id="210202" desc="Wholesale of medical equipments">Kinh doanh thiết bị y tế</item>
+		<item id="22" desc=" INDUSTRIAL PRODUCTS TRADING"> THƯƠNG MẠI HÀNG CÔNG NGHIỆP </item>
+		<item id="2201" desc="Computer, telecommunications, information technology ">Thiết bị tin học, viễn thông, công nghệ thông tin </item>
+		<item id="220101" desc="Wholesale of computer and peripheral devides">Máy vi tính và thiết bị ngoại vi của máy vi tính</item>
+		<item id="220102" desc="Wholesale of electronic and telecommunications equipment and supplies ">Thiết bị truyền thông, liên lạc </item>
+		<item id="220103" desc="Wholesale of office machinery and equipment(except computers and peripheral equipment)">Máy móc và thiết bị văn phòng (trừ máy vi tính và thiết bị ngoại vi của máy vi tính)</item>
+		<item id="2202" desc="Electronic and optical products">Thiết bị điện, điện tử và quang học</item>
+		<item id="2203" desc="Other machinery and equipments">Máy móc, thiết bị khác</item>
+		<item id="220301" desc="Wholesale of machinery and equipment for mining, quarrying and construction">Máy móc, thiết bị khai thác mỏ và xây dựng</item>
+		<item id="220302" desc="Machinery and equipment for defense">Máy móc, thiết bị dùng cho quốc phòng</item>
+		<item id="220303" desc="Wholesale of other machinery and equipment n.e.c">Máy móc, thiết bị khác</item>
+		<item id="23" desc="FUEL TRADE AND RELATED PRODUCTS">HƯƠNG MẠI NHIÊN LIỆU VÀ SẢN PHẨM CÓ LIÊN QUAN</item>
+		<item id="2301" desc="Trading of coal and other solid fuels">Kinh doanh than đá và nhiên liệu rắn khác</item>
+		<item id="2302" desc="Trading of petrol, oil, gas">Kinh doanh xăng, dầu, khí đốt</item>
+		<item id="2303" desc="Wholesale of solid, liquid and gaseous fuels and related products">Kinh doanh sản phẩm liên quan đến xăng, dầu, khí đốt</item>
+		<item id="24" desc="WHOLESALE OF METALS AND METAL ORES">KIM LOẠI VÀ QUẶNG KIM LOẠI</item>
+		<item id="2401" desc="Wholesale of petroleum, oil and gasoues fuel">Kinh doanh sản phẩm liên quan đến xăng, dầu, khí đốt</item>
+		<item id="2402" desc="Wholesale of metal ores ">Kinh doanh quặng kim loại </item>
+		<item id="240201" desc="Wholesale of iron, steel ">Kinh doanh sắt, thép </item>
+		<item id="240202" desc="Wholesale of other metals">Kinh doanh kim loại khác</item>
+		<item id="25" desc="WHOLESALE OF CONSTRUCTION MATERIALS">THƯƠNG MẠI VẬT LIỆU XÂY DỰNG TỔNG HỢP</item>
+		<item id="2501" desc="Wholesle of construction materials,">Kinh doanh vật liệu xây dựng,</item>
+		<item id="2502" desc="Wholesale of construction glass, paints, cement, bricks, sand, stones, wallpaper, floor covering, sanity equipments. ">Kinh doanh đồ ngũ kim, sơn, kính và thiết bị lắp đặt khác trong xây dựng. </item>
+		<item id="26" desc="TRANSPORTATION AND STORAGE ">VẬN TẢI KHO BÃI </item>
+		<item id="2601" desc="Land transport, transport via railways, via pipeline ">Vận tải đường sắt, đường bộ và vận tải đường ống </item>
+		<item id="260101" desc="Transport via railways">Vận tải đường sắt</item>
+		<item id="260102" desc="Transport via bus">Vận tải bằng xe buýt</item>
+		<item id="260103" desc="Other land transport">Vận tải đường bộ khác</item>
+		<item id="260104" desc="Transport via pipeline ">Vận tải đường ống </item>
+		<item id="2602" desc="Water transport ">Vận tải đường thủy </item>
+		<item id="260201" desc="Sea and coastal water transport ">Vận tải ven biển và viễn dương </item>
+		<item id="260202" desc="Inland water transport ">Vận tải đường thuỷ nội địa  </item>
+		<item id="2603" desc="Air transport">Vận tải hàng không</item>
+		<item id="2604" desc="Warehousing and support activities for transportation">Kho bãi và các hoạt động hỗ trợ cho vận tải</item>
+		<item id="260401" desc="Warehousing and storage">Kho bãi và lưu giữ hàng hóa</item>
+		<item id="260402" desc="Support activities for transportation">Hoạt động dịch vụ hỗ trợ cho vận tải</item>
+		<item id="2605" desc="Postal and courier activities">Bưu chính và chuyển phát</item>
+		<item id="27" desc="ACCOMMODATION AND FOOD SERVICE ACTIVITIES">DỊCH VỤ LƯU TRÚ VÀ ĂN UỐNG, NGHỆ THUẬT, VUI CHƠI GIẢI TRÍ, DU LỊCH</item>
+		<item id="2701" desc="Accommodation"> Dịch vụ lưu trú</item>
+		<item id="270101" desc="Short-term accommodation activities">Kinh doanh dịch vụ lưu trú ngắn ngày</item>
+		<item id="270102" desc="Hotels ">Kinh doanh nhà nghỉ </item>
+		<item id="270103" desc="Other accommodation ">Kinh doanh dịch vụ lưu trú khác </item>
+		<item id="2702" desc="Restaurants ">Dịch vụ ăn uống </item>
+		<item id="270201" desc="Event catering and other food service activities">Nhà hàng và các dịch vụ ăn uống phục vụ lưu động</item>
+		<item id="270202" desc="0 Irregular event catering activities such as wedding, workshops… ">Cung cấp dịch vụ ăn uống theo hợp đồng không thường xuyên (phục vụ tiệc, hội nghị, cưới hỏi,…) và dịch vụ ăn uống khác</item>
+		<item id="270203" desc="Beverage serving activities and Other beverage serving activities ">Dịch vụ phục vụ đồ uống (quán rượu, bia, quầy bar) và các dịch vụ phục vụ đồ uống khác </item>
+		<item id="2703" desc="ARTS, ENTERTAINMENT AND RECREATION ACTIVITIES">Hoạt động sáng tác, nghệ thuật và giải trí </item>
+		<item id="2704" desc="Libraries, archives, museums and other cultural activities">Hoạt động của thư viện, lưu trữ, bảo tàng và các hoạt động văn hoá khác</item>
+		<item id="2705" desc="Lottery activities, Gambling and betting activities ">Hoạt động xổ số, cá cược và đánh bạc </item>
+		<item id="2706" desc="Sports activities and amusement and recreation activities">Hoạt động thể thao, vui chơi và giải trí</item>
+		<item id="270601" desc="Clubing, Karaoke">Hoạt động sàn nhảy, karaoke</item>
+		<item id="270602" desc="Sport and entertainment activities">Hoạt động thể thao, vui chơi và giải trí khác</item>
+		<item id="2707" desc="Travel agency, tour operator and other reservation service activities">Hoạt động du lịch và dịch vụ có liên quan</item>
+		<item id="28" desc="MEDIA">TRUYỀN THÔNG</item>
+		<item id="2801" desc="Publishing activities ">Hoạt động xuất bản </item>
+		<item id="2802" desc="Motion picture, video and television programme activities; Sound recording and music publishing activities">Hoạt động điện ảnh, sản xuất chương trình truyền hình, ghi âm và xuất bản âm nhạc</item>
+		<item id="2803" desc="Motion picture, video and television programme distribution activities">Hoạt động phát thanh, truyền hình</item>
+		<item id="2804" desc="Advertising, PR, Event management and market research ">Hoạt động quảng cáo, PR, tổ chức sự kiện, marketing </item>
+		<item id="29" desc="INFORMATION TECHNOLOGY, TELECOMMUNICATIONS AND COMMUNICATIONS">CÔNG NGHỆ THÔNG TIN, VIỄN THÔNG VÀ THÔNG TIN LIÊN LẠC</item>
+		<item id="2901" desc="Software publishing ">Sản xuất phần mềm và các giải pháp công nghệ thông tin </item>
+		<item id="2902" desc="Telecommunication">Viễn thông</item>
+		<item id="2903" desc="Telecommunication Services">Hoạt động dịch vụ thông tin</item>
+		<item id="30" desc="PROFESSIONAL, SCIENTIFIC, TECHNICAL, HEALTHCARE, EDUCATION AND TRAINING, ADMINISTRATION AND SUPPORT">CHUYÊN MÔN, KHOA HỌC CÔNG NGHỆ, Y TẾ VÀ  GIÁO DỤC ĐÀO TẠO, HÀNH CHÍNH VÀ HỖ TRỢ</item>
+		<item id="3001" desc="PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES">Hoạt động chuyên môn, khoa học và công nghệ</item>
+		<item id="300101" desc="Legal, accounting and auditting activities">Hoạt động pháp luật, kế toán và kiểm toán</item>
+		<item id="300102" desc="Activities of head office; management consultancy activities ">Hoạt động của  trụ sở văn phòng; hoạt động tư vấn quản lý </item>
+		<item id="300103" desc="Architectural and engineering activities; Technical testing and analysis ">Hoạt động kiến trúc; kiểm tra và phân tích kỹ thuật </item>
+		<item id="300104" desc="Scientific research and development">Nghiên cứu khoa học và phát triển</item>
+		<item id="300105" desc="Market research and public opinion polling">Nghiên cứu thị trường</item>
+		<item id="300106" desc="Other professional, scientific, and technical acitivities">Hoạt động chuyên môn, khoa học và công nghệ khác</item>
+		<item id="300107" desc="Veterinary activities">Hoạt động thú y</item>
+		<item id="3002" desc="ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES">HOẠT ĐỘNG HÀNH CHÍNH VÀ DỊCH VỤ HỖ TRỢ</item>
+		<item id="300201" desc="Renting and leasing of machinery and equipment (without operator); of personal and household goods; of no financial intangible assets.">Cho thuê máy móc, thiết bị (không kèm người điều khiển); cho thuê đồ dùng cá nhân và gia đình; cho thuê tài sản vô hình phi tài chính.</item>
+		<item id="300202" desc="Employment activities">Hoạt động dịch vụ lao động và việc làm</item>
+		<item id="300203" desc="Cleaning, landscape care and maintenance service activities">Hoạt động dịch vụ vệ sinh nhà cửa, công trình và cảnh quan</item>
+		<item id="300204" desc="Office administrative and support activities">Hoạt động hành chính và hỗ trợ văn phòng</item>
+		<item id="300205" desc="Activities of call centres">Hoạt động dịch vụ liên quan đến các cuộc gọi</item>
+		<item id="300206" desc="Organization of conventions and trade shows ">Tổ chức giới thiệu và xúc tiến thương mại </item>
+		<item id="300207" desc="Other business suport service activities n.e.c">Hoạt động dịch vụ hỗ trợ kinh doanh khác chưa được phân vào </item>
+		<item id="3003" desc="COMMUNIST PARTY, SOCIO-POLITICAL ORGANIZATIONS ACTIVITIES; PUBLIC ADMINISTRATION AND DEFENSE; COMPULSORY SOCIAL SECURITY">HOẠT ĐỘNG CỦA ĐCS, TỔ CHỨC CHÍNH TRỊ XH, QUẢN LÝ NHÀ NƯỚC, AN NINH QUỐC PHÒNG, BẢO ĐẢM XÃ HỘI BẮT BUỘC</item>
+		<item id="3004" desc="EDUCATION ">GIOA DỤC VÀ ĐÀO TẠO </item>
+		<item id="3005" desc="HUMAN HEALTH AND SOCIAL WORK ACTIVITIES">HOẠT ĐỘNG Y TẾ VÀ CHĂM SÓC SỨC KHỎE</item>
+		<item id="300501" desc="Human health activities ">Hoạt động y tế </item>
+		<item id="300502" desc="Activities of Commune nursing homes and ministry healthcare centre ">Hoạt động chăm sóc và điều dưỡng </item>
+		<item id="3006" desc="Social support activities">Hoạt động trợ giúp xã hội</item>
+		<item id="3007" desc="OTHER SERVICE ACTIVITIES ">HOẠT ĐỘNG DỊCH VỤ KHÁC </item>
+		<item id="300701" desc="Sauna and steam baths, massage and similar health care services (except sport activities)">Dịch vụ tắm hơi, massage và các dịch vụ tăng cường sức khoẻ tương tự (trừ hoạt động thể thao)</item>
+		<item id="300702" desc="Repair of computers and personal and households goods">Sửa chữa máy vi tính, đồ dùng cá nhân và gia đình</item>
+		<item id="300703" desc="Other service activities n.e.c">Hoạt động dịch vụ khác chưa được phân vào đâu</item>
+		<item id="3008" desc="ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE">Hoạt động làm thuê các công việc trong gia đình, sản xuất sản phẩm vật chất và dịch vụ tự tiêu dùng của gia đình</item>
+		<item id="3009" desc="Activities of the institutions and international agencies">Hoạt động của các tổ chức và cơ quan quốc tế</item>
+		<item id="31" desc="FINANCIAL, BANKING AND INSURANCE ACTIVITIES">HOẠT ĐỘNG TÀI CHÍNH, NGÂN HÀNG VÀ BẢO HIỂM </item>
+		<item id="3101" desc="Central banking ">Hoạt động ngân hàng </item>
+		<item id="3102" desc="Financial service activities, except insurance and social security">Hoạt động dịch vụ tài chính (trừ bảo hiểm và bảo hiểm xã hội)</item>
+		<item id="310201" desc="Financial Leasing">Hoạt động cho thuê tài chính</item>
+		<item id="310202" desc="Pawning Activities">Hoạt động kinh doanh cầm đồ</item>
+		<item id="310203" desc="Other Financial service activities n.e.c, except insurance and social security">Hoạt động dịch vụ tài chính khác chưa được phân vào đâu (trừ bảo hiểm và bảo hiểm xã hội)</item>
+		<item id="3103" desc="Insurance, reinsurance and pension funding, except compulsory social security ">Bảo hiểm, tái bảo hiểm và bảo hiểm xã hội (trừ bảo đảm xã hội bắt buộc) </item>
+		<item id="3104" desc="Securities trading activities">Hoạt động kinh doanh chứng khoán</item>
+		<item id="3105" desc="Other Financial, banking, and insurance activities">Hoạt động tài chính khác</item>
+		<item id="32" desc="REAL ESTATE ACTIVITIES ">HOẠT ĐỘNG KINH DOANH BẤT ĐỘNG SẢN </item>
+		<item id="3201" desc="Real estate activities with own or leased property">Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê </item>
+		<item id="320101" desc="Real estate activities for residental use, shopping mall, and office">Kinh doanh nhà ở, trung tâm thương mại, văn phòng cho thuê</item>
+		<item id="320102" desc="Real estate activities for infrastructure of industrial zones, urban areas, water supply, traffic BOT projects of bridges, roads, ... (investment phase and recovery phase)">Kinh doanh hạ tầng khu công nghiệp, khu đô thị, cấp thoát nước, BOT các công trình giao thông cầu, đường, … (giai đoạn đầu tư và giai đoạn thu hồi)</item>
+		<item id="3202" desc="Consultant, Broker, real estate auctions, auction of land use rights">Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất</item>
+	</industryOper>
+
+	<comIndustry>
+		<item id="0500 Oil &amp; Gas" desc="0500 Oil &amp; Gas">0500 Xăng &amp; Dầu </item>
+		<item id="1300 Chemicals" desc="1300 Chemicals">1300 Hóa chất</item>
+		<item id="1700 Basic Resources" desc="1700 Basic Resources">1700  Nguồn cơ bản</item>
+		<item id="2300 Construction &amp; Materials" desc="2300 Construction &amp; Materials">2300 Xây dựng &amp; Vật liệu</item>
+		<item id="2700 Industrial Goods &amp; Services" desc="2700 Industrial Goods &amp; Services">2700 Hàng hóa &amp; Dịch vụ công nghiệp</item>
+		<item id="3300 Automobiles &amp; Parts" desc="3300 Automobiles &amp; Parts">3300 Ô tô &amp; Phụ tùng</item>
+		<item id="3500 Food &amp; Beverage" desc="3500 Food &amp; Beverage">3500 Thực phẩm &amp; Đồ uống</item>
+		<item id="3700 Personal &amp; Household Goods" desc="3700 Personal &amp; Household Goods">3700 Hàng hóa Cá nhân và Đồ Gia dụng</item>
+		<item id="4500 Health Care" desc="4500 Health Care">4500 Chăm sóc sức khỏe</item>
+		<item id="5300 Retail" desc="5300 Retail">5300  Bán lẻ</item>
+		<item id="5500 Media" desc="5500 Media">5500 Phương tiện truyền thông</item>
+		<item id="5700 Travel &amp; Leisure" desc="5700 Travel &amp; Leisure">5700 Du lịch &amp; Giải trí</item>
+		<item id="6500 Telecommunications" desc="6500 Telecommunications">6500 Viễn thông</item>
+		<item id="7500 Utilities" desc="7500 Utilities">7500 Hàng Tiện ích</item>
+		<item id="8300 Banks" desc="8300 Banks">8300 Ngân hàng</item>
+		<item id="8500 Insurance" desc="8500 Insurance">8500 Bảo hiểm</item>
+		<item id="8700 Financial Services" desc="8700 Financial Services">8700 Dịch vụ tài chính</item>
+		<item id="9500 Technology" desc="9500 Technology">9500 Công nghệ</item>
+	</comIndustry>
+
+	<comDurationInVt>
+		<item id="Below 1 year" desc="Below 1 year">Dưới 1 năm</item>
+		<item id="1 - 2 years" desc="1 - 2 years">1 - 2 năm</item>
+		<item id="2 - 5 years" desc="2 - 5 years">2 - 5 năm</item>
+		<item id="5 - 10 years" desc="5 - 10 years">5 - 10 năm</item>
+		<item id="More than 10 years" desc="More than 10 years">Trên 10 năm</item>
+	</comDurationInVt>
+
+	<entityType>
+		<item id="Limited partnership" desc="Limited partnership">Công ty Hợp danh</item>
+		<item id="Limited Company" desc="Limited Company">Công ty Trách nhiệm hữu hạn</item>
+		<item id="Trust" desc="Trust">Tín thác</item>
+		<item id="Collective Investment Scheme or Fund" desc="Collective Investment Scheme or Fund">Collective Investment Scheme or Fund</item>
+		<item id="Other" desc="Other">Khác</item>
+	</entityType>
+
+	<comType>
+		<item id="Fund management/Asset management" desc="Fund management/Asset management">Quản lý Quỹ/Quản lý Tài sản</item>
+		<item id="Securities company" desc="Securities company">Công ty Chứng khoán</item>
+		<item id="Insurance company" desc="Insurance company">Công ty Bảo hiểm</item>
+		<item id="Finance/Financial leasing company" desc="Finance/Financial leasing company">Công ty tài chính/cho Thuê Tài chính</item>
+		<item id="Bank/Credit institution" desc="Bank/Credit institution">Tổ chức Ngân hàng/Tín dụng</item>
+		<item id="Other financial institution establised in Vietnam" desc="">Tổ chức Tài chính khác được thành lập tại Việt Nam</item>
+	</comType>
+
+	<nearestsign desc="Vui lòng chọn trung tâm SME gần nhất anh/chị muốn đến để ký hợp đồng">
+		<item id="Head office" desc="Head office">Hội sở</item>
+		<item id="Trung Hoa Nhan Chinh" desc="Trung Hoa Nhan Chinh">Trung Hòa Nhân Chính</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chương Dương</item>
+		<item id="Van Quan" desc="Van Quan">Văn Quán</item>
+		<item id="Gia Dinh" desc="Gia Dinh">Gia Định</item>
+		<item id="Cong Hoa" desc="Cong Hoa">Cộng Hòa</item>
+		<item id="Phu Lam" desc="Phu Lam">Phú Lâm</item>
+		<item id="Phu My Hung" desc="Phu My Hung">Phú Mỹ Hưng</item>
+		<item id="So Giao Dich" desc="So Giao Dich">Sở Giao Dịch</item>
+		<item id="Ngo Quyen" desc="Ngo Quyen">Ngô Quyền</item>
+		<item id="Chuong Duong" desc="Chuong Duong">Chương Dương</item>
+		<item id="Ha Noi" desc="Ha Noi">Hà Nội</item>
+		<item id="Linh Dam" desc="Linh Dam">Linh Đàm</item>
+		<item id="Thuy Khue" desc="Thuy Khue">Thụy Khuê</item>
+		<item id="Dong Do" desc="Dong Do">Đông Đô</item>
+		<item id="Kinh Do" desc="Kinh Do">Kinh Đô</item>
+		<item id="Ha Thanh" desc="Ha Thanh">Hà Thành</item>
+		<item id="Giang Vo" desc="Giang Vo">Giảng Võ</item>
+		<item id="Ha Tay" desc="Ha Tay">Hà Tây</item>
+		<item id="Thang Long" desc="Thang Long">Thăng Long</item>
+		<item id="Tran Thai Tong" desc="Tran Thai Tong">Trần Thái Tông</item>
+		<item id="Hai Phong" desc="Hai Phong">Hải Phòng</item>
+		<item id="Hai Duong" desc="Hai Duong">Hải Dương</item>
+		<item id="Quang Ninh" desc="Quang Ninh">Quảng Ninh</item>
+		<item id="Mong Cai" desc="Mong Cai">Móng Cái</item>
+		<item id="Thai Binh" desc="Thai Binh">Thái Bình</item>
+		<item id="Bac Giang" desc="Bac Giang">Bắc Giang</item>
+		<item id="Bac Ninh" desc="Bac Ninh">Bắc Ninh</item>
+		<item id="Hoa Binh" desc="Hoa Binh">Hòa Bình</item>
+		<item id="Phu Tho" desc="Phu Tho">Phú Thọ</item>
+		<item id="Thai Nguyen" desc="Thai Nguyen">Thái Nguyên</item>
+		<item id="Vinh Phuc" desc="Vinh Phuc">Vĩnh Phúc</item>
+		<item id="Ha Tinh" desc="Ha Tinh">Hà Tĩnh</item>
+		<item id="Nghe An" desc="Nghe An">Nghệ An</item>
+		<item id="Thanh Hoa" desc="Thanh Hoa">Thanh Hóa</item>
+		<item id="Nam Dinh" desc="Nam Dinh">Nam Định</item>
+		<item id="Da Nang" desc="Da Nang">Đà Nẵng</item>
+		<item id="Hue" desc="Hue">Huế</item>
+		<item id="Quang Binh" desc="Quang Binh">Quảng Bình</item>
+		<item id="Quang Tri" desc="Quang Tri">Quảng Trị</item>
+		<item id="Ho Chi Minh" desc="Ho Chi Minh">Hồ Chí Minh</item>
+		<item id="District 3" desc="District 3">Quận 3</item>
+		<item id="Dong Nai" desc="Dong Nai">Đồng Nai</item>
+		<item id="Binh Duong" desc="Binh Duong">Bình Dương</item>
+		<item id="Sai Gon" desc="Sai Gon">Sài Gòn</item>
+		<item id="Cho Lon" desc="Cho Lon">Chợ Lớn</item>
+		<item id="District 10" desc="District 10">Quận 10</item>
+		<item id="Ly Thuong Kiet" desc="Ly Thuong Kiet">Lý Thường Kiệt</item>
+		<item id="Binh Dinh" desc="Binh Dinh">Bình Định</item>
+		<item id="Nha Trang" desc="Nha Trang">Nha Trang</item>
+		<item id="Binh Thuan" desc="Binh Thuan">Bình Thuận</item>
+		<item id="Gia Lai" desc="Gia Lai">Gia Lai</item>
+		<item id="Vung Tau" desc="Vung Tau">Vũng Tàu</item>
+		<item id="Long An" desc="Long An">Long An</item>
+		<item id="Dong Thap" desc="Dong Thap">Đồng Tháp</item>
+		<item id="An Giang" desc="An Giang">An Giang</item>
+		<item id="Can Tho" desc="Can Tho">Cần Thơ</item>
+		<item id="Vinh Long" desc="Vinh Long">Vĩnh Long</item>
+		<item id="Kien Giang" desc="Kien Giang">Kiên Giang</item>
+	</nearestsign>
+
+	<title>
+		<item id="Mr" desc="Mr">Anh</item>
+		<item id="Ms" desc="Ms">Chị</item>
+	</title>
+	
+	<auction_status desc="invoice auction status">  
+		<item id="IAS_01" desc="To auction">Đưa ra Đấu giá</item>
+		<item id="IAS_02" desc="In VPBank auction">Ngân hàng đang đấu giá</item>
+		<item id="IAS_03" desc="In public auction">Đấu giá công khai</item>
+		<item id="IAS_04" desc="Auction closed – transaction signed">Đóng đấu giá – Xác nhận giao dịch</item>
+		<item id="IAS_05" desc="Auction closed – waiting for signature">Đóng đấu giá – Đợi chữ ký</item>
+		<item id="IAS_06" desc="Auction closed – delisted">Đóng đấu giá - Gỡ khỏi danh sách</item>
+		<item id="IAS_07" desc="Auction closed – Unsuccessfully disbursed">Đóng đấu giá - Giải ngân không thành công</item>
+		<item id="IAS_08" desc="Auction closed – Disbursed">Đóng đấu giá - Giải ngân</item>
+		<item id="IAS_09" desc="Auction Overdue">Đấu giá hết thời hạn</item>
+		<item id="IAS_10" desc="Auction closed – Unsuccessfully dealed">Đóng đấu giá - Thỏa thuận không thành công</item>
+		<item id="IAS_11" desc="Auction closed – Reopen">Đóng đấu giá - Đấu giá lại</item>
+		<item id="IAS_12" desc="Auction closed – Rejected when reopen">Đóng đấu giá – Bị từ chối khi đấu giá lại</item>
+		<item id="IAS_13" desc="Auction closed – Fully settled">Auction closed – Fully settled</item>
+		<item id="IAS_14" desc="Auction closed – Partially settled">Auction closed – Partially settled</item>
+	</auction_status>
+	
+	<proxy-service>
+		<item id="image-service" desc="image service address">http://127.0.0.1:9080/document</item>
+		<item id="image-localservice" desc="image local service address">http://127.0.0.1:8080/document</item>
+	</proxy-service>
+
+	<enterprise-type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">SME Trung bình</item>
+		<item id="03" desc="Micro SME">SME Siêu nhỏ</item>
+	</enterprise-type>
+	
+	<cp_type>
+		<item id="01" desc="SME">SME</item>
+		<item id="02" desc="Medium SME">MSME</item>
+	</cp_type>
+	
+	<score_item_type>
+		<item id="1" desc="constant">constant</item>
+		<item id="2" desc="function">function</item>
+	</score_item_type>
+	
+	<score_rating_level>
+		<item id="01" desc="Low-Risk">Rủi ro thấp</item>
+		<item id="02" desc="High-Risk">Rủi ro cao</item>
+		<item id="03" desc="Rejected">Từ chối</item>
+	</score_rating_level>
+	
+	<workflow>
+		<item id="01" desc="smeApplyFlow">Quy trình Phê duyệt SME</item>
+		<item id="02" desc="buyerApplyFlow">Quy trình Phê duyệt Người mua</item>
+		<item id="03" desc="invoiceDeliveryFlow">Quy trình Phê duyệt Hóa đơn</item>
+	</workflow>
+
+	<sysVars>
+		<item id="01" desc="auction advance min">20</item>
+		<item id="02" desc="auction advance step">5</item>
+		<item id="03" desc="auction interest min">6</item>
+		<item id="04" desc="auction interest step">0.5</item>
+	</sysVars>
+
+	<invoiceLimit>
+		<item id="minimum" desc="Minimum invoice amount">100000000</item>
+		<item id="msmehmax" desc="High-risk MSME Maximum invoice amount">800000000</item>
+		<item id="msmelmax" desc="Low-risk MSME Maximum invoice amount">8000000000</item>
+		<item id="smehmax" desc="High-risk SME Maximum invoice amount">1000000000</item>
+		<item id="smelmax" desc="Low-risk SME Maximum invoice amount">1000000000</item>
+		<item id="resolvemsme" desc="Revolving limit of MSME">1700000000</item>
+		<item id="resolvesme" desc="Revolving limit of SME">2000000000</item>
+	</invoiceLimit>
+
+	<invoiceReport>
+		<item id="01" desc="Region">Vùng</item>
+		<item id="02" desc="SME segment">Phân khúc SME</item>
+		<item id="03" desc="Seller rating">Xếp hạng người bán</item>
+	</invoiceReport>
+
+	<buyerReport>
+		<item id="01" desc="Region">Vùng miền</item>
+		<item id="02" desc="investor ">Loại Nhà đầu tư</item>
+		<item id="03" desc="Company Industry">Loại hình Doanh nghiệp</item>
+	</buyerReport>
+	
+	<investor>
+		<item id="01" desc="Private investor">Nhà đầu tư Cá nhân</item>
+		<item id="02" desc="Company/Institution">Công ty/Tổ chức</item>
+	</investor>
+
+	<feeType>
+		<item id="01" desc="Transaction Fee">Transaction Fee</item>
+		<item id="02" desc="Cancellation Fee">Cancellation Fee</item>
+		<item id="03" desc="Late Payment Interest Fee">Late Payment Interest Fee</item>
+	</feeType>
+
+	<dar desc="Debtor Acknowledgement Requirement">
+		<item id="01" desc="required">required</item>
+		<item id="02" desc="not required">not required</item>
+	</dar>
+	<iov_stauts desc="original invoice verification flow status"> 
+		<item id="tYNhqiLCIc">Original invoice matching registration</item>
+		<item id="tYNhqiLCIc_gPeJDndBdI">Pending for original invoice matching</item>  
+		<item id="gPeJDndBdI_CbPtGRnrkJ">Pending for original invoice verification</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP">Invoice Released</item>  
+		<item id="CbPtGRnrkJ_NDZjnDzKSP_0">Rejected</item>
+	</iov_stauts>
+	<oriver_opinion desc="original invoice verification opinion"> 
+		<item id="Accept">Accept</item>  
+		<item id="Reject">Reject</item> 
+	</oriver_opinion>
+</wordbook>

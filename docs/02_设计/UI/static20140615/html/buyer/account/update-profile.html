@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>i-Factor</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../../../custom/custom-bootstrap.css" rel="stylesheet">
+    <link href="../../css/i-factor.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+
+    <!-- Fav and touch icons -->
+
+</head>
+<body style="margin: 0 20px; width: 100%;">
+
+    <div id="form-div">
+
+        <div id="form-title">My Profile</div>
+        <div id="form-main" style="height: 450px; overflow-y: auto;">
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>My Profile</legend>
+                    <div class="control-group">
+                        <label class="control-label" for="title">Title: </label>
+                        <div class="controls">
+                            <select id="title" name="title">
+                                <option value="0">Undefined</option>
+                                <option value="1" selected>Mr</option>
+                                <option value="2">Ms</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="first_name">First name</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="first_name" value="Jack" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="last_name">Last name</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="last_name" value="Cheng" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="function">Function</label>
+                        <div class="controls">
+
+                            <select id="function" name="title">
+                                <option value="0">Undefined</option>
+                                <option value="1">Accountant</option>
+                                <option value="2" selected>Bid Manager</option>
+                                <option value="3">CEO</option>
+                                <option value="4">Operator</option>
+                                <option value="5">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="work_phone">Work phone</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="work_phone" value="23333333" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="mobile_phone">Mobile phone</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="mobile_phone" value="13333333333" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="email">Email</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="email" value="test@test.com" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="email">Password</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="password" value="test@test.com" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="email">Password confirmation</label>
+                        <div class="controls">
+                            <input type="text" class="input-sm" id="password_confirmation" value="test@test.com" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <button class="btn btn-primary" type="submit">Update</button>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </div>
+    </div>
+    
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../../bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

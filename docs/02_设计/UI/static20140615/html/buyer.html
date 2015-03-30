@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">-->
+
+    <title>i-Factor</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../custom/custom-bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap/docs-assets/css/docs.css" rel="stylesheet" media="screen">
+    <!-- Custom styles for this template -->
+
+    <link href="css/i-factor.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body style="margin: 0; padding: 0;background:#515151">
+
+
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               <!-- <a class="navbar-brand" href="#">i-Factor</a>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="#three">English</a></li>
+                    <li class=""><a href="#three">Vietnamese</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div id="div-logo" style="padding: 0; margin: 0;">
+            <img style="width: 100%; height: 100%;" src="images/home-big-logo.png" />
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0;">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Message <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class=""><a href="#one">Send message</a></li>
+                            <li class=""><a href="#two">Inbox</a></li>
+
+                            <li class=""><a href="#three">Outbox</a></li>
+                            <li class=""><a href="#three">Trash</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+
+
+        </nav>
+    </div>
+
+    <div class="container">
+        <div style="margin: 0; padding: 15px; background: #FFFFFF;">
+            <table style="width: 100%; height: 100%; background: #FFFFFF">
+                <tr>
+                    <td style="overflow: auto; width: 400px; margin: 5px; vertical-align:top">
+                        <!--<iframe src="leftmenu.html" id="Iframe1" name="main-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="margin: 0; padding: 0; width: 100%; height: 100%; overflow: visible"></iframe>-->
+                        <div class="panel-group" id="accordion" style="margin-top:0;">
+                            <div class="panel panel-default">
+                                <!--<div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Auction
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                         <a href="#">Open Auction</a>
+                                    </div>
+                                    <div class="panel-body">
+                                         <a href="#">Closed Auction</a>
+                                    </div>
+                                </div>-->
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Auction
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                         <a href="buyer/auction/openlist.html" target="main-iframe">Open Auction</a>
+                                    </div>
+									
+                                    <div class="panel-body">
+                                          <a href="buyer/auction/closedlist.html" target="main-iframe">Closed Auction</a>
+					                </div>
+                                </div>
+								
+
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">My Bids
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                         <a href="buyer/mybids/openbids.html" target="main-iframe">Open Auction</a>
+                                    </div>
+                                    <div class="panel-body">
+                                          <a href="buyer/mybids/closedbids.html" target="main-iframe">Closed Auction</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Account Management
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                          <a href="buyer/account/change-password.html" target="main-iframe">Change Password</a>
+                                    </div>
+                                    <div class="panel-body">
+                                          <a href="buyer/account/my-profile.html" target="main-iframe">My Profie</a>
+                                    </div>
+                                     <div class="panel-body">
+                                          <a href="buyer/account/update-profile.html" target="main-iframe">Update Profie</a>
+                                    </div>
+                                      <div class="panel-body">
+                                          <a href="buyer/account/apply-as-seller.html" target="main-iframe">Apply as Seller</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <iframe src="buyer/auction/openlist.html" id="main-iframe" name="main-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="margin: 0; padding: 0; width: 900px; height: 500px; overflow: visible"></iframe>
+                    </td>
+                </tr>
+
+            </table>
+            <!-- <div id="div-sidenav">
+                
+            </div>
+
+            <div id="div-main">
+                
+            </div>-->
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div id="footer">
+            <div id="bottom-nav">
+                <a href="#">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">How it works</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Learning center</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Contact us</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Cookie policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">Terms of use</a>
+            </div>
+
+            <div id="company">
+            </div>
+            <div id="copyright">
+                Copyright @2014 Entrofine Consulting Limited.All Rights Reserved.
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="../bootstrap/assets/js/bootstrap-select.js"></script>-->
+    <script type="text/javascript">
+        window.onload = function () {
+            //$('.selectpicker').selectpicker();
+            $('.dropmenu').dropdown('toggle');
+
+        }
+
+    </script>
+</body>
+</html>

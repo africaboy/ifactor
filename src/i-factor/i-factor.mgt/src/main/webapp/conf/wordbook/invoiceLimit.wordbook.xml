@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+ <invoiceLimit desc = "Invoice amount limits items"> 
+  <item id="minimum" desc="Minimum invoice amount" idx="0">100000000</item>  
+  <item id="msmehmax" desc="High-risk MSME Maximum invoice amount" idx="1">800000000</item>  
+  <item id="msmelmax" desc="Low-risk MSME Maximum invoice amount" idx="2">8400000000</item>  
+  <item id="smehmax" desc="High-risk SME Maximum invoice amount" idx="3">1000000000</item>  
+  <item id="smelmax" desc="Low-risk SME Maximum invoice amount" idx="4">1050000000</item>  
+  <item id="resolvemsme" desc="Revolving limit of MSME" idx="5">1700000000</item>  
+  <item id="resolvesme" desc="Revolving limit of SME" idx="6">2000000000</item> 
+ </invoiceLimit> 
+</wordbook>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="ifactor_image_items_list">
+		<name>image data items list</name>
+		<desc>image data items list</desc>
+		<table>IF_MGT_IMAGE_ITEMS</table>
+		<jsurl>/app/ifactor/js/ifactor_image_items_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{forceFit:true,enableHdMenu:false}</param>
+		<translate>yes</translate>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<toolbar>ifactor_image_items_add</toolbar>
+		<query-item> 
+			<item name="ITEM_NAME" label="Item Name" tableName="IF_MGT_IMAGE_ITEMS" type="input" param="{}" mode="01" idx="1"/>
+		</query-item>
+		<result-item>
+			<item name="ITEM_CODE"/>
+			<item name="ITEM_NAME"/>
+			<item name="IS_MUST_NEED_NAME"/>
+			<item name="SP" label="handle" alien="1"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="ITEM_CODE" tableName="IF_MGT_IMAGE_ITEMS" mode="asc"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="ifactor_param_setting_list">
+		<name>param setting list</name>
+		<desc>param setting list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_PARAM_SETTING</table>
+		<jsurl>/app/ifactor/js/ifactor_param_setting_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{enableHdMenu:false,listenRemix:true,forceFit:true}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item> 
+			<item name="PARAM_CODE" label="Param Code" tableName="IF_MGT_PARAM_SETTING" type="input" mode="01" idx="1"/>
+			<item name="PARAM_VALUE" label="Param Value" tableName="IF_MGT_PARAM_SETTING" type="input"  mode="06" idx="1"/>
+		</query-item>
+		<result-item>
+			<item name="PARAM_CODE" label="param code"/>
+			<item name="PARAM_VALUE"/>
+			<item name="PARAM_DESC"/>
+			<item name="LAST_MODIFY_TIME"/>
+		</result-item>  
+		<orderby-item>
+			<item name="PARAM_CODE" tableName="IF_MGT_PARAM_SETTING" mode="asc"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="ifactor_invoice_delivery_auction_list">
+		<name>invoice auction list</name>
+		<desc>invoice auction list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_AUCTION</table>
+		<jsurl>/app/ifactor/js/ifactor_invoice_delivery_auction_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{enableHdMenu:false,forceFit:true}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item> 
+			<item name="INVOICE_ID" label="Invoice Id" tableName="IF_MGT_INVOICE_AUCTION" type="input" mode="01" idx="1"/>
+		</query-item>
+		<result-item>
+			<item name="INVOICE_ID" label="invoice id"/>
+			<item name="IDA_CODE"/>
+			<item name="ACCEPT_TIME"/>
+			<item name="LOCKER_NAME"/>
+			<item name="IIDA_PK_ID" show="-1"/>
+			<item name="APP_PK_ID" show="-1"/>
+		</result-item>  
+		<orderby-item>
+			<item name="ACCEPT_TIME" tableName="IF_MGT_INVOICE_AUCTION" mode="desc"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="if_mgt_dfield_match_list">
+		<name>data field match list</name>
+		<desc>data field match list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_DFIELD_MATCH</table>
+		<jsurl>/app/ifactor/js/if_mgt_dfield_match_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{enableHdMenu:false,forceFit:true}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<toolbar>if_mgt_dfield_match_add</toolbar>
+		<query-item> 
+		<item name="WORK_FLOW" label="Work Flow" mode="01"/>
+			<item name="MGT_FIELD" label="Mgt Field" mode="01"/>
+		</query-item>
+		<result-item>
+			<item name="WORK_FLOW_VALUE" label="Work Flow Value"/>
+			<item name="MGT_FIELD" label="Mgt Field"/>
+			<item name="APP_FIELD" label="App Field"/>
+			<item name="DESCRIPTION" label="Description"/>
+			<item name="SP" label="Handle" alien="1"/>
+		</result-item>  
+		<orderby-item>
+			<item name="WORK_FLOW"  mode="desc"/>
+		</orderby-item>
+	</query>
+
+	<query ID="if_mgt_sysvars_list">
+		<name>advance and interest items</name>
+		<desc>advance and interest items</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SYSVARS</table>
+		<jsurl>/app/ifactor/js/if_mgt_sysvars_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{enableHdMenu:false,forceFit:true}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<result-item>
+			<item name="CODE"/>
+			<item name="DESCRIBE"/>
+			<item name="VALUE"/>
+			<item name="SP" label="Handle" alien="1"/>
+		</result-item>  
+	</query>
+</table-query>

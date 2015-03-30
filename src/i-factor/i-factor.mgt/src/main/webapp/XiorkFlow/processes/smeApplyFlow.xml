@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WorkflowProcess> 
+ <Activities> 
+  <Activitie id="8" type="NODE" name="key in FS" xCoordinate="818" yCoordinate="25" width="80" height="30"/>  
+  <Activitie id="9" type="NODE" name="FS check and review" xCoordinate="682" yCoordinate="120" width="80" height="30"/>  
+  <Activitie id="17" type="NODE" name="double check" xCoordinate="237" yCoordinate="161" width="80" height="30"/>  
+  <Activitie id="54" type="NODE" name="check and upload paper doc" xCoordinate="1117" yCoordinate="34" width="80" height="30"/>  
+  <Activitie id="23" type="FORK_NODE" name="license check" xCoordinate="293" yCoordinate="30" width="80" height="30"/>  
+  <Activitie id="27" type="JOIN_NODE" name="transition node" xCoordinate="361" yCoordinate="248" width="80" height="30"/>  
+  <Activitie id="31" type="FORK_NODE" name="cic check" xCoordinate="604" yCoordinate="29" width="80" height="30"/>  
+  <Activitie id="24" type="FORK_NODE" name="blacklist check" xCoordinate="448" yCoordinate="31" width="80" height="30"/>  
+  <Activitie id="59" type="NODE" name="assign to stuff" xCoordinate="968" yCoordinate="197" width="80" height="30"/>  
+  <Activitie id="16" type="FORK_NODE" name="first check" xCoordinate="66" yCoordinate="161" width="80" height="30"/>  
+  <Activitie id="44" type="JOIN_NODE" name="verify ID and sign documents" xCoordinate="762" yCoordinate="428" width="80" height="30"/>  
+  <Activitie id="46" type="NODE" name="double check and verify" xCoordinate="513" yCoordinate="392" width="80" height="30"/>  
+  <Activitie id="35" type="FORK_NODE" name="eligibility check" xCoordinate="566" yCoordinate="225" width="80" height="30"/>  
+  <Activitie id="41" type="FORK_NODE" name="map score" xCoordinate="614" yCoordinate="341" width="80" height="30"/>  
+  <Activitie id="49" type="FORK_NODE" name="field visit" xCoordinate="794" yCoordinate="201" width="80" height="30"/>  
+  <Activitie id="15" type="NODE" name="data modify" xCoordinate="63" yCoordinate="279" width="80" height="30"/>  
+  <Activitie id="2" type="END_NODE" name="end" xCoordinate="344" yCoordinate="455" width="80" height="30"/>  
+  <Activitie id="1" type="START_NODE" name="start" xCoordinate="71" yCoordinate="42" width="80" height="30"/>  
+  <Activitie id="56" type="NODE" name="double check field visit doc" xCoordinate="1120" yCoordinate="296" width="80" height="30"/>  
+  <Activitie id="58" type="FORK_NODE" name="assess and result" xCoordinate="939" yCoordinate="309" width="80" height="30"/>  
+  <Activitie id="52" type="NODE" name="conduct field visit" xCoordinate="915" yCoordinate="111" width="80" height="30"/> 
+ </Activities>  
+ <Transitions> 
+  <Transition id="0" name="check and review" from="8" to="9"/>  
+  <Transition id="1" name="eligibility check" from="9" to="35"/>  
+  <Transition id="2" name="license check" from="17" to="23"/>  
+  <Transition id="3" name="double check doc" from="54" to="56"/>  
+  <Transition id="4" name="rejection" from="23" to="27"/>  
+  <Transition id="4" name="blacklist check" from="23" to="24"/>  
+  <Transition id="5" name="" from="27" to="2"/>  
+  <Transition id="6" name="fill FS" from="31" to="8"/>  
+  <Transition id="6" name="rejection" from="31" to="27"/>  
+  <Transition id="7" name="cic check" from="24" to="31"/>  
+  <Transition id="7" name="rejection" from="24" to="27"/>  
+  <Transition id="8" name="check and upload paper" from="59" to="54"/>  
+  <Transition id="9" name="data modify" from="16" to="15"/>  
+  <Transition id="9" name="double check" from="16" to="17"/>  
+  <Transition id="10" name="double check and verify" from="44" to="46"/>  
+  <Transition id="11" name="release" from="46" to="27"/>  
+  <Transition id="12" name="map score" from="35" to="41"/>  
+  <Transition id="12" name="rejection" from="35" to="27"/>  
+  <Transition id="13" name="rejection" from="41" to="27"/>  
+  <Transition id="13" name="assign field visit" from="41" to="49"/>  
+  <Transition id="13" name="verify and sign" from="41" to="44"/>  
+  <Transition id="14" name="assign to stuff" from="49" to="59"/>  
+  <Transition id="14" name="verify and sign" from="49" to="44"/>  
+  <Transition id="17" name="first check" from="1" to="16"/>  
+  <Transition id="18" name="assess and result" from="56" to="58"/>  
+  <Transition id="19" name="verify and sign" from="58" to="44"/>  
+  <Transition id="19" name="rejection" from="58" to="27"/> 
+ </Transitions> 
+</WorkflowProcess>

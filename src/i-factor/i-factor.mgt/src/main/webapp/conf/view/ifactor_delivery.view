@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="ifactor_invoice_delivery_apply">
+		<name>application form of invoice delivery</name>
+		<desc>application form of invoice delivery</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_APPLY</primaryTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_SELLER</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_DEBTOR</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_FINANC</foreignTable>
+		<size>{height:400,width:1100,columnCount:2}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="APP_PK_ID" tableName="IF_MGT_INVOICE_APPLY" type="hidden" param="{}" />
+			<item name="ISVERIFICATION" tableName="IF_MGT_INVOICE_APPLY" type="hidden" param="{}" />
+			<item name="IDA_UPDATED_DATE" tableName="IF_MGT_INVOICE_APPLY" type="hidden" param="{}" dv="@thizTime" />
+			<item name="IDA_CODE" type="input" param="{readOnly:true,newline:true,group:'Application Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="000"/>
+			<item name="IDA_DATE" type="date" param="{readOnly:true}" idx="001"/>
+			<item name="IDA_ADVANCE" type="number" param="{allowBlank:false,readOnly:true}" idx="002"/>
+			<item name="IDA_INTEREST" type="number" param="{allowBlank:false,readOnly:true}" idx="003"/>
+			<item name="IDA_CYCLESTART" type="date" param="{readOnly:true}" idx="004"/>
+			<item name="IDA_CYCLEEND" type="date" param="{readOnly:true}" idx="005"/>
+			<item name="COMPANY_NAME" label="Company name" type="input" tableName="IF_MGT_INVOICE_SELLER" param="{newline:true,readOnly:true,group:'Seller Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="010"/>
+			<item name="IIDSI_USER" type="input" tableName="IF_MGT_INVOICE_SELLER" param="{readOnly:true}" idx="012"/>
+			
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR"  type="input" param="{newline:true,readOnly:true,group:'Debtor Information', groupWidth:1050, groupParam : {groupCollapsed:false},columnCount:2}" idx="031"/>
+			<item name="ADDRESS" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="035"/>
+			<item name="DISTRICT" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="036"/>
+			<item name="CITY" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="037"/>
+			<item name="REGION" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="038"/>
+			<item name="COUNTRY" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="039"/>
+			<item name="POSTCODE" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="040"/>
+			<item name="REGIST_NO" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="041"/>
+			<item name="TAX_CODE" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{readOnly:true}" idx="042"/>
+			
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_FINANC"  type="input" param="{newline:true,readOnly:true,group:'Financing Information', groupWidth:1050, groupParam : {groupCollapsed:false},columnCount:2}" idx="051"/>
+			<item name="SERIAL_NUMBER" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="051"/>
+			<item name="INVOICE_NUMBER" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="052"/>
+			<item name="INVOICE_ISSUANCE_DATE" type="date" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="033"/>
+			<item name="INVOICE_AMOUNT" type="money" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="054"/>
+			<item name="INVOICE_OBJECT" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="055"/>
+			<item name="DUE_DATE" type="date" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="056"/>
+			<item name="EXPECTED_PAYMENT_DATE" type="date" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="057"/>
+			<item name="REMAINING_TERM" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true}" idx="058"/>
+		</component>
+	</view>
+
+	<view ID="ifactor_invoice_delivery_flow_firstcheck_opinion">
+		<name>First Check Opinion</name>
+		<desc>First check opinion view for invoice delivery flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<param>{listenLayout:true}</param>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'ida_fc_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'invoiceFirstCheckOption'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_invoice_delivery_flow_manualprogress_opinion">
+		<name>Manual Progress Opinion</name>
+		<desc>Manual progress opinion view for invoice delivery flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<jsurl>/app/ifactor/js/invoice/ifactor_invoice_delivery_flow_manualprogress_opinion.js</jsurl>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:240,width:800,columnCount:2}</size>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'ida_mp_opinion',target:'OPINION_VAL',returnFunc:'idaMpOpinionSelect',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="REJECT_RESON"  type="select" label="Reject Reason" param="{wordbook:'ida_mp_reject_reason',target:'REJECT_RESON_VAL',columnSubCount:2,disable:true,allowBlank:false}" idx="003"/>
+			<item name="REJECT_RESON_VAL" type="hidden" param="{}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="006"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="007"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="008"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="009"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="010"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_invoice_delivery_flow_doublecheck_opinion">
+		<name>Double Check Opinion</name>
+		<desc>Double check opinion view for invoice delivery flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'smecheck_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'invoiceDoubleCheckOption'}" idx="002"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="003"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="004"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="006"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="ifactor_invoice_delivery_flow_doublemanual_opinion">
+		<name>Double Check Manual Progress Opinion</name>
+		<desc>Double check manual progress opinion view for invoice delivery flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:2}</size>
+		<param>{listenLayout:true}</param>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'ida_mp_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'doublemanualOpinionYESORNOreturnFunc'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="REJECT_RESON"  type="select" label="Reject Reason" param="{wordbook:'ida_doublemp_reject_reason',target:'REJECT_RESON_VAL',columnSubCount:2,disable:true,allowBlank:false}" idx="003"/>
+			<item name="REJECT_RESON_VAL" type="hidden" param="{}" idx="004"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="003"/>
+			<item name="CYCLEDATE" type="date" param="{listenSele:'checkCycle',allowBlank:false}" idx="004"/>
+			<item name="CYCLE" type="input" param="{readOnly:true}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_invoice_delivery_flow_check_opinion">
+		<name>Blacklist Check Opinion</name>
+		<desc>Blacklist check opinion view for invoice delivery flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:220,width:800,columnCount:3}</size>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'ida_mp_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'invoiceblacklistOpinionCheck'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="ifactor_invoice_delivery_flow_oriver_opinion">
+		<name>Original Invoice Verification Progress Opinion</name>
+		<desc>Original Invoice Verification Progress Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_OPINION</primaryTable>
+		<size>{height:220,width:800,columnCount:3}</size>
+		<param>{listenLayout:true}</param>
+		<listener>InvoiceDeliveryFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT_VAL"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="CHECK_RESULT"  type="hidden" label="Check Result" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'oriver_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_invoice_auction_view">
+		<name>view invoice auction info</name>
+		<desc>view invoice auction info</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_APPLY</primaryTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_SELLER</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_DEBTOR</foreignTable>
+		<foreignTable handleType="single">IF_MGT_INVOICE_FINANC</foreignTable>
+		<size>{height:400,width:700,columnCount:2}</size>
+		<component>
+			<item name="INVOICE_NUMBER" label="Invoice ID" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true,newline:true,group:'Invoice Profile',groupWidth:650, groupParam : {groupCollapsible:false},columnCount:2}" idx="000"/>
+			<item name="IIDSI_USER" label="Seller Name" type="input" tableName="IF_MGT_INVOICE_SELLER" param="{}" idx="001"/>
+			<item name="RISKLEVEL" label="Seller Risk" type="input" tableName="IF_MGT_INVOICE_SELLER" param="{}" idx="002"/>
+			<item name="DEBTOR" label="Debter Name" type="input" tableName="IF_MGT_INVOICE_DEBTOR" param="{}" idx="003"/>
+			<item name="DAR" type="input" label="Debtor Ac" tableName="IF_MGT_INVOICE_SELLER" param="{}" idx="004"/>
+			<item name="INVOICE_AMOUNT" type="input" label="Invoice Amount" tableName="IF_MGT_INVOICE_FINANC" param="{}" idx="005"/>
+			<item name="REMAINING_TERM" type="input" label=" Remaining Term" tableName="IF_MGT_INVOICE_FINANC" param="{}" idx="006"/>
+			<item name="IDA_ADVANCE" type="input" label="Ready to sell advance%" tableName="IF_MGT_INVOICE_APPLY" idx="007"/>
+			<item name="IDA_INTEREST" type="input" label="Ready to sell interest%" tableName="IF_MGT_INVOICE_APPLY" idx="008"/>
+			<item name="documents" type="input" label="Check doc" alien="1" idx="009"/>
+			
+			<item name="Minimum Price" label="Minimum Price" alien="1" type="input" tableName="IF_MGT_INVOICE_FINANC" param="{readOnly:true,newline:true,group:'Market Profile',groupWidth:650, groupParam : {groupCollapsible:false},columnCount:2}" idx="020"/>
+			<item name="Index Rate" type="input" label="Index Rate" alien="1" idx="021"/>		
+		</component>
+	</view>
+
+	<view ID="ifactor_invoice_flow_cs_record_add">
+		<name>Invoice flow cs record add</name>
+		<desc>Invoice flow cs record add</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_INVOICE_CS_RECORD</primaryTable>
+		<size>{height:200,width:400}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true,newline:true,group:'CS Record Info', groupWidth:950}" dv="#nowTime" idx="000"/>
+			<item name="REMARK" type="textarea" label="Remark" param="{height:150}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+			<item name="APPLY_CODE" type="hidden" param="{}" dv="@applyId" idx="008"/>
+			<item name="INS_ID" type="hidden" param="{}" dv="@insId" idx="009"/>
+			<item name="A_ID" type="hidden" param="{}" dv="@aId" idx="010"/>
+		</component>
+	</view>
+</table-view>

@@ -1,0 +1,140 @@
+[{
+			id : 'groupmanage',
+			text : '机构管理',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'groupmap',
+						text : '组织结构',
+						iconCls : 'icon-cls',
+						openType : 'open',
+						leaf : true,
+						func : 'showgrouptree'
+					}, {
+						id : 'groupadjust',
+						text : '机构调整',
+						iconCls : 'icon-cls',
+						openType : 'open',
+						leaf : true,
+						func : 'showadjuesttree'
+					}, {
+						id : 'userregister',
+						text : '用户注册',
+						iconCls : 'icon-cls',
+						openType : 'open',
+						leaf : true,
+						func : 'useradd'
+					}, {
+						id : 'userlist',
+						text : '用户列表',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'userlist'
+					}]
+		}, {
+			id : 'rolemanage',
+			text : '系统角色',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'roleadd',
+						text : '角色定义',
+						iconCls : 'icon-cls',
+						leaf : true,
+						openType : 'open',
+						func : 'addrole'
+					}, {
+						id : 'rolelist',
+						text : '角色列表',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'rolelist'
+					}]
+		}, {
+			id : 'modulemanage',
+			text : '模块管理',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'moduleadd',
+						text : '模块注册',
+						iconCls : 'icon-cls',
+						leaf : true,
+						openType : 'open',
+						func : 'addmodule'
+					}, {
+						id : 'modulelist',
+						text : '模块列表',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'modulelist'
+					}]
+		}, {
+			id : 'pagemanage',
+			text : '表单管理',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'pageadd',
+						text : '创建表单',
+						iconCls : 'icon-cls',
+						leaf : true,
+						openType : 'open',
+						func : 'objectneu'
+					}, {
+						id : 'pagelist',
+						text : '表单列表',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'objectlist'
+					}]
+		}, {
+			id : 'bookmanage',
+			text : '数据字典',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'booklist',
+						text : '字典管理',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'wordbookList'
+					}, {
+						id : 'dataindexlist',
+						text : '类别管理',
+						iconCls : 'icon-cls',
+						leaf : true,
+						openType : 'open',
+						func : 'ddtree'
+					}]
+		}, {
+			id : 'datamanage',
+			text : '系统数据',
+			cls : 'folder',
+			iconCls : 'icon-pkg',
+			children : [{
+						id : 'tablelist',
+						text : '数据表',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'tableList'
+					}, {
+						id : 'databackup',
+						text : '数据备份',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'databackup'
+					}, {
+						id : 'datarestore',
+						text : '数据恢复',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'datarestore'
+					}, {
+						id : 'annexmanage',
+						text : '附件管理',
+						iconCls : 'icon-cls',
+						leaf : true,
+						func : 'annexlist'
+					}]
+		}]

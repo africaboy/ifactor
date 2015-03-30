@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="examples_t1_add">
+		<name>新增1</name>
+		<desc>新增1</desc>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">EXAMPLES_T1</primaryTable>
+		<size>{height:400,width:700,columnCount:2}</size>
+		<component>
+			<item name="L1_ID" type="select" param="{wordbook:'L1', target:'L1_NAME'}"/>
+			<item name="L1_NAME" type="hidden"/>
+			<item name="L2_ID" type="number" param="{allowBlank:false}"/>
+			<item name="L2_NAME" type="date" param="{allowBlank:false}"/>
+			<item name="L3_ID" type="textarea" param="{allowBlank:false}"/>
+			<item name="L3_NAME" type="password" param="{allowBlank:false}"/>
+			<item name="T3_NUMBER" type="number" param="{allowBlank:false,allowDecimals:true}"/>
+			<item name="T3_MONEY" type="money" param="{allowBlank:false}"/>
+		</component>
+	</view>
+	<view ID="examples_t1_special_add">
+		<name>新增2</name>
+		<desc>新增2</desc>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">EXAMPLES_T1</primaryTable>
+		<size>{height:400,width:900,columnCount:2}</size>
+		<component>
+			<item name="L1_ID" type="radio" param="{allowBlank:false,wordbook:'L1', target:'L1_NAME', checkItem:'L1.I1', columns:2}"/>
+			<item name="L1_NAME" type="hidden"/>
+			<item name="L2_ID" type="checkbox" param="{allowBlank:false,wordbook:'L2', target:'L2_NAME', checkItem:'L2.I1', columns:2}"/>
+			<item name="L2_NAME" type="hidden" param="{}"/>
+			<item name="L3_ID" type="guselect" param="{allowBlank:false,targetName:'L3_NAME',targetType:'L3_TYPE',root:''}"/>
+			<item name="L3_NAME" type="hidden" param="{}"/>
+			<item name="L3_TYPE" type="hidden" param="{}"/>
+			<item name="T2_PKID" type="dataindex" param="{allowBlank:false,type:'example1',targetName:'T2_NAME',targetType:'T2_TYPE'}"/>
+			<item name="T2_NAME" type="hidden" param="{}"/>
+			<item name="T2_TYPE" type="hidden" param="{}"/>
+			<item name="T3_PKID" type="cascade" param="{allowBlank:false,targetName:'T3_NAME',targetType:'T3_TYPE',columnSubCount:'1',showLevel:'1',emptyText:'选择省...',items:[{target:'T4_PKID',targetName:'T4_NAME',targetType:'T4_TYPE',showLevel:'1',emptyText:'选择市...'},{target:'T5_PKID',targetName:'T5_NAME',targetType:'T5_TYPE',showLevel:'1',emptyText:'选择区...'}],closeText:'T6_PKID'}"/>
+			<item name="T3_NAME" type="hidden" param="{}"/>
+			<item name="T3_TYPE" type="hidden" param="{}"/>
+			<item name="T4_PKID" type="hidden" param="{}"/>
+			<item name="T4_NAME" type="hidden" param="{}"/>
+			<item name="T4_TYPE" type="hidden" param="{}"/>
+			<item name="T5_PKID" type="hidden" param="{}"/>
+			<item name="T5_NAME" type="hidden" param="{}"/>
+			<item name="T5_TYPE" type="hidden" param="{}"/>
+			<item name="T6_PKID" type="hidden" param="{}"/>
+			<item name="T7_PKID" type="catena" label="电话" param="{allowBlank:false,emptyText:'区号',columnSubCount:'1',items:[{target:'T7_NAME',type:'numberfield',emptyText:'电话号'},{target:'T7_TYPE',type:'numberfield',emptyText:'分机号'}]}"/>
+			<item name="T7_NAME" type="hidden" param="{}"/>
+			<item name="T7_TYPE" type="hidden" param="{}"/>
+		</component>
+	</view>
+	<view ID="examples_t1_edit">
+		<name>修改1</name>
+		<desc>修改1</desc>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>update</handlemode>
+		<primaryTable handleType="single">EXAMPLES_T1</primaryTable>
+		<size>{height:200,width:500}</size>
+		<component>
+			<item name="NAME" type="input" param="{allowBlank:false}"/>
+			<item name="L1_ID" type="select" param="{wordbook:'L1', target:'L1_NAME'}"/>
+			<item name="L1_NAME" type="hidden"/>
+		</component>
+	</view>
+</table-view>

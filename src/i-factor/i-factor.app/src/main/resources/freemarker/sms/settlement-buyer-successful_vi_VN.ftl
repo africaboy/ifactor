@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don so <000000> da duoc thanh toan. Xin kiem tra tai khoan cua Quy khach

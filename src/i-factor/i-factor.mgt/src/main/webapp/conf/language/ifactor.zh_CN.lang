@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<ifcommon-language>
+	   <item id="input_ambiguous" desc="">如果输入是错误的，请检查它！</item>
+	   <item id="stockings_view" desc="">没有stockings变量在视图</item>
+	   <item id="input_field" desc="">输入的字段（{0}）是错误的。</item>
+	   <item id="input_file" desc="">上传的影像（{0}）是错误的。</item>
+	   <item id="blacklist_check" desc="">黑名单校验结果信息列表</item>
+	   <item id="blacklist_check_btn" desc="">黑名单校验</item>
+	   <item id="blacklist_check_results" desc="">单击查看校验结果</item>
+	   <item id="image_upload" desc="">上传影像</item>
+	   <item id="image_describe" desc="">上传影像文件</item>
+	   <item id="image_view" desc="">查看影像</item>
+	   <item id="image_vdescribe" desc="">查看影像文件</item>
+	   <item id="hint" desc="">提示</item>
+	   <item id="tickbox" desc="">没有勾选任何复选框！</item>
+	   <item id="opinion_check" desc="">系统检查结果是{0}，确定要修改吗？</item>
+	   <item id="get_blacklist_result" desc="">获取黑名单校验结果信息失败</item>
+	   <item id="view_opinion_info1" desc="">点击查看 {0} 意见的详细信息</item>
+	   <item id="view_opinion_info2" desc="">查看 {0} 意见的详细信息</item>
+	   <item id="deal" desc="">点击进行处理</item>
+	   <item id="canceldeal" desc="">取消处理</item>
+	   <item id="graphics_monitor" desc="">图形流程监控</item>
+	   <item id="see_process" desc="">点击查看流程</item>
+	   <item id="see_detail" desc="">点击查看详细信息</item>
+	   <item id="see_process_list" desc="">流程历史操作数据列表</item>
+	   <item id="data_loadmasktext" desc="">数据加载中，请稍等...</item>
+	   <item id="bbar_emptymsg" desc="">没有记录</item>
+	   <item id="bbar_displaymsg" desc="">总数 {0} - {1} of {2}</item>
+	   <item id="close" desc="">关闭</item>
+	   <item id="valid" desc="">有效</item>
+	   <item id="invalid" desc="">无效</item>
+	   <item id="import" desc="">导入</item>
+	   <item id="edit" desc="">编辑</item>
+	   <item id="delete" desc="">删除</item>
+	   <item id="exception" desc="">系统运行异常！</item>
+	   <item id="call_service" desc="">呼叫服务</item>
+	   <item id="call_list" desc="">呼叫服务历史数据列表</item>
+	   <item id="cs_success" desc="">呼叫服务记录成功！</item>
+	   <item id="process_instance" desc="">获取流程实例异常</item>
+	   <item id="details" desc="">详情</item>
+	   <item id="accepted" desc="">已接受</item>
+	   <item id="rejected" desc="">已拒绝</item>
+	</ifcommon-language>
+	<seller-language>
+	   <item id="seller_apply" desc="">卖家申请</item>
+	   <item id="view_detail_info1" desc="">单击查看卖家申请的详细信息</item>
+	   <item id="view_detail_info2" desc="">查看卖家申请的详细信息</item>
+	   <item id="not_call" desc="">未提醒</item>
+	   <item id="called" desc="">已提醒</item>
+	   <item id="program_abnormal" desc="">程序异常！</item>
+	   <item id="update_remind" desc="">提醒状态更新成功！</item>
+	   <item id="view_profile_info1" desc="">点击查看卖家客户ID {0} 简况的详细信息</item>
+	   <item id="view_profile_info2" desc="">查看卖家客户ID {0} 简况的详细信息</item>
+	   <item id="data_file" desc="">数据文件</item>
+	   <item id="blacklist_import" desc="">黑名单数据导入</item>
+	   <item id="vpbank_import" desc="">Bank 数据导入</item>
+	   <item id="perform_import" desc="">执行数据导入</item>
+	   <item id="file_version" desc="">数据文件必须是2003版本的Excel</item>
+	   <item id="data_imported" desc="">数据正在导入...</item>
+	   <item id="import_successful" desc="">数据导入成功！</item>
+	   <item id="import_failure" desc="">数据导入失败！</item>
+	   <item id="cs_record" desc="">卖家申请呼叫服务记录</item>
+	   <item id="score_item" desc="">添加评分项</item>
+	   <item id="get_score_item" desc="">获取评分项信息失败！</item>
+	</seller-language>
+	<buyer-language>
+	   <item id="buyer_apply" desc="">买家申请</item>
+	   <item id="view_profile_info1" desc="">点击击查看买家客户ID {0} 简况的详细信息</item>
+	   <item id="view_profile_info2" desc="">查看买家客户ID {0} 简况的详细信息</item>
+	   <item id="cs_record" desc="">买家申请呼叫服务记录</item>
+	</buyer-language>
+	<invoice-language>
+		<item id="oriverinvoice_apply" desc="">实物发票验证申请</item>
+	    <item id="invoice_apply" desc="">发票支付申请</item>
+	    <item id="auction_end_check1" desc="">必须大于今天！</item>
+	    <item id="auction_end_check2" desc="">预计结算日期减去发票拍卖结束日期不能小于22天！</item>
+	    <item id="cs_record" desc="">发票申请呼叫服务记录</item>
+	    <item id="ready_to_sell" desc="">接受准备出售</item>
+	    <item id="place_bid" desc="">出价</item>
+	    <item id="open_investor" desc="">对投资者开放</item>
+	    <item id="keep_vpbank" desc="">Bank持有</item>
+	    <item id="setauction_status" desc="">拍卖状态设置成功！</item>
+		<item id="original_check" desc="">实物发票校验未完成，请完成实物发票校验再发布。</item>
+	</invoice-language>
+	<image-language>
+		<item id="image_number" desc="">影像编号</item>
+		<item id="image_name" desc="">影像名称</item>
+		<item id="querybtn_text" desc="">查询</item>
+		<item id="resetbtn_text" desc="">重置</item>
+		<item id="serial_number" desc="">序号</item>
+		<item id="image_code" desc="">影像编号</item>
+		<item id="last_upload_time" desc="">最新上传时间</item>
+		<item id="uploaded_file_number" desc="">上传文件数量</item>
+		<item id="handle" desc="">操作</item>
+		<item id="upload_image" desc="">影像上传</item>
+		<item id="view_image_data" desc="">影像预览</item>
+		<item id="left_rotation" desc="">左旋转</item>
+		<item id="right_rotation" desc="">右旋转</item>
+		<item id="previous" desc="">上一张</item>
+		<item id="next" desc="">下一张</item>
+		<item id="file_name" desc="">文件名</item>
+		<item id="file_type" desc="">文件类型</item>
+		<item id="size" desc="">大小</item>
+		<item id="progress" desc="">进度</item>
+		<item id="status" desc="">状态</item>
+		<item id="all_files" desc="">所有文件</item>
+		<item id="add_files" desc="">增加</item>
+		<item id="del_all" desc="">删除所有</item>
+		<item id="upload" desc="">上传</item>
+		<item id="not_upload" desc="">未上传</item>
+		<item id="are_uploading" desc="">正在上传</item>
+		<item id="upload_failed" desc="">上传失败</item>
+		<item id="upload_complete" desc="">上传成功</item>
+		<item id="upload_cancel" desc="">取消上传</item>
+		<item id="file_format_error" desc="">文件格式错误</item>
+		<item id="file_error_100" desc="">超过最大上传数量！</item>
+		<item id="file_error_110" desc="">文件太大，不能上传！</item>
+		<item id="file_error_120" desc="">文件大小 为0，不能上传！</item>
+		<item id="file_error_130" desc="">此类型文件不能上传！</item>
+		<item id="deletefile" desc="">删除所有文件</item>
+		<item id="remove" desc="">删除</item>
+		<item id="no." desc="">序号</item>
+	</image-language>
+</wordbook>

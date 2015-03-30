@@ -1,0 +1,41 @@
+{
+	text : '系统用户管理',
+	"parentId": null,
+    "leaf": false,
+	children : [{
+				text : '基本信息管理',
+				expanded : true,
+				children : [{
+							id : 'userregister',
+							text : '用户信息注册',
+							leaf : true,
+							func : 'useradd'
+						}, {
+							id : 'userlist',
+							text : '用户信息查询',
+							iconCls : 'icon-cls',
+							leaf : true,
+							func : 'userlist'
+						}, {
+							id : 'usereditlist',
+							text : '用户信息维护',
+							iconCls : 'icon-cls',
+							leaf : true,
+							func : 'usereditlist'
+						}]
+			}, {
+				text : '帐号密码管理',
+				expanded : true,
+				children : [{
+							id : 'logidfrozenlist',
+							text : '帐号冻结管理',
+							leaf : true,
+							func : 'logidfrozenlist'
+						}, {
+							id : 'logidfrozenlist',
+							text : '密码重置服务',
+							leaf : true,
+							func : 'pwdresetlist'
+						}]
+			}]
+}

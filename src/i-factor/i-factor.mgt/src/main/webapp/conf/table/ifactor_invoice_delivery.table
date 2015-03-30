@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	
+	<table name="IF_MGT_INVOICE_APPLY" description="invoice delivery apply">
+		<column>
+			<name>IIDA_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IDA_CODE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>application no</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>IDA_DATE</name>
+			<type>varchar</type>
+			<description>application date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IDA_UPDATED_DATE</name>
+			<type>varchar</type>
+			<description>last updated date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RELEASE_DATE</name>
+			<type>varchar</type>
+			<description>Release date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IDA_STATUS</name>
+			<type>varchar</type>
+			<description>application status</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>IDA_STATUS_VAL</name>
+			<type>varchar</type>
+			<description>application statua</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>IDA_ADVANCE</name>
+			<type>decimal</type>
+			<description>Advance</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IDA_INTEREST</name>
+			<type>decimal</type>
+			<description>Interest</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IDA_CYCLESTART</name>
+			<type>varchar</type>
+			<description>auction begin</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IDA_CYCLEEND</name>
+			<type>varchar</type>
+			<description>auction end</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>SME_APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding seller line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>USERID</name>
+			<type>varchar</type>
+			<description>user id</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ISVERIFICATION</name>
+			<type>varchar</type>
+			<description>original invoice verification is check out</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_SELLER" description="invoice delivery seller info">
+		<column>
+			<name>IIDSI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IIDA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>invoice delivery</description> 
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_APPLY</referencing-table>  
+				<referencing-column>IIDA_PK_ID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>COMPANY_NAME</name>
+			<type>varchar</type>
+			<description>Name of your Company</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>IIDSI_TITLE</name>
+			<type>varchar</type>
+			<description>the title who Represente the company</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>IIDSI_TITLE_VAL</name>
+			<type>varchar</type>
+			<description>the title who Represente the company</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>IIDSI_USER</name>
+			<type>varchar</type>
+			<description>Representive</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DAR</name>
+			<type>varchar</type>
+			<description>Debtor Acknowledgement Requirement</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RATING</name>
+			<type>varchar</type>
+			<description>Rating score</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RISKLEVEL</name>
+			<type>varchar</type>
+			<description>Risk level</description>
+			<length>50</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_DEBTOR" description="invoice delivery debtor info">
+		<column>
+			<name>IIDDI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IIDA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>invoice delivery</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_APPLY</referencing-table>  
+				<referencing-column>IIDA_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ADDRESS</name>
+			<type>varchar</type>
+			<description>Address </description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>POSTCODE</name>
+			<type>varchar</type>
+			<description>Post code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGIST_NO</name>
+			<type>varchar</type>
+			<description>Registration NO</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>TAX_CODE</name>
+			<type>varchar</type>
+			<description>Tax Code</description>
+			<length>50</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_FINANC" description="invoice delivery financ info">
+		<column>
+			<name>IIDFI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IIDA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>invoice delivery</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_APPLY</referencing-table>  
+				<referencing-column>IIDA_PK_ID</referencing-column> 
+			</foreign> 
+		</column> 
+		<column>
+			<name>STICKER_ID</name>
+			<type>varchar</type>
+			<description>Sticker ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>SERIAL_NUMBER</name>
+			<type>varchar</type>
+			<description>Serial number of Invoice</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>INVOICE_NUMBER</name>
+			<type>varchar</type>
+			<description>VAT Invoice Number</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>INVOICE_ISSUANCE_DATE</name>
+			<type>varchar</type>
+			<description>Invoice issuance date</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_AMOUNT</name>
+			<type>varchar</type>
+			<description>Invoice amount</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_OBJECT</name>
+			<type>varchar</type>
+			<description>Object of invoice</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_OBJECT_VAL</name>
+			<type>varchar</type>
+			<description>Object of invoice</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DUE_DATE</name>
+			<type>varchar</type>
+			<description>Due date according to the contract</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>EXPECTED_PAYMENT_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REMAINING_TERM</name>
+			<type>varchar</type>
+			<description>Remaining maturity term</description>
+			<length>10</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_OPINION" description="opinion info of invoice_delivery flow">
+		<column>
+			<name>IIDFO_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION</name>
+			<type>varchar</type>
+			<description>handle opinion key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION_VAL</name>
+			<type>varchar</type>
+			<description>handle opinion name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>OPINION_REFERENCE</name>
+			<type>clob</type>
+			<description>handle opinion reference</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>CHECK_RESULT</name>
+			<type>varchar</type>
+			<description>check result</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CHECK_RESULT_VAL</name>
+			<type>varchar</type>
+			<description>check result</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>REJECT_RESON</name>
+			<type>varchar</type>
+			<description>reject reson key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REJECT_RESON_VAL</name>
+			<type>varchar</type>
+			<description>reject reson name</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>OPINION_TXT</name>
+			<type>varchar</type>
+			<description>handle opinion remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>IMAGE_REMARK</name>
+			<type>varchar</type>
+			<description>image remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CYCLEDATE</name>
+			<type>varchar</type>
+			<description>Auction end</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CYCLE</name>
+			<type>integer</type>
+			<description>Auction cycle</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_CS_RECORD" description="cs record of invoice_delivery apply flow">
+		<column>
+			<name>IIDFCR_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>APPLY_CODE</name>
+			<type>varchar</type>
+			<description>application no.</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>INS_ID</name>
+			<type>varchar</type>
+			<description>insId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>A_ID</name>
+			<type>varchar</type>
+			<description>aId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>REMARK</name>
+			<type>varchar</type>
+			<description>remark</description>
+			<length>1000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_INVOICE_AUCTION" description="invoice auction info">
+		<column>
+			<name>IIDAT_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IIDA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>invoice delivery</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_INVOICE_APPLY</referencing-table>  
+				<referencing-column>IIDA_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>IDA_CODE</name>
+			<type>varchar</type>
+			<description>invoice delivery apply code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICE_ID</name>
+			<type>varchar</type>
+			<description>invoice ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>AUCTION_STATUS</name>
+			<type>varchar</type>
+			<description>auction status</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>AUCTION_STATUS_VAL</name>
+			<type>varchar</type>
+			<description>auction status</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>AUCTION_REASON</name>
+			<type>varchar</type>
+			<description>auction status reason</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>AUCTION_REASON_VAL</name>
+			<type>varchar</type>
+			<description>auction status reason value</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>ACCEPT_TIME</name>
+			<type>varchar</type>
+			<description>accept time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LOCKER_ID</name>
+			<type>varchar</type>
+			<description>locker</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LOCKER_NAME</name>
+			<type>varchar</type>
+			<description>locker</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>START_TIME</name>
+			<type>varchar</type>
+			<description>Auction cycle start time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TIMEOUT_TIME</name>
+			<type>varchar</type>
+			<description>Auction cycle end time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BUYERID</name>
+			<type>varchar</type>
+			<description>bind line buyer id</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BEST_ADVANCE</name>
+			<type>decimal</type>
+			<description>Advance</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BEST_INTEREST</name>
+			<type>decimal</type>
+			<description>Interest</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>VIP_DATE</name>
+			<type>varchar</type>
+			<description>Release date for VIP</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PUBLIC_DATE</name>
+			<type>varchar</type>
+			<description>Release date for public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CLOSE_DATE</name>
+			<type>varchar</type>
+			<description>Auction close date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SIGNED_DATE</name>
+			<type>varchar</type>
+			<description>Signed date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_DATE</name>
+			<type>varchar</type>
+			<description>Disbursed date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAID_DATE</name>
+			<type>varchar</type>
+			<description>Paid date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RETURNS</name>
+			<type>decimal</type>
+			<description>Seller Returns</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BUYER_RETURNS</name>
+			<type>decimal</type>
+			<description>Buyer Returns</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IFACTOR_BUYERFEE</name>
+			<type>decimal</type>
+			<description>Ifactor For Buyer Fee</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>IFACTOR_SELLERFEE</name>
+			<type>decimal</type>
+			<description>Ifactor For Seller Fee</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BANK_BUYERFEE</name>
+			<type>decimal</type>
+			<description>Bank For Buyer Fee</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BANK_SELLERFEE</name>
+			<type>decimal</type>
+			<description>Bank For Seller Fee</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LATE_CHARGE</name>
+			<type>decimal</type>
+			<description>Late Charge</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+	</table>
+	<table name="IF_MGT_INVOICE_DETAIL_AUCTION" description="invoice auction bid detail info">
+		<column>
+			<name>IABD_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APP_PK_ID</name>  
+			<type>varchar</type>
+			<description>invoice line id</description>  
+			<length>20</length>  
+		</column>
+		<column>
+			<name>BUYER_ID</name>
+			<type>varchar</type>
+			<description>Binding buyer line id</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BID_ADVANCE</name>
+			<type>decimal</type>
+			<description>Advance</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BID_INTEREST</name>
+			<type>decimal</type>
+			<description>Interest</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BID_DATE</name>
+			<type>varchar</type>
+			<description>bid date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

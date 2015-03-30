@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<examples_t1_list_query>
+		<item id="EXAMPLES_T1_NAME" desc="">Name</item>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+	</examples_t1_list_query>
+	<examples_t1_list_result>
+		<item id="NAME" desc="">Tên</item>
+		<item id="L1_ID" desc="">Danh sách1</item>
+		<item id="L1_NAME" desc="">Danh sách1</item>
+		<item id="L2_ID" desc="">Danh sách2</item>
+		<item id="L2_NAME" desc="">Danh sách2</item>
+		<item id="L3_ID" desc="">Danh sách3</item>
+		<item id="L3_NAME" desc="">Danh sách3_name</item>
+		<item id="T2_PKID" desc="">T2.Khóa chính</item>
+		<item id="T2_NAME" desc="">T2.Tên</item>
+		<item id="T3_NUMBER" desc="">3.Số</item>
+		<item id="T3_MONEY" desc="">T3.Tiền</item>
+		<item id="T3_PKID" desc="">T3.Khóa chính</item>
+		<item id="T3_NAME" desc="">T3.Tên</item>
+		<item id="T3_TYPE" desc="">T3.Loại</item>
+		<item id="T4_PKID" desc="">T4.Khóa chính</item>
+		<item id="T4_NAME" desc="">T4.Tên</item>
+		<item id="T4_TYPE" desc="">T4.Loại</item>
+		<item id="T5_PKID" desc="">T5.Khóa chính</item>
+		<item id="T5_NAME" desc="">T5.Tên</item>
+		<item id="T5_TYPE" desc="">T5.Loại</item>
+		<item id="T6_PKID" desc="">T6.Khóa chính</item>
+		<item id="SP" desc="">Vận hành</item>
+	</examples_t1_list_result>
+	<ifactor_image_items_list_query>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">Tên Hình ảnh</item>
+	</ifactor_image_items_list_query>
+	<ifactor_image_items_list_result>
+		<item id="ITEM_CODE" desc="">Mã Hình ảnh</item>
+		<item id="ITEM_NAME" desc="">Tên Hình ảnh</item>
+		<item id="IS_MUST_NEED_NAME" desc="">Nếu Tên là Bắt buộc</item>
+		<item id="SP" desc="">Vận hành</item>
+	</ifactor_image_items_list_result>
+	<ifactor_param_setting_list_query>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_CODE" desc="">Hệ thống Tự động Tạo Mã Tham số</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_VALUE" desc="">Giá trị Tham số</item>
+	</ifactor_param_setting_list_query>
+	<ifactor_param_setting_list_result>
+		<item id="PARAM_CODE" desc="">Mã Tham số</item>
+		<item id="PARAM_VALUE" desc="">Giá trị Tham số</item>
+		<item id="PARAM_DESC" desc="">Mô tả Tham số</item>
+		<item id="LAST_MODIFY_TIME" desc="">Lần cuối cùng Chỉnh sửa</item>
+	</ifactor_param_setting_list_result>
+	<ifactor_invoice_delivery_auction_list_query>
+		<item id="IF_MGT_INVOICE_AUCTION_INVOICE_ID" desc="">ID Hóa đơn</item>
+	</ifactor_invoice_delivery_auction_list_query>
+	<ifactor_invoice_delivery_auction_list_result>
+		<item id="INVOICE_ID" desc="">ID Hóa đơn</item>
+		<item id="IDA_CODE" desc="">Số thứ tự hồ sơ tải hóa đơn</item>
+		<item id="ACCEPT_TIME" desc="">Tên được chấp nhận</item>
+		<item id="LOCKER_NAME" desc="">Người dùng bị khóa</item>
+		<item id="IIDA_PK_ID" desc="">Tải Hóa đơn</item>
+	</ifactor_invoice_delivery_auction_list_result>
+	<if_mgt_dfield_match_list_query>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW" desc="">Quy trình</item>
+		<item id="IF_MGT_DFIELD_MATCH_MGT_FIELD" desc="">Tên Danh sách</item>
+	</if_mgt_dfield_match_list_query>
+	<if_mgt_dfield_match_list_result>
+		<item id="WORK_FLOW" desc="">Quy trình</item>
+		<item id="MGT_FIELD" desc="">Tên Danh sách</item>
+		<item id="APP_FIELD" desc="">Tên Hồ sơ</item>
+		<item id="DESCRIPTION" desc="">Mô tả</item>
+		<item id="SP" desc="">Vận hành</item>
+	</if_mgt_dfield_match_list_result>
+	<if_mgt_sysvars_list_result>
+		<item id="CODE" desc="">Mã</item>
+		<item id="DESCRIBE" desc="">Mô tả Mã</item>
+		<item id="VALUE" desc="">Giá trị</item>
+		<item id="SP" desc="">Vận hành</item>
+	</if_mgt_sysvars_list_result>
+	<ifactor_blacklist_result>
+		<item id="CPNUMBER" desc="">Số</item>
+		<item id="CPNAME" desc="">Tên</item>
+		<item id="BLTYPEID" desc="">ID Loại Danh sách đen</item>
+		<item id="BLTYPE" desc="">Loại Danh sách đen</item>
+		<item id="BLDATE" desc="">Ngày vào danh sách đen</item>
+		<item id="BLCAUSE" desc="">Lý do vào Danh sách đen</item>
+		<item id="FLOWTYPE" desc="">Loại Quy trình</item>
+		<item id="BLSTATUS" desc="">Trạng thái</item>
+	</ifactor_blacklist_result>
+	<ifactor_blacklist_result_result>
+		<item id="DUPTYPE" desc="">Xuất hiện trong Danh sách đen</item>
+	</ifactor_blacklist_result_result>
+	<buyer_apply_list_query>	
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">Application Date</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS" desc="">Investor Type</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Approval Status</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Approval Status</item>
+	</buyer_apply_list_query>
+	<buyer_apply_list_result>
+		<item id="SP" desc="">Details</item>
+		<item id="BA_APPLY_DATE" desc="">Application Date</item>
+		<item id="BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="INVEST_AS" desc="">Investor Type</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="FIRST_NAME" desc="">First Name</item>
+		<item id="LAST_NAME" desc="">Last Name</item>
+		<item id="BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="A_ID" desc="">Primary Key</item>
+		<item id="A_STATE" desc="">Activity State{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">Locked User ID</item>
+	</buyer_apply_list_result>
+	<buyer_apply_confirm_list_query>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">Application Date</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS" desc="">Investor Type</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Approval Status</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Approval Status</item>
+	</buyer_apply_confirm_list_query>
+	<buyer_apply_confirm_list_result>
+		<item id="SP" desc="">Details</item>
+		<item id="BA_APPLY_DATE" desc="">Application Date</item>
+		<item id="BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="INVEST_AS" desc="">Investor Type</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="FIRST_NAME" desc="">First Name</item>
+		<item id="LAST_NAME" desc="">Last Name</item>
+		<item id="BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="A_ID" desc="">Primary Key</item>
+		<item id="A_STATE" desc="">Activity State{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">Locked User ID</item>
+	</buyer_apply_confirm_list_result>
+	<buyer_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">ID Hoạt động</item>
+		<item id="INS_ID" desc="">ID Khởi tạo</item>
+		<item id="A_TITLE" desc="">Bước Phê duyệt</item>
+		<item id="A_LOCKNAME" desc="">Người dùng đảm nhiệm</item>
+		<item id="A_ETIME" desc="">Thời gian ký hợp đồng</item>
+		<item id="OPINION_VAL" desc="">Quyết định</item>
+		<item id="OPINION_TXT" desc="">Đánh dấu</item>
+		<item id="TABLEVIEW" desc="">ID Bảng Hiển thị</item>
+	</buyer_apply_opinion_query_list_result>
+	<buyer_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">Bước Phê duyệt</item>
+		<item id="USER_NAME" desc="">Người dùng đảm nhiệm</item>
+		<item id="CREATE_DATE" desc="">Ngày tạo Dữ liệu</item>
+		<item id="REMARK" desc="">Đánh dấu</item>
+	</buyer_apply_cs_record_list_result>
+	<buyer_apply_profile_query_list_query>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY" desc="">Tên Công ty</item>
+		<item id="IF_MGT_BUYER_PROFILE_RELEASETIME" desc="">Ngày phát hành</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYRNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">Loại Nhà đầu tư</item>
+	</buyer_apply_profile_query_list_query>
+	<buyer_apply_profile_query_list_result>
+		<item id="CINUMBER" desc="">ID Khách hàng</item>
+		<item id="RELEASETIME" desc="">Ngày phát hành</item>
+		<item id="INVEST" desc="">Loại Nhà đầu tư</item>
+		<item id="FIRST_NAME" desc="">Tên</item>
+		<item id="LAST_NAME" desc="">Họ</item>
+		<item id="EMAIL" desc="">Địa chỉ email</item>
+		<item id="COMPANY" desc="">Tên Công ty</item>
+		<item id="COMPANYRNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="COMPANYTAXCODE" desc="">Mã số Thuế</item>
+		<item id="ISINVEST" desc="">Được đầu tư như là</item>
+	</buyer_apply_profile_query_list_result>
+	<sme_apply_cs_monitor_list_query>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">Tên</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Họ</item>
+		<item id="IF_MGT_CP_APPLY_MYEMAIL" desc="">Email</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">ID Trạng thái</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+	</sme_apply_cs_monitor_list_query>
+	<sme_apply_cs_monitor_list_result>
+		<item id="CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+		<item id="MYTITLE" desc="">Danh xưng</item>
+		<item id="MYFNAME" desc="">Tên</item>
+		<item id="MYLNAME" desc="">Họ</item>
+		<item id="MYGENDER" desc="">Giới tính</item>
+		<item id="MYDOB" desc="">Ngày sinh</item>
+		<item id="MYIDTYPE" desc="">Loại ID</item>
+		<item id="MYIDNUMBER" desc="">Số ID</item>
+		<item id="MYMPHONE" desc="">Số điện thoại</item>
+		<item id="DATAMODIFY" desc="">Thay đổi Dữ liệu</item>
+		<item id="CSCALLME" desc="">Đã gọi SME</item>
+		<item id="CPSTATUS" desc="">ID Trạng thái</item>
+		<item id="CPSTATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+	</sme_apply_cs_monitor_list_result>
+	<buyer_apply_cs_monitor_list_query>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">Tên</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Họ</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_EMAIL" desc="">Email</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Khóa Trạng thái Phê duyệt</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">Ngày nộp Hồ sơ</item>
+	</buyer_apply_cs_monitor_list_query>
+	<buyer_apply_cs_monitor_list_result>
+		<item id="BA_APPLY_CODE" desc="">Số Hồ sơ</item>
+		<item id="BA_APPLY_DATE" desc="">Ngày nộp Hồ sơ</item>
+		<item id="TITLE" desc="">Danh xưng</item>
+		<item id="FIRST_NAME" desc="">Tên</item>
+		<item id="LAST_NAME" desc="">Họ</item>
+		<item id="ID_NUMBER" desc="">Số ID</item>
+		<item id="NATIONALITY" desc="">Quốc tịch</item>
+		<item id="BA_STATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+	</buyer_apply_cs_monitor_list_result>
+	<delivery_apply_cs_monitor_list_query>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Người đại diện</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Tên công ty</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">Khóa Trạng thái Phê duyệt</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">Ngày nộp</item>
+	</delivery_apply_cs_monitor_list_query>
+	<delivery_apply_cs_monitor_list_result>
+		<item id="IDA_CODE" desc="">Số thứ tự nộp</item>
+		<item id="IDA_DATE" desc="">Ngày nộp</item>
+		<item id="COMPANY_NAME" desc="">Tên Công ty</item>
+		<item id="IIDSI_USER" desc="">Người đại diện</item>
+		<item id="IDA_STATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+	</delivery_apply_cs_monitor_list_result>
+	<invoice_delivery_apply_list_query>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">Approval Status</item>
+	</invoice_delivery_apply_list_query>
+	<invoice_delivery_apply_list_result>
+		<item id="SP" desc="">Details</item>
+		<item id="IDA_DATE" desc="">Submission Date</item>
+		<item id="IDA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="REGIST_NO" desc="">Registration No.</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item> 
+		<item id="IDA_STATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="INS_ID" desc="">Khóa chính</item>
+		<item id="A_ID" desc="">Khóa chính</item>
+		<item id="A_STATE" desc="">Trạng thái Hoạt động{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">ID Người dùng bị khóa</item>
+	</invoice_delivery_apply_list_result>
+	<delivery_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">ID Hoạt động</item>
+		<item id="INS_ID" desc="">ID Khởi tạo</item>
+		<item id="A_TITLE" desc="">Bước Phê duyệt</item>
+		<item id="A_LOCKNAME" desc="">Người dùng đảm nhiệm</item>
+		<item id="A_ETIME" desc="">Thời gian ký</item>
+		<item id="OPINION_VAL" desc="">Quyết định</item>
+		<item id="OPINION_TXT" desc="">Đánh dấu</item>
+		<item id="TABLEVIEW" desc="">ID Bảng Hiển thị</item>
+	</delivery_apply_opinion_query_list_result>
+	<invoice_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">Bước Phê duyệt</item>
+		<item id="USER_NAME" desc="">Người dùng đảm nhiệm</item>
+		<item id="CREATE_DATE" desc="">Ngày tạo</item>
+		<item id="REMARK" desc="">Đánh dấu</item>
+	</invoice_apply_cs_record_list_result>
+	<buyer_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</buyer_apply_flow_monitor_query>
+	<buyer_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="FIRST_NAME" desc="">First Name</item>
+		<item id="LAST_NAME" desc="">Last Name</item>
+		<item id="ID_NUMBER" desc="">ID Number</item>
+		<item id="MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</buyer_apply_flow_monitor_result>
+	<buyer_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</buyer_apply_flow_monitor1_query>
+	<buyer_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="FIRST_NAME" desc="">First Name</item>
+		<item id="LAST_NAME" desc="">Last Name</item>
+		<item id="ID_NUMBER" desc="">ID Number</item>
+		<item id="MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</buyer_apply_flow_monitor1_result>
+	<buyer_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</buyer_apply_flow_monitor2_query>
+	<buyer_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="BA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="FIRST_NAME" desc="">First Name</item>
+		<item id="LAST_NAME" desc="">Last Name</item>
+		<item id="ID_NUMBER" desc="">ID Number</item>
+		<item id="MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</buyer_apply_flow_monitor2_result>
+	<invoice_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</invoice_apply_flow_monitor_query>
+	<invoice_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</invoice_apply_flow_monitor_result>
+	<invoice_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</invoice_apply_flow_monitor1_query>
+	<invoice_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</invoice_apply_flow_monitor1_result>
+	<invoice_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</invoice_apply_flow_monitor2_query>
+	<invoice_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IDA_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</invoice_apply_flow_monitor2_result>
+	<sme_apply_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Updated Date</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Company Name</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Registration No.</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</sme_apply_flow_monitor_query>
+	<sme_apply_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="CPNAME" desc="">Company Name</item>
+		<item id="CPNUMBER" desc="">Registration No.</item>
+		<item id="MYFNAME" desc="">First Name</item>
+		<item id="MYLNAME" desc="">Last Name</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</sme_apply_flow_monitor_result>
+	<sme_apply_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Updated Date</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Company Name</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Registration No.</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</sme_apply_flow_monitor1_query>
+	<sme_apply_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="CPNAME" desc="">Company Name</item>
+		<item id="CPNUMBER" desc="">Registration No.</item>
+		<item id="MYFNAME" desc="">First Name</item>
+		<item id="MYLNAME" desc="">Last Name</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</sme_apply_flow_monitor1_result>
+	<sme_apply_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Updated Date</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Company Name</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Registration No.</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</sme_apply_flow_monitor2_query>
+	<sme_apply_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Decision</item>
+		<item id="CPNAME" desc="">Company Name</item>
+		<item id="CPNUMBER" desc="">Registration No.</item>
+		<item id="MYFNAME" desc="">First Name</item>
+		<item id="MYLNAME" desc="">Last Name</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</sme_apply_flow_monitor2_result>
+	<if_scoring_category_query>
+		<item id="IF_MGT_SCORING_CATEGORY_ENTERPRISE" desc="">Loại hình Doanh nghiệp</item>
+	</if_scoring_category_query>
+	<if_scoring_category_result>
+		<item id="CATEGORY" desc="">Danh mục</item>
+		<item id="EQUATIONDES" desc="">Mô tả Phương trình</item>
+		<item id="SP" desc="">Vận hành</item>
+	</if_scoring_category_result>
+	<if_scoring_equation_result>
+		<item id="CATEGORYID" desc="">ID Danh mục Chấm điểm</item>
+		<item id="EQUATIONID" desc="">ID Phương trình Báo cáo Tài chính</item>
+		<item id="EQUATIONDES" desc="">Mô tả Phương trình Chấm điểm</item>
+		<item id="SCORE" desc="">Điểm</item>
+		<item id="MINIMUM" desc="">Thấp nhất</item>
+		<item id="MINIMUMOPE" desc="">Hoạt động Tương ứng Giá trị Lớn nhất</item>
+		<item id="MAXIMUM" desc="">Cao nhất</item>
+		<item id="MAXIMUMOPE" desc="">Hoạt động Tương ứng Giá trị Nhỏ nhất</item>
+	</if_scoring_equation_result>
+	<if_scoring_items_list_result>
+		<item id="CP_TYPE_VAL" desc="">Loại hình Doanh nghiệp</item>
+		<item id="CATALOG_NAME" desc="">Tên Danh mục Báo cáo Tài chính</item>
+		<item id="ITEM_CODE" desc="">Mã Tham số</item>
+		<item id="ITEM_TYPE" desc="">Loại Tham số</item>
+		<item id="ITEM_VALUE" desc="">Giá trị Tham số</item>
+		<item id="ITEM_FUNC" desc="">Chức năng Tham số</item>
+		<item id="FIELD_NAME" desc="">Tên Trường dữ liệu</item>
+		<item id="CODE_NAME" desc="">Tên Mã</item>
+		<item id="SP" desc="">Vận hành</item>
+	</if_scoring_items_list_result>
+	<if_scoring_rating_list_result>
+		<item id="CP_TYPE_VAL" desc="">Loại hình Doanh nghiệp</item>
+		<item id="RATING" desc="">Xếp hạng Khung đánh giá Tổng thể</item>
+		<item id="PDLOW" desc="">PD-Thấp</item>
+		<item id="PDHIGH" desc="">PD-Cao</item>
+		<item id="RATING_LEVEL_VAL" desc="">Xếp hạng Rủi ro</item>
+		<item id="SP" desc="">Vận hành</item>
+	</if_scoring_rating_list_result>
+	<sme_apply_list_query>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Application Date</item>
+		<item id="IF_MGT_CP_APPLY_UPDATEDDATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Company Name</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Registration No.</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS" desc="">Approval Status</item>
+		<item id="IF_MGT_CP_APPLY_CPSTATUS_VAL" desc="">Approval Status</item>	
+	</sme_apply_list_query>
+	<sme_apply_list_result>
+		<item id="SP" desc="">Details</item>
+		<item id="CPCTIME" desc="">Application Date</item>
+		<item id="UPDATEDDATE" desc="">Last Update Date</item>
+		<item id="CPNAME" desc="">Company Name</item>
+		<item id="CPNUMBER" desc="">Registration No.</item>
+		<item id="MYFNAME" desc="">First Name</item>
+		<item id="MYLNAME" desc="">Last Name</item>
+		<item id="CPSTATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="A_ID" desc="">Primary Key</item>
+		<item id="A_STATE" desc="">Activity State{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">Locked User ID</item>
+	</sme_apply_list_result>
+	<sme_apply_remind_list_query>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">Tên</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Họ</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+	</sme_apply_remind_list_query>
+	<sme_apply_remind_list_result>
+		<item id="SA_APPLY_CODE" desc="">Số Hồ sơ</item>
+		<item id="MYTITLE" desc="">Danh xưng</item>
+		<item id="MYFNAME" desc="">Tên</item>
+		<item id="MYLNAME" desc="">Họ</item>
+		<item id="MYIDNUMBER" desc="">Số ID</item>
+		<item id="CPNAME" desc="">Tên Công ty</item>
+		<item id="CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="CPDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+		<item id="CPSTATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="REMIND" desc="">Hoàn thành Nhắc nhở</item>
+	</sme_apply_remind_list_result>
+	<sme_apply_locked_list_query>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">Tên</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Họ</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+	</sme_apply_locked_list_query>
+	<sme_apply_locked_list_result>
+		<item id="MYTITLE" desc="">Danh xưng</item>
+		<item id="MYFNAME" desc="">Tên</item>
+		<item id="MYLNAME" desc="">Họ</item>
+		<item id="MYIDNUMBER" desc="">Số ID</item>
+		<item id="CPNAME" desc="">Tên Công ty</item>
+		<item id="CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="CPDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+		<item id="CPSTATUS_VAL" desc="">Trạng thái Phê duyệt</item>
+		<item id="INS_ID" desc="">Khóa chính</item>
+		<item id="A_ID" desc="">Khóa chính</item>
+		<item id="A_STATE" desc="">Trạng thái Hoạt động{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">ID Người dùng bị khóa</item>
+	</sme_apply_locked_list_result>
+	<sme_todo_assign_list_query>
+		<item id="IF_MGT_CP_APPLY_MYIDNUMBER" desc="">Số ID</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+	</sme_todo_assign_list_query>
+	<sme_todo_assign_list_result>
+		<item id="A_ID" desc="">Khóa chính</item>
+		<item id="A_STATE" desc="">Trạng thái Hoạt động{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">ID Người dùng bị khóa</item>
+		<item id="INS_CURRENTSTATUS" desc="">Bước Phê duyệt</item>
+		<item id="A_LOCKNAME" desc="">Người dùng Đảm nhiệm Hiện tại</item>
+		<item id="MYTITLE" desc="">Danh xưng</item>
+		<item id="MYFNAME" desc="">Tên</item>
+		<item id="MYLNAME" desc="">Họ</item>
+		<item id="MYIDNUMBER" desc="">Số ID</item>
+		<item id="CPCTIME" desc="">Ngày nộp Hồ sơ</item>
+		<item id="CPNAME" desc="">Tên Công ty</item>
+		<item id="CPNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+	</sme_todo_assign_list_result>
+	<sme_todo_assign_selectlist_result>
+		<item id="NAME" desc="">Tên Người dùng</item>
+		<item id="EMPLOYEENUMBER" desc="">Số Nhân viên</item>
+		<item id="JOB" desc="">Vị trí</item>
+		<item id="SEX" desc="">Giới tính</item>
+		<item id="PHONE" desc="">Số điện thoại</item>
+	</sme_todo_assign_selectlist_result>
+	<sme_apply_opinion_query_list_result>
+		<item id="A_ID" desc="">ID Hoạt động</item>
+		<item id="INS_ID" desc="">ID Khởi tạo</item>
+		<item id="A_TITLE" desc="">Bước Phê duyệt</item>
+		<item id="A_LOCKNAME" desc="">Người dùng Đảm nhiệm</item>
+		<item id="A_ETIME" desc="">Thời gian ký hợp đồng</item>
+		<item id="OPINION_VAL" desc="">Quyết định</item>
+		<item id="OPINION_TXT" desc="">Đánh dấu</item>
+		<item id="TABLEVIEW" desc="">ID Bảng Hiển thị</item>
+	</sme_apply_opinion_query_list_result>
+	<seller_apply_cs_record_list_result>
+		<item id="S_NAME" desc="">Bước Phê duyệt</item>
+		<item id="USER_NAME" desc="">Người dùng Đảm nhiệm</item>
+		<item id="CREATE_DATE" desc="">Ngày tạo Dữ liệu</item>
+		<item id="REMARK" desc="">Đánh dấu</item>
+	</seller_apply_cs_record_list_result>
+	<sme_apply_profile_query_list_query>
+		<item id="IF_MGT_CP_PROFILE_COMPANY" desc="">Tên Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYCDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYRNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYOIN" desc="">Ngành nghề Kinh doanh</item>
+	</sme_apply_profile_query_list_query>
+	<sme_apply_profile_query_list_result>
+		<item id="CINUMBER" desc="">ID Khách hàng</item>
+		<item id="CREATETIME" desc="">Ngày phát hành</item>
+		<item id="COMPANIESTYPE" desc="">Loại hình Doanh nghiệp</item>
+		<item id="COMPANY" desc="">Tên Công ty</item>
+		<item id="COMPANYRNUMBER" desc="">Số Đăng ký Kinh doanh</item>
+		<item id="COMPANYTAXCODE" desc="">Mã số Thuế</item>
+		<item id="COMPANYCDATE" desc="">Ngày Thành lập Công ty</item>
+		<item id="COMPANYOIN" desc="">Ngành nghề Kinh doanh</item>
+		<item id="RISKLEVEL" desc="">Xếp hạng Rủi ro</item>
+	</sme_apply_profile_query_list_result>
+	<ifactor_vpbank_users_list_query>
+		<item id="IF_MGT_VPBANK_USER_TITLE" desc="">Danh xưng</item>
+		<item id="IF_MGT_VPBANK_USER_FIRST_NAME" desc="">Tên</item>
+		<item id="IF_MGT_VPBANK_USER_LAST_NAME" desc="">Giá trị Gần nhất</item>
+		<item id="IF_MGT_VPBANK_USER_STATUS" desc="">Trạng thái Người dùng</item>
+	</ifactor_vpbank_users_list_query>
+	<ifactor_vpbank_users_list_result>
+		<item id="TITLE" desc="">Danh xưng</item>
+		<item id="FIRST_NAME" desc="">Tên</item>
+		<item id="LAST_NAME" desc="">Họ</item>
+		<item id="GENDER" desc="">Giới tính</item>
+		<item id="POSITION" desc="">Vị trí</item>
+		<item id="EMAIL" desc="">Email</item>
+		<item id="UPDATE_TIME" desc="">Lần Cập nhật Gần nhất</item>
+		<item id="STATUS" desc="">Trạng thái Người dùng</item>
+		<item id="SP" desc="">Vận hành</item>
+	</ifactor_vpbank_users_list_result>
+	<abandoneworkflowlist_query>
+		<item id="WF_INSTANCE_INS_START" desc="">Thời gian Bắt đầu Khởi tạo</item>
+	</abandoneworkflowlist_query>
+	<abandoneworkflowlist_result>
+		<item id="CG_NAME" desc="">Quy trình</item>
+		<item id="INS_START" desc="">Thời gian tạo Dữ liệu</item>
+		<item id="INS_CREATORID" desc="">ID Người khởi tạo</item>
+		<item id="INS_CREATORNAME" desc="">Tên Người khởi tạo</item>
+		<item id="INS_CUNITID" desc="">ID Nhóm khởi tạo</item>
+		<item id="INS_STATE" desc="">Trạng thái Khởi tạo{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+		<item id="A_ID" desc="">Khóa chính</item>
+		<item id="INS_CUNITNAME" desc="">Tên nhóm</item>
+		<item id="SP" desc="">Vận hành</item>
+	</abandoneworkflowlist_result>
+	<allinstancelist_query>
+		<item id="WF_INSTANCE_INS_START" desc="">Thời gian Bắt đầu Khởi tạo</item>
+	</allinstancelist_query>
+	<allinstancelist_result>
+		<item id="ZHUJIAN" desc="">Khóa chính</item>
+		<item id="CG_NAME" desc="">Quy trình</item>
+		<item id="INS_START" desc="">Thời gian tạo Dữ liệu</item>
+		<item id="INS_CURRENTSTATUS" desc="">Trạng thái</item>
+		<item id="INS_CREATORID" desc="">ID Người khởi tạo</item>
+		<item id="INS_STATE" desc="">Trạng thái Khởi tạo{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+		<item id="INS_CREATORNAME" desc="">Người khởi tạo</item>
+		<item id="INS_CUNITID" desc="">ID Nhóm khởi tạo</item>
+		<item id="INS_CUNITNAME" desc="">Tên nhóm</item>
+		<item id="SP" desc="">Vận hành</item>
+	</allinstancelist_result>
+	<flowsteplist_result>
+		<item id="S_NAME" desc="">Tên</item>
+	</flowsteplist_result>
+	<invoice_oriver_list_query>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">Approval Status</item>
+	</invoice_oriver_list_query>
+	<invoice_oriver_list_result>
+		<item id="SP" desc="">Details</item>
+		<item id="IOV_DATE" desc="">Submission Date</item>
+		<item id="IOV_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="REGIST_NO" desc="">Registration No.</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item> 
+		<item id="IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="A_ID" desc="">Primary Key</item>
+		<item id="A_STATE" desc="">Activity State{-4Withdrawn,-3Returned,-2Retrieved,-1Suspended,0Pending,1Processing,2Completed}</item>
+		<item id="A_LOCKID" desc="">Locked User ID</item>
+	</invoice_oriver_list_result>
+	<invoice_oriver_opinion_query_list_result>
+		<item id="A_ID" desc="">Activity ID</item>
+		<item id="INS_ID" desc="">Instance ID</item>
+		<item id="A_TITLE" desc="">Approval Step</item>
+		<item id="A_LOCKNAME" desc="">Responsible Person</item>
+		<item id="A_ETIME" desc="">Signing Time</item>
+		<item id="OPINION_VAL" desc="">Decision</item>
+		<item id="OPINION_TXT" desc="">Remark</item>
+		<item id="TABLEVIEW" desc="">Table View ID</item>
+	</invoice_oriver_opinion_query_list_result>
+	<original_invoice_flow_monitor_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</original_invoice_flow_monitor_query>
+	<original_invoice_flow_monitor_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</original_invoice_flow_monitor_result>
+	<original_invoice_flow_monitor1_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</original_invoice_flow_monitor1_query>
+	<original_invoice_flow_monitor1_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</original_invoice_flow_monitor1_result>
+	<original_invoice_flow_monitor2_query>
+		<item id="WF_INSTANCE_INS_UPDATE" desc="">Last Update Date</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_STATUS" desc="">Approval Status</item>
+		<item id="WF_INSTANCE_INS_CURRENTSTATUSID" desc="">Approval Step</item>
+	</original_invoice_flow_monitor2_query>
+	<original_invoice_flow_monitor2_result>
+		<item id="INS_UPDATE" desc="">Last Updated Time</item>
+		<item id="INS_CURRENTSTATUS" desc="">Approval Step</item>
+		<item id="IOV_STATUS_VAL" desc="">Approval Status</item>
+		<item id="INS_YESORNO" desc="">Final Approval Decision</item>
+		<item id="COMPANY_NAME" desc="">Company Name</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="STICKER_ID" desc="">Invoice Sticker ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="INS_ID" desc="">Primary Key</item>
+		<item id="INS_STATE" desc="">Instance State{-3Draft,-2Withdrawn,-1Suspended,-0Incomplete,1Completed,2Filed}</item>
+	</original_invoice_flow_monitor2_result>
+	<buyer_detail_report_list_query>
+		<item id="IF_MGT_BUYER_DETAIL_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_BUYER_DETAIL_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+	</buyer_detail_report_list_query>
+	<buyer_detail_report_list_result>
+		<item id="BUYER_ID" desc="">Buyer ID</item>
+		<item id="INVESTOR" desc="">Investor type</item>
+		<item id="REGION" desc="">Region</item>
+		<item id="BIDS_PLACED" desc="">Number of bids placed</item>
+		<item id="BIDS_ACCEPTED" desc="">Number of bid accepted</item>
+		<item id="BIDS_SUCCESSFUL" desc="">% of successful bid</item>
+		<item id="NOTSIGNED" desc="">Number of Invoices not signed</item>
+		<item id="CANCELLSUCCESS" desc="">Number of successful auctions cancelled</item>
+		<item id="FINANCED" desc="">Number of invoices financed</item>
+		<item id="FINANCEDAMOUNT" desc="">Total financed amount</item>
+		<item id="INVOICEAMOUNT" desc="">Total invoice amount</item>
+		<item id="TOTALRETURN" desc="">Total Return</item>
+		<item id="ADVANCE" desc="">Weighted average advance (%)</item>
+		<item id="INTEREST" desc="">Weighted average interest (%)</item>
+	</buyer_detail_report_list_result>
+	<buyer_report_list_query>
+		<item id="IF_MGT_BUYER_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_BUYER_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+		<item id="IF_MGT_BUYER_REPORT_REPORTBYTYPE" desc="">Report By Type</item>
+	</buyer_report_list_query>
+	<buyer_report_list_result>
+		<item id="REPORTTYPE" desc="">Report Type</item>
+		<item id="APPLIED" desc="">Applied</item>
+		<item id="ACCEPTED" desc="">Accepted</item>
+		<item id="APPROVAL_RATE" desc="">Approval Rate</item>
+		<item id="INVESTED" desc="">Total Invested Amount</item>
+		<item id="REGULATORY_BLACKLIST" desc="">Regulatory blacklisted</item>
+		<item id="CANCELL_BLACKLIST" desc="">Cancellation blacklisted</item>
+		<item id="REPORTTYPENUM" desc="">Report Type</item>
+	</buyer_report_list_result>
+	<debtor_report_list_query>
+		<item id="IF_MGT_DEBTOR_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_DEBTOR_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+	</debtor_report_list_query>
+	<debtor_report_list_result>
+		<item id="DEBTORNAME" desc="">Debtor Name</item>
+		<item id="UPLOADED_NO" desc="">Number of invoices uploaded</item>
+		<item id="ACCEPTED_NO" desc="">Number of invoices accepted</item>
+		<item id="DISBURSED_NO" desc="">Number of invoices disbursed</item>
+		<item id="DISBURSED_AMOUNT" desc="">Total invoice amount of disbursed invoices</item>
+		<item id="OVERDUE_NO" desc="">Number of overdue invoices</item>
+		<item id="OVERDUE_AMOUNT" desc="">Total overdue amount</item>
+		<item id="OVERDUE_DAYS" desc="">Total overdue days</item>
+		<item id="OVER_THIRTYNO" desc="">Number of invoices over 30 days past due</item>
+		<item id="OVER_THIRTYAMOUNT" desc="">Amount over 30 days past due</item>
+		<item id="OVER_AVERAGEDAYS" desc="">Average overdue days</item>
+		<item id="SETTLED_NO" desc="">Number of invoice settled</item>
+		<item id="SETTLED_AMOUNT" desc="">Total invoice amount of settled invoice</item>
+		<item id="SETTLEMENT_DAYS" desc="">Total settlement days</item>
+		<item id="AVERAGE_CPAYMENT" desc="">Average number days of late payment according to contract due date</item>
+		<item id="AVERAGE_SPAYMENT" desc="">Average number days of late payment according to expected settlement date</item>
+	</debtor_report_list_result>
+	<inv_fee_report_list_query>
+		<item id="IF_MGT_INV_FEE_REPORT_INV_ID" desc="">ID Hóa đơn</item>
+		<item id="IF_MGT_INV_FEE_REPORT_FEE_TYPE" desc="">Loại Phí</item>
+		<item id="IF_MGT_INV_FEE_REPORT_FEE_TYPE_VAL" desc="">Loại Phí</item>
+	</inv_fee_report_list_query>
+	<inv_fee_report_list_result>
+		<item id="INV_ID" desc="">ID Hóa đơn</item>
+		<item id="FEE_TYPE" desc="">Loại Phí</item>
+		<item id="FEE_AMOUNT" desc="">Giá trị Phí</item>
+		<item id="CUSTOMER_TYPE" desc="">Loại Khách hàng</item>
+		<item id="PAYER_ID" desc="">ID Người Thanh toán</item>
+		<item id="PAID_TIME" desc="">Thời gian Thanh toán</item>
+	</inv_fee_report_list_result>
+	<if_mgt_interest_report_list_query>
+		<item id="IF_MGT_INTEREST_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+		<item id="IF_MGT_INTEREST_REPORT_INV_ID" desc="">ID Hóa đơn</item>
+		<item id="IF_MGT_INTEREST_REPORT_SELLER_ID" desc="">ID Người bán</item>
+	</if_mgt_interest_report_list_query>
+	<if_mgt_interest_report_list_result>
+		<item id="AMOUNT" desc="">Giá trị</item>
+		<item id="INV_AMOUNT" desc="">Giá trị Hóa đơn</item>
+		<item id="INV_ID" desc="">ID Hóa đơn</item>
+		<item id="SELLER_ID" desc="">ID Người bán</item>
+		<item id="PAID_TIME" desc="">Thời gian Thanh toán</item>
+		<item id="RATE" desc="">Xếp hạng</item>
+		<item id="DIBURSE_DATE" desc="">Ngày Giải ngân</item>
+		<item id="TO_DATE" desc="">Đến Ngày</item>
+		<item id="ACTUAL_TERM" desc="">Kì hạn Thực</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_interest_report_list_result>
+	<if_mgt_late_interest_report_list_query>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_INV_ID" desc="">ID Hóa đơn</item>
+		<item id="IF_MGT_LATE_INTEREST_REPORT_PAYER_ID" desc="">ID Người thanh toán</item>
+	</if_mgt_late_interest_report_list_query>
+	<if_mgt_late_interest_report_list_result>
+		<item id="AMOUNT" desc="">Giá trị</item>
+		<item id="INV_AMOUNT" desc="">Giá trị Hóa đơn</item>
+		<item id="INV_ID" desc="">ID Hóa đơn</item>
+		<item id="PAYER_ID" desc="">ID Người Thanh toán</item>
+		<item id="PAID_TIME" desc="">Thời gian Thanh toán</item>
+		<item id="RATE" desc="">Xếp hạng</item>
+		<item id="EXP_SETTLE_DATE" desc="">Ngày Thanh toán Dự kiến</item>
+		<item id="TO_DATE" desc="">Đến Ngày</item>
+		<item id="LATE_DAYS" desc="">Số ngày Chậm trả</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_late_interest_report_list_result>
+	<if_mgt_tfi_region_report_list_query>
+		<item id="IF_MGT_TFI_REGION_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_region_report_list_query>
+	<if_mgt_tfi_region_report_list_result>
+		<item id="REGION" desc="">Vùng</item>
+		<item id="SELLERS_NUM" desc="">Số lượng Người bán</item>
+		<item id="APPROVED_INV_NUM" desc="">Số lượng Hóa đơn đã Phê Duyệt</item>
+		<item id="DISBURSE_INV_NUM" desc="">Số lượng Hóa đơn đã Giải ngân</item>
+		<item id="TOTAL_TRANS_FEES" desc="">Tổng Phí giao dịch</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">Tổng Phí hủy giao dịch</item>
+		<item id="TOTAL_LATE_INFEES" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="TOTAL_INTEREST" desc="">Tổng Giá trị Lãi suất</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_region_report_list_result>
+	<if_mgt_tfi_segment_report_list_query>
+		<item id="IF_MGT_TFI_SEGMENT_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_segment_report_list_query>
+	<if_mgt_tfi_segment_report_list_result>
+		<item id="SEGMENT" desc="">Phân khúc</item>
+		<item id="SELLERS_NUM" desc="">Số lượng Người bán</item>
+		<item id="APPROVED_INV_NUM" desc="">Số lượng Hóa đơn đã Phê Duyệt</item>
+		<item id="DISBURSE_INV_NUM" desc="">Số lượng Hóa đơn đã Giải ngân</item>
+		<item id="TOTAL_TRANS_FEES" desc="">Tổng Phí giao dịch</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">Tổng Phí hủy giao dịch</item>
+		<item id="TOTAL_LATE_INFEES" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="TOTAL_INTEREST" desc="">Tổng Giá trị Lãi suất</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_segment_report_list_result>
+	<if_mgt_tfi_rating_report_list_query>
+		<item id="IF_MGT_TFI_RATING_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_rating_report_list_query>
+	<if_mgt_tfi_rating_report_list_result>
+		<item id="SELLER_RATING" desc="">Xếp hạng Người bán</item>
+		<item id="SELLERS_NUM" desc="">Số lượng Người bán</item>
+		<item id="APPROVED_INV_NUM" desc="">Số lượng Hóa đơn đã Phê Duyệt</item>
+		<item id="DISBURSE_INV_NUM" desc="">Số lượng Hóa đơn đã Giải ngân</item>
+		<item id="TOTAL_TRANS_FEES" desc="">Tổng Phí giao dịch</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">Tổng Phí hủy giao dịche</item>
+		<item id="TOTAL_LATE_INFEES" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="TOTAL_INTEREST" desc="">Tổng Giá trị Lãi suất</item>
+		<item id="TOTAL_LATE_INTEREST" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfi_rating_report_list_result>
+	<if_mgt_tfib_region_report_list_query>
+		<item id="IF_MGT_TFIB_REGION_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfib_region_report_list_query>
+	<if_mgt_tfib_region_report_list_result>
+		<item id="REGION" desc="">Vùng</item>
+		<item id="BUYERS_NUM" desc="">Số lượng Người mua</item>
+		<item id="TOTAL_TRANS_FEES" desc="">Tổng Phí giao dịch</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">Tổng Phí Hủy giao dịch</item>
+		<item id="TOTAL_LATE_INFEES" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="TOTAL_INTEREST" desc="">Tổng Giá trị Lãi suất</item>
+		<item id="PAID_TIME" desc="">Thời gian Thanh toán</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfib_region_report_list_result>
+	<if_mgt_tfib_type_report_list_query>
+		<item id="IF_MGT_TFIB_TYPE_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfib_type_report_list_query>
+	<if_mgt_tfib_type_report_list_result>
+		<item id="TYPE" desc="">Type</item>
+		<item id="BUYERS_NUM" desc="">Số lượng Người mua</item>
+		<item id="TOTAL_TRANS_FEES" desc="">Tổng Phí Giao dịch</item>
+		<item id="TOTAL_CANCEL_FEES" desc="">Tổng Phí Hủy giao dịch</item>
+		<item id="TOTAL_LATE_INFEES" desc="">Tổng Giá trị Lãi suất Chậm trả</item>
+		<item id="TOTAL_INTEREST" desc="">Tổng Giá trị Lãi suất</item>
+		<item id="PAID_TIME" desc="">Thời Gian Thanh toán</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_tfib_type_report_list_result>
+	<invoice_report_list_query>
+		<item id="IF_MGT_INVOICE_REPORT_REPORTDATE" desc="">Ngày báo cáo</item>
+		<item id="IF_MGT_INVOICE_REPORT_UPLOADDATE" desc="">Ngày tải lên</item>
+		<item id="IF_MGT_INVOICE_REPORT_REPORTBYTYPE" desc="">Báo cáo theo loại</item>
+	</invoice_report_list_query>
+	<invoice_report_list_result>
+		<item id="REPORTTYPE" desc="">Loại báo cáo</item>
+		<item id="UPLOADED_NO" desc="">Tải lên #</item>
+		<item id="UPLOADED_AMOUNT" desc="">Tải lên $</item>
+		<item id="INPRO_NO" desc="">Đang xử lý #</item>
+		<item id="INPRO_AMOUNT" desc="">Đang xử lý $</item>
+		<item id="REJECTED_NO" desc="">Từ chối #</item>
+		<item id="REJECTED_AMOUNT" desc="">Từ chối $</item>
+		<item id="ACCEPTED_NO" desc="">Chấp nhận #</item>
+		<item id="ACCEPTED_AMOUNT" desc="">Chấp nhận $</item>
+		<item id="REOPEN_NO" desc="">Mở lại #</item>
+		<item id="REOPEN_AMOUNT" desc="">Mở lại $</item>
+		<item id="INAUCBID_NO" desc="">Quá trình đấu giá: Đã được đặt giá #</item>
+		<item id="INAUCBID_AMOUNT" desc="">Quá trình đấu giá: Đã được đặt giá $</item>
+		<item id="INAUCUNBID_NO" desc="">Quá trình đấu giá: Chưa được đặt giá #</item>
+		<item id="INAUCUNBID_AMOUNT" desc="">Quá trình đấu giá: Chưa được đặt giá $</item>
+		<item id="DELISTED_NO" desc="">Gỡ hóa đơn #</item>
+		<item id="DELISTED_AMOUNT" desc="">Gỡ hóa đơn $</item>
+		<item id="DEALED_NO" desc="">Giao dịch thành công #</item>
+		<item id="DEALED_AMOUNT" desc="">Giao dịch thành công $</item>
+		<item id="UNDEALED_NO" desc="">Giao dịch không thành công #</item>
+		<item id="UNDEALED_AMOUNT" desc="">Giao dịch không thành công $</item>
+		<item id="UNDISBURSED_NO" desc="">Giải ngân không thành công #</item>
+		<item id="UNDISBURSED_AMOUNT" desc="">Giải ngân không thành công $</item>
+		<item id="DISBURSED_NO" desc="">Giải ngân thành công #</item>
+		<item id="DISBURSED_AMOUNT" desc="">Giải ngân thành công $</item>
+		<item id="SETTLEDED_NO" desc="">Thanh toán #</item>
+		<item id="SETTLEDED_AMOUNT" desc="">Thanh toán $</item>
+		<item id="OVERDUE_NO" desc="">Quá hạn #</item>
+		<item id="OVERDUE_AMOUNT" desc="">Quá hạn $</item>
+		<item id="REPORTTYPENUM" desc="">Loại báo cáo</item>
+	</invoice_report_list_result>
+	<invoice_unfunded_report_list_query>
+		<item id="IF_MGT_UNFUNDED_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_UNFUNDED_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+	</invoice_unfunded_report_list_query>
+	<invoice_unfunded_report_list_result>
+		<item id="INVOICEID" desc="">Invoice ID</item>
+		<item id="INVOICE_AMMOUNT" desc="">Invoice Amount</item>
+		<item id="SELLERID" desc="">Seller ID</item>
+		<item id="SELLER_RATING" desc="">Seller risk master scale rating</item>
+		<item id="SELLER_RISK" desc="">Seller risk rating</item>
+		<item id="REGION" desc="">Seller's Region</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="VIP_DATE" desc="">Release date for VIP</item>
+		<item id="PUBLIC_DATE" desc="">Release date for public</item>
+		<item id="CLOSE_DATE" desc="">Auction close date</item>
+		<item id="DELISTING_DATE" desc="">Delisting Date</item>
+		<item id="SETTLEMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="PDURATION_DAYS" desc="">Auction duration for Public</item>
+		<item id="TDURATION_DAYS" desc="">Total Auction Duration</item>
+		<item id="TOTAL_BIDS" desc="">Total Number of Bids</item>
+		<item id="TERMVIP_DAYS" desc="">Expected Term when released to VIP</item>
+		<item id="TERMPUBLIC_DAYS" desc="">Expected Term when released to Public</item>
+		<item id="TERMCLOSE_DAYS" desc="">Expected Term at Auction Close</item>
+		<item id="READY_ADVANCE" desc="">Ready-to-sell advance (%)</item>
+		<item id="READY_INTEREST" desc="">Ready-to-sell interest (%)</item>
+		<item id="BEST_ADVANCE" desc="">Best offered interest at delisting(%)</item>
+		<item id="BEST_INTEREST" desc="">Best offered advance at delisting(%)</item>
+	</invoice_unfunded_report_list_result>
+	<invoice_disbursed_report_list_query>
+		<item id="IF_MGT_DISBURSED_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_DISBURSED_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+	</invoice_disbursed_report_list_query>
+	<invoice_disbursed_report_list_result>
+		<item id="INVOICEID" desc="">Invoice ID</item>
+		<item id="INVOICE_AMMOUNT" desc="">Invoice Amount</item>
+		<item id="SELLERID" desc="">Seller ID</item>
+		<item id="SELLER_RATING" desc="">Seller risk master scale rating</item>
+		<item id="SELLER_RISK" desc="">Seller risk rating</item>
+		<item id="REGION" desc="">Seller's Region</item>
+		<item id="BUYERID" desc="">Buyer ID</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="VIP_DATE" desc="">Release date for VIP</item>
+		<item id="PUBLIC_DATE" desc="">Release date for public</item>
+		<item id="CLOSE_DATE" desc="">Auction close date</item>
+		<item id="DISBURSEMENT_DATE" desc="">Disbursement Date</item>
+		<item id="SETTLEMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="PDURATION_DAYS" desc="">Auction duration for Public</item>
+		<item id="TDURATION_DAYS" desc="">Total Auction Duration</item>
+		<item id="TOTAL_BIDS" desc="">Total Number of Bids</item>
+		<item id="TERMVIP_DAYS" desc="">Expected Term when released to VIP</item>
+		<item id="TERMPUBLIC_DAYS" desc="">Expected Term when released to Public</item>
+		<item id="TERMCLOSE_DAYS" desc="">Expected Term at Auction Close</item>
+		<item id="DISBURSED_DAYS" desc="">Expected Term at Disbursement</item>
+		<item id="DELISTING_DATE" desc="">Delisting date</item>
+		<item id="DAYSDELISTING" desc="">Number of days till Delisted</item>
+		<item id="ACCEPT_ADVANCE" desc="">Accepted advance (%)</item>
+		<item id="ACCEPT_INTEREST" desc="">Accepted interest (%)</item>
+		<item id="READY_ADVANCE" desc="">Ready-to-sell advance (%)</item>
+		<item id="READY_INTEREST" desc="">Ready-to-sell interest (%)</item>
+		<item id="SELLER_AMOUNT" desc="">Disbursed amount for Seller</item>
+		<item id="SELLER_FEES" desc="">Transaction fees for Seller</item>
+		<item id="BUYER_AMOUNT" desc="">Disbursed amount from Buyer</item>
+		<item id="BUYER_FEES" desc="">Transaction fees for Buyer</item>
+		<item id="BUYER_RETURN" desc="">Expected return for Buyer</item>
+	</invoice_disbursed_report_list_result>
+	<overdue_report_uploaded_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">Query Condition</item>
+		<item id="IF_MGT_OVERDUE_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTBYTYPE" desc="">Report By Type</item>
+	</overdue_report_uploaded_query>
+	<overdue_report_uploaded_result>
+		<item id="REPORTTYPE" desc="">Report Type</item>
+		<item id="NOOVERDUE_NO" desc="">No overdue #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">No overdue $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+		<item id="REPORTTYPENUM" desc="">Report Type</item>
+	</overdue_report_uploaded_result>
+	<overdue_report_settlement_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">Query Condition</item>
+		<item id="IF_MGT_OVERDUE_REPORT_SETTLEMENTDATE" desc="">Settlement Date</item>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTBYTYPE" desc="">Report By Type</item>
+	</overdue_report_settlement_query>
+	<overdue_report_settlement_result>
+		<item id="REPORTTYPE" desc="">Report Type</item>
+		<item id="NOOVERDUE_NO" desc="">No overdue #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">No overdue $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+		<item id="REPORTTYPENUM" desc="">Report Type</item>
+	</overdue_report_settlement_result>
+	<overdue_report_debtor_query>
+		<item id="IF_MGT_OVERDUE_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_OVERDUE_REPORT_QUERYCONDITION" desc="">Query Condition</item>
+		<item id="IF_MGT_OVERDUE_REPORT_SETTLEMENTDATE" desc="">Settlement Date</item>
+	</overdue_report_debtor_query>
+	<overdue_report_debtor_result>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+		<item id="NOOVERDUE_NO" desc="">No overdue #</item>
+		<item id="NOOVERDUE_AMOUNT" desc="">No overdue $</item>
+		<item id="LTHIRTY_NO" desc="">1-30 DPD #</item>
+		<item id="LTHIRTY_AMOUNT" desc="">1-30 DPD $</item>
+		<item id="GTHIRTY_NO" desc="">>30 DPD #</item>
+		<item id="GTHIRTY_AMOUNT" desc="">>30 DPD $</item>
+	</overdue_report_debtor_result>
+	<overdue_detail_report_query>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+		<item id="IF_MGT_OVERDUE_DETAIL_REPORT_SETTLEMENT_DATE" desc="">Expected settlement date</item>
+	</overdue_detail_report_query>
+	<overdue_detail_report_result>
+		<item id="INVOICE_ID" desc="">Invoice ID</item>
+		<item id="INVOICE_AMOUNT" desc="">Invoice amount</item>
+		<item id="SETTLEMENT_DATE" desc="">Expected settlement date</item>
+		<item id="OVERDUE_DAYS" desc="">No. of overdue days</item>
+		<item id="SELLER_ID" desc="">Seller ID</item>
+		<item id="SELLER_RATING" desc="">Seller rating</item>
+		<item id="BUYER_ID" desc="">Buyer ID</item>
+		<item id="DEBTOR" desc="">Debtor Name</item>
+	</overdue_detail_report_result>
+	<if_mgt_debtor_pay_report_list_query>
+		<item id="IF_MGT_DEBTOR_PAY_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+		<item id="IF_MGT_DEBTOR_PAY_REPORT_SETTLE_DATE" desc="">Ngày Thanh toán</item>
+	</if_mgt_debtor_pay_report_list_query>
+	<if_mgt_debtor_pay_report_list_result>
+		<item id="INV_NO" desc="">Số Hóa đơn</item>
+		<item id="SELLER_ID" desc="">ID Người bán</item>
+		<item id="BUYER_ID" desc="">ID Người mua</item>
+		<item id="DEBTOR_NAME" desc="">Tên Người mua hàng</item>
+		<item id="EXP_SETTLE_DATE" desc="">Ngày Thanh toán Dự kiến</item>
+		<item id="SETTLE_DATE" desc="">Ngày Thanh toán</item>
+		<item id="PAY_AMOUNT" desc="">Giá trị Thanh toán</item>
+		<item id="INV_AMOUNT" desc="">Giá trị Hóa đơn</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_debtor_pay_report_list_result>
+	<if_mgt_buyer_pay_report_list_query>
+		<item id="IF_MGT_BUYER_PAY_REPORT_UPLOADED_DATE" desc="">Ngày Tải lên</item>
+		<item id="IF_MGT_BUYER_PAY_REPORT_SETTLE_DATE" desc="">Ngày Thanh toán</item>
+	</if_mgt_buyer_pay_report_list_query>
+	<if_mgt_buyer_pay_report_list_result>
+		<item id="INV_NO" desc="">Số Hóa đơn</item>
+		<item id="SELLER_ID" desc="">ID Người bán</item>
+		<item id="BUYER_ID" desc="">ID Người mua</item>
+		<item id="DEBTOR_NAME" desc="">Tên Người mua hàng</item>
+		<item id="DISBURSED_DATE" desc="">Ngày Giải ngân</item>
+		<item id="SETTLE_DATE" desc="">Ngày Thanh toán</item>
+		<item id="PAY_AMOUNT" desc="">Giá trị Thanh toán</item>
+		<item id="EXP_PAY_AMOUNT" desc="">Giá trị Thanh toán Dự kiến từ Người mua</item>
+		<item id="UPLOADED_DATE" desc="">Ngày Tải lên</item>
+	</if_mgt_buyer_pay_report_list_result>
+	<seller_detail_report_list_query>
+		<item id="IF_MGT_DETAIL_SELLER_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_DETAIL_SELLER_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+	</seller_detail_report_list_query>
+	<seller_detail_report_list_result>
+		<item id="SELLER_ID" desc="">Seller ID</item>
+		<item id="SELLER_RATING" desc="">Seller rating</item>
+		<item id="REGION" desc="">Region</item>
+		<item id="SUBMITTED" desc="">Number of invoices submitted</item>
+		<item id="ACCEPTED_NO" desc="">Number of invoices accepted</item>
+		<item id="ACCEPTED_AMOUNT" desc="">Accpeted invoices amount</item>
+		<item id="DISBURSED_NO" desc="">Number of invoices disbursed</item>
+		<item id="DISBURSED_AMOUNT" desc="">Disbursed invoices amount</item>
+		<item id="AVERAGE_ADVANCE" desc="">Weighted average advance (%)</item>
+		<item id="AVERAGE_INTEREST" desc="">Weighted average interest (%)</item>
+		<item id="CANCELLATION" desc="">Number of cancellations</item>
+	</seller_detail_report_list_result>
+	<seller_report_list_query>
+		<item id="IF_MGT_SELLER_REPORT_REPORTDATE" desc="">Report Date</item>
+		<item id="IF_MGT_SELLER_REPORT_UPLOADDATE" desc="">Uploaded Date</item>
+		<item id="IF_MGT_SELLER_REPORT_REPORTBYTYPE" desc="">Report By Type</item>
+	</seller_report_list_query>
+	<seller_report_list_result>
+		<item id="REPORTTYPE" desc="">Report Type</item>
+		<item id="APPLIED" desc="">Applied</item>
+		<item id="ACCEPTED" desc="">Accepted</item>
+		<item id="FINANCED" desc="">Financed</item>
+		<item id="FRAUD_BLACKLIST" desc="">Fraud blacklisted</item>
+		<item id="CANCELL_BLACKLIST" desc="">Cancellation blacklisted</item>
+		<item id="AVERAGE_ADVANCE" desc="">Weighted average advance (%)</item>
+		<item id="AVERAGE_INTEREST" desc="">Weighted average interest (%)</item>
+		<item id="REPORTTYPENUM" desc="">Report Type</item>
+	</seller_report_list_result>
+</wordbook>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans >   
+	</form-beans>
+
+	<global-exceptions />
+	<global-forwards >
+		<forward path="/ok.jsp" name="ok"></forward>
+		<forward path="/error.jsp" name="error"></forward>
+		<forward path="/result.jsp" name="result"></forward>
+		<forward path="/jsonresult.jsp" name="jsonresult"></forward>
+		<forward path="/xmlresult.jsp" name="xmlresult"></forward>
+	</global-forwards>
+	<action-mappings >
+		<action 
+			path="/flowplotter" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.workflow.WFlowPlotterAction">  
+			<forward path="/workflow/preplotter.jsp" name="preplotter"></forward>
+		</action>
+		<action 
+			path="/flowservice" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.workflow.WorkflowServiceAction">
+		</action>
+		<action 
+			path="/flowmanage" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.workflow.WorkflowManageAction">
+			<forward path="/workflow/numberlist.jsp" name="numberlist"></forward>
+			<forward path="/workflow/editstep4ext.jsp" name="editstep"></forward>
+			<forward path="/workflow/editstateview.jsp" name="editstate"></forward>
+			<forward path="/workflow/findhandle.jsp" name="findhandle"></forward>
+			<forward path="/workflow/importset.jsp" name="importset"></forward>
+			<forward path="/workflow/alyimportset.jsp" name="alyimportset"></forward>
+			<forward path="/workflow/objectset.jsp" name="objectset"></forward>
+			<forward path="/workflow/importdata.jsp" name="importdata"></forward>
+			<forward path="/workflow/importdataok.jsp" name="importdataok"></forward>
+			<forward path="/workflow/doctemplist.jsp" name="doctemplist"></forward>
+			<forward path="/workflow/selectdoctemp.jsp" name="selectdoctemp"></forward>
+			<forward path="/workflow/neudoctemp.jsp" name="neudoctemp"></forward>
+			<forward path="/workflow/editdoctemp.jsp" name="editdoctemp"></forward>
+			<forward path="/workflow/stepsetrange.jsp" name="setrange"></forward>
+		</action>
+	</action-mappings >
+</struts-config>

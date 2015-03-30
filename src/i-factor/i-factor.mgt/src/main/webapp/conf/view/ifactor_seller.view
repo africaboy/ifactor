@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="if_cp_apply_add">
+		<name>seller apply</name>
+		<desc>seller apply</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_CP_APPLY</primaryTable>
+		<size>{height:400,width:1050,columnCount:2}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="APP_PK_ID" tableName="IF_MGT_CP_APPLY" type="hidden" param="{}" />
+			<item name="UPDATEDDATE" tableName="IF_MGT_CP_APPLY" type="hidden" param="{}" dv="@thizTime" />
+			<item name="SA_APPLY_CODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,newline:true,group:'Application Information',groupWidth:1000, groupParam : {groupCollapsible:false},columnCount:2}" idx="000"/>
+			<item name="CPCTIME" type="date" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="001"/>
+
+			<item name="MYTITLE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,newline:true,group:'My Profile',groupWidth:1000, groupParam : {groupCollapsible:false},columnCount:2}" idx="001"/>
+			<item name="MYFNAME" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}"  idx="002"/>
+			<item name="MYLNAME" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="011"/>
+			<item name="MYGENDERID" type="select" label="Gender" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'gender',target:'MYGENDER'}" idx="012"/>
+			<item name="MYGENDER" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="013"/>
+			<item name="MYDOB" type="date" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="014"/>
+			<item name="MYNATIONALITY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="014"/>
+			<item name="MYCOUNTRYID" type="select" label="Country of Residence" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'country',target:'MYCOUNTRY'}" idx="015"/>
+			<item name="MYCOUNTRY" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="016"/>
+			<item name="MYIDTYPEID" type="select" label="ID type" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'idtype',target:'MYIDTYPE'}" idx="017"/>
+			<item name="MYIDTYPE" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="018"/>
+			<item name="MYIDNUMBER" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="019"/>
+			<item name="WLOCALCODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="020"/>
+			<item name="MYWPHONE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="020"/>
+			<item name="MLOCALCODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="021"/>
+			<item name="MYMPHONE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="021"/>
+			<item name="MYPOSITION" type="select" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'position',target:'MYPOSITION'}" idx="022"/>
+			<item name="MYEMAIL" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="023"/>
+			
+			<item name="CPNAME" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,newline:true,group:'Company Info',groupWidth:1000, groupParam : {id: 'Company InfoGroup'},columnCount:2}" idx="024"/>
+			<item name="ISCOMVIETNAM" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}"  idx="024"/>
+			<item name="CPRCOUNTRY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}"  idx="025"/>
+			<item name="CPDATE" type="date" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}"  idx="025"/>
+			<item name="CPNUMBER" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="026"/>
+			<item name="COMPANIESTYPEID" type="select" tableName="IF_MGT_CP_APPLY" param="{wordbook:'enterprise-type',target:'COMPANIESTYPE',allowBlank:false}" idx="026"/>
+			<item name="COMPANIESTYPE" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="026"/>
+			<item name="CPSECTORID" type="select" label="Industry sector company operates in" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'industryOper',target:'CPSECTOR'}" idx="027"/>
+			<item name="CPSECTOR" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="028"/>
+			<item name="CPTAXCODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="029"/>
+			<item name="CPADDRESS" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="030"/>
+			<item name="CPDISTRICT" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="031"/>
+			<item name="CPCITY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="032"/>
+			<item name="CPREIZON" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="033"/>
+			<item name="CPCOUNTRY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="034"/>
+			<item name="CPPOSTCODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="035"/>
+			<item name="ISDFCPADDRESS" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="036"/>
+			<item name="NEARESTSIGN" type="select" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'nearestsign',target:'NEARESTSIGN'}" idx="043"/>
+
+			<item name="ISDFCPADDRESS" tableName="IF_MGT_CP_APPLY"  type="input" param="{newline:true,group:'Different Mailing Address', groupWidth:1000, groupParam : {id: 'differentMailing',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'ISDFCPADDRESS',tableName:'IF_MGT_CP_APPLY',dv:'1'}},columnCount:2}" idx="037"/>
+			<item name="DFCPADDRESS" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="037"/>
+			<item name="DFCPDISTRICT" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="038"/>
+			<item name="DFCPCITY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="039"/>
+			<item name="DFCPREIZON" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="040"/>
+			<item name="DFCPCOUNTRY" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="041"/>
+			<item name="DFCPPOSTCODE" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="042"/>
+
+			<item name="DEBTORS1" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,newline:true,group:'Further Details',groupWidth:1000, groupParam : {id: 'Further InfoGroup'},columnCount:2}" idx="044"/>
+			<item name="DEBTORS2" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="045"/>
+			<item name="DEBTORS3" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="046"/>
+			<item name="DEBTORS4" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="047"/>
+			<item name="DEBTORS5" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="048"/>
+			<item name="TBDDEBTORS1" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="049"/>
+			<item name="INVOICEAMMOUNT" type="select" tableName="IF_MGT_CP_APPLY" param="{readOnly:true,wordbook:'estimatedag',target:'INVOICEAMMOUNT'}" idx="054"/>
+			<item name="SERIALNUM" type="input" tableName="IF_MGT_CP_APPLY" param="{readOnly:true}" idx="055"/>
+			<item name="DATAMODIFY" type="hidden" tableName="IF_MGT_CP_APPLY" param="{}" idx="056"/>
+		</component>
+	</view>
+	<view ID="if_cp_cic">
+		<name>cic</name>
+		<desc>cic</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_CP_CIC</primaryTable>
+		<jsurl>/app/ifactor/js/sme/if_cp_cic.js</jsurl>
+		<size>{height:400,width:650,columnCount:1}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="NCIF" type="radio" tableName="IF_MGT_CP_CIC" param="{wordbook:'cic_haveornone', target:'NCIFLABEL',checkItem:'01',checkFunc:'haveOrnoCic',allowBlank:false,newline:true,group:'CIC',groupWidth:600, groupParam : {groupCollapsible:false},columnCount:1}" idx="01"/>
+			<item name="NCIFLABEL" type="hidden" tableName="IF_MGT_CP_CIC" param="{columnSubCount:'1'}" idx="02"/>
+			<item name="CICKO1" type="select" tableName="IF_MGT_CP_CIC" param="{wordbook:'common_yesorno', target:'CICKO1LABEL',allowBlank:false,returnFunc:'setOpinionCheckResult'}" idx="03"/>
+			<item name="CICKO1LABEL" type="hidden" tableName="IF_MGT_CP_CIC"  idx="04"/>
+			<item name="CICKO2" type="select" tableName="IF_MGT_CP_CIC" param="{wordbook:'common_yesorno', target:'CICKO2LABEL',allowBlank:false,returnFunc:'setOpinionCheckResult'}" idx="05"/>
+			<item name="CICKO2LABEL" type="hidden" tableName="IF_MGT_CP_CIC" param="{}" idx="06"/>
+			<item name="CICKO3" type="number" tableName="IF_MGT_CP_CIC" param="{allowBlank:false,listenBlur:'setOpinionCheckResult3'}" idx="07" />
+			<item name="TSTATEMENT" type="number" tableName="IF_MGT_CP_CIC" param="{allowBlank:false}" idx="08"/>
+		</component>
+	</view>
+	<view ID="if_scoring_result">
+		<name>Scoring result</name>
+		<desc>Scoring result</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<jsurl>/app/ifactor/js/sme/if_scoring_result.js</jsurl>
+		<cssurl>/app/ifactor/css/sme/if_scoring_result.css</cssurl>
+		<primaryTable handleType="single">IF_MGT_SCORING_RESULT</primaryTable>
+		<size>{height:400,width:1050,columnCount:2}</size>
+		<param>{labelAlign:'top'}</param>
+		<component>
+			<item name="CATEGORY1" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true,newline:true,group:'Scoring Result',groupWidth:950,columnCount:2}" idx="001"/>
+			<item name="CATEGORY2" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}"  idx="002"/>
+			<item name="CATEGORY3" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}" idx="003"/>
+			<item name="CATEGORY4" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}" idx="004"/>
+			<item name="CATEGORY5" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}"  idx="005"/>
+			<item name="CATEGORY6" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}" idx="006"/>
+			<item name="CATEGORY7" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}" idx="007"/>
+			<item name="LENDERSNUMBER" type="number" label = "Bureau information" tableName="IF_MGT_SCORING_RESULT" param="{allowBlank:false,readOnly:true,allowDecimals:true}" idx="008"/>
+			<item name="RESULT" type="number" tableName="IF_MGT_SCORING_RESULT" param="{allowDecimals:true,readOnly:true}" idx="009"/>
+			<item name="RISKLEVELLABEL" type="input" label="Risk level" tableName="IF_MGT_SCORING_RESULT" param="{readOnly:true}" idx="010"/>
+			<item name="RISKLEVEL" type="hidden" tableName="IF_MGT_SCORING_RESULT" param="{}" idx="009"/>
+		</component>
+	</view>
+	<view ID="if_cp_profile">
+		<name>SME Profile</name>
+		<desc>SME Profile</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_CP_PROFILE</primaryTable>
+		<size>{height:400,width:1050,columnCount:2,labelAlign:'top'}</size>
+		<component>
+			<item name="CINUMBER" type="input" tableName="IF_MGT_CP_PROFILE" param="{newline:true,group:'General Information',groupWidth:1000,columnCount:2}"  idx="002"/>
+			<item name="COMPANY" type="input" tableName="IF_MGT_CP_PROFILE" param="{}" idx="001"/>
+			<item name="COMPANYCDATE" type="date" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="003"/>
+			<item name="COMPANYRNUMBER" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="004"/>
+			<item name="COMPANYTAXCODE" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="006"/>
+			<item name="COMPANYOIN" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="005"/>
+			<item name="COMPANIESTYPE" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="005"/>
+			<item name="COMPANYADDRESS" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="007"/>
+			<item name="COMPANYREGISTRATION" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="007"/>
+			<item name="SMECENTERSIGN" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="007"/>
+			<item name="BANKACCOUNT" type="input" tableName="IF_MGT_CP_PROFILE" param="{}"  idx="007"/>
+
+			<item name="ISDFCPADDRESS" tableName="IF_MGT_CP_PROFILE"  type="input" param="{newline:true,group:'Different Mailing Address', groupWidth:1000, groupParam : {id: 'differentMailing',groupCollapsed:false,checkboxToggle:true,toggleItem:{name :'ISDFCPADDRESS',tableName:'IF_MGT_CP_PROFILE',dv:'1'}},columnCount:2}" idx="037"/>
+			<item name="DFCPADDRESS" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="037"/>
+			<item name="DFCPDISTRICT" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="038"/>
+			<item name="DFCPCITY" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="039"/>
+			<item name="DFCPREIZON" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="040"/>
+			<item name="DFCPCOUNTRY" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="041"/>
+			<item name="DFCPPOSTCODE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="042"/>
+
+
+			<item name="DAR" type="input" tableName="IF_MGT_CP_PROFILE" param="{newline:true,group:'Risk Related Information',groupWidth:1000,columnCount:2}"  idx="008"/>
+			<item name="RATING" type="number" tableName="IF_MGT_CP_PROFILE" param="{allowDecimals:true}" idx="009"/>
+			<item name="RISKLEVEL" type="number" tableName="IF_MGT_CP_PROFILE" param="{allowDecimals:true}" idx="009"/>
+
+			<item name="OILIMIT" type="input" tableName="IF_MGT_CP_PROFILE" param="{newline:true,group:'Limits Information',groupWidth:1000,columnCount:2}" idx="010"/>
+			<item name="MIAMOUNT" type="number" tableName="IF_MGT_CP_PROFILE" param="{allowDecimals:true}" idx="011"/>
+			<item name="MAAMOUNT" type="number" tableName="IF_MGT_CP_PROFILE" param="{allowDecimals:true}"  idx="012"/>
+			<item name="INVOICELIMIT" type="number" tableName="IF_MGT_CP_PROFILE" param="{allowDecimals:true}"  idx="013"/>
+
+			<item name="DEBTORS1" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true,newline:true,group:'Further Information',groupWidth:1000,columnCount:2}" idx="044"/>
+			<item name="DEBTORS2" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="045"/>
+			<item name="DEBTORS3" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="046"/>
+			<item name="DEBTORS4" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="047"/>
+			<item name="DEBTORS5" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="048"/>
+			<item name="INVOICEAMMOUNT" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="047"/>
+			<item name="SERIALNUM" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="048"/>
+
+			<item name="MYTITLE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true,newline:true,group:'My Profile',groupWidth:1000, columnCount:2}" idx="001"/>
+			<item name="MYFNAME" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}"  idx="002"/>
+			<item name="MYLNAME" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="011"/>
+			<item name="MYGENDER" type="input" tableName="IF_MGT_CP_PROFILE" param="{}" idx="013"/>
+			<item name="MYDOB" type="date" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="014"/>
+			<item name="MYNATIONALITY" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="014"/>
+			<item name="MYCOUNTRY" type="input" tableName="IF_MGT_CP_PROFILE" param="{}" idx="016"/>
+			<item name="MYIDTYPE" type="input" tableName="IF_MGT_CP_PROFILE" param="{}" idx="018"/>
+			<item name="MYIDNUMBER" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="019"/>
+			<item name="MYPOSITION" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="022"/>
+			<item name="WLOCALCODE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="020"/>
+			<item name="MYWPHONE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="020"/>
+			<item name="MLOCALCODE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="021"/>
+			<item name="MYMPHONE" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="021"/>
+			<item name="MYEMAIL" type="input" tableName="IF_MGT_CP_PROFILE" param="{readOnly:true}" idx="023"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_firstcheck_opinion">
+		<name>First Check Opinion</name>
+		<desc>First Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'smecheck_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'smeCheckOption'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_doublecheck_opinion">
+		<name>Double Check Opinion</name>
+		<desc>Double Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'smecheck_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'smeCheckOption'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:200}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_licensecheck_opinion">
+		<name>License Check Opinion</name>
+		<desc>License Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'common_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:200}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_blacklistcheck_opinion">
+		<name>Blacklist Check Opinion</name>
+		<desc>Blacklist Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:3}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="002"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'common_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'blacklistOpinionCheck'}" idx="003"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_ciccheck_opinion">
+		<name>CIC List Check Opinion</name>
+		<desc>CIC List Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:3}</size>
+		<jsurl>/app/ifactor/js/sme/if_cp_cic.js</jsurl>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'common_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'cicOpinionCheck'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_eligibilitycheck_opinion">
+		<name>Eligibility Check Opinion</name>
+		<desc>Eligibility Check Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'common_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_mapscore_opinion">
+		<name>Map Score Opinion</name>
+		<desc>Map Score Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<param>{listenLayout:true}</param>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{readOnly:true,wordbook:'mapscore_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'scoreOpinionCheck'}" idx="002"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_doublecheckverify_opinion">
+		<name>Double Check Opinion</name>
+		<desc>Double check and verify opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:350,width:800,columnCount:2}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'doublecheckverify_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_fscheckreview_opinion">
+		<name>FS Check And Review Opinion</name>
+		<desc>FS check and review opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:350,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'fscheckreview_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="if_sme_flow_fieldvisit_opinion">
+		<name>Field Visit Opinion</name>
+		<desc>Field Visit Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'fieldvisit_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="if_sme_flow_assign_opinion">
+		<name>Field Visit Assign To User</name>
+		<desc>Field Visit Assign To User</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="ASSIGNTO" type="textarea" param="{columnSubCount:2,height:60,allowBlank:false}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="if_sme_flow_documentsign_opinion">
+		<name>Document Sign And Verify Opinion</name>
+		<desc>Document signing and verification of sign documents</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="NAME" type="input" param="{allowBlank:false}" idx="002"/>
+			<item name="IDCARD" type="input" param="{allowBlank:false}" idx="003"/>
+			<item name="BANKACCOUNT" type="input" param="{allowBlank:false,listenBlur:'checkBalance'}" idx="004"/>
+			<item name="BALANCE" type="number" dv="0" param="{readOnly:true,allowDecimals:true}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="if_sme_flow_doublecheckfvdoc_opinion">
+		<name>Double Check Opinion</name>
+		<desc>Double check field visit doc opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:350,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'bc_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="if_sme_flow_assesresult_opinion">
+		<name>Asses And Result Opinion</name>
+		<desc>Asses And Result Opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SME_FLOW_OPINION</primaryTable>
+		<listener>SMEFlowOpinionMachining</listener>
+		<size>{height:350,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'fieldcheck_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	<view ID="ifactor_seller_flow_cs_record_add">
+		<name>Seller flow cs record add</name>
+		<desc>Seller flow cs record add</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_SELLER_FLOW_CS_RECORD</primaryTable>
+		<size>{height:200,width:400}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true,newline:true,group:'CS Record Info', groupWidth:950}" dv="#nowTime" idx="000"/>
+			<item name="REMARK" type="textarea" label="Remark" param="{height:150}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+			<item name="APPLY_ID" type="hidden" param="{}" dv="@applyId" idx="008"/>
+			<item name="INS_ID" type="hidden" param="{}" dv="@insId" idx="009"/>
+			<item name="A_ID" type="hidden" param="{}" dv="@aId" idx="010"/>
+		</component>
+	</view>
+</table-view>

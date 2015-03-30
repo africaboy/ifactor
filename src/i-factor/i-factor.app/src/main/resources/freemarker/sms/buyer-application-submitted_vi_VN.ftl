@@ -1,0 +1,1 @@
+<EntroAuction> Tai khoan dang ky duoc kich hoat. Thong tin dang duoc kiem tra. Chung toi se thong bao ve tinh hop le cua ho so trong thoi gian som nhat. 

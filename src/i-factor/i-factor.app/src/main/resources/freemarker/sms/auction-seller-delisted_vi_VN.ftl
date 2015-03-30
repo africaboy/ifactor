@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don ID <000000> khong duoc giao giao dich thanh cong va se bi loai khoi nen tang. Xin vui long kiem tra trang thai hoa don.

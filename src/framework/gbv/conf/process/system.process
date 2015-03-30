@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<base>
+	<servlet-process>
+		<servlet-name>/system/user.do</servlet-name>
+		<command method-name="method" method-value="save">
+			<process mode="single" machining="jt.classic.system.user.machining.UserMachining">ISYS_USER</process>
+			<process mode="multi" counterName="countP">ISYS_DEPT_USER</process>
+		</command>
+		<command method-name="method" method-value="update">
+			<process mode="single">ISYS_USER</process>
+		</command>
+	</servlet-process>
+	<servlet-process>
+		<servlet-name>/system/self.do</servlet-name>
+		<command method-name="method" method-value="updatemypwd">
+			<process mode="single" machining="jt.classic.system.user.machining.UserMachining">ISYS_USER</process>
+		</command>
+	</servlet-process>
+	<servlet-process>
+		<servlet-name>/system/registe.do</servlet-name>
+		<command>
+			<process mode="single" machining="jt.classic.system.user.machining.UserMachining">ISYS_USER</process>
+			<process mode="multi" counterName="countP">ISYS_DEPT_USER</process>
+		</command>
+	</servlet-process>
+	<servlet-process>
+		<servlet-name>/system/group.do</servlet-name>
+		<command method-name="method" method-value="save">
+			<process mode="single" machining="jt.classic.system.group.machining.GroupMachining">ISYS_DEPARTMENT</process>
+		</command>
+		<command method-name="method" method-value="update">
+			<process mode="single" machining="jt.classic.system.group.machining.GroupMachining">ISYS_DEPARTMENT</process>
+		</command>
+	</servlet-process>
+	<servlet-process>
+		<servlet-name>/system/role.do</servlet-name>
+		<command method-name="method" method-value="save">
+			<process mode="single">ISYS_ROLE</process>
+			<process mode="multi" counterName="countO">ISYS_ROLE_OBJ</process>
+		</command>
+		<command method-name="method" method-value="delete">
+			<process mode="single">ISYS_ROLE</process>
+			<process mode="single">ISYS_ROLE_OBJ</process>
+			<process mode="single">ISYS_PURVIEW</process>
+		</command>
+	</servlet-process>  
+	<servlet-process>
+		<servlet-name>/system/module.do</servlet-name>
+		<command method-name="method" method-value="save">
+			<process mode="single">ISYS_MODULE</process>
+		</command>
+		<command method-name="method" method-value="update">
+			<process mode="single">ISYS_MODULE</process>
+		</command>
+		<command method-name="method" method-value="savemenu">
+			<process mode="multi" counterName="countMN">ISYS_MODULE_MENU</process>
+		</command>
+	</servlet-process>  
+	<servlet-process>
+		<servlet-name>/system/purview.do</servlet-name>
+		<command method-name="method" method-value="update">
+			<process mode="multi" counterName="countP">ISYS_PURVIEW</process>
+		</command>
+	</servlet-process>  
+</base>  

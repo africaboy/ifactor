@@ -1,0 +1,1 @@
+<EntroAuction> The Invoice is successfully uploaded. Invoice ID is generated <000000>. Please kindly provide the original invoice in order to initiate the disbursement.

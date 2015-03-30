@@ -1,0 +1,5 @@
+dependencies {
+  compile project(":ddshell")
+  compile "org.springframework.data:spring-data-jpa:$springDataJpaVersion"
+  compile "org.springframework:spring-web:$springVersion"
+}

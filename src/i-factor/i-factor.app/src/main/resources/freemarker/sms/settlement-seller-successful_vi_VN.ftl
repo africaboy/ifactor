@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don so <000000> da duoc thanh toan. Quy khach se nhan duoc so tien hoa don con lai. Vui long kiem tra chi tiet tren website EntroAuction

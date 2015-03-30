@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="sme_apply_list">
+		<name>query for sme apply flow</name>
+		<desc>query for sme apply flow(inclue apply registration button)</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_STEP</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:false,listenRender:true,height:230,width:700,columnCount:2,enableHdMenu:false,labelWidth:105}</param>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			, WF_INSTANCE_OBJ, WF_INSTANCE, WF_ACTIVITY, WF_STEP
+		</plugsql>
+		<outrosql>
+		    WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' 
+		    AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID AND WF_INSTANCE.INS_STATE = 0 AND WF_INSTANCE.INS_ID = WF_ACTIVITY.INS_ID 
+		    AND WF_STEP.S_ID = WF_ACTIVITY.S_ID 
+		    AND ((WF_ACTIVITY.A_STATE = 0 AND (WF_ACTIVITY.USER_ID = '-1' OR WF_ACTIVITY.USER_ID = '@sessionUserId@')) OR (WF_ACTIVITY.A_STATE = 1 AND WF_ACTIVITY.USER_ID = '@sessionUserId@'))
+		</outrosql>
+		<query-item>
+			<item name="CPCTIME" type="date" mode="09" idx="01"/>
+			<item name="UPDATEDDATE" type="date" mode="09" idx="02"/>
+			<item name="CPNAME" type="input" mode="06" idx="03"/>
+			<item name="CPNUMBER" type="input" mode="06" idx="04"/>
+			<item name="MYFNAME" type="input" mode="06" idx="05"/>
+			<item name="MYLNAME" type="input" mode="06" idx="06"/>
+			<item name="CPSTATUS" type="select" jsonParam="{wordbook:'smeapplystatus', target:'CPSTATUS_VAL',listWidth:400}" mode="01" idx="07"/>
+			<item name="CPSTATUS_VAL" type="hidden" mode="00" />
+		</query-item>
+		<result-item>
+			<item name="SP" label="Details" alien="1" width="65" align="left"/> 
+			<item name = "CPCTIME" width="110" align="left"/> 
+			<item name = "UPDATEDDATE" width="120" align="left"/>
+			<item name = "CPNAME" width="163" align="left"/>
+			<item name = "CPNUMBER" width="130" align="left"/>     
+			<item name = "MYFNAME" width="80" align="left"/>     
+			<item name = "MYLNAME" width="90" align="left"/>    
+			<item name = "CPSTATUS_VAL" width="300" align="left"/>  
+			<item name = "INS_ID" tableName="WF_INSTANCE" show="-1"/> 
+			<item name = "A_ID" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_STATE" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_LOCKID" tableName="WF_ACTIVITY" show="-1"/>
+		</result-item>  
+		<restraint-item>
+			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_STIME" tableName="WF_ACTIVITY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_apply_remind_list">
+		<name>query for sme apply remind list</name>
+		<desc>query for sme apply remind list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_remind_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:false,listenRender:true,height:230,width:700,columnCount:2,enableHdMenu:false}</param>
+		<purview/>
+		<purviewRole/>
+		<outrosql>
+			(IF_MGT_CP_APPLY.REMIND IS NULL OR IF_MGT_CP_APPLY.REMIND != 'called') AND 
+		    (IF_MGT_CP_APPLY.CPSTATUS = 'ulccaPXdZe_KDJlQmRchM' OR IF_MGT_CP_APPLY.CPSTATUS = 'BlSPDaIKLf_KDJlQmRchM' OR IF_MGT_CP_APPLY.CPSTATUS = 'mKISSmbTdc_KDJlQmRchM' OR IF_MGT_CP_APPLY.CPSTATUS = 'cPjfdskOtZ_KDJlQmRchM')
+		</outrosql>
+		<query-item>
+			<item name="MYTITLE" type="input" mode="06" idx="00"/>
+			<item name="MYFNAME" type="input" mode="06" idx="01"/>
+			<item name="MYLNAME" type="input" mode="06" idx="02"/> 
+			<item name="CPNUMBER" type="input" mode="06" idx="03"/>
+			<item name="CPCTIME" type="date" mode="09" idx="04"/>
+		</query-item>
+		<result-item>
+			<item name = "SA_APPLY_CODE" align="left"/> 
+			<item name = "MYTITLE" align="left"/>     
+			<item name = "MYFNAME" align="left"/>     
+			<item name = "MYLNAME" align="left"/> 
+			<item name = "MYIDNUMBER" align="left"/>
+			<item name = "CPNAME" align="left"/>         
+			<item name = "CPNUMBER" align="left"/>      
+			<item name = "CPDATE" align="left"/>    
+			<item name = "CPCTIME" width="150" align="left"/>    
+			<item name = "CPSTATUS_VAL" width="300" align="left"/>
+			<item name = "REMIND" align="left"/>
+		</result-item>  
+		<orderby-item>
+			<item name="CPCTIME" tableName="IF_MGT_CP_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_apply_locked_list">
+		<name>query for sme apply flow</name>
+		<desc>query for sme apply flow(locked only)</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_STEP</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_locked_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:false,listenRender:true,forceFit:true,height:400,width:600,enableHdMenu:false}</param>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			, WF_INSTANCE_OBJ, WF_INSTANCE, WF_ACTIVITY, WF_STEP
+		</plugsql>
+		<outrosql>
+		    WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' 
+		    AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID AND WF_INSTANCE.INS_STATE = 0 AND WF_INSTANCE.INS_ID = WF_ACTIVITY.INS_ID 
+		    AND WF_STEP.S_ID = WF_ACTIVITY.S_ID 
+		    AND WF_ACTIVITY.A_STATE = 1 AND WF_ACTIVITY.USER_ID = '@sessionUserId@'
+		</outrosql>
+		<query-item>
+			<item name="MYTITLE" type="input" mode="06" idx="00"/>
+			<item name="MYFNAME" type="input" mode="06" idx="01"/>
+			<item name="MYLNAME" type="input" mode="06" idx="02"/> 
+			<item name="CPNUMBER" type="input" mode="06" idx="03"/>
+			<item name="CPCTIME" type="date" mode="09" idx="04"/>
+		</query-item>
+		<result-item>
+			<item name = "MYTITLE"/>     
+			<item name = "MYFNAME"/>     
+			<item name = "MYLNAME"/> 
+			<item name = "MYIDNUMBER"/>
+			<item name = "CPNAME"/>         
+			<item name = "CPNUMBER"/>      
+			<item name = "CPDATE"/>    
+			<item name = "CPCTIME" width="150"/>    
+			<item name = "CPSTATUS_VAL" width="300"/>  
+			<item name = "INS_ID" tableName="WF_INSTANCE" show="-1"/> 
+			<item name = "A_ID" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_STATE" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_LOCKID" tableName="WF_ACTIVITY" show="-1"/>
+		</result-item>  
+		<restraint-item>
+			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_STIME" tableName="WF_ACTIVITY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_todo_assign_list">
+		<name>Business to handle the deployment list</name>
+		<desc>Business to handle the deployment list (department ID an exact match)</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_STEP</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_todo_assign_list.js</jsurl>
+		<param>{listenRemix:true,listenClick:true,singleSelect:true,columnCount:1,width:600,height:200,enableHdMenu:false}</param>
+		<showchk>1</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>
+			,WF_INSTANCE_OBJ,WF_INSTANCE,WF_ACTIVITY,WF_STEP 
+		</plugsql>
+		<outrosql>
+			WF_STEP.S_ID = WF_ACTIVITY.S_ID 
+			AND WF_INSTANCE_OBJ.INS_ID = WF_ACTIVITY.INS_ID 
+			AND WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID 
+			AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' 
+			AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+			AND (WF_ACTIVITY.A_STATE = 0 OR WF_ACTIVITY.A_STATE = 1)
+		</outrosql>
+		<query-item>
+			<item name="MYIDNUMBER" label="ID number" type="input" mode="06" idx="01"/>
+			<item name="CPNUMBER" label="Company registration number" type="input" mode="06" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "A_ID" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_STATE" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_LOCKID" tableName="WF_ACTIVITY" show="-1"/>
+			<item name = "INS_CURRENTSTATUS" label="Business state" show="-1" tableName="WF_INSTANCE"/>
+			<item name = "A_LOCKNAME" label="The Current Handler" width="200" tableName="WF_ACTIVITY"/>
+			<item name = "MYTITLE" width="150"/>
+			<item name = "MYFNAME" width="150"/> 
+			<item name = "MYLNAME" width="150"/>  
+			<item name = "MYIDNUMBER" width="200"/>              
+			<item name = "CPCTIME" width="150"/>      
+			<item name = "CPNAME" width="200"/>       
+			<item name = "CPNUMBER" width="200"/>                    
+		</result-item>  
+		<restraint-item>
+			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
+			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+		</restraint-item>
+		<orderby-item>
+			<item name = "CPCTIME" mode="DESC"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="sme_todo_assign_selectlist">
+		<name>Task allocation</name>
+		<desc>Task allocation window list (based on fuzzy matching activities record source, can choose to task allocation to handle personnel)</desc>
+		<translate>yes</translate>
+		<table>ISYS_USER</table>
+		<table>ISYS_DEPARTMENT</table>
+		<showchk>1</showchk>
+		<param>{forceFit:true,singleSelect:true,width:900,height:600,listenClick:true,enableHdMenu:false}</param>
+		<plugsql>
+			LEFT JOIN ISYS_DEPT_USER ON ISYS_DEPT_USER.USER_ID = ISYS_USER.ID
+			LEFT JOIN ISYS_DEPARTMENT ON ISYS_DEPARTMENT.ID = ISYS_DEPT_USER.DEPT_ID
+		</plugsql>
+		<result-item>
+			<item name="NAME"/> 
+			<item name="EMPLOYEENUMBER"/>
+			<item name="JOB" label="position"/>
+			<item name="SEX" label="gender"/>  
+			<item name="PHONE"/>              
+		</result-item>
+		<restraint-item>
+			<item name="DEPTNUMBER" tableName="ISYS_DEPARTMENT" param="@sessionGroupCode" mode="12"></item>
+		</restraint-item>
+		<orderby-item>
+			<item name="EMPLOYEENUMBER" mode="ASC"/> 
+		</orderby-item>	
+	</query>
+	
+	<query ID="sme_apply_opinion_query_list">
+		<name>Historical opinion</name>
+		<desc>Historical opinion</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SME_FLOW_OPINION</table>
+		<table>WF_ACTIVITY_OBJ</table>
+		<table>WF_ACTIVITY</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_opinion_query_list.js</jsurl>
+		<param>{listenRender:true,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			LEFT JOIN WF_ACTIVITY_OBJ ON WF_ACTIVITY_OBJ.KEYVALUE = IF_MGT_SME_FLOW_OPINION.PK_ID AND WF_ACTIVITY_OBJ.TABLENAME = 'IF_MGT_SME_FLOW_OPINION' 
+		    LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.A_ID = WF_ACTIVITY_OBJ.A_ID
+		</plugsql>
+		<result-item>
+			<item name = "A_ID" tableName="WF_ACTIVITY_OBJ" show="-1"/> 
+			<item name = "INS_ID" tableName="WF_ACTIVITY_OBJ" show="-1"/>
+			<item name = "A_ETIME" label="Signing Time" tableName="WF_ACTIVITY" align="left" width="128"/>
+			<item name = "A_TITLE" label="Service States" tableName="WF_ACTIVITY" align="left" width="149"/>
+			<item name = "OPINION_VAL" label="Opinion" align="left" width="68"/> 
+			<item name = "A_LOCKNAME" label="Actor" tableName="WF_ACTIVITY" align="left" width="131"/>
+			<item name = "OPINION_TXT" label="Remark" align="left" width="255"/>
+			<item name = "TABLEVIEW" tableName="WF_ACTIVITY_OBJ" show = "-1" />
+		</result-item>  
+		<restraint-item>
+			<item name="INS_ID" tableName="WF_ACTIVITY_OBJ" param="@insId" mode="01"></item>
+			<item name="A_STATE" tableName="WF_ACTIVITY" param="2" mode="01"></item>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_ETIME" tableName="WF_ACTIVITY" mode="ASC"/>    
+		</orderby-item>
+	</query>
+	<query ID="seller_apply_cs_record_list">
+		<name>seller apply cs record list</name>
+		<desc>seller apply cs record list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SELLER_FLOW_CS_RECORD</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_STEP</table>
+		<jsurl>/app/ifactor/js/sme/seller_apply_cs_record_list.js</jsurl>
+		<param>{forceFit:true,listenRender:true,height:200,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+		    LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.A_ID = IF_MGT_SELLER_FLOW_CS_RECORD.A_ID 
+		    LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID=WF_STEP.S_ID 
+		</plugsql>
+		<result-item>
+			<item name = "S_NAME" label="Step" tableName="WF_STEP"/>
+			<item name = "USER_NAME" label="Actor" />
+			<item name = "CREATE_DATE" label="Create Date" />
+			<item name = "REMARK" label="Remark"/>         
+		</result-item>  
+		<restraint-item>
+			<item name="INS_ID"  param="@insId" mode="01"></item>
+		</restraint-item>
+		<orderby-item>
+			<item name="CREATE_DATE"  mode="ASC"/>    
+		</orderby-item>
+	</query>
+
+	<query ID="sme_apply_profile_query_list">
+		<name>seller apply profile</name>
+		<desc>seller apply profile</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_PROFILE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_profile_query_list.js</jsurl>
+		<param>{forceFit:true,listenRender:true,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="COMPANY" type="input" mode="06" idx="00"/>
+			<item name="COMPANYCDATE" type="date"  mode="09" idx="01"/>
+			<item name="COMPANYRNUMBER" type="input" mode="06" idx="02"/> 
+			<item name="COMPANYOIN" type="input" mode="06" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "CINUMBER"/> 
+			<item name = "CREATETIME"/>
+			<item name = "COMPANIESTYPE"/>
+			<item name = "COMPANY"/>
+			<item name = "COMPANYRNUMBER"/>
+			<item name = "COMPANYTAXCODE"/> 
+			<item name = "COMPANYCDATE"/>
+			<item name = "COMPANYOIN"/>
+			<item name = "RISKLEVEL"/>
+		</result-item>
+		<orderby-item>
+			<item name="CREATETIME" mode="DESC"/>    
+		</orderby-item>
+	</query>
+</table-query>	

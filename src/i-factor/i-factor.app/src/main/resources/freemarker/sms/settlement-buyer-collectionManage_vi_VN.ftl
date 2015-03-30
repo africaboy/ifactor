@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don so <000000> da dao han nhung chua duoc nguoi mua thanh toan. Theo hop dong da ky, Bank/The Bank ho tro quy khach tien hanh thu hoi no truc tiep voi nguoi ban. Hotline: xxx

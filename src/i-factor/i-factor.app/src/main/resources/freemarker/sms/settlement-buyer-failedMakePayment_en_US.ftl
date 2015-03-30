@@ -1,0 +1,1 @@
+Invoice - ID <000000> has reached due date but not paid by debtor. Bank/The Bank are processing collection to pay for you as soon as possible. You will receive interest earning in the time of late payment.

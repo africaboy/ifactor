@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	
+	<view ID="ifactor_image_items_add">
+		<name>add image item</name>
+		<desc>add image item</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_IMAGE_ITEMS</primaryTable>
+		<size>{height:210,width:400}</size>
+		<component>
+			<item name="ITEM_TYPE" type="select" param="{wordbook:'image_item_type',target:'ITEM_TYPE_NAME'}"/>
+			<item name="ITEM_CODE" type="input" param="{allowBlank:false}"/>
+			<item name="ITEM_NAME" type="input" param="{}" />
+			<item name="IS_MUST_NEED" type="select" param="{wordbook:'common_yesorno',target:'IS_MUST_NEED_NAME'}"/>
+			<item name="IS_MUST_NEED_NAME" type="hidden" param="{}"/>
+			<item name="ITEM_TYPE_NAME" type="hidden" param="{}"/>
+		</component>
+	</view>
+	
+	<view ID="if_mgt_image_items_edit">
+		<name>edit image item</name>
+		<desc>edit image item</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>update</handlemode>
+		<primaryTable handleType="single">IF_MGT_IMAGE_ITEMS</primaryTable>
+		<size>{height:210,width:400}</size>
+		<component>
+			<item name="ITEM_TYPE" type="select" param="{wordbook:'image_item_type',target:'ITEM_TYPE_NAME'}"/>
+			<item name="ITEM_CODE" type="input" param="{allowBlank:false}"/>
+			<item name="ITEM_NAME" type="input" param="{}" />
+			<item name="IS_MUST_NEED" type="select" param="{wordbook:'common_yesorno',target:'IS_MUST_NEED_NAME'}"/>
+			<item name="IS_MUST_NEED_NAME" type="hidden" param="{}"/>
+			<item name="ITEM_TYPE_NAME" type="hidden" param="{}"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_param_setting_edit">
+		<name>edit param setting</name>
+		<desc>edit param setting</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>remix</handlemode>
+		<primaryTable handleType="single">IF_MGT_PARAM_SETTING</primaryTable>
+		<size>{height:210,width:400}</size>
+		<listener>ParamSettingMachining</listener>
+		<component>
+			<item name="PARAM_CODE" label="param code" type="input" param="{allowBlank:false,readOnly:true}"/>
+			<item name="PARAM_VALUE" type="input" param="{allowBlank:false}" />
+			<item name="PARAM_DESC" type="textarea" param="{allowBlank:false}"/>
+		</component>
+	</view>
+	
+	<view ID="if_mgt_dfield_match_add">
+		<name>add dfield match</name>
+		<desc>add dfield match</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>remix</handlemode>
+		<primaryTable handleType="single">IF_MGT_DFIELD_MATCH</primaryTable>
+		<size>{height:300,width:400}</size>
+		<listener></listener>
+		<component>
+			<item name="WORK_FLOW" label="WorkFlow" type="select" param="{wordbook:'workflow',target:'WORK_FLOW_VALUE'}"/>
+			<item name="WORK_FLOW_VALUE" label="WorkFlow" type="hidden" param="{}"/>
+			<item name="MGT_FIELD" type="input" param="{allowBlank:false}" />
+			<item name="APP_FIELD" type="input" param="{allowBlank:false}"/>
+			<item name="DESCRIPTION" type="textarea" param="{}"/>
+		</component>
+	</view>
+
+	<view ID="if_mgt_sysvars_edit">
+		<name>advance and interest items</name>
+		<desc>advance and interest items</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>update</handlemode>
+		<primaryTable handleType="single">IF_MGT_SYSVARS</primaryTable>
+		<size>{height:180,width:400,columnCount:1}</size>
+		<listener>SysVarsMachining</listener>
+		<component>
+			<item name="SYSVARS_PK_ID" type="hidden"/>
+			<item name="CODE" type="input" param="{readOnly:true}" idx="01"/>
+			<item name="DESCRIBE" type="input" param="{readOnly:true}" idx="02"/>
+			<item name="VALUE" type="input" param="{allowBlank:false}" idx="03"/>
+		</component>
+	</view>
+</table-view>

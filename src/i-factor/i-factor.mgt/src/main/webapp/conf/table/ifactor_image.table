@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	
+	<table name="IF_MGT_IMAGE_ITEMS" description="Image information table"> 
+		<column> 
+			<name>IMAG_ID</name>  
+			<type>varchar</type>  
+			<primary>yes</primary>  
+			<not-null>yes</not-null>  
+			<description>Primary key</description>  
+			<length>20</length> 
+		</column>  
+		<column> 
+			<name>ITEM_CODE</name>  
+			<type>varchar</type>  
+			<not-null>yes</not-null>  
+			<description>Image number</description>  
+			<length>20</length> 
+		</column>  
+		<column> 
+			<name>ITEM_NAME</name>  
+			<type>varchar</type>  
+			<not-null>yes</not-null>  
+			<description>Image name</description>  
+			<length>128</length> 
+		</column>  
+		<column> 
+			<name>IS_MUST_NEED</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Whether will lose</description>  
+			<length>10</length> 
+		</column>  
+		<column> 
+			<name>IS_MUST_NEED_NAME</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Whether will lose name</description>  
+			<length>10</length> 
+		</column>  
+		<column> 
+			<name>ITEM_TYPE</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Image category</description>  
+			<length>10</length> 
+		</column>  
+		<column> 
+			<name>ITEM_TYPE_NAME</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Image category name</description>  
+			<length>128</length> 
+		</column>  
+		<column> 
+			<name>PRODUCT_TYPE</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>Product category</description>  
+			<length>20</length> 
+		</column> 
+	</table>  
+	
+	
+	<table name="IF_MGT_IMAGE_UPLOAD" description="Upload the image information table" fake-name="IF_MGT_IMAGE_UPLOAD"> 
+		<column> 
+			<name>IMAGE_UPLOAD_ID</name>  
+			<type>varchar</type>  
+			<primary>yes</primary>  
+			<not-null>yes</not-null>  
+			<description>Primary key</description>  
+			<length>20</length>  
+			<form-name>IMAGE_UPLOAD_ID</form-name> 
+		</column>  
+		<column> 
+			<name>IMAGE_ITEM_ID</name>  
+			<type>varchar</type>  
+			<not-null>yes</not-null>  
+			<description>Image items</description>  
+			<length>20</length>  
+			<form-name>IMAGE_ITEM_ID</form-name> 
+		</column>  
+		<column> 
+			<name>UPLOAD_TIME</name>  
+			<type>varchar</type>  
+			<not-null>yes</not-null>  
+			<description>Upload time</description>  
+			<length>30</length>  
+			<form-name>UPLOAD_TIME</form-name> 
+		</column>  
+		<column> 
+			<name>APPLY_CODE</name>  
+			<type>varchar</type>  
+			<description>Application number</description>  
+			<length>50</length>  
+			<form-name>APPLY_CODE</form-name>  
+		</column> 
+		<column> 
+			<name>IMAGE</name>  
+			<type>annex</type>  
+			<description>Image data</description>  
+			<length>10</length>
+			<replace>yes</replace>
+			<form-name>ALLRESTRICT</form-name> 
+		</column> 
+	</table>  
+	
+	<table name="IF_MGT_IMAGE_TRACE" description="The image preview log table" fake-name="IF_MGT_IMAGE_TRACE"> 
+		<column> 
+			<name>TRACE_ID</name>  
+			<type>integer</type>   
+			<primary>yes</primary>  
+			<not-null>yes</not-null>   
+			<description>Primary Key</description>  
+			<length>4</length>
+		</column>
+		<column> 
+			<name>ANNEX_ID</name>  
+			<type>varchar</type>   
+			<not-null>yes</not-null>   
+			<description>Image File ID</description>  
+			<length>20</length>
+		</column>  
+		<column> 
+			<name>ACT_ID</name>  
+			<type>integer</type>  
+			<not-null>yes</not-null>  
+			<description>Activity ID</description>  
+			<length>4</length> 
+		</column>  
+		<column> 
+			<name>TRACE_TIME</name>  
+			<type>varchar</type>  
+			<description>log time</description>  
+			<length>20</length> 
+		</column> 
+		<column> 
+			<name>USER_ID</name>  
+			<type>varchar</type>  
+			<description>session user id</description>  
+			<length>20</length> 
+		</column>
+		<column> 
+			<name>USER_NAME</name>  
+			<type>varchar</type>    
+			<description>session user name</description>  
+			<length>50</length> 
+		</column> 
+	</table>
+</annotate>

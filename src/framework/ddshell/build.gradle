@@ -1,0 +1,74 @@
+import org.gradle.api.plugins.jetty.internal.JettyPluginWebAppContext
+
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+task cleanEclipseOutput(type: Delete) {
+  delete eclipse.classpath.defaultOutputDir
+}
+
+dependencies {
+  def database = baseProject.application.properties['jdbc.database']
+  if (database) {
+    compile project(":${baseName}.${database.toLowerCase()}")
+  }
+
+  compile "ch.qos.logback:logback-classic:$logbackVersion"
+  compile "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
+  compile "com.fasterxml.jackson.core:jackson-core:$jacksonVersion"
+  compile "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
+  compile "com.google.code.findbugs:jsr305:$findbugsVersion"
+  compile "com.google.guava:guava:$guavaVersion"
+  compile "commons-codec:commons-codec:$commonsCodecVersion"
+  compile "commons-fileupload:commons-fileupload:$commonsFileuploadVersion"
+  compile "javax.mail:mail:$javaxMailVersion"
+  compile "junit:junit:$junitVersion"
+  compile "org.apache.shiro:shiro-core:$shiroVersion"
+  compile "org.apache.shiro:shiro-ehcache:$shiroVersion"
+  compile "org.apache.shiro:shiro-spring:$shiroVersion"
+  compile "org.bouncycastle:bcprov-jdk16:$bcprovVersion"
+  compile "org.codehaus.groovy:groovy-all:$groovyVersion"
+  compile "org.freemarker:freemarker:$freemarkerVersion"
+  compile "org.hibernate:hibernate-c3p0:$hibernateVersion"
+  compile "org.hibernate:hibernate-entitymanager:$hibernateVersion"
+  compile "org.hibernate:hibernate-validator:$hibernateValidatorVersion"
+  compile "org.springframework.data:spring-data-jpa:$springDataJpaVersion"
+  compile "org.springframework:spring-context-support:$springVersion"
+  compile "org.springframework:spring-context:$springVersion"
+  compile "org.springframework:spring-jdbc:$springVersion"
+  compile "org.springframework:spring-orm:$springVersion"
+  compile "org.springframework:spring-test:$springVersion"
+  compile "org.springframework:spring-tx:$springVersion"
+  compile "org.springframework:spring-webmvc:$springVersion"
+  providedCompile "javax.servlet:servlet-api:$servletVersion"
+  runtime "jstl:jstl:$jstlVersion"
+}
+
+jar {
+  exclude 'logback.xml'
+}
+
+jettyRun.dependsOn cleanEclipseOutput
+
+jettyRun {
+  httpPort = 9080
+  contextPath = ''
+  reload = 'manual'
+  //scanIntervalSeconds = 1
+  classpath = files(eclipse.classpath.defaultOutputDir) + classpath + configurations.jdbc
+}
+
+jettyRun.doFirst {
+  def shell = new GroovyShell(JettyPluginWebAppContext.class.classLoader, new Binding([jettyRun: jettyRun]))
+
+  def jettyConfRoot = new File(project(':').projectDir.parentFile, 'conf/jetty')
+  
+  def context = shell.evaluate(new File(jettyConfRoot, 'jetty-context.groovy'))
+
+  context.baseResource.setResources([
+    project.webAppDir.path
+  ] as String[])
+
+  jettyRun.webAppConfig = context
+  jettyRun.webDefaultXml = new File(jettyConfRoot, 'jetty-webdefault.xml')
+}

@@ -1,0 +1,24 @@
+.objrangeset {
+    background-image:url(../images/range.png) !important
+}
+
+.objqueryset {
+    background-image:url(../images/query.png) !important
+}
+
+.objviewset {
+    background-image:url(../images/view.png) !important
+}
+
+.objrestraintset {
+    background-image:url(../images/restraintset.png) !important
+}
+
+.delquery {
+    background-image:url(../images/delete.png) !important
+}
+
+.addquery {
+    background-image:url(../images/add.png) !important
+}
+

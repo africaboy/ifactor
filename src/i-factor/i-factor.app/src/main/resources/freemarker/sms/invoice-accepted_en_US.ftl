@@ -1,0 +1,1 @@
+<EntroAuction> Your invoice ID <000000> is now eligible and ready for auction.

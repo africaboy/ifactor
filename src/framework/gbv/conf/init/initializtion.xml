@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<system>
+		<initializtion>jt.classic.system.annex.AnnexFreeHomeInitializtion</initializtion>
+		<initializtion>jt.classic.system.annex.AnnexRestrictHomeInitializtion</initializtion>
+		<initializtion>jt.classic.system.listener.init.ListenerInitializtion</initializtion>
+		<initializtion>jt.classic.system.initializtion.BaseGrooveInitializtion</initializtion>
+		<initializtion>jt.classic.system.initializtion.BaseProductInitializtion</initializtion>
+		<initializtion>jt.classic.system.tableview.init.TableViewInitializtion</initializtion>
+		<initializtion>jt.classic.system.tablequery.init.TableQueryInitializtion</initializtion>
+		<initializtion>jt.classic.system.workflow.init.WorkflowInitializtion</initializtion>
+		<initializtion>jt.classic.system.objectquery.init.ObjectQueryInitializtion</initializtion>
+		<initializtion>jt.classic.system.wordbook.WordBookSynchronizer</initializtion>
+		<initializtion>jt.classic.system.language.init.GrooveLanguageInitializtion</initializtion>
+	</system>
+	<user>
+		<!--<initializtion>com.bizkit.system.folder.XFolderInitializtion</initializtion>-->
+	</user>
+</root>

@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+        <linkbook desc="conf.language">ifactor.menu.zh_CN.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.queries.zh_CN.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.views.zh_CN.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.zh_CN.lang</linkbook>
+	<common-language> 
+		<item id="add" desc="">新增</item>
+		<item id="edit" desc="">编辑</item>
+		<item id="submit" desc="">提交</item>
+		<item id="save" desc="">保存</item>  
+		<item id="reset" desc="">重置</item>
+		<item id="cancel" desc="">取消</item>
+		<item id="refresh" desc="">刷新</item>
+		<item id="update" desc="">修改</item>
+		<item id="delete" desc="">删除</item>
+		<item id="query" desc="">查询</item>
+		<item id="warn" desc="">警告</item>
+		<item id="error" desc="">错误</item>
+		<item id="close" desc="">关闭</item>
+		<item id="prompt" desc="">提示</item>
+		<item id="import" desc="">导入</item>
+		<item id="export" desc="">导出</item>
+		<item id="select" desc="">选择</item>
+		<item id="confirm" desc="">确认</item>
+		<item id="download" desc="">下载</item>
+		<item id="select-emptytext" desc="">请选择...</item>
+		<item id="query-setting" desc="">初始化查询条件失败！</item>
+		<item id="load-failure" desc="">读取数据失败！</item>
+		<item id="list-idx" desc="">序号</item>
+		<item id="list-asc" desc="">正序</item>
+		<item id="list-desc" desc="">降序</item>
+		<item id="list-loading" desc="">数据加载中，请稍等...</item>
+		<item id="list-displaymsg" desc="">总记录数 {0} - {1} of {2}</item>
+		<item id="list-emptymsg" desc="">没有记录</item>
+		<item id="submit-loading" desc="">提交保存过程中...</item>
+		<item id="delete-loading" desc="">提交删除过程中...</item>
+		<item id="delete-prompt" desc="">确定删除？</item>
+		<item id="import-loading" desc="">导入过程中...</item>
+		<item id="export-loading" desc="">导出过程中...</item>
+		<item id="init-loading" desc="">初始化过程中...</item>
+		<item id="success" desc="">操作成功！</item>
+		<item id="failure" desc="">操作失败！</item>
+	</common-language> 
+	<frequence-language> 
+		<item id="purview-title" desc="">访问权限</item>
+		<item id="purview-yes" desc="">可以访问</item>
+		<item id="purview-no" desc="">不能访问</item>
+		<item id="purview-load-error" desc="">读取授权信息失败</item>
+		<item id="yes" desc="">是</item>
+		<item id="no" desc="">否</item>
+	</frequence-language>	
+	<welcome-language>
+		<item id="welcomeLogin" desc="">欢迎光临</item>
+		<item id="title" desc="">JET应用支撑平台</item> 
+		<item id="welcome" desc="">欢迎登录JET应用支撑平台</item>  
+		<item id="logid" desc="">登录帐号</item>
+		<item id="logid-blanktext" desc="">请输入登录帐号</item>
+		<item id="logpwd" desc="">登录密码</item>
+		<item id="logpwd-blanktext" desc="">请输入登录密码</item>
+		<item id="logbutton" desc="">登录验证</item>
+		<item id="logloading" desc="">登录验证过程中...</item>
+		<item id="logloadingmsg" desc="">正在进行登录校验...</item>
+		<item id="notadmin" desc="">当前帐号没有系统管理员权限，请使用具有系统管理员权限的帐号登录！</item>
+		<item id="logidinvalid" desc="">您的帐号已失效，请联系管理员重新启用该帐号！</item>
+		<item id="notlogin" desc="">错误的用户账号或密码，请重新登录！</item>
+		<item id="elseerror" desc="">服务器出现异常，请稍后重试！</item>
+		<item id="notice" desc="">由于长时间空闲或服务器重启导致当前会话时效，请重新登录恢复会话，然后进行后续操作。</item>
+	        <item id="recover" desc="">会话已成功恢复！</item>
+	</welcome-language>
+	<console-language desc="common language label"> 
+		<item id="title" desc="">JET Application-Enabling Platform</item>
+		<item id="loading" desc="">页面内容加载中...</item>
+		<item id="consoletab-title" desc="">应用支撑平台服务功能展区</item>
+		<item id="westpanel-title" desc="">应用支撑服务组件</item> 
+		<item id="westpanel-user" desc="">系统用户管理</item>
+		<item id="westpanel-group" desc="">组织机构管理</item>
+		<item id="westpanel-groupadjust" desc="">组织机构调整</item>
+		<item id="westpanel-role" desc="">系统角色管理</item>
+		<item id="westpanel-module" desc="">应用模块管理</item>
+		<item id="westpanel-tablequery" desc="">表数据查询配置</item>
+		<item id="westpanel-tableview" desc="">视图构造器</item>
+		<item id="westpanel-workflow" desc="">工作流引擎</item>
+		<item id="westpanel-dataindex" desc="">数据类别管理</item>
+		<item id="westpanel-wordbook" desc="">数据字典管理</item>
+		<item id="westpanel-table" desc="">数据表管理</item>
+		<item id="westpanel-databackup" desc="">数据备份</item>
+		<item id="westpanel-datarestore" desc="">数据恢复</item>
+		<item id="westpanel-syslog" desc="">系统日志管理</item>
+		<item id="westpanel-annex" desc="">附件管理</item>
+		<item id="centerpanel-title" desc="">系统运行参数</item>
+		<item id="sessionuser-label" desc="">会话用户:</item>
+		<item id="pwdbutton-tooltip" desc="">经常修改登录密码,加强安全防范管理</item>
+		<item id="pwdbutton-text" desc="">密码管理</item>
+		<item id="settingbutton-tooltip" desc="">系统全局参数设置</item>
+		<item id="settingbutton-text" desc="">系统设置</item>
+		<item id="logoutbutton-tooltip" desc="">注销当前会话,退出系统</item>
+		<item id="logoutbutton-text" desc="">注销退出</item>
+		<item id="logoutbutton-confirm-title" desc="">确认</item>
+		<item id="logoutbutton-confirm-msg" desc="">确定退出系统？</item>  
+		<item id="param-version-label" desc="">系统版本号</item>
+		<item id="param-ip-label" desc="">Console IP</item>
+		<item id="param-charset-label" desc="">字符集</item>
+		<item id="param-sessonfilter-label" desc="">会话过滤器</item>
+		<item id="param-checkbrowser-label" desc="">浏览器过滤</item>
+		<item id="param-datasource-label" desc="">数据源</item>
+		<item id="param-database-label" desc="">数据库类型</item>
+		<item id="param-annex-label" desc="">附件处理器</item>
+		<item id="param-totalmemory-label" desc="">内存总量</item>
+		<item id="param-maxmemory-label" desc="">最大内存量</item>
+		<item id="param-freememory-label" desc="">空闲内存量</item>  
+	</console-language> 
+	<gapsetting-language>
+		<item id="icon-label" desc="">点击可编辑该图片</item>
+		<item id="icon-now" desc="">原图</item>
+		<item id="icon-new" desc="">新图</item>
+		<item id="icon-title" desc="">图片编辑窗口</item>
+		<item id="icon-edit-prompt" desc="">确定更新图片？</item>
+		<item id="icon-edit-success" desc="">更新图片成功！</item>
+		<item id="icon-edit-failure" desc="">更新图片失败！</item>
+		<item id="icon-delete-prompt" desc="">确定删除图片？</item>
+		<item id="icon-delete-success" desc="">点击可编辑该图片</item>
+		<item id="icon-delete-failure" desc="">删除图片失败！</item>
+		<item id="icon" desc="">视窗ICON</item>
+		<item id="thumb" desc="">系统缩略图</item>
+		<item id="sys_name" desc="">系统名称</item>
+		<item id="sys_login" desc="">登录页面</item>
+		<item id="sys_welcome" desc="">登录欢迎语</item>
+		<item id="sys_index" desc="">系统首页</item>
+		<item id="sys_desktop" desc="">系统桌面</item>
+		<item id="sys_title" desc="">首页标题</item>
+		<item id="sys_copyright" desc="">版权声明</item>
+		<item id="sys_version" desc="">版本号</item>
+		<item id="sys_producer" desc="">生产商</item>
+		<item id="setting-title" desc="">系统配置</item>
+		<item id="setting-prompt" desc="">确定更新系统配置？</item>
+		<item id="setting-success" desc="">系统配置成功！</item>
+		<item id="setting-failure" desc="">系统配置失败！</item>
+		<item id="setting-update" desc="">更新系统配置</item>
+		<item id="setting-upload" desc="">下载应用功能</item>
+	</gapsetting-language>	
+	<user-language>
+		<item id="tbar-createuser" desc="">新建用户</item>
+		<item id="tbar-searchuser" desc="">用户查询</item>
+		<item id="tbar-deleteuser" desc="">删除用户</item>
+		<item id="tbar-parttime" desc="">兼职设置</item>
+		<item id="tbar-userpurview" desc="">应用模块访问权限设置</item>
+		<item id="list-title" desc="">系统用户信息列表</item>
+		<item id="list-name" desc="">姓名</item>
+		<item id="list-logid" desc="">登录账号</item>
+		<item id="list-sex" desc="">性别</item>
+		<item id="list-number" desc="">员工编号</item>
+		<item id="list-group" desc="">所在组/部门</item>
+		<item id="list-rating" desc="">级别</item>
+		<item id="list-phone" desc="">联系电话</item>
+		<item id="list-status" desc="">状态</item>
+		<item id="list-role" desc="">所属角色</item>
+		<item id="list-resetpwd" desc="">重置密码</item>
+		<item id="editpwdform-title" desc="">密码管理</item>
+		<item id="editpwdform-originalpwd" desc="">原密码</item>
+		<item id="editpwdform-newpwd" desc="">新密码</item>
+		<item id="form-title" desc="">用户信息</item>
+		<item id="form-basic" desc="">基本信息</item>
+		<item id="form-detail" desc="">详细信息</item>
+		<item id="form-name" desc="">姓名</item>
+		<item id="form-name-emptytext" desc="">请输入用户名</item>
+		<item id="form-logid" desc="">登录账号</item>
+		<item id="form-logid-emptytext" desc="">请输入登录ID</item>
+		<item id="form-pwd" desc="">登录密码</item>
+		<item id="form-cfmpwd" desc="">密码确认</item>
+		<item id="form-sex" desc="">性别</item>
+		<item id="form-sex-male" desc="">男</item>
+		<item id="form-sex-female" desc="">女</item>
+		<item id="form-birthday" desc="">生日</item>
+		<item id="form-phone" desc="">电话</item>
+		<item id="form-email" desc="">邮箱</item>
+		<item id="form-email-emptytext" desc="">请输入正确的邮箱地址</item>
+		<item id="form-code" desc="">用户编码</item>
+		<item id="form-group" desc="">所属组/部门</item>
+		<item id="form-rating" desc="">级别</item>
+		<item id="form-job" desc="">职务</item>
+		<item id="form-idx" desc="">排序</item>
+		<item id="form-idx-regextext" desc="">只能正整数字！</item>
+		<item id="form-status" desc="">状态</item>
+		<item id="form-status-normal" desc="">正常</item>
+		<item id="form-flag" desc="">有效性</item>
+		<item id="form-flag-valid" desc="">有效</item>
+		<item id="form-flag-invalid" desc="">无效</item>
+		<item id="form-success-confirm" desc="">已成功注册用户信息，要继续注册新的用户吗？</item>
+		<item id="form-failure-error" desc="">提交保存用户信息发生错误！</item>
+		<item id="form-failure-invalidlogid" desc="">登录ID必须设置！</item>
+		<item id="form-failure-reduplicatelogid" desc="">登录ID重复，请重新定义！</item>
+		<item id="form-failure-indecisiveerror" desc="">未知的错误异常！</item>
+		<item id="form-failure-invalidinput" desc="">基本信息和详细信息都存在必须输入的内容，请仔细输入！</item>
+		<item id="editpwdform-failure-originalpwderror" desc="">原密码有误，请重新输入！</item>
+		<item id="editpwdform-failure" desc="">密码修改失败！</item>
+		<item id="prompt-resetpwd" desc="">确定重置用户密码</item>
+		<item id="resetpwd-success" desc="">重置用户密码成功！请通知用户及时修改密码。</item>
+		<item id="resetpwd-failure" desc="">重置用户密码失败！</item>
+		<item id="query-title" desc="">用户查询</item>
+		<item id="query-area" desc="">所属区域</item>
+		<item id="query-alert" desc="">初始化查询条件失败！</item>
+		<item id="delete-prompt" desc="">确定删除用户？</item>
+		<item id="delete-alert" desc="">请选择要删除的用户</item>
+		<item id="delete-success" desc="">删除用户失败！</item>
+		<item id="delete-failure" desc="">已成功删除用户！</item>
+		<item id="edit-load-error" desc="">读取用户信息失败！</item>
+		<item id="edit-success" desc="">已成功更新用户信息！</item>
+	</user-language>
+	<group-language>
+		<item id="treepanel-title" desc="">组织机构树</item>
+		<item id="tree-root" desc="">根节点</item>
+		<item id="tree-temp" desc="">临时组</item>
+		<item id="tree-menu-add" desc="">增加</item>
+		<item id="tree-menu-edit" desc="">编辑</item>
+		<item id="tree-menu-delete" desc="">删除</item>
+		<item id="node-adjust-error" desc="">组织结构调整发生错误，请重试！</item>
+		<item id="node-reorder-error" desc="">组排序调整发生错误，请重试！</item>
+		<item id="form-title" desc="">组信息</item>
+		<item id="form-pname" desc="">父组名称</item>
+		<item id="form-name" desc="">组名称</item>
+		<item id="form-desc" desc="">组描述</item>
+		<item id="form-rating" desc="">组级别</item>
+		<item id="form-area" desc="">所属区域</item>
+		<item id="form-number" desc="">机构代码</item>
+		<item id="form-code" desc="">组编号</item>
+		<item id="form-branch" desc="">分支机构</item>
+		<item id="form-branch-yes" desc="">是</item>
+		<item id="form-branch-no" desc="">否</item>
+		<item id="form-province" desc="">省</item>
+		<item id="form-city" desc="">市</item>
+		<item id="form-detail" desc="">详细地址</item>
+		<item id="form-tel" desc="">联系电话</item>
+		<item id="form-email" desc="">邮箱</item>
+		<item id="form-success" desc="">已成功提交保存组信息！</item>
+		<item id="form-error" desc="">提交保存组信息发生错误！</item>
+		<item id="edit-load-error" desc="">读取组信息失败！</item>
+		<item id="delete-prompt" desc="">确定删除组？</item>
+		<item id="delete-success" desc="">已成功删除组！</item>
+		<item id="delete-error" desc="">删除组失败！</item>
+	</group-language>
+	<role-language>
+		<item id="tbar-add" desc="">角色定义</item>
+		<item id="tbar-delete" desc="">删除角色</item>
+		<item id="tbar-purview" desc="">角色授权</item>
+		<item id="list-title" desc="">系统角色信息列表</item>
+		<item id="list-name" desc="">角色名称</item>
+		<item id="list-desc" desc="">描述说明</item>
+		<item id="list-key" desc="">唯一标识</item>
+		<item id="list-raccede" desc="">组继承</item>
+		<item id="list-real" desc="">真实/虚拟</item>
+		<item id="list-real-yes" desc="">真实角色</item>
+		<item id="list-real-no" desc="">虚拟角色</item>
+		<item id="list-raccede-yes" desc="">是</item>
+		<item id="list-raccede-no" desc="">否</item>
+		<item id="list-object" desc="">角色对象</item>
+		<item id="object-list-title" desc="">角色对象列表</item>
+		<item id="object-name" desc="">对象名称</item>
+		<item id="object-type" desc="">对象类别</item>
+		<item id="object-id" desc="">对象ID</item>
+		<item id="remove-prompt" desc="">确定删除角色对象？</item>
+		<item id="remove-success" desc="">已成功删除角色对象！</item>
+		<item id="remove-error" desc="">删除角色对象失败！</item>
+		<item id="delete-alert" desc="">请选择要删除的角色！</item>
+		<item id="delete-prompt" desc="">确定删除角色？</item>
+		<item id="delete-success" desc="">已成功删除角色！</item>
+		<item id="delete-error" desc="">删除角色失败！</item>
+		<item id="form-title" desc="">角色信息</item>
+		<item id="form-name" desc="">角色名称</item>
+		<item id="form-name-emptytext" desc="">请定义角色名称</item>
+		<item id="form-key" desc="">唯一标识</item>
+		<item id="form-key-emptytext" desc="">请定义角色唯一标识</item>
+		<item id="form-desc" desc="">角色描述</item>
+		<item id="form-real" desc="">真实/虚拟</item>
+		<item id="form-real-yes" desc="">真实角色</item>
+		<item id="form-real-no" desc="">虚拟角色</item>
+		<item id="form-raccede" desc="">组继承</item>
+		<item id="form-object" desc="">角色对象</item>
+		<item id="form-object-rating" desc="">角色对象级别</item>
+		<item id="form-alert-object" desc="">请选择角色对象！</item>
+		<item id="form-alert-rating" desc="">请选择角色对象级别！</item>
+		<item id="form-success" desc="">已成功保存角色信息，要继续定义新的角色吗？</item>
+		<item id="form-failure-error" desc="">提交保存角色信息发生错误！</item>
+		<item id="form-failure-reduplicatekey" desc="">角色唯一标识重复！</item>
+		<item id="form-failure-invalidkey" desc="">角角色唯一标识不能为空！</item>
+		<item id="form-failure-indecisiveerror" desc="">未知的错误异常！</item>
+		<item id="edit-load-error" desc="">读取角色信息失败！</item>
+		<item id="edit-success" desc="">已成功保存角色信息！</item>
+	</role-language>
+	<module-language>
+		<item id="module" desc="">模块</item>
+		<item id="menu" desc="">菜单</item>
+		<item id="tree-root" desc="">根节点</item>
+		<item id="tbar-add" desc="">模块定义</item>
+		<item id="tbar-delete" desc="">删除模块</item>
+		<item id="tbar-purview" desc="">应用模块访问统一授权</item>
+		<item id="list-title" desc="">应用模块信息列表</item>
+		<item id="list-name" desc="">模块名称</item>
+		<item id="list-desc" desc="">模块说明</item>
+		<item id="list-link" desc="">模块链接</item>
+		<item id="list-idx" desc="">顺序号</item>
+		<item id="list-menumanage" desc="">菜单管理</item>
+		<item id="list-purview" desc="">访问权限</item>
+		<item id="delete-prompt" desc="">确定删除模块？</item>
+		<item id="delete-alert" desc="">请选择要删除模块！</item>
+		<item id="delete-success" desc="">已成功删除模块！</item>
+		<item id="delete-error" desc="">删除模块失败！</item>
+		<item id="form-title" desc="">模块信息</item>
+		<item id="form-name" desc="">模块名称</item>
+		<item id="form-name-emptytext" desc="">请定义模块名称</item>
+		<item id="form-desc" desc="">模块说明</item>
+		<item id="form-link" desc="">自定义链接</item>
+		<item id="form-idx" desc="">排列顺序</item>
+		<item id="form-langkey" desc="">语言标签</item>
+		<item id="form-failure-error" desc="">提交保存模块信息发生错误！</item>
+		<item id="form-failure-indecisiveerror" desc="">未知的错误异常！</item>
+		<item id="edit-load-error" desc="">读取模块信息失败！</item>
+		<item id="edit-success" desc="">已成功保存模块信息！</item>
+		<item id="treepanel-title" desc="">模块</item>
+		<item id="treewindow-title" desc="">模块菜单管理</item>
+		<item id="treemenu-add" desc="">增加菜单</item>
+		<item id="treemenu-edit" desc="">编辑</item>
+		<item id="treemenu-move" desc="">移动</item>
+		<item id="treemenu-delete" desc="">删除</item>
+		<item id="purview-list-title" desc="">访问权限列表</item>
+		<item id="purview-window-title" desc="">访问权限设置</item>
+		<item id="purview-nav-title" desc="">应用功能模块</item>
+		<item id="purview-used-title" desc="">使用授权</item>
+		<item id="purview-success" desc="">授权成功！</item>
+		<item id="purview-failure" desc="">授权失败！</item>
+		<item id="purview-delete-prompt" desc="">确定删除授权？</item>
+		<item id="purview-delete-success" desc="">删除授权成功！</item>
+		<item id="purview-delete-failure" desc="">删除授权失败！</item>
+		<item id="move-title" desc="">移动至...</item>
+		<item id="move-failure-error1" desc="">菜单不能移至此节点下！</item>
+		<item id="move-failure-error2" desc="">菜单已经在此节点下！</item>
+		<item id="move-success" desc="">已成功移动菜单！</item>
+		<item id="move-failure" desc="">移动菜单发送错误！</item>
+		<item id="authorize-title" desc="">应用模块访问统一授权</item>
+		<item id="authorize-range" desc="">控制范围</item>
+		<item id="authorize-role" desc="">角色</item>
+		<item id="authorize-user" desc="">用户</item>
+		<item id="authorize-loadrole-error" desc="">加载角色权限失败！</item>
+		<item id="authorize-loaduser-error" desc="">加载用户权限失败！</item>
+		<item id="authorize-alert" desc="">请选择控制权限！</item>
+		<item id="authorize-object-alert" desc="">请选择需要授权的角色或用户！</item>
+		<item id="authorize-success" desc="">授权成功！</item>
+		<item id="authorize-failure" desc="">授权失败！</item>
+	</module-language>
+	<menu-language>
+		<item id="delete-prompt" desc="">确定删除菜单？</item>
+		<item id="delete-success" desc="">成功删除菜单！</item>
+		<item id="delete-failure-error" desc="">删除菜单失败！</item>
+		<item id="delete-failure-childrenerror" desc="">不能删除菜单，请先删除子菜单！</item>
+		<item id="form-title" desc="">菜单信息</item>
+		<item id="form-pname" desc="">父节点</item>
+		<item id="form-name" desc="">菜单名称</item>
+		<item id="form-icon" desc="">菜单图标</item>
+		<item id="form-desc" desc="">菜单说明</item>
+		<item id="form-link" desc="">菜单链接</item>
+		<item id="form-idx" desc="">排列顺序</item>
+		<item id="form-langkey" desc="">语言标签</item>
+		<item id="form-success" desc="">已成功保存菜单信息！</item>
+		<item id="form-failure" desc="">提交保存菜单信息发生错误！</item>
+		<item id="edit-load-error" desc="">提取菜单信息失败！</item>
+	</menu-language>
+	<workflow-language>
+		<item id="draw" desc="">流程图</item>
+		<item id="setting" desc="">环节设置</item>
+		<item id="init" desc="">初始化</item>
+		<item id="flowlist-title" desc="">工作流程列表</item>
+		<item id="flowlist-name" desc="">流程类别名称</item>
+		<item id="flowlist-key" desc="">唯一标识</item>
+		<item id="flowlist-object" desc="">流转对象</item>
+		<item id="flowlist-support" desc="">运行系统</item>
+		<item id="flowlist-desc" desc="">流程类别描述</item>
+		<item id="flowlist-opinion" desc="">审批意见视图</item>
+		<item id="flowlist-keepdata" desc="">保留业务数据</item>
+		<item id="flowlist-op" desc="">操作设置</item>
+		<item id="flowlist-tbar-add" desc="">新建流程</item>
+		<item id="flowlist-tbar-delete" desc="">删除流程</item>
+		<item id="flowlist-tbar-copy" desc="">复制流程</item>
+		<item id="flowlist-tbar-export" desc="">导出流程</item>
+		<item id="flowlist-tbar-import" desc="">导入流程</item>
+		<item id="flow-delete-prompt" desc="">确定删除该流程？</item>
+		<item id="flow-delete-success" desc="">已成功删除流程！</item>
+		<item id="flow-delete-failure" desc="">删除流程失败！</item>
+		<item id="flow-import-file" desc="">数据文件</item>
+		<item id="flow-import-title" desc="">导入工作流程</item>
+		<item id="flow-import-prompt" desc="">确定导入所选定的文件？</item>
+		<item id="flow-import-success" desc="">流程导入成功！</item>
+		<item id="flow-import-failure" desc="">确定导入所选定的文件？</item>
+		<item id="flow-init-alert" desc="">初始化操作清空该流程相关的活动数据及业务数据，流程初始化后，被清理的数据将不可恢复！</item>
+		<item id="flow-init-success" desc="">初始化流程成功！</item>
+		<item id="flow-init-failure" desc="">初始化流程异常！</item>
+		<item id="flow-init-error" desc="">初始化流程失败！</item>
+		<item id="flow-form-name" desc="">流程名称</item>
+		<item id="flow-form-key" desc="">标识KEY</item>
+		<item id="flow-form-desc" desc="">流程说明</item>
+		<item id="flow-form-js" desc="">js插件</item>
+		<item id="flow-form-css" desc="">css插件</item>
+		<item id="flow-form-object" desc="">流转对象</item>
+		<item id="flow-form-opinion" desc="">审批意见表</item>
+		<item id="flow-form-opinionlist" desc="">审批意见列表</item>
+		<item id="flow-form-keepdata" desc="">保留业务数据</item>
+		<item id="flow-form-title" desc="">工作流程信息</item>
+		<item id="flow-form-save-success" desc="">已保存工作流程！</item>
+		<item id="flow-form-save-error" desc="">未知的异常错误！</item>
+		<item id="flow-form-save-reduplicatederror" desc="">唯一标识重复，请重新定义！</item>
+		<item id="flow-form-save-failure" desc="">提交保存工作流程发生错误！</item>
+		<item id="flow-form-load-noflowerror" desc="">工作流程不存在！</item>
+		<item id="flow-form-load-noobjecterror" desc="">工作流程流转对象并不存在！</item>
+		<item id="steplist-title" desc="">工作流程列表</item>
+		<item id="steplist-name" desc="">环节名称</item>
+		<item id="steplist-no" desc="">环节编号</item>
+		<item id="steplist-key" desc="">唯一标识</item>
+		<item id="steplist-type" desc="">环节类型</item>
+		<item id="steplist-inner" desc="">分支环节</item>
+		<item id="steplist-setting" desc="">设置</item>
+		<item id="invalidstep" desc="">已删除节点</item>
+		<item id="steplist-delete" desc="">删除</item>
+		<item id="steplist-recover" desc="">恢复</item>
+		<item id="steplist-items" desc="">表单项设置</item>
+		<item id="steplist-trends" desc="">流向环节列表</item>
+		<item id="startstep" desc="">开始环节</item>
+		<item id="endstep" desc="">结束环节</item>
+		<item id="step" desc="">一般环节</item>
+		<item id="transstep" desc="">过渡环节</item>
+		<item id="numberstep" desc="">编号环节</item>
+		<item id="step-delete-prompt" desc="">确定删除流转环节？</item>
+		<item id="step-delete-success" desc="">已成功删除流转环节！</item>
+		<item id="step-delete-failure" desc="">删除流转环节失败,请确认该环节是否已在使用中！</item>
+		<item id="handler-form-title" desc="">流转环节视图表单操作权限设置</item>
+		<item id="handlerlist-name" desc="">表单项名称</item>
+		<item id="handlerlist-purview" desc="">操作权限</item>
+		<item id="handlerlist-column" desc="">字段名称</item>
+		<item id="handlerlist-columntype" desc="">字段类型</item>
+		<item id="handlerlist-type" desc="">表数据处理类型</item>
+		<item id="handlerlist-tbar-add" desc="">添加数据</item>
+		<item id="handlerlist-tbar-edit" desc="">编辑数据</item>
+		<item id="handlerlist-tbar-delete" desc="">删除数据</item>
+		<item id="handler-set-alert" desc="">流转对象不包含任何表单项，无法进行权限设置！</item>
+		<item id="handler-set-selectalert" desc="">请选择操作权限！</item>
+		<item id="handler-success" desc="">表单操作权限设置成功！</item>
+		<item id="handler-failure" desc="">表单操作权限设置失败！</item>
+		<item id="trend-title" desc="">流向环节列表</item>
+		<item id="trendlist-destination" desc="">可到达环节</item>
+		<item id="trendlist-type" desc="">环节类型</item>
+		<item id="trendlist-trendname" desc="">流向名称</item>
+		<item id="trendlist-result" desc="">办理结果</item>
+		<item id="trendlist-responsiblestep" desc="">责任环节标识</item>
+		<item id="trendlist-bywhat" desc="">到达方式</item>
+		<item id="trendlist-op" desc="">操作</item>
+		<item id="trendlist-save" desc="">保存</item>
+		<item id="trendlist-save-success" desc="">提交保存成功！</item>
+		<item id="trendlist-save-failure" desc="">提交保存失败！</item>
+		<item id="step-form-event" desc="">事件处理器</item>
+		<item id="step-form-transit" desc="">过渡环节</item>
+		<item id="step-form-limit" desc="">限定办理人范围</item>
+		<item id="step-form-submit" desc="">提交方式</item>
+		<item id="step-form-autosubmit" desc="">自动提交</item>
+		<item id="step-form-handsubmit" desc="">手动提交</item>
+		<item id="step-form-queryopinion" desc="">查阅意见</item>
+		<item id="step-form-custom" desc="">定制操作</item>
+		<item id="step-form-customopinion" desc="">意见</item>
+		<item id="step-form-customback" desc="">退回</item>
+		<item id="step-form-customred" desc="">套红</item>
+		<item id="step-form-customstamp" desc="">盖章</item>
+		<item id="step-form-customprint" desc="">打印</item>
+		<item id="step-form-opinionview" desc="">意见视图</item>
+		<item id="step-form-backstep" desc="">退回环节</item>
+		<item id="step-form-title" desc="">环节信息</item>
+		<item id="step-form-flow" desc="">工作流程</item>
+		<item id="step-form-object" desc="">流转对象</item>
+		<item id="step-form-support" desc="">运行系统</item>
+		<item id="step-form-step" desc="">环节名称</item>
+		<item id="step-form-trend" desc="">默认流向名称</item>
+		<item id="step-form-key" desc="">唯一标识</item>
+		<item id="step-form-desc" desc="">环节说明</item>
+		<item id="step-form-type" desc="">环节类型</item>
+		<item id="step-form-view" desc="">操作视图</item>
+		<item id="step-form-role" desc="">参与角色</item>
+		<item id="step-form-user" desc="">参与人</item>
+		<item id="step-window-title" desc="">流程环节配置</item>
+		<item id="step-form-success" desc="">已成功修改流程环节信息！</item>
+		<item id="step-form-failure" desc="">提交更新流程环节信息发生错误！</item>
+		<item id="eventtype" desc="">事件类别</item>
+		<item id="eventclass" desc="">类名称</item>
+		<item id="eventclasstitle" desc="">请设置插件类名称</item>
+		<item id="rangetitle" desc="">流程环节参与人设置</item>
+	</workflow-language>
+	<object-language>
+		<item id="list-name" desc="">对象名称</item>
+		<item id="list-key" desc="">唯一标识</item>
+		<item id="list-desc" desc="">说明</item>
+		<item id="list-system" desc="">所属系统</item>
+	</object-language>	
+	<dataindex-language>
+		<item id="tbar-add" desc="">添加子类别</item>
+		<item id="tbar-delete" desc="">删除</item>
+		<item id="tree-root" desc="">数据类别</item>
+		<item id="tree-title" desc="">数据类别结构树</item>
+		<item id="form-name" desc="">索引类别名称</item>
+		<item id="form-title" desc="">添加分类</item>
+		<item id="form-desc" desc="">索引类别备注</item>
+		<item id="form-key" desc="">索引类别唯一标识</item>
+		<item id="form-code" desc="">索引类别内部编码</item>
+		<item id="form-pycode" desc="">索引类别拼音识别码</item>
+		<item id="form-ywcode" desc="">索引类别外文识别码</item>
+		<item id="form-order" desc="">类别索引排序</item>
+		<item id="form-status" desc="">类别索引有效性</item>
+		<item id="form-status-valid" desc="">有效</item>
+		<item id="form-status-invalid" desc="">无效</item>
+		<item id="form-success" desc="">已成功保存信息！</item>
+		<item id="form-failure" desc="">保存信息发生错误！</item>
+		<item id="delete-prompt" desc="">是否删除所选节点及其子节点？</item>
+		<item id="delete-success" desc="">删除成功！</item>
+		<item id="delete-failure" desc="">删除失败！</item>
+		<item id="save-failure" desc="">保存失败！</item>
+	</dataindex-language>	
+	<wordbook-language>
+		<item id="combobox-emptytext" desc="">请选择字典类别...</item>
+		<item id="list-id" desc="">主键</item>
+		<item id="list-name" desc="">值</item>
+		<item id="list-idx" desc="">排序</item>
+		<item id="list-title" desc="">字典列表</item>
+		<item id="list-save" desc="">保存</item>
+		<item id="list-delete" desc="">删除</item>
+		<item id="panel-title" desc="">数据字典列表</item>
+		<item id="tbar-label" desc="">字典数据类别</item>
+		<item id="tbar-add" desc="">增加类别</item>
+		<item id="tbar-add-tooltip" desc="">增加字典类别</item>
+		<item id="tbar-delete" desc="">删除类别</item>
+		<item id="tbar-delete-tooltip" desc="">删除字典类别定义</item>
+		<item id="tbar-additem" desc="">增加字典项</item>
+		<item id="tbar-additem-tooltip" desc="">在当前字典类别中定义新的字典项</item>
+		<item id="save-alert-id" desc="">请定义数据字典项ID！</item>
+		<item id="save-alert-name" desc="">请定义数据字典项Value！</item>
+		<item id="list-save" desc="">保存</item>
+		<item id="save-success" desc="">已成功保存字典数据项！</item>
+		<item id="save-failure" desc="">保存字典数据项失败！</item>
+		<item id="delete-prompt" desc="">确定删除？</item>
+		<item id="delete-success" desc="">已成功删除字典数据项！</item>
+		<item id="delete-failure" desc="">删除字典数据项失败！</item>
+		<item id="form-name" desc="">类别名称</item>
+		<item id="form-name-emptytext" desc="">请定义类别名称(通常为英文缩写)</item>
+		<item id="form-desc" desc="">类别描述</item>
+		<item id="form-desc-emptytext" desc="">请定义类别描述(通常为中文描述)</item>
+		<item id="window-title" desc="">增加数据字典类别</item>
+		<item id="wb-delete-success" desc="">已成功删除字典数据类别！</item>
+		<item id="wb-delete-failure" desc="">删除字典数据类别失败！</item>
+		<item id="wb-save-success" desc="">已成功添加新的数据字典类别！</item>
+		<item id="wb-save-failure" desc="">提交保存数据字典类别发生错误！</item>
+		<item id="wb-save-reduplicatederror" desc="">数据字典类别重复，请重新定义！</item>
+	</wordbook-language>	
+	<table-language>
+		<item id="system" desc="">系统表</item>
+		<item id="backup" desc="">备份表</item>
+		<item id="app" desc="">应用表</item>
+	</table-language>
+	<restore-language>
+		<item id="list-name" desc="">备份文件名称</item>
+		<item id="list-path" desc="">备份文件存储位置</item>
+		<item id="list-type" desc="">备份文件类型</item>
+		<item id="list-location" desc="">备份文件存储形式</item>
+		<item id="list-op" desc="">操作</item>
+		<item id="list-title" desc="">系统数据恢复</item>
+		<item id="tbar-delete" desc="">删除备份文件</item>
+		<item id="tbar-restore" desc="">数据恢复</item>
+		<item id="delete-prompt" desc="">确定删除所选定的备份文件？</item>
+		<item id="delete-success" desc="">数据备份文件已被删除！</item>
+		<item id="delete-failure" desc="">数据备份文件删除失败，请重试！</item>
+		<item id="restore-alert" desc="">执行数据恢复操作将删除当前系统数据,请谨慎执行数据恢复操作并在执行数据恢复操作前做好当前数据的备份！</item>
+		<item id="restore-data" desc="">数据文件</item>
+		<item id="restore-title" desc="">系统数据备份计划</item>
+		<item id="restore-button" desc="">执行数据恢复</item>
+		<item id="restore-prompt" desc="">确定恢复所选定的备份文件？</item>
+		<item id="restore-success" desc="">数据恢复成功！</item>
+	</restore-language>	
+	<backup-language>
+		<item id="list-type" desc="">数据表类型</item>
+		<item id="list-table" desc="">表名称</item>
+		<item id="list-desc" desc="">数据表类型</item>
+		<item id="list-file" desc="">所属文件</item>
+		<item id="list-datasource" desc="">数据源</item>
+		<item id="list-title" desc="">系统数据备份</item>
+		<item id="tbar-backup" desc="">数据备份</item>
+		<item id="list-type" desc="">数据表类型</item>
+		<item id="form-name" desc="">备份文件名称</item>
+		<item id="form-name-emptytext" desc="">请定义备份文件名称</item>
+		<item id="form-title" desc="">待备份系统数据表</item>
+		<item id="window-title" desc="">系统数据备份计划</item>
+		<item id="backup-button" desc="">执行数据备份</item>
+		<item id="backup-prompt" desc="">本次数据备份计划将添加至后台备份任务队列，备份任务完成时间取决于备份数据量的大小，请等待备份任务完成后再下载备份数据文件！</item>
+		<item id="backup-success" desc="">数据备份计划已成功加入任务队列！</item>
+		<item id="backup-failure" desc="">数据备份任务执行失败，请重试！</item>
+	</backup-language>	
+	<log-language>
+		<item id="list-title" desc="">系统日志信息列表</item>
+		<item id="list-user" desc="">用户</item>
+		<item id="list-logid" desc="">登录ID</item>
+		<item id="list-time" desc="">操作时间</item>
+		<item id="list-ip" desc="">访问IP</item>
+		<item id="list-type" desc="">操作类型</item>
+		<item id="list-detail" desc="">操作明细</item>
+		<item id="list-content" desc="">日志内容</item>
+		<item id="query-detail" desc="">查看日志明细</item>
+		<item id="query-content" desc="">系统日志</item>
+		<item id="delete-failure-deleteerror" desc="">删除日志信息失败！</item>
+		<item id="delete-failure-cleanerror" desc="">清空日志信息失败！</item>
+		<item id="invalidip">请输入正确的IP地址</item>
+		<item id="query-type">操作类型</item>
+		<item id="query-detail">操作明细</item>
+		<item id="query-user">用户名称</item>
+		<item id="query-logid">登录ID</item>
+		<item id="query-ip">IP</item>
+		<item id="query-stime">起始时间</item>
+		<item id="query-etime">截至时间</item>
+		<item id="query-title">日志查询</item>
+		<item id="query-invalid">请设置查询条件项！</item>
+		<item id="query-button">日志查询</item>
+		<item id="query-button-tooltip">系统日志查询</item>
+		<item id="delete-button">日志清理</item>
+		<item id="delete-button-tooltip">清理系统日志</item>
+		<item id="export-button">日志导出</item>
+		<item id="export-button-tooltip">日志导出</item>
+		<item id="clean-button">清空日志</item>
+		<item id="clean-button-tooltip">删除全部系统日志</item>
+		<item id="delete-prompt">确定删除日志信息？</item>
+		<item id="clean-prompt">清空操作将要删除全部日志信息,此操作删除的数据不可恢复,确定清空日志信息？</item>
+		<item id="form-detail" desc="">日志明细: </item>
+	</log-language>	
+	<annex-language>
+		<item id="query-object" desc="">外键对象</item>
+		<item id="query-type" desc="">附件类型</item>
+		<item id="list-title" desc="">附件信息列表</item>
+		<item id="list-id" desc="">附件ID</item>
+		<item id="list-name" desc="">附件名称</item>
+		<item id="list-type" desc="">类型</item>
+		<item id="list-folder" desc="">所在文件夹</item>
+		<item id="list-path" desc="">路径</item>
+		<item id="list-fid" desc="">外健ID</item>
+		<item id="list-fobject" desc="">外键对象</item>
+		<item id="list-input" desc="">附件域</item>
+		<item id="list-location" desc="">存储位置</item>
+		<item id="list-relation" desc="">外键关系</item>
+		<item id="annex-uncertain" desc="">不确定</item>
+		<item id="annex-missing" desc="">关系丢失</item>
+		<item id="annex-complete" desc="">关系完整</item>
+	</annex-language>	 
+	<tablequery-language>
+		<item id="error-uncreated" desc="">未能创建通用数据列表</item>
+		<item id="failure-uncreated" desc="">未知的异常错误，未能初始化通用数据列表</item>
+		<item id="alert-group" desc="">列表分组参数设置有误,请仔细检查group:{filed:'分组字段',sort:'排序字段',display:'显示名称字段'}设置</item>
+		<item id="alert-getjson" desc="">获取通用数据列表json结构信息失败</item>
+		<item id="alert-notfound" desc="">未定义通用数据列表</item>
+		<item id="list-displaymsg" desc="">共{2}条数据</item>
+		<item id="list-emptymsg" desc="">无数据</item>
+		<item id="list-page" desc="">每页显示</item>
+		<item id="list-data" desc="">条数据</item>
+		<item id="form-title" desc="">数据查询</item>
+	</tablequery-language>
+	<tableview-language>
+		<item id="save-success" desc="">数据提交保存成功！</item>
+		<item id="to" desc="">至</item>
+		<item id="readonly" desc="">只读</item>
+		<item id="numberonly" desc="">只能输入数字</item>
+		<item id="maxlength" desc="">输入的内容超过上限</item>
+		<item id="pleaseselect" desc="">请选择</item>
+		<item id="mismatch" desc="">输入内容不一致</item>
+		<item id="isinvalid" desc="">存在无效的表单内容！</item>
+		<item id="dynamichandlealert" desc="">视图组件无效，不能动态处理组件！</item>
+	</tableview-language>
+	<flow-language>
+		<item id="history-opinion-list" desc="">历史意见</item>
+		<item id="sign-opinion" desc="">签署意见</item>
+		<item id="closewindow" desc="">确认关闭窗口？</item>
+	</flow-language>
+	<extframe-language>
+		<item id="editpwd" desc="">密码管理</item>
+		<item id="personalinfo" desc="">个人信息</item>
+		<item id="shortcut" desc="">快捷方式</item>
+		<item id="console" desc="">系统控制台</item>
+		<item id="logout" desc="">退出系统</item>
+		<item id="desktop" desc="">我的桌面</item>
+		<item id="modulemenu" desc="">应用模块菜单</item>
+		<item id="user" desc="">会话用户</item>
+		<item id="group" desc="">所在部门</item>
+		<item id="logout-prompt" desc="">确定退出系统？</item>
+	</extframe-language> 
+</wordbook>

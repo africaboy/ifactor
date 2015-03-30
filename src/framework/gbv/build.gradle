@@ -1,0 +1,3 @@
+tasks.each {
+	it.enabled = false
+}

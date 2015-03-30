@@ -1,0 +1,15 @@
+.delrole {
+	background-image: url(../images/remove_role.gif) !important
+}
+
+.addtrole {
+	background-image: url(../images/edit_role.gif) !important
+}
+
+.icon-pselectuser {
+	background-image: url(../images/ok.gif) !important;
+}
+
+.icon-punchk {
+	background-image: url(../images/ko.gif) !important;
+}

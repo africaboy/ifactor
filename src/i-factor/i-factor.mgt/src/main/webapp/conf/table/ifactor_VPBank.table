@@ -1,0 +1,108 @@
+<annotate>
+	<table name="IF_MGT_VPBANK_USER" description="VPBank user info">
+		<column>
+			<name>VPB_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LOGIN_NAME</name>
+			<type>varchar</type>
+			<description>login name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>PASSWORD</name>
+			<type>varchar</type>
+			<description>password</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CREATE_TIME</name>
+			<type>varchar</type>
+			<description>create time</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>UPDATE_TIME</name>
+			<type>varchar</type>
+			<description>update time</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>STATUS</name>
+			<type>varchar</type>
+			<description>status</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>TITLE</name>
+			<type>varchar</type>
+			<description>title</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FIRST_NAME</name>
+			<type>varchar</type>
+			<description>first name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LAST_NAME</name>
+			<type>varchar</type>
+			<description>last value</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>GENDER</name>
+			<type>varchar</type>
+			<description>gender</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>POSITION</name>
+			<type>varchar</type>
+			<description>position</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EMAIL</name>
+			<type>varchar</type>
+			<description>email</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>MOBILE_COUNTRY_CODE</name>
+			<type>varchar</type>
+			<description>mobile country code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MOBILE_PHONE</name>
+			<type>varchar</type>
+			<description>mobile phone</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>WORK_COUNTRY_CODE</name>
+			<type>varchar</type>
+			<description>work country code</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>WORK_PHONE</name>
+			<type>varchar</type>
+			<description>work phone</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEFAULT_LOCALE</name>
+			<type>varchar</type>
+			<description>default locale</description>
+			<length>200</length>
+		</column>
+	</table>
+</annotate>

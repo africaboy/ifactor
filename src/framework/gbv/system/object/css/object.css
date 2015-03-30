@@ -1,0 +1,166 @@
+IMG {
+	BORDER-BOTTOM: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-RIGHT: 0px
+}
+
+A:link {
+	COLOR: #3333cc
+}
+
+A:visited {
+	COLOR: #663399
+}
+
+A:hover {
+	COLOR: #cc0033
+}
+
+A:active {
+	COLOR: #cc0033
+}
+
+.cl_qus {
+	Z-INDEX: 0;
+	POSITION: relative;
+	BORDER-LEFT: #9d9fa1 1px solid;
+	MARGIN: 5px auto 0px;
+	WIDTH: 800px;
+}
+
+.contftcont1 {
+	WIDTH: 794px;
+	BACKGROUND: #fff;
+	BORDER-TOP: #9d9fa1 1px solid;
+	BORDER-RIGHT: #9d9fa1 1px solid
+}
+
+.contftcont1w {
+	WIDTH: 800px;
+	BACKGROUND: url(rb1.gif) no-repeat
+}
+
+.qus_t {
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 40px;
+	PADDING-RIGHT: 10px;
+	BACKGROUND: #fafafa;
+	HEIGHT: 25px;
+	PADDING-TOP: 5px
+}
+
+.plsz {
+	TEXT-ALIGN: right;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	WIDTH: 300px;
+	PADDING-RIGHT: 0px;
+	FLOAT: right;
+	COLOR: #999;
+	FONT-SIZE: 12px;
+	PADDING-TOP: 0px
+}
+
+.cb {
+	CLEAR: both
+}
+
+.f14 {
+	FONT-SIZE: 14px
+}
+
+A.f14:link {
+	FONT-SIZE: 14px
+}
+
+A.f14:visited {
+	FONT-SIZE: 14px
+}
+
+A.f14:hover {
+	FONT-SIZE: 14px
+}
+
+A.f14:active {
+	FONT-SIZE: 14px
+}
+
+.fl {
+	FLOAT: left
+}
+
+.cr {
+	CLEAR: right
+}
+
+.cl_qus {
+	Z-INDEX: 0;
+	POSITION: relative;
+	BORDER-LEFT: #9d9fa1 1px solid;
+	MARGIN: 5px auto 0px;
+	WIDTH: 800px;
+}
+
+.cl_qus .qusi {
+	POSITION: absolute;
+	TOP: -4px;
+	LEFT: 10px
+}
+
+.content {
+	PADDING-BOTTOM: 16px
+}
+
+.contftcont2w {
+	WIDTH: 800px;
+	BACKGROUND: url(rb2.gif)
+}
+
+.contftcont2 {
+	BORDER-BOTTOM: #9d9fa1 1px solid;
+	WIDTH: 794px;
+	BACKGROUND: #fff;
+	BORDER-TOP: #fff 1px solid;
+	BORDER-RIGHT: #9d9fa1 1px solid
+}
+
+.qus_c {
+	PADDING-BOTTOM: 5px;
+	MARGIN: 3px 0px 3px 3px;
+	PADDING-LEFT: 20px;
+	PADDING-RIGHT: 0px;
+	BACKGROUND: #ffffff;
+	PADDING-TOP: 20px
+}
+
+.contftcont3 {
+	WIDTH: 801px;
+	MARGIN: 0px auto 0px;
+	OVERFLOW: hidden
+}
+
+.contftcont3 .bb1 {
+	WIDTH: 5px;
+	BACKGROUND: url(bb1.gif) no-repeat;
+	FLOAT: left;
+	HEIGHT: 7px;
+	OVERFLOW: hidden
+}
+
+.contftcont3 .bb2 {
+	WIDTH: 790px;
+	BACKGROUND: url(bb2.gif);
+	FLOAT: left;
+	HEIGHT: 7px;
+	OVERFLOW: hidden
+}
+
+.contftcont3 .bb3 {
+	WIDTH: 6px;
+	BACKGROUND: url(bb3.gif) no-repeat;
+	FLOAT: right;
+	HEIGHT: 7px;
+	OVERFLOW: hidden
+}

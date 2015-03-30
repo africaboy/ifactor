@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<examples_t1_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">列表1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">列表1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">列表2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">列表2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">列表3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">列表3_名称</item>
+		<item id="EXAMPLES_T1_T3_NUMBER" desc="">3.编号</item>
+		<item id="EXAMPLES_T1_T3_MONEY" desc="">T3.金额</item>
+	</examples_t1_add>
+	<examples_t1_special_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">列表1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">列表1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">列表2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">列表2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">列表3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">列表3_名称</item>
+		<item id="EXAMPLES_T1_L3_TYPE" desc="">列表3_类型</item>
+		<item id="EXAMPLES_T1_T2_PKID" desc="">T2.主键</item>
+		<item id="EXAMPLES_T1_T2_NAME" desc="">T2.名称</item>
+		<item id="EXAMPLES_T1_T2_TYPE" desc="">T2.类型</item>
+		<item id="EXAMPLES_T1_T3_PKID" desc="">T3.主键</item>
+		<item id="EXAMPLES_T1_T3_NAME" desc="">T3.名称</item>
+		<item id="EXAMPLES_T1_T3_TYPE" desc="">T3.类型</item>
+		<item id="EXAMPLES_T1_T4_PKID" desc="">T4.主键</item>
+		<item id="EXAMPLES_T1_T4_NAME" desc="">T4.名称</item>
+		<item id="EXAMPLES_T1_T4_TYPE" desc="">T4.类型</item>
+		<item id="EXAMPLES_T1_T5_PKID" desc="">T5.主键</item>
+		<item id="EXAMPLES_T1_T5_NAME" desc="">T5.名称</item>
+		<item id="EXAMPLES_T1_T5_TYPE" desc="">T5.类型</item>
+		<item id="EXAMPLES_T1_T6_PKID" desc="">T6.主键</item>
+		<item id="EXAMPLES_T1_T7_PKID" desc="">电话</item>
+		<item id="EXAMPLES_T1_T7_NAME" desc="">T7.名称</item>
+		<item id="EXAMPLES_T1_T7_TYPE" desc="">T7.类型</item>
+	</examples_t1_special_add>
+	<examples_t1_edit>
+		<item id="EXAMPLES_T1_NAME" desc="">名称</item>
+		<item id="EXAMPLES_T1_L1_ID" desc="">列表1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">列表1</item>
+	</examples_t1_edit>
+	<ifactor_image_items_add>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">影像类别</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">影像编码</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">影像名称</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">是否必填</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">是否必填</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">影像类别名称</item>
+	</ifactor_image_items_add>
+	<if_mgt_image_items_edit>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">影像类别</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">影像编号</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">影像名称</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">是否遗失</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">是否遗失名称</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">影像类别名称</item>
+	</if_mgt_image_items_edit>
+	<ifactor_param_setting_edit>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_CODE" desc="">参数代码</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_VALUE" desc="">参数值</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_DESC" desc="">参数描述</item>
+	</ifactor_param_setting_edit>
+	<if_mgt_dfield_match_add>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW" desc="">流程类型</item>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW_VALUE" desc="">Work Flow</item>
+		<item id="IF_MGT_DFIELD_MATCH_MGT_FIELD" desc="">线下字段</item>
+		<item id="IF_MGT_DFIELD_MATCH_APP_FIELD" desc="">线上字段</item>
+		<item id="IF_MGT_DFIELD_MATCH_DESCRIPTION" desc="">描述</item>
+	</if_mgt_dfield_match_add>
+	<if_mgt_sysvars_edit>
+		<item id="IF_MGT_SYSVARS_SYSVARS_PK_ID" desc="">主键</item>
+		<item id="IF_MGT_SYSVARS_CODE" desc="">编码</item>
+		<item id="IF_MGT_SYSVARS_DESCRIBE" desc="">编码描述</item>
+		<item id="IF_MGT_SYSVARS_VALUE" desc="">值</item>
+	</if_mgt_sysvars_edit>
+	<ifactor_buyer_apply>
+		<item id="IF_MGT_BUYER_APPLY_APP_PK_ID" desc="">绑定行ID</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">更新时间</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_CODE" desc="">申请单ID</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_TITLE" desc="">性别</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_GENDER" desc="">性别</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_NATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_RESIDENCE_COUNTRY" desc="">常住国家</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_TYPE" desc="">ID类型</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">ID号</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_BIRTH_DATE" desc="">出生日期</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PLOCALCODE" desc="">工作电话国家代码</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PHONE" desc="">工作电话号码</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MLOCALCODE" desc="">移动号码国家代码</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">移动号码</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_EMAIL" desc="">邮箱地址</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COUNTRY" desc="">国籍</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_PRIVATE" desc="">以私人身份访问</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_REGION" desc="">地区</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_CITY" desc="">城市</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_DISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_RESIDENCE_ADDRESS" desc="">地址</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_OCCUPATION" desc="">当前的雇主/职业</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EMPLOYER_NAME" desc="">雇主的名字</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COMPANY_INDUSTRY" desc="">公司行业</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_TRADEPLATFORM" desc="">除了股票,你有没有使用交易平台/软件投资其他资产类别?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ASSET" desc="">如果有,是哪种资产类别?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_YEARSINVESTOR" desc="">你一直积极作为投资者多少年了？</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISFACTORING" desc="">你熟悉保理融资和发票吗?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISAUCTION" desc="">你熟悉拍卖吗?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISPROVIDER" desc="">你有股票经纪服务提供商吗?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISASSET" desc="">你有私人的资产/投资经理吗?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_MAJOR" desc="">你的收入的主要来源是什么?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EALAST" desc="">不包括房地产，在去年,什么是你的评估投资的数量?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EATHIS" desc="">不包括财产，在今年，什么是你的估计数量的投资？</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_PLATFORM" desc="">平均每月多少钱你打算投资这个平台?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_BUSINESSFROM" desc="">如果你被银行工作人员介绍,他/她来自于哪些业务?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_COMPANY" desc="">以公司身份访问平台</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISREGISTVN" desc="">公司注册在越南吗?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_COUNTRY" desc="">注册国家</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_NUMBER" desc="">登记编号</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TAX_CODE" desc="">税法</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ESTABLISH_DATE" desc="">公司成立日期</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ORGANIZATION" desc="">贵公司在越南成立多久了?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_COUNTRY" desc="">国家</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_REGION" desc="">区域</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_CITY" desc="">城市</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_DISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_ADDRESS" desc="">地址</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_POST_CODE" desc="">邮政编码</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TYPECOMPANY" desc="">公司的类型是什么</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINDUSTRY" desc="">请指定该公司所处的行业</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTURNOVER" desc="">该公司去年的营业额是多少?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPENGAGED" desc="">该公司曾经从事保理服务或交易公司发票吗?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPASSET" desc="">公司短期投资资产类别?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPASSET" desc="">什么是公司营业的主要资产类别??</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINVESTMENT" desc="">是什么公司的短期投资资产类别在去年?请选择N/A ,如果这是不适用的</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGE" desc="">资产和投资管理公司基金的平均尺寸是什么基金,该公司投资于短期资产类别?请选择N /A 如果这是不适用的</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGEPER" desc="">平均每月多少钱你的公司打算投资这个平台?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPBUSINESSFROM" desc="">如果你被银行工作人员介绍,他/她来自于哪些业务?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION" desc="">你在公司的职位是什么</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">不一样的邮箱地址</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">不一样的邮箱地址</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_ADDRESS" desc="">公司地址</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_DISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_CITY" desc="">城市</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_REGION" desc="">区域</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_COUNTRY" desc="">国家</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFPOST_CODE" desc="">邮政编码</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">是否授权用户</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">是否授权用户</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPOPERATE" desc="">你是授权人操作这个平台吗？</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTITLE" desc="">性别</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPFNAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPLNAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPEMAIL" desc="">邮箱地址</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION1" desc="">位置</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPGENDER" desc="">性别</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPDOB" desc="">出生日期</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPNATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPRESIDENCE" desc="">常住国家</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDTYPE" desc="">ID类型</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDNUMBER" desc="">ID号</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONECODE" desc="">工作电话国家编码</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONE" desc="">工作电话</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONECODE" desc="">移动电话国家编码</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONE" desc="">移动电话</item>
+	</ifactor_buyer_apply>
+	<if_cp_profile>
+		<item id="IF_MGT_CP_PROFILE_CINUMBER" desc="">客户ID</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANY" desc="">公司名称</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYCDATE" desc="">公司成立日期</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYRNUMBER" desc="">公司注册编号</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYTAXCODE" desc="">税法</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYOIN" desc="">公司行业</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANIESTYPE" desc="">企业类别</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYADDRESS" desc="">公司地址</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYREGISTRATION" desc="">注册国家</item>
+		<item id="IF_MGT_CP_PROFILE_SMECENTERSIGN" desc="">中小企业中心的合同签署</item>
+		<item id="IF_MGT_CP_PROFILE_BANKACCOUNT" desc="">银行账户号码</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPADDRESS" desc="">邮箱地址</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPDISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCITY" desc="">城市</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPREIZON" desc="">区域</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCOUNTRY" desc="">国家</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPPOSTCODE" desc="">邮政编码</item>
+		<item id="IF_MGT_CP_PROFILE_DAR" desc="">债务人需求确认</item>
+		<item id="IF_MGT_CP_PROFILE_RATING" desc="">主规模风险评级</item>
+		<item id="IF_MGT_CP_PROFILE_RISKLEVEL" desc="">风险评级</item>
+		<item id="IF_MGT_CP_PROFILE_OILIMIT" desc="">优越的发票金额</item>
+		<item id="IF_MGT_CP_PROFILE_MIAMOUNT" desc="">发票金额最小值</item>
+		<item id="IF_MGT_CP_PROFILE_MAAMOUNT" desc="">发票金额最大值</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICELIMIT" desc="">旋转限制</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS1" desc="">第一个合格的债务人</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS2" desc="">第二个合格的债务人</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS3" desc="">第三个合格的债务人</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS4" desc="">第四个合格的债务人</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS5" desc="">第五个合格的债务人</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICEAMMOUNT" desc="">贵公司平均每年的发票金额</item>
+		<item id="IF_MGT_CP_PROFILE_SERIALNUM" desc="">提供电子签名令牌序列号</item>
+		<item id="IF_MGT_CP_PROFILE_MYTITLE" desc="">称呼</item>
+		<item id="IF_MGT_CP_PROFILE_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_PROFILE_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_PROFILE_MYGENDER" desc="">性别</item>
+		<item id="IF_MGT_CP_PROFILE_MYDOB" desc="">出生日期</item>
+		<item id="IF_MGT_CP_PROFILE_MYNATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_CP_PROFILE_MYCOUNTRY" desc="">常住国家</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDTYPE" desc="">ID类型</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDNUMBER" desc="">ID编号</item>
+		<item id="IF_MGT_CP_PROFILE_MYPOSITION" desc="">职位</item>
+		<item id="IF_MGT_CP_PROFILE_WLOCALCODE" desc="">工作电话国家代码</item>
+		<item id="IF_MGT_CP_PROFILE_MYWPHONE" desc="">工作电话</item>
+		<item id="IF_MGT_CP_PROFILE_MLOCALCODE" desc="">移动电话国家码</item>
+		<item id="IF_MGT_CP_PROFILE_MYMPHONE" desc="">移动电话</item>
+		<item id="IF_MGT_CP_PROFILE_MYEMAIL" desc="">电子邮箱地址</item>
+	</if_cp_profile>
+	<ifactor_buyer_cpprofile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">投资者类型</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">客户ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY" desc="">公司名称</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYCDATE" desc="">公司成立日期</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYRNUMBER" desc="">公司注册编号</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYTAXCODE" desc="">税法</item>
+		<item id="IF_MGT_BUYER_PROFILE_TYPECOMPANY" desc="">企业类别</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYOIN" desc="">公司行业</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYADDRESS" desc="">公司地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_REGIST_COUNTRY" desc="">注册国家</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">银行账户号码</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_ADDRESS" desc="">邮箱地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_DISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_CITY" desc="">城市</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_REGION" desc="">区域</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_COUNTRY" desc="">国家</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFPOST_CODE" desc="">邮政编码</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">称呼</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">性别</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">出生日期</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">常住国家</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">证件类型</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">工作电话</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">移动电话</item>
+		<item id="IF_MGT_BUYER_PROFILE_POSITION" desc="">职位</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">邮箱地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPTURNOVER" desc="">该公司去年的营业额是多少?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPENGAGED" desc="">该公司曾经从事保理服务或交易公司发票吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPASSET" desc="">公司短期投资资产类别?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPASSET" desc="">什么是短期生活公司的主要资产类别?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPINVESTMENT" desc="">是什么公司的短期投资资产类别在去年?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGE" desc="">资产和投资管理公司基金的平均尺寸是什么基金,该公司投资于短期资产类别?请选择N /如果这是不适用的</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGEPER" desc="">平均多少钱你的公司打算投资这个平台(我把)每月?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPBUSINESSFROM" desc="">如果你介绍Bank员工,哪些业务他/她来自哪里?</item>
+	</ifactor_buyer_cpprofile>
+	<if_cp_apply_add>
+		<item id="IF_MGT_CP_APPLY_APP_PK_ID" desc="">绑定线ID</item>
+		<item id="IF_MGT_CP_APPLY_UPDATEDDATE" desc="">更新时间</item>
+		<item id="IF_MGT_CP_APPLY_SA_APPLY_CODE" desc="">申请单ID</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">创建日期</item>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">性别</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">名</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">姓</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDERID" desc="">性别</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDER" desc="">性别</item>
+		<item id="IF_MGT_CP_APPLY_MYDOB" desc="">出生日期</item>
+		<item id="IF_MGT_CP_APPLY_MYNATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRYID" desc="">常住国家</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRY" desc="">常住国家</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPEID" desc="">ID类型</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPE" desc="">ID类型</item>
+		<item id="IF_MGT_CP_APPLY_MYIDNUMBER" desc="">ID编号</item>
+		<item id="IF_MGT_CP_APPLY_WLOCALCODE" desc="">工作电话国家代码</item>
+		<item id="IF_MGT_CP_APPLY_MYWPHONE" desc="">工作电话</item>
+		<item id="IF_MGT_CP_APPLY_MLOCALCODE" desc="">移动电话国家代码</item>
+		<item id="IF_MGT_CP_APPLY_MYMPHONE" desc="">移动电话</item>
+		<item id="IF_MGT_CP_APPLY_MYPOSITION" desc="">职位</item>
+		<item id="IF_MGT_CP_APPLY_MYEMAIL" desc="">邮箱地址</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">公司名称</item>
+		<item id="IF_MGT_CP_APPLY_ISCOMVIETNAM" desc="">公司注册在越南吗？</item>
+		<item id="IF_MGT_CP_APPLY_CPRCOUNTRY" desc="">公司注册国家</item>
+		<item id="IF_MGT_CP_APPLY_CPDATE" desc="">公司成立日期</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">公司注册编号</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPE" desc="">企业类别</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPEID" desc="">企业类别</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTORID" desc="">公司行业</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTOR" desc="">公司行业</item>
+		<item id="IF_MGT_CP_APPLY_CPTAXCODE" desc="">税法</item>
+		<item id="IF_MGT_CP_APPLY_CPADDRESS" desc="">公司地址</item>
+		<item id="IF_MGT_CP_APPLY_CPDISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_CP_APPLY_CPCITY" desc="">城市</item>
+		<item id="IF_MGT_CP_APPLY_CPREIZON" desc="">区域</item>
+		<item id="IF_MGT_CP_APPLY_CPCOUNTRY" desc="">国家</item>
+		<item id="IF_MGT_CP_APPLY_CPPOSTCODE" desc="">邮政编码</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">不同邮箱地址</item>
+		<item id="IF_MGT_CP_APPLY_NEARESTSIGN" desc="">请选择你想去的最近的中小企业中心签署合同</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">不同的邮箱地址</item>
+		<item id="IF_MGT_CP_APPLY_DFCPADDRESS" desc="">邮箱地址</item>
+		<item id="IF_MGT_CP_APPLY_DFCPDISTRICT" desc="">行政区</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCITY" desc="">城市</item>
+		<item id="IF_MGT_CP_APPLY_DFCPREIZON" desc="">区域</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCOUNTRY" desc="">国家</item>
+		<item id="IF_MGT_CP_APPLY_DFCPPOSTCODE" desc="">邮政编码</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS1" desc="">第一个合格的债务人</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS2" desc="">第二个合格的债务人</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS3" desc="">第三个合格的债务人</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS4" desc="">第四个合格的债务人</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS5" desc="">第五个合格的债务人</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS1" desc="">不在名单上的债务人</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS2" desc="">不在名单上的第二次债务人</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS3" desc="">不在名单上的第三次债务人</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS4" desc="">不在名单上的第四次债务人</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS5" desc="">不在名单上的第五次债务人</item>
+		<item id="IF_MGT_CP_APPLY_INVOICEAMMOUNT" desc="">贵公司平均每年的发票金额</item>
+		<item id="IF_MGT_CP_APPLY_SERIALNUM" desc="">如果你有令牌用于提供电子签名,请提供指定序列号</item>
+		<item id="IF_MGT_CP_APPLY_DATAMODIFY" desc="">修改</item>
+	</if_cp_apply_add>
+	<ifactor_buyer_profile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">投资者类型</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">客户端ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">称谓</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">性别</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">出生日期</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">国籍</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">常住国家</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">证件类型</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_PROFILE_ADDRESS" desc="">地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">电话</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">手机号码</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">邮箱地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">Bank账号</item>
+		<item id="IF_MGT_BUYER_PROFILE_OCCUPATION" desc="">当前雇主</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_NAME" desc="">雇主名称</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY_INDUSTRY" desc="">行业</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_ADDRESS" desc="">雇主地址</item>
+		<item id="IF_MGT_BUYER_PROFILE_TRADEPLATFORM" desc="">除了股票,你有没有使用交易平台/软件贸易来交易其他资产类别吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ASSET" desc="">如果有,资产类别是什么?</item>
+		<item id="IF_MGT_BUYER_PROFILE_YEARSINVESTOR" desc="">你一直积极作为投资者多少年</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISFACTORING" desc="">你熟悉保理融资和发票吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISAUCTION" desc="">你熟悉拍卖吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISPROVIDER" desc="">你有股票经纪服务提供商吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISASSET" desc="">你有私人资产/投资经理吗?</item>
+		<item id="IF_MGT_BUYER_PROFILE_MAJOR" desc="">你的收入的主要来源是什么?</item>
+		<item id="IF_MGT_BUYER_PROFILE_EALAST" desc="">在去年，什么是你的估计投资的数量不包括房地产?</item>
+		<item id="IF_MGT_BUYER_PROFILE_EATHIS" desc="">在今年，什么是你的估计投资的数量不包括财产？</item>
+		<item id="IF_MGT_BUYER_PROFILE_PLATFORM" desc="">你打算平均每月多少钱投资这个平台?</item>
+		<item id="IF_MGT_BUYER_PROFILE_BUSINESSFROM" desc="">如果你介绍Bank员工,他/她需要了解哪些业务?</item>
+	</ifactor_buyer_profile>
+	<ifactor_buyer_flow_firstcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_buyer_flow_firstcheck_opinion>
+	<ifactor_buyer_flow_doublecheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_buyer_flow_doublecheck_opinion>
+	<ifactor_buyer_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_buyer_flow_blacklistcheck_opinion>
+	<ifactor_buyer_flow_buyerconfirm_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_buyer_flow_buyerconfirm_opinion>
+	<if_buyer_flow_documentsign_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_NAME" desc="">姓名</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IDCARD" desc="">证件编号</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BANKACCOUNT" desc="">银行账号</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BALANCE" desc="">账户余额</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</if_buyer_flow_documentsign_opinion>
+	<ifactor_buyer_flow_documentcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_buyer_flow_documentcheck_opinion>
+	<ifactor_buyer_flow_cs_record_add>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_REMARK" desc="">备注</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_NAME" desc="">处理人的机构名称</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_APPLY_CODE" desc="">申请编号</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_INS_ID" desc="">insId</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_A_ID" desc="">aId</item>
+	</ifactor_buyer_flow_cs_record_add>
+	<ifactor_invoice_delivery_apply>
+		<item id="IF_MGT_INVOICE_APPLY_ISVERIFICATION" desc="">原始发票验证结果</item>
+		<item id="IF_MGT_INVOICE_APPLY_APP_PK_ID" desc="">绑定线上ID</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_UPDATED_DATE" desc="">更新时间</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CODE" desc="">申请编号</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">申请日期</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">预付款(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">利息(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLESTART" desc="">拍卖开始</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLEEND" desc="">拍卖结束</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">公司名称</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_TITLE" desc="">称谓</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">代表人</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">债务人名称</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_ADDRESS" desc="">地址</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DISTRICT" desc="">地区</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_CITY" desc="">城市</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGION" desc="">区</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_COUNTRY" desc="">国家</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_POSTCODE" desc="">邮政编码</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGIST_NO" desc="">注册编号</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_TAX_CODE" desc="">免税代码</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">条码编号</item>
+		<item id="IF_MGT_INVOICE_FINANC_SERIAL_NUMBER" desc="">发票的序列号</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">增值税发票号码</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_ISSUANCE_DATE" desc="">发票发行日期</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">发票金额(VND)</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_OBJECT" desc="">发票类型</item>
+		<item id="IF_MGT_INVOICE_FINANC_DUE_DATE" desc="">合同到期日期</item>
+		<item id="IF_MGT_INVOICE_FINANC_EXPECTED_PAYMENT_DATE" desc="">预计结算日期</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">剩余的存期(天)</item>
+	</ifactor_invoice_delivery_apply>
+    <ifactor_invoice_delivery_flow_firstcheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_firstcheck_opinion>
+	<ifactor_invoice_delivery_flow_manualprogress_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">拒绝原因</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">拒绝原因类型</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_manualprogress_opinion>
+	<ifactor_invoice_delivery_flow_doublecheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_doublecheck_opinion>
+	<ifactor_invoice_delivery_flow_doublemanual_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">拒绝原因</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">拒绝原因类型</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">注释</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLEDATE" desc="">拍卖结束结束</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLE" desc="">拍卖周期</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名字</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_doublemanual_opinion>
+	<ifactor_invoice_delivery_flow_check_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_check_opinion>
+	<ifactor_invoice_delivery_flow_oriver_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">审核结果</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT_VAL" desc="">审核结果</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">处理人的机构名称</item>
+	</ifactor_invoice_delivery_flow_oriver_opinion>
+	<ifactor_invoice_flow_cs_record_add>
+		<item id="IF_MGT_INVOICE_CS_RECORD_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_REMARK" desc="">备注</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_NAME" desc="">处理人的用户名称</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_ID" desc="">处理人的机构ID</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_NAME" desc="">处理人的机构名称</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_APPLY_CODE" desc="">申请编号</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_INS_ID" desc="">insId</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_A_ID" desc="">aId</item>
+	</ifactor_invoice_flow_cs_record_add>
+	<ifactor_invoice_auction_view>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">Invoice ID</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Seller Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_RISKLEVEL" desc="">Seller Risk</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debter Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_DAR" desc="">Debtor Ac</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">Remaining Term</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">Ready to sell advance%</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">Ready to sell interest</item>
+		<item id="ifactor_invoice_auction_view_documents" desc="">Check doc</item>
+		<item id="ifactor_invoice_auction_view_Minimum Price" desc="">Minimum Price</item>
+		<item id="ifactor_invoice_auction_view_Index Rate" desc="">Index Rate</item>
+	</ifactor_invoice_auction_view>
+	<if_cp_fs_add>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">商业登记号码</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">客户</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">类型清单</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">种类清单</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">年</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">周期</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">单位</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">汇率</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">审计机构的名称</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">年 N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">短期资产(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">货币资金(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">现金(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">现金等价物(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">短期的金融投资(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">短期投资(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">提供短期投资的减少 (*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">短期应收款(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">客户应收账款(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">预付给卖方(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">短期内应收账款(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">应收账款合同的进展(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">其他应收账款(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">准备应收账款 (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">存货清单(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">存货清单(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">为减少库存的价格 (*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">其他短期资产(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">短期收益(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">打折的 VAT(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc="">税费应收账款(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">其他(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">长期资产(200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">长期应收款(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">客户应收账款(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">商业资本的下属(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">长期应收款(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">其他(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">准备长期应收款(*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">固定资产(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">有形固定资产(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">原价(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">累积折旧(*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">融资租赁资产(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">原价(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">累积折旧(*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc=""> 无形固定资产(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">原价(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">累积折旧 (*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">在制品基本建设成本(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">投资房地产(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">原价(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">累积折旧 (*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">长期金融投资(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">投资子公司(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">合伙投资和合资企业(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">其他长期投资(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">提供长期金融投资的减少 (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">其他长期投资(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">长期预付费用(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">递延所得税(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">其他长期投资(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">商业优势(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">总投资(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">债务(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">当前债务(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">短期借款 (311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">长期债务到期(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">应付帐款(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">预付帐户应收账款(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">应缴税款(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">员工费用(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc=""> 应计费用(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">公司间的应付款项(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc="">根据合同的进展应付款(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">其它流动负债(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">为流动负债(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">福利基金(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">非流动负债(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">长期账号应付款(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">公司间的长期应付款(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">其他长期应付款(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">长期借债(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">递延所得税收益(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">冗余津贴(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">准备长期负债(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">预收收入(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">科研发展基金 (339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">股权 (400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">股权(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc=""> 投入资本(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">盈余权益(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">盈余公积(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc="">库存股份 (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">重估价准备金(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">外汇差异(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">投资发展基金(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">财政资金储备(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">其它基金(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">税后未分配利润(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">基本建设投资(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">业务安排支持基金(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">基金和其他基金(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc="">资金432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">基金投资于固定资产(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">少数股权(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">全部股本(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc="">总资产股权(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">商品和服务收入(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">收入扣除项目 (*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">净收入的商品和服务(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">销售成本 (*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">总利润(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">财政收入(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">财务费用开支 (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">利息费用(*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc="">销售费用 (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">管理及行政费用(*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">股息(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc="">净利润从操作(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc=""> 其他收益(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">其他费用(*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">其他利润(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">从同事和合资企业利润/损失(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">税前利润(50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">公司税 (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">递延分置税(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">企业所得税后的利润(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">基本每股收益(70)</item>
+	</if_cp_fs_add>
+	<if_cp_fs_add1>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">商业登记号码</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">客户</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">类型清单</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">种类清单</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">年</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">周期</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">单位</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">汇率</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">审计机构的名称</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">年 N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">短期资产(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">现金和现金等价物(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">现金(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">现金等价物(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">短期的金融投资(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">短期投资(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">提供短期投资的减少(*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">短期应收款项(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">客户应收账款(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">预付卖方(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">短期内应收账款(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">应收账款合同的进展(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">其他收入(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">准备应收账款 (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">库存(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">库存(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">为减少库存的价格(*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">其他短期资产(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">短期收益(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">增值税优惠(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc="">税费应收账款(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">其他(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">长期资产(200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">长期收入(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">客户应收账款(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">在下属企业资本(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">长期内部应收账款(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">其他(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">准备长期应收款(*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">固定资产(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">有形固定资产(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">原始成本(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">累计折旧(*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">融资租赁资产(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">原始成本(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">累计折旧 (*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc="">无形固定资产(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">原始成本(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">累计折旧(*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">在制品基本建设成本(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">投资房地产(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">原始成本(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">累计折旧(*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">长期金融投资(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">投资下属公司(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">合伙投资和合资企业(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">其他长期投资(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">提供长期金融投资的减少 (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">其他长期资产(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">长期预付费用(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">递延所得税(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">其他长期资产(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">商业优势(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">总共资产(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">负债(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">流动负债(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">短期借款(311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">长期债务到期(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">应付账(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">预付帐户应收账款(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">应纳税额(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">员工费用支付(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc="">应计费用(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">公司间的应付款项(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc="">根据合同的进展应付款(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">其他流动负债(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">为流动负债(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">福利基金(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">非流动负债(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">长期账户支付(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">公司间的长期应付款(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">其他长期应付款(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">长期借款(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">递延所得税收益(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">冗余津贴(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">准备长期负债(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">不劳而获的收入(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">研究发展基金(339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">股本(400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">股本(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc="">投资资本(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">剩余股权(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">其他储备(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc="">库存股份 (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">重估储备(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">外汇差异(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">投资发展基金(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">财政资金储备(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">其他基金(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">税后未分配利润(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">基本建设投资(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">业务安排支持基金(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">基金和其他基金(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc="">基金(432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">基金投资于固定资产(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">少数股权(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">总股本(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc="">总资产股权(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">商品和服务收入(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">收入扣除项目(*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">净收入的商品和服务(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">销售成本(*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">总利润(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">财政收入(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">财务费用 (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">利息费用 (*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc="">销售费用 (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">管理及行政费用 (*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">股息(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc="">净利润从操作(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc="">其他收入(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">其他消费 (*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">其他利润(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">从同事和合资企业利润/损失(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">收益税前(50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">企业所得税 (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">递延分置税(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">企业所得税后利润(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">基本每股收益(70)</item>
+	</if_cp_fs_add1>
+	<ifactor_fs_equation>
+		<item id="IF_MGT_FS_EQUATION_CATEGORYID" desc="">得分类别</item>
+		<item id="IF_MGT_FS_EQUATION_DIVISORFIELD" desc="">除数为零设置</item>
+	</ifactor_fs_equation>
+	<if_scoring_equation>
+		<item id="IF_MGT_SCORING_EQUATION_EQUATIONDES" desc="">得分方程描述</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUM" desc="">最大值</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUMOPE" desc="">最大的运营商</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUM" desc="">最小值</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUMOPE" desc="">最小对应的运营商</item>
+		<item id="IF_MGT_SCORING_EQUATION_SCORE" desc="">得分</item>
+	</if_scoring_equation>
+	<if_scoring_items_add>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE" desc="">公司类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">公司类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_ID" desc="">类别名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">类别名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_CODE" desc="">代码</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE" desc="">类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">值类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">值</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">计算公式</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">字段名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">代码名称</item>
+	</if_scoring_items_add>
+	<if_scoring_items_edit>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">公司类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">类别名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">值类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">值类型</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">计算公式</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">字段名称</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">代码名称</item>
+	</if_scoring_items_edit>
+	<if_scoring_rating_add>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE" desc="">公司类型</item>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE_VAL" desc="">公司类型</item>
+		<item id="IF_MGT_SCORING_RATING_RATING" desc="">Bank评级</item>
+		<item id="IF_MGT_SCORING_RATING_PDLOW" desc="">低风险</item>
+		<item id="IF_MGT_SCORING_RATING_PDHIGH" desc="">高风险</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL" desc="">评级水平</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL_VAL" desc="">评级级别值</item>
+	</if_scoring_rating_add>
+	<if_cp_cic>
+		<item id="IF_MGT_CP_CIC_NCIF" desc="">没有发现中投公司信息</item>
+		<item id="IF_MGT_CP_CIC_NCIFLABEL" desc="">没有发现中投信息标签</item>
+		<item id="IF_MGT_CP_CIC_CICKO1" desc="">KO 1</item>
+		<item id="IF_MGT_CP_CIC_CICKO1LABEL" desc="">KO 1 标签</item>
+		<item id="IF_MGT_CP_CIC_CICKO2" desc="">KO 2</item>
+		<item id="IF_MGT_CP_CIC_CICKO2LABEL" desc="">KO 2 标签</item>
+		<item id="IF_MGT_CP_CIC_CICKO3" desc="">KO 3</item>
+		<item id="IF_MGT_CP_CIC_TSTATEMENT" desc="">评级</item>
+	</if_cp_cic>
+	<if_scoring_result>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY1" desc="">归还</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY2" desc="">收益率</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY3" desc="">效益</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY4" desc="">流动资产</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY5" desc="">债务偿付比率</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY6" desc="">杠杆比率</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY7" desc="">权益总额</item>
+		<item id="IF_MGT_SCORING_RESULT_LENDERSNUMBER" desc="">局信息</item>
+		<item id="IF_MGT_SCORING_RESULT_RESULT" desc="">权益总额</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVELLABEL" desc="">风险级别标签</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVEL" desc="">风险级别</item>
+	</if_scoring_result>
+	<if_sme_flow_firstcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">检查结果</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_firstcheck_opinion>
+	<if_sme_flow_doublecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">检查结果</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">影像备注</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_doublecheck_opinion>
+	<if_sme_flow_licensecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建时间</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_licensecheck_opinion>
+	<if_sme_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">检查结果</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_blacklistcheck_opinion>
+	<if_sme_flow_ciccheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">检查结果</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_ciccheck_opinion>
+	<if_sme_flow_eligibilitycheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_eligibilitycheck_opinion>
+	<if_sme_flow_mapscore_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">检查结果</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_mapscore_opinion>
+	<if_sme_flow_doublecheckverify_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_doublecheckverify_opinion>
+	<if_sme_flow_fscheckreview_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_fscheckreview_opinion>
+	<if_sme_flow_fieldvisit_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_fieldvisit_opinion>
+	<if_sme_flow_assign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ASSIGNTO" desc="">分配给</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_assign_opinion>
+	<if_sme_flow_documentsign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_NAME" desc="">姓名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IDCARD" desc="">证件编号</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BANKACCOUNT" desc="">银行账号</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BALANCE" desc="">账户余额</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_documentsign_opinion>
+	<if_sme_flow_doublecheckfvdoc_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_doublecheckfvdoc_opinion>
+	<if_sme_flow_assesresult_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">创建时间</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">意见</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">参考</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">意见内容</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">处理人的组织机构名称</item>
+	</if_sme_flow_assesresult_opinion>
+	<ifactor_seller_flow_cs_record_add>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_CREATE_DATE" desc="">创建日期</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_REMARK" desc="">备注</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_ID" desc="">处理人的用户ID</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_NAME" desc="">处理人的用户名</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_ID" desc="">处理人的组织机构ID</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_NAME" desc="">处理人的组织机构名称</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_APPLY_ID" desc="">卖家申请</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_INS_ID" desc="">insId</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_A_ID" desc="">aId</item>
+	</ifactor_seller_flow_cs_record_add>
+	<if_mgt_vpbank_user_edit>
+		<item id="IF_MGT_VPBANK_USER_LOGIN_NAME" desc="">登陆名</item>
+		<item id="IF_MGT_VPBANK_USER_PASSWORD" desc="">密码</item>
+		<item id="IF_MGT_VPBANK_USER_CREATE_TIME" desc="">创建时间</item>
+		<item id="IF_MGT_VPBANK_USER_UPDATE_TIME" desc="">更新时间</item>
+		<item id="IF_MGT_VPBANK_USER_STATUS" desc="">状态</item>
+		<item id="IF_MGT_VPBANK_USER_TITLE" desc="">称谓</item>
+		<item id="IF_MGT_VPBANK_USER_FIRST_NAME" desc="">名</item>
+		<item id="IF_MGT_VPBANK_USER_LAST_NAME" desc="">姓</item>
+		<item id="IF_MGT_VPBANK_USER_GENDER" desc="">性别</item>
+		<item id="IF_MGT_VPBANK_USER_POSITION" desc="">职位</item>
+		<item id="IF_MGT_VPBANK_USER_EMAIL" desc="">邮箱</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_COUNTRY_CODE" desc="">手机国家代码</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_PHONE" desc="">手机号码</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_COUNTRY_CODE" desc="">工作电话国家代码</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_PHONE" desc="">工作电话</item>
+		<item id="IF_MGT_VPBANK_USER_DEFAULT_LOCALE" desc="">缺省语言环境</item>
+	</if_mgt_vpbank_user_edit>
+	<ifactor_invoice_oriver>
+		<item id="IF_MGT_INVOICE_ORIVER_APP_PK_ID" desc="">Binding line id</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CODE" desc="">Submission No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_ADVANCE" desc="">Advance Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_INTEREST" desc="">Interest Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLESTART" desc="">Auction Start Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLEEND" desc="">Delisting Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_TITLE" desc="">Title</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_USER" desc="">Represented by</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_CITY" desc="">City</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGION" desc="">Region, State or County</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_POSTCODE" desc="">Post Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_TAX_CODE" desc="">Tax Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_SERIAL_NUMBER" desc="">Serial Number of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_NUMBER" desc="">VAT Invoice Number</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_ISSUANCE_DATE" desc="">Invoice Issuance Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_OBJECT" desc="">Object of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_DUE_DATE" desc="">Due Date According to the Contract</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_EXPECTED_PAYMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_REMAINING_TERM" desc="">Remaining Term to Maturity(Days)</item>
+	</ifactor_invoice_oriver>
+	<ifactor_invoice_original_verification_opinion>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_original_verification_opinion>
+</wordbook>

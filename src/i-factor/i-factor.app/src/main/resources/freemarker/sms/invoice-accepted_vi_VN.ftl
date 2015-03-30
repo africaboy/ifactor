@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don ID <000000> cua Quy khach da hop le va san sang cho dau gia

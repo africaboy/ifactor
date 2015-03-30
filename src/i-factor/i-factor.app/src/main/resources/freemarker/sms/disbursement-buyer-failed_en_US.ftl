@@ -1,0 +1,1 @@
+<EntroAuction> Invoice <000000>  has failed.  Please check your email for more information or contact <hotline> for support. 

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="if_scoring_items_add">
+		<name>add scoring items</name>
+		<desc>add scoring items</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>remix</handlemode>
+		<primaryTable handleType="single">IF_MGT_SCORING_ITEMS</primaryTable>
+		<size>{height:350,width:700,columnCount:2}</size>
+		<component>
+			<item name="CP_TYPE" type="hidden"  idx="000"/>
+			<item name="CP_TYPE_VAL" type="input" param="{readOnly:true}" idx="000"/>
+			<item name="CATALOG_ID"  type="hidden"  idx="001"/>
+			<item name="CATALOG_NAME"  type="input" param="{readOnly:true}" idx="001"/>
+			<item name="ITEM_CODE"  type="dataindex" param="{targetName:'ITEM_NAME',type:'scoreCard',returnFunc:'itemCodeSelect'}" idx="002"/>
+			<item name="ITEM_NAME"  type="hidden" param="{}" idx="002"/>
+			<item name="ITEM_TYPE"  type="select" label="item type" param="{wordbook:'score_item_type',target:'ITEM_TYPE_VAL'}" idx="003"/>
+			<item name="ITEM_TYPE_VAL"  type="hidden" param="{}" idx="003"/>
+			<item name="ITEM_VALUE"  type="input" param="{columnSubCount:2}" idx="004"/>
+			<item name="ITEM_FUNC"  type="textarea" param="{columnSubCount:2}" idx="005"/>
+			<item name="FIELD_NAME"  type="textarea" param="{columnSubCount:2}" idx="006"/>
+			<item name="CODE_NAME"  type="textarea" param="{columnSubCount:2}" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="if_scoring_items_edit">
+		<name>edit scoring items</name>
+		<desc>edit scoring items</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>edit</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>remix</handlemode>
+		<primaryTable handleType="single">IF_MGT_SCORING_ITEMS</primaryTable>
+		<size>{height:350,width:700,columnCount:2}</size>
+		<component>
+			<item name="CP_TYPE_VAL" type="input" param="{readOnly:true}" idx="000"/>
+			<item name="CATALOG_NAME"  type="input" param="{readOnly:true}" idx="001"/>
+			<item name="ITEM_NAME"  type="input" param="{readOnly:true}" idx="002"/>
+			<item name="ITEM_TYPE_VAL"  type="input" param="{readOnly:true}" label="item type" idx="003"/>
+			<item name="ITEM_VALUE"  type="input" param="{columnSubCount:2}" idx="004"/>
+			<item name="ITEM_FUNC"  type="textarea" param="{columnSubCount:2}" idx="005"/>
+			<item name="FIELD_NAME"  type="textarea" param="{columnSubCount:2}" idx="006"/>
+			<item name="CODE_NAME"  type="textarea" param="{columnSubCount:2}" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="if_scoring_rating_add">
+		<name>add scoring rating</name>
+		<desc>add scoring rating</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>remix</handlemode>
+		<primaryTable handleType="single">IF_MGT_SCORING_RATING</primaryTable>
+		<size>{height:250,width:700,columnCount:2}</size>
+		<component>
+			<item name="CP_TYPE" type="select" label="Cp Type" param="{wordbook:'cp_type',target:'CP_TYPE_VAL'}"  idx="000"/>
+			<item name="CP_TYPE_VAL" type="hidden" param="{}" idx="000"/>
+			<item name="RATING"  type="number"  idx="001"/>
+			<item name="PDLOW"  type="number" param="{}" idx="002"/>
+			<item name="PDHIGH"  type="number" param="{}" idx="003"/>
+			<item name="RATING_LEVEL" type="select" label="Rating Level" param="{wordbook:'score_rating_level',target:'RATING_LEVEL_VAL'}"  idx="004"/>
+			<item name="RATING_LEVEL_VAL" type="hidden" param="{}" idx="004"/>
+		</component>
+	</view>
+	
+</table-view>

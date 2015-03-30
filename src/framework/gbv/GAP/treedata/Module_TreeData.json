@@ -1,0 +1,22 @@
+{
+	text : '模块菜单管理',
+	"parentId" : null,
+	"leaf" : false,
+	children : [{
+				text : '模块菜单管理',
+				expanded : true,
+				children : [{
+							id : 'userregister',
+							text : '应用模块注册',
+							leaf : true,
+							openType : 'open',
+							func : 'addmodule'
+						}, {
+							id : 'userlist',
+							text : '应用模块维护',
+							iconCls : 'icon-cls',
+							leaf : true,
+							func : 'modulelist'
+						}]
+			}]
+}

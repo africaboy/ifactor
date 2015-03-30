@@ -1,0 +1,51 @@
+BODY {font-family: "宋体"; font-size:9pt;} 
+table { font-family:"Lucida Grande", "宋体", "Arial", "Times New Roman"; font-size:9pt; font-weight: normal;} 
+
+a:link {color:#104D94; text-decoration: none} 
+a:visited {color:#446C9A; text-decoration: none}
+a:active{color:#FF0000; }
+a:hover {color:#FF0000; text-decoration: none} 
+
+.menutable {
+   BACKGROUND-COLOR: #ffffff; 
+   BORDER-BOTTOM: #cccccc 1px solid; 
+   BORDER-LEFT: #cccccc 1px solid; 
+   BORDER-RIGHT: #cccccc 1px solid; 
+   BORDER-TOP: #cccccc 1px solid; 
+   FONT-SIZE: 12px; 
+   POSITION: absolute; 
+   Z-INDEX: 100;
+}
+.menutrin {
+   BACKGROUND-COLOR: #98AB6F; 
+   COLOR: #ffffff; 
+   CURSOR: hand;
+}
+.menutrout {
+   COLOR: #000000; 
+   CURSOR: hand;
+}
+.menutd0 {
+   
+   HEIGHT: 25px; 
+   TEXT-ALIGN: center; 
+   WIDTH: 28px;  
+}
+.menutd1 {
+   FONT-FAMILY: Webdings; 
+   TEXT-ALIGN: right; 
+   WIDTH: 46px;
+}
+.linktd1 {
+   WIDTH: 46px;
+}
+.menutd2 {
+   NOWRAP: true;
+   WIDTH: 4px;
+}
+.menuhr {
+   BORDER-BOTTOM: #cccccc 1px inset; 
+   BORDER-LEFT: #cccccc 1px inset; 
+   BORDER-RIGHT: #cccccc 1px inset; 
+   BORDER-TOP: #cccccc 1px inset;
+}

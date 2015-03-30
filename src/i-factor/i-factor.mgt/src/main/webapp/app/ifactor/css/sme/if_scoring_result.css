@@ -1,0 +1,15 @@
+.low_risk {
+	color: green;
+	font-weight: bold;
+}
+
+.medium_risk {
+	color: black;
+	font-weight: bold;
+}
+
+.high_risk {
+	color: red;
+	font-weight: bold;
+}
+

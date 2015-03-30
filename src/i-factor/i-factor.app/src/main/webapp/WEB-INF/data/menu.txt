@@ -1,0 +1,331 @@
+[ {
+  "text" : "Invoices in the market",
+  "textViVn" : "Hoá đơn trên thị trường",
+  "level" : 1,
+  "dispOrder" : 1,
+  "styles" : [ ],
+  "children" : [ {
+    "text" : "Open Invoices",
+    "textViVn" : "Trên thị trường",
+    "url" : "/seller/auction/apply",
+    "style" : "icon-book-open",
+    "level" : 2,
+    "dispOrder" : 9999,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  } ]
+ }, {
+  "text" : "My Invoices",
+  "textViVn" : "Hoá đơn của tôi",
+  "level" : 1,
+  "dispOrder" : 3,
+  "styles" : [ ],
+  "children" : [ {
+    "text" : "Invoice Upload",
+    "textViVn" : "Hóa đơn mới",
+    "url" : "/seller/invoice/upload",
+    "style" : "icon-folder",
+    "level" : 2,
+    "dispOrder" : 1,
+    "styles" : [ "icon-plus" ],
+    "children" : [{
+      "text" : "New Invoice Upload",
+      "textViVn" : "Hóa đơn mới",
+      "url" : "/seller/invoice/upload",
+      "style" : "icon-plus",
+      "level" : 3,
+      "dispOrder" : 1,
+      "children" : [ ]
+    }, {
+      "text" : "Resume existing invoice upload",
+      "textViVn" : "Mở bán đấu giá",
+      "url" : "/seller/invoice/upload",
+      "style" : "icon-reload",
+      "level" : 3,
+      "dispOrder" : 2,
+      "children" : [ ]
+    } ]
+ }, {
+    "text" : "Invoice Approval Status",
+    "textViVn" : "Dưới sự chấp thuận",
+    "url" : "/seller/invoice/under-approval",
+    "style" : "icon-bell",
+    "level" : 2,
+    "dispOrder" : 2,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+ }, {
+    "text" : "Invoices in Auction",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/in-auction",
+    "style" : "icon-anchor",
+    "level" : 2,
+    "dispOrder" : 3,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Dealed Invoices",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/dealed",
+    "style" : "icon-loop",
+    "level" : 2,
+    "dispOrder" : 4,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+   }, {
+    "text" : "Invoices in Disbursement",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/disbursed",
+    "style" : "icon-ban",
+    "level" : 2,
+    "dispOrder" : 5,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Invoices in Settlement",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/insettle",
+    "style" : "icon-close",
+    "level" : 2,
+    "dispOrder" : 6,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+   }, {
+    "text" : "Delisted Invoices",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/delisted",
+    "style" : "icon-trash",
+    "level" : 2,
+    "dispOrder" : 7,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Final Closed Invoices",
+    "textViVn" : "Trong phiên đấu giá",
+    "url" : "/seller/invoice/finalclosed",
+    "style" : "icon-close",
+    "level" : 2,
+    "dispOrder" : 8,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+ } ]
+}, {
+  "text" : "My Bids",
+  "textViVn" : "Giá thầu của tôi",
+  "level" : 1,
+  "dispOrder" : 4,
+  "styles" : [ ],
+  "children" : [ {
+    "text" : "Open Auctions",
+    "textViVn" : "Đấu giá đóng cửa",
+    "url" : "/buyer/bid/open",
+    "style" : "icon-book-open",
+    "level" : 2,
+    "dispOrder" : 1,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+ }, {
+    "text" : "Dealed Auctions",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/dealed",
+    "style" : "icon-bell",
+    "level" : 2,
+    "dispOrder" : 2,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]    
+  }, {
+    "text" : "Disbursed Auctions",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/disbursed",
+    "style" : "icon-anchor",
+    "level" : 2,
+    "dispOrder" : 3,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Invoices in Settlement",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/insettlement",
+    "style" : "icon-loop",
+    "level" : 2,
+    "dispOrder" : 4,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+    }, {
+    "text" : "Unsuccessful Auctions",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/unsuccessful",
+    "style" : "icon-ban",
+    "level" : 2,
+    "dispOrder" : 5,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+   }, {
+    "text" : "Delisted Auctions",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/delisted",
+    "style" : "icon-close",
+    "level" : 2,
+    "dispOrder" : 6,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Final closed",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/bid/finalclosed",
+    "style" : "icon-trash",
+    "level" : 2,
+    "dispOrder" : 7,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  } ]
+}, {
+  "text" : "AUCTIONS IN THE MARKET",
+  "textViVn" : "Đấu giá",
+  "level" : 1,
+  "dispOrder" : 2,
+  "styles" : [ ],
+  "children" : [ {
+    "text" : "Open Auctions in the Market",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/auction/open",
+    "style" : "icon-book-open",
+    "level" : 2,
+    "dispOrder" : 1,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Open Auctions in the Market",
+    "textViVn" : "Mở bán đấu giá",
+    "url" : "/buyer/auction/openforbpbank",
+    "style" : "icon-book-open",
+    "level" : 2,
+    "dispOrder" : 1,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {  
+    "text" : "Dealed Auctions in the Market",
+    "textViVn" : "Đấu giá đóng cửa",
+    "url" : "/buyer/auction/dealed",
+    "style" : "icon-bell",
+    "level" : 2,
+    "dispOrder" : 2,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  } ]
+}, {
+  "text" : "Account Management",
+  "textViVn" : "Quản lý tài khoản",
+  "level" : 1,
+  "dispOrder" : 5,
+  "styles" : [ ],
+  "children" : [ {
+    "text" : "Apply as seller",
+    "textViVn" : "Áp dụng như người bán",
+    "url" : "/seller/account/apply",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 1,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Apply as seller",
+    "textViVn" : "Áp dụng như người bán",
+    "url" : "/seller/account/updateforapp",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 2,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Modify Application",
+    "textViVn" : "Cập Nhật áp dụng",
+    "url" : "/seller/account/update",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 3,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "View Apply Status",
+    "textViVn" : "Xem áp dụng",
+    "url" : "/seller/account/view",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 4,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "My profile",
+    "textViVn" : "Profie của tôi",
+    "url" : "/seller/profile/view",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 5,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Change password",
+    "textViVn" : "Thay đổi mật khẩu",
+    "url" : "/seller/password/edit",
+    "style" : "icon-pencil",
+    "level" : 2,
+    "dispOrder" : 6,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Apply as buyer",
+    "textViVn" : "Áp dụng như là người mua",
+    "url" : "/buyer/account/apply",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 7,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Apply as buyer",
+    "textViVn" : "Áp dụng như là người mua",
+    "url" : "/buyer/account/updateforapp",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 8,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "Modify Application",
+    "textViVn" : "Cập Nhật áp dụng",
+    "url" : "/buyer/account/update",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 9,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  }, {
+    "text" : "View Apply Status",
+    "textViVn" : "Xem áp dụng",
+    "url" : "/buyer/account/view",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 10,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+ }, {
+    "text" : "My Profile",
+    "textViVn" : "Profie của tôi",
+    "url" : "/buyer/profile/view",
+    "style" : "icon-user",
+    "level" : 2,
+    "dispOrder" : 11,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+ }, {
+    "text" : "Change Password",
+    "textViVn" : "Thay đổi mật khẩu",
+    "url" : "/buyer/password/edit",
+    "style" : "icon-pencil",
+    "level" : 2,
+    "dispOrder" : 12,
+    "styles" : [ "icon-plus" ],
+    "children" : [ ]
+  } ]
+} ]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+	  *附件Type定义*
+	  type "freeannex" 指定的附件存储到自由目录
+	  type "restrictannex" || "annex" 指定的附件存储到受限制目录
+	  type "ALLFREE" 所有附件存储到自由目录
+	  type "ALLRESTRICT" 所有附件存储到受限制目录
+-->
+<annotate> 
+ <table name="TEST" description="" fake-name="test"> 
+  <column> 
+   <name>f1</name>  
+   <type>varchar</type>  
+   <description>f1</description>  
+   <length>5</length>  
+   <form-name>f1</form-name> 
+  </column> 
+ </table>  
+ <table name="TEST2" description="" fake-name="test2">
+  <column>
+   <name>f1</name>
+   <type>varchar</type>
+   <primary>yes</primary>
+   <not-null>yes</not-null>
+   <description></description>
+   <length>5</length>
+   <form-name>f1</form-name>
+  </column>
+ </table>
+</annotate>

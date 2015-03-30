@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="if_mgt_vpbank_user_edit">
+		<name>VPBank user info</name>
+		<desc>VPBank user info</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>update</handlemode>
+		<primaryTable handleType="single">IF_MGT_VPBANK_USER</primaryTable>
+		<size>{height:280,width:900,columnCount:3}</size>
+		<component>
+			<item name="LOGIN_NAME" type="input" param="{}"/>
+			<item name="PASSWORD" type="input" param="{}"/>
+			<item name="CREATE_TIME" type="input" param="{}"/>
+			<item name="UPDATE_TIME" type="input" param="{}"/>
+			<item name="STATUS" type="input" param="{}"/>
+			<item name="TITLE" type="input" param="{}"/>
+			<item name="FIRST_NAME" type="input" param="{}"/>
+			<item name="LAST_NAME" type="input" param="{}" />
+			<item name="GENDER" type="input" param="{}"/>
+			<item name="POSITION" type="input" param="{}"/>
+			<item name="EMAIL" type="input" param="{}"/>
+			<item name="MOBILE_COUNTRY_CODE" type="input" param="{}"/>
+			<item name="MOBILE_PHONE" type="input" param="{}" />
+			<item name="WORK_COUNTRY_CODE" type="input" param="{}"/>
+			<item name="WORK_PHONE" type="input" param="{}"/>
+			<item name="DEFAULT_LOCALE" type="input" param="{}"/>
+		</component>
+	</view>
+</table-view>

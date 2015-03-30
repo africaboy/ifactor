@@ -1,0 +1,16 @@
+.addUser {
+    background-image:url(../images/user_add.png) !important
+}
+
+.queryUser {
+    background-image:url(../images/user.gif) !important
+}
+
+.delUser {
+    background-image:url(../images/user_delete.png) !important
+}
+
+.partUser {
+    background-image:url(../images/part_user.png) !important
+}
+

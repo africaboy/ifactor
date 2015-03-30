@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	
+	<query ID="if_scoring_items_list">
+		<name>scoring items</name>
+		<desc>scoring items</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SCORING_ITEMS</table>
+		<jsurl>/app/ifactor/js/scoring/if_scoring_items_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,singleSelect:true,forceFit:true,enableHdMenu:false}</param>
+		<tbar>if_scoring_items_add</tbar>
+		<result-item>
+			<item name = "CP_TYPE_VAL" />
+			<item name = "CATALOG_NAME" />
+			<item name = "ITEM_CODE" /> 
+			<item name = "ITEM_TYPE"  label="item type"/> 
+			<item name = "ITEM_VALUE" /> 
+			<item name = "ITEM_FUNC" /> 
+			<item name = "FIELD_NAME"  /> 
+			<item name = "CODE_NAME" /> 
+			<item name="SP" alien="1" label="handle"/>
+		</result-item>
+		<restraint-item>
+		</restraint-item>
+		<orderby-item>
+		</orderby-item>
+	</query>
+	
+	<query ID="if_scoring_rating_list">
+		<name>scoring items</name>
+		<desc>scoring items</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SCORING_RATING</table>
+		<jsurl>/app/ifactor/js/scoring/if_scoring_rating_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,singleSelect:true,forceFit:true,enableHdMenu:false}</param>
+		<toolbar>if_scoring_rating_add</toolbar>
+		<result-item>
+			<item name = "CP_TYPE_VAL" label="Cp Type" />
+			<item name = "RATING" /> 
+			<item name = "PDLOW"  /> 
+			<item name = "PDHIGH" /> 
+			<item name = "RATING_LEVEL_VAL" label="Rating Level"/> 
+			<item name="SP" alien="1" label="Handle"/>
+		</result-item>
+		<restraint-item>
+		</restraint-item>
+		<orderby-item>
+			<item name = "CP_TYPE" mode="ASC" />
+			<item name = "RATING" mode="ASC" />
+		</orderby-item>
+	</query>
+	
+</table-query>

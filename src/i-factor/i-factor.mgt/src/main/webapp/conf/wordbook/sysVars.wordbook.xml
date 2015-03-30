@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+ <sysVars desc="advance and interest items"> 
+  <item id="advanceStart" desc="auction advance start" idx="0">20</item>  
+  <item id="advanceStep" desc="auction advance step" idx="1">5</item>  
+  <item id="interestMin" desc="auction interest min" idx="2">6</item>  
+  <item id="interestStep" desc="auction interest step" idx="3">0.5</item> 
+ </sysVars> 
+</wordbook>

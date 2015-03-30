@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don ID <000000> co lenh khop gia ban ngay. He thong dang tien hanh xac thuc hoa don goc va hop dong con truoc khi giai ngan duoc hoan tat.

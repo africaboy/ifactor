@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources>
+	</data-sources>
+	<form-beans>
+	</form-beans>
+	<global-exceptions>
+	</global-exceptions>
+	<global-forwards>
+		<forward path="/../system/ok.jsp" name="ok"></forward>
+		<forward path="/../system/error.jsp" name="error"></forward>
+		<forward path="/../system/result.jsp" name="result"></forward>
+		<forward path="/../system/jsonresult.jsp" name="jsonresult"></forward>
+		<forward path="/../system/xmlresult.jsp" name="xmlresult"></forward>
+	</global-forwards>
+	<action-mappings>
+	</action-mappings>
+</struts-config>
+

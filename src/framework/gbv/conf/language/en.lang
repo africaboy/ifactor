@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<linkbook desc="conf.language">ifactor.en.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.menu.en.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.queries.en.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.views.en.lang</linkbook>
+	<common-language> 
+		<item id="add" desc="">Add</item>
+		<item id="edit" desc="">Edit</item>
+		<item id="submit" desc="">Submit</item>
+		<item id="save" desc="">Save</item>  
+		<item id="reset" desc="">Reset</item>
+		<item id="cancel" desc="">Cancel</item>
+		<item id="refresh" desc="">Refresh</item>
+		<item id="update" desc="">Update</item>
+		<item id="delete" desc="">Delete</item>
+		<item id="query" desc="">Query</item>
+		<item id="warn" desc="">Warning</item>
+		<item id="error" desc="">Error</item>
+		<item id="close" desc="">Close</item>
+		<item id="prompt" desc="">Prompt</item>
+		<item id="import" desc="">Import</item>
+		<item id="export" desc="">Export</item>
+		<item id="select" desc="">Select</item>
+		<item id="confirm" desc="">Confirm</item>
+		<item id="download" desc="">Download</item>
+		<item id="select-emptytext" desc="">Please choose...</item>
+		<item id="query-setting" desc="">Fail to reset query conditions.</item>
+		<item id="load-failure" desc="">Unable to load data</item>
+		<item id="list-idx" desc="">No.</item>
+		<item id="list-asc" desc="">Asc</item>
+		<item id="list-desc" desc="">Desc</item>
+		<item id="list-loading" desc="">Data is being loaded, please wait...</item>
+		<item id="list-displaymsg" desc="">Total Record Number {0} - {1} of {2}</item>
+		<item id="list-emptymsg" desc="">No Record</item>
+		<item id="submit-loading" desc="">Submission in process...</item>
+		<item id="delete-loading" desc="">Deletion in process...</item>
+		<item id="delete-prompt" desc="">Confirm to delete?</item>
+		<item id="import-loading" desc="">Import in process...</item>
+		<item id="export-loading" desc="">Export in process...</item>
+		<item id="init-loading" desc="">Initialization in process...</item>
+		<item id="success" desc="">Success!</item>
+		<item id="failure" desc="">Failure!</item>
+	</common-language> 
+	<frequence-language> 
+		<item id="purview-title" desc="">Access Permission</item>
+		<item id="purview-yes" desc="">Yes</item>
+		<item id="purview-no" desc="">No</item>
+		<item id="purview-load-error" desc="">Fail to load permission information.</item>
+		<item id="yes" desc="">Yes</item>
+		<item id="no" desc="">No</item>
+	</frequence-language>	
+	<welcome-language>
+		<item id="welcomeLogin" desc="">Welcome</item>
+		<item id="title" desc="">JET Application Support Platform</item> 
+		<item id="welcome" desc="">Welcome to JET Application Support Platform</item>  
+		<item id="logid" desc="">Login ID</item>
+		<item id="logpwd" desc="">Password</item>
+		<item id="logid-blanktext" desc="">Please input the logid.</item>
+		<item id="logpwd-blanktext" desc="">Please input the password.</item>
+		<item id="logbutton" desc="">Login</item>
+		<item id="logloading" desc="">Login in Process...</item>
+		<item id="logloadingmsg" desc="">Login in Process...</item>
+		<item id="notadmin" desc="">This account does not have system administration permission. Please use an account with system administration permission to login.</item>
+		<item id="logidinvalid" desc="">Your account has expired, please contact the administrator to re enable the account!</item>
+		<item id="notlogin" desc="">Wrong Login ID or password. Please login again.</item>
+		<item id="elseerror" desc="">The server is not available. Please try again later.</item>
+	        <item id="notice" desc="">You have been idle for too long, please re-login to resume your current session.</item>
+	        <item id="recover" desc="">The session has been recovered successfully.</item>
+	</welcome-language>
+	<console-language desc="common language label"> 
+		<item id="title" desc="">JET Application-Enabling Platform</item>
+		<item id="loading" desc="">Page Loading...</item>
+		<item id="consoletab-title" desc="">JET Application Support Platform Services</item>
+		<item id="westpanel-title" desc="">JET Application Support Platform Services</item> 
+		<item id="westpanel-user" desc="">System Users</item>
+		<item id="westpanel-group" desc="">Organization Mgmt</item>
+		<item id="westpanel-groupadjust" desc="">Organization Adj</item>
+		<item id="westpanel-role" desc="">System Roles</item>
+		<item id="westpanel-module" desc="">Application Module</item>
+		<item id="westpanel-tablequery" desc="">Data Table Query</item>
+		<item id="westpanel-tableview" desc="">View Builder</item>
+		<item id="westpanel-workflow" desc="">Workflow</item>
+		<item id="westpanel-dataindex" desc="">Data Category</item>
+		<item id="westpanel-wordbook" desc="">Data Dictionary</item>
+		<item id="westpanel-table" desc="">Data Table</item>
+		<item id="westpanel-databackup" desc="">Data Backup</item>
+		<item id="westpanel-datarestore" desc="">Data Recovery</item>
+		<item id="westpanel-syslog" desc="">System Log</item>
+		<item id="westpanel-annex" desc="">Attachment</item>
+		<item id="centerpanel-title" desc="">Operation Parameters</item>
+		<item id="sessionuser-label" desc="">User:</item>
+		<item id="pwdbutton-tooltip" desc="">Please change your password regularly for security</item>
+		<item id="pwdbutton-text" desc="">Password Management</item>
+		<item id="settingbutton-tooltip" desc="">System Global Parameters Setting</item>
+		<item id="settingbutton-text" desc="">System Setting</item>
+		<item id="logoutbutton-tooltip" desc="">Log out</item>
+		<item id="logoutbutton-text" desc="">Log Out</item>
+		<item id="logoutbutton-confirm-title" desc="">Confirm</item>
+		<item id="logoutbutton-confirm-msg" desc="">Confirm to log out?</item>  
+		<item id="param-version-label" desc="">System Version</item>
+		<item id="param-ip-label" desc="">Console IP</item>
+		<item id="param-charset-label" desc="">Character Set</item>
+		<item id="param-sessonfilter-label" desc="">Session Filter</item>
+		<item id="param-checkbrowser-label" desc="">Browser Filter</item>
+		<item id="param-datasource-label" desc="">Data Source</item>
+		<item id="param-database-label" desc="">Database Type</item>
+		<item id="param-annex-label" desc="">Attachment Processor</item>
+		<item id="param-totalmemory-label" desc="">Total Memory</item>
+		<item id="param-maxmemory-label" desc="">Maximum Memory</item>
+		<item id="param-freememory-label" desc="">Free Memory</item>
+	</console-language> 
+	<gapsetting-language>
+		<item id="icon-label" desc="">Click to edit the icon</item>
+		<item id="icon-now" desc="">Original Icon</item>
+		<item id="icon-new" desc="">New Icon</item>
+		<item id="icon-title" desc="">Icon Edit Window</item>
+		<item id="icon-edit-prompt" desc="">Confirm to update the icon?</item>
+		<item id="icon-edit-success" desc="">Icon updated successfully.</item>
+		<item id="icon-edit-failure" desc="">Fail to update the icon.</item>
+		<item id="icon-delete-prompt" desc="">Confirm to delete the icon?</item>
+		<item id="icon-delete-success" desc="">Icon deleted successfully.</item>
+		<item id="icon-delete-failure" desc="">Fail to delete the icon.</item>
+		<item id="icon" desc="">Window Icon</item>
+		<item id="thumb" desc="">Thumbnail</item>
+		<item id="sys_name" desc="">System Name</item>
+		<item id="sys_login" desc="">System Login Page</item>
+		<item id="sys_welcome" desc="">System Welcome Message</item>
+		<item id="sys_index" desc="">System Homepage</item>
+		<item id="sys_desktop" desc="">System Desktop</item>
+		<item id="sys_title" desc="">Homepage Title</item>
+		<item id="sys_copyright" desc="">Copyright</item>
+		<item id="sys_version" desc="">Version</item>
+		<item id="sys_producer" desc="">Developer</item>
+		<item id="setting-title" desc="">System Setting</item>
+		<item id="setting-prompt" desc="">Confirm to update the system setting?</item>
+		<item id="setting-success" desc="">System setting updated successfully.</item>
+		<item id="setting-failure" desc="">Fail to update the system.</item>
+		<item id="setting-update" desc="">Update</item>
+		<item id="setting-upload" desc="">Download App</item>
+	</gapsetting-language>
+	<user-language>
+		<item id="tbar-createuser" desc="">New User</item>
+		<item id="tbar-searchuser" desc="">User Query</item>
+		<item id="tbar-deleteuser" desc="">Delete User</item>
+		<item id="tbar-parttime" desc="">Part-time Setting</item>
+		<item id="tbar-userpurview" desc="">User Permission Setting</item>
+		<item id="list-title" desc="">System User Information List</item>
+		<item id="list-name" desc="">Name</item>
+		<item id="list-logid" desc="">Login ID</item>
+		<item id="list-sex" desc="">Gender</item>
+		<item id="list-number" desc="">Employee Number</item>
+		<item id="list-group" desc="">Group/Department</item>
+		<item id="list-rating" desc="">Level</item>
+		<item id="list-phone" desc="">Phone</item>
+		<item id="list-status" desc="">Status</item>
+		<item id="list-role" desc="">Role</item>
+		<item id="list-resetpwd" desc="">Reset Password</item>
+		<item id="editpwdform-title" desc="">User Password Management</item>
+		<item id="editpwdform-originalpwd" desc="">Original Password</item>
+		<item id="editpwdform-newpwd" desc="">New Password</item>
+		<item id="form-title" desc="">User Information</item>
+		<item id="form-basic" desc="">Basic Information</item>
+		<item id="form-detail" desc="">Detailed Information</item>
+		<item id="form-name" desc="">User Name</item>
+		<item id="form-name-emptytext" desc="">Please enter user name</item>
+		<item id="form-logid" desc="">Login ID</item>
+		<item id="form-logid-emptytext" desc="">Please enter login ID</item>
+		<item id="form-pwd" desc="">Password</item>
+		<item id="form-cfmpwd" desc="">Confirm Password</item>
+		<item id="form-sex" desc="">Gender</item>
+		<item id="form-sex-male" desc="">Male</item>
+		<item id="form-sex-female" desc="">Female</item>
+		<item id="form-birthday" desc="">Birthday</item>
+		<item id="form-phone" desc="">Phone</item>
+		<item id="form-email" desc="">Email</item>
+		<item id="form-email-emptytext" desc="">Please enter the correct email address</item>
+		<item id="form-code" desc="">Employee ID</item>
+		<item id="form-group" desc="">Group/Department</item>
+		<item id="form-rating" desc="">Level</item>
+		<item id="form-job" desc="">Position</item>
+		<item id="form-idx" desc="">Index</item>
+		<item id="form-idx-regextext" desc="">Only positive integers are allowed</item>
+		<item id="form-status" desc="">Status</item>
+		<item id="form-status-normal" desc="">Normal</item>
+		<item id="form-flag" desc="">Validity</item>
+		<item id="form-flag-valid" desc="">Valid</item>
+		<item id="form-flag-invalid" desc="">Invalid</item>
+		<item id="form-success-confirm" desc="">User information has been successfully registered. Do you want to register new users?</item>
+		<item id="form-failure-error" desc="">Fail to submit the user information.</item>
+		<item id="form-failure-invalidlogid" desc="">Login ID must be entered.</item>
+		<item id="form-failure-reduplicatelogid" desc="">Login ID is used. Please enter again.</item>
+		<item id="form-failure-indecisiveerror" desc="">Unknown error</item>
+		<item id="form-failure-invalidinput" desc="">Please enter mandatory information in basic and detailed information.</item>
+		<item id="editpwdform-failure-originalpwderror" desc="">原密码有误，请重新输入！</item>
+		<item id="editpwdform-failure" desc="">密码修改失败！</item>
+		<item id="prompt-resetpwd" desc="">Confirm to reset password</item>
+		<item id="resetpwd-success" desc="">The user's password has been reset successfully. Please inform the user to change the password.</item>
+		<item id="resetpwd-failure" desc="">Fail to reset the user's password.</item>
+		<item id="query-title" desc="">User Query</item>
+		<item id="query-area" desc="">Location</item>
+		<item id="query-alert" desc="">Fail to reset query conditions.</item>
+		<item id="delete-prompt" desc="">Confirm to delete this user?</item>
+		<item id="delete-alert" desc="">Please choose the user you want to delete.</item>
+		<item id="delete-success" desc="">Fail to delete user.</item>
+		<item id="delete-failure" desc="">The user has been deleted successfully.</item>
+		<item id="edit-load-error" desc="">Fail to read user information.</item>
+		<item id="edit-success" desc="">The user information has been updated successfully.</item>
+	</user-language>
+	<group-language>
+		<item id="treepanel-title" desc="">Organization Structure</item>
+		<item id="tree-root" desc="">Root</item>
+		<item id="tree-temp" desc="">Temporary Group</item>
+		<item id="tree-menu-add" desc="">Add</item>
+		<item id="tree-menu-edit" desc="">Edit</item>
+		<item id="tree-menu-delete" desc="">Delete</item>
+		<item id="node-adjust-error" desc="">Error in organization structure adjustment. Please try again.</item>
+		<item id="node-reorder-error" desc="">Error in organization reordering. Please try again.</item>
+		<item id="form-title" desc="">Organization Information</item>
+		<item id="form-pname" desc="">Root Organization Name</item>
+		<item id="form-name" desc="">Organization Name</item>
+		<item id="form-desc" desc="">Organization Description</item>
+		<item id="form-rating" desc="">Organization Level</item>
+		<item id="form-area" desc="">Location</item>
+		<item id="form-number" desc="">Organization Code</item>
+		<item id="form-code" desc="">Group Code</item>
+		<item id="form-branch" desc="">Branch</item>
+		<item id="form-branch-yes" desc="">Yes</item>
+		<item id="form-branch-no" desc="">No</item>
+		<item id="form-province" desc="">Province</item>
+		<item id="form-city" desc="">City</item>
+		<item id="form-detail" desc="">Detailed Address</item>
+		<item id="form-tel" desc="">Phone</item>
+		<item id="form-email" desc="">Email</item>
+		<item id="form-success" desc="">The organization information has been submitted and saved successfully.</item>
+		<item id="form-error" desc="">Error in submitting and saving the organization information.</item>
+		<item id="edit-load-error" desc="">Fail to read organization information.</item>
+		<item id="delete-prompt" desc="">Confirm to delete group?</item>
+		<item id="delete-success" desc="">The group has been deleted successfully.</item>
+		<item id="delete-error" desc="">Fail to delete the group.</item>
+	</group-language>
+	<role-language>
+		<item id="tbar-add" desc="">Add Role</item>
+		<item id="tbar-delete" desc="">Delete Role</item>
+		<item id="tbar-purview" desc="">Role Permission Setting</item>
+		<item id="list-title" desc="">System Role Information List</item>
+		<item id="list-name" desc="">Role Name</item>
+		<item id="list-desc" desc="">Role Description</item>
+		<item id="list-key" desc="">Unique ID</item>
+		<item id="list-raccede" desc="">Group Permission Assignment</item>
+		<item id="list-real" desc="">Real/Virtual</item>
+		<item id="list-real-yes" desc="">Real Role</item>
+		<item id="list-real-no" desc="">Virtual Role</item>
+		<item id="list-raccede-yes" desc="">Yes</item>
+		<item id="list-raccede-no" desc="">No</item>
+		<item id="list-object" desc="">Role Object</item>
+		<item id="object-list-title" desc="">Role Object List</item>
+		<item id="object-name" desc="">Object Name</item>
+		<item id="object-type" desc="">Object Type</item>
+		<item id="object-id" desc="">Object ID</item>
+		<item id="remove-prompt" desc="">Confirm to remove the role object?</item>
+		<item id="remove-success" desc="">The role object has been removed successfully.</item>
+		<item id="remove-error" desc="">Fail to remove the role object.</item>
+		<item id="delete-alert" desc="">Please select the role that you want to delete.</item>
+		<item id="delete-prompt" desc="">Confirm to delete the role?</item>
+		<item id="delete-success" desc="">The role has been deleted successfully.</item>
+		<item id="delete-error" desc="">Fail to delete the role.</item>
+		<item id="form-title" desc="">Role Information</item>
+		<item id="form-name" desc="">Role Name</item>
+		<item id="form-name-emptytext" desc="">Please define the role name.</item>
+		<item id="form-key" desc="">Unique ID</item>
+		<item id="form-key-emptytext" desc="">Please define the role unique ID.</item>
+		<item id="form-desc" desc="">Role Description</item>
+		<item id="form-real" desc="">Real/Virtual</item>
+		<item id="form-real-yes" desc="">Real Role</item>
+		<item id="form-real-no" desc="">Virtual Role</item>
+		<item id="form-raccede" desc="">Group Permission Assignment</item>
+		<item id="form-object" desc="">Role Object</item>
+		<item id="form-object-rating" desc="">Role Object Level</item>
+		<item id="form-alert-object" desc="">Please select role object.</item>
+		<item id="form-alert-rating" desc="">Please select role object level</item>
+		<item id="form-success" desc="">The role information has been save successfully. Do you want to define new roles?</item>
+		<item id="form-failure-error" desc="">Fail to submit and save role information.</item>
+		<item id="form-failure-reduplicatekey" desc="">The role unique ID has been used.</item>
+		<item id="form-failure-invalidkey" desc="">The role unique ID must not be empty.</item>
+		<item id="form-failure-indecisiveerror" desc="">Unknown error</item>
+		<item id="edit-load-error" desc="">Fail to read role information.</item>
+		<item id="edit-success" desc="">The role information has been saved successfully.</item>
+	</role-language>
+	<module-language>
+		<item id="module" desc="">Module</item>
+		<item id="menu" desc="">Menu</item>
+		<item id="tree-root" desc="">Root</item>
+		<item id="tbar-add" desc="">Add Module</item>
+		<item id="tbar-delete" desc="">Delete Module</item>
+		<item id="tbar-purview" desc="">Module Access Permission Assignment</item>
+		<item id="list-title" desc="">Application Module Information List</item>
+		<item id="list-name" desc="">Module Name</item>
+		<item id="list-desc" desc="">Module Description</item>
+		<item id="list-link" desc="">Module Link</item>
+		<item id="list-idx" desc="">Index</item>
+		<item id="list-menumanage" desc="">Menu Management</item>
+		<item id="list-purview" desc="">Access Permission</item>
+		<item id="delete-prompt" desc="">Confirm to delete this module?</item>
+		<item id="delete-alert" desc="">Please select the module that you want to delete.</item>
+		<item id="delete-success" desc="">The module has been deleted successfully.</item>
+		<item id="delete-error" desc="">Fail to delete the module.</item>
+		<item id="form-title" desc="">Module Information</item>
+		<item id="form-name" desc="">Module Name</item>
+		<item id="form-name-emptytext" desc="">Please define the module name</item>
+		<item id="form-desc" desc="">Module Description</item>
+		<item id="form-link" desc="">Customized Link</item>
+		<item id="form-idx" desc="">Index</item>
+		<item id="form-langkey" desc="">Language Label</item>
+		<item id="form-failure-error" desc="">Error to submit and save module information</item>
+		<item id="form-failure-indecisiveerror" desc="">Unknown error</item>
+		<item id="edit-load-error" desc="">Fail to read module information</item>
+		<item id="edit-success" desc="">Module information has been saved successfully.</item>
+		<item id="treepanel-title" desc="">Module</item>
+		<item id="treewindow-title" desc="">Module Management Management</item>
+		<item id="treemenu-add" desc="">Add Menu</item>
+		<item id="treemenu-edit" desc="">Edit</item>
+		<item id="treemenu-move" desc="">Move</item>
+		<item id="treemenu-delete" desc="">Delete</item>
+		<item id="purview-list-title" desc="">Access Permission List</item>
+		<item id="purview-window-title" desc="">Access Permission Setting</item>
+		<item id="purview-nav-title" desc="">Application Function Module</item>
+		<item id="purview-used-title" desc="">Used Permission</item>
+		<item id="purview-success" desc="">Permission has been assigned successfully</item>
+		<item id="purview-failure" desc="">Fail to assign permission.</item>
+		<item id="purview-delete-prompt" desc="">Confirm to delete permission assignment?</item>
+		<item id="purview-delete-success" desc="">Permission assignment has been deleted successfully.</item>
+		<item id="purview-delete-failure" desc="">Fail to delete permission assignment.</item>
+		<item id="move-title" desc="">Move to...</item>
+		<item id="move-failure-error1" desc="">The menu cannot be moved under this node.</item>
+		<item id="move-failure-error2" desc="">The menu is already under this node.</item>
+		<item id="move-success" desc="">The menu has been moved successfully.</item>
+		<item id="move-failure" desc="">Fail the move the menu.</item>
+		<item id="authorize-title" desc="">Module Access Permission Assignment</item>
+		<item id="authorize-range" desc="">Range</item>
+		<item id="authorize-role" desc="">Role</item>
+		<item id="authorize-user" desc="">User</item>
+		<item id="authorize-loadrole-error" desc="">Fail to load role permission.</item>
+		<item id="authorize-loaduser-error" desc="">Fail to load user permission.</item>
+		<item id="authorize-alert" desc="">Please select control permission.</item>
+		<item id="authorize-object-alert" desc="">Please select the role or user for permission assignment.</item>
+		<item id="authorize-success" desc="">Permission has been assigned successfully.</item>
+		<item id="authorize-failure" desc="">Fail to assign permission.</item>
+	</module-language>
+	<menu-language>
+		<item id="delete-prompt" desc="">Confirm to delete the menu?</item>
+		<item id="delete-success" desc="">The menu has been deleted successfully.</item>
+		<item id="delete-failure-error" desc="">Fail to delete the menu.</item>
+		<item id="delete-failure-childrenerror" desc="">Unable to delete the menu. Please delete submenus first.</item>
+		<item id="form-title" desc="">Menu Information</item>
+		<item id="form-pname" desc="">Root</item>
+		<item id="form-name" desc="">Menu Name</item>
+		<item id="form-icon" desc="">Menu Icon</item>
+		<item id="form-desc" desc="">Menu Description</item>
+		<item id="form-link" desc="">Menu Link</item>
+		<item id="form-idx" desc="">Index</item>
+		<item id="form-langkey" desc="">Language Label</item>
+		<item id="form-success" desc="">The menu information has been saved successfully.</item>
+		<item id="form-failure" desc="">Fail to save menu information.</item>
+		<item id="edit-load-error" desc="">Fail to load menu information.</item>
+	</menu-language>
+	<workflow-language>
+		<item id="draw" desc="">Flow Chart</item>
+		<item id="setting" desc="">Node Setting</item>
+		<item id="init" desc="">Initialization</item>
+		<item id="flowlist-title" desc="">Workflow List</item>
+		<item id="flowlist-name" desc="">Workflow Type Name</item>
+		<item id="flowlist-key" desc="">Unique ID</item>
+		<item id="flowlist-object" desc="">Flow Object</item>
+		<item id="flowlist-support" desc="">Operation System</item>
+		<item id="flowlist-desc" desc="">Workflow Type Description</item>
+		<item id="flowlist-opinion" desc="">Approval Opinion View</item>
+		<item id="flowlist-keepdata" desc="">Keep Business Data</item>
+		<item id="flowlist-op" desc="">Operation Setting</item>
+		<item id="flowlist-tbar-add" desc="">Add New Flow</item>
+		<item id="flowlist-tbar-delete" desc="">Delete Flow</item>
+		<item id="flowlist-tbar-copy" desc="">Copy Flow</item>
+		<item id="flowlist-tbar-export" desc="">Export</item>
+		<item id="flowlist-tbar-import" desc="">Import</item>
+		<item id="flow-delete-prompt" desc="">Confirm to delete this flow?</item>
+		<item id="flow-delete-success" desc="">The flow has been deleted successfully.</item>
+		<item id="flow-delete-failure" desc="">Fail to delete the flow.</item>
+		<item id="flow-import-file" desc="">Data File</item>
+		<item id="flow-import-title" desc="">Import Workflow</item>
+		<item id="flow-import-prompt" desc="">Confirm to import the selected file?</item>
+		<item id="flow-import-success" desc="">The workflow has been imported successfully.</item>
+		<item id="flow-import-failure" desc="">Fail to import the selected file.</item>
+		<item id="flow-init-alert" desc="">Initialization will remove all activity and business data related to the workflow.After initialization, the removed data cannot be recovered.</item>
+		<item id="flow-init-success" desc="">The workflow has been initialized successfully.</item>
+		<item id="flow-init-failure" desc="">Fail to initialize the workflow.</item>
+		<item id="flow-init-error" desc="">Error to workflow initialization.</item>
+		<item id="flow-form-name" desc="">Workflow Name</item>
+		<item id="flow-form-key" desc="">Identification Key</item>
+		<item id="flow-form-desc" desc="">Workflow Description</item>
+		<item id="flow-form-js" desc="">JS Plugin</item>
+		<item id="flow-form-css" desc="">CSS Plugin</item>
+		<item id="flow-form-object" desc="">Flow Object</item>
+		<item id="flow-form-opinion" desc="">Approval Opinion Table</item>
+		<item id="flow-form-opinionlist" desc="">Approval Opinion List</item>
+		<item id="flow-form-keepdata" desc="">Keep Business Data</item>
+		<item id="flow-form-title" desc="">Workflow Information</item>
+		<item id="flow-form-save-success" desc="">The workflow has been saved successfully.</item>
+		<item id="flow-form-save-error" desc="">Unknown Error.</item>
+		<item id="flow-form-save-reduplicatederror" desc="">The unique ID has been used. Please redefine.</item>
+		<item id="flow-form-save-failure" desc="">Fail to submit and save workflow.</item>
+		<item id="flow-form-load-noflowerror" desc="">Workflow does not exist.</item>
+		<item id="flow-form-load-noobjecterror" desc="">Workflow object does not exist.</item>
+		<item id="steplist-title" desc="">Workflow List</item>
+		<item id="steplist-name" desc="">Node Name</item>
+		<item id="steplist-no" desc="">Step ID</item>
+		<item id="steplist-key" desc="">Unique ID</item>
+		<item id="steplist-type" desc="">Step Type</item>
+		<item id="steplist-inner" desc="">Branch Step</item>
+		<item id="steplist-setting" desc="">Setting</item>
+		<item id="invalidstep" desc="">Invalid Step</item>
+		<item id="steplist-delete" desc="">Delete</item>
+		<item id="steplist-recover" desc="">Recover</item>
+		<item id="steplist-items" desc="">List Item Setting</item>
+		<item id="steplist-trends" desc="">Flow Step List</item>
+		<item id="startstep" desc="">Starting Step</item>
+		<item id="endstep" desc="">Ending Step</item>
+		<item id="step" desc="">Normal Step</item>
+		<item id="transstep" desc="">Transition Step</item>
+		<item id="numberstep" desc="">Number Step</item>
+		<item id="step-delete-prompt" desc="">Confirm to delete the flow step?</item>
+		<item id="step-delete-success" desc="">The flow step has been deleted successfully.</item>
+		<item id="step-delete-failure" desc="">Fail to delete the flow step. Please confirm if this step is in use.</item>
+		<item id="handler-form-title" desc="">Flow Step View List Operation Permission Setting</item>
+		<item id="handlerlist-name" desc="">Form Item Name</item>
+		<item id="handlerlist-purview" desc="">Operation Permission</item>
+		<item id="handlerlist-column" desc="">Data Field Name</item>
+		<item id="handlerlist-columntype" desc="">Data Field Type</item>
+		<item id="handlerlist-type" desc="">Table Data Processing Type</item>
+		<item id="handlerlist-tbar-add" desc="">Add</item>
+		<item id="handlerlist-tbar-edit" desc="">Edit</item>
+		<item id="handlerlist-tbar-delete" desc="">Delete</item>
+		<item id="handler-set-alert" desc="">The flow object does not contain any from item. Unable to set permission.</item>
+		<item id="handler-set-selectalert" desc="">Please select operation permission.</item>
+		<item id="handler-success" desc="">Form operation permission has been set successfully</item>
+		<item id="handler-failure" desc="">Fail to set form operation permission.</item>
+		<item id="trend-title" desc="">Flow Step List</item>
+		<item id="trendlist-destination" desc="">Reachable Step</item>
+		<item id="trendlist-type" desc="">Step Type</item>
+		<item id="trendlist-trendname" desc="">Trend Name</item>
+		<item id="trendlist-result" desc="">Result</item>
+		<item id="trendlist-responsiblestep" desc="">Responsible Step Identification</item>
+		<item id="trendlist-bywhat" desc="">Way to Reach</item>
+		<item id="trendlist-op" desc="">Operate</item>
+		<item id="trendlist-save" desc="">Save</item>
+		<item id="trendlist-save-success" desc="">Submitted and saved successfully.</item>
+		<item id="trendlist-save-failure" desc="">Fail to submit and save.</item>
+		<item id="step-form-event" desc="">Event Processor</item>
+		<item id="step-form-transit" desc="">Transition step</item>
+		<item id="step-form-limit" desc="">Limit Transactor Range</item>
+		<item id="step-form-submit" desc="">Submission Method</item>
+		<item id="step-form-autosubmit" desc="">Auto Submit</item>
+		<item id="step-form-handsubmit" desc="">Manual Submit</item>
+		<item id="step-form-queryopinion" desc="">Query Opinion</item>
+		<item id="step-form-custom" desc="">Customized Operation</item>
+		<item id="step-form-customopinion" desc="">Opinion</item>
+		<item id="step-form-customback" desc="">Go Back</item>
+		<item id="step-form-customred" desc="">Mark Red</item>
+		<item id="step-form-customstamp" desc="">Stamp</item>
+		<item id="step-form-customprint" desc="">Print</item>
+		<item id="step-form-opinionview" desc="">Opinion View</item>
+		<item id="step-form-backstep" desc="">Go Back to Step</item>
+		<item id="step-form-title" desc="">Step Information</item>
+		<item id="step-form-flow" desc="">Workflow</item>
+		<item id="step-form-object" desc="">Flow Object</item>
+		<item id="step-form-support" desc="">Operation System</item>
+		<item id="step-form-step" desc="">Step Name</item>
+		<item id="step-form-trend" desc="">Default Flow Name</item>
+		<item id="step-form-key" desc="">Unique ID</item>
+		<item id="step-form-desc" desc="">Step Description</item>
+		<item id="step-form-type" desc="">Step Type</item>
+		<item id="step-form-view" desc="">Operation View</item>
+		<item id="step-form-role" desc="">Role Involved</item>
+		<item id="step-form-user" desc="">User Involved</item>
+		<item id="step-window-title" desc="">Flow Step Setting</item>
+		<item id="step-form-success" desc="">The flow step information has been modified successfully.</item>
+		<item id="step-form-failure" desc="">Fail to submit the updated flow step information.</item>
+		<item id="eventtype" desc="">Event Type</item>
+		<item id="eventclass" desc="">Event Name</item>
+		<item id="eventclasstitle" desc="">Please set the plugin type name.</item>
+		<item id="rangetitle" desc="">Flow Step Involved User Setting</item>
+	</workflow-language>	
+	<object-language>
+		<item id="list-name" desc="">Name</item>
+		<item id="list-key" desc="">Key</item>
+		<item id="list-desc" desc="">Description</item>
+		<item id="list-system" desc="">System</item>
+	</object-language>	
+	<dataindex-language>
+		<item id="tbar-add" desc="">Add Subcategory</item>
+		<item id="tbar-delete" desc="">Delete Subcategory</item>
+		<item id="tree-root" desc="">Data Category</item>
+		<item id="tree-title" desc="">Data Category Structure Tree</item>
+		<item id="form-name" desc="">Index Category Name</item>
+		<item id="form-title" desc="">Add Category</item>
+		<item id="form-desc" desc="">Index Category Description</item>
+		<item id="form-key" desc="">Index Category Unique ID</item>
+		<item id="form-code" desc="">Index Category Internal Code</item>
+		<item id="form-pycode" desc="">Index Category ID</item>
+		<item id="form-ywcode" desc="">Index Category Foreign ID</item>
+		<item id="form-order" desc="">Index Category Order</item>
+		<item id="form-status" desc="">Index Category Validity</item>
+		<item id="form-status-valid" desc="">Valid</item>
+		<item id="form-status-invalid" desc="">Invalid</item>
+		<item id="form-success" desc="">The information has been saved successfully.</item>
+		<item id="form-failure" desc="">Fail to save the information.</item>
+		<item id="delete-prompt" desc="">Confirm to delete the selected node and child node?</item>
+		<item id="delete-success" desc="">Successfully deleted.</item>
+		<item id="delete-failure" desc="">Fail to delete.</item>
+		<item id="save-failure" desc="">Fail to save.</item>
+	</dataindex-language>	
+	<wordbook-language>
+		<item id="combobox-emptytext" desc="">Please choose a dictionary category...</item>
+		<item id="list-id" desc="">Primary Key</item>
+		<item id="list-name" desc="">Value</item>
+		<item id="list-idx" desc="">Index</item>
+		<item id="list-title" desc="">Dictionary List</item>
+		<item id="list-save" desc="">Save</item>
+		<item id="list-delete" desc="">Delete</item>
+		<item id="panel-title" desc="">Data Dictionary List</item>
+		<item id="tbar-label" desc="">Dictionary Data Type</item>
+		<item id="tbar-add" desc="">Add Category</item>
+		<item id="tbar-add-tooltip" desc="">Add a Dictionary Category</item>
+		<item id="tbar-delete" desc="">Delete Category</item>
+		<item id="tbar-delete-tooltip" desc="">Delete Dictionary Category Definition</item>
+		<item id="tbar-additem" desc="">Add Dictionary Item</item>
+		<item id="tbar-additem-tooltip" desc="">Define a New Dictionary Item in the Current Dictionary Category</item>
+		<item id="save-alert-id" desc="">Please define data dictionary item primary key.</item>
+		<item id="save-alert-name" desc="">Please define data dictionary item value.</item>
+		<item id="list-save" desc="">Save</item>
+		<item id="save-success" desc="">The dictionary data item has been saved successfully.</item>
+		<item id="save-failure" desc="">Fail to save dictionary data item.</item>
+		<item id="delete-prompt" desc="">Confirm to delete?</item>
+		<item id="delete-success" desc="">The dictionary data item has been deleted successfully.</item>
+		<item id="delete-failure" desc="">Fail to delete the dictionary data item.</item>
+		<item id="form-name" desc="">Category Name</item>
+		<item id="form-name-emptytext" desc="">Please define the category name (Usually English abbreviation)</item>
+		<item id="form-desc" desc="">Category Description</item>
+		<item id="form-desc-emptytext" desc="">Please define category description.</item>
+		<item id="window-title" desc="">Add Data Dictionary Category.</item>
+		<item id="wb-delete-success" desc="">The data dictionary category has been deleted successfully.</item>
+		<item id="wb-delete-failure" desc="">Fail to delete the data dictionary category.</item>
+		<item id="wb-save-success" desc="">The new data dictionary category has been added successfully.</item>
+		<item id="wb-save-failure" desc="">Fail to submit and save the data dictionary category</item>
+		<item id="wb-save-reduplicatederror" desc="">The data dictionary category is duplicated. Please define again.</item>
+	</wordbook-language>	
+	<table-language>
+		<item id="system" desc="">System List</item>
+		<item id="backup" desc="">Backup List</item>
+		<item id="app" desc="">Application List</item>
+	</table-language>
+	<restore-language>
+		<item id="list-name" desc="">Backup File Name</item>
+		<item id="list-path" desc="">Backup File Storage Location</item>
+		<item id="list-type" desc="">Backup File Type</item>
+		<item id="list-location" desc="">Backup File Storage Form</item>
+		<item id="list-op" desc="">Operation</item>
+		<item id="list-title" desc="">System Data Recovery</item>
+		<item id="tbar-delete" desc="">Delete Backup File</item>
+		<item id="tbar-restore" desc="">Date Recovery</item>
+		<item id="delete-prompt" desc="">Confirm to delete the selected backup file?</item>
+		<item id="delete-success" desc="">The data backup file has been deleted.</item>
+		<item id="delete-failure" desc="">Fail to delete the data backup file. Please try again.</item>
+		<item id="restore-alert" desc="">Executing the data recovery will delete the current system data. Please be cautious to execute the data recovery, and backup the current system data before data recovery.</item>
+		<item id="restore-data" desc="">Data File</item>
+		<item id="restore-title" desc="">System Data Recovery Plan</item>
+		<item id="restore-button" desc="">Perform Data Recovery</item>
+		<item id="restore-prompt" desc="">Confirm to recover the selected backup file?</item>
+		<item id="restore-success" desc="">The data has been recovered successfully.</item>
+	</restore-language>	
+	<backup-language>
+		<item id="list-type" desc="">Data Table Type</item>
+		<item id="list-table" desc="">Table Name</item>
+		<item id="list-desc" desc="">Data Table Type</item>
+		<item id="list-file" desc="">File Belonged</item>
+		<item id="list-datasource" desc="">Data Source</item>
+		<item id="list-title" desc="">System Data Backup</item>
+		<item id="tbar-backup" desc="">Data Backup</item>
+		<item id="list-type" desc="">Data Table Type</item>
+		<item id="form-name" desc="">Backup File Name</item>
+		<item id="form-name-emptytext" desc="">Please define data backup file name.</item>
+		<item id="form-title" desc="">System Data Table Queueing for Backup</item>
+		<item id="window-title" desc="">System Data Backup Plan</item>
+		<item id="backup-button" desc="">Perform Data Backup</item>
+		<item id="backup-prompt" desc="">This backup plan will be added to the backup task queue. The backup task completion time depends on the volume of backup data. Please download the backup file after the backup task has been completed.</item>
+		<item id="backup-success" desc="">The data backup plan has been added to the task queue.</item>
+		<item id="backup-failure" desc="">Fail to backup data. Please try again.</item>
+	</backup-language>	
+	<log-language>
+		<item id="list-title" desc="">System Log Information List</item>
+		<item id="list-user" desc="">User</item>
+		<item id="list-logid" desc="">Login ID</item>
+		<item id="list-time" desc="">Operation Time</item>
+		<item id="list-ip" desc="">Access IP</item>
+		<item id="list-type" desc="">Operation Type</item>
+		<item id="list-detail" desc="">Operation Detail</item>
+		<item id="list-content" desc="">Log Content</item>
+		<item id="query-detail" desc="">View Log Detail</item>
+		<item id="query-content" desc="">System Log</item>
+		<item id="delete-failure-deleteerror" desc="">Fail to delete log data.</item>
+		<item id="delete-failure-cleanerror" desc="">Fail to clean log data.</item>
+		<item id="invalidip">Please enter the correct IP address.</item>
+		<item id="query-type">Operation Type</item>
+		<item id="query-detail">Operation Detail</item>
+		<item id="query-user">User Name</item>
+		<item id="query-logid">Login ID</item>
+		<item id="query-ip">IP</item>
+		<item id="query-stime">Starting Time</item>
+		<item id="query-etime">Ending Time</item>
+		<item id="query-title">Log Query</item>
+		<item id="query-invalid">Please set query conditions.</item>
+		<item id="query-button">Query</item>
+		<item id="query-button-tooltip">System Log Query</item>
+		<item id="delete-button">Delete</item>
+		<item id="delete-button-tooltip">Delete The System Log</item>
+		<item id="export-button">Export</item>
+		<item id="export-button-tooltip">Export System Log</item>
+		<item id="clean-button">Clean Log</item>
+		<item id="clean-button-tooltip">Clean All System Log</item>
+		<item id="delete-prompt">Confirm to delete log data?</item>
+		<item id="clean-prompt">Clean operation will delete all log data, and the deleted data cannot be recovered. Confirm to delete log data?</item>
+		<item id="form-detail" desc="">Log Detail: </item>
+	</log-language>	
+	<annex-language>
+		<item id="query-object" desc="">Foreign Key Object</item>
+		<item id="query-type" desc="">Attachment Type</item>
+		<item id="list-title" desc="">Attachement Information List</item>
+		<item id="list-id" desc="">Attachment ID</item>
+		<item id="list-name" desc="">Attachment Name</item>
+		<item id="list-type" desc="">Type</item>
+		<item id="list-folder" desc="">Parent Folder</item>
+		<item id="list-path" desc="">Path</item>
+		<item id="list-fid" desc="">Foreign ID</item>
+		<item id="list-fobject" desc="">Foreign Object</item>
+		<item id="list-input" desc="">Attachment Domain</item>
+		<item id="list-location" desc="">Storage Location</item>
+		<item id="list-relation" desc="">Foreign Key Relation</item>
+		<item id="annex-uncertain" desc="">Uncertain</item>
+		<item id="annex-missing" desc="">Missing</item>
+		<item id="annex-complete" desc="">Complete</item>
+	</annex-language>	 
+	<tablequery-language>
+		<item id="error-uncreated" desc="">Unable to create record list.</item>
+		<item id="failure-uncreated" desc="">Unknown error. Unable to initialize record list.</item>
+		<item id="alert-group" desc="">Error in parameter setting. Please check.group:{filed:'Filed Data Field',sort:'Sorted Data Field',display:'Displayed Data Field'}Setting</item>
+		<item id="alert-getjson" desc="">Unable to obtain record list json structure information.</item>
+		<item id="alert-notfound" desc="">Record list not defined.</item>
+		<item id="list-displaymsg" desc="">{2} Records in Total</item>
+		<item id="list-emptymsg" desc="">No Records</item>
+		<item id="list-page" desc="">List</item>
+		<item id="list-data" desc="">Records per Page</item>
+		<item id="form-title" desc="">Query</item>
+	</tablequery-language>
+	<tableview-language>
+		<item id="save-success" desc="">Saved Successfully</item>
+		<item id="to" desc="">to</item>
+		<item id="readonly" desc="">Read Only</item>
+		<item id="numberonly" desc="">Number Only</item>
+		<item id="maxlength" desc="">Content exceeds the maximum length</item>
+		<item id="pleaseselect" desc="">Please select</item>
+		<item id="mismatch" desc="">Contents do not match</item>
+		<item id="isinvalid" desc="">Invalid List Content</item>
+		<item id="dynamichandlealert" desc="">Invalid view components. Unable to process components. </item>
+	</tableview-language>
+	<flow-language>
+		<item id="history-opinion-list" desc="">Approval History</item>
+		<item id="sign-opinion" desc="">Signature</item>
+		<item id="closewindow" desc="">Confirm to close window?</item>
+	</flow-language>
+	<extframe-language>
+		<item id="editpwd" desc="">Password Management</item>
+		<item id="personalinfo" desc="">Personal Info</item>
+		<item id="shortcut" desc="">Shortcut</item>
+		<item id="console" desc="">Control Panel</item>
+		<item id="logout" desc="">Logout</item>
+		<item id="desktop" desc="">Desktop</item>
+		<item id="modulemenu" desc="">Menu</item>
+		<item id="user" desc="">User</item>
+		<item id="group" desc="">Group</item>
+		<item id="logout-prompt" desc="">Confirm to logout?</item>
+	</extframe-language>
+</wordbook>

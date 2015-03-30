@@ -1,0 +1,1 @@
+<EntroAuction> The uploaded Invoice ID <000000> information is not complete. Please check your email for more information or contact <hotline> for support. 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+   <query ID="examples_t1_list">
+		<name>测试查询列表</name>
+		<desc>表1</desc>
+		<table>EXAMPLES_T1</table>
+		<jsurl>/app/examples/js/examples_t1_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<param>{forceFit:true,listenRemix:true}</param>
+		<query-item>  
+			<item name="NAME" jsonParam='{columnCount:2}' mode="09"/>
+			<item name="L1_ID" type="input" mode="01"/>
+		</query-item>
+		<result-item>
+			<item name="NAME"/>  
+			<item name="L1_ID"/>  
+			<item name="L1_NAME"/>  
+			<item name="L2_ID"/>  
+			<item name="L2_NAME"/>  
+			<item name="L3_ID"/>  
+			<item name="L3_NAME"/>  
+			<item name="T2_PKID"/>  
+			<item name="T2_NAME"/>  
+			<item name="T3_NUMBER"/>
+			<item name="T3_MONEY"/>
+			<item name="T3_PKID"/>
+			<item name="T3_NAME"/>
+			<item name="T3_TYPE"/>
+			<item name="T4_PKID"/>
+			<item name="T4_NAME"/>
+			<item name="T4_TYPE"/>
+			<item name="T5_PKID"/>
+			<item name="T5_NAME"/>
+			<item name="T5_TYPE"/>
+			<item name="T6_PKID"/>
+			<item name="SP" label="操作" alien="1"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="NAME" mode="DESC"/> 
+		</orderby-item>
+	</query>
+</table-query>

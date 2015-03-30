@@ -1,0 +1,27 @@
+.addflow {
+	background-image: url(../images/add.png) !important
+}
+
+.delflow {
+	background-image: url(../images/delete.png) !important
+}
+
+.copyflow {
+	background-image: url(../images/copy.png) !important
+}
+
+.exportflow {
+	background-image: url(../images/export.png) !important
+}
+
+.adddoc {
+	background-image: url(../images/add.png) !important
+}
+
+.deldoc {
+	background-image: url(../images/delete.png) !important
+}
+
+.save {
+	background-image: url(../images/ok.gif) !important
+}

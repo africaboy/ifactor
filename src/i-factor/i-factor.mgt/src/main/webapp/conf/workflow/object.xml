@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workflow-object> 
+
+	<object name="workflow object for buyer application" key="buyerApplyObject" memo="">
+		<view></view>
+		<tableview desc="buyer application form">ifactor_buyer_apply</tableview>
+		<tableview desc="buyer profile form">ifactor_buyer_profile</tableview>
+	</object>
+	
+	<object name="workflow object for invoice delivery application" key="invoiceDeliveryObject" memo="">
+		<view></view>
+		<tableview desc="invoice delivery application form">ifactor_invoice_delivery_apply</tableview>
+	</object>
+	
+	<object name="workflow object for SME application" key="smeApplyObject" memo="">
+		<view></view>
+		<tableview desc="SME application form">if_cp_apply_add</tableview>
+		<tableview desc="CIC">if_cp_cic</tableview>
+		<tableview desc="Year N-2">if_cp_fs_add</tableview>
+		<tableview desc="Year N-1">if_cp_fs_add1</tableview>
+		<tableview desc="Scoring">if_scoring_result</tableview>
+		<tableview desc="Profile">if_cp_profile</tableview>
+	</object>
+
+	<object name="workflow object for original invoice verification" key="oriVerInvoiceObject" memo="">
+		<view></view>
+		<tableview desc="original invoice verification form">ifactor_invoice_oriver</tableview>
+	</object>
+</workflow-object>

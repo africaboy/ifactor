@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans >   
+	</form-beans>
+
+	<global-exceptions />
+	<global-forwards >
+		<forward path="/ok.jsp" name="ok"></forward>
+		<forward path="/error.jsp" name="error"></forward>
+		<forward path="/result.jsp" name="result"></forward>
+		<forward path="/jsonresult.jsp" name="jsonresult"></forward>
+		<forward path="/xmlresult.jsp" name="xmlresult"></forward>
+	</global-forwards>
+
+	<action-mappings >
+		<action 
+			path="/login" 
+			scope="request"
+			type="jt.classic.system.login.LoginAction">
+			<forward path="/system.do?method=index" name="login" redirect="true"></forward>   
+		</action>
+		<action 
+			path="/logout" 
+			scope="request"
+			type="jt.classic.system.login.LogoutAction">   
+		</action>
+		<action 
+			path="/staticlogin" 
+			scope="request"
+			type="jt.classic.system.login.StaticLoginAction"> 
+		</action>
+		<action 
+			path="/remotelogin" 
+			scope="request"
+			type="jt.classic.system.login.RemoteLoginAction"> 
+		</action>
+		<action 
+			path="/registe" 
+			scope="request"
+			type="jt.classic.system.user.RegisterAction"> 
+		</action>
+		<action 
+			path="/user" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.user.UserAction">
+			<forward path="/user/neu.jsp" name="neu"></forward>
+			<forward path="/user/list.jsp" name="list"></forward>
+			<forward path="/user/edit4ext.jsp" name="edit"></forward>
+			<forward path="/user/editpart4ext.jsp" name="editpart"></forward>
+			<forward path="/user/editmypwd.jsp" name="editmypwd"></forward>
+			<forward path="/user.do?method=list" name="delete" redirect="true"></forward>
+		</action>
+		<action 
+			path="/self" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.user.SelfAction">
+			<forward path="/user/editmypwd.jsp" name="editmypwd"></forward>
+		</action>
+		<action 
+			path="/updater" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.UpdaterAction">
+		</action>
+		<action 
+			path="/group" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.group.GroupAction">
+			<forward path="/group/selecttree.jsp" name="selecttree"></forward>
+			<forward path="/group/neu.jsp" name="neu"></forward>
+			<forward path="/group/edit.jsp" name="edit"></forward>
+			<forward path="/group/append.jsp" name="append"></forward>
+			<forward path="/group/sort.jsp" name="sort"></forward>
+			<forward path="/group/ok.jsp" name="ok" redirect="true"></forward>
+			<forward path="/group/ko.jsp" name="ko" redirect="true"></forward>
+		</action>  
+		<action 
+			path="/tree" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.tree.TreeAction">
+			<forward path="/group/selecttree.jsp" name="selectgrouptree"></forward>
+		</action>  
+		<action 
+			path="/role" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.role.RoleAction">
+			<forward path="/role/neu.jsp" name="neu" redirect="true"></forward>
+			<forward path="/role/list.jsp" name="list"></forward>
+			<forward path="/role/selectlist.jsp" name="selectlist"></forward>
+			<forward path="/role/edit.jsp" name="edit"></forward>
+			<forward path="/role/edit4ext.jsp" name="edit4ext"></forward>
+			<forward path="/role/objlist4ext.jsp" name="objlist4ext"></forward>
+		</action>   
+		<action 
+			path="/rolelist" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.role.RoleListAction">
+		</action>
+		<action 
+			path="/post" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.post.PostAction">
+			<forward path="/post/neu.jsp" name="neu"></forward>
+			<forward path="/post/list.jsp" name="list"></forward>
+			<forward path="/post/edit.jsp" name="edit"></forward>
+			<forward path="/post/workset.jsp" name="workset"></forward>
+			<forward path="/post/worksetdetail.jsp" name="worksetdetail"></forward>
+			<forward path="/post/restraint.jsp" name="restraint"></forward>
+		</action>     
+		<action 
+			path="/log" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.log.LogAction">
+			<forward path="/log/list.jsp" name="list"></forward>
+		</action>  
+		<action 
+			path="/module" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.module.ModuleAction">
+			<forward path="/module/neu.jsp" name="neu"></forward>
+			<forward path="/module/addmenu.jsp" name="addmenu"></forward>
+			<forward path="/module/edit.jsp" name="edit"></forward>
+			<forward path="/module/edit4ext.jsp" name="edit4ext"></forward>
+			<forward path="/module/editmenu4ext.jsp" name="editmenu4ext"></forward>
+			<forward path="/module/list.jsp" name="list"></forward>
+			<forward path="/module/treemap.jsp" name="purview"></forward>
+		</action>
+		<action 
+			path="/guide" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.module.GuideAction">
+			<forward path="/module/expand.jsp" name="expand"></forward>
+		</action>    
+		<action 
+			path="/purview" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.purview.PurviewAction">
+			<forward path="/purview/purview.jsp" name="purview"></forward> 
+			<forward path="/purview/purview4group.jsp" name="purview4group"></forward>  
+			<forward path="/purview/purview4user.jsp" name="purview4user"></forward>
+		</action> 
+		<action 
+			path="/system" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.SystemAction">
+			<forward path="/index.jsp" name="index"></forward>   
+			<forward path="/desktop.jsp" name="desktop"></forward>
+		</action>  
+		<action 
+			path="/table" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.table.TableAction">
+			<forward path="/table/list.jsp" name="list"></forward>   
+			<forward path="/table/register.jsp" name="register"></forward>
+		</action>
+		<action 
+			path="/wb" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.wordbook.action.WordBookAction">
+			<forward path="/wordbook/edit.jsp" name="edit"></forward>   
+		</action>   
+		<action 
+			path="/wbutil" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.wordbook.action.WordBookUtilAction"> 
+		</action> 
+		<action 
+			path="/flow" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.workflow.WorkflowAction">
+			<forward path="/workflow/neu.jsp" name="neu"></forward>
+			<forward path="/workflow/neu4diy.jsp" name="neu4diy"></forward>
+			<forward path="/workflow/mypendinglist.jsp" name="mypendinglist"></forward>
+			<forward path="/workflow/mydonelist.jsp" name="mydonelist"></forward>
+			<forward path="/workflow/myencycliclist.jsp" name="myencycliclist"></forward>
+			<forward path="/workflow/mycclist.jsp" name="mycclist"></forward>
+			<forward path="/workflow/trace.jsp" name="trace"></forward>
+			<forward path="/workflow/tailor.jsp" name="tailor"></forward>
+			<forward path="/../application/querylist.jsp" name="query"></forward>
+			<forward path="/workflow/pigeonholelist.jsp" name="pigeonholelist"></forward>
+			<forward path="/../application/cancellist.jsp" name="cancellist"></forward>
+			<forward path="/workflow/trenduser.jsp" name="trenduser"></forward>  
+			<forward path="/workflow/sendpostselect.jsp" name="sendpostselect"></forward>  
+		</action>
+		<action 
+			path="/object" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.object.ObjectAction">
+			<forward path="/object/neu.jsp" name="neu"></forward>
+			<forward path="/object/list.jsp" name="list"></forward>
+			<forward path="/object/edit.jsp" name="edit"></forward>
+			<forward path="/object/edit4ext.jsp" name="edit4ext"></forward>
+			<forward path="/object/querysetlist.jsp" name="querysetlist"></forward>
+			<forward path="/object/neuqueryset.jsp" name="neuqueryset"></forward>
+			<forward path="/object/editqueryset.jsp" name="editqueryset"></forward>
+		</action> 
+		<action 
+			path="/objectcreator" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.object.ObjectCreatorAction">
+			<forward path="/object/edit4creator.jsp" name="edit"></forward>
+			<forward path="/object/objectlist.jsp" name="list"></forward>
+			<forward path="/object/objectqueryset.jsp" name="queryset"></forward>
+		</action>
+		<action 
+			path="/objectquery" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.objectquery.ObjectQueryAction">
+			<forward path="/object/objectlist.jsp" name="list"></forward>
+		</action> 
+		<action 
+			path="/baseworksave" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkSaveAction">
+		</action> 
+		<action 
+			path="/baseworkupdate" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkUpdateAction">
+		</action>
+		<action 
+			path="/baseworkremix" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkRemixAction">
+		</action>
+		<action 
+			path="/baseworkdelete" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkDeleteAction">
+		</action>
+		<action 
+			path="/baseworkdeleteI" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkDeleteIAction">
+		</action>
+		<action 
+			path="/baseworkselect" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkSelectAction">
+		</action>
+		<action 
+			path="/baseworkselectI" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkSelectIAction">
+		</action>
+		<action 
+			path="/baseworkselectII" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.action.BaseWorkSelectIIAction">
+		</action>
+		<action 
+			path="/annex" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.annex.AnnexAction">
+		</action> 
+		<action 
+			path="/ddindex" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.databook.action.DataIndexAction">
+		</action>  
+		<action 
+			path="/ddindexshow" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.databook.action.DataIndexShowAction">
+		</action> 
+		<action 
+			path="/lang" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.language.action.GrooveLanguageAction">
+		</action>
+	</action-mappings>
+</struts-config>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-query>
+	<query ID="seller_detail_report_list">
+		<name>query for seller detail report</name>
+		<desc>query for seller detail report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_DETAIL_SELLER_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "SELLER_ID" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "SELLER_RATING" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "REGION" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "SUBMITTED" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>   
+			<item name = "ACCEPTED_NO" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "ACCEPTED_AMOUNT" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "DISBURSED_NO" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "DISBURSED_AMOUNT" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "AVERAGE_ADVANCE" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>   
+			<item name = "AVERAGE_INTEREST" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+			<item name = "CANCELLATION" tableName="IF_MGT_DETAIL_SELLER_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTDATE" tableName="IF_MGT_DETAIL_SELLER_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="seller_report_list">
+		<name>query for seller report</name>
+		<desc>query for seller report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_SELLER_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<renderClass>com.entrofine.ifactor.gbv.machining.SellerReportRender</renderClass>
+		<outrosql>1=1 GROUP BY IF_MGT_SELLER_REPORT.REPORTTYPE,IF_MGT_SELLER_REPORT.REPORTTYPENUM</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+			<item name = "REPORTBYTYPE" type="select" param="Region" jsonParam="{wordbook:'invoiceReport',target:'REPORTBYTYPE'}" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "REPORTTYPE" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "APPLIED" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>   
+			<item name = "ACCEPTED" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "FINANCED" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "FRAUD_BLACKLIST" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "CANCELL_BLACKLIST" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "AVERAGE_ADVANCE" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>   
+			<item name = "AVERAGE_INTEREST" sqlFunc="sum" tableName="IF_MGT_SELLER_REPORT"/>
+			<item name = "REPORTTYPENUM" tableName="IF_MGT_SELLER_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTTYPENUM" tableName="IF_MGT_SELLER_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+</table-query>

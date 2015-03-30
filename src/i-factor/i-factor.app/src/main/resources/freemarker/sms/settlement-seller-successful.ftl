@@ -1,0 +1,1 @@
+Your Invoice - ID <000000> has been settled successfully. You will receive remaining amount of invoice. Please visit website EntroAuction for more detail

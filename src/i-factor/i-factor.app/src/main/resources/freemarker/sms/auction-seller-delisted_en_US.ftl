@@ -1,0 +1,1 @@
+<EntroAuction> Your invoice - ID <000000> - is not sold and will be delisted. Please check the invoice status.

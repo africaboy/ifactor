@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-support>
+	<system id="OA">
+		<name>OA</name>
+		<datasource>java:comp/env/jdbc/grooveSV</datasource>
+		<synsessionservice>http://localhost:8080/grooveSV/</synsessionservice>
+		<usergroupcenter>usergroupcenter</usergroupcenter>
+	</system>
+</workflow-support>

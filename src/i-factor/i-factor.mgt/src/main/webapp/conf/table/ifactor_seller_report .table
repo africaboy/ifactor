@@ -1,0 +1,162 @@
+<annotate>
+	<table name="IF_MGT_DETAIL_SELLER_REPORT" description="seller detail report template">
+		<column>
+			<name>SELLER_ID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>varchar</type>
+			<description>Seller rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SUBMITTED</name>
+			<type>integer</type>
+			<description>Number of invoices submitted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPTED_NO</name>
+			<type>integer</type>
+			<description>Number of invoices accepted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPTED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Accpeted invoices amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DISBURSED_NO</name>
+			<type>integer</type>
+			<description>Number of invoices disbursed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Disbursed invoices amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>AVERAGE_ADVANCE</name>
+			<type>decimal</type>
+			<description>Weighted average advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>AVERAGE_INTEREST</name>
+			<type>decimal</type>
+			<description>Weighted average interest (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CANCELLATION</name>
+			<type>integer</type>
+			<description>Number of cancellations</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_SELLER_REPORT" description="seller report by all template">
+		<column> 
+			<name>APPLIED</name>
+			<type>integer</type>
+			<description>Applied</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPTED</name>
+			<type>integer</type>
+			<description>Accepted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FINANCED</name>
+			<type>integer</type>
+			<description>Financed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FRAUD_BLACKLIST</name>
+			<type>integer</type>
+			<description>Fraud blacklisted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CANCELL_BLACKLIST</name>
+			<type>integer</type>
+			<description>Cancellation blacklisted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>AVERAGE_ADVANCE</name>
+			<type>decimal</type>
+			<description>Weighted average advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>AVERAGE_INTEREST</name>
+			<type>decimal</type>
+			<description>Weighted average interest (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REPORTTYPE</name>
+			<type>varchar</type>
+			<description>Report Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REPORTTYPENUM</name>
+			<type>integer</type>
+			<description>Report Type</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>REPORTBYTYPE</name>
+			<type>varchar</type>
+			<description>Report By Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

@@ -1,0 +1,1 @@
+<EntroAuction> Invoice <00000> is successfully dealed. The system will verify the original invoice and the sub-contract before disbursement is performed. 

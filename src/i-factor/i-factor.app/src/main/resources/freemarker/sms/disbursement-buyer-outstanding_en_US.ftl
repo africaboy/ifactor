@@ -1,0 +1,1 @@
+<EntroAuction> Invoice <00000> is successfully dealed. Please kindly deposit the outstanding balance into your Bank/The Bank account within 2 days to complete the payment process. Hotline: xxx

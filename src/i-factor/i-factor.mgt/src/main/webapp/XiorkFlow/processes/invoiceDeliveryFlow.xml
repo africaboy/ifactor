@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WorkflowProcess> 
+ <Activities> 
+  <Activitie id="3" type="NODE" name="Data Modify" xCoordinate="253" yCoordinate="258" width="80" height="30"/>  
+  <Activitie id="18" type="FORK_NODE" name="Manual Progress" xCoordinate="416" yCoordinate="71" width="80" height="30"/>  
+  <Activitie id="20" type="JOIN_NODE" name="Transit Node" xCoordinate="672" yCoordinate="309" width="80" height="30"/>  
+  <Activitie id="7" type="END_NODE" name="Finish" xCoordinate="660" yCoordinate="430" width="80" height="30"/>  
+  <Activitie id="6" type="FORK_NODE" name="BlackList Check" xCoordinate="666" yCoordinate="182" width="80" height="30"/>  
+  <Activitie id="17" type="FORK_NODE" name="First Check" xCoordinate="231" yCoordinate="73" width="80" height="30"/>  
+  <Activitie id="1" type="START_NODE" name="Invoice Regist" xCoordinate="48" yCoordinate="73" width="80" height="30"/>  
+  <Activitie id="8" type="NODE" name="Double Manual Check" xCoordinate="898" yCoordinate="200" width="80" height="30"/>  
+  <Activitie id="5" type="NODE" name="Double Check" xCoordinate="660" yCoordinate="71" width="80" height="30"/> 
+ </Activities>  
+ <Transitions> 
+  <Transition id="1" name="double check" from="18" to="5"/>  
+  <Transition id="1" name="reject" from="18" to="20"/>  
+  <Transition id="2" name="" from="20" to="7"/>  
+  <Transition id="4" name="double manual check" from="6" to="8"/>  
+  <Transition id="4" name="reject" from="6" to="20"/>  
+  <Transition id="5" name="" from="17" to="3"/>  
+  <Transition id="5" name="manual check" from="17" to="18"/>  
+  <Transition id="6" name="first check" from="1" to="17"/>  
+  <Transition id="7" name="release invoice" from="8" to="20"/>  
+  <Transition id="8" name="blacklist check" from="5" to="6"/> 
+ </Transitions> 
+</WorkflowProcess>

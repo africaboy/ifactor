@@ -1,0 +1,131 @@
+<annotate>
+	<table name="IF_MGT_DEBTOR_PAY_REPORT" description="Debtor Payment History Report">
+		<column>
+			<name>DP_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_NO</name>
+			<type>varchar</type>
+			<description>Invoice No.</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_ID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BUYER_ID</name>
+			<type>varchar</type>
+			<description>Buyer ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DEBTOR_NAME</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>EXP_SETTLE_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLE_DATE</name>
+			<type>varchar</type>
+			<description>Settlement Date</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>PAY_AMOUNT</name>
+			<type>varchar</type>
+			<description>Payment Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_AMOUNT</name>
+			<type>varchar</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>uploaded date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_BUYER_PAY_REPORT" description="Buyer Payment History Report">
+		<column>
+			<name>BP_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_NO</name>
+			<type>varchar</type>
+			<description>Invoice No.</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_ID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BUYER_ID</name>
+			<type>varchar</type>
+			<description>Buyer ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DEBTOR_NAME</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_DATE</name>
+			<type>varchar</type>
+			<description>Disbursed date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLE_DATE</name>
+			<type>varchar</type>
+			<description>Settlement Date</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>PAY_AMOUNT</name>
+			<type>varchar</type>
+			<description>Payment Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>EXP_PAY_AMOUNT</name>
+			<type>varchar</type>
+			<description>Expected Payment Amount from Buyer</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>uploaded date</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+</annotate>

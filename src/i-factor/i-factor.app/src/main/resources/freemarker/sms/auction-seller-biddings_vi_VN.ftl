@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don ID <000000> co gia mua moi. Xin vui long kiem tra trang thai hoa don va chap nhan hoac tu choi giao dich.

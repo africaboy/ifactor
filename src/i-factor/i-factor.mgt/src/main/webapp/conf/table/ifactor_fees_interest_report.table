@@ -1,0 +1,520 @@
+<annotate>
+	<table name="IF_MGT_INV_FEE_REPORT" description="Invoice Fee(transaction fee、cancellation fee、late payment interest fee) report for all template">
+		<column>
+			<name>INV_FEE_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FEE_TYPE</name>
+			<type>varchar</type>
+			<description>Fee Type</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>FEE_TYPE_VAL</name>
+			<type>varchar</type>
+			<description>Fee Type</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>FEE_AMOUNT</name>
+			<type>varchar</type>
+			<description>Fee Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_ID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CUSTOMER_TYPE</name>
+			<type>varchar</type>
+			<description>Customer Type</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAYER_ID</name>
+			<type>varchar</type>
+			<description>Payer ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>PAID_TIME</name>
+			<type>varchar</type>
+			<description>Paid Time</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_INTEREST_REPORT" description="Interest Payment Report Template">
+		<column>
+			<name>IR_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>AMOUNT</name>
+			<type>varchar</type>
+			<description>Interest Payment Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_AMOUNT</name>
+			<type>varchar</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_ID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_ID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAID_TIME</name>
+			<type>varchar</type>
+			<description>Paid Time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RATE</name>
+			<type>varchar</type>
+			<description>Interest Rate</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DIBURSE_DATE</name>
+			<type>varchar</type>
+			<description>Dibursement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TO_DATE</name>
+			<type>varchar</type>
+			<description>To Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACTUAL_TERM</name>
+			<type>varchar</type>
+			<description>Actual Term</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_LATE_INTEREST_REPORT" description="Late Interest Payment Report Template">
+		<column>
+			<name>LIR_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>AMOUNT</name>
+			<type>varchar</type>
+			<description>Late Interest Payment Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_AMOUNT</name>
+			<type>varchar</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INV_ID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAYER_ID</name>
+			<type>varchar</type>
+			<description>Payer</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAID_TIME</name>
+			<type>varchar</type>
+			<description>Paid Time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RATE</name>
+			<type>varchar</type>
+			<description>Interest Rate</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>EXP_SETTLE_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TO_DATE</name>
+			<type>varchar</type>
+			<description>To Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LATE_DAYS</name>
+			<type>varchar</type>
+			<description>Number of Days Late</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_TFI_REGION_REPORT" description="Total Fees and Interest of sellers by Region Report Template">
+		<column>
+			<name>TFIR_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLERS_NUM</name>
+			<type>integer</type>
+			<description>Number of Sellers</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>APPROVED_INV_NUM</name>
+			<type>integer</type>
+			<description>Number of Approved Invoices</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>DISBURSE_INV_NUM</name>
+			<type>varchar</type>
+			<description>Number of Disbursed Invoices</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_TRANS_FEES</name>
+			<type>varchar</type>
+			<description>Total Transaction Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_CANCEL_FEES</name>
+			<type>varchar</type>
+			<description>Total Cancellation Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INFEES</name>
+			<type>varchar</type>
+			<description>Total Late Payment Interest Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Interest Payment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Late Interest Payment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_TFI_SEGMENT_REPORT" description="Total Fees and Interests of sellers by Segment Report Template">
+		<column>
+			<name>TFIS_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SEGMENT</name>
+			<type>varchar</type>
+			<description>Segment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLERS_NUM</name>
+			<type>integer</type>
+			<description>Number of Sellers</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>APPROVED_INV_NUM</name>
+			<type>integer</type>
+			<description>Number of Approved Invoices</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>DISBURSE_INV_NUM</name>
+			<type>varchar</type>
+			<description>Number of Disbursed Invoices</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_TRANS_FEES</name>
+			<type>varchar</type>
+			<description>Total Transaction Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_CANCEL_FEES</name>
+			<type>varchar</type>
+			<description>Total Cancellation Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INFEES</name>
+			<type>varchar</type>
+			<description>Total Late Payment Interest Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Interest Payment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Late Interest Payment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_TFI_RATING_REPORT" description="Total Fees and Interests by Seller rating Report Template">
+		<column>
+			<name>TFIRA_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>varchar</type>
+			<description>Seller rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLERS_NUM</name>
+			<type>integer</type>
+			<description>Number of Sellers</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>APPROVED_INV_NUM</name>
+			<type>integer</type>
+			<description>Number of Approved Invoices</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>DISBURSE_INV_NUM</name>
+			<type>varchar</type>
+			<description>Number of Disbursed Invoices</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_TRANS_FEES</name>
+			<type>varchar</type>
+			<description>Total Transaction Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_CANCEL_FEES</name>
+			<type>varchar</type>
+			<description>Total Cancellation Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INFEES</name>
+			<type>varchar</type>
+			<description>Total Late Payment Interest Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Interest Earnings</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Late Interest Payment</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_TFIB_REGION_REPORT" description="Total Fees and Interest of buyers by Region Report Template">
+		<column>
+			<name>TFIBR_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BUYERS_NUM</name>
+			<type>integer</type>
+			<description>Number of Buyers</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>TOTAL_TRANS_FEES</name>
+			<type>varchar</type>
+			<description>Total Transaction Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_CANCEL_FEES</name>
+			<type>varchar</type>
+			<description>Total Cancellation Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INFEES</name>
+			<type>varchar</type>
+			<description>Total Late Payment Interest Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Interest Earnings</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAID_TIME</name>
+			<type>varchar</type>
+			<description>Paid Time</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_TFIB_TYPE_REPORT" description="Total Fees and Interests by buyer type Report Template">
+		<column>
+			<name>TFIBT_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TYPE</name>
+			<type>varchar</type>
+			<description>Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BUYERS_NUM</name>
+			<type>integer</type>
+			<description>Number of Buyers</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>TOTAL_TRANS_FEES</name>
+			<type>varchar</type>
+			<description>Total Transaction Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_CANCEL_FEES</name>
+			<type>varchar</type>
+			<description>Total Cancellation Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_LATE_INFEES</name>
+			<type>varchar</type>
+			<description>Total Late Payment Interest Fee</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_INTEREST</name>
+			<type>varchar</type>
+			<description>Total Interest Earnings</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_DATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PAID_TIME</name>
+			<type>varchar</type>
+			<description>Paid Time</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

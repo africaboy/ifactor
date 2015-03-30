@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InstanceProcess> 
+ <insid>1348</insid>  
+ <flowtype>custom</flowtype>  
+ <flowname>invoiceDeliveryFlow</flowname>  
+ <creator>user_from_ifactor_app</creator>  
+ <unit>EntroAuction-root</unit>  
+ <post/>  
+ <stime>2015年1月21日</stime>  
+ <Activity> 
+  <id>2317</id>  
+  <lastid>2317</lastid>  
+  <title>Invoice Regist</title>  
+  <sid>13</sid>  
+  <sno>1</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2015年1月21日17时4分59秒</stime>  
+  <etime>2015年1月21日17时5分0秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>FyzPhKbFPOnDhmRvvkAJ</lockid>  
+  <lockname>user_from_ifactor_app</lockname>  
+  <executorid>FyzPhKbFPOnDhmRvvkAJ</executorid>  
+  <executorname>user_from_ifactor_app</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>2318</id>  
+  <lastid>2317</lastid>  
+  <title>First Check</title>  
+  <sid>21</sid>  
+  <sno>17</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2015年1月21日17时5分0秒</stime>  
+  <etime>2015年1月21日17时5分39秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>MLyYQdoZrnDirembNXXD</lockid>  
+  <lockname>Joan Li</lockname>  
+  <executorid>MLyYQdoZrnDirembNXXD</executorid>  
+  <executorname>Joan Li</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>2319</id>  
+  <lastid>2318</lastid>  
+  <title>Manual Progress</title>  
+  <sid>23</sid>  
+  <sno>18</sno>  
+  <status>0</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2015年1月21日17时5分38秒</stime>  
+  <etime/>  
+  <ltime/>  
+  <lock>false</lock>  
+  <lockid>0</lockid>  
+  <lockname/>  
+  <executorid/>  
+  <executorname/>  
+  <executorunitid/>  
+  <executorunitname/> 
+ </Activity> 
+</InstanceProcess>

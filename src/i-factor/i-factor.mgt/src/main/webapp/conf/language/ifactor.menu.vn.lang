@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<extframe-module>
+		<item id="businessHandling">Xử lý Kinh doanh</item>
+		<item id="customerServiceMonitor">Giám sát Dịch vụ Chăm sóc Khách hàng</item>
+		<item id="flowMonitor">Giám sát Quy trình</item>
+		<item id="systemSetting">Thiết lập Hệ thống</item>
+		<item id="clientProfiles">Hồ sơ Khách hàng</item>
+		<item id="reportingTemplates">Mẫu Báo cáo</item>
+	</extframe-module>
+	<extframe-menu>
+		<item id="businessHandling-01">Danh sách Công việc Thẩm định Người mua</item>
+		<item id="businessHandling-02">Danh sách Công việc của nhóm Phê duyệt Người mua</item>
+		<item id="businessHandling-03">Danh sách Công việc Ký hợp đồng Người mua</item>
+		<item id="businessHandling-04">Danh sách Công việc Thẩm định Hóa đơn</item>
+		<item id="businessHandling-05">Danh sách Công việc Phê duyệt Hóa đơn</item>
+		<item id="businessHandling-06">Danh sách Công việc Thẩm định SME</item>
+		<item id="businessHandling-07">Danh sách Công việc Phê duyệt SME</item>
+		<item id="businessHandling-08">Danh sách Công việc Ký hợp đồng SME</item>
+		<item id="businessHandling-09">Danh sách Kiểm tra Thực địa SME</item>
+		<item id="businessHandling-10">Báo cáo Kiểm tra Thực địa SME</item>
+		<item id="businessHandling-11">Danh sách Công việc của nhân viên Kiểm tra Thực địa</item>
+		<item id="businessHandling-12">Danh sách Công việc Xác thực Người mua</item>
+		<item id="businessHandling-13">Danh sách Hóa đơn Sẵn sàng Đấu giá</item>
+		<item id="customerServiceMonitor-01">Giám sát Quy trình Chăm sóc Khách hàng Phê duyệt Người mua</item>
+		<item id="customerServiceMonitor-02">Giám sát Quy trình Chăm sóc Khách hàng Phê duyệt Hóa đơn</item>
+		<item id="customerServiceMonitor-03">Giám sát Quy trình Chăm sóc Khách hàng Phê duyệt SME</item>
+		<item id="customerServiceMonitor-04">Nhắc nhở Quy trình Chăm sóc Khách hàng Phê duyệt SME</item>
+		<item id="flowMonitor-01">Giám sát Quy trình Phê duyệt Người mua</item>
+		<item id="flowMonitor-02">Giám sát Quy trình Phê duyệt Hóa đơn</item>
+		<item id="flowMonitor-03">Giám sát Quy trình Phê duyệt SME</item>
+		<item id="flowMonitor-04">Giám sát Quy trình Phê duyệt SME</item>
+		<item id="flowMonitor-05">Giám sát Quy trình Phê duyệt Hóa đơn</item>
+		<item id="flowMonitor-06">Giám sát Quy trình Phê duyệt Người mua</item>
+		<item id="flowMonitor-07">Giám sát Quy trình Phê duyệt SME</item>
+		<item id="flowMonitor-08">Giám sát Quy trình Phê duyệt Hóa đơn</item>
+		<item id="flowMonitor-09">Giám sát Quy trình Phê duyệt Người mua</item>
+		<item id="systemSetting-01">Thiết lập Hình ảnh</item>
+		<item id="systemSetting-02">Nhập Dữ liệu Danh sách đen</item>
+		<item id="systemSetting-03">Danh sách Thẻ điểm</item>
+		<item id="systemSetting-04">Danh sách Thông tin Xếp hạng Thẻ điểm</item>
+		<item id="systemSetting-05">Danh sách Mối quan hệ các Trường Dữ liệu</item>
+		<item id="systemSetting-06">Duy trì Quy tắc Đấu giá</item>
+		<item id="systemSetting-07">Duy trì Giới hạn Số lượng Hóa đơn</item>
+		<item id="systemSetting-08">Danh sách Người dùng của Ngân hàng</item>
+		<item id="systemSetting-09">Thiết lập Thông số Hệ thống</item>
+		<item id="clientProfiles-01">Danh sách thông tin SME</item>
+		<item id="clientProfiles-02">Danh sách thông tin Người Mua</item>
+		<item id="report-01">Aggregate Invoice Report</item>
+		<item id="report-02">Seller Detail Report</item>
+		<item id="report-03">Seller By Type Report</item>
+		<item id="report-04">Unfunded Invoice Report</item>
+		<item id="report-05">Disbursed Invoice Report</item>
+		<item id="report-06">Buyer Detail Report</item>
+		<item id="report-07">Buyer By Type Report</item>
+		<item id="report-08">Debtor detail report</item>
+		<item id="report-09">Debtor Overdue Report</item>
+		<item id="report-10">Overdue By Type And Uploaded Date Report</item>
+		<item id="report-11">Overdue By Type And Settlement Date Report</item>
+		<item id="report-12">Overdue Detail Report</item>
+		<item id="report-13">Invoice Fee Report</item>
+		<item id="report-14">Interest Payment Report</item>
+		<item id="report-15">Late Interest Payment Report</item>
+		<item id="report-16">TFI Of Sellers by Region Report</item>
+		<item id="report-17">TFI Of Sellers By Segment Report</item>
+		<item id="report-18">TFI Of Sellers By Rating Report</item>
+		<item id="report-19">TFI Of Buyers By Region Report</item>
+		<item id="report-20">TFI By Buyer Type Report</item>
+		<item id="report-21">Debtor Payment History Report</item>
+		<item id="report-22">Buyer Payment History Report</item>
+	</extframe-menu>
+</wordbook>

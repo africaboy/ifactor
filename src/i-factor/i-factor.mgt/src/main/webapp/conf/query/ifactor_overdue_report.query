@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-query>
+	<query ID="overdue_report_uploaded">
+		<name>query for overdue report by query condition uploaded date</name>
+		<desc>query for overdue report by query condition uploaded date</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_OVERDUE_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<outrosql>1=1 GROUP BY IF_MGT_SELLER_REPORT.REPORTTYPE,IF_MGT_SELLER_REPORT.REPORTTYPENUM</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="QUERYCONDITION" type="hidden" mode="01" param="Uploaded" idx="02"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="03"/>
+			<item name="REPORTBYTYPE" type="select" param="Region" jsonParam="{wordbook:'invoiceReport',target:'REPORTBYTYPE'}" idx="04"/>
+		</query-item>
+		<result-item>
+			<item name = "REPORTTYPE" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "LTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>   
+			<item name = "LTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "REPORTTYPENUM" tableName="IF_MGT_OVERDUE_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTTYPENUM" tableName="IF_MGT_OVERDUE_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="overdue_report_settlement">
+		<name>query for overdue report by query condition settlement date</name>
+		<desc>query for overdue report by query condition settlement date</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_OVERDUE_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<outrosql>1=1 GROUP BY IF_MGT_SELLER_REPORT.REPORTTYPE,IF_MGT_SELLER_REPORT.REPORTTYPENUM</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="QUERYCONDITION" type="hidden" mode="01" param="Settlement" idx="02"/>
+			<item name="SETTLEMENTDATE" type="date" mode="09" idx="03"/>
+			<item name="REPORTBYTYPE" type="select" param="Region" jsonParam="{wordbook:'invoiceReport',target:'REPORTBYTYPE'}" idx="04"/>
+		</query-item>
+		<result-item>
+			<item name = "REPORTTYPE" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "LTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>   
+			<item name = "LTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "REPORTTYPENUM" tableName="IF_MGT_OVERDUE_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTTYPENUM" tableName="IF_MGT_OVERDUE_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="overdue_report_debtor">
+		<name>query for overdue report by debtor</name>
+		<desc>query for overdue report by debtor</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_OVERDUE_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<outrosql>1=1 GROUP BY IF_MGT_SELLER_REPORT.DEBTOR</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="QUERYCONDITION" type="hidden" mode="01" param="Debtor" idx="02"/>
+			<item name="SETTLEMENTDATE" type="date" mode="09" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "DEBTOR" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "NOOVERDUE_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "LTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>   
+			<item name = "LTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_NO" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+			<item name = "GTHIRTY_AMOUNT" sqlFunc="sum" tableName="IF_MGT_OVERDUE_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="SETTLEMENTDATE" tableName="IF_MGT_OVERDUE_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="overdue_detail_report">
+		<name>query for overdue detail report</name>
+		<desc>query for overdue detail report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_OVERDUE_DETAIL_REPORT</table>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+			<item name="SETTLEMENT_DATE" type="date" mode="09" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "INVOICE_ID" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "SETTLEMENT_DATE" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "OVERDUE_DAYS" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>   
+			<item name = "SELLER_ID" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "SELLER_RATING" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "BUYER_ID" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+			<item name = "DEBTOR" tableName="IF_MGT_OVERDUE_DETAIL_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADDATE" tableName="IF_MGT_OVERDUE_DETAIL_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+</table-query>

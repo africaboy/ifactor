@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<listener ID="BuyerFlowOpinionMachining" className="com.entrofine.ifactor.gbv.machining.BuyerFlowOpinionMachining"></listener>
+	<listener ID="InvoiceDeliveryFlowOpinionMachining" className="com.entrofine.ifactor.gbv.machining.InvoiceDeliveryFlowOpinionMachining"></listener>
+	<listener ID="SMEFlowOpinionMachining" className="com.entrofine.ifactor.gbv.machining.SMEFlowOpinionMachining"></listener>
+	<listener ID="ParamSettingMachining" className="com.entrofine.ifactor.gbv.machining.ParamSettingMachining"></listener>
+	<listener ID="CSRecordMachining" className="com.entrofine.ifactor.gbv.machining.CSRecordMachining"></listener>
+	<listener ID="ImagePreviewLogMachining" className="com.entrofine.ifactor.gbv.machining.ImagePreviewLogMachining"></listener>
+	<listener ID="SysVarsMachining" className="com.entrofine.ifactor.gbv.machining.SysVarsMachining"></listener>
+	<listener ID="InvoiceOriVerOpinionMachining" className="com.entrofine.ifactor.gbv.machining.InvoiceOriVerOpinionMachining"></listener>
+</root>	

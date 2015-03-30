@@ -1,0 +1,709 @@
+<annotate>
+	<table name="IF_MGT_INVOICE_REPORT" description="Aggregate invoice report by all template">
+		<column>
+			<name>UPLOADED_NO</name>
+			<type>decimal</type>
+			<description>Uploaded #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UPLOADED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Uploaded $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INPRO_NO</name>
+			<type>decimal</type>
+			<description>In Processing #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INPRO_AMOUNT</name>
+			<type>decimal</type>
+			<description>In Processing $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REJECTED_NO</name>
+			<type>decimal</type>
+			<description>Rejected #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REJECTED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Rejected $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ACCEPTED_NO</name>
+			<type>decimal</type>
+			<description>Accepted #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ACCEPTED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Accepted $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REOPEN_NO</name>
+			<type>decimal</type>
+			<description>Reopen #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REOPEN_AMOUNT</name>
+			<type>decimal</type>
+			<description>Reopen $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INAUCBID_NO</name>
+			<type>decimal</type>
+			<description>In Auction Bidded #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INAUCBID_AMOUNT</name>
+			<type>decimal</type>
+			<description>In Auction Bidded $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INAUCUNBID_NO</name>
+			<type>decimal</type>
+			<description>In Auction Unbidded #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INAUCUNBID_AMOUNT</name>
+			<type>decimal</type>
+			<description>In Auction Unbidded $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DELISTED_NO</name>
+			<type>decimal</type>
+			<description>Delisted #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DELISTED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Delisted $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DEALED_NO </name>
+			<type>decimal</type>
+			<description>Dealed #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DEALED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Dealed $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UNDEALED_NO </name>
+			<type>decimal</type>
+			<description>Unsuccessfully Dealed #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UNDEALED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Unsuccessfully Dealed $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UNDISBURSED_NO</name>
+			<type>decimal</type>
+			<description>Unsuccessfully Disbursed #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UNDISBURSED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Unsuccessfully Disbursed $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DISBURSED_NO</name>
+			<type>decimal</type>
+			<description>Disbursed #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DISBURSED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Disbursed $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SETTLEDED_NO</name>
+			<type>decimal</type>
+			<description>Settled #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SETTLEDED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Settled $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OVERDUE_NO</name>
+			<type>decimal</type>
+			<description>Overdue #</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OVERDUE_AMOUNT</name>
+			<type>decimal</type>
+			<description>Overdue $</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REPORTTYPE</name>
+			<type>varchar</type>
+			<description>Report Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REPORTTYPENUM</name>
+			<type>integer</type>
+			<description>Report Type</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>REPORTBYTYPE</name>
+			<type>varchar</type>
+			<description>Report By Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_UNFUNDED_REPORT" description="Unfunded Invoice Report">
+		<column>
+			<name>INVOICEID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICE_AMMOUNT</name>
+			<type>decimal</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLERID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>decimal</type>
+			<description>Seller risk master scale rating</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLER_RISK</name>
+			<type>varchar</type>
+			<description>Seller risk rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Seller's Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>VIP_DATE</name>
+			<type>varchar</type>
+			<description>Release date for VIP</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PUBLIC_DATE</name>
+			<type>varchar</type>
+			<description>Release date for public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CLOSE_DATE</name>
+			<type>varchar</type>
+			<description>Auction close date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DELISTING_DATE</name>
+			<type>varchar</type>
+			<description>Delisting Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLEMENT_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PDURATION_DAYS</name>
+			<type>integer</type>
+			<description>Auction duration for Public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TDURATION_DAYS</name>
+			<type>integer</type>
+			<description>Total Auction Duration</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_BIDS</name>
+			<type>integer</type>
+			<description>Total Number of Bids</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMVIP_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term when released to VIP</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMPUBLIC_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term when released to Public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMCLOSE_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term at Auction Close</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>READY_ADVANCE</name>
+			<type>decimal</type>
+			<description>Ready-to-sell advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>READY_INTEREST</name>
+			<type>decimal</type>
+			<description>Ready-to-sell advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BEST_ADVANCE</name>
+			<type>decimal</type>
+			<description>Best offered interest at delisting (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BEST_INTEREST</name>
+			<type>decimal</type>
+			<description>Best offered advance at delisting (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_DISBURSED_REPORT" description="Disbursed invoice template">
+		<column>
+			<name>INVOICEID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICE_AMMOUNT</name>
+			<type>decimal</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLERID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>decimal</type>
+			<description>Seller risk master scale rating</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLER_RISK</name>
+			<type>varchar</type>
+			<description>Seller risk rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Seller's Region</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BUYERID</name>
+			<type>varchar</type>
+			<description>Buyer ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DEBTOR</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>VIP_DATE</name>
+			<type>varchar</type>
+			<description>Release date for VIP</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PUBLIC_DATE</name>
+			<type>varchar</type>
+			<description>Release date for public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CLOSE_DATE</name>
+			<type>varchar</type>
+			<description>Auction close date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSEMENT_DATE</name>
+			<type>varchar</type>
+			<description>Disbursement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLEMENT_DATE</name>
+			<type>varchar</type>
+			<description>Expected Settlement Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PDURATION_DAYS</name>
+			<type>integer</type>
+			<description>Auction duration for Public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TDURATION_DAYS</name>
+			<type>integer</type>
+			<description>Total Auction Duration</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TOTAL_BIDS</name>
+			<type>integer</type>
+			<description>Total Number of Bids</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMVIP_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term when released to VIP</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMPUBLIC_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term when released to Public</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>TERMCLOSE_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term at Auction Close</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_DAYS</name>
+			<type>integer</type>
+			<description>Expected Term at Disbursement</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DELISTING_DATE</name>
+			<type>varchar</type>
+			<description>Delisting date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DAYSDELISTING</name>
+			<type>integer</type>
+			<description>Number of days till Delisted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPT_ADVANCE</name>
+			<type>decimal</type>
+			<description>Accepted advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>ACCEPT_INTEREST</name>
+			<type>decimal</type>
+			<description>Accepted advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>READY_ADVANCE</name>
+			<type>decimal</type>
+			<description>Ready-to-sell advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>READY_INTEREST</name>
+			<type>decimal</type>
+			<description>Ready-to-sell advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLER_AMOUNT</name>
+			<type>decimal</type>
+			<description>Disbursed amount for Seller</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLER_FEES</name>
+			<type>decimal</type>
+			<description>Transaction fees for Seller</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BUYER_AMOUNT</name>
+			<type>decimal</type>
+			<description>Disbursed amount from Buyer</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BUYER_FEES</name>
+			<type>decimal</type>
+			<description>Transaction fees for Buyer</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BUYER_RETURN</name>
+			<type>decimal</type>
+			<description>Expected return for Buyer</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_INAUCTION_REPORT" description="In-auction report for all template">
+		<column>
+			<name>RELEASEDATE</name>
+			<type>varchar</type>
+			<description>Release Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>INVOICEID</name>
+			<type>varchar</type>
+			<description>Invoice ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVOICE_AMMOUNT</name>
+			<type>decimal</type>
+			<description>Invoice Amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SELLERID</name>
+			<type>varchar</type>
+			<description>Seller ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SELLER_RATING</name>
+			<type>decimal</type>
+			<description>Seller Rating</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DEBTORID</name>
+			<type>varchar</type>
+			<description>Debtor ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLEDATE</name>
+			<type>varchar</type>
+			<description>Expected settlement date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REMAININGTERM</name>
+			<type>varchar</type>
+			<description>Remaining Term</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DELISTINGDATE</name>
+			<type>varchar</type>
+			<description>Delisting Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REMAININGDAYS</name>
+			<type>varchar</type>
+			<description>Remaining days till delisting</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BIDS_NO</name>
+			<type>varchar</type>
+			<description>No. of Bids</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RADVANCE</name>
+			<type>decimal</type>
+			<description>Ready-to-sell advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>RINTEREST</name>
+			<type>decimal</type>
+			<description>Ready-to-sell interest (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CADVANCE</name>
+			<type>decimal</type>
+			<description>Current best offered advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CINTEREST</name>
+			<type>decimal</type>
+			<description>Current best offered advance (%)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REPORTBYTYPE</name>
+			<type>varchar</type>
+			<description>Report By Type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

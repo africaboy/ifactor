@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="if_cp_fs_add">
+		<name>Year N-2</name>
+		<desc>Financial statement information table</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_CP_FS</primaryTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSASSET</foreignTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSEL</foreignTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSOR</foreignTable>
+		<jsurl>/app/ifactor/js/fs/ifactor_fs_view.js</jsurl>
+		<size>{height:400,width:1000,columnCount:2}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="BRNUMBER" type="input" tableName="IF_MGT_CP_FS" param="{readOnly:true,newline:true,group:'Financial Statement Information',groupWidth:950, groupParam : {groupCollapsible:false},columnCount:2,allowBlank:false}" idx="001"/>
+			<item name="CUSTOMER" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}"  idx="002"/>
+			<item name="CIF" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="011"/>
+			<item name="TSTATEMENT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="012"/>
+			<item name="NSTATEMENT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="013"/>
+			<item name="YEAR" type="number" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="014"/>
+			<item name="PERIOD" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="015"/>
+			<item name="UNIT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="016"/>
+			<item name="ERATE" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="017"/>
+			<item name="AUDITOR" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="018"/>
+			<item name="YEARTYPE" type="hidden" tableName="IF_MGT_CP_FS" param="{}" dv="2"/>
+
+			<item name="STATOTAL" tableName="IF_MGT_CP_FSASSET"  type="number" dv = "0" param="{allowBlank:false,newline:true,group:'Financial Statement Information Asset', groupWidth:950, groupParam : {id: 'assetGroup'},columnCount:2,allowDecimals:true,allowNegative:true}" idx="031"/>
+			<item name="STACCE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="032"/>
+			<item name="STACCECASH" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="033"/>
+			<item name="STACCECASHE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="034"/>
+			<item name="STASTFI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="035"/>
+			<item name="STASTFISTI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="036"/>
+			<item name="STASTFIPDSTI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="037"/>
+			<item name="STASTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="038"/>
+			<item name="STASTRRC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="039"/>
+			<item name="STASTRPS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="040"/>
+			<item name="STASTRSTIR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="041"/>
+			<item name="STASTRRPC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="042"/>
+			<item name="STASTROR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="043"/>
+			<item name="STASTRPR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="044"/>
+			<item name="INVENTORYTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="045"/>
+			<item name="INVENTORY" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="046"/>
+			<item name="INVENTORYPDPI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="047"/>
+			<item name="OSTATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="048"/>
+			<item name="OSTASTA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="049"/>
+			<item name="OSTAAV" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="050"/>
+			<item name="OSTATFR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="051"/>
+			<item name="OSTAOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="052"/>
+			<item name="LTATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="053"/>
+			<item name="LTALTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="054"/>
+			<item name="LTARC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="055"/>
+			<item name="LTABCS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="056"/>
+			<item name="LTALTIR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="057"/>
+			<item name="LTAOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="058"/>
+			<item name="LTAPLTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="059"/>
+			<item name="FATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="060"/>
+			<item name="FATFA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="061"/>
+			<item name="FATFAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="062"/>
+			<item name="FATFAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="063"/>
+			<item name="FAFLA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="064"/>
+			<item name="FAFLAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="065"/>
+			<item name="FAFLAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="066"/>
+			<item name="FAIFA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="067"/>
+			<item name="FAIFAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="068"/>
+			<item name="FAIFAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="069"/>
+			<item name="FAWBCC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="070"/>
+			<item name="IRETOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="071"/>
+			<item name="IREOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="072"/>
+			<item name="IREAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="073"/>
+			<item name="LTFITOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="074"/>
+			<item name="LTFIIS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="075"/>
+			<item name="LTFIIAJV" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="076"/>
+			<item name="LTFIOTHER" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="077"/>
+			<item name="LTFIPDLFI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="078"/>
+			<item name="OLATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="079"/>
+			<item name="OLALTPE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="080"/>
+			<item name="OLADIT" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="081"/>
+			<item name="OLA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="082"/>
+			<item name="OLACA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="083"/>
+			<item name="TOTALASSETS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="084"/>
+			
+			<item name="LIABILITIES" tableName="IF_MGT_CP_FSEL"  type="number" dv = "0" param="{allowBlank:false,newline:true,group:'Equity And Liabilities Financial Statement', groupWidth:950, groupParam : {id: 'FSELGroup'},columnCount:2,allowDecimals:true,allowNegative:true}" idx="131"/>
+			<item name="CLTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="132"/>
+			<item name="CLSTB" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="133"/>
+			<item name="CLSTBLTDM" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="134"/>
+			<item name="CLAP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="135"/>
+			<item name="CLPAR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="136"/>
+			<item name="CLTP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="137"/>
+			<item name="CLSEP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="138"/>
+			<item name="CLAE" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="139"/>
+			<item name="CLIP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="140"/>
+			<item name="CLPAPC" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="141"/>
+			<item name="CLOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="142"/>
+			<item name="CLPCL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="143"/>
+			<item name="CLWF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="144"/>
+			<item name="NCLTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="145"/>
+			<item name="NCLLTAP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="146"/>
+			<item name="NCLLTIP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="147"/>
+			<item name="NCLOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="148"/>
+			<item name="NCLLTB" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="149"/>
+			<item name="NCLDTR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="150"/>
+			<item name="NCLRA" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="151"/>
+			<item name="NCLPLTL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="152"/>
+			<item name="NCLUR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="153"/>
+			<item name="NCLRDF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="154"/>
+			<item name="EQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="155"/>
+			<item name="EQTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="156"/>
+			<item name="EQIC" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="157"/>
+			<item name="EQSE" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="158"/>
+			<item name="EQOS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="159"/>
+			<item name="EQTS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="160"/>
+			<item name="EQRS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="161"/>
+			<item name="EQFED" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="162"/>
+			<item name="EQIDF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="163"/>
+			<item name="EQFFR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="164"/>
+			<item name="EQOF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="165"/>
+			<item name="EQUPAT" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="166"/>
+			<item name="EQCCI" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="167"/>
+			<item name="EQBASF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="168"/>
+			<item name="FOFTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="169"/>
+			<item name="EOFFUNDS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="170"/>
+			<item name="EOFFIFA" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="171"/>
+			<item name="MITOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="172"/>
+			<item name="TOTALEQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="173"/>
+			<item name="TOTALASSETSEQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="174"/>
+
+			<item name="ORRGS" tableName="IF_MGT_CP_FSOR"  type="number" dv = "0" param="{allowBlank:false,newline:true,group:'Operating Results Financial Statement', groupWidth:950, groupParam : {id: 'FSORGroup'},columnCount:2,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="231"/>
+			<item name="ORRDI" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="232"/>
+			<item name="ORNRGS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="233"/>
+			<item name="ORCS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="234"/>
+			<item name="ORGP" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="235"/>
+			<item name="ORFR" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="236"/>
+			<item name="ORFE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="237"/>
+			<item name="ORIE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="238"/>
+			<item name="ORSE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="239"/>
+			<item name="ORMAE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="240"/>
+			<item name="ORDIVIDENDS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="241"/>
+			<item name="ORNPO" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="242"/>
+			<item name="OROI" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="243"/>
+			<item name="OROE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="244"/>
+			<item name="OROP" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="245"/>
+			<item name="ORPLAJV" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="246"/>
+			<item name="ORPT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="247"/>
+			<item name="ORCT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="248"/>
+			<item name="ORDT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="249"/>
+			<item name="ORPCT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="250"/>
+			<item name="ORBEPS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="251"/>
+		</component>
+	</view>
+	<view ID="if_cp_fs_add1">
+		<name>Year N-1</name>
+		<desc>Financial statement information table</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_CP_FS</primaryTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSASSET</foreignTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSEL</foreignTable>
+		<foreignTable handleType="single">IF_MGT_CP_FSOR</foreignTable>
+		<size>{height:600,width:1000,columnCount:2}</size>
+		<jsurl>/app/ifactor/js/fs/ifactor_fs_view.js</jsurl>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="BRNUMBER" type="input" tableName="IF_MGT_CP_FS" param="{readOnly:true,allowBlank:false,newline:true,group:'Financial Statement Information',groupWidth:950, groupParam : {groupCollapsible:false},columnCount:2}" idx="001"/>
+			<item name="CUSTOMER" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}"  idx="002"/>
+			<item name="CIF" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="011"/>
+			<item name="TSTATEMENT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="012"/>
+			<item name="NSTATEMENT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="013"/>
+			<item name="YEAR" type="number" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="014"/>
+			<item name="PERIOD" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="015"/>
+			<item name="UNIT" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="016"/>
+			<item name="ERATE" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="017"/>
+			<item name="AUDITOR" type="input" tableName="IF_MGT_CP_FS" param="{allowBlank:false}" idx="018"/>
+			<item name="YEARTYPE" type="hidden" tableName="IF_MGT_CP_FS" param="{}" dv="1"/>
+
+			<item name="STATOTAL" tableName="IF_MGT_CP_FSASSET"  type="number" dv = "0" param="{newline:true,group:'Financial Statement Information Asset', groupWidth:950, groupParam : {id: 'assetGroup'},columnCount:2,allowDecimals:true,allowNegative:true}" idx="031"/>
+			<item name="STACCE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="032"/>
+			<item name="STACCECASH" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="033"/>
+			<item name="STACCECASHE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="034"/>
+			<item name="STASTFI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="035"/>
+			<item name="STASTFISTI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="036"/>
+			<item name="STASTFIPDSTI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="037"/>
+			<item name="STASTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="038"/>
+			<item name="STASTRRC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="039"/>
+			<item name="STASTRPS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="040"/>
+			<item name="STASTRSTIR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="041"/>
+			<item name="STASTRRPC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="042"/>
+			<item name="STASTROR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="043"/>
+			<item name="STASTRPR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="044"/>
+			<item name="INVENTORYTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="045"/>
+			<item name="INVENTORY" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="046"/>
+			<item name="INVENTORYPDPI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="047"/>
+			<item name="OSTATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="048"/>
+			<item name="OSTASTA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="049"/>
+			<item name="OSTAAV" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="050"/>
+			<item name="OSTATFR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="051"/>
+			<item name="OSTAOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="052"/>
+			<item name="LTATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="053"/>
+			<item name="LTALTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="054"/>
+			<item name="LTARC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="055"/>
+			<item name="LTABCS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="056"/>
+			<item name="LTALTIR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="057"/>
+			<item name="LTAOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="058"/>
+			<item name="LTAPLTR" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="059"/>
+			<item name="FATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="060"/>
+			<item name="FATFA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="061"/>
+			<item name="FATFAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="062"/>
+			<item name="FATFAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="063"/>
+			<item name="FAFLA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="064"/>
+			<item name="FAFLAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="065"/>
+			<item name="FAFLAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="066"/>
+			<item name="FAIFA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="067"/>
+			<item name="FAIFAOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="068"/>
+			<item name="FAIFAAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="069"/>
+			<item name="FAWBCC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="070"/>
+			<item name="IRETOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="071"/>
+			<item name="IREOC" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="072"/>
+			<item name="IREAD" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="073"/>
+			<item name="LTFITOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="074"/>
+			<item name="LTFIIS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="075"/>
+			<item name="LTFIIAJV" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="076"/>
+			<item name="LTFIOTHER" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="077"/>
+			<item name="LTFIPDLFI" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="078"/>
+			<item name="OLATOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="079"/>
+			<item name="OLALTPE" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="080"/>
+			<item name="OLADIT" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="081"/>
+			<item name="OLA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="082"/>
+			<item name="OLACA" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="083"/>
+			<item name="TOTALASSETS" type="number" dv = "0" tableName="IF_MGT_CP_FSASSET" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="084"/>
+			
+			<item name="LIABILITIES" tableName="IF_MGT_CP_FSEL"  type="number" dv = "0" param="{allowBlank:false,newline:true,group:'Equity And Liabilities Financial Statement', groupWidth:950, groupParam : {id: 'FSELGroup'},columnCount:2,allowDecimals:true,allowNegative:true}" idx="131"/>
+			<item name="CLTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="132"/>
+			<item name="CLSTB" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="133"/>
+			<item name="CLSTBLTDM" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="134"/>
+			<item name="CLAP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="135"/>
+			<item name="CLPAR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="136"/>
+			<item name="CLTP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="137"/>
+			<item name="CLSEP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="138"/>
+			<item name="CLAE" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="139"/>
+			<item name="CLIP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="140"/>
+			<item name="CLPAPC" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="141"/>
+			<item name="CLOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="142"/>
+			<item name="CLPCL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="143"/>
+			<item name="CLWF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="144"/>
+			<item name="NCLTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="145"/>
+			<item name="NCLLTAP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="146"/>
+			<item name="NCLLTIP" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="147"/>
+			<item name="NCLOTHERS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="148"/>
+			<item name="NCLLTB" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="149"/>
+			<item name="NCLDTR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="150"/>
+			<item name="NCLRA" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="151"/>
+			<item name="NCLPLTL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="152"/>
+			<item name="NCLUR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="153"/>
+			<item name="NCLRDF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="154"/>
+			<item name="EQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="155"/>
+			<item name="EQTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="156"/>
+			<item name="EQIC" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="157"/>
+			<item name="EQSE" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="158"/>
+			<item name="EQOS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="159"/>
+			<item name="EQTS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="160"/>
+			<item name="EQRS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="161"/>
+			<item name="EQFED" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="162"/>
+			<item name="EQIDF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="163"/>
+			<item name="EQFFR" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="164"/>
+			<item name="EQOF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="165"/>
+			<item name="EQUPAT" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="166"/>
+			<item name="EQCCI" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="167"/>
+			<item name="EQBASF" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="168"/>
+			<item name="FOFTOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="169"/>
+			<item name="EOFFUNDS" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="170"/>
+			<item name="EOFFIFA" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="171"/>
+			<item name="MITOTAL" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="172"/>
+			<item name="TOTALEQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="173"/>
+			<item name="TOTALASSETSEQUITY" type="number" dv = "0" tableName="IF_MGT_CP_FSEL" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="174"/>
+
+			<item name="ORRGS" tableName="IF_MGT_CP_FSOR"  type="number" dv = "0" param="{allowBlank:false,newline:true,group:'Operating Results Financial Statement', groupWidth:950, groupParam : {id: 'FSORGroup'},columnCount:2,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="231"/>
+			<item name="ORRDI" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="232"/>
+			<item name="ORNRGS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="233"/>
+			<item name="ORCS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="234"/>
+			<item name="ORGP" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="235"/>
+			<item name="ORFR" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="236"/>
+			<item name="ORFE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="237"/>
+			<item name="ORIE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="238"/>
+			<item name="ORSE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="239"/>
+			<item name="ORMAE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="240"/>
+			<item name="ORDIVIDENDS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="241"/>
+			<item name="ORNPO" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="242"/>
+			<item name="OROI" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="243"/>
+			<item name="OROE" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="244"/>
+			<item name="OROP" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="245"/>
+			<item name="ORPLAJV" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="246"/>
+			<item name="ORPT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="247"/>
+			<item name="ORCT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="248"/>
+			<item name="ORDT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="249"/>
+			<item name="ORPCT" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true}" idx="250"/>
+			<item name="ORBEPS" type="number" dv = "0" tableName="IF_MGT_CP_FSOR" param="{allowBlank:false,allowDecimals:true,allowNegative:true,listenBlur:'calculateAdd'}" idx="251"/>
+		</component>
+	</view>
+</table-view>

@@ -1,0 +1,160 @@
+import org.apache.tools.ant.filters.ReplaceTokens
+import org.gradle.api.plugins.jetty.internal.JettyPluginWebAppContext
+
+def JETTY_CONF = new File(project(':').projectDir.parentFile, 'conf/jetty')
+def GBV_ROOT = project(':gbv').projectDir
+
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+task cleanEclipseOutput(type: Delete) {
+	delete eclipse.classpath.defaultOutputDir
+}
+
+task processGbvConf(type: Copy) {
+	from GBV_ROOT
+	into project.webAppDir.path
+	include "conf/**"
+  exclude "conf/datasource/datasource.properties"
+	exclude "conf/workflow/object.xml"
+	exclude "conf/wordbook/app.wordbook.xml"
+  include 'WEB-INF/struts-config.xml'
+  include 'WEB-INF/config/*.xml'
+}
+
+task processXSystemConfig(type: Copy) {
+	from(new File(GBV_ROOT, 'xsystem.config'))
+	into(new File(project.buildDir, 'resources/main'))
+	filter ReplaceTokens, tokens: project.application.properties
+}
+
+clean {
+	delete 'src/main/webapp/temp-store'
+  delete 'src/main/webapp/WEB-INF/struts-config.xml'
+  delete 'src/main/webapp/WEB-INF/config/struts-config-core.xml'
+  delete 'src/main/webapp/WEB-INF/config/struts-config-query.xml'
+  delete 'src/main/webapp/WEB-INF/config/struts-config-workflow.xml'
+	(new File(GBV_ROOT, 'conf')).listFiles().each { dir ->
+		if (dir.name.equals('workflow')) {
+			return
+		}
+		if (dir.name.equals('datasource')) {
+			return
+		}
+		dir.listFiles().each { src ->
+			if (dir.name.equals('wordbook') && src.name.equals('app.wordbook.xml')) {
+				return
+			}
+			delete "src/main/webapp/conf/$dir.name/$src.name"
+		}
+	}
+}
+
+configurations {
+  gbvCompile
+  all*.exclude module: 'log4j'
+  all*.exclude module: 'slf4j-log4j12'
+}
+
+configurations.all {
+  resolutionStrategy {
+    force(
+      "dom4j:dom4j:1.6.1", 
+      "commons-logging:commons-logging:1.0.4",
+      "org.slf4j:slf4j-api:$project.slf4jVersion"
+    )
+  }
+}
+
+dependencies {
+  gbvCompile "commons-codec:commons-codec:1.6"
+  gbvCompile "commons-collections:commons-collections:3.2.1"
+  gbvCompile "commons-fileupload:commons-fileupload:1.1.1"
+  gbvCompile "commons-httpclient:commons-httpclient:3.1"
+  gbvCompile "commons-io:commons-io:1.2"
+  gbvCompile "commons-lang:commons-lang:2.0"
+  gbvCompile "com.alibaba:fastjson:1.1.26"
+  gbvCompile("jaxen:jaxen:1.1") {
+    exclude module: "jdom"
+    exclude module: "xercesImpl"
+    exclude module: "xom"
+  }
+  gbvCompile "org.apache.struts:struts-core:1.3.8"
+  gbvCompile "org.apache.struts:struts-el:1.3.8"
+  gbvCompile "org.apache.struts:struts-extras:1.3.8"
+  gbvCompile "org.apache.struts:struts-faces:1.3.8"
+  gbvCompile "org.apache.struts:struts-mailreader-dao:1.3.8"
+  gbvCompile "org.apache.struts:struts-scripting:1.3.8"
+  gbvCompile "org.slf4j:slf4j-log4j12:1.6.2"
+  gbvCompile "saxpath:saxpath:1.0-FCS"
+  gbvCompile "org.apache.poi:poi:3.9"
+  gbvCompile fileTree(dir: new File(GBV_ROOT, 'WEB-INF/lib')).matching {
+    include "(ibizkit)*.jar"
+    include "plug(htmlparse)*.jar"
+    include "plug(byte2string)*.jar"
+    include "plug(middleware)-sunjce_provider.jar"
+  }
+  
+  compile project(':i-factor.api')
+  compile configurations.gbvCompile
+  providedCompile "javax.servlet:servlet-api:$servletVersion"
+}
+
+processResources.dependsOn processGbvConf, processXSystemConfig
+
+war {
+  from(GBV_ROOT) {
+    exclude { details -> 
+      if ( details.isDirectory() ) {
+        return false
+      }
+      def target = new File(project.webAppDir, details.path)
+      def target2 = new File(project(':ddshell').webAppDir, details.path)
+      return (target.exists() && target.isFile()) || (target2.exists() && target2.isFile())
+    }
+    exclude 'build.gradle'
+    exclude 'xsystem.config'
+    exclude 'conf'
+    exclude 'WEB-INF'
+    
+  }
+  from(project(':ddshell').webAppDir) {
+    exclude { details -> 
+      if ( details.isDirectory() ) {
+        return false
+      }
+      def target = new File(project.webAppDir, details.path)
+      return target.exists() && target.isFile()
+    }
+  }
+}
+
+jettyRun {
+  httpPort = 8080
+  contextPath = ''
+  reload = 'manual'
+  //scanIntervalSeconds = 1
+  classpath = files(eclipse.classpath.defaultOutputDir) + classpath + configurations.jdbc
+}
+
+jettyRun.doFirst {
+  def shell = new GroovyShell(JettyPluginWebAppContext.class.classLoader, new Binding([jettyRun: jettyRun]))
+  
+  def context = shell.evaluate(new File(JETTY_CONF, 'jetty-context.groovy'))
+
+  context.baseResource.setResources([
+    project.webAppDir.path,
+    project(':ddshell').webAppDir.path,
+    GBV_ROOT
+  ] as String[])
+
+  jettyRun.webAppConfig = context
+  jettyRun.webDefaultXml = new File(JETTY_CONF, 'jetty-webdefault.xml')
+  copy {
+    from JETTY_CONF
+    into project.buildDir
+    include 'jetty-env.xml'
+    filter ReplaceTokens, tokens: project.application.properties
+  }
+  jettyRun.jettyEnvXml = new File(project.buildDir, 'jetty-env.xml')
+}

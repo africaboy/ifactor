@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="ifactor_vpbank_users_list">
+		<name>VPBank users list</name>
+		<desc>VPBank users list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_VPBANK_USER</table>
+		<jsurl>/app/ifactor/js/ifactor_vpbank_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<param>{forceFit:true,listenRender:true,listenRemix:true,height:200,width:400,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item> 
+			<item name="TITLE" tableName="IF_MGT_VPBANK_USER" type="input" mode="06" idx="00"/>
+			<item name="FIRST_NAME" tableName="IF_MGT_VPBANK_USER" type="input" mode="06" idx="01"/>
+			<item name="LAST_NAME" tableName="IF_MGT_VPBANK_USER" type="input" mode="06" idx="02"/>
+			<item name="STATUS" tableName="IF_MGT_VPBANK_USER" type="input" mode="06" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name="TITLE"/>
+			<item name="FIRST_NAME"/>
+			<item name="LAST_NAME"/>
+			<item name="GENDER"/>
+			<item name="POSITION"/>
+			<item name="EMAIL"/>
+			<item name="UPDATE_TIME"/>
+			<item name="STATUS"/>
+			<item name="SP" label="handle" alien="1"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="CREATE_TIME" tableName="IF_MGT_VPBANK_USER" mode="desc"/>
+		</orderby-item>
+	</query>
+</table-query>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_BLACKLIST" description="The blacklist data table">
+		<column>
+			<name>PKID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPNUMBER</name>
+			<type>varchar</type>
+			<description>Company number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPNAME</name>
+			<type>varchar</type>
+			<description>Company name</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>BLTYPEID</name>
+			<type>varchar</type>
+			<description>The blacklist type ID</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>BLTYPE</name>
+			<type>varchar</type>
+			<description>The blacklist type</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BLDATE</name>
+			<type>varchar</type>
+			<description>To date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BLCAUSE</name>
+			<type>varchar</type>
+			<description>To reason</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>BLSTATUS</name>
+			<type>integer</type>
+			<description>Status</description>
+			<length>2</length>
+		</column>
+		<column>
+			<name>FLOWTYPE</name>
+			<type>varchar</type>
+			<description>flow type</description>
+			<length>50</length>
+		</column>
+	</table>
+	<table name="IF_MGT_BLACKLIST_RESULT" description="Blacklist a data table">
+		<column>
+			<name>PKID</name>
+			<type>varchar</type>
+			<description>Application ID</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DUPTYPEID</name>
+			<type>varchar</type>
+			<description>The blacklist type ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DUPTYPE</name>
+			<type>varchar</type>
+			<description>The blacklist type</description>
+			<length>50</length>
+		</column>
+	</table>	
+</annotate>

@@ -1,0 +1,14 @@
+.del-log {
+	background-image: url( ../images/del.png) !important;
+}
+
+.x-grid3-cell-inner_1111 {
+	overflow: visible;
+	padding: 3px 3px 3px 5px;
+	white-space: normal;
+}
+
+.x-selectable,.x-selectable * {
+	-moz-user-select: text !important;
+	-khtml-user-select: text !important;
+}

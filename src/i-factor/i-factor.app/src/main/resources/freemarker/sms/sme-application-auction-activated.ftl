@@ -1,0 +1,1 @@
+<EntroAuction> Your account's auction function has been activated. You can start uploading your invoices immediately! 

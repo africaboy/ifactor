@@ -1,0 +1,1 @@
+<EntroAuction> Ho so dang ky su dung nen tang cua Quy khach chua hoan thien. Xin vui long kiem tra email de biet them chi tiet hoac lien he <hotline> EntroAuction de duoc ho tro. 

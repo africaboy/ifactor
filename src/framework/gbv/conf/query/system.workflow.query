@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="abandoneworkflowlist">
+		<name>Recycle</name>
+		<desc>Invalid flow instance list</desc>
+		<table>WF_INSTANCE</table>
+		<table>WF_CATEGORY</table>
+		<table>WF_ACTIVITY</table>
+		<param>{forceFit:true,getRowClass:'workflowMonitorRowClass'}</param>
+		<jsurl>/system/workflow/plugin/js/workflowlist.js</jsurl>
+		<cssurl>/system/workflow/plugin/css/workflowlist.css</cssurl>
+		<relate-item>
+			<leftitem name="CG_ID" tableName="WF_INSTANCE"></leftitem>
+			<rightitem name="CG_ID" tableName="WF_CATEGORY"></rightitem>
+		</relate-item>
+		<relate-item>
+			<leftitem name="INS_ID" tableName="WF_INSTANCE"></leftitem>
+			<rightitem name="INS_ID" tableName="WF_ACTIVITY"></rightitem>
+		</relate-item>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="INS_START" label="Creation date" mode="06" type="date"/>
+		</query-item>
+		<result-item>
+			<item name="CG_NAME" label="Flow" tableName="WF_CATEGORY"/>
+			<item name="INS_START" label="Creation time"/>
+			<item name="INS_CREATORID" show="-1"/>
+			<item name="INS_CREATORNAME" label="Creater"/>
+			<item name="INS_CUNITID" show="-1"/>
+			<item name="INS_STATE" show="-1"/>
+			<item name="A_ID" tableName="WF_ACTIVITY" show="-1"/>
+			<item name="INS_CUNITNAME" label="Department"/>
+			<item name="SP" label="Handle" alien="1"/>
+		</result-item>  
+		<orderby-item>
+			<item name="INS_START" mode="DESC"/> 
+		</orderby-item>
+		<restraint-item>
+			<item name="INS_CREATORID" mode="01" param="@sessionUserId"/> 
+			<item name="OBJ_NAME" tableName="WF_CATEGORY" mode="01" param="@objectKey"/> 
+			<item name="INS_STATE" mode="01" param="-3"/>
+		</restraint-item>
+	</query>
+	<query ID="allinstancelist">
+		<name>Instance information table</name>
+		<desc>Flow instance list</desc>
+		<table>WF_INSTANCE</table>
+		<table>WF_CATEGORY</table>
+		<param>{forceFit:true,getRowClass:'workflowMonitorRowClass'}</param>
+		<jsurl>/system/workflow/plugin/js/workflowlist.js</jsurl>
+		<cssurl>/system/workflow/plugin/css/workflowlist.css</cssurl>
+		<relate-item>
+			<leftitem name="CG_ID" tableName="WF_INSTANCE"></leftitem>
+			<rightitem name="CG_ID" tableName="WF_CATEGORY"></rightitem>
+		</relate-item>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="INS_START" label="Creation date" mode="06" type="date"/>
+		</query-item>
+		<result-item>
+			<item name="ZHUJIAN" alien="1" label="Primary key"/>
+			<item name="CG_NAME" label="Flow" tableName="WF_CATEGORY"/>
+			<item name="INS_START" label="Creation time"/>
+			<item name="INS_CURRENTSTATUS" label="Status"/>
+			<item name="INS_CREATORID" show="-1"/>
+			<item name="INS_STATE" show="-1"/>
+			<item name="INS_CREATORNAME" label="Creater"/>
+			<item name="INS_CUNITID" show="-1"/>
+			<item name="INS_CUNITNAME" label="Department"/>
+			<item name="SP" label="Handle" alien="1"/>
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" mode="DESC"/> 
+		</orderby-item>
+		<restraint-item>
+			<item name="CG_ID" mode="01" param="@flowId"/>
+		</restraint-item>
+	</query>
+	<query ID="flowsteplist">
+		<name>Process link list</name>
+		<desc>Process link list (for tablequery)</desc>
+		<table>WF_STEP</table>
+		<table>WF_CATEGORY</table>
+		<param>{singleSelect:true, forceFit:false}</param>
+		<showcheck>1</showcheck>
+		<relate-item>
+			<leftitem name="CG_ID" tableName="WF_STEP"></leftitem>
+			<rightitem name="CG_ID" tableName="WF_CATEGORY"></rightitem>
+		</relate-item>
+		<showchk>1</showchk>
+		<purview/>
+		<purviewRole/>
+		<result-item>
+			<item name="S_NAME" width="205" align="left"/>
+		</result-item>  
+		<orderby-item>
+			<item name="S_TYPE" mode="DESC"/>
+			<item name="S_NO" mode="ASC"/>
+		</orderby-item>
+		<restraint-item>
+			<item name="S_TRANS" mode="01" param="0"/>
+			<item name="CG_KEY" tableName="WF_CATEGORY" mode="01" param="@flowKey"/>
+		</restraint-item>
+	</query>
+</table-query>

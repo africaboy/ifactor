@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InstanceProcess> 
+ <insid>1206</insid>  
+ <flowtype>custom</flowtype>  
+ <flowname>invoiceDeliveryFlow</flowname>  
+ <creator>user_from_ifactor_app</creator>  
+ <unit>EntroAuction-root</unit>  
+ <post/>  
+ <stime>2014年12月17日</stime>  
+ <Activity> 
+  <id>1969</id>  
+  <lastid>1969</lastid>  
+  <title>Invoice Regist</title>  
+  <sid>13</sid>  
+  <sno>1</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时14分2秒</stime>  
+  <etime>2014年12月17日17时14分3秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>FyzPhKbFPOnDhmRvvkAJ</lockid>  
+  <lockname>user_from_ifactor_app</lockname>  
+  <executorid>FyzPhKbFPOnDhmRvvkAJ</executorid>  
+  <executorname>user_from_ifactor_app</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1970</id>  
+  <lastid>1969</lastid>  
+  <title>First Check</title>  
+  <sid>21</sid>  
+  <sno>17</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时14分3秒</stime>  
+  <etime>2014年12月17日17时15分2秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>MLyYQdoZrnDirembNXXD</lockid>  
+  <lockname>Joan Li</lockname>  
+  <executorid>MLyYQdoZrnDirembNXXD</executorid>  
+  <executorname>Joan Li</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1971</id>  
+  <lastid>1970</lastid>  
+  <title>Manual Progress</title>  
+  <sid>23</sid>  
+  <sno>18</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时15分2秒</stime>  
+  <etime>2014年12月17日17时15分18秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>MLyYQdoZrnDirembNXXD</lockid>  
+  <lockname>Joan Li</lockname>  
+  <executorid>MLyYQdoZrnDirembNXXD</executorid>  
+  <executorname>Joan Li</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1972</id>  
+  <lastid>1971</lastid>  
+  <title>Double Check</title>  
+  <sid>17</sid>  
+  <sno>5</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时15分18秒</stime>  
+  <etime>2014年12月17日17时15分57秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>rqtfhebbsjHaLUwvWJKw</lockid>  
+  <lockname>David Feng</lockname>  
+  <executorid>rqtfhebbsjHaLUwvWJKw</executorid>  
+  <executorname>David Feng</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1973</id>  
+  <lastid>1972</lastid>  
+  <title>BlackList Check</title>  
+  <sid>18</sid>  
+  <sno>6</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时15分57秒</stime>  
+  <etime>2014年12月17日17时16分25秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>rqtfhebbsjHaLUwvWJKw</lockid>  
+  <lockname>David Feng</lockname>  
+  <executorid>rqtfhebbsjHaLUwvWJKw</executorid>  
+  <executorname>David Feng</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1974</id>  
+  <lastid>1973</lastid>  
+  <title>Double Manual Check</title>  
+  <sid>20</sid>  
+  <sno>8</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时16分25秒</stime>  
+  <etime>2014年12月17日17时17分24秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>rqtfhebbsjHaLUwvWJKw</lockid>  
+  <lockname>David Feng</lockname>  
+  <executorid>rqtfhebbsjHaLUwvWJKw</executorid>  
+  <executorname>David Feng</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity>  
+ <Activity> 
+  <id>1974</id>  
+  <title>Double Manual Check</title>  
+  <sid>19</sid>  
+  <sno>7</sno>  
+  <status>2</status>  
+  <flowtype>custom</flowtype>  
+  <type>0</type>  
+  <stime>2014年12月17日17时16分25秒</stime>  
+  <etime>2014年12月17日17时17分24秒</etime>  
+  <ltime/>  
+  <lock>true</lock>  
+  <lockid>rqtfhebbsjHaLUwvWJKw</lockid>  
+  <lockname>David Feng</lockname>  
+  <executorid>rqtfhebbsjHaLUwvWJKw</executorid>  
+  <executorname>David Feng</executorname>  
+  <executorunitid>vlDlOjNkZfZAfIGIZdzG</executorunitid>  
+  <executorunitname>EntroAuction-root</executorunitname> 
+ </Activity> 
+</InstanceProcess>

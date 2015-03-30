@@ -1,0 +1,1 @@
+<EntroAuction> Giao dich cua hoa don so <000000> không thanh cong. Xin vui long kiem tra email de biet them chi tiet hoac lien he <hotline> de duoc ho tro.

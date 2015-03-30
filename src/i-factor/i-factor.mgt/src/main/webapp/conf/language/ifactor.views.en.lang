@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wordbook>
+	<examples_t1_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">List2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">List2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">List3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">List3_name</item>
+		<item id="EXAMPLES_T1_T3_NUMBER" desc="">3.Number</item>
+		<item id="EXAMPLES_T1_T3_MONEY" desc="">T3.Money</item>
+	</examples_t1_add>
+	<examples_t1_special_add>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+		<item id="EXAMPLES_T1_L2_ID" desc="">List2</item>
+		<item id="EXAMPLES_T1_L2_NAME" desc="">List2</item>
+		<item id="EXAMPLES_T1_L3_ID" desc="">List3</item>
+		<item id="EXAMPLES_T1_L3_NAME" desc="">List3_name</item>
+		<item id="EXAMPLES_T1_L3_TYPE" desc="">List3_type</item>
+		<item id="EXAMPLES_T1_T2_PKID" desc="">T2.Primary key</item>
+		<item id="EXAMPLES_T1_T2_NAME" desc="">T2.Name</item>
+		<item id="EXAMPLES_T1_T2_TYPE" desc="">T2.Type</item>
+		<item id="EXAMPLES_T1_T3_PKID" desc="">T3.Primary key</item>
+		<item id="EXAMPLES_T1_T3_NAME" desc="">T3.Name</item>
+		<item id="EXAMPLES_T1_T3_TYPE" desc="">T3.Type</item>
+		<item id="EXAMPLES_T1_T4_PKID" desc="">T4.Primary key</item>
+		<item id="EXAMPLES_T1_T4_NAME" desc="">T4.Name</item>
+		<item id="EXAMPLES_T1_T4_TYPE" desc="">T4.Type</item>
+		<item id="EXAMPLES_T1_T5_PKID" desc="">T5.Primary key</item>
+		<item id="EXAMPLES_T1_T5_NAME" desc="">T5.Name</item>
+		<item id="EXAMPLES_T1_T5_TYPE" desc="">T5.Type</item>
+		<item id="EXAMPLES_T1_T6_PKID" desc="">T6.Primary key</item>
+		<item id="EXAMPLES_T1_T7_PKID" desc="">电话</item>
+		<item id="EXAMPLES_T1_T7_NAME" desc="">T7.Name</item>
+		<item id="EXAMPLES_T1_T7_TYPE" desc="">T7.Type</item>
+	</examples_t1_special_add>
+	<examples_t1_edit>
+		<item id="EXAMPLES_T1_NAME" desc="">Name</item>
+		<item id="EXAMPLES_T1_L1_ID" desc="">List1</item>
+		<item id="EXAMPLES_T1_L1_NAME" desc="">List1</item>
+	</examples_t1_edit>
+	<ifactor_image_items_add>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">Image Type</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">Image Code</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">Image Name</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">If Mandatory</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">If Name Is Mandatory</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">Image Type Name</item>
+	</ifactor_image_items_add>
+	<if_mgt_image_items_edit>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE" desc="">Image Type</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_CODE" desc="">Image Code</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_NAME" desc="">Image Name</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED" desc="">If Mandatory</item>
+		<item id="IF_MGT_IMAGE_ITEMS_IS_MUST_NEED_NAME" desc="">If Name Is Mandatory</item>
+		<item id="IF_MGT_IMAGE_ITEMS_ITEM_TYPE_NAME" desc="">Image Type Name</item>
+	</if_mgt_image_items_edit>
+	<ifactor_param_setting_edit>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_CODE" desc="">Param Code</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_VALUE" desc="">Param Value</item>
+		<item id="IF_MGT_PARAM_SETTING_PARAM_DESC" desc="">Param Description</item>
+	</ifactor_param_setting_edit>
+	<if_mgt_dfield_match_add>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW" desc="">Work Flow</item>
+		<item id="IF_MGT_DFIELD_MATCH_WORK_FLOW_VALUE" desc="">Work Flow</item>
+		<item id="IF_MGT_DFIELD_MATCH_MGT_FIELD" desc="">List Name</item>
+		<item id="IF_MGT_DFIELD_MATCH_APP_FIELD" desc="">Application Name</item>
+		<item id="IF_MGT_DFIELD_MATCH_DESCRIPTION" desc="">Description</item>
+	</if_mgt_dfield_match_add>
+	<if_mgt_sysvars_edit>
+		<item id="IF_MGT_SYSVARS_SYSVARS_PK_ID" desc="">Primary Key</item>
+		<item id="IF_MGT_SYSVARS_CODE" desc="">Code</item>
+		<item id="IF_MGT_SYSVARS_DESCRIBE" desc="">Code Description</item>
+		<item id="IF_MGT_SYSVARS_VALUE" desc="">Value</item>
+	</if_mgt_sysvars_edit>
+	<ifactor_buyer_apply>
+		<item id="IF_MGT_BUYER_APPLY_APP_PK_ID" desc="">Binding Line ID</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_CODE" desc="">Application No.</item>
+		<item id="IF_MGT_BUYER_APPLY_BA_APPLY_DATE" desc="">Application Date.</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_TITLE" desc="">Title</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_GENDER" desc="">Gender</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_NATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_RESIDENCE_COUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_TYPE" desc="">ID Type</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_BIRTH_DATE" desc="">Date of Birth</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PLOCALCODE" desc="">Phone Country Code</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_PHONE" desc="">Phone</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MLOCALCODE" desc="">Mobile Phone Country Code</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_EMAIL" desc="">Email</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_PRIVATE" desc="">Invest as Private Investor</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_REGION" desc="">Region</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_CITY" desc="">City</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_RESIDENCE_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_OCCUPATION" desc="">Current Employer/Occupation</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EMPLOYER_NAME" desc="">Employer Name</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_COMPANY_INDUSTRY" desc="">Company Industry</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_TRADEPLATFORM" desc="">Trading of asset class online other than stocks</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ASSET" desc="">If yes, what is the asset class?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_YEARSINVESTOR" desc="">Number of years active as an investor</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISFACTORING" desc="">Are you familiar with factoring and invoice financing?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISAUCTION" desc="">Are you familiar with auction?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISPROVIDER" desc="">Do you have a stock brokerage service provider?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_ISASSET" desc="">Do you have an asset/investment manager?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_MAJOR" desc="">What is the major source of your income?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EALAST" desc="">Estimated amount of investment excluding properties last year</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_EATHIS" desc="">What is the your estimated amount of investment excluding property in this year?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_PLATFORM" desc="">Investment on this platform per month on average?</item>
+		<item id="IF_MGT_BUYER_PRIVATE_INFO_BUSINESSFROM" desc="">If you are introduced by the bank staff, which business is he/she from?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_NAME" desc="">Company Name</item>
+		<item id="IF_MGT_BUYER_BASIC_INFO_INVEST_AS_COMPANY" desc="">Invest as Company Investor</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISREGISTVN" desc="">Is the company registered in Vietnam?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_COUNTRY" desc="">Country of Registration</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_REGIST_NUMBER" desc="">Registration No.</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TAX_CODE" desc="">Tax Code</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ESTABLISH_DATE" desc="">Company Establishment Date</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ORGANIZATION" desc="">How long have your organization establised in Vietnam?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_REGION" desc="">Region</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_CITY" desc="">City</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_COMPANY_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_POST_CODE" desc="">Post code</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_TYPECOMPANY" desc="">What is the type of the company</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINDUSTRY" desc="">Please specify the industry sector the company operates in</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTURNOVER" desc="">What is the company turnover in last year?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPENGAGED" desc="">Company's engagement in factoring service or invoice trading</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPASSET" desc="">Does the company invest in short term asset classes?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPASSET" desc="">What is the life of the company's major short term asset class?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPINVESTMENT" desc="">Company's investment amount in short term asset class last year</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGE" desc="">Company's average size of fund invested in short term asset class</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPAVERAGEPER" desc="">Company's investment on this platform per month on average</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPBUSINESSFROM" desc="">If you are introduced by the bank staff, which business is he/she from?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION" desc="">What is your position in the company</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_ADDRESS" desc="">Company Address</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_CITY" desc="">City</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_REGION" desc="">Region, State or County</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFCOMPANY_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_DFPOST_CODE" desc="">Postcode</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">Is Authorized Person</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISATHPERSON" desc="">Is Authorized Person</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_ISCPOPERATE" desc="">Are you the authorized person to operate on this platform?</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPTITLE" desc="">Title</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPFNAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPEMAIL" desc="">Email</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPPOSITION1" desc="">Position</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPGENDER" desc="">Gender</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPDOB" desc="">Date of Birth</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPNATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPRESIDENCE" desc="">Country of Residence</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDTYPE" desc="">ID Type</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPIDNUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONECODE" desc="">Work Phone Country Code</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPWPHONE" desc="">Work Phone</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONECODE" desc="">Mobile Phone Country Code</item>
+		<item id="IF_MGT_BUYER_COMPANY_INFO_CPMPHONE" desc="">Mobile Phone</item>
+	</ifactor_buyer_apply>
+	<if_cp_profile>
+		<item id="IF_MGT_CP_PROFILE_CINUMBER" desc="">Client ID</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANY" desc="">Company Name</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYCDATE" desc="">Company Establishment Date</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYRNUMBER" desc="">Company Registration No.</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYTAXCODE" desc="">Tax Code</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYOIN" desc="">Company Industry</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANIESTYPE" desc="">Enterprise Category</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYADDRESS" desc="">Company Address</item>
+		<item id="IF_MGT_CP_PROFILE_COMPANYREGISTRATION" desc="">Country of Registration</item>
+		<item id="IF_MGT_CP_PROFILE_SMECENTERSIGN" desc="">SME Center for Contract Signing</item>
+		<item id="IF_MGT_CP_PROFILE_BANKACCOUNT" desc="">Bank Account Number</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_CP_PROFILE_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPADDRESS" desc="">Mailing Address</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPDISTRICT" desc="">District</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCITY" desc="">City</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPREIZON" desc="">Region, State or County</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPCOUNTRY" desc="">Country</item>
+		<item id="IF_MGT_CP_PROFILE_DFCPPOSTCODE" desc="">Postcode</item>
+		<item id="IF_MGT_CP_PROFILE_DAR" desc="">Debtor Acknowledgement Requirement</item>
+		<item id="IF_MGT_CP_PROFILE_RATING" desc="">Risk Master Scale Rating</item>
+		<item id="IF_MGT_CP_PROFILE_RISKLEVEL" desc="">Risk Rating</item>
+		<item id="IF_MGT_CP_PROFILE_OILIMIT" desc="">Outstanding Invoice Amount(VND)</item>
+		<item id="IF_MGT_CP_PROFILE_MIAMOUNT" desc="">Minimum Invoice Amount(VND)</item>
+		<item id="IF_MGT_CP_PROFILE_MAAMOUNT" desc="">Maximum Invoice Amount(VND)</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICELIMIT" desc="">Revolving Limit</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS1" desc="">First Eligible Debtor</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS2" desc="">Seconde Eligible Debtor</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS3" desc="">Third Eligible Debtor</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS4" desc="">Fourth Eligible Debtor</item>
+		<item id="IF_MGT_CP_PROFILE_DEBTORS5" desc="">Fifth Eligible Debtor</item>
+		<item id="IF_MGT_CP_PROFILE_INVOICEAMMOUNT" desc="">Company's average invoice amount on yearly basis</item>
+		<item id="IF_MGT_CP_PROFILE_SERIALNUM" desc="">E-signature Token Serial Number</item>
+		<item id="IF_MGT_CP_PROFILE_MYTITLE" desc="">Title</item>
+		<item id="IF_MGT_CP_PROFILE_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_PROFILE_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_PROFILE_MYGENDER" desc="">Gender</item>
+		<item id="IF_MGT_CP_PROFILE_MYDOB" desc="">Date of birth</item>
+		<item id="IF_MGT_CP_PROFILE_MYNATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_CP_PROFILE_MYCOUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDTYPE" desc="">ID Type</item>
+		<item id="IF_MGT_CP_PROFILE_MYIDNUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_CP_PROFILE_MYPOSITION" desc="">Position</item>
+		<item id="IF_MGT_CP_PROFILE_WLOCALCODE" desc="">Work Phone Country Code</item>
+		<item id="IF_MGT_CP_PROFILE_MYWPHONE" desc="">Work Phone</item>
+		<item id="IF_MGT_CP_PROFILE_MLOCALCODE" desc="">Mobile Phone Country Code</item>
+		<item id="IF_MGT_CP_PROFILE_MYMPHONE" desc="">Mobile phone</item>
+		<item id="IF_MGT_CP_PROFILE_MYEMAIL" desc="">Email address</item>
+	</if_cp_profile>
+	<if_cp_apply_add>
+		<item id="IF_MGT_CP_APPLY_APP_PK_ID" desc="">Binding Line ID</item>
+		<item id="IF_MGT_CP_APPLY_UPDATEDDATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_CP_APPLY_SA_APPLY_CODE" desc="">Application No.</item>
+		<item id="IF_MGT_CP_APPLY_CPCTIME" desc="">Application Date</item>
+		<item id="IF_MGT_CP_APPLY_MYTITLE" desc="">Title</item>
+		<item id="IF_MGT_CP_APPLY_MYFNAME" desc="">First Name</item>
+		<item id="IF_MGT_CP_APPLY_MYLNAME" desc="">Last Name</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDERID" desc="">Gender</item>
+		<item id="IF_MGT_CP_APPLY_MYGENDER" desc="">Gender</item>
+		<item id="IF_MGT_CP_APPLY_MYDOB" desc="">Date of Birth</item>
+		<item id="IF_MGT_CP_APPLY_MYNATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRYID" desc="">Country of Residence</item>
+		<item id="IF_MGT_CP_APPLY_MYCOUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPEID" desc="">ID Type</item>
+		<item id="IF_MGT_CP_APPLY_MYIDTYPE" desc="">ID Type</item>
+		<item id="IF_MGT_CP_APPLY_MYIDNUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_CP_APPLY_WLOCALCODE" desc="">Work Phone Country Code</item>
+		<item id="IF_MGT_CP_APPLY_MYWPHONE" desc="">Work Phone</item>
+		<item id="IF_MGT_CP_APPLY_MLOCALCODE" desc="">Mobile Phone Country Code</item>
+		<item id="IF_MGT_CP_APPLY_MYMPHONE" desc="">Mobile phone</item>
+		<item id="IF_MGT_CP_APPLY_MYPOSITION" desc="">Position</item>
+		<item id="IF_MGT_CP_APPLY_MYEMAIL" desc="">Email</item>
+		<item id="IF_MGT_CP_APPLY_CPNAME" desc="">Company Name</item>
+		<item id="IF_MGT_CP_APPLY_ISCOMVIETNAM" desc="">Is the company registered in Vietnam</item>
+		<item id="IF_MGT_CP_APPLY_CPRCOUNTRY" desc="">Country of Registration</item>
+		<item id="IF_MGT_CP_APPLY_CPDATE" desc="">Company Establishment Date</item>
+		<item id="IF_MGT_CP_APPLY_CPNUMBER" desc="">Company Registration No.</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPE" desc="">Enterprise Category</item>
+		<item id="IF_MGT_CP_APPLY_COMPANIESTYPEID" desc="">Enterprise Category</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTORID" desc="">Company Industry</item>
+		<item id="IF_MGT_CP_APPLY_CPSECTOR" desc="">Company Industry</item>
+		<item id="IF_MGT_CP_APPLY_CPTAXCODE" desc="">Tax Code</item>
+		<item id="IF_MGT_CP_APPLY_CPADDRESS" desc="">Company Address</item>
+		<item id="IF_MGT_CP_APPLY_CPDISTRICT" desc="">District</item>
+		<item id="IF_MGT_CP_APPLY_CPCITY" desc="">City</item>
+		<item id="IF_MGT_CP_APPLY_CPREIZON" desc="">Region, State or County</item>
+		<item id="IF_MGT_CP_APPLY_CPCOUNTRY" desc="">Country</item>
+		<item id="IF_MGT_CP_APPLY_CPPOSTCODE" desc="">Postcode</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_CP_APPLY_NEARESTSIGN" desc="">SME center for contract signing</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_CP_APPLY_ISDFCPADDRESS" desc="">Different Mailing Address</item>
+		<item id="IF_MGT_CP_APPLY_DFCPADDRESS" desc="">Mailing Address</item>
+		<item id="IF_MGT_CP_APPLY_DFCPDISTRICT" desc="">District</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCITY" desc="">City</item>
+		<item id="IF_MGT_CP_APPLY_DFCPREIZON" desc="">Region, State or County</item>
+		<item id="IF_MGT_CP_APPLY_DFCPCOUNTRY" desc="">Country</item>
+		<item id="IF_MGT_CP_APPLY_DFCPPOSTCODE" desc="">Postcode</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS1" desc="">First Eligible Debtor</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS2" desc="">Second Eligible Debtor</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS3" desc="">Third Eligible Debtor</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS4" desc="">Fourth Eligible Debtor</item>
+		<item id="IF_MGT_CP_APPLY_DEBTORS5" desc="">Fifth Eligible Debtor</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS1" desc="">If Others, please specify</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS2" desc="">Second Debtor Not on the List</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS3" desc="">Third Debtor Not on the List</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS4" desc="">Fourth Debtor Not on the List</item>
+		<item id="IF_MGT_CP_APPLY_TBDDEBTORS5" desc="">Fifth Debtor Not on the List</item>
+		<item id="IF_MGT_CP_APPLY_INVOICEAMMOUNT" desc="">Company's average invoice amount on yearly basis</item>
+		<item id="IF_MGT_CP_APPLY_SERIALNUM" desc="">Serial number on token for e-signature</item>
+		<item id="IF_MGT_CP_APPLY_DATAMODIFY" desc="">Modify</item>
+	</if_cp_apply_add>
+	<ifactor_buyer_profile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">Investor Type</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">Client ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">Title</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">Gender</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">Date of Birth</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">ID Type</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_PROFILE_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">Phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">Mobile Phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">Email Address</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">Bank Account Number</item>
+		<item id="IF_MGT_BUYER_PROFILE_OCCUPATION" desc="">Occupation</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_NAME" desc="">Employer Name</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY_INDUSTRY" desc="">Company Industry</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMPLOYER_ADDRESS" desc="">Employer Address</item>
+		<item id="IF_MGT_BUYER_PROFILE_TRADEPLATFORM" desc="">Trading of asset class online other than stocks</item>
+		<item id="IF_MGT_BUYER_PROFILE_ASSET" desc="">If yes, what is the asset class?</item>
+		<item id="IF_MGT_BUYER_PROFILE_YEARSINVESTOR" desc="">Number of years active as an investor</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISFACTORING" desc="">Are you familiar with factoring and invoice financing?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISAUCTION" desc="">Are you familiar with auction?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISPROVIDER" desc="">Do you have a stock brokerage service provider?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISASSET" desc="">Do you have an asset/investment manager?</item>
+		<item id="IF_MGT_BUYER_PROFILE_MAJOR" desc="">What is the major source of your income?</item>
+		<item id="IF_MGT_BUYER_PROFILE_EALAST" desc="">Estimated amount of investment excluding properties last year</item>
+		<item id="IF_MGT_BUYER_PROFILE_EATHIS" desc="">What is the your estimated amount of investment excluding property in this year?</item>
+		<item id="IF_MGT_BUYER_PROFILE_PLATFORM" desc="">Investment on this platform per month on average?</item>
+		<item id="IF_MGT_BUYER_PROFILE_BUSINESSFROM" desc="">If you are introduced by Bank staff, which business is he/she from?</item>
+	</ifactor_buyer_profile>
+	<ifactor_buyer_cpprofile>
+		<item id="IF_MGT_BUYER_PROFILE_INVEST" desc="">Invest as</item>
+		<item id="IF_MGT_BUYER_PROFILE_CINUMBER" desc="">Client ID</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANY" desc="">company name</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYCDATE" desc="">Company establishment date</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYRNUMBER" desc="">Company registration number</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYTAXCODE" desc="">Company tax code</item>
+		<item id="IF_MGT_BUYER_PROFILE_TYPECOMPANY" desc="">Company type</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYOIN" desc="">Industry sector</item>
+		<item id="IF_MGT_BUYER_PROFILE_COMPANYADDRESS" desc="">Company address</item>
+		<item id="IF_MGT_BUYER_PROFILE_REGIST_COUNTRY" desc="">Country of registration</item>
+		<item id="IF_MGT_BUYER_PROFILE_BANKACCOUNT" desc="">Bank account number</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">Different mailing address</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISDFCPADDRESS" desc="">Different mailing address</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_ADDRESS" desc="">Company address</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_CITY" desc="">City</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_REGION" desc="">Region, state or county</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFCOMPANY_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_BUYER_PROFILE_DFPOST_CODE" desc="">Postcode</item>
+		<item id="IF_MGT_BUYER_PROFILE_TITLE" desc="">Title</item>
+		<item id="IF_MGT_BUYER_PROFILE_FIRST_NAME" desc="">First name</item>
+		<item id="IF_MGT_BUYER_PROFILE_LAST_NAME" desc="">Last name</item>
+		<item id="IF_MGT_BUYER_PROFILE_GENDER" desc="">Gender</item>
+		<item id="IF_MGT_BUYER_PROFILE_BIRTH_DATE" desc="">Date of Birth</item>
+		<item id="IF_MGT_BUYER_PROFILE_NATIONALITY" desc="">Nationality</item>
+		<item id="IF_MGT_BUYER_PROFILE_RESIDENCE_COUNTRY" desc="">Country of Residence</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_TYPE" desc="">ID type</item>
+		<item id="IF_MGT_BUYER_PROFILE_ID_NUMBER" desc="">ID Number</item>
+		<item id="IF_MGT_BUYER_PROFILE_PHONE" desc="">Phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_MOBILE_PHONE" desc="">Mobile phone</item>
+		<item id="IF_MGT_BUYER_PROFILE_POSITION" desc="">Position</item>
+		<item id="IF_MGT_BUYER_PROFILE_EMAIL" desc="">Email address</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPTURNOVER" desc="">What is the company turnover in last year?</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPENGAGED" desc="">Company's engagement in factoring service or invoice trading</item>
+		<item id="IF_MGT_BUYER_PROFILE_ISCPASSET" desc="">Does the company invest in short term asset classes?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPASSET" desc="">What is the life of the company's major short term asset class?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPINVESTMENT" desc="">What is the company's investment in short term asset class in last year?</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGE" desc="">Company's average size of fund invested in short term asset class</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPAVERAGEPER" desc="">Company's investment on this platform per month on average</item>
+		<item id="IF_MGT_BUYER_PROFILE_CPBUSINESSFROM" desc="">If you are introduced by Bank staff, which business is he/she from?</item>
+	</ifactor_buyer_cpprofile>
+	<ifactor_buyer_flow_firstcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_buyer_flow_firstcheck_opinion>
+	<ifactor_buyer_flow_doublecheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_buyer_flow_doublecheck_opinion>
+	<ifactor_buyer_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Opinion</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_buyer_flow_blacklistcheck_opinion>
+	<ifactor_buyer_flow_buyerconfirm_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_buyer_flow_buyerconfirm_opinion>
+	<if_buyer_flow_documentsign_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_NAME" desc="">Name of Customer</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_IDCARD" desc="">ID Card No.</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BANKACCOUNT" desc="">Bank Account No.</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_BALANCE" desc="">Account Balance</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_buyer_flow_documentsign_opinion>
+	<ifactor_buyer_flow_documentcheck_opinion>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_buyer_flow_documentcheck_opinion>
+	<ifactor_buyer_flow_cs_record_add>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_REMARK" desc="">Remark</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_ORG_NAME" desc="">Org. Name of Responsible User</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_APPLY_CODE" desc="">Application No.</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_INS_ID" desc="">Instance ID</item>
+		<item id="IF_MGT_BUYER_FLOW_CS_RECORD_A_ID" desc="">Activity ID</item>
+	</ifactor_buyer_flow_cs_record_add>
+	<ifactor_invoice_delivery_apply>
+		<item id="IF_MGT_INVOICE_APPLY_ISVERIFICATION" desc="">Original Invoice Check Result</item>
+		<item id="IF_MGT_INVOICE_APPLY_APP_PK_ID" desc="">Binding line id</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CODE" desc="">Submission No.</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">Advance Rate(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">Interest Rate(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLESTART" desc="">Auction Start Date</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_CYCLEEND" desc="">Delisting Date</item>
+		<item id="IF_MGT_INVOICE_SELLER_COMPANY_NAME" desc="">Company name</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_TITLE" desc="">Title</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Represented by</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_CITY" desc="">City</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGION" desc="">Region, State or County</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_POSTCODE" desc="">Post Code</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_TAX_CODE" desc="">Tax Code</item>
+		<item id="IF_MGT_INVOICE_FINANC_STICKER_ID" desc="">Sticker ID</item>
+		<item id="IF_MGT_INVOICE_FINANC_SERIAL_NUMBER" desc="">Serial Number of Invoice</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">VAT Invoice Number</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_ISSUANCE_DATE" desc="">Invoice Issuance Date</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_OBJECT" desc="">Object of Invoice</item>
+		<item id="IF_MGT_INVOICE_FINANC_DUE_DATE" desc="">Due Date According to the Contract</item>
+		<item id="IF_MGT_INVOICE_FINANC_EXPECTED_PAYMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">Remaining Term to Maturity(Days)</item>
+	</ifactor_invoice_delivery_apply>
+	<ifactor_invoice_delivery_flow_firstcheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_firstcheck_opinion>
+	<ifactor_invoice_delivery_flow_manualprogress_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">Rejection Reason</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">Rejection Reason Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_manualprogress_opinion>
+	<ifactor_invoice_delivery_flow_doublecheck_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_INVOICE_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_doublecheck_opinion>
+	<ifactor_invoice_delivery_flow_doublemanual_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON" desc="">Rejection Reason</item>
+		<item id="IF_MGT_INVOICE_OPINION_REJECT_RESON_VAL" desc="">Rejection Reason Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLEDATE" desc="">Delisting Date</item>
+		<item id="IF_MGT_INVOICE_OPINION_CYCLE" desc="">Auction Duration(Days)</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_doublemanual_opinion>
+	<ifactor_invoice_delivery_flow_check_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_check_opinion>
+	<ifactor_invoice_delivery_flow_oriver_opinion>
+		<item id="IF_MGT_INVOICE_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_INVOICE_OPINION_CHECK_RESULT_VAL" desc="">Recommendation</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_delivery_flow_oriver_opinion>
+	<ifactor_invoice_flow_cs_record_add>
+		<item id="IF_MGT_INVOICE_CS_RECORD_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_REMARK" desc="">Remark</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_ORG_NAME" desc="">Org. Name of Responsible User</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_APPLY_CODE" desc="">Application No.</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_INS_ID" desc="">Instance ID</item>
+		<item id="IF_MGT_INVOICE_CS_RECORD_A_ID" desc="">Activity ID</item>
+	</ifactor_invoice_flow_cs_record_add>
+	<ifactor_invoice_auction_view>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_NUMBER" desc="">Invoice ID</item>
+		<item id="IF_MGT_INVOICE_SELLER_IIDSI_USER" desc="">Seller Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_RISKLEVEL" desc="">Seller Risk</item>
+		<item id="IF_MGT_INVOICE_DEBTOR_DEBTOR" desc="">Debter Name</item>
+		<item id="IF_MGT_INVOICE_SELLER_DAR" desc="">Debtor Ac</item>
+		<item id="IF_MGT_INVOICE_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_FINANC_REMAINING_TERM" desc="">Remaining Term(Days)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_ADVANCE" desc="">Ready to sell advance(%)</item>
+		<item id="IF_MGT_INVOICE_APPLY_IDA_INTEREST" desc="">Ready to sell interest(%)</item>
+		<item id="ifactor_invoice_auction_view_documents" desc="">Check doc</item>
+		<item id="ifactor_invoice_auction_view_Minimum Price" desc="">Minimum Price</item>
+		<item id="ifactor_invoice_auction_view_Index Rate" desc="">Index Rate</item>
+	</ifactor_invoice_auction_view>
+	<if_cp_fs_add>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">Business Registration Number</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">Customer</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">Type of Statement</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">Nature of Statement</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">Year</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">Period</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">Unit</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">Exchange Rate</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">Name of the Auditor</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">YEAR N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">Short-term asset(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">Cash and Cash equivalents(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">Cash(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">Cash equivalents(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">Short-term financial investment(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">Short-term  investment(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">Provision for decrease in Short-term investment (*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">Short-term receivables(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">Receivables from customers(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">Prepayment to sellers(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">Short-term internal receivables(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">Receivables on progress of the contract(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">Other Receiveables(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">Provision for receivables (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">Inventory(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">Inventory(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">Provision for decrease in price of inventory (*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">Other short-term asset(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">Short term Accruals(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">Discounted VAT(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc="">Tax and fees receivables(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">Others(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">Long-term asset(200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">Long-term receivables(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">Receivables from customers(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">Business capital at subordinates(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">Long term internal receivables(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">Others(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">Provision for long term receivables (*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">Fixed assets(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">Tangible fixed assets(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">Original cost(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">Accumulated depreciation (*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">financial leasing asset(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">Original cost(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">Accumulated depreciation (*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc="">Intangible fixed assets(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">Original cost(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">Accumulated depreciation (*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">WIP basic construction cost(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">Invested real estates(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">Original cost(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">Accumulated depreciation (*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">Long-term financial investment(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">Investment in subsiadiaries(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">Investment in associates and joint ventures(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">Other long-term investment(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">Provision for decrease in longterm financial investment (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">Other longterm asset(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">Long-term prepayment expenses(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">Deferred income tax(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">Other long-term asset(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">Commercial advantages(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">Total Assets(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">Liabilities(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">Current Liabilities(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">Short-term borrowings(311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">Long-term debt matured(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">Accounts payables(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">Prepaid accounts receivables(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">Tax payable(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">Staff expense payble(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc="">Accrued expenses(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">Intercompany payables(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc="">Payables according to the progress of the contract(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">Other current liabilities(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">Provision for current liabilities(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">Welfare Fund(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">Non-current Liabilities(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">Long-term accounts paybles(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">Long-term intercompany payables(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">Other long-term payables(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">Long-term borrowings(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">Deferred tax returns(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">Redundancy Allowance(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">Provision for long-term liabilities(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">Unearned Revenues(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">Research Development Fund(339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">Equity(400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">Equity(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc="">Invested Capital(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">Surplus Equity(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">Other reserves(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc="">Treasury shares (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">Revaluation reserves(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">Foreign Exchange differences(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">Investment Development Fund(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">Financial Fund reserves(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">Other Funds(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">Undistributed profits after tax(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">Capital Construction Investment(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">Business Arrangement Supporting Fund(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">Funds and Other Funds(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc="">Funds(432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">Funds invested in Fixed Assets(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">Minority Interest(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">TOTAL EQUITY(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc="">ASSETS-TOTAL EQUITY(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">Revenues from goods and services(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">Revenue deductible items (*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">Net Revenues from goods and services(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">Cost of Sales (*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">Gross Profits(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">Financial Revenues(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">Financial Expenses (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">Interest Expense (*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc="">Selling Expense (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">Management and Administrative Expense (*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">Dividends(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc="">Net profits from operation(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc="">Other Income(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">Other Expenses (*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">Other Profits(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">Profits/Losses from Associates and Joint Ventures(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">Profist before Tax(50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">Corporate Tax (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">Deferred Coporate Tax(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">Profit after Corporate Tax(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">Basic Earnings per share(70)</item>
+	</if_cp_fs_add>
+	<if_cp_fs_add1>
+		<item id="IF_MGT_CP_FS_BRNUMBER" desc="">Business Registration Number</item>
+		<item id="IF_MGT_CP_FS_CUSTOMER" desc="">Customer</item>
+		<item id="IF_MGT_CP_FS_CIF" desc="">CIF</item>
+		<item id="IF_MGT_CP_FS_TSTATEMENT" desc="">Type of Statement</item>
+		<item id="IF_MGT_CP_FS_NSTATEMENT" desc="">Nature of Statement</item>
+		<item id="IF_MGT_CP_FS_YEAR" desc="">Year</item>
+		<item id="IF_MGT_CP_FS_PERIOD" desc="">Period</item>
+		<item id="IF_MGT_CP_FS_UNIT" desc="">Unit</item>
+		<item id="IF_MGT_CP_FS_ERATE" desc="">Exchange Rate</item>
+		<item id="IF_MGT_CP_FS_AUDITOR" desc="">Name of the Auditor</item>
+		<item id="IF_MGT_CP_FS_YEARTYPE" desc="">YEAR N-N</item>
+		<item id="IF_MGT_CP_FSASSET_STATOTAL" desc="">Short-term asset(100)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCE" desc="">Cash and Cash equivalents(110)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASH" desc="">Cash(111)</item>
+		<item id="IF_MGT_CP_FSASSET_STACCECASHE" desc="">Cash equivalents(112)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFI" desc="">Short-term financial investment(120)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFISTI" desc="">Short-term  investment(121)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTFIPDSTI" desc="">Provision for decrease in Short-term investment (*)(129)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTR" desc="">Short-term receivables(130)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRC" desc="">Receivables from customers(131)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPS" desc="">Prepayment to sellers(132)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRSTIR" desc="">Short-term internal receivables(133)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRRPC" desc="">Receivables on progress of the contract(134)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTROR" desc="">Other Receiveables(135)</item>
+		<item id="IF_MGT_CP_FSASSET_STASTRPR" desc="">Provision for receivables (*)(139)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYTOTAL" desc="">Inventory(140)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORY" desc="">Inventory(141)</item>
+		<item id="IF_MGT_CP_FSASSET_INVENTORYPDPI" desc="">Provision for decrease in price of inventory (*)(149)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATOTAL" desc="">Other short-term asset(150)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTASTA" desc="">Short term Accruals(151)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAAV" desc="">Discounted VAT(152)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTATFR" desc="">Tax and fees receivables(154)</item>
+		<item id="IF_MGT_CP_FSASSET_OSTAOTHERS" desc="">Others(158)</item>
+		<item id="IF_MGT_CP_FSASSET_LTATOTAL" desc="">Long-term asset(200)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTR" desc="">Long-term receivables(210)</item>
+		<item id="IF_MGT_CP_FSASSET_LTARC" desc="">Receivables from customers(211)</item>
+		<item id="IF_MGT_CP_FSASSET_LTABCS" desc="">Business capital at subordinates(212)</item>
+		<item id="IF_MGT_CP_FSASSET_LTALTIR" desc="">Long term internal receivables(213)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAOTHERS" desc="">Others(218)</item>
+		<item id="IF_MGT_CP_FSASSET_LTAPLTR" desc="">Provision for long term receivables (*)(219)</item>
+		<item id="IF_MGT_CP_FSASSET_FATOTAL" desc="">Fixed assets(220)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFA" desc="">Tangible fixed assets(221)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAOC" desc="">Original cost(222)</item>
+		<item id="IF_MGT_CP_FSASSET_FATFAAD" desc="">Accumulated depreciation (*)(223)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLA" desc="">financial leasing asset(224)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAOC" desc="">Original cost(225)</item>
+		<item id="IF_MGT_CP_FSASSET_FAFLAAD" desc="">Accumulated depreciation (*)(226)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFA" desc="">Intangible fixed assets(227)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAOC" desc="">Original cost(228)</item>
+		<item id="IF_MGT_CP_FSASSET_FAIFAAD" desc="">Accumulated depreciation (*)(229)</item>
+		<item id="IF_MGT_CP_FSASSET_FAWBCC" desc="">WIP basic construction cost(230)</item>
+		<item id="IF_MGT_CP_FSASSET_IRETOTAL" desc="">Invested real estates(240)</item>
+		<item id="IF_MGT_CP_FSASSET_IREOC" desc="">Original cost(241)</item>
+		<item id="IF_MGT_CP_FSASSET_IREAD" desc="">Accumulated depreciation (*)(242)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFITOTAL" desc="">Long-term financial investment(250)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIS" desc="">Investment in subsiadiaries(251)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIIAJV" desc="">Investment in associates and joint ventures(252)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIOTHER" desc="">Other long-term investment(258)</item>
+		<item id="IF_MGT_CP_FSASSET_LTFIPDLFI" desc="">Provision for decrease in longterm financial investment (*)(259)</item>
+		<item id="IF_MGT_CP_FSASSET_OLATOTAL" desc="">Other longterm asset(260)</item>
+		<item id="IF_MGT_CP_FSASSET_OLALTPE" desc="">Long-term prepayment expenses(261)</item>
+		<item id="IF_MGT_CP_FSASSET_OLADIT" desc="">Deferred income tax(262)</item>
+		<item id="IF_MGT_CP_FSASSET_OLA" desc="">Other long-term asset(268)</item>
+		<item id="IF_MGT_CP_FSASSET_OLACA" desc="">Commercial advantages(269)</item>
+		<item id="IF_MGT_CP_FSASSET_TOTALASSETS" desc="">Total Assets(270)</item>
+		<item id="IF_MGT_CP_FSEL_LIABILITIES" desc="">Liabilities(300)</item>
+		<item id="IF_MGT_CP_FSEL_CLTOTAL" desc="">Current Liabilities(310)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTB" desc="">Short-term borrowings(311)</item>
+		<item id="IF_MGT_CP_FSEL_CLSTBLTDM" desc="">Long-term debt matured(3111)</item>
+		<item id="IF_MGT_CP_FSEL_CLAP" desc="">Accounts payables(312)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAR" desc="">Prepaid accounts receivables(313)</item>
+		<item id="IF_MGT_CP_FSEL_CLTP" desc="">Tax payable(314)</item>
+		<item id="IF_MGT_CP_FSEL_CLSEP" desc="">Staff expense payble(315)</item>
+		<item id="IF_MGT_CP_FSEL_CLAE" desc="">Accrued expenses(316)</item>
+		<item id="IF_MGT_CP_FSEL_CLIP" desc="">Intercompany payables(317)</item>
+		<item id="IF_MGT_CP_FSEL_CLPAPC" desc="">Payables according to the progress of the contract(318)</item>
+		<item id="IF_MGT_CP_FSEL_CLOTHERS" desc="">Other current liabilities(319)</item>
+		<item id="IF_MGT_CP_FSEL_CLPCL" desc="">Provision for current liabilities(320)</item>
+		<item id="IF_MGT_CP_FSEL_CLWF" desc="">Welfare Fund(323)</item>
+		<item id="IF_MGT_CP_FSEL_NCLTOTAL" desc="">Non-current Liabilities(330)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTAP" desc="">Long-term accounts paybles(331)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTIP" desc="">Long-term intercompany payables(332)</item>
+		<item id="IF_MGT_CP_FSEL_NCLOTHERS" desc="">Other long-term payables(333)</item>
+		<item id="IF_MGT_CP_FSEL_NCLLTB" desc="">Long-term borrowings(334)</item>
+		<item id="IF_MGT_CP_FSEL_NCLDTR" desc="">Deferred tax returns(335)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRA" desc="">Redundancy Allowance(336)</item>
+		<item id="IF_MGT_CP_FSEL_NCLPLTL" desc="">Provision for long-term liabilities(337)</item>
+		<item id="IF_MGT_CP_FSEL_NCLUR" desc="">Unearned Revenues(338)</item>
+		<item id="IF_MGT_CP_FSEL_NCLRDF" desc="">Research Development Fund(339)</item>
+		<item id="IF_MGT_CP_FSEL_EQUITY" desc="">Equity(400)</item>
+		<item id="IF_MGT_CP_FSEL_EQTOTAL" desc="">Equity(410)</item>
+		<item id="IF_MGT_CP_FSEL_EQIC" desc="">Invested Capital(411)</item>
+		<item id="IF_MGT_CP_FSEL_EQSE" desc="">Surplus Equity(412)</item>
+		<item id="IF_MGT_CP_FSEL_EQOS" desc="">Other reserves(413)</item>
+		<item id="IF_MGT_CP_FSEL_EQTS" desc="">Treasury shares (*)(414)</item>
+		<item id="IF_MGT_CP_FSEL_EQRS" desc="">Revaluation reserves(415)</item>
+		<item id="IF_MGT_CP_FSEL_EQFED" desc="">Foreign Exchange differences(416)</item>
+		<item id="IF_MGT_CP_FSEL_EQIDF" desc="">Investment Development Fund(417)</item>
+		<item id="IF_MGT_CP_FSEL_EQFFR" desc="">Financial Fund reserves(418)</item>
+		<item id="IF_MGT_CP_FSEL_EQOF" desc="">Other Funds(419)</item>
+		<item id="IF_MGT_CP_FSEL_EQUPAT" desc="">Undistributed profits after tax(420)</item>
+		<item id="IF_MGT_CP_FSEL_EQCCI" desc="">Capital Construction Investment(421)</item>
+		<item id="IF_MGT_CP_FSEL_EQBASF" desc="">Business Arrangement Supporting Fund(422)</item>
+		<item id="IF_MGT_CP_FSEL_FOFTOTAL" desc="">Funds and Other Funds(430)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFUNDS" desc="">Funds(432)</item>
+		<item id="IF_MGT_CP_FSEL_EOFFIFA" desc="">Funds invested in Fixed Assets(433)</item>
+		<item id="IF_MGT_CP_FSEL_MITOTAL" desc="">Minority Interest(439)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALEQUITY" desc="">TOTAL EQUITY(440)</item>
+		<item id="IF_MGT_CP_FSEL_TOTALASSETSEQUITY" desc="">ASSETS-TOTAL EQUITY(500)</item>
+		<item id="IF_MGT_CP_FSOR_ORRGS" desc="">Revenues from goods and services(01)</item>
+		<item id="IF_MGT_CP_FSOR_ORRDI" desc="">Revenue deductible items (*)(02)</item>
+		<item id="IF_MGT_CP_FSOR_ORNRGS" desc="">Net Revenues from goods and services(10)</item>
+		<item id="IF_MGT_CP_FSOR_ORCS" desc="">Cost of Sales (*)(11)</item>
+		<item id="IF_MGT_CP_FSOR_ORGP" desc="">Gross Profits(20)</item>
+		<item id="IF_MGT_CP_FSOR_ORFR" desc="">Financial Revenues(21)</item>
+		<item id="IF_MGT_CP_FSOR_ORFE" desc="">Financial Expenses (*)(22)</item>
+		<item id="IF_MGT_CP_FSOR_ORIE" desc="">Interest Expense (*)(23)</item>
+		<item id="IF_MGT_CP_FSOR_ORSE" desc="">Selling Expense (*)(24)</item>
+		<item id="IF_MGT_CP_FSOR_ORMAE" desc="">Management and Administrative Expense (*)(25)</item>
+		<item id="IF_MGT_CP_FSOR_ORDIVIDENDS" desc="">Dividends(28)</item>
+		<item id="IF_MGT_CP_FSOR_ORNPO" desc="">Net profits from operation(30)</item>
+		<item id="IF_MGT_CP_FSOR_OROI" desc="">Other Income(31)</item>
+		<item id="IF_MGT_CP_FSOR_OROE" desc="">Other Expenses (*)(32)</item>
+		<item id="IF_MGT_CP_FSOR_OROP" desc="">Other Profits(40)</item>
+		<item id="IF_MGT_CP_FSOR_ORPLAJV" desc="">Profits/Losses from Associates and Joint Ventures(45)</item>
+		<item id="IF_MGT_CP_FSOR_ORPT" desc="">Profist before Tax(50)</item>
+		<item id="IF_MGT_CP_FSOR_ORCT" desc="">Corporate Tax (*)(51)</item>
+		<item id="IF_MGT_CP_FSOR_ORDT" desc="">Deferred Coporate Tax(52)</item>
+		<item id="IF_MGT_CP_FSOR_ORPCT" desc="">Profit after Corporate Tax(60)</item>
+		<item id="IF_MGT_CP_FSOR_ORBEPS" desc="">Basic Earnings per share(70)</item>
+	</if_cp_fs_add1>
+	<ifactor_fs_equation>
+		<item id="IF_MGT_FS_EQUATION_CATEGORYID" desc="">Scoring Category ID</item>
+		<item id="IF_MGT_FS_EQUATION_DIVISORFIELD" desc="">Divisor is Zero Setting</item>
+	</ifactor_fs_equation>
+	<if_scoring_equation>
+		<item id="IF_MGT_SCORING_EQUATION_EQUATIONDES" desc="">Scoring Equation Description</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUM" desc="">Maximum</item>
+		<item id="IF_MGT_SCORING_EQUATION_MAXIMUMOPE" desc="">Operator Corresponding to Maximum</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUM" desc="">Minimum</item>
+		<item id="IF_MGT_SCORING_EQUATION_MINIMUMOPE" desc="">Operator Corresponding to Minimum</item>
+		<item id="IF_MGT_SCORING_EQUATION_SCORE" desc="">Score</item>
+	</if_scoring_equation>
+	<if_scoring_items_add>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE" desc="">Enterprise Category</item>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">Enterprise Category</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_ID" desc="">FS Category ID</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">FS Category Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_CODE" desc="">Item Code</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">Item Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE" desc="">Item Type</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">Item Type(1:Constant，2：Formula)</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">Item Value</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">Item Function</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">Field Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">Code Name</item>
+	</if_scoring_items_add>
+	<if_scoring_items_edit>
+		<item id="IF_MGT_SCORING_ITEMS_CP_TYPE_VAL" desc="">Enterprise Category</item>
+		<item id="IF_MGT_SCORING_ITEMS_CATALOG_NAME" desc="">FS Category Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_NAME" desc="">Item Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_TYPE_VAL" desc="">Item Type</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_VALUE" desc="">Item Value</item>
+		<item id="IF_MGT_SCORING_ITEMS_ITEM_FUNC" desc="">Item Function</item>
+		<item id="IF_MGT_SCORING_ITEMS_FIELD_NAME" desc="">Field Name</item>
+		<item id="IF_MGT_SCORING_ITEMS_CODE_NAME" desc="">Code Name</item>
+	</if_scoring_items_edit>
+	<if_scoring_rating_add>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE" desc="">Enterprise Category</item>
+		<item id="IF_MGT_SCORING_RATING_CP_TYPE_VAL" desc="">Enterprise Category</item>
+		<item id="IF_MGT_SCORING_RATING_RATING" desc="">Risk Master Scale Rating</item>
+		<item id="IF_MGT_SCORING_RATING_PDLOW" desc="">PD-Low</item>
+		<item id="IF_MGT_SCORING_RATING_PDHIGH" desc="">PD-High</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL" desc="">Risk Rating</item>
+		<item id="IF_MGT_SCORING_RATING_RATING_LEVEL_VAL" desc="">Risk Rating Value</item>
+	</if_scoring_rating_add>
+	<if_cp_cic>
+		<item id="IF_MGT_CP_CIC_NCIF" desc="">CIC Information Available</item>
+		<item id="IF_MGT_CP_CIC_NCIFLABEL" desc="">CIC Information Available</item>
+		<item id="IF_MGT_CP_CIC_CICKO1" desc="">Bad debts (group 3-5) within the last 12 months</item>
+		<item id="IF_MGT_CP_CIC_CICKO1LABEL" desc="">Bad debts (group 3-5) within the last 12 months</item>
+		<item id="IF_MGT_CP_CIC_CICKO2" desc="">Group 2 debts at the time of documents’ submission</item>
+		<item id="IF_MGT_CP_CIC_CICKO2LABEL" desc="">Group 2 debts at the time of documents’ submission</item>
+		<item id="IF_MGT_CP_CIC_CICKO3" desc="">Number of times the customer has entered debt group 2 within the last 12 months</item>
+		<item id="IF_MGT_CP_CIC_TSTATEMENT" desc="">Number of Lenders Outstanding</item>
+	</if_cp_cic>
+	<if_scoring_result>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY1" desc="">Return</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY2" desc="">Profitability</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY3" desc="">Efficiency</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY4" desc="">Liquidity</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY5" desc="">DSCR</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY6" desc="">Leverage</item>
+		<item id="IF_MGT_SCORING_RESULT_CATEGORY7" desc="">Size</item>
+		<item id="IF_MGT_SCORING_RESULT_LENDERSNUMBER" desc="">Bureau Information</item>
+		<item id="IF_MGT_SCORING_RESULT_RESULT" desc="">Total Score</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVELLABEL" desc="">Risk Rating</item>
+		<item id="IF_MGT_SCORING_RESULT_RISKLEVEL" desc="">Risk Rating</item>
+	</if_scoring_result>
+	<if_sme_flow_firstcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_firstcheck_opinion>
+	<if_sme_flow_doublecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Opinion</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IMAGE_REMARK" desc="">Remark for Customer</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_doublecheck_opinion>
+	<if_sme_flow_licensecheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_licensecheck_opinion>
+	<if_sme_flow_blacklistcheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_blacklistcheck_opinion>
+	<if_sme_flow_ciccheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_ciccheck_opinion>
+	<if_sme_flow_eligibilitycheck_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_eligibilitycheck_opinion>
+	<if_sme_flow_mapscore_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_CHECK_RESULT" desc="">Recommendation</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_mapscore_opinion>
+	<if_sme_flow_doublecheckverify_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_doublecheckverify_opinion>
+	<if_sme_flow_fscheckreview_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_fscheckreview_opinion>
+	<if_sme_flow_fieldvisit_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_fieldvisit_opinion>
+	<if_sme_flow_assign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ASSIGNTO" desc="">Assign to</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_assign_opinion>
+	<if_sme_flow_documentsign_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_NAME" desc="">Name of Customer</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_IDCARD" desc="">ID Card No.</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BANKACCOUNT" desc="">Bank Account No.</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_BALANCE" desc="">Account Balance</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_documentsign_opinion>
+	<if_sme_flow_doublecheckfvdoc_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_doublecheckfvdoc_opinion>
+	<if_sme_flow_assesresult_opinion>
+		<item id="IF_MGT_SME_FLOW_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_REFERENCE" desc="">Problematic Items</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SME_FLOW_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</if_sme_flow_assesresult_opinion>
+	<ifactor_seller_flow_cs_record_add>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_REMARK" desc="">Remark</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_ORG_NAME" desc="">Org. Name of Responsible User</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_APPLY_ID" desc="">Application No.</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_INS_ID" desc="">Instance ID</item>
+		<item id="IF_MGT_SELLER_FLOW_CS_RECORD_A_ID" desc="">Activity ID</item>
+	</ifactor_seller_flow_cs_record_add>
+	<if_mgt_vpbank_user_edit>
+		<item id="IF_MGT_VPBANK_USER_LOGIN_NAME" desc="">Login Name</item>
+		<item id="IF_MGT_VPBANK_USER_PASSWORD" desc="">Password</item>
+		<item id="IF_MGT_VPBANK_USER_CREATE_TIME" desc="">Date Created</item>
+		<item id="IF_MGT_VPBANK_USER_UPDATE_TIME" desc="">Last Updated Time</item>
+		<item id="IF_MGT_VPBANK_USER_STATUS" desc="">Status</item>
+		<item id="IF_MGT_VPBANK_USER_TITLE" desc="">Title</item>
+		<item id="IF_MGT_VPBANK_USER_FIRST_NAME" desc="">First Name</item>
+		<item id="IF_MGT_VPBANK_USER_LAST_NAME" desc="">Last Name</item>
+		<item id="IF_MGT_VPBANK_USER_GENDER" desc="">Gender</item>
+		<item id="IF_MGT_VPBANK_USER_POSITION" desc="">Position</item>
+		<item id="IF_MGT_VPBANK_USER_EMAIL" desc="">Email</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_COUNTRY_CODE" desc="">Mobile Phone Country Code</item>
+		<item id="IF_MGT_VPBANK_USER_MOBILE_PHONE" desc="">Mobile Phone Number</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_COUNTRY_CODE" desc="">Work Phone Country Code</item>
+		<item id="IF_MGT_VPBANK_USER_WORK_PHONE" desc="">Work Phone Number</item>
+		<item id="IF_MGT_VPBANK_USER_DEFAULT_LOCALE" desc="">Default Locale</item>
+	</if_mgt_vpbank_user_edit>
+	<ifactor_invoice_oriver>
+		<item id="IF_MGT_INVOICE_ORIVER_APP_PK_ID" desc="">Binding line id</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_UPDATED_DATE" desc="">Last Update Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CODE" desc="">Submission No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_DATE" desc="">Submission Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_ADVANCE" desc="">Advance Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_INTEREST" desc="">Interest Rate(%)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLESTART" desc="">Auction Start Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_IOV_CYCLEEND" desc="">Delisting Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_COMPANY_NAME" desc="">Company name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_TITLE" desc="">Title</item>
+		<item id="IF_MGT_INVOICE_ORIVER_SELLER_IOVS_USER" desc="">Represented by</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DEBTOR" desc="">Debtor Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_ADDRESS" desc="">Address</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_DISTRICT" desc="">District</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_CITY" desc="">City</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGION" desc="">Region, State or County</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_COUNTRY" desc="">Country</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_POSTCODE" desc="">Post Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_REGIST_NO" desc="">Registration No.</item>
+		<item id="IF_MGT_INVOICE_ORIVER_DEBTOR_TAX_CODE" desc="">Tax Code</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_STICKER_ID" desc="">Sticker ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_SERIAL_NUMBER" desc="">Serial Number of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_NUMBER" desc="">VAT Invoice Number</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_ISSUANCE_DATE" desc="">Invoice Issuance Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_AMOUNT" desc="">Invoice Amount(VND)</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_INVOICE_OBJECT" desc="">Object of Invoice</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_DUE_DATE" desc="">Due Date According to the Contract</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_EXPECTED_PAYMENT_DATE" desc="">Expected Settlement Date</item>
+		<item id="IF_MGT_INVOICE_ORIVER_FINANC_REMAINING_TERM" desc="">Remaining Term to Maturity(Days)</item>
+	</ifactor_invoice_oriver>
+	<ifactor_invoice_original_verification_opinion>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_CREATE_DATE" desc="">Date Created</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION" desc="">Decision</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_VAL" desc="">Decision Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_OPINION_TXT" desc="">Remark for Internal Use</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_ID" desc="">Responsible User ID</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_USER_NAME" desc="">Responsible User Name</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_ID" desc="">Org. Code of Responsible User</item>
+		<item id="IF_MGT_INVOICE_ORIVER_OPINION_ORG_NAME" desc="">Org. Name of Responsible User</item>
+	</ifactor_invoice_original_verification_opinion>
+</wordbook>

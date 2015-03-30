@@ -1,0 +1,5 @@
+dependencies {
+  compile "com.fasterxml.jackson.core:jackson-annotations:$jacksonVersion"
+  compile "org.hibernate:hibernate-entitymanager:$hibernateVersion"
+  compile "org.springframework:spring-context:$springVersion"
+}

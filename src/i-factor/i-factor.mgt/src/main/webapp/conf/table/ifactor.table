@@ -1,0 +1,157 @@
+<annotate>
+	<table name="IF_MGT_PARAM_SETTING" description="ifactor system param setting">
+		<column>
+			<name>IPS_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PARAM_CODE</name>
+			<type>varchar</type>
+			<description>system auto generate param code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PARAM_VALUE</name>
+			<type>varchar</type>
+			<description>param value</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>PARAM_DESC</name>
+			<type>varchar</type>
+			<description>param description</description>
+			<length>400</length>
+		</column>
+		<column>
+			<name>LAST_MODIFY_TIME</name>
+			<type>varchar</type>
+			<description>last modify time</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_DFIELD_MATCH" description="data field match setting">
+		<column>
+			<name>IMDM_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>WORK_FLOW</name>
+			<type>varchar</type>
+			<description>what flow to modiy data </description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>WORK_FLOW_VALUE</name>
+			<type>varchar</type>
+			<description>what flow to modiy data</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MGT_FIELD</name>
+			<type>varchar</type>
+			<description>mgt field</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>APP_FIELD</name>
+			<type>varchar</type>
+			<description>app field</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>DESCRIPTION</name>
+			<type>varchar</type>
+			<description>description</description>
+			<length>200</length>
+		</column>
+	</table>
+	<table name="IF_MGT_DMODIFY_RECORD" description="data modify record">
+		<column>
+			<name>IMDR_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>WORK_FLOW</name>
+			<type>varchar</type>
+			<description>what flow to modiy data </description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>varchar</type>
+			<description>app pk id</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MODIFY_FIELD</name>
+			<type>varchar</type>
+			<description>modify field</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>OLD_VALUE</name>
+			<type>varchar</type>
+			<description>description</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>NEW_VALUE</name>
+			<type>varchar</type>
+			<description>description</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>description</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>STATUS</name>
+			<type>varchar</type>
+			<description>status</description>
+			<length>10</length>
+		</column>
+	</table>
+	<table name="IF_MGT_SYSVARS" description="advance and interest items">
+		<column>
+			<name>SYSVARS_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CODE</name>
+			<type>varchar</type>
+			<description>Code</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>DESCRIBE</name>
+			<type>varchar</type>
+			<description>Code Describe</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>VALUE</name>
+			<type>decimal</type>
+			<description>Value</description>
+			<length>20</length>
+			<scale>4</scale>
+		</column>
+	</table>
+</annotate>

@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>i-Factor</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../../../custom/custom-bootstrap.css" rel="stylesheet">
+    <link href="../../css/i-factor.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+
+    <!-- Fav and touch icons -->
+
+</head>
+<body style="margin: 0 20px; width: 100%; overflow-y: visible;">
+
+    <div id="form-div">
+
+        <div id="form-title">Invoices Details</div>
+        <div id="form-main">
+            <div>
+                <form class="form-horizontal" role="form">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_details');">Invoice</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_debtor');">Debtor</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_documents');">Documents</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_conditions');">Conditions</a>
+
+                            </div>
+
+                            <div class="col-sm-10" id="invoice_details" style="display: none;">
+                                <div class="col-sm-10">
+                                    <h4>Invoice details</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Invoice amount:
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="invoice_amout">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Desired minimum advance (%):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="desired_min_advance">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Desired maximum interest (% per 30 days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="desired_max_interest">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-6">
+                                        Expected runing time (days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="expected_runing_time">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Enable 'buy now':
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="checkbox" class="checkbox" id="enable_buy_now">
+                                    </div>
+                                </div>
+                                <div class="col-sm-10">
+                                    <h4>Buy now:</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Advance that will be accepted directly (%):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="advance_buy_now">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Interest that will be accepted directly (% per 30 days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="interest_buy_now">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-10">
+                                    <div class="col-sm-5">
+                                        Rating associated with the invoice *:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <a href="#" id="rating_invoice_1" class="btn btn-default">1</a>
+                                        <a href="#" id="rating_invoice_2" class="btn btn-default">2</a>
+                                        <a href="#" id="rating_invoice_3" class="btn btn-default active">3</a>
+                                        <a href="#" id="rating_invoice_4" class="btn btn-default">4</a>
+                                        <a href="#" id="rating_invoice_5" class="btn btn-default">5</a>
+                                        <input type="hidden" id="rating_invoce" name="rating_invoice" value="0" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10" id="invoice_debtor" style="display: none;">
+                                <div class="col-sm-10">
+                                    <h4>Debtor details:</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor name:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm" id="debtor_name">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor KvK number:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm" id="debtor_kvk_number">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is listed on stock exchange: 
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio" id="debtor_is_listed_stock_yes" name="debtor_is_listed_stock" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_is_listed_stock_no" name="debtor_is_listed_stock" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is governmental:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_is_governmental_yes" name="debtor_is_governmental" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_is_governmental_no" name="debtor_is_governmental" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is semi-governmental:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_is_semi_governmenta_yes" name="debtor_is_semi_governmental" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_is_semi_governmental_no" name="debtor_is_semi_governmental" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor has accepted the invoice:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_accpted_invoice_yes" name="debtor_accpted_invoice" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_accpted_invoice_no" name="debtor_accpted_invoice" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor has agreed to pay:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_agreed_to_pay_yes" name="debtor_agreed_to_pay" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio" id="debtor_agreed_to_pay_no" name="debtor_agreed_to_pay" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        No of years that debtor is a client:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm" id="number_of_debtor_client" name="number_of_debtor_client">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10" id="invoice_documents">
+                                <div class="col-sm-10">
+                                    <h4>Please scan and upload the necessary documents. The following documents are mandatory:</h4>
+
+                                </div>
+                                <div class="col-sm-10">
+                                    <ul style="width: 100%; height: 100px; overflow: auto;">
+                                        <li>invoice;</li>
+                                        <li>underlying constract, offer, or assignment;</li>
+                                        <li>delivery conditions that apply to the invoice;</li>
+                                        <li>debtor statement that the goods or services are received, such as a delivery confirmation (because you indicated on the previous page that the debtor has accepted the invoice);</li>
+                                        <li>debtor statement that the goods or services will be paid (because you indicated on the previous page that the debtor has agreed to pay);</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-10">
+
+                                    <!-- Button trigger modal -->
+                                    <button class="btn btn-default" data-toggle="modal" id="btn_add_file">
+                                        Add file
+                                    </button>
+
+
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Description</th>
+                                            <th>Status</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="col-sm-10">
+                                    <ul class="pagination">
+                                        <li class="disabled"><a href="#">«</a></li>
+                                        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">»</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-10" id="invoice_conditions">
+                                <div class="row">
+                                    <div style="height: 220px; max-height: 220px; overflow-y: auto; padding: 10px; background: white;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque commodo turpis sodales, elementum leo at, fermentum nisi. Morbi id est congue felis congue interdum. Aliquam placerat, dui sed feugiat egestas, velit massa gravida augue, quis egestas felis diam a dui. Vestibulum a sapien est. Cras at est non mauris tempor faucibus. Suspendisse pretium massa ac tortor dictum, et aliquet risus luctus. Sed nec orci iaculis, pellentesque diam ac, iaculis nulla. Integer sed bibendum lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris quis nibh mi. Aliquam scelerisque arcu justo, eu tempus arcu venenatis consectetur. Nunc at sem ultrices, mollis enim vitae, accumsan urna. Aenean bibendum risus id bibendum laoreet. Nunc eleifend dui non ipsum eleifend semper. Donec faucibus, urna ut rhoncus malesuada, diam magna fermentum nulla, viverra euismod leo tortor quis enim. Phasellus ultrices ante in mauris tincidunt tristique. 
+Donec vitae feugiat nibh. Duis sit amet nisl vitae tellus condimentum consequat. Mauris gravida ornare aliquet. Praesent diam metus, hendrerit sed euismod id, malesuada sit amet elit. Suspendisse magna urna, congue at venenatis vitae, tempor at tellus. Donec id suscipit velit. Cras dignissim non ligula a luctus. Maecenas cursus felis ut purus hendrerit tincidunt. Cras rhoncus diam eget sapien malesuada, non fringilla odio tempus. Aliquam lacus nibh, facilisis id iaculis sit amet, consectetur id lacus. 
+Vivamus vel nunc lectus. Mauris aliquam est eget mauris tempor sagittis. Vivamus dictum justo at porta sollicitudin. Etiam non rutrum velit. Nam molestie arcu sed arcu volutpat tristique. Praesent tempor, nunc vitae consectetur auctor, est nulla consequat tortor, at vestibulum justo magna a sapien. Morbi aliquam turpis neque, eu lacinia odio egestas eu. Etiam placerat at enim ac tristique. Suspendisse sodales eros in dictum ultrices. Mauris molestie egestas tortor at scelerisque. Nulla luctus vehicula lacus non pretium.
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-8">
+                                        I agree with the terms and conditions:
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox" class="checkbox" id="agree1">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-8">
+                                        The invoice to which this information pertains has not been sold, mortgaged, factored, or advanced otherwise:
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox" class="checkbox" id="agree2">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-8">
+                                        At this time, no complaint has been filed for the goods or services to which this information pertains:
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox" class="checkbox" id="agree3">
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-8">
+                                        The information I have provided is true and correct:
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox" class="checkbox" id="agree4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="text-align:center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_add_new_file" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="H1">Add new file</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-3">
+                                    Description
+                                </div>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control input-sm" id="file_description">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div>
+                                <div class="col-sm-3">
+                                    Is Private
+                                </div>
+                                <div class="col-sm-5">
+                                    <input type="checkbox" class="checkbox" id="file_is_private">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="file" class="btn btn-default">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <!--  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../../bootstrap/js/modal.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            showdiv('invoice_details');
+
+            $('#modal_add_new_file').on('hide', function () {
+                alert('Please select a file.');
+            });
+            $('#btn_add_file').on('click', function () {
+                $('#modal_add_new_file').modal('show');
+            });
+        }
+
+        function showdiv(divid) {
+            $('#invoice_details').hide();
+            $('#invoice_debtor').hide();
+            $('#invoice_documents').hide();
+            $('#invoice_conditions').hide();
+            $('#' + divid).show();
+        }
+
+
+    </script>
+</body>
+</html>

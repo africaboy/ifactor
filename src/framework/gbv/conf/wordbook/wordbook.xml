@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<table-type desc="Table type"> 
+		<item id="-2" desc="" idx="2">backup table</item>  
+		<item id="-1" desc="" idx="3">system table</item>  
+		<item id="0" desc="" idx="1">Application of table</item> 
+	</table-type>  
+	<column-type desc="field type"> 
+		<item id="varchar" desc="" idx="01">character</item>  
+		<item id="integer" desc="" idx="02">integer</item>  
+		<item id="long" desc="" idx="03">Long integer</item>  
+		<item id="double" desc="" idx="04">double</item>  
+		<item id="float" desc="" idx="06">floating number</item>  
+		<item id="clob" desc="" idx="07">CLOB</item>  
+		<item id="blob" desc="" idx="08">BLOB</item>  
+		<item id="annex" desc="" idx="09">File attachments (relative to the directory to store)</item>  
+		<item id="freeannex" desc="" idx="10">File attachments (free directory to store)</item>  
+		<item id="decimal" desc="" idx="05">decimal</item> 
+	</column-type>  
+	<backup-tabletype desc="Table type"> 
+		<item id="-2" desc="" idx="2">backup table</item>  
+		<item id="-1" desc="" idx="3">system table</item>  
+		<item id="0" desc="" idx="1">Application of table</item>  
+		<item id="" desc="" idx="0">all</item> 
+	</backup-tabletype>  
+	<compare-mode desc="比较符号"> 
+		<item id="00">-1</item> 
+		<item id="01"><![CDATA[=]]></item>  
+		<item id="02"><![CDATA[<]]></item>  
+		<item id="03"><![CDATA[<=]]></item>  
+		<item id="04"><![CDATA[>]]></item>  
+		<item id="05"><![CDATA[>=]]></item>  
+		<item id="06">like</item>  
+		<item id="07">is null</item>  
+		<item id="08">not null</item> 
+		<item id="09">between</item>
+		<item id="10"><![CDATA[<>]]></item>
+		<item id="11">in</item>
+		<item id="12">llike</item>
+		<item id="13">rlike</item>
+	</compare-mode>  
+	<purview desc="default permissions"> 
+		<item id="-1">hidden</item>  
+		<item id="0">read-only</item>  
+		<item id="1">modify</item> 
+	</purview>  
+	<purview-visit desc="Access permissions"> 
+		<item id="-1">cannot access</item>  
+		<item id="0">can access</item> 
+	</purview-visit>  
+	<purview-type desc ="The access control type">
+		<item id="0">role</item>
+		<item id="1">user</item>
+	</purview-type>
+	<purview-handle desc="Operation permissions"> 
+		<item id="-1">hidden</item>  
+		<item id="0">read-only</item>  
+		<item id="1">modify </item>  
+		<item id="2">remove</item>  
+		<item id="3">copy</item>  
+		<item id="4">download</item> 
+	</purview-handle>  
+	<logtype desc="logtype"> 
+		<item id="insert" desc="">insert</item>  
+		<item id="update" desc="">update</item>  
+		<item id="loginconsole" desc="">loginconsole</item>  
+		<item id="logoutconsole" desc="">logoutconsole</item>  
+		<item id="remix" desc="">remix</item>  
+		<item id="delete" desc="">delete</item>  
+		<item id="select" desc="">select</item> 
+	</logtype>  
+	<logoper desc="logoper"> 
+		<item id="login" desc="">login</item>  
+		<item id="editUser" desc="">editUser</item>  
+		<item id="insert" desc="">insert</item>  
+		<item id="addGroup" desc="">addGroup</item>  
+		<item id="remixPurview" desc="">remixPurview</item>  
+		<item id="deletePurview" desc="">deletePurview</item>  
+		<item id="addUser" desc="">addUser</item>  
+		<item id="backup" desc="">backup</item>  
+		<item id="resore" desc="">resore</item>  
+		<item id="restore" desc="">restore</item>  
+		<item id="resetUserPWD" desc="">resetUserPWD</item>  
+		<item id="editRole" desc="">editRole</item>  
+		<item id="loginconsole" desc="">loginconsole</item>  
+		<item id="updaterUserPWD" desc="">updaterUserPWD</item>  
+		<item id="startupSystem" desc="">startupSystem</item>  
+		<item id="logoutconsole" desc="">logoutconsole</item> 
+	</logoper>  
+	<filterException desc="The filter link definition exception during processing"> 
+		<item id="/newframe/login.jsp" desc="" idx="001">0</item>  
+		<item id="/system/blank.jsp" desc="" idx="002">0</item>  
+		<item id="/system/result.jsp" desc="" idx="003">0</item>  
+		<item id="/system/result4form.jsp" desc="" idx="004">0</item> 
+		<item id="/system/xmlresult.jsp" desc="" idx="004">0</item> 
+		<item id="/system/jsonresult.jsp" desc="" idx="004">0</item>  
+		<item id="/system/result4invalidsession.jsp" desc="" idx="004">0</item>
+		<item id="/ssoerror.jsp" desc="" idx="006">0</item>  
+		<item id="/system/logout.do" desc="" idx="007">0</item>  
+		<item id="/system/login.do" desc="" idx="008">0</item>  
+		<item id="/system/staticlogin.do" desc="" idx="009">0</item>  
+		<item id="/system/remotelogin.do" desc="" idx="010">0</item>  
+		<item id="/system/registe.do" desc="" idx="011">0</item>  
+		<item id="/system/updater.do" desc="" idx="012">0</item>  
+		<item id="/system/lang.do" desc="" idx="012">0</item>
+		<item id=".html" desc="" idx="013">0</item>  
+		<item id=".rar" desc="" idx="014">0</item>  
+		<item id=".js" desc="" idx="019">0</item>  
+		<item id=".png" desc="" idx="018">0</item>  
+		<item id=".gif" desc="" idx="017">0</item>  
+		<item id=".table" desc="" idx="016">0</item>  
+		<item id=".css" desc="" idx="015">0</item>  
+		<item id=".jpg" desc="" idx="020">0</item>  
+		<item id=".ico" desc="" idx="021">0</item> 
+		<item id="/GAP/login.jsp" desc="" idx="022">0</item>  
+	</filterException>
+</wordbook>

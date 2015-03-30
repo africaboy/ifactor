@@ -1,0 +1,386 @@
+[ {
+  "qname" : "q101",
+  "qgroup" : "buyerApply",
+  "qtext" : "Number of years you have been active as an investor",
+  "qtextViVn" : "Số năm bạn đã hoạt động như là một nhà đầu tư",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 1 year",
+    "atextViVn" : "Dưới 1 năm",
+    "dispOrder" : 1
+  }, {
+    "atext" : "1 - 2 years",
+    "atextViVn" : "1 - 2 năm",
+    "dispOrder" : 2
+  }, {
+    "atext" : "2 - 5 years",
+    "atextViVn" : "2 - 5 tuổi",
+    "dispOrder" : 3
+  }, {
+    "atext" : "More than 5 years",
+    "atextViVn" : "Hơn 5 năm",
+    "dispOrder" : 4
+  } ]
+}, {
+  "qname" : "q102",
+  "qgroup" : "buyerApply",
+  "qtext" : "Are you familiar with factoring and invoice financing?",
+  "qtextViVn" : "Bạn quen thuộc với bao thanh toán và hóa đơn tài chính ?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q103",
+  "qgroup" : "buyerApply",
+  "qtext" : "Are you familiar with auction?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q104",
+  "qgroup" : "buyerApply",
+  "qtext" : "Do you have a stock brokerage service provider?",
+  "qtextViVn" : "Bạn có một nhà cung cấp dịch vụ môi giới chứng khoán?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q105",
+  "qgroup" : "buyerApply",
+  "qtext" : "Do you have an asset/investment manager?",
+  "qtextViVn" : "Bạn có một người quản lý tài sản/đầu tư?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q106",
+  "qgroup" : "buyerApply",
+  "qtext" : "What is the major source of your income?",
+  "qtextViVn" : "Nguồn chính của thu nhập của bạn là gì?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Salary",
+    "atextViVn" : "Tiền lương",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "Property",
+    "atextViVn" : "Bất động sản",
+    "dispOrder" : 2
+  }, {
+    "atext" : "Your own business",
+    "atextViVn" : "Kinh doanh của riêng bạn",
+    "dispOrder" : 3
+  }, {
+    "atext" : "Bank deposit",
+    "atextViVn" : "Tiền gửi ngân hàng",
+    "dispOrder" : 4
+  }, {
+    "atext" : "Investment",
+    "atextViVn" : "Đầu tư",
+    "dispOrder" : 5
+  }, {
+    "atext" : "Others",
+    "atextViVn" : "Những người khác",
+    "dispOrder" : 6
+  } ]
+}, {
+  "qname" : "q107",
+  "qgroup" : "buyerApply",
+  "qtext" : "What is your estimated amount of investment excluding property in last year?",
+  "qtextViVn" : "Những gì là các số tiền ước tính của bạn đầu tư không bao gồm bất động sản trong năm cuối?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 200 mn VND",
+    "atextViVn" : "Dưới 200 mn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "200 - 500 mn VND",
+    "atextViVn" : "200 - 500 mn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "500 - 1 bn VND",
+    "atextViVn" : "500 - 1 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "1 - 2 bn VND",
+    "atextViVn" : "1 - 2 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "2 - 5 bn VND",
+    "atextViVn" : "2 - 5 bn VND",
+    "dispOrder" : 5
+  }, {
+    "atext" : "More than 5 bn VND",
+    "atextViVn" : "Nhiều hơn 5 bn VND",
+    "dispOrder" : 6
+  } ]
+}, {
+  "qname" : "q108",
+  "qgroup" : "buyerApply",
+  "qtext" : "What is your estimated amount of investment excluding property in this year?",
+  "qtextViVn" : "Những gì là các số tiền ước tính của bạn đầu tư không bao gồm bất động sản trong năm nay?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 200 mn VND",
+    "atextViVn" : "Dưới 200 mn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "200 - 500 mn VND",
+    "atextViVn" : "200 - 500 mn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "500 - 1 bn VND",
+    "atextViVn" : "500 - 1 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "1 - 2 bn VND",
+    "atextViVn" : "1 - 2 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "2 - 5 bn VND",
+    "atextViVn" : "2 - 5 bn VND",
+    "dispOrder" : 5
+  }, {
+    "atext" : "More than 5 bn VND",
+    "atextViVn" : "Nhiều hơn 5 bn VND",
+    "dispOrder" : 6
+  } ]
+}, {
+  "qname" : "q109",
+  "qgroup" : "buyerApply",
+  "qtext" : "On average how much do you intend to invest on this platform (EntroAuction) per month?",
+  "qtextViVn" : "Trên trung bình bao nhiêu làm bạn dự định đầu tư vào nền tảng này (EntroAuction) mỗi tháng?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 50 mn VND",
+    "atextViVn" : "Dưới 50 mn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "50 - 100 mn VND",
+    "atextViVn" : "50 - 100 mn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "100 - 200 mn VND",
+    "atextViVn" : "100 - 200 mn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "More than 200 mn VND",
+    "atextViVn" : "Hơn 200 mn VND",
+    "dispOrder" : 4
+  } ]
+}, {
+  "qname" : "q201",
+  "qgroup" : "buyerApply2",
+  "qtext" : "What is the company turnover in last year?",
+  "qtextViVn" : "Doanh thu của công ty trong năm qua là gì?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "1 - 20 bn VND",
+    "atextViVn" : "1 - 20 bn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "20 - 100 bn VND",
+    "atextViVn" : "20 - 100 bn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "100 - 400 bn VND",
+    "atextViVn" : "100 - 400 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "More than 400 bn VND",
+    "atextViVn" : "Hơn 400 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "N/A",
+    "atextViVn" : "N/A",
+    "dispOrder" : 5
+  } ]
+}, {
+  "qname" : "q202",
+  "qgroup" : "buyerApply2",
+  "qtext" : "Has the company ever engaged in factoring service or traded company invoice?",
+  "qtextViVn" : "Có công ty bao giờ tham gia vào bao thanh toán Dịch vụ hoặc giao dịch mua bán hóa đơn công ty?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q203",
+  "qgroup" : "buyerApply2",
+  "qtext" : "Does the company invest in short term asset classes?",
+  "qtextViVn" : "Hiện công ty đầu tư trong ngắn hạn tài sản lớp học?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Yes",
+    "atextViVn" : "Có",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "No",
+    "atextViVn" : "Không",
+    "dispOrder" : 2
+  } ]
+}, {
+  "qname" : "q204",
+  "qgroup" : "buyerApply2",
+  "qtext" : "What is the life of the company's major short term asset class?",
+  "qtextViVn" : "Cuộc sống của công ty chính ngắn hạn tài sản lớp học là gì?",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Overnight - Below 1 week",
+    "atextViVn" : "Qua đêm - dưới đây 1 tuần",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "1 week - 1 month",
+    "atextViVn" : "1 tuần - 1 tháng",
+    "dispOrder" : 2
+  }, {
+    "atext" : "1 - 2 months",
+    "atextViVn" : "1 - 2 months",
+    "dispOrder" : 3
+  }, {
+    "atext" : "3 - 5 months",
+    "atextViVn" : "3 - 5 tháng",
+    "dispOrder" : 4
+  }, {
+    "atext" : "5 - 12 months",
+    "atextViVn" : "5 - 12 tháng",
+    "dispOrder" : 5
+  } ]
+}, {
+  "qname" : "q205",
+  "qgroup" : "buyerApply2",
+  "qtext" : "What is the company's investment in short term asset class in last year? Please choose N/A if this is not applicable",
+  "qtextViVn" : "Đầu tư của công ty trong ngắn hạn tài sản lớp học trong năm qua là gì? Xin vui lòng chọn N/A nếu điều này là không áp dụng",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 1 bn VND",
+    "atextViVn" : "Dưới 1 bn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "1 - 10 bn VND",
+    "atextViVn" : "1 - 10 bn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "10 - 50 bn VND",
+    "atextViVn" : "10 - 50 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "50 - 100 bn VND",
+    "atextViVn" : "50 - 100 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "More than 100 bn VND",
+    "atextViVn" : "Hơn 100 bn VND",
+    "dispOrder" : 5
+  }, {
+    "atext" : "N/A",
+    "atextViVn" : "N/A",
+    "dispOrder" : 6
+  } ]
+}, {
+  "qname" : "q206",
+  "qgroup" : "buyerApply2",
+  "qtext" : "For fund, asset and investment management firm, what is the average size of fund that the company invests in short term asset class? Please choose N/A if this is not applicable",
+  "qtextViVn" : "Quản lý quỹ, tài sản và đầu tư công ty, những gì là kích thước trung bình của quỹ mà công ty đầu tư trong ngắn hạn tài sản lớp học? Xin vui lòng chọn N/A nếu điều này là không áp dụng",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 1 bn VND",
+    "atextViVn" : "Dưới 1 bn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "1-10 bn VND",
+    "atextViVn" : "1-10 bn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "10 - 50 bn VND",
+    "atextViVn" : "10 - 50 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "50 - 100 bn VND",
+    "atextViVn" : "50 - 100 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "More than 100 bn VND",
+    "atextViVn" : "Hơn 100 bn VND",
+    "dispOrder" : 5
+  }, {
+    "atext" : "N/A",
+    "atextViVn" : "N/A",
+    "dispOrder" : 6
+  } ]
+}, {
+  "qname" : "q207",
+  "qgroup" : "buyerApply2",
+  "qtext" : "On average how much do your company intend to invest on this platform (EntroAuction) per month? ",
+  "qtextViVn" : "Trên trung bình là làm thế nào nhiều do công ty của bạn có ý định đầu tư vào nền tảng này (EntroAuction) mỗi tháng? ",
+  "atype" : "select",
+  "options" : [ {
+    "atext" : "Below 500 mn VND",
+    "atextViVn" : "Dưới 500 mn VND",
+    "checked" : "checked",
+    "dispOrder" : 1
+  }, {
+    "atext" : "500 - 1 bn VND",
+    "atextViVn" : "500 - 1 bn VND",
+    "dispOrder" : 2
+  }, {
+    "atext" : "1 - 5 bn VND",
+    "atextViVn" : "1 - 5 bn VND",
+    "dispOrder" : 3
+  }, {
+    "atext" : "5 - 10 bn VND",
+    "atextViVn" : "5 - 10 bn VND",
+    "dispOrder" : 4
+  }, {
+    "atext" : "More than 10 bn VND",
+    "atextViVn" : "Hơn 10 bn VND",
+    "dispOrder" : 5
+  } ]
+} ]

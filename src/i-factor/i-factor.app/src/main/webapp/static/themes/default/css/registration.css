@@ -1,0 +1,116 @@
+.logo-container {
+	width:100%;
+	height:116px;
+	background:url(../img/logo-bg.png) repeat-x;
+}
+
+.logo1-container {
+	position:relative;
+	left:56px;
+	top:20px;
+	width:162px;
+	float:left;
+}
+
+.logo2-container {
+	position:relative;
+	left:415px;
+	top:42px;
+	width:360px;
+	float:left;
+}
+
+.registration-container {
+	position:relative;
+    width:100%;
+    min-height:100px;
+    height: 694px auto;
+    margin:0 auto;
+    padding:0;
+    background:url(../img/login-bg.png) no-repeat #fff;
+	overflow:hidden;
+	clear:both;
+	z-index:1;
+}
+
+.registration-container:after, .main-container:after {
+	bottom: 0;
+	content: "";
+	display: block;
+	max-width: inherit;
+	width: 100%;
+	z-index: -2;
+	clear:both;
+	visibility:hidden;
+	display:block;
+ }
+ 
+.footer-container:before {
+	content: "";
+	display:block;
+	height:0;
+}
+
+.footer-container {
+	clear:both;
+}
+
+
+.form-group {
+	display:block;
+	clear:both;
+}
+
+
+.reg-form-div {
+	width:980px; 
+	margin:0 auto;
+	padding:15px;
+}
+
+.reg-form-div .panel-heading {
+	color:#11a2af;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.reg-form-column {
+	width:50%;
+	float:left;
+	padding:10px;
+}
+/**************************************/
+.reg-form-label {
+  width:45%;
+  float:left;	
+  color:#11a2af;
+  text-align:right;
+  padding:5px;
+}
+
+.reg-form-control {
+	width:55%;
+	float:left;
+	padding:5px;
+}
+
+.reg-form-control input.form-control:focus {
+	border-color:#11a2af;
+}
+
+.bootstrap-select.reg-form-control {
+	padding-top:0;
+}
+
+.bootstrap-select.form-control .btn.selectpicker {
+	margin-top:0;
+}
+
+label.error {
+	color:#f00;
+}
+/* 
+.reg-form-control .bootstrap-select button span.pull-left {
+	color:#757575;
+	background:#fff;
+} */

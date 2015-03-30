@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="buyer_apply_flow_monitor">
+		<name>Buyer Apply Flow Monitor</name>
+		<desc>Buyer Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:110}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_BUYER_BASIC_INFO,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_BUYER_APPLY.IBA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_BUYER_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_BASIC_INFO.IBA_PK_ID
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="BA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="BA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="03"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="04"/>
+			<item name="ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="01" idx="05"/>
+			<item name="MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="170" align="left"/>
+			<item name = "BA_STATUS_VAL" label="Apply Status" width="230" align="left"/>
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="130" align="left"/>  
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>  
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>   
+			<item name = "ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="BA_APPLY_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="buyer_apply_flow_monitor1">
+		<name>Buyer Apply Flow Monitor</name>
+		<desc>Buyer Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:110}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_BUYER_BASIC_INFO,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_BUYER_APPLY.IBA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_BUYER_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_BASIC_INFO.IBA_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'frTGUAcenq' OR WF_STEP.S_KEY = 'xzaEBsKadm') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="BA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="BA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="03"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="04"/>
+			<item name="ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="01" idx="05"/>
+			<item name="MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="170" align="left"/>
+			<item name = "BA_STATUS_VAL" label="Apply Status" width="230" align="left"/>
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="130" align="left"/>  
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>  
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>   
+			<item name = "ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item> 
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="BA_APPLY_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="buyer_apply_flow_monitor2">
+		<name>Buyer Apply Flow Monitor</name>
+		<desc>Buyer Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:110}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_BUYER_BASIC_INFO,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_BUYER_APPLY.IBA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_BUYER_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_BASIC_INFO.IBA_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'xzaEBsKadm') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="BA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="BA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="03"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="04"/>
+			<item name="ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="01" idx="05"/>
+			<item name="MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="170" align="left"/>
+			<item name = "BA_STATUS_VAL" label="Apply Status" width="230" align="left"/>
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="130" align="left"/>  
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>  
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/>   
+			<item name = "ID_NUMBER" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "MOBILE_PHONE" tableName="IF_MGT_BUYER_BASIC_INFO" width="100" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="BA_APPLY_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="invoice_apply_flow_monitor">
+		<name>Invoice Apply Flow Monitor</name>
+		<desc>Invoice Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_APPLY</table>
+		<table>IF_MGT_INVOICE_SELLER</table>
+		<table>IF_MGT_INVOICE_DEBTOR</table>
+		<table>IF_MGT_INVOICE_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/invoice/invoice_delivery_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_SELLER,IF_MGT_INVOICE_DEBTOR,IF_MGT_INVOICE_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_APPLY.IIDA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_SELLER.IIDA_PK_ID
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_DEBTOR.IIDA_PK_ID 
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_FINANC.IIDA_PK_ID 
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IDA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ida_stauts', target:'IDA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IDA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IDA_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>   
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IDA_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="invoice_apply_flow_monitor1">
+		<name>Invoice Apply Flow Monitor</name>
+		<desc>Invoice Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_APPLY</table>
+		<table>IF_MGT_INVOICE_SELLER</table>
+		<table>IF_MGT_INVOICE_DEBTOR</table>
+		<table>IF_MGT_INVOICE_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/invoice/invoice_delivery_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_SELLER,IF_MGT_INVOICE_DEBTOR,IF_MGT_INVOICE_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_APPLY.IIDA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_SELLER.IIDA_PK_ID
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_DEBTOR.IIDA_PK_ID 
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_FINANC.IIDA_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'mVolpvvEFY' OR WF_STEP.S_KEY = 'bquDuCwisW' OR WF_STEP.S_KEY = 'ibvYshlyGv') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IDA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ida_stauts', target:'IDA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IDA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IDA_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item> 
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IDA_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="invoice_apply_flow_monitor2">
+		<name>Invoice Apply Flow Monitor</name>
+		<desc>Invoice Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_APPLY</table>
+		<table>IF_MGT_INVOICE_SELLER</table>
+		<table>IF_MGT_INVOICE_DEBTOR</table>
+		<table>IF_MGT_INVOICE_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/invoice/invoice_delivery_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_SELLER,IF_MGT_INVOICE_DEBTOR,IF_MGT_INVOICE_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_APPLY.IIDA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_SELLER.IIDA_PK_ID 
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_DEBTOR.IIDA_PK_ID 
+		   AND IF_MGT_INVOICE_APPLY.IIDA_PK_ID = IF_MGT_INVOICE_FINANC.IIDA_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'ibvYshlyGv' OR WF_STEP.S_KEY = 'vBdcCEIXvk' OR WF_STEP.S_KEY = 'OHMcXwKBdZ') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IDA_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'ida_stauts', target:'IDA_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IDA_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IDA_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IDA_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="original_invoice_flow_monitor">
+		<name>Original Invoice Verification Flow Monitor</name>
+		<desc>Original Invoice Verification Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_ORIVER</table>
+		<table>IF_MGT_INVOICE_ORIVER_SELLER</table>
+		<table>IF_MGT_INVOICE_ORIVER_DEBTOR</table>
+		<table>IF_MGT_INVOICE_ORIVER_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/originalInvoice/original_invoice_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_ORIVER_SELLER,IF_MGT_INVOICE_ORIVER_DEBTOR,IF_MGT_INVOICE_ORIVER_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_ORIVER.IOV_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_ORIVER' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_SELLER.IOV_PK_ID
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_DEBTOR.IOV_PK_ID 
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_FINANC.IOV_PK_ID 
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IOV_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'iov_stauts', target:'IOV_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IOV_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IOV_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>   
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IOV_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="original_invoice_flow_monitor1">
+		<name>Original Invoice Verification Flow Monitor</name>
+		<desc>Original Invoice Verification Flow Monitor</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_ORIVER</table>
+		<table>IF_MGT_INVOICE_ORIVER_SELLER</table>
+		<table>IF_MGT_INVOICE_ORIVER_DEBTOR</table>
+		<table>IF_MGT_INVOICE_ORIVER_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/originalInvoice/original_invoice_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_ORIVER_SELLER,IF_MGT_INVOICE_ORIVER_DEBTOR,IF_MGT_INVOICE_ORIVER_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_ORIVER.IOV_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_ORIVER' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_SELLER.IOV_PK_ID
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_DEBTOR.IOV_PK_ID 
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_FINANC.IOV_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'gPeJDndBdI' OR WF_STEP.S_KEY = 'CbPtGRnrkJ') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IOV_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'iov_stauts', target:'IOV_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IOV_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IOV_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item> 
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IOV_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="original_invoice_flow_monitor2">
+		<name>Original Invoice Verification Flow Monitor</name>
+		<desc>Original Invoice Verification Flow Monitor</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_ORIVER</table>
+		<table>IF_MGT_INVOICE_ORIVER_SELLER</table>
+		<table>IF_MGT_INVOICE_ORIVER_DEBTOR</table>
+		<table>IF_MGT_INVOICE_ORIVER_FINANC</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/originalInvoice/original_invoice_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,IF_MGT_INVOICE_ORIVER_SELLER,IF_MGT_INVOICE_ORIVER_DEBTOR,IF_MGT_INVOICE_ORIVER_FINANC,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_INVOICE_ORIVER.IOV_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_INVOICE_ORIVER' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+	       AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_SELLER.IOV_PK_ID 
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_DEBTOR.IOV_PK_ID 
+		   AND IF_MGT_INVOICE_ORIVER.IOV_PK_ID = IF_MGT_INVOICE_ORIVER_FINANC.IOV_PK_ID AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'CbPtGRnrkJ' OR WF_STEP.S_KEY = 'gPeJDndBdI') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="input" mode="09" idx="00"/>
+			<item name="INS_CURRENTSTATUSID" label="Current Location" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="01"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="IOV_STATUS" label="Apply Status" type="select" jsonParam="{wordbook:'iov_stauts', target:'IOV_STATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="IOV_STATUS_VAL" type="hidden" mode="00" />
+			<item name="COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" type="input" mode="06" idx="03"/>
+			<item name="DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" type="input" mode="06" idx="04"/>
+			<item name="STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="input" mode="06" idx="05"/>
+			<item name="INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" type="money" mode="01" idx="06"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" label="Update Time" tableName="WF_INSTANCE" width="125" align="left"/>
+			<item name = "INS_CURRENTSTATUS" label="Instance Status" tableName="WF_INSTANCE" width="150" align="left"/>
+			<item name = "IOV_STATUS_VAL" label="Apply Status" width="200" align="left"/> 
+			<item name = "INS_YESORNO" label="Secision" tableName="WF_INSTANCE" width="100" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_INVOICE_ORIVER_SELLER" width="130" align="left"/>     
+			<item name = "DEBTOR" tableName="IF_MGT_INVOICE_ORIVER_DEBTOR" width="100" align="left"/>     
+			<item name = "STICKER_ID" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="100" align="left"/> 
+			<item name = "INVOICE_AMOUNT" tableName="IF_MGT_INVOICE_ORIVER_FINANC" width="150" align="left"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="IOV_DATE" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_apply_flow_monitor">
+		<name>SME Apply Flow Monitor</name>
+		<desc>SME Apply Flow Monitor List</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+	       WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="date" mode="09" idx="01"/>
+			<item name="CPSTATUS" tableName="IF_MGT_CP_APPLY" type="select" jsonParam="{wordbook:'smeapplystatus', target:'CPSTATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" type="hidden" mode="00" />
+			<item name="INS_CURRENTSTATUSID" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="03"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="CPNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="04"/>
+			<item name="CPNUMBER" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="05"/>
+			<item name="MYFNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="06"/>
+			<item name="MYLNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="07"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" tableName="WF_INSTANCE" align="left" width="125"/>
+			<item name = "INS_CURRENTSTATUS" tableName="WF_INSTANCE" align="left" width="150"/>
+			<item name = "CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" width="240" align="left"/> 
+			<item name = "INS_YESORNO" tableName="WF_INSTANCE" align="left" width="100"/>
+			<item name = "CPNAME" tableName="IF_MGT_CP_APPLY" align="left" width="150"/>         
+			<item name = "CPNUMBER" tableName="IF_MGT_CP_APPLY" align="left" width="130"/>       
+			<item name = "MYFNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/>     
+			<item name = "MYLNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="CPDATE" tableName="IF_MGT_CP_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_apply_flow_monitor1">
+		<name>SME Apply Flow Monitor</name>
+		<desc>SME Apply Flow Monitor List For Firstcheck</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+		   WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+		   AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'FUoVuacHWV' OR WF_STEP.S_KEY = 'mRizDYBctr') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="date" mode="09" idx="01"/>
+			<item name="CPSTATUS" tableName="IF_MGT_CP_APPLY" type="select" jsonParam="{wordbook:'smeapplystatus', target:'CPSTATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" type="hidden" mode="00" />
+			<item name="INS_CURRENTSTATUSID" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="03"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="CPNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="04"/>
+			<item name="CPNUMBER" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="05"/>
+			<item name="MYFNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="06"/>
+			<item name="MYLNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="07"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" tableName="WF_INSTANCE" align="left" width="125"/>
+			<item name = "INS_CURRENTSTATUS" tableName="WF_INSTANCE" align="left" width="150"/>
+			<item name = "CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" width="240" align="left"/> 
+			<item name = "INS_YESORNO" tableName="WF_INSTANCE" align="left" width="100"/>
+			<item name = "CPNAME" tableName="IF_MGT_CP_APPLY" align="left" width="150"/>         
+			<item name = "CPNUMBER" tableName="IF_MGT_CP_APPLY" align="left" width="130"/>       
+			<item name = "MYFNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/>     
+			<item name = "MYLNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="CPDATE" tableName="IF_MGT_CP_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="sme_apply_flow_monitor2">
+		<name>SME Apply Flow Monitor</name>
+		<desc>SME Apply Flow Monitor List For Doublecheck</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_CP_APPLY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/sme/sme_apply_monitor_control_list.js</jsurl>
+		<param>{gridMask:true,getRowClass:'workflowMonitorRowClass',listenRemix:false,listenRowClick:false,columnCount:2,height:230,width:700,enableHdMenu:false,labelWidth:118}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<!--<toolbar>zkbc_cd_busiaccep_add</toolbar>-->
+		<plugsql>,WF_INSTANCE,WF_INSTANCE_OBJ</plugsql>
+		<outrosql>
+		   WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_CP_APPLY.PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_CP_APPLY' AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID 
+		   AND WF_INSTANCE.INS_ID IN (
+           SELECT A.INS_ID FROM (SELECT WF_INSTANCE.INS_ID,COUNT(*) FROM WF_INSTANCE LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.INS_ID = WF_INSTANCE.INS_ID 
+		   LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID = WF_STEP.S_ID WHERE (WF_STEP.S_KEY = 'KJtCGqzGmT' OR WF_STEP.S_KEY = 'mRizDYBctr' OR WF_STEP.S_KEY = 'BlSPDaIKLf' OR WF_STEP.S_KEY = 'mKISSmbTdc') 
+		   AND WF_ACTIVITY.USER_ID = '@sessionUserId@' GROUP BY WF_INSTANCE.INS_ID) A)
+		</outrosql>
+		<query-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" type="date" mode="09" idx="01"/>
+			<item name="CPSTATUS" tableName="IF_MGT_CP_APPLY" type="select" jsonParam="{wordbook:'smeapplystatus', target:'CPSTATUS_VAL',listWidth:400}" mode="01" idx="02"/>
+			<item name="CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" type="hidden" mode="00" />
+			<item name="INS_CURRENTSTATUSID" tableName="WF_INSTANCE" type="tablequery" jsonParam="{queryKey:'flowsteplist',target:'inscrst', pointId:'S_ID',pointName:'S_NAME',listWidth:300}" mode="01" idx="03"/>
+			<item name="INS_CURRENTSTATUS" tableName="WF_INSTANCE" type="hidden" mode="00" />
+			<item name="CPNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="04"/>
+			<item name="CPNUMBER" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="05"/>
+			<item name="MYFNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="06"/>
+			<item name="MYLNAME" tableName="IF_MGT_CP_APPLY" type="input" mode="06" idx="07"/>
+		</query-item>
+		<result-item>
+			<item name = "INS_UPDATE" tableName="WF_INSTANCE" align="left" width="125"/>
+			<item name = "INS_CURRENTSTATUS" tableName="WF_INSTANCE" align="left" width="150"/>
+			<item name = "CPSTATUS_VAL" tableName="IF_MGT_CP_APPLY" width="240" align="left"/> 
+			<item name = "INS_YESORNO" tableName="WF_INSTANCE" align="left" width="100"/>
+			<item name = "CPNAME" tableName="IF_MGT_CP_APPLY" align="left" width="150"/>         
+			<item name = "CPNUMBER" tableName="IF_MGT_CP_APPLY" align="left" width="130"/>       
+			<item name = "MYFNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/>     
+			<item name = "MYLNAME" tableName="IF_MGT_CP_APPLY" align="left" width="80"/> 
+			<item name = "INS_ID" show="-1" tableName="WF_INSTANCE" align="left"/> 
+			<item name = "INS_STATE" show="-1" tableName="WF_INSTANCE" align="left"/> 
+		</result-item>  
+		<orderby-item>
+			<item name="INS_UPDATE" tableName="WF_INSTANCE" mode="DESC"/> 
+			<item name="CPDATE" tableName="IF_MGT_CP_APPLY" mode="DESC"/>
+		</orderby-item>
+	</query>
+</table-query>

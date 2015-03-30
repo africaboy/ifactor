@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-query>
+	<query ID="invoice_report_list">
+		<name>query for invoice report</name>
+		<desc>query for invoice report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INVOICE_REPORT</table>
+		<jsurl>/app/ifactor/js/invoice/invoice_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<outrosql>1=1 GROUP BY IF_MGT_INVOICE_REPORT.REPORTTYPE,IF_MGT_INVOICE_REPORT.REPORTTYPENUM</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+			<item name = "REPORTBYTYPE" type="select" param="Region" jsonParam="{wordbook:'invoiceReport',target:'REPORTBYTYPE'}" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "REPORTTYPE" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "UPLOADED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>   
+			<item name = "UPLOADED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INPRO_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INPRO_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "REJECTED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "REJECTED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>   
+			<item name = "ACCEPTED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "ACCEPTED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "REOPEN_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "REOPEN_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INAUCBID_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INAUCBID_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INAUCUNBID_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "INAUCUNBID_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DELISTED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DELISTED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DEALED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DEALED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "UNDEALED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "UNDEALED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "UNDISBURSED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "UNDISBURSED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DISBURSED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "DISBURSED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "SETTLEDED_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "SETTLEDED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "OVERDUE_NO" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "OVERDUE_AMOUNT" sqlFunc="sum" tableName="IF_MGT_INVOICE_REPORT"/>
+			<item name = "REPORTTYPENUM" tableName="IF_MGT_INVOICE_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTTYPENUM" tableName="IF_MGT_INVOICE_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="invoice_unfunded_report_list">
+		<name>query for invoice unfunded report</name>
+		<desc>query for invoice unfunded report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_UNFUNDED_REPORT</table>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,height:170,width:400,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "INVOICEID" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "INVOICE_AMMOUNT" tableName="IF_MGT_UNFUNDED_REPORT"/>   
+			<item name = "SELLERID" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "SELLER_RATING" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "SELLER_RISK" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "REGION" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "DEBTOR" tableName="IF_MGT_UNFUNDED_REPORT"/>   
+			<item name = "VIP_DATE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "PUBLIC_DATE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "CLOSE_DATE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "DELISTING_DATE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "SETTLEMENT_DATE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "PDURATION_DAYS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "TDURATION_DAYS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "TOTAL_BIDS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "TERMVIP_DAYS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "TERMPUBLIC_DAYS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "TERMCLOSE_DAYS" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "READY_ADVANCE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "READY_INTEREST" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "BEST_ADVANCE" tableName="IF_MGT_UNFUNDED_REPORT"/>
+			<item name = "BEST_INTEREST" tableName="IF_MGT_UNFUNDED_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADDATE" tableName="IF_MGT_UNFUNDED_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+	<query ID="invoice_disbursed_report_list">
+		<name>query for invoice disbursed report</name>
+		<desc>query for invoice disbursed report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_DISBURSED_REPORT</table>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,height:170,width:400,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "INVOICEID" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "INVOICE_AMMOUNT" tableName="IF_MGT_DISBURSED_REPORT"/>   
+			<item name = "SELLERID" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "SELLER_RATING" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "SELLER_RISK" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "REGION" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "BUYERID" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "DEBTOR" tableName="IF_MGT_DISBURSED_REPORT"/>   
+			<item name = "VIP_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "PUBLIC_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "CLOSE_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "DISBURSEMENT_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "SETTLEMENT_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "PDURATION_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "TDURATION_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "TOTAL_BIDS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "TERMVIP_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "TERMPUBLIC_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "TERMCLOSE_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "DISBURSED_DAYS" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "DELISTING_DATE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "DAYSDELISTING" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "ACCEPT_ADVANCE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "ACCEPT_INTEREST" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "READY_ADVANCE" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "READY_INTEREST" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "SELLER_AMOUNT" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "SELLER_FEES" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "BUYER_AMOUNT" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "BUYER_FEES" tableName="IF_MGT_DISBURSED_REPORT"/>
+			<item name = "BUYER_RETURN" tableName="IF_MGT_DISBURSED_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADDATE" tableName="IF_MGT_DISBURSED_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+	
+</table-query>

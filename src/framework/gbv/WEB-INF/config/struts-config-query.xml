@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+	<data-sources />
+	<form-beans >   
+	</form-beans>
+
+	<global-exceptions />
+	<global-forwards >
+		<forward path="/ok.jsp" name="ok"></forward>
+		<forward path="/error.jsp" name="error"></forward>
+		<forward path="/result.jsp" name="result"></forward>
+		<forward path="/jsonresult.jsp" name="jsonresult"></forward>
+	</global-forwards>
+	<action-mappings >
+		<action 
+			path="/tablearg" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.tablequery.TableARGAction">
+		</action>
+		<action 
+			path="/objectarg" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.objectquery.ObjectARGAction">
+		</action>
+		<action 
+			path="/tableqm" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.tablequery.TableQueryManageAction">
+		</action>
+		<action 
+			path="/tableview" 
+			parameter="method"
+			scope="request"
+			type="jt.classic.system.tableview.TableViewAction">
+		</action>
+	</action-mappings>
+</struts-config>

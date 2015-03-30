@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="buyer_apply_list">
+		<name>query for buyer apply</name>
+		<desc>query for apply apply</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<table>IF_MGT_BUYER_COMPANY_INFO</table>
+		<table>WF_STEP</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/buyer/apply_registration_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:false,listenRender:true,height:230,width:700,columnCount:2,enableHdMenu:false,labelWidth:105}</param>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			,IF_MGT_BUYER_BASIC_INFO, IF_MGT_BUYER_COMPANY_INFO, WF_INSTANCE_OBJ, WF_INSTANCE, WF_ACTIVITY, WF_STEP
+		</plugsql>
+		<outrosql>
+		    WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_BUYER_APPLY.IBA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_BUYER_APPLY' 
+		    AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_BASIC_INFO.IBA_PK_ID
+			AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_COMPANY_INFO.IBA_PK_ID
+		    AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID AND WF_INSTANCE.INS_STATE = 0 AND WF_INSTANCE.INS_ID = WF_ACTIVITY.INS_ID 
+		    AND WF_STEP.S_ID = WF_ACTIVITY.S_ID 
+		    AND ((WF_ACTIVITY.A_STATE = 0 AND (WF_ACTIVITY.USER_ID = '-1' OR WF_ACTIVITY.USER_ID = '@sessionUserId@')) OR (WF_ACTIVITY.A_STATE = 1 AND WF_ACTIVITY.USER_ID = '@sessionUserId@'))
+		</outrosql>
+		<query-item>
+			<item name="BA_APPLY_DATE" type="date" mode="09" idx="01"/>
+			<item name="BA_UPDATED_DATE" type="date" mode="09" idx="02"/>
+			<item name="INVEST_AS" type="select" tableName="IF_MGT_BUYER_BASIC_INFO" jsonParam="{wordbook:'investor', target:'INVEST_AS'}" mode="01" idx="03"/>
+			<item name="COMPANY_NAME" tableName="IF_MGT_BUYER_COMPANY_INFO" type="input"  mode="06" idx="04"/>
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="05"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="06"/>
+			<item name="BA_STATUS" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL'}" mode="01" idx="07"/>
+			<item name="BA_STATUS_VAL" type="hidden" mode="00" />
+		</query-item>
+		<result-item>
+			<item name="SP" label="Details" alien="1" width="65" align="left"/> 
+			<item name = "BA_APPLY_DATE" width="115" align="left"/> 
+			<item name = "BA_UPDATED_DATE" width="120" align="left"/>
+			<item name = "INVEST_AS" tableName="IF_MGT_BUYER_BASIC_INFO" width="138" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_BUYER_COMPANY_INFO" width="170" align="left"/>   
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="80" align="left"/>
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="80" align="left"/>
+			<item name = "BA_STATUS_VAL" width="290" align="left"/>      
+			<item name = "INS_ID" tableName="WF_INSTANCE" show="-1"/> 
+			<item name = "A_ID" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_STATE" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_LOCKID" tableName="WF_ACTIVITY" show="-1"/>
+		</result-item>  
+		<restraint-item>
+			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_STIME" tableName="WF_ACTIVITY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="buyer_apply_confirm_list">
+		<name>queryforbuyerapply</name>
+		<desc>query for apply apply</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_APPLY</table>
+		<table>IF_MGT_BUYER_BASIC_INFO</table>
+		<table>IF_MGT_BUYER_COMPANY_INFO</table>
+		<table>WF_STEP</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_INSTANCE</table>
+		<jsurl>/app/ifactor/js/buyer/apply_registration_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:false,listenRender:true,height:230,width:700,columnCount:2,enableHdMenu:false,labelWidth:105}</param>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			,IF_MGT_BUYER_BASIC_INFO,IF_MGT_BUYER_COMPANY_INFO, WF_INSTANCE_OBJ, WF_INSTANCE, WF_ACTIVITY, WF_STEP
+		</plugsql>
+		<outrosql>
+		    WF_INSTANCE_OBJ.KEYVALUE = IF_MGT_BUYER_APPLY.IBA_PK_ID AND WF_INSTANCE_OBJ.TABLENAME = 'IF_MGT_BUYER_APPLY' 
+		    AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_BASIC_INFO.IBA_PK_ID
+			AND IF_MGT_BUYER_APPLY.IBA_PK_ID = IF_MGT_BUYER_COMPANY_INFO.IBA_PK_ID
+		    AND WF_INSTANCE_OBJ.INS_ID = WF_INSTANCE.INS_ID AND WF_INSTANCE.INS_STATE = 0 AND WF_INSTANCE.INS_ID = WF_ACTIVITY.INS_ID 
+		    AND WF_STEP.S_ID = WF_ACTIVITY.S_ID 
+		    AND ((WF_ACTIVITY.A_STATE = 0 OR WF_ACTIVITY.A_STATE = 1) OR (WF_ACTIVITY.A_STATE = 1 AND WF_ACTIVITY.USER_ID = '@sessionUserId@'))
+		</outrosql>
+		<query-item>
+			<item name="BA_APPLY_DATE" type="date" mode="09" idx="01"/>
+			<item name="BA_UPDATED_DATE" type="date" mode="09" idx="02"/>
+			<item name="INVEST_AS" type="select" tableName="IF_MGT_BUYER_BASIC_INFO" jsonParam="{wordbook:'investor', target:'INVEST_AS'}" mode="01" idx="03"/>
+			<item name="COMPANY_NAME" tableName="IF_MGT_BUYER_COMPANY_INFO" type="input"  mode="06" idx="04"/>
+			<item name="FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="05"/>
+			<item name="LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" type="input" mode="06" idx="06"/>
+			<item name="BA_STATUS" type="select" jsonParam="{wordbook:'ba_stauts', target:'BA_STATUS_VAL'}" mode="01" idx="07"/>
+			<item name="BA_STATUS_VAL" type="hidden" mode="00" />
+		</query-item>
+		<result-item>
+			<item name="SP" label="Details" alien="1" width="65" align="left"/> 
+			<item name = "BA_APPLY_DATE" width="115" align="left"/> 
+			<item name = "BA_UPDATED_DATE" width="120" align="left"/>
+			<item name = "INVEST_AS" tableName="IF_MGT_BUYER_BASIC_INFO" width="138" align="left"/>
+			<item name = "COMPANY_NAME" tableName="IF_MGT_BUYER_COMPANY_INFO" width="170" align="left"/>   
+			<item name = "FIRST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="80" align="left"/>
+			<item name = "LAST_NAME" tableName="IF_MGT_BUYER_BASIC_INFO" width="80" align="left"/>
+			<item name = "BA_STATUS_VAL" width="290" align="left"/>      
+			<item name = "INS_ID" tableName="WF_INSTANCE" show="-1"/> 
+			<item name = "A_ID" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_STATE" tableName="WF_ACTIVITY" show="-1"/> 
+			<item name = "A_LOCKID" tableName="WF_ACTIVITY" show="-1"/>
+		</result-item>
+		<restraint-item>
+			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_STIME" tableName="WF_ACTIVITY" mode="DESC"/>
+		</orderby-item>
+	</query>
+	
+
+	<query ID="buyer_apply_opinion_query_list">
+		<name>Historical opinion</name>
+		<desc>Historical opinion</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_FLOW_OPINION</table>
+		<table>WF_ACTIVITY_OBJ</table>
+		<table>WF_ACTIVITY</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_opinion_query_list.js</jsurl>
+		<param>{listenRender:true,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+			LEFT JOIN WF_ACTIVITY_OBJ ON WF_ACTIVITY_OBJ.KEYVALUE = IF_MGT_BUYER_FLOW_OPINION.IBFO_PK_ID AND WF_ACTIVITY_OBJ.TABLENAME = 'IF_MGT_BUYER_FLOW_OPINION' 
+		    LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.A_ID = WF_ACTIVITY_OBJ.A_ID
+		</plugsql>
+		<result-item>
+			<item name = "A_ID" tableName="WF_ACTIVITY_OBJ" show="-1"/> 
+			<item name = "INS_ID" tableName="WF_ACTIVITY_OBJ" show="-1"/>
+			<item name = "A_ETIME" label="Signing Time" tableName="WF_ACTIVITY" align="left" width="128"/>
+			<item name = "A_TITLE" label="Service States" tableName="WF_ACTIVITY" align="left" width="149"/>
+			<item name = "OPINION_VAL" label="Opinion" align="left" width="68"/> 
+			<item name = "A_LOCKNAME" label="Actor" tableName="WF_ACTIVITY" align="left" width="131"/>
+			<item name = "OPINION_TXT" label="Remark" align="left" width="255"/>
+			<item name = "TABLEVIEW" tableName="WF_ACTIVITY_OBJ" show = "-1" /> 
+		</result-item>  
+		<restraint-item>
+			<item name="INS_ID" tableName="WF_ACTIVITY_OBJ" param="@insId" mode="01"></item>
+			<item name="A_STATE" tableName="WF_ACTIVITY" param="2" mode="01"></item>
+		</restraint-item>
+		<orderby-item>
+			<item name="A_ETIME" tableName="WF_ACTIVITY" mode="ASC"/>    
+		</orderby-item>
+	</query>
+	
+	<query ID="buyer_apply_cs_record_list">
+		<name>buyer apply cs record list</name>
+		<desc>buyer apply cs record list</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_FLOW_CS_RECORD</table>
+		<table>WF_ACTIVITY</table>
+		<table>WF_STEP</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_cs_record_list.js</jsurl>
+		<param>{forceFit:true,listenRender:true,height:200,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<plugsql>
+		    LEFT JOIN WF_ACTIVITY ON WF_ACTIVITY.A_ID = IF_MGT_BUYER_FLOW_CS_RECORD.A_ID 
+		    LEFT JOIN WF_STEP ON WF_ACTIVITY.S_ID=WF_STEP.S_ID 
+		</plugsql>
+		<result-item>
+			<item name = "S_NAME" label="Step" tableName="WF_STEP"/>
+			<item name = "USER_NAME" label="Actor" />
+			<item name = "CREATE_DATE" label="Create Date" />
+			<item name = "REMARK" label="Remark"/>         
+		</result-item>  
+		<restraint-item>
+			<item name="INS_ID"  param="@insId" mode="01"></item>
+		</restraint-item>
+		<orderby-item>
+			<item name="CREATE_DATE"  mode="ASC"/>    
+		</orderby-item>
+	</query>
+
+	<query ID="buyer_apply_profile_query_list">
+		<name>buyer apply profile</name>
+		<desc>buyer apply profile</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BUYER_PROFILE</table>
+		<jsurl>/app/ifactor/js/buyer/buyer_apply_profile_query_list.js</jsurl>
+		<param>{forceFit:true,listenRender:true,enableHdMenu:false}</param>
+		<showchk>0</showchk>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name="COMPANY" type="input" mode="06" idx="00"/>
+			<item name="RELEASETIME" type="date"  mode="09" idx="01"/>
+			<item name="COMPANYRNUMBER" type="input" mode="06" idx="02"/> 
+			<item name="INVEST" type="input" mode="06" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "CINUMBER"/> 
+			<item name = "RELEASETIME"/>
+			<item name = "INVEST"/>
+			<item name = "FIRST_NAME"/>
+			<item name = "LAST_NAME"/>
+			<item name = "EMAIL"/> 
+			<item name = "COMPANY"/>
+			<item name = "COMPANYRNUMBER"/>
+			<item name = "COMPANYTAXCODE"/>
+			<item name = "ISINVEST" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="RELEASETIME" mode="DESC"/>    
+		</orderby-item>
+	</query>
+	
+</table-query>

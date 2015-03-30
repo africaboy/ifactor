@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-query>
+	<query ID="debtor_report_list">
+		<name>query for debtor detail report</name>
+		<desc>query for debtor detail report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_DEBTOR_REPORT</table>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:180,width:500,labelAlign:'left',columnCount:1}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<renderClass>com.entrofine.ifactor.gbv.machining.DebtorReport</renderClass>
+		<outrosql>1=1 GROUP BY IF_MGT_DEBTOR_REPORT.DEBTORNAME</outrosql>
+		<query-item>
+			<item name="REPORTDATE" type="hidden" mode="01" param="#nowDate" idx="01"/>
+			<item name="UPLOADDATE" type="date" mode="09" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "DEBTORNAME" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "UPLOADED_NO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "ACCEPTED_NO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "DISBURSED_NO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>   
+			<item name = "DISBURSED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "OVERDUE_NO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "OVERDUE_AMOUNT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "OVERDUE_DAYS" sqlFunc="sum" show="-1" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "OVER_THIRTYNO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>   
+			<item name = "OVER_THIRTYAMOUNT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "OVER_AVERAGEDAYS" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "SETTLED_NO" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "SETTLED_AMOUNT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "SETTLEMENT_DAYS" sqlFunc="sum" show="-1" tableName="IF_MGT_DEBTOR_REPORT"/>   
+			<item name = "AVERAGE_CPAYMENT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+			<item name = "AVERAGE_SPAYMENT" sqlFunc="sum" tableName="IF_MGT_DEBTOR_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="REPORTDATE" tableName="IF_MGT_DEBTOR_REPORT" mode="DESC"/>
+		</orderby-item>
+	</query>
+</table-query>

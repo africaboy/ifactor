@@ -1,0 +1,1 @@
+<EntroAuction> Invoice <00000> has completed disbursement. Please check your email for more information or contact <hotline> for support. 

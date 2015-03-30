@@ -1,0 +1,43 @@
+.delcolumn {
+	background-image: url(../images/delete.png) !important
+}
+
+.addcolumn {
+	background-image: url(../images/add.png) !important
+}
+
+.removecolumn {
+	background-image: url(../images/remove.png) !important
+}
+
+.savetable {
+	background-image: url(../images/submit.gif) !important
+}
+
+.addtable {
+	background-image: url(../images/addtable.gif) !important
+}
+
+.uploadtable {
+	background-image: url(../images/uploadtable.gif) !important
+}
+
+.deltable {
+	background-image: url(../images/deltable.gif) !important
+}
+
+.databackup {
+	background-image: url(../images/backup.png) !important
+}
+
+.delbackup {
+	background-image: url(../images/delbackup.png) !important
+}
+
+.restore {
+	background-image: url(../images/restore.png) !important
+}
+
+.refresh {
+	background-image: url( ../images/refresh.png) !important;
+}

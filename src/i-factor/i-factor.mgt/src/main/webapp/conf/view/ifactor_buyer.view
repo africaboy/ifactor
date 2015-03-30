@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-view>
+	<view ID="ifactor_buyer_apply">
+		<name>application form of buyer</name>
+		<desc>application form of buyer</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_APPLY</primaryTable>
+		<foreignTable handleType="single">IF_MGT_BUYER_BASIC_INFO</foreignTable>
+		<foreignTable handleType="single">IF_MGT_BUYER_PRIVATE_INFO</foreignTable>
+		<foreignTable handleType="single">IF_MGT_BUYER_COMPANY_INFO</foreignTable>
+		<size>{height:600,width:1000,columnCount:2}</size>
+		<param>{listenLayout:true,labelAlign:'top'}</param>
+		<component>
+			<item name="APP_PK_ID" tableName="IF_MGT_BUYER_APPLY" type="hidden" param="{}" />
+			<item name="BA_UPDATED_DATE" tableName="IF_MGT_BUYER_APPLY" type="hidden" param="{}" dv="@thizTime" />
+			<item name="BA_APPLY_CODE" type="input" param="{readOnly:true,newline:true,group:'Application Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="000"/>
+			<item name="BA_APPLY_DATE" type="date" param="{readOnly:true}" idx="001"/>
+			<item name="TITLE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{newline:true,group:'Buyer Basic Information',groupWidth:1050, groupParam : {groupCollapsible:false},columnCount:2}" idx="010"/>
+			<item name="FIRST_NAME" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="011"/>
+			<item name="LAST_NAME" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="012"/>
+			<item name="GENDER" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="013"/>
+			<item name="NATIONALITY" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="014"/>
+			<item name="RESIDENCE_COUNTRY" type="input" label="Country" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="015"/>
+			<item name="ID_TYPE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="016"/>
+			<item name="ID_NUMBER" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="017"/>
+			<item name="BIRTH_DATE" type="date" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="018"/>
+			<item name="PLOCALCODE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="019"/>
+			<item name="PHONE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="019"/>
+			<item name="MLOCALCODE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="020"/>
+			<item name="MOBILE_PHONE" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="020"/>
+			<item name="EMAIL" type="input" tableName="IF_MGT_BUYER_BASIC_INFO" param="{}" idx="021"/>
+			
+			<item name="COUNTRY" tableName="IF_MGT_BUYER_PRIVATE_INFO"  type="input" param="{newline:true,group:'Invest as Private Investor', groupWidth:1050, groupParam : {id: 'privateInvestorGroup',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'INVEST_AS_PRIVATE',tableName:'IF_MGT_BUYER_BASIC_INFO',dv:'1'}},columnCount:2}" idx="031"/>
+			<item name="REGION" type="input" label="Region" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="032"/>
+			<item name="CITY" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="033"/>
+			<item name="DISTRICT" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="034"/>
+			<item name="RESIDENCE_ADDRESS" type="input" label="Address" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="035"/>
+			<item name="OCCUPATION" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="036"/>
+			<item name="EMPLOYER_NAME" type="input" label="Employer name" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="037"/>
+			<item name="COMPANY_INDUSTRY" type="input" label="Industry" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="038"/>
+			<item name="TRADEPLATFORM" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="039"/>
+			<item name="ASSET" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="040"/>
+			<item name="YEARSINVESTOR" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="041"/>
+			<item name="ISFACTORING" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="042"/>
+			<item name="ISAUCTION" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="043"/>
+			<item name="ISPROVIDER" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="044"/>
+			<item name="ISASSET" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="045"/>
+			<item name="MAJOR" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="046"/>
+			<item name="EALAST" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="047"/>
+			<item name="EATHIS" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="048"/>
+			<item name="PLATFORM" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="049"/>
+			<item name="BUSINESSFROM" type="input" tableName="IF_MGT_BUYER_PRIVATE_INFO" param="{}" idx="050"/>
+
+			<item name="COMPANY_NAME" tableName="IF_MGT_BUYER_COMPANY_INFO"  type="input" param="{newline:true,group:'Invest as Company Investor', groupWidth:1050, groupParam : {id: 'companyInvestorGroup',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'INVEST_AS_COMPANY',tableName:'IF_MGT_BUYER_BASIC_INFO',dv:'1'}},columnCount:2}" idx="051"/>
+			<item name="ISREGISTVN" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="052"/>
+			<item name="REGIST_COUNTRY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="052"/>
+			<item name="REGIST_NUMBER" type="input" label="regist no." tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="053"/>
+			<item name="TAX_CODE" type="input" label="Tax code" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="054"/>
+			<item name="ESTABLISH_DATE" type="date" label="Establish date" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="055"/>
+			<item name="ORGANIZATION" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="056"/>
+			<item name="COMPANY_COUNTRY" type="input" label="Country" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="058"/>
+			<item name="COMPANY_REGION" type="input" label="Region" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="059"/>
+			<item name="COMPANY_CITY" type="input" label="City" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="060"/>
+			<item name="COMPANY_DISTRICT" type="input" label="District" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="061"/>
+			<item name="COMPANY_ADDRESS" type="input" label="Address" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="062"/>
+			<item name="POST_CODE" type="input" label="Post code" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="063"/>
+			<item name="TYPECOMPANY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="064"/>
+			<item name="CPINDUSTRY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="072"/>
+			<item name="CPTURNOVER" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="073"/>
+			<item name="ISCPENGAGED" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="074"/>
+			<item name="ISCPASSET" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="075"/>
+			<item name="CPASSET" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="076"/>
+			<item name="CPINVESTMENT" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="077"/>
+			<item name="CPAVERAGE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="078"/>
+			<item name="CPAVERAGEPER" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="079"/>
+			<item name="CPBUSINESSFROM" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="080"/>
+			<item name="CPPOSITION" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="081"/>
+
+			<item name="ISDFCPADDRESS" tableName="IF_MGT_BUYER_COMPANY_INFO"  type="input" param="{newline:true,group:'Different Mailing Address', groupWidth:1050, groupParam : {id: 'companyDfma',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'ISDFCPADDRESS',tableName:'IF_MGT_BUYER_COMPANY_INFO',dv:'1'}},columnCount:2}" idx="082"/>
+			<item name="DFCOMPANY_ADDRESS" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="065"/>
+			<item name="DFCOMPANY_DISTRICT" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="066"/>
+			<item name="DFCOMPANY_CITY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="067"/>
+			<item name="DFCOMPANY_REGION" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="068"/>
+			<item name="DFCOMPANY_COUNTRY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="069"/>
+			<item name="DFPOST_CODE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="070"/>
+			
+			<item name="ISATHPERSON" tableName="IF_MGT_BUYER_COMPANY_INFO"  type="input" param="{newline:true,group:'Personal Information of the Authorized Person', groupWidth:1050, groupParam : {id: 'companyPersonGroup',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'ISATHPERSON',tableName:'IF_MGT_BUYER_COMPANY_INFO',dv:'1'}},columnCount:2}" idx="083"/>
+			<item name="ISCPOPERATE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="082"/>
+			<item name="CPTITLE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="083"/>
+			<item name="CPFNAME" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="084"/>
+			<item name="CPLNAME" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="085"/>
+			<item name="CPEMAIL" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="086"/>
+			<item name="CPPOSITION1" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="087"/>
+			<item name="CPGENDER" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="088"/>
+			<item name="CPDOB" type="date" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="089"/>
+			<item name="CPNATIONALITY" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="090"/>
+			<item name="CPRESIDENCE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="091"/>
+			<item name="CPIDTYPE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="092"/>
+			<item name="CPIDNUMBER" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="093"/>
+			<item name="CPWPHONECODE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="094"/>
+			<item name="CPWPHONE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="094"/>
+			<item name="CPMPHONECODE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="095"/>
+			<item name="CPMPHONE" type="input" tableName="IF_MGT_BUYER_COMPANY_INFO" param="{}" idx="095"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_profile">
+		<name>Buyer Profile</name>
+		<desc>Buyer Profile</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_PROFILE</primaryTable>
+		<size>{height:400,width:1050,columnCount:2,labelAlign:'top'}</size>
+		<component>
+			<item name="INVEST" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'General Information',groupWidth:1050,columnCount:2}" idx="010"/>
+			<item name="CINUMBER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="011"/>
+			<item name="TITLE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="012"/>
+			<item name="FIRST_NAME" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="013"/>
+			<item name="LAST_NAME" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="014"/>
+			<item name="GENDER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="015"/>
+			<item name="BIRTH_DATE" type="date" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="016"/>
+			<item name="NATIONALITY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="017"/>
+			<item name="RESIDENCE_COUNTRY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="018"/>
+			<item name="ID_TYPE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="019"/>
+			<item name="ID_NUMBER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="020"/>
+			<item name="ADDRESS" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="021"/>
+			<item name="PHONE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="022"/>
+			<item name="MOBILE_PHONE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="023"/>
+			<item name="EMAIL" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="024"/>
+			<item name="BANKACCOUNT" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="025"/>
+
+			<item name="OCCUPATION" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'Employer Information',groupWidth:1050,columnCount:2}" idx="026"/>
+			<item name="EMPLOYER_NAME" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="027"/>
+			<item name="COMPANY_INDUSTRY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="028"/>
+			<item name="EMPLOYER_ADDRESS" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="029"/>
+
+			<item name="TRADEPLATFORM" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'Further Information',groupWidth:1050,columnCount:2}" idx="039"/>
+			<item name="ASSET" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="040"/>
+			<item name="YEARSINVESTOR" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="041"/>
+			<item name="ISFACTORING" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="042"/>
+			<item name="ISAUCTION" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="043"/>
+			<item name="ISPROVIDER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="044"/>
+			<item name="ISASSET" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="045"/>
+			<item name="MAJOR" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="046"/>
+			<item name="EALAST" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="047"/>
+			<item name="EATHIS" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="048"/>
+			<item name="PLATFORM" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="049"/>
+			<item name="BUSINESSFROM" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="050"/>
+		</component>
+	</view>
+	<view ID="ifactor_buyer_cpprofile">
+		<name>Buyer Profile</name>
+		<desc>Buyer Profile</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_PROFILE</primaryTable>
+		<size>{height:400,width:1050,columnCount:2,labelAlign:'top'}</size>
+		<component>
+			<item name="INVEST" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'General Information',groupWidth:1050,columnCount:2}" idx="010"/>
+			<item name="CINUMBER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="011"/>
+			<item name="COMPANY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="012"/>
+			<item name="COMPANYCDATE" type="date" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="013"/>
+			<item name="COMPANYRNUMBER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="014"/>
+			<item name="COMPANYTAXCODE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="015"/>
+			<item name="TYPECOMPANY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="016"/>
+			<item name="COMPANYOIN" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="017"/>
+			<item name="COMPANYADDRESS" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="018"/>
+			<item name="REGIST_COUNTRY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="019"/>
+			<item name="BANKACCOUNT" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="020"/>
+
+			<item name="ISDFCPADDRESS" tableName="IF_MGT_BUYER_PROFILE"  type="input" param="{newline:true,group:'Different Mailing Address', groupWidth:1050, groupParam : {id: 'companyDfma',groupCollapsed:false,checkboxToggle:false,toggleItem:{name :'ISDFCPADDRESS',tableName:'IF_MGT_BUYER_PROFILE',dv:'1'}},columnCount:2}" idx="052"/>
+			<item name="DFCOMPANY_ADDRESS" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="055"/>
+			<item name="DFCOMPANY_DISTRICT" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="056"/>
+			<item name="DFCOMPANY_CITY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="057"/>
+			<item name="DFCOMPANY_REGION" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="058"/>
+			<item name="DFCOMPANY_COUNTRY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="059"/>
+			<item name="DFPOST_CODE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="060"/>
+			
+			<item name="TITLE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'Authorized Person\'s Information',groupWidth:1050,columnCount:2}" idx="061"/>
+			<item name="FIRST_NAME" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="063"/>
+			<item name="LAST_NAME" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="064"/>
+			<item name="GENDER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="065"/>
+			<item name="BIRTH_DATE" type="date" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="066"/>
+			<item name="NATIONALITY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="067"/>
+			<item name="RESIDENCE_COUNTRY" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="068"/>
+			<item name="ID_TYPE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="069"/>
+			<item name="ID_NUMBER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="070"/>
+			<item name="PHONE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="071"/>
+			<item name="MOBILE_PHONE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="072"/>
+			<item name="POSITION" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="073"/>
+			<item name="EMAIL" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="074"/>
+
+			<item name="CPTURNOVER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{newline:true,group:'Further Information',groupWidth:1050,columnCount:2}" idx="073"/>
+			<item name="ISCPENGAGED" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="074"/>
+			<item name="ISCPASSET" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="075"/>
+			<item name="CPASSET" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="076"/>
+			<item name="CPINVESTMENT" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="077"/>
+			<item name="CPAVERAGE" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="078"/>
+			<item name="CPAVERAGEPER" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="079"/>
+			<item name="CPBUSINESSFROM" type="input" tableName="IF_MGT_BUYER_PROFILE" param="{}" idx="080"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_flow_firstcheck_opinion">
+		<name>First Check Opinion</name>
+		<desc>First check opinion view for buyer flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'fc_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'buyerCheckOption'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_flow_doublecheck_opinion">
+		<name>Double Check Opinion</name>
+		<desc>Double check opinion view for buyer flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<size>{height:420,width:800,columnCount:3}</size>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'dc_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'buyerCheckOption'}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="IMAGE_REMARK" type="textarea" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_flow_blacklistcheck_opinion">
+		<name>Blacklist Check Opinion</name>
+		<desc>Blacklist check opinion view for buyer flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<size>{height:220,width:800,columnCount:3}</size>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<param>{listenLayout:true}</param>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'blc_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'buyerblacklistOpinionCheck'}" idx="002"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="005"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="006"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="007"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="008"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_flow_buyerconfirm_opinion">
+		<name>Buyer Confirm Opinion</name>
+		<desc>Buyer confirm opinion view for buyer flow</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'bc_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="004"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="if_buyer_flow_documentsign_opinion">
+		<name>Document Sign And Verify Opinion</name>
+		<desc>Document signing and verification of sign documents</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<size>{height:220,width:800,columnCount:2}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
+			<item name="NAME" type="input" param="{allowBlank:false}" idx="002"/>
+			<item name="IDCARD" type="input" param="{allowBlank:false}" idx="003"/>
+			<item name="BANKACCOUNT" type="input" param="{allowBlank:false,listenBlur:'buyerCheckBalance'}" idx="004"/>
+			<item name="BALANCE" type="number" dv="0" param="{readOnly:true,allowDecimals:true}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+
+	<view ID="ifactor_buyer_flow_documentcheck_opinion">
+		<name>Document Check Opinion</name>
+		<desc>Document check opinion</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_OPINION</primaryTable>
+		<size>{height:340,width:800,columnCount:2}</size>
+		<listener>BuyerFlowOpinionMachining</listener>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="@thizTime" idx="000"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'dc_opinion',target:'OPINION_VAL',allowBlank:false}" idx="001"/>
+			<item name="OPINION_VAL" type="hidden" param="{}" idx="002"/>
+			<item name="OPINION_REFERENCE" type="textarea" label="Reference" param="{columnSubCount:2,height:100,readOnly:true}" idx="003"/>
+			<item name="OPINION_TXT" type="textarea" label="Opinion" param="{columnSubCount:2,height:100}" idx="005"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+		</component>
+	</view>
+	
+	<view ID="ifactor_buyer_flow_cs_record_add">
+		<name>Buyer flow cs record add</name>
+		<desc>Buyer flow cs record add</desc>
+		<translate>yes</translate>
+		<purview></purview>
+		<iconcls>add</iconcls>
+		<displaymode>window</displaymode>
+		<handlemode>insert</handlemode>
+		<primaryTable handleType="single">IF_MGT_BUYER_FLOW_CS_RECORD</primaryTable>
+		<size>{height:200,width:400}</size>
+		<component>
+			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true,newline:true,group:'CS Record Info', groupWidth:950}" dv="#nowTime" idx="000"/>
+			<item name="REMARK" type="textarea" label="Remark" param="{height:150}" idx="003"/>
+			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>
+			<item name="USER_NAME" type="hidden" param="{}" dv="@userName" idx="005"/>
+			<item name="ORG_ID" type="hidden" param="{}" dv="@groupId" idx="006"/>
+			<item name="ORG_NAME" type="hidden" param="{}" dv="@groupName" idx="007"/>
+			<item name="APPLY_CODE" type="hidden" param="{}" dv="@applyCode" idx="008"/>
+			<item name="INS_ID" type="hidden" param="{}" dv="@insId" idx="009"/>
+			<item name="A_ID" type="hidden" param="{}" dv="@aId" idx="010"/>
+		</component>
+	</view>
+
+</table-view>

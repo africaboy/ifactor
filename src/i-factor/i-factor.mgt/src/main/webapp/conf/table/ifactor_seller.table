@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_CP_APPLY" description="seller apply">
+		<column>
+			<name>PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SA_APPLY_CODE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>application no</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>MYTITLE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>Title</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYFNAME</name>
+			<type>varchar</type>
+			<description>First Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYLNAME</name>
+			<type>varchar</type>
+			<description>Last Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYGENDERID</name>
+			<type>varchar</type>
+			<description>Gender(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>MYGENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>MYDOB</name>
+			<type>varchar</type>
+			<description>DOB</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYNATIONALITY</name>
+			<type>varchar</type>
+			<description>Nationality</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYCOUNTRYID</name>
+			<type>varchar</type>
+			<description>Country(ID)</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYIDTYPEID</name>
+			<type>varchar</type>
+			<description>ID type(ID)</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>MYIDTYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>MYIDNUMBER</name>
+			<type>varchar</type>
+			<description>ID Number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>WLOCALCODE</name>
+			<type>varchar</type>
+			<description>Work Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYWPHONE</name>
+			<type>varchar</type>
+			<description>Work Phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MLOCALCODE</name>
+			<type>varchar</type>
+			<description>Mobile Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYMPHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYPOSITION</name>
+			<type>varchar</type>
+			<description>Position</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYEMAIL</name>
+			<type>varchar</type>
+			<description>Email</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPNAME</name>
+			<type>varchar</type>
+			<description>Company Name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISCOMVIETNAM</name>
+			<type>varchar</type>
+			<description>Is the company registered in Vietnam</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPRCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Registration</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPDATE</name>
+			<type>varchar</type>
+			<description>Company Establishment Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPNUMBER</name>
+			<type>varchar</type>
+			<description>Company Registration Number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSECTORID</name>
+			<type>varchar</type>
+			<description>Industry Sector Company Operates in(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPSECTOR</name>
+			<type>varchar</type>
+			<description>Industry Sector Company Operates In</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>CPTAXCODE</name>
+			<type>varchar</type>
+			<description>Company Tax Code</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPADDRESS</name>
+			<type>varchar</type>
+			<description>Company Address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPDISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPCITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPREIZON</name>
+			<type>varchar</type>
+			<description>Region, State or County</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPPOSTCODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISDFCPADDRESS</name>
+			<type>integer</type>
+			<description>Different Mailing Address</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DFCPADDRESS</name>
+			<type>varchar</type>
+			<description>Mailing Address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPDISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPCITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPREIZON</name>
+			<type>varchar</type>
+			<description>Region, State or County</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPPOSTCODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>NEARESTSIGN</name>
+			<type>varchar</type>
+			<description>Please choose the nearest SME center you would like to go for contract signing</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS1</name>
+			<type>varchar</type>
+			<description>First eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS2</name>
+			<type>varchar</type>
+			<description>Seconde eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS3</name>
+			<type>varchar</type>
+			<description>Third eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS4</name>
+			<type>varchar</type>
+			<description>Fourth eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS5</name>
+			<type>varchar</type>
+			<description>Fifth eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TBDDEBTORS1</name>
+			<type>varchar</type>
+			<description>First name of other debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TBDDEBTORS2</name>
+			<type>varchar</type>
+			<description>Second name of other debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TBDDEBTORS3</name>
+			<type>varchar</type>
+			<description>Third name of other debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TBDDEBTORS4</name>
+			<type>varchar</type>
+			<description>Fourth name of other debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TBDDEBTORS5</name>
+			<type>varchar</type>
+			<description>Fifth name of other debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>INVOICEAMMOUNT</name>
+			<type>varchar</type>
+			<description>Your company's average invoice amount on yearly basis</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>SERIALNUM</name>
+			<type>varchar</type>
+			<description>If you have token for e-signature use , please specify the serial number on your token </description>
+			<length>200</length>
+		</column>
+		<!--<column>
+			<name>QUEST1</name>
+			<type>varchar</type>
+			<description>Does your company sell business to business and/or business to government</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>QUEST2</name>
+			<type>varchar</type>
+			<description>Can your customers also pay for a percentage of work done</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>QUEST3</name>
+			<type>varchar</type>
+			<description>Do you offer warrantees and/or return rights</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>QUEST4</name>
+			<type>varchar</type>
+			<description>Do you ever sell to any subsidiaries, or customers on consignment</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>QUEST5</name>
+			<type>varchar</type>
+			<description>Do you have a financing relationship, such as a line of credit, loan or factoring relationship</description>
+			<length>10</length>
+		</column>-->
+		<column>
+			<name>CPCTIME</name>
+			<type>varchar</type>
+			<description>Apply create time</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPDATEDDATE</name>
+			<type>varchar</type>
+			<description>last updated date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPSTATUS</name>
+			<type>varchar</type>
+			<description>status id</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSTATUS_VAL</name>
+			<type>varchar</type>
+			<description>Apply status</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DATAMODIFY</name>
+			<type>integer</type>
+			<description>data modify</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>CSCALLME</name>
+			<type>integer</type>
+			<description>CS call SME</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>COMPANIESTYPE</name>
+			<type>varchar</type>
+			<description>Types of Companies</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>COMPANIESTYPEID</name>
+			<type>varchar</type>
+			<description>Types of Companies</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>USERID</name>
+			<type>varchar</type>
+			<description>user id</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REMIND</name>
+			<type>varchar</type>
+			<description>Is already remind</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<!--<table name="IF_MGT_CPSH_APPLY" description="Company shareholder info">
+		<column>
+			<name>CPSH_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APPLY_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>seller apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_APPLY</referencing-table>  
+				<referencing-column>PK_ID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>CPSHTITLE</name>
+			<type>varchar</type>
+			<description>Title</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHFNAME</name>
+			<type>varchar</type>
+			<description>First Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHLNAME</name>
+			<type>varchar</type>
+			<description>Last Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHGENDERID</name>
+			<type>varchar</type>
+			<description>Gender(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPSHGENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPSHDOB</name>
+			<type>varchar</type>
+			<description>DOB</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPSHCOUNTRYID</name>
+			<type>varchar</type>
+			<description>Country(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPSHCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHIDTYPEID</name>
+			<type>varchar</type>
+			<description>ID type(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPSHIDTYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHIDNUMBER</name>
+			<type>varchar</type>
+			<description>ID number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHWPHONE</name>
+			<type>varchar</type>
+			<description>Work phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHMPHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPSHPOSITION</name>
+			<type>varchar</type>
+			<description>Position</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPSHEMAIL</name>
+			<type>varchar</type>
+			<description>Email</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>FISCALENDDATE</name>
+			<type>varchar</type>
+			<description>Fiscal year end date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ANNUALRENVENUE</name>
+			<type>decimal</type>
+			<description>Annual revenue at last fiscal year end</description>
+			<length>10</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>PROFITID</name>
+			<type>varchar</type>
+			<description>Did the company make profit last year(ID)</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>PROFIT</name>
+			<type>varchar</type>
+			<description>Did the company make profit last year</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>ESTIMATEDAG</name>
+			<type>varchar</type>
+			<description>Estimated average invoice amount</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ESTIMATEDAGGO</name>
+			<type>decimal</type>
+			<description>Estimated average revenue growth over the last two years</description>
+			<length>5</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>PRIMARYBANKID</name>
+			<type>varchar</type>
+			<description>Primary bank (ID)</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PRIMARYBANK</name>
+			<type>varchar</type>
+			<description>others, please specify</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BANKNUMBER</name>
+			<type>varchar</type>
+			<description>Primary bank account number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>EMPLOYEENUMBER</name>
+			<type>integer</type>
+			<description>How many employees does your company have</description>
+			<length>4</length>
+		</column>
+	</table>-->
+	
+	<table name="IF_MGT_SME_FLOW_OPINION" description="opinion info of sme apply flow">
+		<column>
+			<name>PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION</name>
+			<type>varchar</type>
+			<description>handle opinion key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION_VAL</name>
+			<type>varchar</type>
+			<description>handle opinion name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BANKACCOUNT</name>
+			<type>varchar</type>
+			<description>Bank account</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BALANCE</name>
+			<type>decimal</type>
+			<description>Account balance</description>
+			<length>20</length>
+			<scale>4</scale>
+		</column>
+		<column>
+			<name>IDCARD</name>
+			<type>varchar</type>
+			<description>Id card</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>NAME</name>
+			<type>varchar</type>
+			<description>name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>OPINION_REFERENCE</name>
+			<type>clob</type>
+			<description>handle opinion reference</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>OPINION_TXT</name>
+			<type>varchar</type>
+			<description>handle opinion remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>IMAGE_REMARK</name>
+			<type>varchar</type>
+			<description>image remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>ASSIGNTO</name>
+			<type>varchar</type>
+			<description>Assign to</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>CHECK_RESULT</name>
+			<type>varchar</type>
+			<description>check result</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_CP_CIC" description="CIC">
+		<column>
+			<name>CICID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CICKO1</name>
+			<type>varchar</type>
+			<description>KO 1</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CICKO1LABEL</name>
+			<type>varchar</type>
+			<description>KO 1 label</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CICKO2</name>
+			<type>varchar</type>
+			<description>KO 2</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CICKO2LABEL</name>
+			<type>varchar</type>
+			<description>KO 2 label</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CICKO3</name>
+			<type>integer</type>
+			<description>KO 3</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>TSTATEMENT</name>
+			<type>integer</type>
+			<description>Rating 1</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>NCIF</name>
+			<type>varchar</type>
+			<description>no CIC information found</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>NCIFLABEL</name>
+			<type>varchar</type>
+			<description>no CIC information found label</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_SCORING_RESULT" description="Scoring result">
+		<column>
+			<name>SR_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APPLY_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>seller apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_APPLY</referencing-table>  
+				<referencing-column>PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>CATEGORY1</name>
+			<type>decimal</type>
+			<description>Return</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY2</name>
+			<type>decimal</type>
+			<description>Profitability</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY3</name>
+			<type>decimal</type>
+			<description>Efficiency</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY4</name>
+			<type>decimal</type>
+			<description>Liquidity</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY5</name>
+			<type>decimal</type>
+			<description>DSCR</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY6</name>
+			<type>decimal</type>
+			<description>Leverage</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CATEGORY7</name>
+			<type>decimal</type>
+			<description>Size</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>LENDERSNUMBER</name>
+			<type>decimal</type>
+			<description>What is the number of lenders outstanding from the CIC form?</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>RESULT</name>
+			<type>decimal</type>
+			<description>Total score</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>RATING</name>
+			<type>varchar</type>
+			<description>Rating</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>RISKLEVEL</name>
+			<type>varchar</type>
+			<description>risk level</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>RISKLEVELID</name>
+			<type>varchar</type>
+			<description>risk level ID</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>RISKLEVELLABEL</name>
+			<type>varchar</type>
+			<description>risk level label</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_CP_PROFILE" description="SME Profile">
+		<column>
+			<name>PRO_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APPLY_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>seller apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_APPLY</referencing-table>  
+				<referencing-column>PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column> 
+			<name>PROFILE_APP_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>profile info</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_APPLY</referencing-table>  
+				<referencing-column>APP_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>CINUMBER</name>
+			<type>varchar</type>
+			<description>Client ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>COMPANY</name>
+			<type>varchar</type>
+			<description>company name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYCDATE</name>
+			<type>varchar</type>
+			<description>Company establishment date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>COMPANYRNUMBER</name>
+			<type>varchar</type>
+			<description>Company registration number</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYTAXCODE</name>
+			<type>varchar</type>
+			<description>Company tax code</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYOIN</name>
+			<type>varchar</type>
+			<description>Industry sector company operates in</description>
+			<length>300</length>
+		</column>
+		<column>
+			<name>COMPANIESTYPE</name>
+			<type>varchar</type>
+			<description>Types of Company</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>COMPANYADDRESS</name>
+			<type>varchar</type>
+			<description>Company address</description>
+			<length>600</length>
+		</column>
+		<column>
+			<name>COMPANYREGISTRATION</name>
+			<type>varchar</type>
+			<description>Country of registration</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>SMECENTERSIGN</name>
+			<type>varchar</type>
+			<description>SME center for contract signing</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>BANKACCOUNT</name>
+			<type>varchar</type>
+			<description>VPBank account number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ISDFCPADDRESS</name>
+			<type>integer</type>
+			<description>Different Mailing Address</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DFCPADDRESS</name>
+			<type>varchar</type>
+			<description>Mailing Address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPDISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPCITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPREIZON</name>
+			<type>varchar</type>
+			<description>Region, State or County</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCPPOSTCODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DARID</name>
+			<type>varchar</type>
+			<description>Debtor Acknowledgement Requirement ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>DAR</name>
+			<type>varchar</type>
+			<description>Debtor Acknowledgement Requirement</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RATING</name>
+			<type>varchar</type>
+			<description>Rating score</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RISKLEVELID</name>
+			<type>varchar</type>
+			<description>Risk level ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>RISKLEVEL</name>
+			<type>varchar</type>
+			<description>Risk level</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>OILIMIT</name>
+			<type>integer</type>
+			<description>Outstanding Invoice Limit</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>MIAMOUNT</name>
+			<type>decimal</type>
+			<description>Minimum invoice amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>MAAMOUNT</name>
+			<type>decimal</type>
+			<description>Maximum invoice amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVOICELIMIT</name>
+			<type>decimal</type>
+			<description>Revolving limit</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>DEBTORS1</name>
+			<type>varchar</type>
+			<description>First eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS2</name>
+			<type>varchar</type>
+			<description>Seconde eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS3</name>
+			<type>varchar</type>
+			<description>Third eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS4</name>
+			<type>varchar</type>
+			<description>Fourth eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DEBTORS5</name>
+			<type>varchar</type>
+			<description>Fifth eligible debtor's name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>INVOICEAMMOUNT</name>
+			<type>varchar</type>
+			<description>Your company's average invoice amount on yearly basis</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>SERIALNUM</name>
+			<type>varchar</type>
+			<description>Token serial number</description>
+			<length>200</length>
+		</column>
+		<!--
+		<column>
+			<name>TRLIMIT</name>
+			<type>decimal</type>
+			<description>total revolving limit</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REVOLVINGLIMIT</name>
+			<type>decimal</type>
+			<description>Revolving limit for 1 customer (Billion VND)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>-->
+		<column>
+			<name>MYTITLE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>Title</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYFNAME</name>
+			<type>varchar</type>
+			<description>First Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYLNAME</name>
+			<type>varchar</type>
+			<description>Last Name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYGENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>MYDOB</name>
+			<type>varchar</type>
+			<description>Date of birth</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYNATIONALITY</name>
+			<type>varchar</type>
+			<description>Nationality</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYCOUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>MYIDTYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>MYIDNUMBER</name>
+			<type>varchar</type>
+			<description>ID Number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYPOSITION</name>
+			<type>varchar</type>
+			<description>Position</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>WLOCALCODE</name>
+			<type>varchar</type>
+			<description>Work Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYWPHONE</name>
+			<type>varchar</type>
+			<description>Work Phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MLOCALCODE</name>
+			<type>varchar</type>
+			<description>Mobile Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MYMPHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MYEMAIL</name>
+			<type>varchar</type>
+			<description>Email address</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>STATUS</name>
+			<type>integer</type>
+			<description>profile status</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>LIMITBALANCE</name>
+			<type>decimal</type>
+			<description>limit balance</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>CREATETIME</name>
+			<type>varchar</type>
+			<description>Released time</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_SELLER_FLOW_CS_RECORD" description="cs record of seller apply flow">
+		<column>
+			<name>ISFCR_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APPLY_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>seller apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_CP_APPLY</referencing-table>  
+				<referencing-column>PK_ID</referencing-column> 
+			</foreign> 
+		</column> 
+		<column>
+			<name>INS_ID</name>
+			<type>varchar</type>
+			<description>insId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>A_ID</name>
+			<type>varchar</type>
+			<description>aId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>REMARK</name>
+			<type>varchar</type>
+			<description>remark</description>
+			<length>1000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

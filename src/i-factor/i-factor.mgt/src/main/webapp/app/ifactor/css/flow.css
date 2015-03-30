@@ -1,0 +1,16 @@
+.picture-add {
+	background-image: url(../images/picture_add.png) !important;
+}
+
+.picture-view {
+	background-image: url(../images/pictures.png) !important;
+}
+
+
+.icon-verify {
+	background-image: url(../images/world_link.png) !important;
+}
+
+.icon-tel {
+	background-image: url(../images/telephone.png) !important;
+}

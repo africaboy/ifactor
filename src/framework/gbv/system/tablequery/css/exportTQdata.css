@@ -1,0 +1,130 @@
+body {
+	font-size: 9pt;
+	scrollbar-face-color: #DEDEDE;
+	scrollbar-base-color: #F5F5F5;
+	scrollbar-arrow-color: black;
+	scrollbar-track-color: #F5F5F5;
+	scrollbar-shadow-color: #EBF5FF;
+	scrollbar-highlight-color: #F5F5F5;
+	scrollbar-3dlight-color: #C3C3C3;
+	scrollbar-darkshadow-Color: #9D9D9D;
+}
+
+.objqueryset {
+	background-image: url(../images/search.gif) !important;
+}
+
+.objqueryprint {
+	background-image: url(../images/printer_add.png) !important;
+}
+
+.ExtToolBar {
+	background-image: none;
+	background-repeat: repeat; /*    border-color:red ! important;
+    */
+	background-color: #ffffff;
+	border-bottom: 0px;
+}
+
+.PAGINATION_NUMBER {
+	text-align: center;
+}
+
+a:link {
+	color: #104D94;
+	text-decoration: none
+}
+
+a:visited {
+	color: #446C9A;
+	text-decoration: none
+}
+
+a:active {
+	color: #FF0000;
+}
+
+a:hover {
+	color: #FF0000;
+	text-decoration: none
+}
+
+h1 {
+	font: 25px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #369;
+	margin: 15px;
+}
+
+h1 A:link {
+	COLOR: #316A4c;
+	FONT-FAMILY: 'ËÎÌו';
+	TEXT-DECORATION: none
+}
+
+h1  A:visited {
+	COLOR: #316A4c;
+	FONT-FAMILY: ËÎÌו;
+	TEXT-DECORATION: none
+}
+
+h1  A:active {
+	FONT-FAMILY: ËÎÌו;
+	TEXT-DECORATION: none
+}
+
+h1  A:hover {
+	BORDER-TOP-WIDTH: 1px;
+	BORDER-LEFT-WIDTH: 1px;
+	COLOR: #316A4c;
+	BORDER-BOTTOM: 1px dotted;
+	BORDER-RIGHT-WIDTH: 1px;
+}
+
+.tab4list {
+	border-bottom: 1px solid #dcdddd;
+	border-collapse: collapse;
+}
+
+.tab4list caption {
+	padding: 0 0 5px 0;
+	font: 15px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+.tab4list td {
+	border-left: 1px solid #dcdddd;
+	border-right: 1px solid #dcdddd;
+	border-top: 1px solid #dcdddd;
+	background: #F5FAFA;
+}
+
+.tab4list td.td1 {
+	font-weight: bold;
+	background-color: #C1DAD7;
+	color: #434343;
+	border: 1px solid #999999;
+	padding: 4px;
+}
+
+.tab4list td.td0 {
+	border: 0px solid #dcdddd;
+	padding: 4px;
+}
+
+.tab-noborder {
+	background: #;
+	PADDING: 1px 0px 0px 0px;;
+	BORDER-COLLAPSE: collapse;;
+	line-height: 160%;
+	ttde: expression(this .     cellSpacing =       1)
+}
+
+.tab-noborder td {
+	padding: 2px;
+}
+
+.divn {
+	MARGIN: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

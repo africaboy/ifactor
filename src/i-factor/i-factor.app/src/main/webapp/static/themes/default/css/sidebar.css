@@ -1,0 +1,148 @@
+ .sidebar {
+    width: 197px;
+    float: left;
+    position: relative;
+    min-height:100px;
+    height:100px auto;  
+    background: #e8e8e8;
+    min-height: 400px;
+    /**下面的设置是为了使左右div等高填满父容器**/
+	float:left;	
+	margin-bottom: -10000px;
+	padding-bottom: 10000px;
+}
+
+    .sidebar:before,  .sidebar:after {
+        clear: both;
+        content: "&nbsp;";
+        display: block;
+        width: 197px;
+        position: relative;
+        bottom: 0;
+        top: 0;
+        z-index: -1;
+        background-color: #e8e8e8;
+        /*border: 1px solid #d2d2d2; */
+    }
+
+.sidebar-collapse {
+    text-align: center;
+    padding: 3px 0;
+    line-height: 18px;
+    position: relative;
+}
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:100%;
+    
+}
+
+    .nav-list > li {
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-top:20px;
+        border: 0;
+        position: relative;
+        background-color:#e8e8e8;
+    }
+
+.nav-list > li > a {
+	color:#848484;
+    font-weight: bold;
+    font-size:20px;
+     margin: 0;
+}
+
+.nav-list > li.open > a ,.nav-list .open > a, .nav-list .open > a:hover, .nav-list .open > a:focus {
+    background-color:#e8e8e8;
+    color:#848484;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.nav-list > li.active > a, .nav-list > li.active > a:hover, .nav-list > li.active > a:focus, .nav-list > li.active > a:active {
+    color:#11a2af;
+    font-weight: bold;
+    font-size:20px;
+}
+/*sub menu*/
+.nav-list li .submenu {
+    overflow: hidden;
+}
+
+.nav-list > li .submenu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+    .nav-list > li .submenu > li {
+        margin-left: 0;
+        position: relative;
+        height:32px;
+        width:100%;
+    }
+
+.nav-list > li.active .submenu,.nav-list > li.open .submenu  {
+    display: block;
+}
+
+
+.nav-list > li.active > .submenu > li:before {
+}
+
+
+.nav-list > li > .submenu > li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    left: 20px;
+    top: 17px;
+}
+
+.nav-list > li .submenu > li > a {
+    display: block;
+    position: relative;
+    color: #848484;
+    height:100%;
+    font-size:18px;
+    padding: 7px 15px 9px 15px;
+    margin: 0;
+    text-decoration:none;
+    background:none;
+}
+
+.nav-list > li .submenu > li.active > a,
+.nav-list > li .submenu > li:hover > a ,
+.nav-list > li .submenu > li > a:hover, 
+.nav-list > li .submenu > li > a:focus {
+    background:url(../img/sidebar-bg-item.png) no-repeat;
+    color:#c0f1f5;
+}
+
+
+.nav-list > li > .submenu > li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 7px;
+    left: 20px;
+    top: 17px;
+}
+
+.nav-list > li > .submenu > li > a > .icon-plus {
+	display: inline-block;
+	margin:0;
+	padding:0;
+	width: 7px;
+    height:8px;
+  
+    text-align: center;
+    background:url(../img/sidebar-icon-plus.png) top left no-repeat;
+}

@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<linkbook desc="conf.language">ifactor.vn.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.menu.vn.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.queries.vn.lang</linkbook>
+	<linkbook desc="conf.language">ifactor.views.vn.lang</linkbook>
+	<common-language> 
+		<item id="add" desc="">Thêm</item>
+		<item id="edit" desc="">Chỉnh sửa</item>
+		<item id="submit" desc="">Nộp</item>
+		<item id="save" desc="">Lưu</item>  
+		<item id="reset" desc="">Thiết lập lại</item>
+		<item id="cancel" desc="">Hủy</item>
+		<item id="refresh" desc="">Làm mới</item>
+		<item id="update" desc="">Cập nhật</item>
+		<item id="delete" desc="">Xóa</item>
+		<item id="query" desc="">Truy vấn</item>
+		<item id="warn" desc="">Cảnh báo</item>
+		<item id="error" desc="">Lỗi</item>
+		<item id="close" desc="">Đóng</item>
+		<item id="prompt" desc="">Xác nhận</item>
+		<item id="import" desc="">Nhập dữ liệu</item>
+		<item id="export" desc="">Xuất dữ liệu</item>
+		<item id="select" desc="">Lựa chọn</item>
+		<item id="confirm" desc="">Xác nhận</item>
+		<item id="download" desc="">Tải về</item>
+		<item id="select-emptytext" desc="">Vui lòng chọn...</item>
+		<item id="query-setting" desc="">Thiết lập lại các điều kiện truy vấn thất bại.</item>
+		<item id="load-failure" desc="">Không thể tải được dữ liệu</item>
+		<item id="list-idx" desc="">Số</item>
+		<item id="list-asc" desc="">Tăng dần</item>
+		<item id="list-desc" desc="">Giảm dần</item>
+		<item id="list-loading" desc="">Dữ liệu đang được tải, Vui lòng đợi...</item>
+		<item id="list-displaymsg" desc="">Tổng số Bản ghi {0} - {1} of {2}</item>
+		<item id="list-emptymsg" desc="">Không có Bản ghi</item>
+		<item id="submit-loading" desc="">Đang nộp...</item>
+		<item id="delete-loading" desc="">Đang xóa...</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa?</item>
+		<item id="import-loading" desc="">Đang nhập dữ liệu...</item>
+		<item id="export-loading" desc="">Đang xuất dữ liệu...</item>
+		<item id="init-loading" desc="">Đang khởi tạo...</item>
+		<item id="success" desc="">Thành công!</item>
+		<item id="failure" desc="">Thất bại!</item>
+	</common-language> 
+	<frequence-language> 
+		<item id="purview-title" desc="">Cho phép Truy cập</item>
+		<item id="purview-yes" desc="">Có</item>
+		<item id="purview-no" desc="">Không</item>
+		<item id="purview-load-error" desc="">Tải thông tin cho phép truy cập không thành công.</item>
+		<item id="yes" desc="">Có</item>
+		<item id="no" desc="">Không</item>
+	</frequence-language>	
+	<welcome-language>
+		<item id="welcomeLogin" desc="">Welcome</item>
+		<item id="title" desc="">Nền tảng Hỗ trợ Ứng dụng JET </item> 
+		<item id="welcome" desc="">Chào mừng đến với Nền tảng Hỗ trợ Ứng dụng JET</item>  
+		<item id="logid" desc="">ID Đăng nhập</item>
+		<item id="logpwd" desc="">Mật khẩu</item>
+		<item id="logid-blanktext" desc="">Vui lòng nhập ID đăng nhập.</item>
+		<item id="logpwd-blanktext" desc="">Vui lòng nhập mật khẩu.</item>
+		<item id="logbutton" desc="">Đăng nhập</item>
+		<item id="logloading" desc="">Đang đăng nhập...</item>
+		<item id="logloadingmsg" desc="">Đang đăng nhập...</item>
+		<item id="notadmin" desc="">Tài khoản này không cho phép quản trị hệ thống. Vui lòng sử dụng một tài khoản cho phép quản trị hệ thống để đăng nhập.</item>
+		<item id="logidinvalid" desc="">Tài khoản của bạn đã hết hạn, Vui lòng liên hệ với Người quản lý để cho phép lại tài khoản!</item>
+		<item id="notlogin" desc="">Sai ID đăng nhập hoặc mật khẩu. Vui lòng đăng nhập lại.</item>
+		<item id="elseerror" desc="">Máy chủ không có sẵn. Vui lòng thử lại sau.</item>
+	        <item id="notice" desc="">Bạn đã không có thao tác nào trong thời gian quá lâu, Vui lòng đăng nhập lại để tiếp tục phần việc hiện tại .</item>
+	        <item id="recover" desc="">Phần việc đã được khôi phục thành công.</item>
+	</welcome-language>
+	<console-language desc="common language label"> 
+		<item id="title" desc="">JET Application-Enabling Platform</item>
+		<item id="loading" desc="">Đang tải trang...</item>
+		<item id="consoletab-title" desc="">Quản trị Hệ thống</item>
+		<item id="westpanel-title" desc="">Quản trị Hệ thống</item> 
+		<item id="westpanel-user" desc="">Người dùng Hệ thống</item>
+		<item id="westpanel-group" desc="">Quản lý Tổ chức</item>
+		<item id="westpanel-groupadjust" desc="">Điều chỉnh Tổ chức</item>
+		<item id="westpanel-role" desc="">Các vai trò Hệ thống</item>
+		<item id="westpanel-module" desc="">Mô-đun Ứng dụng</item>
+		<item id="westpanel-tablequery" desc="">Truy vấn Bảng Dữ liệu</item>
+		<item id="westpanel-tableview" desc="">Tạo bảng logic</item>
+		<item id="westpanel-workflow" desc="">Quy trình</item>
+		<item id="westpanel-dataindex" desc="">Danh mục Dữ liệu</item>
+		<item id="westpanel-wordbook" desc="">Từ điển Dữ liệu</item>
+		<item id="westpanel-table" desc="">Bảng Dữ liệu</item>
+		<item id="westpanel-databackup" desc="">Sao lưu Dữ liệu</item>
+		<item id="westpanel-datarestore" desc="">Khôi phục Dữ liệu</item>
+		<item id="westpanel-syslog" desc="">Nhật ký Hệ thống</item>
+		<item id="westpanel-annex" desc="">Đính kèm</item>
+		<item id="centerpanel-title" desc="">Các thông số Hoạt động</item>
+		<item id="sessionuser-label" desc="">Người dùng:</item>
+		<item id="pwdbutton-tooltip" desc="">Vui lòng thay đổi mật khẩu thường xuyên cho việc bảo mật</item>
+		<item id="pwdbutton-text" desc="">Quản lý mật khẩu</item>
+		<item id="settingbutton-tooltip" desc="">Thiết lập Thông số Toàn cục của Hệ thống</item>
+		<item id="settingbutton-text" desc="">Thiếp lập Hệ thống</item>
+		<item id="logoutbutton-tooltip" desc="">Đăng xuất</item>
+		<item id="logoutbutton-text" desc="">Đăng xuất</item>
+		<item id="logoutbutton-confirm-title" desc="">Xác nhận</item>
+		<item id="logoutbutton-confirm-msg" desc="">Xác nhận để đăng xuất?</item>  
+		<item id="param-version-label" desc="">Phiên bản Hệ thống</item>
+		<item id="param-ip-label" desc="">Giao diện điều khiển IP</item>
+		<item id="param-charset-label" desc="">Bộ ký tự</item>
+		<item id="param-sessonfilter-label" desc="">Lọc theo Phiên làm việc</item>
+		<item id="param-checkbrowser-label" desc="">Lọc theo Trình duyệt</item>
+		<item id="param-datasource-label" desc="">Nguồn Dữ liệu</item>
+		<item id="param-database-label" desc="">Loại cơ sở dữ liệu</item>
+		<item id="param-annex-label" desc="">Bộ xử lý đính kèm</item>
+		<item id="param-totalmemory-label" desc="">Tổng bộ nhớ</item>
+		<item id="param-maxmemory-label" desc="">Bộ nhớ tối đa</item>
+		<item id="param-freememory-label" desc="">Bộ nhớ còn trống</item>
+	</console-language> 
+	<gapsetting-language>
+		<item id="icon-label" desc="">Chọn để sửa biểu tượng</item>
+		<item id="icon-now" desc=""> Biểu tượng ban đầu</item>
+		<item id="icon-new" desc="">Biểu tượng mới</item>
+		<item id="icon-title" desc="">Cửa sổ chỉnh sửa biểu tượng</item>
+		<item id="icon-edit-prompt" desc="">Xác nhận để cập nhật biểu tượng?</item>
+		<item id="icon-edit-success" desc="">Biểu tượng đã được cập nhật thành công.</item>
+		<item id="icon-edit-failure" desc="">Cập nhật biểu tượng thất bại.</item>
+		<item id="icon-delete-prompt" desc="">Xác nhận để xóa biểu tượng?</item>
+		<item id="icon-delete-success" desc="">Biểu tượng đã được xóa thành công.</item>
+		<item id="icon-delete-failure" desc="">Xóa biểu tượng thất bại.</item>
+		<item id="icon" desc="">Biểu tượng Window</item>
+		<item id="thumb" desc="">Ảnh thu gọn</item>
+		<item id="sys_name" desc="">Tên Hệ thống</item>
+		<item id="sys_login" desc="">Trang Đăng nhập Hệ thống</item>
+		<item id="sys_welcome" desc="">Tin nhắn Chào mừng Hệ thống</item>
+		<item id="sys_index" desc="">Trang chủ Hệ thống</item>
+		<item id="sys_desktop" desc="">Màn hình Hệ thống</item>
+		<item id="sys_title" desc="">Tiêu đề Trang chủ</item>
+		<item id="sys_copyright" desc="">Bản quyền</item>
+		<item id="sys_version" desc="">Phiên bản</item>
+		<item id="sys_producer" desc="">Người phát triển</item>
+		<item id="setting-title" desc="">Thiết lập Hệ thống</item>
+		<item id="setting-prompt" desc="">Xác nhận để cập nhật hệ thống?</item>
+		<item id="setting-success" desc="">Thiết lập hệ thống đã được cập nhật thành công.</item>
+		<item id="setting-failure" desc="">Cập nhật hệ thống thất bại.</item>
+		<item id="setting-update" desc="">Cập nhật</item>
+		<item id="setting-upload" desc="">Tải về ứng dụng</item>
+	</gapsetting-language>
+	<user-language>
+		<item id="tbar-createuser" desc="">Người dùng mới</item>
+		<item id="tbar-searchuser" desc="">Truy vấn Người dùng</item>
+		<item id="tbar-deleteuser" desc="">Xóa Người dùng</item>
+		<item id="tbar-parttime" desc="">Thiết lập Part-time</item>
+		<item id="tbar-userpurview" desc="">Thiết lập cho phép người dùng</item>
+		<item id="list-title" desc="">Danh sách Thông tin Người dùng Hệ thống</item>
+		<item id="list-name" desc="">Tên</item>
+		<item id="list-logid" desc="">ID đăng nhập</item>
+		<item id="list-sex" desc="">Giới tính</item>
+		<item id="list-number" desc="">Số nhân viên</item>
+		<item id="list-group" desc="">Phòng/Ban</item>
+		<item id="list-rating" desc="">Chức vụ</item>
+		<item id="list-phone" desc="">Số điện thoại</item>
+		<item id="list-status" desc="">Trạng thái</item>
+		<item id="list-role" desc="">Vai trò</item>
+		<item id="list-resetpwd" desc="">Thiết lập lại mật khẩu</item>
+		<item id="editpwdform-title" desc="">Quản lý Mật khẩu Người dùng</item>
+		<item id="editpwdform-originalpwd" desc="">Mật khẩu Ban đầu</item>
+		<item id="editpwdform-newpwd" desc="">Mật khẩu Mới</item>
+		<item id="form-title" desc="">Thông tin Nguời dùng</item>
+		<item id="form-basic" desc="">Thông tin Cơ bản</item>
+		<item id="form-detail" desc="">Thông tin Chi tiết</item>
+		<item id="form-name" desc="">Tên người dùng</item>
+		<item id="form-name-emptytext" desc="">Vui lòng nhập thông tin người dùng</item>
+		<item id="form-logid" desc="">ID Đăng nhập</item>
+		<item id="form-logid-emptytext" desc="">Vui lòng nhập ID Đăng nhập</item>
+		<item id="form-pwd" desc="">Mật khẩu</item>
+		<item id="form-cfmpwd" desc="">Xác nhận mật khẩu</item>
+		<item id="form-sex" desc="">Giới tính</item>
+		<item id="form-sex-male" desc="">Nam</item>
+		<item id="form-sex-female" desc="">Nữ</item>
+		<item id="form-birthday" desc="">Ngày sinh</item>
+		<item id="form-phone" desc="">Số điện thoại</item>
+		<item id="form-email" desc="">Email</item>
+		<item id="form-email-emptytext" desc="">Vui lòng nhập email chính xác</item>
+		<item id="form-code" desc="">ID Nhân viên</item>
+		<item id="form-group" desc="">Phòng/Ban</item>
+		<item id="form-rating" desc="">Chức vụ</item>
+		<item id="form-job" desc="">Vị trí</item>
+		<item id="form-idx" desc="">Index</item>
+		<item id="form-idx-regextext" desc="">Chỉ số nguyên dương được phép</item>
+		<item id="form-status" desc="">Trạng thái</item>
+		<item id="form-status-normal" desc="">Bình thường</item>
+		<item id="form-flag" desc="">Hiệu lực</item>
+		<item id="form-flag-valid" desc="">Có hiệu lực</item>
+		<item id="form-flag-invalid" desc="">Vô hiệu</item>
+		<item id="form-success-confirm" desc="">Thông tin người dùng đã được đăng ký thành công. Bạn có muốn đăng ký người dùng mới?</item>
+		<item id="form-failure-error" desc="">Nộp thông tin người dùng không thành công.</item>
+		<item id="form-failure-invalidlogid" desc="">Phải nhập ID đăng nhập.</item>
+		<item id="form-failure-reduplicatelogid" desc="">ID đăng nhập đã được sử dụng. Vui lòng nhập lại.</item>
+		<item id="form-failure-indecisiveerror" desc="">Lỗi không xác định</item>
+		<item id="form-failure-invalidinput" desc="">Vui lòng nhập thông tin bắt buộc trong thông tin cơ bản và thông tin chi tiết.</item>
+		<item id="editpwdform-failure-originalpwderror" desc="">Mật khẩu ban đầu không chính xác, xin vui lòng nhập lại!</item>
+		<item id="editpwdform-failure" desc="">Thay đổi mật khẩu không thành công!</item>
+		<item id="prompt-resetpwd" desc="">Xác nhận để thiết lập lại mật khẩu</item>
+		<item id="resetpwd-success" desc="">Mật khẩu của người dùng đã được thiết lập thành công. Vui lòng thông báo đến người dùng để thay đổi mật khẩu.</item>
+		<item id="resetpwd-failure" desc="">Thiết lập mật khẩu người dùng không thành công.</item>
+		<item id="query-title" desc="">Truy vấn Người dùng</item>
+		<item id="query-area" desc="">Vị trí</item>
+		<item id="query-alert" desc="">Thiết lập các điều kiện truy vấn không thành công.</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa người dùng?</item>
+		<item id="delete-alert" desc="">Chọn người dùng bạn muốn xóa.</item>
+		<item id="delete-success" desc="">Xóa người dùng không thành công.</item>
+		<item id="delete-failure" desc="">Người dùng đã được xóa thành công.</item>
+		<item id="edit-load-error" desc="">Đọc thông tin người dùng không thành công.</item>
+		<item id="edit-success" desc="">Thông tin người dùng đã được cập nhật thành công.</item>
+	</user-language>
+	<group-language>
+		<item id="treepanel-title" desc="">Cơ cấu Tổ chức</item>
+		<item id="tree-root" desc="">Nguồn gốc</item>
+		<item id="tree-temp" desc="">Nhóm Tạm thời</item>
+		<item id="tree-menu-add" desc="">Thêm</item>
+		<item id="tree-menu-edit" desc="">Chỉnh sửa</item>
+		<item id="tree-menu-delete" desc="">Xóa</item>
+		<item id="node-adjust-error" desc="">Lỗi trong việc điều chỉnh cơ cấu tổ chức. Vui lòng thử lại.</item>
+		<item id="node-reorder-error" desc="">Lỗi trong việc sắp xếp lại tổ chức. Vui lòng thử lại.</item>
+		<item id="form-title" desc="">Thông tin Tổ chức</item>
+		<item id="form-pname" desc="">Tên Tổ chức gốc</item>
+		<item id="form-name" desc="">Tên tổ chức</item>
+		<item id="form-desc" desc="">Mô tả Tổ chức</item>
+		<item id="form-rating" desc="">Cấp bậc Tổ chức</item>
+		<item id="form-area" desc="">Vị trí</item>
+		<item id="form-number" desc="">Mã tổ chức</item>
+		<item id="form-code" desc="">Mã nhóm</item>
+		<item id="form-branch" desc="">Chi nhánh</item>
+		<item id="form-branch-yes" desc="">Có</item>
+		<item id="form-branch-no" desc="">Không</item>
+		<item id="form-province" desc="">Tỉnh</item>
+		<item id="form-city" desc="">Thành phố</item>
+		<item id="form-detail" desc="">Địa chỉ chi tiết</item>
+		<item id="form-tel" desc="">Điện thoại</item>
+		<item id="form-email" desc="">Email</item>
+		<item id="form-success" desc="">Thông tin tổ chức đã được nộp và lưu lại thành công.</item>
+		<item id="form-error" desc="">Lỗi trong việc nộp vào lưu thông tin tổ chức.</item>
+		<item id="edit-load-error" desc="">Đọc thông tin tổ chức không thành công.</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa nhóm?</item>
+		<item id="delete-success" desc="">Nhóm đã được xóa thành công.</item>
+		<item id="delete-error" desc="">Xóa nhóm không thành công.</item>
+	</group-language>
+	<role-language>
+		<item id="tbar-add" desc="">Thêm vai trò</item>
+		<item id="tbar-delete" desc="">Xóa vai trò</item>
+		<item id="tbar-purview" desc="">Thiết lập Cho phép vai trò</item>
+		<item id="list-title" desc="">Danh sách Vai trò Hệ thống</item>
+		<item id="list-name" desc="">Tên Vai trò</item>
+		<item id="list-desc" desc="">Mô tả vai trò</item>
+		<item id="list-key" desc="">ID đặc trưng</item>
+		<item id="list-raccede" desc="">Chỉ định cho phép nhóm</item>
+		<item id="list-real" desc="">Vai trò hệ thống/Vai trò khác</item>
+		<item id="list-real-yes" desc="">Vai trò hệ thống</item>
+		<item id="list-real-no" desc="">Vai trò khác</item>
+		<item id="list-raccede-yes" desc="">Có</item>
+		<item id="list-raccede-no" desc="">Không</item>
+		<item id="list-object" desc="">Đối tượng của Vai trò</item>
+		<item id="object-list-title" desc="">Danh sách các đối tượng của Vai trò</item>
+		<item id="object-name" desc="">Tên Đối tượng</item>
+		<item id="object-type" desc="">Loại Đối tượng</item>
+		<item id="object-id" desc="">ID Đối tượng</item>
+		<item id="remove-prompt" desc="">Xác nhận xóa vai trò đối tượng?</item>
+		<item id="remove-success" desc="">Vai trò đối tượng được xóa thành công.</item>
+		<item id="remove-error" desc="">Xóa vai trò đối tượng không thành công.</item>
+		<item id="delete-alert" desc="">Vui lòng chọn vai trò muốn xóa.</item>
+		<item id="delete-prompt" desc="">Xác nhận xóa vai trò?</item>
+		<item id="delete-success" desc="">Vai trò được xóa thành công.</item>
+		<item id="delete-error" desc="">Xóa vai trò không thành công.</item>
+		<item id="form-title" desc="">Thông tin Vai trò</item>
+		<item id="form-name" desc="">Tên Vai trò</item>
+		<item id="form-name-emptytext" desc="">Vui lòng xác định tên vai trò.</item>
+		<item id="form-key" desc="">ID đặc trưng</item>
+		<item id="form-key-emptytext" desc="">Vui lòng xác định ID đặc trưng.</item>
+		<item id="form-desc" desc="">Mô tả Vai trò</item>
+		<item id="form-real" desc="">Vai trò hệ thống/Vai trò khác</item>
+		<item id="form-real-yes" desc="">Vai trò hệ thống</item>
+		<item id="form-real-no" desc="">Vai trò khác</item>
+		<item id="form-raccede" desc="">Chỉ định cho phép nhóm</item>
+		<item id="form-object" desc="">Đối tượng Vai trò</item>
+		<item id="form-object-rating" desc="">Cấp độ Đối tượng</item>
+		<item id="form-alert-object" desc="">Vui lòng chọn đối tượng vai trò.</item>
+		<item id="form-alert-rating" desc="">Vui lòng chọn cấp độ đối tượng</item>
+		<item id="form-success" desc="">Thông tin vai trò được lưu thành công. Bạn có muốn xác định các vai trò mới?</item>
+		<item id="form-failure-error" desc="">Nộp và lưu thông tin vai trò không thành công.</item>
+		<item id="form-failure-reduplicatekey" desc="">ID đặc trưng của vai trò đã được sử dụng.</item>
+		<item id="form-failure-invalidkey" desc="">Không được để trống ID đặc trưng của vai trò.</item>
+		<item id="form-failure-indecisiveerror" desc="">Lỗi không xác định</item>
+		<item id="edit-load-error" desc="">Đọc thông tin vai trò không thành công.</item>
+		<item id="edit-success" desc="">Thông tin vai trò được lưu thành công.</item>
+	</role-language>
+	<module-language>
+		<item id="module" desc="">Mô-đun</item>
+		<item id="menu" desc="">Bảng lựa chon</item>
+		<item id="tree-root" desc="">Nguồn gốc</item>
+		<item id="tbar-add" desc="">Thêm Mô-đun</item>
+		<item id="tbar-delete" desc="">Xóa Mô-dun</item>
+		<item id="tbar-purview" desc="">Gán Quyền Truy cập Mô-đun</item>
+		<item id="list-title" desc="">Danh sách Thông tin của Mô-đun Hồ sơ</item>
+		<item id="list-name" desc="">Tên Mô-đun</item>
+		<item id="list-desc" desc="">Mô tả Mô-đun</item>
+		<item id="list-link" desc="">Đường dẫn Mô-đun</item>
+		<item id="list-idx" desc="">Mục lục</item>
+		<item id="list-menumanage" desc="">Quản lý Danh sách lựa chon</item>
+		<item id="list-purview" desc="">Quyền truy cập</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa Mô-đun?</item>
+		<item id="delete-alert" desc="">Vui lòng chon Mô-đun muốn xóa.</item>
+		<item id="delete-success" desc="">Mô-đun đã được xóa thành công.</item>
+		<item id="delete-error" desc="">Xóa Mô-đun không thành công.</item>
+		<item id="form-title" desc="">Thông tin Mô-đun</item>
+		<item id="form-name" desc="">Tên Mô-đun</item>
+		<item id="form-name-emptytext" desc="">Vui lòng xác định tên Mô-đun</item>
+		<item id="form-desc" desc="">Mô tả Mô-đun</item>
+		<item id="form-link" desc="">Tùy chỉnh liên kết</item>
+		<item id="form-idx" desc="">Mục lục</item>
+		<item id="form-langkey" desc="">Nhãn Ngôn ngữ</item>
+		<item id="form-failure-error" desc="">Lỗi nộp và lưu thông tin Mô-đun</item>
+		<item id="form-failure-indecisiveerror" desc="">Lỗi không xác định</item>
+		<item id="edit-load-error" desc="">Đọc thông tin Mô-đun không thành công</item>
+		<item id="edit-success" desc="">Thông tin Mô-đun đã được lưu thành công.</item>
+		<item id="treepanel-title" desc="">Mô-đun</item>
+		<item id="treewindow-title" desc="">Quản lý Mô-đun</item>
+		<item id="treemenu-add" desc="">Thêm Danh sách lựa chọn</item>
+		<item id="treemenu-edit" desc="">Chỉnh sửa</item>
+		<item id="treemenu-move" desc="">Chuyển đi</item>
+		<item id="treemenu-delete" desc="">Xóa</item>
+		<item id="purview-list-title" desc="">Danh sách Quyền truy cập</item>
+		<item id="purview-window-title" desc="">Thiết lập Quyền truy cập</item>
+		<item id="purview-nav-title" desc="">Mô-đun Chức năng Hồ sơ</item>
+		<item id="purview-used-title" desc="">Quyền truy cập đã được sử dụng</item>
+		<item id="purview-success" desc="">Phân quyền truy cập thành công</item>
+		<item id="purview-failure" desc="">Phân quyền truy cập không thành công.</item>
+		<item id="purview-delete-prompt" desc="">Xác nhận để xóa phân quyền?</item>
+		<item id="purview-delete-success" desc="">Xóa Phân quyền thành công.</item>
+		<item id="purview-delete-failure" desc="">Xóa phân quyền không thành công.</item>
+		<item id="move-title" desc="">Chuyển đến...</item>
+		<item id="move-failure-error1" desc="">Danh sách lựa chọn không thể chuyển đi dưới nút này.</item>
+		<item id="move-failure-error2" desc="">Danh sách lựa chọn đã trong nút này.</item>
+		<item id="move-success" desc="">Danh sách lựa chọn đã chuyển đi thành công.</item>
+		<item id="move-failure" desc="">Chuyển danh sách lựa chọn không thành công.</item>
+		<item id="authorize-title" desc="">Phân quyền truy cập Mô-đun</item>
+		<item id="authorize-range" desc="">Phạm vi</item>
+		<item id="authorize-role" desc="">Vai trò</item>
+		<item id="authorize-user" desc="">Người dùng</item>
+		<item id="authorize-loadrole-error" desc="">Tải thông tin quyền của vai trò không thành công.</item>
+		<item id="authorize-loaduser-error" desc="">Tải thông tin quyền người dùng không thành công.</item>
+		<item id="authorize-alert" desc="">Vui lòng lựa chọn quyền quản lý.</item>  <!-- unknow -->
+		<item id="authorize-object-alert" desc="">Vui lòng lựa chọn vai trò hoặc người dùng cho việc phân quyền.</item>
+		<item id="authorize-success" desc="">Phân quyền thành công.</item>
+		<item id="authorize-failure" desc="">Phân quyền không thành công.</item> <!-- unknow -->
+	</module-language>
+	<menu-language>
+		<item id="delete-prompt" desc="">Xác nhận để xóa danh sách lựa chọn?</item>
+		<item id="delete-success" desc="">Xóa danh sách lựa chọn thành công.</item>
+		<item id="delete-failure-error" desc="">Xóa danh sách lựa chọn không thành công.</item>
+		<item id="delete-failure-childrenerror" desc="">Không thể xóa danh sách lựa chọn. Vui lòng xóa danh sách con trước.</item>
+		<item id="form-title" desc="">Thông tin Danh sách lựa chọn</item>
+		<item id="form-pname" desc="">Nguồn gốc</item>
+		<item id="form-name" desc="">Tên danh sách lựa chọn</item>
+		<item id="form-icon" desc="">Biểu tượng của Danh sách lựa chọn</item>
+		<item id="form-desc" desc="">Mô tả Danh sách lựa chọn</item>
+		<item id="form-link" desc="">Đường dẫn Danh sách lựa chọn</item>
+		<item id="form-idx" desc="">Mục lục</item>
+		<item id="form-langkey" desc="">Nhãn Ngôn ngữ</item>
+		<item id="form-success" desc="">Lưu danh sách lựa chọn thành công.</item>
+		<item id="form-failure" desc="">Lưu danh sách lựa chọn không thành công.</item>
+		<item id="edit-load-error" desc="">Tải thông tin danh sách lựa chọn không thành công.</item>
+	</menu-language>
+	<workflow-language>
+		<item id="draw" desc="">Biểu đồ</item>
+		<item id="setting" desc="">Thiết lập nút</item>
+		<item id="init" desc="">Khởi tạo</item>
+		<item id="flowlist-title" desc="">Danh sách Quy trình</item>
+		<item id="flowlist-name" desc="">Tên loại Quy trình</item>
+		<item id="flowlist-key" desc="">ID duy nhất</item>
+		<item id="flowlist-object" desc="">Đối tượng luồng</item>
+		<item id="flowlist-support" desc="">Hệ thống hoạt động</item>
+		<item id="flowlist-desc" desc="">Mô tả Loại Quy trình</item>
+		<item id="flowlist-opinion" desc="">Hiển thị Ý kiến Phê duyệt</item>
+		<item id="flowlist-keepdata" desc="">Giữ Dữ liệu Kinh doanh</item>
+		<item id="flowlist-op" desc="">Thiết lập Hoạt động</item>
+		<item id="flowlist-tbar-add" desc="">Thêm luồng mới</item>
+		<item id="flowlist-tbar-delete" desc="">Xóa luồng</item>
+		<item id="flowlist-tbar-copy" desc="">Sao chép luồng</item>
+		<item id="flowlist-tbar-export" desc="">Xuất dữ liệu</item>
+		<item id="flowlist-tbar-import" desc="">Nhập dữ liệu</item>
+		<item id="flow-delete-prompt" desc="">Xác nhận để xóa luồng này?</item>
+		<item id="flow-delete-success" desc="">Xóa luồng thành công.</item>
+		<item id="flow-delete-failure" desc="">Xóa luồng không thành công.</item>
+		<item id="flow-import-file" desc="">Tập tin Dữ liệu</item>
+		<item id="flow-import-title" desc="">Quy trình Nhập dữ liệu</item>
+		<item id="flow-import-prompt" desc="">Xác nhận để nhập tập tin được lựa chọn?</item>
+		<item id="flow-import-success" desc="">Quy trình đã được nhập thành công.</item>
+		<item id="flow-import-failure" desc="">Nhập tập tin đã lựa chọn không thành công.</item>
+		<item id="flow-init-alert" desc="">Khởi tạo sẽ loại bỏ tất cả các dữ liệu hoạt động và kinh doanh liên quan đến quy trình. Sau khi khởi tạo, dữ liệu đã bị loại bỏ không thể khôi phục.</item>
+		<item id="flow-init-success" desc="">Khởi tạo quy trình thành công.</item>
+		<item id="flow-init-failure" desc="">Khởi tạo quy trình không thành công.</item>
+		<item id="flow-init-error" desc="">Lỗi khởi tạo quy trình.</item>
+		<item id="flow-form-name" desc="">Tên Quy trình</item>
+		<item id="flow-form-key" desc="">Từ khóa Nhận diện</item>
+		<item id="flow-form-desc" desc="">Mô tả Quy trình</item>
+		<item id="flow-form-js" desc="">JS Plugin</item>
+		<item id="flow-form-css" desc="">CSS Plugin</item>
+		<item id="flow-form-object" desc="">Đối tượng luồng</item>
+		<item id="flow-form-opinion" desc="">Bảng Ý kiến Phê duyệt</item>
+		<item id="flow-form-opinionlist" desc="">Danh sách Ý kiến phê  duyệt</item>
+		<item id="flow-form-keepdata" desc="">Giữ Dữ liệu Kinh doanh</item>
+		<item id="flow-form-title" desc="">Thông tin Quy trình</item>
+		<item id="flow-form-save-success" desc="">Lưu quy trình thành công.</item>
+		<item id="flow-form-save-error" desc="">Lỗi không xác định.</item>
+		<item id="flow-form-save-reduplicatederror" desc="">ID duy nhất đã được sử dụng. Vui lòng xác định lại</item>
+		<item id="flow-form-save-failure" desc="">Nộp và lưu quy trình không thành công.</item>
+		<item id="flow-form-load-noflowerror" desc="">Quy trình không tồn tại.</item>
+		<item id="flow-form-load-noobjecterror" desc="">Đối tượng quy trình không tồn tại.</item>
+		<item id="steplist-title" desc="">Danh sách Quy trình</item>
+		<item id="steplist-name" desc="">Tên Nút</item>
+		<item id="steplist-no" desc="">ID Bước thực hiện</item>
+		<item id="steplist-key" desc="">ID duy nhất</item>
+		<item id="steplist-type" desc="">Loại Bước thực hiện</item>
+		<item id="steplist-inner" desc="">Bước con</item>
+		<item id="steplist-setting" desc="">Thiết lập</item>
+		<item id="invalidstep" desc="">Bước thực hiện Không hợp lệ</item>
+		<item id="steplist-delete" desc="">Xóa</item>
+		<item id="steplist-recover" desc="">Khôi phục</item>
+		<item id="steplist-items" desc="">Thiết lập danh sách các bước</item>
+		<item id="steplist-trends" desc="">Danh sách các bước của quy trình</item>
+		<item id="startstep" desc="">Bước Khởi đầu</item>
+		<item id="endstep" desc="">Bước Kết thúc</item>
+		<item id="step" desc="">Bước Thông thường</item>
+		<item id="transstep" desc="">Bước Chuyển tiếp</item>
+		<item id="numberstep" desc="">Số Bước</item>
+		<item id="step-delete-prompt" desc="">Xác nhận xóa các bước của quy trình?</item>
+		<item id="step-delete-success" desc="">Các bước của quy trình được xóa thành công.</item>
+		<item id="step-delete-failure" desc="">Xóa các bước của quy trình không thành công. Vui lòng xác nhận nếu đang sử dụng các bước.</item>
+		<item id="handler-form-title" desc="">Thiết lập Quyền Xem Danh sách Vận hành của Bước quy trình</item>
+		<item id="handlerlist-name" desc="">Tên thành phần biểu mẫu</item>
+		<item id="handlerlist-purview" desc="">Quyền vận hành</item>
+		<item id="handlerlist-column" desc="">Tên Trường Dữ liệu</item>
+		<item id="handlerlist-columntype" desc="">Loại Trường Dữ liệu</item>
+		<item id="handlerlist-type" desc="">Kiểu xử lý bảng dữ liệu</item>
+		<item id="handlerlist-tbar-add" desc="">Thêm</item>
+		<item id="handlerlist-tbar-edit" desc="">Chỉnh sửa</item>
+		<item id="handlerlist-tbar-delete" desc="">Xóa</item>
+		<item id="handler-set-alert" desc="">Quy trình không chứa thành phần biểu mẫu. Không thể phân quyền.</item>
+		<item id="handler-set-selectalert" desc="">Vui lòng lựa chọn hoạt động phân quyền.</item>
+		<item id="handler-success" desc="">Quyền hoạt động biểu mẫu được thiết lập thành công</item>
+		<item id="handler-failure" desc="">Thiết lập quyền hoạt động biểu mẫu không thành công.</item>
+		<item id="trend-title" desc="">Danh sách bước của quy trình</item>
+		<item id="trendlist-destination" desc="">Bước đạt được</item>
+		<item id="trendlist-type" desc="">Loại Bước thực hiện</item>
+		<item id="trendlist-trendname" desc="">Tên Xu hướng</item>
+		<item id="trendlist-result" desc="">Kết quả</item>
+		<item id="trendlist-responsiblestep" desc="">Xác định bước chịu trách nhiệm</item>
+		<item id="trendlist-bywhat" desc="">Cách đạt được</item>
+		<item id="trendlist-op" desc="">Vận hành</item>
+		<item id="trendlist-save" desc="">Lưu</item>
+		<item id="trendlist-save-success" desc="">Đã nộp và lưu thành công.</item>
+		<item id="trendlist-save-failure" desc="">Nộp và lưu không thành công.</item>
+		<item id="step-form-event" desc="">Thiết lập sự kiện</item>
+		<item id="step-form-transit" desc="">Bước Chuyển tiếp</item>
+		<item id="step-form-limit" desc="">Hạn mức Phạm vi Chuyển tiếp</item>
+		<item id="step-form-submit" desc="">Cách thức nộp</item>
+		<item id="step-form-autosubmit" desc="">Nộp tự động</item>
+		<item id="step-form-handsubmit" desc="">Nộp thủ công</item>
+		<item id="step-form-queryopinion" desc="">Truy vấn Ý kiến</item>
+		<item id="step-form-custom" desc="">Tùy chỉnh Vận hành</item>
+		<item id="step-form-customopinion" desc="">Ý kiến</item>
+		<item id="step-form-customback" desc="">Quay lại</item>
+		<item id="step-form-customred" desc="">Đánh dấu Đỏ</item>
+		<item id="step-form-customstamp" desc="">Đóng tem</item>
+		<item id="step-form-customprint" desc="">In</item>
+		<item id="step-form-opinionview" desc="">Hiển thị Ý kiến</item>
+		<item id="step-form-backstep" desc="">Quay lại bước trước</item>
+		<item id="step-form-title" desc="">Thông tin Bước</item>
+		<item id="step-form-flow" desc="">Quy trình</item>
+		<item id="step-form-object" desc="">Đối tượng luồng</item>
+		<item id="step-form-support" desc="">Hệ thống Hoạt động</item>
+		<item id="step-form-step" desc="">Tên Bước thực hiện</item>
+		<item id="step-form-trend" desc="">Tên Quy trình Mặc định</item>
+		<item id="step-form-key" desc="">ID duy nhất</item>
+		<item id="step-form-desc" desc="">Mô tả Bước thực hiện</item>
+		<item id="step-form-type" desc="">Loại Bước thực hiện</item>
+		<item id="step-form-view" desc="">Hiển thị Vận hành</item>
+		<item id="step-form-role" desc="">Vai trò Tham gia</item>
+		<item id="step-form-user" desc="">Người dùng Tham gia</item>
+		<item id="step-window-title" desc="">Thiếp lập bước Quy trình</item>
+		<item id="step-form-success" desc="">Bước quy trình được chỉnh sửa thành công.</item>
+		<item id="step-form-failure" desc="">Cập nhật bước quy trình không thành công.</item>
+		<item id="eventtype" desc="">Loại Sự kiện</item>
+		<item id="eventclass" desc="">Tên Sự kiện</item>
+		<item id="eventclasstitle" desc="">Vui lòng thiết lập tên loại plugin.</item>
+		<item id="rangetitle" desc="">Thiết lập Người dùng Tham gia Bước Quy trình</item>
+	</workflow-language>	
+	<object-language>
+		<item id="list-name" desc="">Tên</item>
+		<item id="list-key" desc="">Từ khóa</item>
+		<item id="list-desc" desc="">Mô tả</item>
+		<item id="list-system" desc="">Hệ thống</item>
+	</object-language>	
+	<dataindex-language>
+		<item id="tbar-add" desc="">Thêm Danh mục con</item>
+		<item id="tbar-delete" desc="">Xóa Danh mục con</item>
+		<item id="tree-root" desc="">Danh mục Dữ liệu</item>
+		<item id="tree-title" desc="">Cây Cấu trúc Danh mục Dữ liệu</item>
+		<item id="form-name" desc="">Tên Danh mục Mục lục</item>
+		<item id="form-title" desc="">Thêm Danh mục</item>
+		<item id="form-desc" desc="">Mô tả Danh mục Mục lục</item>
+		<item id="form-key" desc="">ID duy nhất Danh mục Mục lục</item>
+		<item id="form-code" desc="">Mã nội bộ Danh mục Mục lục</item>
+		<item id="form-pycode" desc="">ID Danh mục Mục lục</item>
+		<item id="form-ywcode" desc="">Index Category Foreign ID</item>
+		<item id="form-order" desc="">Sắp xếp Danh mục Mục lục</item>
+		<item id="form-status" desc="">Danh mục Mục luc Hiệu lực</item>
+		<item id="form-status-valid" desc="">Có hiệu lực</item>
+		<item id="form-status-invalid" desc="">Vô hiệu</item>
+		<item id="form-success" desc="">Lưu thông tin thành công.</item>
+		<item id="form-failure" desc="">Lưu thông tin không thành công.</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa nut đã chọn và nút con?</item>
+		<item id="delete-success" desc="">Xóa thành công.</item>
+		<item id="delete-failure" desc="">Xóa không thành công.</item>
+		<item id="save-failure" desc="">Lưu không thành công.</item>
+	</dataindex-language>	
+	<wordbook-language>
+		<item id="combobox-emptytext" desc="">Vui lòng chọn một danh mục từ điển...</item>
+		<item id="list-id" desc="">Từ khóa chính</item>
+		<item id="list-name" desc="">Giá trị</item>
+		<item id="list-idx" desc="">Chỉ số</item>
+		<item id="list-title" desc="">Danh sách Từ điển</item>
+		<item id="list-save" desc="">Lưu</item>
+		<item id="list-delete" desc="">Xóa</item>
+		<item id="panel-title" desc="">Danh sách Từ điển Dữ liệu</item>
+		<item id="tbar-label" desc="">Loại Dữ kiệu Từ điển</item>
+		<item id="tbar-add" desc="">Thêm Danh mục</item>
+		<item id="tbar-add-tooltip" desc="">Thêm Danh mục Từ điển</item>
+		<item id="tbar-delete" desc="">Xóa Danh mục</item>
+		<item id="tbar-delete-tooltip" desc="">Xóa Định nghĩa Danh mục Từ điển</item>
+		<item id="tbar-additem" desc="">Thêm Mục Từ điển</item>
+		<item id="tbar-additem-tooltip" desc="">Xác định Mục Từ điển mới trong Danh mục Từ điển Hiện tại</item>
+		<item id="save-alert-id" desc="">Vui lòng xác định từ khóa chính mục từ điển dữ liệu.</item>
+		<item id="save-alert-name" desc="">Vui lòng xác định giá trị mục từ điển dữ liệu.</item>
+		<item id="list-save" desc="">Lưu</item>
+		<item id="save-success" desc="">Lưu mục dữ liệu từ điển thành công.</item>
+		<item id="save-failure" desc="">Lưu mục dữ liệu từ điển không thành công</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa?</item>
+		<item id="delete-success" desc="">Xóa mục dữ liệu từ điển thành công.</item>
+		<item id="delete-failure" desc="">Xóa mục dữ liệu từ điển không thành công.</item>
+		<item id="form-name" desc="">Tên Danh mục</item>
+		<item id="form-name-emptytext" desc="">Vui lòng xác định danh mục (Ký tự viết tắt Tiếng anh thông thường)</item>
+		<item id="form-desc" desc="">Mô tả danh mục</item>
+		<item id="form-desc-emptytext" desc="">Vui lòng xác định mô tả danh mục.</item>
+		<item id="window-title" desc="">Thêm Danh mục Từ điển Dữ liệu.</item>
+		<item id="wb-delete-success" desc="">Xóa danh mục từ điển dữ liệu thành công.</item>
+		<item id="wb-delete-failure" desc="">Xóa danh mục từ điển dữ liệu không thành công.</item>
+		<item id="wb-save-success" desc="">Thêm danh mục từ điển dữ liệu mới thành công.</item>
+		<item id="wb-save-failure" desc="">Nộp và lưu danh mục từ điển dữ liệu không thành công</item>
+		<item id="wb-save-reduplicatederror" desc="">Danh mục từ điển dữ liệu là trùng khớp. Vui lòng xác định lại.</item>
+	</wordbook-language>	
+	<table-language>
+		<item id="system" desc="">Danh sách Hệ thống</item>
+		<item id="backup" desc="">Danh sách Sao lưu dự phòng</item>
+		<item id="app" desc="">Danh sách Hồ sơ</item>
+	</table-language>
+	<restore-language>
+		<item id="list-name" desc="">Tên Tập tin Sao lưu dự phòng</item>
+		<item id="list-path" desc="">Vị trí Lưu trữ Tập tin Sao lưu dự phòng</item>
+		<item id="list-type" desc="">Loại Tập tin Sao lưu dự phòng</item>
+		<item id="list-location" desc="">Mẫu Lưu trữ Tập tin Sao lưu dự phòng</item>
+		<item id="list-op" desc="">Hoạt động</item>
+		<item id="list-title" desc="">Khôi phục Dữ liệu Hệ thống</item>
+		<item id="tbar-delete" desc="">Xóa Tập tin Sao lưu dự phòng</item>
+		<item id="tbar-restore" desc="">Khôi phục Dữ liệu</item>
+		<item id="delete-prompt" desc="">Xác nhận để xóa tập tin sao lưu dự phòng đã chọn?</item>
+		<item id="delete-success" desc="">Đã xóa tập tin sao lưu dự phòng dữ liệu.</item>
+		<item id="delete-failure" desc="">Xóa tập tin sao lưu dự phòng không thành công. Vui lòng thử lại.</item>
+		<item id="restore-alert" desc="">Thực hiện việc khôi phục dữ liệu sẽ xóa các dữ liệu hệ thống hiện tại. Hãy cẩn thận khi thực hiện khôi phục dữ liệu và sao lưu dự phòng dữ liệu hệ thống hiện tại trước khi khôi phục dữ liệu.</item>
+		<item id="restore-data" desc="">Tập tin Dữ liệu</item>
+		<item id="restore-title" desc="">Kế hoạch Khôi phục Dữ liệu Hệ thống</item>
+		<item id="restore-button" desc="">Tiến hành Khôi phục Dữ liệu</item>
+		<item id="restore-prompt" desc="">Xác nhận để khôi phục tập tin sao lưu dự phòng đã chọn?</item>
+		<item id="restore-success" desc="">Dữ liệu đã được khôi phục thành công.</item>
+	</restore-language>	
+	<backup-language>
+		<item id="list-type" desc="">Loại bảng Dữ liệu</item>
+		<item id="list-table" desc="">Tên bảng</item>
+		<item id="list-desc" desc="">Loại bảng Dữ liệu</item>
+		<item id="list-file" desc="">Thuộc về</item>
+		<item id="list-datasource" desc="">Nguồn Dữ liệu</item>
+		<item id="list-title" desc="">Sao lưu Dữ liệu Hệ thống</item>
+		<item id="tbar-backup" desc="">Sao lưu Dữ liệu</item>
+		<item id="list-type" desc="">Loại bảng Dữ liệu</item>
+		<item id="form-name" desc="">Tên tập tin sao lưu</item>
+		<item id="form-name-emptytext" desc="">Vui lòng xác định tập tin sao lưu .</item>
+		<item id="form-title" desc="">Bảng Dữ liệu Hệ thống đang chờ Sao lưu</item>
+		<item id="window-title" desc="">Kế hoạch Sao lưu Dữ liệu Hệ thống</item>
+		<item id="backup-button" desc="">Tiến hành Sao lưu Dữ liệu</item>
+		<item id="backup-prompt" desc="">Kế hoạch Sao lưu Dữ liệu này đã được thêm vào nhiệm vụ chờ xử lý. Thời gian hoàn thành việc sao lưu sẽ phụ thuộc vào mức độ dữ liệu sao lưu. Vui lòng tải về tập tin sao lưu sau khi nhiệm vụ được hoàn thành.</item>
+		<item id="backup-success" desc="">Kế hoạch Sao lưu Dữ liệu đã được thêm vào nhiệm vụ chờ xử lý.</item>
+		<item id="backup-failure" desc="">Sao lưu Dữ liệu không thành công. Vui lòng thử lại.</item>
+	</backup-language>	
+	<log-language>
+		<item id="list-title" desc="">Danh sách thông tin nhật ký hệ thống</item>
+		<item id="list-user" desc="">Người dùng</item>
+		<item id="list-logid" desc="">ID Đăng nhập</item>
+		<item id="list-time" desc="">Thời gian hoạt động</item>
+		<item id="list-ip" desc="">Truy cập IP</item>
+		<item id="list-type" desc="">Loại Vận hành</item>
+		<item id="list-detail" desc="">Chi tiết Vận hành</item>
+		<item id="list-content" desc="">Nội dung Nhật ký</item>
+		<item id="query-detail" desc="">Hiển thị Chi tiết Nhật ký</item>
+		<item id="query-content" desc="">Nhật ký Hệ thống</item>
+		<item id="delete-failure-deleteerror" desc="">Xóa dữ liệu nhật ký không thành công.</item>
+		<item id="delete-failure-cleanerror" desc="">Làm sạch dữ liệu nhật ký không thành công.</item>
+		<item id="invalidip">Vui lòng nhập địa chỉ IP chính xác.</item>
+		<item id="query-type">Loại Vận hành</item>
+		<item id="query-detail">Chi tiết Vận hành</item>
+		<item id="query-user">Tên Người dùng</item>
+		<item id="query-logid">ID Đăng nhập</item>
+		<item id="query-ip">IP</item>
+		<item id="query-stime">Thời gian bắt đầu</item>
+		<item id="query-etime">Thời gian kết thúc</item>
+		<item id="query-title">Truy vấn nhật ký</item>
+		<item id="query-invalid">Vui lòng chọn điều kiện truy vấn.</item>
+		<item id="query-button">Truy vấn</item>
+		<item id="query-button-tooltip">Truy vấn Nhật ký Dữ liệu Hệ thống</item>
+		<item id="delete-button">Xóa</item>
+		<item id="delete-button-tooltip">Xóa Nhật lý Hệ thống</item>
+		<item id="export-button">Xuất Dữ liệu</item>
+		<item id="export-button-tooltip">Xuất Nhật ký Dữ liệu</item>
+		<item id="clean-button">Làm sạch Nhật ký</item>
+		<item id="clean-button-tooltip">Làm sạch tất cả Nhật ký Hệ thống</item>
+		<item id="delete-prompt">Xác nhận để xóa dữ liệu nhật ký?</item>
+		<item id="clean-prompt">Làm sạch hoạt động sẽ xóa tất cả dữ liệu nhật ký và dữ liệu đã xóa sẽ không thể khôi phục. Xác nhận để xóa dữ liệu nhật ký?</item>
+		<item id="form-detail" desc="">Chi tiết Nhật ký: </item>
+	</log-language>	
+	<annex-language>
+		<item id="query-object" desc="">Đối tượng Khóa ngoài</item>
+		<item id="query-type" desc="">Loại Đính kèm</item>
+		<item id="list-title" desc="">Danh sách Thông tin Đính kèm</item>
+		<item id="list-id" desc="">ID Đính kèm</item>
+		<item id="list-name" desc="">Tên Đính kèm</item>
+		<item id="list-type" desc="">Loại</item>
+		<item id="list-folder" desc="">Tập tin gốc</item>
+		<item id="list-path" desc="">Đường dẫn</item>
+		<item id="list-fid" desc="">ID Khóa ngoài</item>
+		<item id="list-fobject" desc="">Đối tượng Khóa ngoài</item>
+		<item id="list-input" desc="">Miền Đính kèm</item>
+		<item id="list-location" desc="">Vị trí lưu trữ</item>
+		<item id="list-relation" desc="">Liên hệ Khóa ngoài</item>
+		<item id="annex-uncertain" desc="">Không xác định</item>
+		<item id="annex-missing" desc="">Thiếu</item>
+		<item id="annex-complete" desc="">Đầy đủ</item>
+	</annex-language>	 
+	<tablequery-language>
+		<item id="error-uncreated" desc="">Không thể tạo Danh sách Bản ghi.</item>
+		<item id="failure-uncreated" desc="">Lỗi không xác định. Không thể khởi tạo Danh sách Bản ghi.</item>
+		<item id="alert-group" desc="">Lỗi thiết lập thông số. Vui lòng kiểm tra mục Thiết lập nhóm:{filed:'Filed Data Field',sort:'Sorted Data Field',display:'Displayed Data Field'}</item>
+		<item id="alert-getjson" desc="">Không thể lấy được thông tin cấu trúc json của các bản ghi.</item>
+		<item id="alert-notfound" desc="">Danh sách Bản ghi không được xác định.</item>
+		<item id="list-displaymsg" desc="">{2} Tổng số Bản ghi</item>
+		<item id="list-emptymsg" desc="">Không có Bản ghi nào</item>
+		<item id="list-page" desc="">Danh sách</item>
+		<item id="list-data" desc="">Số bản ghi trên mỗi trang</item>
+		<item id="form-title" desc="">Truy vấn</item>
+	</tablequery-language>
+	<tableview-language>
+		<item id="save-success" desc="">Đã lưu thành công</item>
+		<item id="to" desc="">Đến</item>
+		<item id="readonly" desc="">Chỉ được phép đọc</item>
+		<item id="numberonly" desc="">Chỉ chấp nhận dạng số</item>
+		<item id="maxlength" desc="">Nội dụng vượt quá độ dài cho phép</item>
+		<item id="pleaseselect" desc="">Vui lòng lựa chọn</item>
+		<item id="mismatch" desc="">Nội dung không khớp</item>
+		<item id="isinvalid" desc="">Nội dung Danh sách không hợp lệ</item>
+		<item id="dynamichandlealert" desc="">Thành phần hiển thị không hợp lệ. Không thể xử lý thành phần.</item>
+	</tableview-language>
+	<flow-language>
+		<item id="history-opinion-list" desc="">Lịch sử phê duyệt</item>
+		<item id="sign-opinion" desc="">Chữ Ký</item>
+		<item id="closewindow" desc="">Xác nhận đóng?</item>
+	</flow-language>
+	<extframe-language>
+		<item id="editpwd" desc="">Quản lý Mật khẩu</item>
+		<item id="personalinfo" desc="">Thông tin Cá nhân</item>
+		<item id="shortcut" desc="">Lối tắt</item>
+		<item id="console" desc="">Màn hình Điều khiển</item>
+		<item id="logout" desc="">Đăng xuất</item>
+		<item id="desktop" desc="">Màn hình làm việc</item>
+		<item id="modulemenu" desc="">Bảng lựa chọn</item>
+		<item id="user" desc="">Người dùng</item>
+		<item id="group" desc="">Nhóm</item>
+		<item id="logout-prompt" desc="">Xác nhận Đăng xuất?</item>
+	</extframe-language>
+</wordbook>

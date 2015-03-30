@@ -1,0 +1,110 @@
+[ {
+  "pattern" : "/",
+  "permission" : "anon"
+},
+{
+  "pattern" : "/home/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/document/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/index",
+  "permission" : "anon"
+}, {
+  "pattern" : "/calculator",
+  "permission" : "anon"
+}, {
+  "pattern" : "/jcaptcha",
+  "permission" : "anon"
+}, {
+  "pattern" : "/password/forget",
+  "permission" : "anon"
+}, {
+  "pattern" : "/password/reset",
+  "permission" : "anon"
+}, {
+  "pattern" : "/password/reset/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/api/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/help/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/buyer/register",
+  "permission" : "jcaptchaVf"
+}, {
+  "pattern" : "/buyer/register/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/seller/register",
+  "permission" : "anon"
+}, {
+  "pattern" : "/seller/register/**",
+  "permission" : "anon"
+}, {
+  "pattern" : "/admin/**",
+  "permission" : "anyRoles[ADMIN]"
+}, {
+  "pattern" : "/vpbank/**",
+  "permission" : "anyRoles[ADMIN,VPBANK]"
+}, {
+  "pattern" : "/seller/account/apply",
+  "permission" : "anyRoles[ADMIN,PRE_SELLER]"
+  }, {
+  "pattern" : "/seller/account/updateforapp",
+  "permission" : "anyRoles[ADMIN,PRE_SELLER_UPDATEAPP]"
+}, {
+  "pattern" : "/seller/account/update",
+  "permission" : "anyRoles[ADMIN,PRE_SELLER_UPDATE]"
+}, {
+  "pattern" : "/seller/account/updateapp",
+  "permission" : "anyRoles[ADMIN,PRE_SELLER_UPDATEAPP,PRE_SELLER_UPDATE]"
+}, {
+  "pattern" : "/seller/account/view",
+  "permission" : "anyRoles[ADMIN,PRE_SELLER_VIEW]"
+}, {
+  "pattern" : "/seller/password/edit",
+  "permission" : "anyRoles[ADMIN,SELLER,PRE_SELLER,PRE_SELLER_UPDATEAPP,PRE_SELLER_UPDATE,PRE_SELLER_VIEW]"
+}, {
+  "pattern" : "/seller/password/update",
+  "permission" : "anyRoles[ADMIN,SELLER,PRE_SELLER,PRE_SELLER_UPDATEAPP,PRE_SELLER_UPDATE,PRE_SELLER_VIEW]"
+}, {
+  "pattern" : "/seller/**",
+  "permission" : "anyRoles[ADMIN,SELLER]"
+}, {
+  "pattern" : "/buyer/account/apply",
+  "permission" : "anyRoles[ADMIN,PRE_BUYER]"
+}, {
+  "pattern" : "/buyer/account/updateforapp",
+  "permission" : "anyRoles[ADMIN,PRE_BUYER_UPDATEAPP]"
+}, {
+  "pattern" : "/buyer/account/update",
+  "permission" : "anyRoles[ADMIN,PRE_BUYER_UPDATE]"
+}, {
+  "pattern" : "/buyer/account/view",
+  "permission" : "anyRoles[ADMIN,PRE_BUYER_VIEW]"
+}, {
+  "pattern" : "/buyer/password/edit",
+  "permission" : "anyRoles[ADMIN,BUYER,VPBANK,PRE_BUYER,PRE_BUYER_UPDATEAPP,PRE_BUYER_UPDATE,PRE_BUYER_VIEW]"
+}, {
+  "pattern" : "/buyer/password/update",
+  "permission" : "anyRoles[ADMIN,BUYER,VPBANK,PRE_BUYER,PRE_BUYER_UPDATEAPP,PRE_BUYER_UPDATE,PRE_BUYER_VIEW]"
+}, {
+  "pattern" : "/buyer/auction/open",
+  "permission" : "anyRoles[BUYER]"
+}, {
+  "pattern" : "/buyer/auction/openforbpbank",
+  "permission" : "anyRoles[VPBANK]"
+}, {
+  "pattern" : "/buyer/**",
+  "permission" : "anyRoles[ADMIN,BUYER,VPBANK]"
+}, {
+  "pattern" : "/report/**",
+  "permission" : "anyRoles[ADMIN,SELLER,VPBANK]"
+}, {
+  "pattern" : "/**",
+  "permission" : "user"
+} ]

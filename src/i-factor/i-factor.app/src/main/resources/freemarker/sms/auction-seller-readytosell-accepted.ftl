@@ -1,0 +1,1 @@
+<EntroAuction> Your Invoice - ID <000000> - ready-to-sell price has been accepted. The system will verify the original invoice and the sub-contract before disbursement is performed. 

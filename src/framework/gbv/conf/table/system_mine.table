@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+	  *附件类型定义*
+	  type "freeannex" 指定的附件存储到自由目录
+	  type "restrictannex" || "annex" 指定的附件存储到受限制目录
+	  type "ALLFREE" 所有附件存储到自由目录
+	  type "ALLRESTRICT" 所有附件存储到受限制目录
+-->
+<annotate>
+	<table name="XSYSTEM_ANNEX" type="-1" description="附件存储表">
+		<column>
+			<name>XSYSTEM_ANNEX_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>Primary key</description>
+			<length>20</length>
+			<form-name>pkid</form-name>
+		</column>
+		<column>
+			<name>FK_ANNEX_ID</name>
+			<type>varchar</type>
+			<description>外键ID</description>
+			<length>20</length>
+			<form-name>fid</form-name>
+		</column>
+		<column>
+			<name>ANNEX_NAME</name>
+			<type>varchar</type>
+			<description>附件Name(不可包含中文)</description>
+			<length>100</length>
+			<form-name>fname</form-name>
+		</column>
+		<column>
+			<name>ANNEX_CNAME</name>
+			<type>varchar</type>
+			<description>附件Name(可包含中文)</description>
+			<length>100</length>
+			<form-name>fcname</form-name>
+		</column>
+		<column>
+			<name>ANNEX_FOLDER</name>
+			<type>varchar</type>
+			<description>附件所在目录</description>
+			<length>100</length>
+			<form-name>ffolder</form-name>
+		</column>
+		<column>
+			<name>ANNEX_PATH</name>
+			<type>varchar</type>
+			<description>附件路径</description>
+			<length>100</length>
+			<form-name>fpath</form-name>
+		</column>
+		<column>
+			<name>ANNEX_MEMO</name>
+			<type>varchar</type>
+			<description>附件描述</description>
+			<length>100</length>
+			<form-name>fmemo</form-name>
+		</column>
+		<column>
+			<name>ANNEX_STYLE</name>
+			<type>varchar</type>
+			<description>附件类型</description>
+			<length>20</length>
+			<form-name>fstyle</form-name>
+		</column>
+		<column>
+			<name>ANNEX_OBJECT</name>
+			<type>varchar</type>
+			<description>关联对象</description>
+			<length>100</length>
+			<form-name>fobject</form-name>
+		</column>
+		<column>
+			<name>ANNEX_OBJECT_FIELD</name>
+			<type>varchar</type>
+			<description>关联对象域Name</description>
+			<length>100</length>
+			<form-name>ffield</form-name>
+		</column>
+		<column>
+			<name>ANNEX_CONTENT</name>
+			<type>blob</type>
+			<length>1</length>
+			<description>附件内容</description>
+			<form-name>fcontent</form-name>
+		</column>
+		<column>
+			<name>ANNEX_LOCATION</name>
+			<type>varchar</type>
+			<description>附件存储位置</description>
+			<length>100</length>
+			<form-name>flocation</form-name>
+		</column>
+		<column>
+			<name>ANNEX_SYSTIME</name>
+			<type>varchar</type>
+			<description>附件上传时间</description>
+			<length>20</length>
+			<form-name>systime</form-name>
+		</column>
+		<column>
+			<name>ANNEX_THUMB</name>
+			<type>varchar</type>
+			<description>附件thumbName</description>
+			<length>50</length>
+			<form-name>fthumb</form-name>
+		</column>
+		<column>
+			<name>ANNEX_STATUS</name>
+			<type>integer</type>
+			<description>附件状态</description>
+			<length>4</length>
+			<form-name>fstatus</form-name>
+		</column>
+	</table>
+	<table name="XSYSTEM_KEYSTORE" type="-1" description="Primary key仓库表">
+		<column>
+			<name>TABLENAME</name>
+			<type>varchar</type>
+			<description>数据表Name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>KEYNAME</name>
+			<type>varchar</type>
+			<description>Primary key字段Name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>KEYVALUE</name>
+			<type>integer</type>
+			<description>Primary key值</description>
+			<length>4</length>
+		</column>
+	</table>
+</annotate>	

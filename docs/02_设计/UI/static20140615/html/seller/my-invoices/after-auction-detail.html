@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>i-Factor</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../../../custom/custom-bootstrap.css" rel="stylesheet">
+    <link href="../../css/i-factor.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="../assets/js/html5shiv.js"></script>
+        <![endif]-->
+
+    <!-- Fav and touch icons -->
+
+</head>
+<body style="margin: 0 20px; width: 100%; overflow-y: visible;">
+
+    <div id="form-div">
+
+        <div id="form-title">Invoices Details</div>
+        <div id="form-main">
+            <div>
+                <form class="form-horizontal" role="form">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="col-sm-2">
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_details');">Invoice</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_debtor');">Debtor</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_documents');">Documents</a>
+
+                                <a class="btn btn-default btn-block" href="javascript:showdiv('invoice_status');">Status</a>
+
+                            </div>
+
+                            <div class="col-sm-10" id="invoice_details" style="display: none;">
+                                <div class="col-sm-10">
+                                    <h4>Invoice details</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Invoice amount:
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm" id="invoice_amout" readonly="true" value="100,000.00">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Desired minimum advance (%):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="desired_min_advance" value="40.00%">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Desired maximum interest (% per 30 days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="desired_max_interest" value="12.00%">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-6">
+                                        Expected runing time (days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="expected_runing_time" value="6">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Enable 'buy now':
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="checkbox" class="checkbox disabled" disabled="disabled" id="enable_buy_now" checked>
+                                    </div>
+                                </div>
+                                <div class="col-sm-10">
+                                    <h4>Buy now:</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Advance that will be accepted directly (%):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="advance_buy_now" value="45.00%">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-6">
+                                        Interest that will be accepted directly (% per 30 days):
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="interest_buy_now" value="8.00%">
+                                    </div>
+                                </div>
+
+                       
+                                <div class="col-sm-10">
+                                    <div class="col-sm-5">
+                                        Rating associated with the invoice *:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <a href="#" class="btn btn-default">1</a>
+                                        <a href="#" class="btn btn-default">2</a>
+                                        <a href="#" class="btn btn-default active">3</a>
+                                        <a href="#" class="btn btn-default">4</a>
+                                        <a href="#" class="btn btn-default">5</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10" id="invoice_debtor" style="display: none;">
+                                <div class="col-sm-10">
+                                    <h4>Debtor details:</h4>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor name:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="debtor_name" value="12345">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor KvK number:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="debtor_kvk_number" value="8.00%">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is governmental:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio disabled" disabled="disabled" checked="checked" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio disabled" disabled="disabled" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is governmental:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio disabled" disabled="disabled" checked="checked" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio disabled" disabled="disabled" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor is semi-governmental:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio disabled" disabled="disabled" checked="checked" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio disabled" disabled="disabled" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor has accepted the invoice:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio disabled" disabled="disabled" checked="checked" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio disabled" disabled="disabled" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+
+                                <div>
+                                    <div class="col-sm-5">
+                                        Debtor has agreed to pay:
+                                    </div>
+                                    <div class="col-sm-1">Yes:</div>
+                                    <div class="col-sm-1">
+
+                                        <input type="radio" class="radio disabled" disabled="disabled" checked="checked" />
+                                    </div>
+                                    <div class="col-sm-1">No:</div>
+                                    <div class="col-sm-1">
+                                        <input type="radio" class="radio disabled" disabled="disabled" />
+                                    </div>
+                                    <div class="col-sm-1"></div>
+                                </div>
+                                <div>
+                                    <div class="col-sm-5">
+                                        No of years that debtor is a client:
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control input-sm disabled" readonly="true" id="Text1" value="123">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10" id="invoice_documents">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Description</th>
+                                            <th>Status</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-sm-10" id="invoice_status">
+                                <div class="col-sm-2">Invoice state:</div>
+                                <div class="col-sm-2">
+                                    <label class="label label-success">Submited</label>
+                                </div>
+                                <div class="col-sm-6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            showdiv('invoice_details');
+        }
+
+        function showdiv(divid) {
+            $('#invoice_details').hide();
+            $('#invoice_debtor').hide();
+            $('#invoice_documents').hide();
+            $('#invoice_status').hide();
+            $('#' + divid).show();
+        }
+    </script>
+</body>
+</html>

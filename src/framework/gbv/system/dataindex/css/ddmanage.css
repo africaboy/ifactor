@@ -1,0 +1,27 @@
+.adddd {
+    background-image: url(../images/add.png) !important;
+}
+
+.editdd {
+    background-image: url(../images/edit.png) !important;
+}
+
+.deldd {
+    background-image: url(../images/del.png) !important;
+}
+
+.root {
+    background-image: url(../images/root.gif) !important;
+}
+
+.sort {
+    background-image: url(../images/sort.png) !important;
+}
+
+.node {
+    background-image: url(../images/node.gif) !important;
+}
+
+.node1 {
+    background-image: url(../images/node1.gif) !important;
+}

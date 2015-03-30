@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook>
+	<ifcommon-language>
+		<item id="input_ambiguous" desc="">If the input is ambiguous, please check it!</item>
+		<item id="stockings_view" desc="">no stockings for tableview</item>
+		<item id="input_field" desc="">The input field({0}) is ambiguous.</item>
+		<item id="input_file" desc="">The image file({0}) is ambiguous.</item>
+		<item id="blacklist_check" desc="">Blacklist calibration accuracy information list</item>
+		<item id="blacklist_check_btn" desc="">The blacklist check</item>
+		<item id="blacklist_check_results" desc="">Click on the check list check results</item>
+		<item id="image_upload" desc="">New Upload</item>
+		<item id="image_describe" desc="">New Upload</item>
+		<item id="image_view" desc="">View Images</item>
+		<item id="image_vdescribe" desc="">View Images</item>
+		<item id="hint" desc="">Hint</item>
+		<item id="tickbox" desc="">Without ticking any boxes!</item>
+		<item id="opinion_check" desc="">System check result is {0},Sure you want to change?</item>
+		<item id="get_blacklist_result" desc="">Get blacklist check result info failed</item>
+		<item id="view_opinion_info1" desc="">click to see {0} opinion detail info</item>
+		<item id="view_opinion_info2" desc="">view {0} opinion detail info</item>
+		<item id="deal" desc="">Click on to deal with</item>
+		<item id="canceldeal" desc="">Cancel the deal with</item>
+		<item id="graphics_monitor" desc="">graphics process monitoring</item>
+		<item id="see_process" desc="">Click to view process</item>
+		<item id="see_detail" desc="">Click to view detail</item>
+		<item id="see_process_list" desc="">Process historical operating data list</item>
+		<item id="data_loadmasktext" desc="">Data loading, please wait a moment...</item>
+		<item id="bbar_emptymsg" desc="">No record</item>
+		<item id="bbar_displaymsg" desc="">Total records {0} - {1} of {2}</item>
+		<item id="close" desc="">Close</item>
+		<item id="valid" desc="">valid</item>
+		<item id="invalid" desc="">invalid</item>
+		<item id="import" desc="">Import Data</item>
+		<item id="edit" desc="">Edit</item>
+		<item id="delete" desc="">Delete</item>
+		<item id="exception" desc="">System is running abnormal!</item>
+		<item id="call_service" desc="">Calling Service</item>
+		<item id="call_list" desc="">CS History Record List</item>
+		<item id="cs_success" desc="">CS record successful!</item>
+		<item id="process_instance" desc="">Get the process instance is abnormal!</item>
+		<item id="details" desc="">Details</item>
+		<item id="accepted" desc="">Accepted</item>
+		<item id="rejected" desc="">Rejected</item>
+	</ifcommon-language>
+	<seller-language>
+		<item id="seller_apply" desc="">SME apply</item>
+		<item id="view_detail_info1" desc="">click to see sme apply detail info</item>
+		<item id="view_detail_info2" desc="">view sme apply detail info</item>
+		<item id="not_call" desc="">Not call</item>
+		<item id="called" desc="">Called</item>
+		<item id="program_abnormal" desc="">Program is abnormal!</item>
+		<item id="update_remind" desc="">Operating remind success!</item>
+		<item id="view_profile_info1" desc="">click to see {0} profile detail info</item>
+		<item id="view_profile_info2" desc="">view {0} profile detail info</item>
+		<item id="data_file" desc="">data file</item>
+	        <item id="blacklist_import" desc="">blacklist data import</item>
+		<item id="vpbank_import" desc="">Bank data import</item>
+	        <item id="perform_import" desc="">perform data import</item>
+	        <item id="file_version" desc="">Data files must be 2003 version Excel file</item>
+		<item id="data_imported" desc="">data is imported...</item>
+		<item id="import_successful" desc="">Data import is successful!</item>
+		<item id="import_failure" desc="">Data import is failure!</item>
+		<item id="cs_record" desc="">Seller Apply CS Record</item>
+		<item id="score_item" desc="">Add scoring item</item>
+		<item id="get_score_item" desc="">Reading score item info failed!</item>
+	</seller-language>
+	<buyer-language>
+		<item id="buyer_apply" desc="">Buyer apply</item>
+		<item id="view_profile_info1" desc="">click to see {0} profile detail info</item>
+		<item id="view_profile_info2" desc="">view {0} profile detail info</item>
+		<item id="cs_record" desc="">Buyer Apply CS Record</item>
+	</buyer-language>
+	<invoice-language>
+		<item id="oriverinvoice_apply" desc="">Original invoice verification apply</item>
+		<item id="invoice_apply" desc="">Invoice delivery apply</item>
+		<item id="auction_end_check1" desc="">Must be later than today!</item>
+		<item id="auction_end_check2" desc="">Expected settlement date" - "invoice cycle end" cannot be less than 22 days!</item>
+		<item id="cs_record" desc="">Invoice Apply CS Record</item>
+		<item id="ready_to_sell" desc="">Accept Ready-to-sell</item>
+		<item id="place_bid" desc="">Place a bid</item>
+		<item id="open_investor" desc="">Open to investors</item>
+		<item id="keep_vpbank" desc="">Keep with Bank</item>
+		<item id="setauction_status" desc="">auction status is set success!</item>
+		<item id="original_check" desc="">Original invoice verification not completed, please complete the original invoice verification issued again.</item>
+	</invoice-language>
+	<image-language>
+		<item id="image_number" desc="">Image number</item>
+		<item id="image_name" desc="">Image name</item>
+		<item id="querybtn_text" desc="">Query</item>
+		<item id="resetbtn_text" desc="">Reset</item>
+		<item id="serial_number" desc="">Serial number</item>
+		<item id="image_code" desc="">Image code</item>
+		<item id="last_upload_time" desc="">Last upload time</item>
+		<item id="uploaded_file_number" desc="">Uploaded file number</item>
+		<item id="handle" desc="">Handle</item>
+		<item id="upload_image" desc="">Upload image</item>
+		<item id="view_image_data" desc="">View Image Data</item>
+		<item id="left_rotation" desc="">Left rotation</item>
+		<item id="right_rotation" desc="">Right rotation</item>
+		<item id="previous" desc="">Previous</item>
+		<item id="next" desc="">Next</item>
+		<item id="file_name" desc="">File Name</item>
+		<item id="file_type" desc="">File Type</item>
+		<item id="size" desc="">Size</item>
+		<item id="progress" desc="">Progress</item>
+		<item id="status" desc="">Status</item>
+		<item id="all_files" desc="">All Files</item>
+		<item id="add_files" desc="">Add Files</item>
+		<item id="del_all" desc="">Del All</item>
+		<item id="upload" desc="">Upload</item>
+		<item id="not_upload" desc="">Not upload</item>
+		<item id="are_uploading" desc="">Are uploading</item>
+		<item id="upload_failed" desc="">Upload failed</item>
+		<item id="upload_complete" desc="">Upload complete</item>
+		<item id="upload_cancel" desc="">Upload cancel</item>
+		<item id="file_format_error" desc="">File format error</item>
+		<item id="file_error_100" desc="">To upload a file list number overrun, cannot choose!</item>
+		<item id="file_error_110" desc="">File is too big, can\'t choose!</item>
+		<item id="file_error_120" desc="">Is 0, the file size can\'t choose!</item>
+		<item id="file_error_130" desc="">The file types do not upload!</item>
+		<item id="deletefile" desc="">Delete this file</item>
+		<item id="remove" desc="">Remove</item>
+		<item id="no." desc="">No.</item>
+	</image-language>
+</wordbook>

@@ -1,0 +1,15 @@
+.upload_add {
+	background-image: url(../images/folder_explore.png) !important;
+}
+
+.upload_up {
+	background-image: url(../images/arrow_up.png) !important;
+}
+
+.upload_delete {
+	background-image: url(..//images/cancel.png) !important;
+}
+
+.upload_delete2 {
+	background-image: url(../images/delete.png) !important;
+}

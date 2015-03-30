@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotate>
+	<table name="IF_MGT_BUYER_APPLY" description="buyer apply">
+		<column>
+			<name>IBA_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BA_APPLY_CODE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>application no</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>BA_APPLY_DATE</name>
+			<type>varchar</type>
+			<description>application date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BA_UPDATED_DATE</name>
+			<type>varchar</type>
+			<description>last updated date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>BA_STATUS</name>
+			<type>varchar</type>
+			<description>application statu</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BA_STATUS_VAL</name>
+			<type>varchar</type>
+			<description>application statu</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>APP_PK_ID</name>
+			<type>integer</type>
+			<description>Binding line id</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>USERID</name>
+			<type>varchar</type>
+			<description>user id</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_BUYER_BASIC_INFO" description="buyer basic info">
+		<column>
+			<name>IBBI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IBA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>buyer apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_BUYER_APPLY</referencing-table>  
+				<referencing-column>IBA_PK_ID</referencing-column> 
+			</foreign> 
+		</column>  
+		<column>
+			<name>TITLE</name>
+			<type>varchar</type>
+			<description>Title</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>FIRST_NAME</name>
+			<type>varchar</type>
+			<description>First name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LAST_NAME</name>
+			<type>varchar</type>
+			<description>Last name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>EMAIL</name>
+			<type>varchar</type>
+			<description>Email</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>INVEST_AS</name>
+			<type>varchar</type>
+			<description>Invest as</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>INVEST_AS_PRIVATE</name>
+			<type>varchar</type>
+			<description>Invest as private</description>
+			<length>5</length>
+		</column>
+		<column>
+			<name>INVEST_AS_COMPANY</name>
+			<type>varchar</type>
+			<description>Invest as company</description>
+			<length>5</length>
+		</column>
+		<column>
+			<name>GENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>BIRTH_DATE</name>
+			<type>varchar</type>
+			<description>Date of Birth</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>NATIONALITY</name>
+			<type>varchar</type>
+			<description>Nationality</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>RESIDENCE_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ID_TYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ID_NUMBER</name>
+			<type>varchar</type>
+			<description>ID Number</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>PLOCALCODE</name>
+			<type>varchar</type>
+			<description>Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>PHONE</name>
+			<type>varchar</type>
+			<description>Phone</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MLOCALCODE</name>
+			<type>varchar</type>
+			<description>Mobile Phone Country Code</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MOBILE_PHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_BUYER_PRIVATE_INFO" description="Invest as private investor info">
+		<column>
+			<name>IBPI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IBA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>buyer apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_BUYER_APPLY</referencing-table>  
+				<referencing-column>IBA_PK_ID</referencing-column> 
+			</foreign> 
+		</column> 
+		<column>
+			<name>RESIDENCE_ADDRESS</name>
+			<type>varchar</type>
+			<description>Address of residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>OCCUPATION</name>
+			<type>varchar</type>
+			<description>Current employer/occupation</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EMPLOYER_NAME</name>
+			<type>varchar</type>
+			<description>Current employer name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_INDUSTRY</name>
+			<type>varchar</type>
+			<description>Industry sector company operates in</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>TRADEPLATFORM</name>
+			<type>varchar</type>
+			<description>Besides stocks, have you ever used trading platform/software to trade other asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ASSET</name>
+			<type>varchar</type>
+			<description>If yes, what is the asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>YEARSINVESTOR</name>
+			<type>varchar</type>
+			<description>Number of years you have been active as an investor</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISFACTORING</name>
+			<type>varchar</type>
+			<description>Are you familiar with factoring and invoice financing?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISAUCTION</name>
+			<type>varchar</type>
+			<description>Are you familiar with auction?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ISPROVIDER</name>
+			<type>varchar</type>
+			<description>Do you have a stock brokerage service provider?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ISASSET</name>
+			<type>varchar</type>
+			<description>Do you have an asset/investment manager?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MAJOR</name>
+			<type>varchar</type>
+			<description>What is the major source of your income?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EALAST</name>
+			<type>varchar</type>
+			<description>What is the your estimated amount of investment excluding property in last year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EATHIS</name>
+			<type>varchar</type>
+			<description>What is the your estimated amount of investment excluding property in this year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>PLATFORM</name>
+			<type>varchar</type>
+			<description>On average how much do you intend to invest on this platform (i-Factor) per month?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>BUSINESSFROM</name>
+			<type>varchar</type>
+			<description>If you are introduced by VPBank staff, which business is he/she from?</description>
+			<length>200</length>
+		</column>
+		<!--<column>
+			<name>HAVE_ALTER_FINANCE</name>
+			<type>varchar</type>
+			<description>Have you already invested in alternative financing platforms</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>INVEST_YEARS</name>
+			<type>varchar</type>
+			<description>Number of years you have been active as an investor</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>ESTIMATED_INVEST_AMOUNT</name>
+			<type>varchar</type>
+			<description>Estimated amount to invest over the next 12 months</description>
+			<length>20</length>
+		</column>-->
+	</table>
+	
+	<table name="IF_MGT_BUYER_COMPANY_INFO" description="Invest as company/Institution">
+		<column>
+			<name>IBCI_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>IBA_PK_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>buyer apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_BUYER_APPLY</referencing-table>  
+				<referencing-column>IBA_PK_ID</referencing-column> 
+			</foreign> 
+		</column> 
+		<column>
+			<name>COMPANY_NAME</name>
+			<type>varchar</type>
+			<description>Company name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>ISREGISTVN</name>
+			<type>varchar</type>
+			<description>Is the company registered in Vietnam?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>REGIST_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Registration</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>REGIST_NUMBER</name>
+			<type>varchar</type>
+			<description>Company registration number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>TAX_CODE</name>
+			<type>varchar</type>
+			<description>Company tax code</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ESTABLISH_DATE</name>
+			<type>varchar</type>
+			<description>Company establishment date</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ORGANIZATION</name>
+			<type>varchar</type>
+			<description>How long have your organization establised in Vietnam?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ENTITY_TYPE</name>
+			<type>varchar</type>
+			<description>type of Entity</description>
+			<length>200</length>
+		</column>
+		<!--
+		<column>
+			<name>ENTITY_TYPE_VAL</name>
+			<type>varchar</type>
+			<description>type of Entity</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ENTITY_TYPE_TXT</name>
+			<type>varchar</type>
+			<description>If other please state</description>
+			<length>50</length>
+		</column>-->
+		<column>
+			<name>COMPANY_ADDRESS</name>
+			<type>varchar</type>
+			<description>Company address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>POST_CODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>ISDFCPADDRESS</name>
+			<type>integer</type>
+			<description>Different mailing address</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_ADDRESS</name>
+			<type>varchar</type>
+			<description>Company address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFPOST_CODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>TYPECOMPANY</name>
+			<type>varchar</type>
+			<description>What is the type of the company</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPINDUSTRY</name>
+			<type>varchar</type>
+			<description>please specify the industry sector the company operates in</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPTURNOVER</name>
+			<type>varchar</type>
+			<description>What is the company turnover in last year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISCPENGAGED</name>
+			<type>varchar</type>
+			<description>Has the company ever engaged in factoring service or traded company invoice?</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ISCPASSET</name>
+			<type>varchar</type>
+			<description>Does the company invest in short term asset classes?</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPASSET</name>
+			<type>varchar</type>
+			<description>What is the life of the company's major short term asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPINVESTMENT</name>
+			<type>varchar</type>
+			<description>What is the company's investment in short term asset class in last year? Please choose N/A if this is not applicable</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPAVERAGE</name>
+			<type>varchar</type>
+			<description>For fund, asset and investment management firm, what is the average size of fund that the company invests in short term asset class? Please choose N/A if this is not applicable</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPAVERAGEPER</name>
+			<type>varchar</type>
+			<description>On average how much do your company intend to invest on this platform (i-factor) per month?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPBUSINESSFROM</name>
+			<type>varchar</type>
+			<description>If you are introduced by VPBank staff, which business is he/she from?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPPOSITION</name>
+			<type>varchar</type>
+			<description>What is your position in the company</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISATHPERSON</name>
+			<type>varchar</type>
+			<description>Is have authorized person</description>
+			<length>5</length>
+		</column>
+		<column>
+			<name>ISCPOPERATE</name>
+			<type>varchar</type>
+			<description>Are you the authorized person to operate on this platform?</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPTITLE</name>
+			<type>varchar</type>
+			<not-null>no</not-null>
+			<description>Title</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPFNAME</name>
+			<type>varchar</type>
+			<description>First Name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CPLNAME</name>
+			<type>varchar</type>
+			<description>Last Name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CPEMAIL</name>
+			<type>varchar</type>
+			<description>Email</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CPPOSITION1</name>
+			<type>varchar</type>
+			<description>Position</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPGENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>CPDOB</name>
+			<type>varchar</type>
+			<description>Date of Birth</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPNATIONALITY</name>
+			<type>varchar</type>
+			<description>Nationality</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPRESIDENCE</name>
+			<type>varchar</type>
+			<description>Country of Residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPIDTYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPIDNUMBER</name>
+			<type>varchar</type>
+			<description>ID number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPWPHONECODE</name>
+			<type>varchar</type>
+			<description>Work phone country code</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPWPHONE</name>
+			<type>varchar</type>
+			<description>Work phone</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPMPHONECODE</name>
+			<type>varchar</type>
+			<description>Mobile phone country code</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>CPMPHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>50</length>
+		</column>
+		<!--<column>
+			<name>C_HAVE_ALTER_FINANCE</name>
+			<type>varchar</type>
+			<description>Has the company/institution already invested in alternative financing platform?</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>C_INVEST_YEARS</name>
+			<type>varchar</type>
+			<description>Number of years the company/institution has been active as an investor?</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>C_ESTIMATED_INVEST_AMOUNT</name>
+			<type>varchar</type>
+			<description>Estimated amount to invest over the next 12 months</description>
+			<length>20</length>
+		</column>-->
+	</table>
+
+	<table name="IF_MGT_BUYER_FLOW_OPINION" description="opinion info of buyer apply flow">
+		<column>
+			<name>IBFO_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION</name>
+			<type>varchar</type>
+			<description>handle opinion key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OPINION_VAL</name>
+			<type>varchar</type>
+			<description>handle opinion name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BANKACCOUNT</name>
+			<type>varchar</type>
+			<description>Bank account</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BALANCE</name>
+			<type>decimal</type>
+			<description>Account balance</description>
+			<length>20</length>
+			<scale>4</scale>
+		</column>
+		<column>
+			<name>IDCARD</name>
+			<type>varchar</type>
+			<description>Id card</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>NAME</name>
+			<type>varchar</type>
+			<description>name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CHECK_RESULT</name>
+			<type>varchar</type>
+			<description>Check Result</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>OPINION_REFERENCE</name>
+			<type>clob</type>
+			<description>handle opinion reference</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>OPINION_TXT</name>
+			<type>varchar</type>
+			<description>handle opinion remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>IMAGE_REMARK</name>
+			<type>varchar</type>
+			<description>image remark</description>
+			<length>2000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+	</table>
+	
+	<table name="IF_MGT_BUYER_FLOW_CS_RECORD" description="cs record of buyer apply flow">
+		<column>
+			<name>IBFCR_PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>APPLY_CODE</name>
+			<type>varchar</type>
+			<description>application no.</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>INS_ID</name>
+			<type>varchar</type>
+			<description>insId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>A_ID</name>
+			<type>varchar</type>
+			<description>aId</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>REMARK</name>
+			<type>varchar</type>
+			<description>remark</description>
+			<length>1000</length>
+		</column>
+		<column>
+			<name>USER_ID</name>
+			<type>varchar</type>
+			<description>user id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>USER_NAME</name>
+			<type>varchar</type>
+			<description>user name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>ORG_ID</name>
+			<type>varchar</type>
+			<description>org id of handle person</description>
+			<length>30</length>
+		</column>
+		<column>
+			<name>ORG_NAME</name>
+			<type>varchar</type>
+			<description>org name of handle person</description>
+			<length>40</length>
+		</column>
+		<column>
+			<name>CREATE_DATE</name>
+			<type>varchar</type>
+			<description>create date</description>
+			<length>20</length>
+		</column>
+	</table>
+	<table name="IF_MGT_BUYER_PROFILE" description="buyer Profile">
+		<column>
+			<name>PK_ID</name>
+			<type>varchar</type>
+			<primary>yes</primary>
+			<not-null>yes</not-null>
+			<description>primary key</description>
+			<length>20</length>
+		</column>
+		<column> 
+			<name>APPLY_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>seller apply</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_BUYER_APPLY</referencing-table>  
+				<referencing-column>IBA_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column> 
+			<name>PROFILE_APP_ID</name>  
+			<type>varchar</type>  
+			<not-null>no</not-null>  
+			<description>profile info</description>  
+			<length>20</length>  
+			<foreign> 
+				<referencing-table>IF_MGT_BUYER_APPLY</referencing-table>  
+				<referencing-column>APP_PK_ID</referencing-column> 
+			</foreign> 
+		</column>
+		<column>
+			<name>ISINVEST</name>
+			<type>varchar</type>
+			<description>Is invest as</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>INVEST</name>
+			<type>varchar</type>
+			<description>Invest as</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CINUMBER</name>
+			<type>varchar</type>
+			<description>Client ID</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>TITLE</name>
+			<type>varchar</type>
+			<description>Title</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>FIRST_NAME</name>
+			<type>varchar</type>
+			<description>First name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>LAST_NAME</name>
+			<type>varchar</type>
+			<description>Last name</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>GENDER</name>
+			<type>varchar</type>
+			<description>Gender</description>
+			<length>10</length>
+		</column>
+		<column>
+			<name>BIRTH_DATE</name>
+			<type>varchar</type>
+			<description>Date of Birth</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>NATIONALITY</name>
+			<type>varchar</type>
+			<description>Nationality</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>RESIDENCE_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country of Residence</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ID_TYPE</name>
+			<type>varchar</type>
+			<description>ID type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ID_NUMBER</name>
+			<type>varchar</type>
+			<description>ID Number</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ADDRESS</name>
+			<type>varchar</type>
+			<description>address</description>
+			<length>600</length>
+		</column>
+		<column>
+			<name>PHONE</name>
+			<type>varchar</type>
+			<description>Phone</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>MOBILE_PHONE</name>
+			<type>varchar</type>
+			<description>Mobile phone</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>POSITION</name>
+			<type>varchar</type>
+			<description>Position</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>EMAIL</name>
+			<type>varchar</type>
+			<description>Email address</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>BANKACCOUNT</name>
+			<type>varchar</type>
+			<description>VPBank account number</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>OCCUPATION</name>
+			<type>varchar</type>
+			<description>Current employer</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EMPLOYER_NAME</name>
+			<type>varchar</type>
+			<description>Employer name</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANY_INDUSTRY</name>
+			<type>varchar</type>
+			<description>Industry sector</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EMPLOYER_ADDRESS</name>
+			<type>varchar</type>
+			<description>Employer address</description>
+			<length>600</length>
+		</column>
+		<column>
+			<name>TRADEPLATFORM</name>
+			<type>varchar</type>
+			<description>Besides stocks, have you ever used trading platform/software to trade other asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ASSET</name>
+			<type>varchar</type>
+			<description>If yes, what is the asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>YEARSINVESTOR</name>
+			<type>varchar</type>
+			<description>Number of years you have been active as an investor</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISFACTORING</name>
+			<type>varchar</type>
+			<description>Are you familiar with factoring and invoice financing?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISAUCTION</name>
+			<type>varchar</type>
+			<description>Are you familiar with auction?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ISPROVIDER</name>
+			<type>varchar</type>
+			<description>Do you have a stock brokerage service provider?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>ISASSET</name>
+			<type>varchar</type>
+			<description>Do you have an asset/investment manager?</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>MAJOR</name>
+			<type>varchar</type>
+			<description>What is the major source of your income?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EALAST</name>
+			<type>varchar</type>
+			<description>What is the your estimated amount of investment excluding property in last year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>EATHIS</name>
+			<type>varchar</type>
+			<description>What is the your estimated amount of investment excluding property in this year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>PLATFORM</name>
+			<type>varchar</type>
+			<description>On average how much do you intend to invest on this platform (i-Factor) per month?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>BUSINESSFROM</name>
+			<type>varchar</type>
+			<description>If you are introduced by VPBank staff, which business is he/she from?</description>
+			<length>200</length>
+		</column>
+
+		<column>
+			<name>COMPANY</name>
+			<type>varchar</type>
+			<description>company name</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYCDATE</name>
+			<type>varchar</type>
+			<description>Company establishment date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>COMPANYRNUMBER</name>
+			<type>varchar</type>
+			<description>Company registration number</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYTAXCODE</name>
+			<type>varchar</type>
+			<description>Company tax code</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>TYPECOMPANY</name>
+			<type>varchar</type>
+			<description>Company type</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>COMPANYOIN</name>
+			<type>varchar</type>
+			<description>Industry sector</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>COMPANYADDRESS</name>
+			<type>varchar</type>
+			<description>Company address</description>
+			<length>600</length>
+		</column>
+		<column>
+			<name>REGIST_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country of registration</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISDFCPADDRESS</name>
+			<type>integer</type>
+			<description>Different mailing address</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_ADDRESS</name>
+			<type>varchar</type>
+			<description>Company address</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_DISTRICT</name>
+			<type>varchar</type>
+			<description>District</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_CITY</name>
+			<type>varchar</type>
+			<description>City</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_REGION</name>
+			<type>varchar</type>
+			<description>Region, state or county</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFCOMPANY_COUNTRY</name>
+			<type>varchar</type>
+			<description>Country</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>DFPOST_CODE</name>
+			<type>varchar</type>
+			<description>Postcode</description>
+			<length>100</length>
+		</column>
+		<column>
+			<name>CPTURNOVER</name>
+			<type>varchar</type>
+			<description>What is the company turnover in last year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>ISCPENGAGED</name>
+			<type>varchar</type>
+			<description>Has the company ever engaged in factoring service or traded company invoice?</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ISCPASSET</name>
+			<type>varchar</type>
+			<description>Does the company invest in short term asset classes?</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>CPASSET</name>
+			<type>varchar</type>
+			<description>What is the life of the company's major short term asset class?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPINVESTMENT</name>
+			<type>varchar</type>
+			<description>What is the company's investment in short term asset class in last year?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPAVERAGE</name>
+			<type>varchar</type>
+			<description>For fund, asset and investment management firm, what is the average size of fund that the company invests in short term asset class? Please choose N/A if this is not applicable</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPAVERAGEPER</name>
+			<type>varchar</type>
+			<description>On average how much do your company intend to invest on this platform (i-factor) per month?</description>
+			<length>200</length>
+		</column>
+		<column>
+			<name>CPBUSINESSFROM</name>
+			<type>varchar</type>
+			<description>If you are introduced by VPBank staff, which business is he/she from?</description>
+			<length>200</length>
+		</column>
+		<!--<column>
+			<name>TRLIMIT</name>
+			<type>decimal</type>
+			<description>total revolving limit</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>INVOICELIMIT</name>
+			<type>decimal</type>
+			<description>invoice limit</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>BANKACCOUNT</name>
+			<type>varchar</type>
+			<description>bank account number</description>
+			<length>50</length>
+		</column>
+		<column>
+			<name>OILIMIT</name>
+			<type>integer</type>
+			<description>Outstanding Invoice Limit</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>MIAMOUNT</name>
+			<type>decimal</type>
+			<description>Min invoice amount/1 invoice (Billion VND)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>MAAMOUNT</name>
+			<type>decimal</type>
+			<description>Max invoice amount /1 invoice (Billion VND)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>REVOLVINGLIMIT</name>
+			<type>decimal</type>
+			<description>Revolving limit for 1 customer (Billion VND)</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>-->
+		<column>
+			<name>STATUS</name>
+			<type>integer</type>
+			<description>profile status</description>
+			<length>4</length>
+		</column>
+		<column>
+			<name>RELEASETIME</name>
+			<type>varchar</type>
+			<description>Released date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

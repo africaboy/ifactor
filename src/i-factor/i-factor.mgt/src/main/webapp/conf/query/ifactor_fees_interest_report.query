@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-query>
+	
+	<query ID="inv_fee_report_list">
+		<name>invoice fee report</name>
+		<desc>invoice fee report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INV_FEE_REPORT</table>
+		<jsurl>/app/ifactor/js/invoice/inv_fee_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:1,forceFit:true}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "INV_ID"  type="input" mode="01" idx="01"/>
+			<item name="FEE_TYPE" type="select" mode="01" param="{wordbook:'feeType',target:'FEE_TYPE_VAL'}" idx="02"/>
+			<item name="FEE_TYPE_VAL" type="hidden"  param="{}" idx="02"/>
+		</query-item>
+		<result-item>
+			<item name = "FEE_TYPE" tableName="IF_MGT_INV_FEE_REPORT"/>
+			<item name = "FEE_AMOUNT"  tableName="IF_MGT_INV_FEE_REPORT"/>   
+			<item name = "INV_ID"  tableName="IF_MGT_INV_FEE_REPORT"/>
+			<item name = "CUSTOMER_TYPE"  tableName="IF_MGT_INV_FEE_REPORT"/>
+			<item name = "PAYER_ID"  tableName="IF_MGT_INV_FEE_REPORT"/>
+			<item name = "PAID_TIME"  tableName="IF_MGT_INV_FEE_REPORT"/>
+		</result-item>
+		<orderby-item>
+			<item name="PAID_TIME" tableName="IF_MGT_INV_FEE_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	
+	<query ID="if_mgt_interest_report_list">
+		<name>Interest Payment Report</name>
+		<desc>Interest Payment Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_INTEREST_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_interest_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+			<item name = "INV_ID"  type="input" mode="01" idx="02"/>
+			<item name = "SELLER_ID"  type="input" mode="01" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "AMOUNT" tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "INV_AMOUNT"  tableName="IF_MGT_INTEREST_REPORT"/>   
+			<item name = "INV_ID"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "SELLER_ID"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "PAID_TIME"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "RATE"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "DIBURSE_DATE"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "TO_DATE"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "ACTUAL_TERM"  tableName="IF_MGT_INTEREST_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_INTEREST_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_INTEREST_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_late_interest_report_list">
+		<name>Late Interest Payment Report</name>
+		<desc>Late Interest Payment Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_LATE_INTEREST_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_late_interest_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+			<item name = "INV_ID"  type="input" mode="01" idx="02"/>
+			<item name = "PAYER_ID"  type="input" mode="01" idx="03"/>
+		</query-item>
+		<result-item>
+			<item name = "AMOUNT" tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "INV_AMOUNT"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>   
+			<item name = "INV_ID"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "PAYER_ID"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "PAID_TIME"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "RATE"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "EXP_SETTLE_DATE"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "TO_DATE"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "LATE_DAYS"  tableName="IF_MGT_LATE_INTEREST_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_LATE_INTEREST_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_LATE_INTEREST_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_tfi_region_report_list">
+		<name>Total Fees and Interest of sellers by Region Report</name>
+		<desc>Total Fees and Interest of sellers by Region Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_TFI_REGION_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_tfi_region_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+		</query-item>
+		<result-item>
+			<item name = "REGION" tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "SELLERS_NUM"  tableName="IF_MGT_TFI_REGION_REPORT"/>   
+			<item name = "APPROVED_INV_NUM"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "DISBURSE_INV_NUM"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "TOTAL_TRANS_FEES"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "TOTAL_CANCEL_FEES"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "TOTAL_LATE_INFEES"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "TOTAL_INTEREST"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "TOTAL_LATE_INTEREST"  tableName="IF_MGT_TFI_REGION_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_TFI_REGION_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_TFI_REGION_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_tfi_segment_report_list">
+		<name>Total Fees and Interest of sellers by Segment Report</name>
+		<desc>Total Fees and Interest of sellers  Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_TFI_SEGMENT_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_tfi_region_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+		</query-item>
+		<result-item>
+			<item name = "SEGMENT" tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "SELLERS_NUM"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>   
+			<item name = "APPROVED_INV_NUM"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "DISBURSE_INV_NUM"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "TOTAL_TRANS_FEES"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "TOTAL_CANCEL_FEES"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "TOTAL_LATE_INFEES"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "TOTAL_INTEREST"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "TOTAL_LATE_INTEREST"  tableName="IF_MGT_TFI_SEGMENT_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_TFI_SEGMENT_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_TFI_SEGMENT_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_tfi_rating_report_list">
+		<name>Total Fees and Interest of sellers by rating Report</name>
+		<desc>Total Fees and Interest of sellers by rating Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_TFI_RATING_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_tfi_region_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+		</query-item>
+		<result-item>
+			<item name = "SELLER_RATING" tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "SELLERS_NUM"  tableName="IF_MGT_TFI_RATING_REPORT"/>   
+			<item name = "APPROVED_INV_NUM"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "DISBURSE_INV_NUM"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "TOTAL_TRANS_FEES"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "TOTAL_CANCEL_FEES"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "TOTAL_LATE_INFEES"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "TOTAL_INTEREST"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "TOTAL_LATE_INTEREST"  tableName="IF_MGT_TFI_RATING_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_TFI_RATING_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_TFI_RATING_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_tfib_region_report_list">
+		<name>Total Fees and Interest of buyers by Region Report</name>
+		<desc>Total Fees and Interest of buyers by Region Report</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_TFIB_REGION_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_tfi_region_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+		</query-item>
+		<result-item>
+			<item name = "REGION" tableName="IF_MGT_TFIB_REGION_REPORT"/>
+			<item name = "BUYERS_NUM"  tableName="IF_MGT_TFIB_REGION_REPORT"/>   
+			<item name = "TOTAL_TRANS_FEES"  tableName="IF_MGT_TFIB_REGION_REPORT"/>
+			<item name = "TOTAL_CANCEL_FEES"  tableName="IF_MGT_TFIB_REGION_REPORT"/>
+			<item name = "TOTAL_LATE_INFEES"  tableName="IF_MGT_TFIB_REGION_REPORT"/>
+			<item name = "TOTAL_INTEREST"  tableName="IF_MGT_TFIB_REGION_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_TFIB_REGION_REPORT" show="-1"/>
+			<item name = "PAID_TIME"  tableName="IF_MGT_TFIB_REGION_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_TFIB_REGION_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="if_mgt_tfib_type_report_list">
+		<name>Total Fees and Interests by buyer type Report </name>
+		<desc>Total Fees and Interests by buyer type Report </desc>
+		<translate>yes</translate>
+		<table>IF_MGT_TFIB_TYPE_REPORT</table>
+		<jsurl>/app/ifactor/js/report/if_mgt_tfi_region_report_list.js</jsurl>
+		<showchk>0</showchk>
+		<defaultlist>-1</defaultlist>
+		<param>{listenRemix:true,listenRender:true,height:210,width:500,labelAlign:'left',columnCount:2}</param>
+		<export>{excel:true}</export>
+		<purview/>
+		<purviewRole/>
+		<query-item>
+			<item name = "UPLOADED_DATE"  type="date" mode="06" idx="01"/>
+		</query-item>
+		<result-item>
+			<item name = "TYPE" tableName="IF_MGT_TFIB_TYPE_REPORT"/>
+			<item name = "BUYERS_NUM"  tableName="IF_MGT_TFIB_TYPE_REPORT"/>   
+			<item name = "TOTAL_TRANS_FEES"  tableName="IF_MGT_TFIB_TYPE_REPORT"/>
+			<item name = "TOTAL_CANCEL_FEES"  tableName="IF_MGT_TFIB_TYPE_REPORT"/>
+			<item name = "TOTAL_LATE_INFEES"  tableName="IF_MGT_TFIB_TYPE_REPORT"/>
+			<item name = "TOTAL_INTEREST"  tableName="IF_MGT_TFIB_TYPE_REPORT"/>
+			<item name = "UPLOADED_DATE"  tableName="IF_MGT_TFIB_TYPE_REPORT" show="-1"/>
+			<item name = "PAID_TIME"  tableName="IF_MGT_TFIB_TYPE_REPORT" show="-1"/>
+		</result-item>
+		<orderby-item>
+			<item name="UPLOADED_DATE" tableName="IF_MGT_TFIB_TYPE_REPORT" mode="ASC"/>
+		</orderby-item>
+	</query>
+	
+</table-query>

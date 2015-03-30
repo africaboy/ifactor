@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wordbook> 
+	<L1 desc="列表1">
+		<item id="L1.I1">L1.I1</item>
+		<item id="L1.I2">L1.I2</item>
+		<item id="L1.I3">L1.I3</item>
+	</L1>
+	<L2 desc="列表2">
+		<item id="L2.I1">L2.I1</item>
+		<item id="L2.I2">L2.I2</item>
+		<item id="L2.I3">L2.I3</item>
+	</L2>
+	<L3 desc="列表3">
+		<item id="L3.I1">L3.I1</item>
+		<item id="L3.I2">L3.I2</item>
+		<item id="L3.I3">L3.I3</item>
+	</L3>
+</wordbook>

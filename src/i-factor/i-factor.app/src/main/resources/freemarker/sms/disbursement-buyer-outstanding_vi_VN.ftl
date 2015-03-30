@@ -1,0 +1,1 @@
+<EntroAuction> Hoa don so <000000> da duoc dau gia thanh cong. Xin vui long chuyen so tien con thieu vao tai khoan cua quy khach tai Bank/The Bank trong 2 ngay de thuc hien viec thanh toan. Hotline: xxx

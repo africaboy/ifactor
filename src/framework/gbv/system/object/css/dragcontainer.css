@@ -1,0 +1,184 @@
+.DragContainer {
+	BORDER-RIGHT: #669999 0px dashed;
+	PADDING-RIGHT: 1px;
+	BORDER-TOP: #669999 0px dashed;
+	PADDING-LEFT: 1px;
+	FLOAT: left;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 1px;
+	BORDER-LEFT: #669999 0px dashed;
+	WIDTH: 880px;
+	PADDING-TOP: 1px;
+	BORDER-BOTTOM: #669999 0px dashed
+}
+
+.DragContainer_ {
+	BORDER-RIGHT: #669999 0px solid;
+	PADDING-RIGHT: 1px;
+	BORDER-TOP: #669999 0px solid;
+	PADDING-LEFT: 1px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 1px;
+	BORDER-LEFT: #669999 0px solid;
+	WIDTH: 193px;
+	PADDING-TOP: 1px;
+	BORDER-BOTTOM: #669999 0px solid
+}
+
+.OverDragContainer {
+	BORDER-RIGHT: #669999 2px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #669999 2px solid;
+	PADDING-LEFT: 5px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 3px;
+	BORDER-LEFT: #669999 2px solid;
+	WIDTH: 100px;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: #669999 2px solid
+}
+
+.OverDragContainer {
+	BACKGROUND-COLOR: #eee
+}
+
+.DragBox {
+	BORDER-RIGHT: #ccc 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #ccc 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 12px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #ccc 1px solid;
+	WIDTH: 580px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #ccc 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #fff;
+	MARGIN:5px;
+}
+
+.DragBoxStatic {
+	BORDER-RIGHT: #ccc 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #ccc 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 10px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #ccc 1px solid;
+	WIDTH: 194px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #ccc 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #7B7BD7
+}
+
+.OverDragBox {
+	BORDER-RIGHT: #000 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #000 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 10px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #000 1px solid;
+	WIDTH: 194px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #000 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #eee
+}
+
+.OverDragBoxStatic {
+	BORDER-RIGHT: #999999 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #999999 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 10px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #999999 1px solid;
+	WIDTH: 194px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #999999 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #7B7BD7
+}
+
+.DragDragBox {
+	BORDER-RIGHT: #000 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #000 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 10px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #000 1px solid;
+	WIDTH: 194px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #000 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #eee
+}
+
+.miniDragBox {
+	BORDER-RIGHT: #000 1px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #000 1px solid;
+	PADDING-LEFT: 2px;
+	FONT-SIZE: 10px;
+	MARGIN-BOTTOM: 5px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: #000 1px solid;
+	WIDTH: 194px;
+	CURSOR: pointer;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #000 1px solid;
+	FONT-FAMILY: verdana, tahoma, arial;
+	BACKGROUND-COLOR: #eee
+}
+
+.OverDragBox {
+	BACKGROUND-COLOR: #ffff99
+}
+
+.DragDragBox {
+	BACKGROUND-COLOR: #ffff99
+}
+
+.History {
+	FONT-SIZE: 10px;
+	OVERFLOW: auto;
+	WIDTH: 100%;
+	FONT-FAMILY: verdana, tahoma, arial;
+	HEIGHT: 82px
+}
+
+#DragContainer8 {
+	BORDER-RIGHT: #669999 1px solid;
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: #669999 1px solid;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 0px;
+	BORDER-LEFT: #669999 1px solid;
+	WIDTH: 110px;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: #669999 1px solid;
+	HEIGHT: 110px
+}
+
+.miniDragBox {
+	FLOAT: left;
+	MARGIN: 0px 0px 0px 0px;
+	WIDTH: 20px;
+	HEIGHT: 20px
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table-query>
+	<query ID="ifactor_blacklist">
+		<name>ifactor_blacklist</name>
+		<desc>ifactor_blacklist</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BLACKLIST</table>
+		<jsurl>/app/ifactor/js/blacklist/ifactor_blacklist_list.js</jsurl>
+		<cssurl>/app/lib/css/default.css</cssurl>
+		<showchk>0</showchk>
+		<param>{enableHdMenu:false,listenRemix:true,listenRender:true,forceFit:true}</param>
+		<result-item>      
+			<item name = "CPNUMBER" label="number" width="150"/>         
+			<item name = "CPNAME" label="name" /> 
+			<item name = "BLTYPEID" label="Blacklist type ID"  show="-1" /> 
+			<item name = "BLTYPE" label="Blacklist type" /> 
+			<item name = "BLDATE"  label="To date"/>
+			<item name = "BLCAUSE"  label="To reason"/>
+			<item name = "FLOWTYPE"  label="flow type"/>
+			<item name = "BLSTATUS"  label="status"/>
+		</result-item>  
+		<orderby-item>
+			<item name="CPNAME" mode="ASC"/>
+		</orderby-item>
+	</query>
+	<query ID="ifactor_blacklist_result">
+		<name>ifactor_blacklist_result</name>
+		<desc>ifactor blacklist result</desc>
+		<translate>yes</translate>
+		<table>IF_MGT_BLACKLIST_RESULT</table>
+		<jsurl>/app/ifactor/js/blacklist/ifactor_blacklist_list.js</jsurl>
+		<showchk>0</showchk>
+		<param>{listenRemix:true,listenRender:true,forceFit:true,enableHdMenu:false}</param>
+		<result-item>      
+			<item name = "DUPTYPE" label="hit the blacklist type" width="150"/>         
+		</result-item>  
+		<restraint-item>
+			<item name = "PKID" param="@pkId" mode="01"/>     
+		</restraint-item>
+	</query>
+</table-query>

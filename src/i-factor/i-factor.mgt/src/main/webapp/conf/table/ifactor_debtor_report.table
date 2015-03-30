@@ -1,0 +1,119 @@
+<annotate>
+	<table name="IF_MGT_DEBTOR_REPORT" description="Debtor report template">
+		<column>
+			<name>DEBTORNAME</name>
+			<type>varchar</type>
+			<description>Debtor Name</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>UPLOADED_NO</name>
+			<type>integer</type>
+			<description>Number of invoices uploaded</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>ACCEPTED_NO</name>
+			<type>integer</type>
+			<description>Number of invoices accepted</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_NO</name>
+			<type>integer</type>
+			<description>Number of invoices disbursed</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>DISBURSED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Total invoice amount of disbursed invoices</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OVERDUE_NO</name>
+			<type>integer</type>
+			<description>Number of overdue invoices</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OVERDUE_AMOUNT</name>
+			<type>decimal</type>
+			<description>Total overdue amount</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OVERDUE_DAYS</name>
+			<type>integer</type>
+			<description>Total overdue days</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OVER_THIRTYNO</name>
+			<type>integer</type>
+			<description>Number of invoices over 30 days past due</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>OVER_THIRTYAMOUNT</name>
+			<type>decimal</type>
+			<description>Amount over 30 days past due</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>OVER_AVERAGEDAYS</name>
+			<type>decimal</type>
+			<description>Average overdue days</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SETTLED_NO</name>
+			<type>integer</type>
+			<description>Number of invoice settled</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>SETTLED_AMOUNT</name>
+			<type>decimal</type>
+			<description>Total invoice amount of settled invoice</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>SETTLEMENT_DAYS</name>
+			<type>integer</type>
+			<description>Total settlement days</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>AVERAGE_CPAYMENT</name>
+			<type>decimal</type>
+			<description>Average number days of late payment according to contract due date</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>AVERAGE_SPAYMENT</name>
+			<type>decimal</type>
+			<description>Average number days of late payment according to expected settlement date</description>
+			<length>20</length>
+			<scale>2</scale>
+		</column>
+		<column>
+			<name>UPLOADDATE</name>
+			<type>varchar</type>
+			<description>Uploaded Date</description>
+			<length>20</length>
+		</column>
+		<column>
+			<name>REPORTDATE</name>
+			<type>varchar</type>
+			<description>Report Date</description>
+			<length>20</length>
+		</column>
+	</table>
+</annotate>

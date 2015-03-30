@@ -1,0 +1,1 @@
+<EntroAuction>  We are sorry. The uploaded Invoice ID <000000> is not eligible. Please check your email for more information or contact <hotline> for support. 

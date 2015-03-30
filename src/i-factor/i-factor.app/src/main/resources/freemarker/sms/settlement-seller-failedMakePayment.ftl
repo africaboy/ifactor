@@ -1,0 +1,1 @@
+Your Invoice - ID <000000> has reached due date but not paid by debtor. Please settle the invoice by T+2. Bank/The Bank reserves the right to put you into watch list. Hotline: xxx
