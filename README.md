@@ -10,7 +10,7 @@
 - 执行src/i-factor/src/i-factor.app/scripts/gradle-jettyRun启动交易平台，浏览器访问http://localhost:9080，使用admin/888888登录
 - 查看代码结构及各部分原理
 
-# 2. 参考资料
+# 3. 参考资料
 - [Gradle](http://www.gradle.org/)
 - [Nexus](http://www.sonatype.org/nexus/)
 - [Eclipse](http://download.eclipse.org/eclipse/downloads/drops4/R-4.3.2-201402211700/)
