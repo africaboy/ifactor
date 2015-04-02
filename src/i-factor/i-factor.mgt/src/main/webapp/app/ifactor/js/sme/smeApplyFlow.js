@@ -503,25 +503,42 @@ function if_sme_flow_mapscore_opinion_layout(
 	if(options.plugObject!='undefind'&&options.plugObject!=null){
 		var flow = options.plugObject.workflow;
 		if(flow.action == 'todo'){
-			var yesorno = form.getForm().findField('OPINION').getValue();
-			var result = form.getForm().findField('CHECK_RESULT').getValue();
-			//if(yesorno=='' && result==''){
-			var formPanel = flow.currentStep.tableViewForm['if_scoring_result'];	
-			var riskLevel = formPanel.getForm().findField('RISKLEVEL').getValue();
-			if(riskLevel == 'L'){
-				mapScoreOpinionCheck(flow,'Confirmed','mapscore_opinion');
-			}else if(riskLevel == 'H'){
-				mapScoreOpinionCheck(flow,'Review','mapscore_opinion');
-			}else{
-				mapScoreOpinionCheck(flow,'Reject','mapscore_opinion');
-			}
-			//}
+			form.getForm().load({
+				url : context + "/views/score/isSystemCalculate",
+				success : function(form1, action) {
+					var resultInfo = action.result.data;
+					if(resultInfo.ifSystemCheck=='yes'){
+						Ext.fly(form.id+'_OPINION_').setStyle('background', '#F0F0F0');
+						form.getForm().findField(form.id+'_OPINION_').readOnly=true;
+						//var yesorno = form.getForm().findField('OPINION').getValue();
+						//var result = form.getForm().findField('CHECK_RESULT').getValue();
+						//if(yesorno=='' && result==''){
+						var formPanel = flow.currentStep.tableViewForm['if_scoring_result'];	
+						var riskLevel = formPanel.getForm().findField('RISKLEVEL').getValue();
+						if(riskLevel == 'L'){
+							mapScoreOpinionCheck(flow,'Confirmed','mapscore_opinion');
+							Ext.fly(form.id+'_OPINION_').setStyle('color', '#000000');
+						}else if(riskLevel == 'H'){
+							mapScoreOpinionCheck(flow,'Review','mapscore_opinion');
+							Ext.fly(form.id+'_OPINION_').setStyle('color', '#000000');
+						}else{
+							mapScoreOpinionCheck(flow,'Reject','mapscore_opinion');
+							Ext.fly(form.id+'_OPINION_').setStyle('color', '#000000');
+						}
+					}else{
+						form.getForm().findField('CHECK_RESULT').setValue(getWBMapValueLocalData('mapscore_opinion',"Confirmed"));
+					}
+				},
+				failure : function(form, action) {
+					Ext.Msg.alert(ifactorTranslator.getLangLabel('ifcommon-language', 'hint'), ifactorTranslator.getLangLabel('ifcommon-language', 'get_blacklist_result'));
+				}
+			});
 		}
 	}
 }
 function mapScoreOpinionCheck(flow,result,tp){
 	var opinionForm = flow.currentStep.opinionForm;
-	opinionForm.form.findField('OPINION_').setValue(getWBMapValueLocalData(tp,result));
+	opinionForm.form.findField(opinionForm.id+'_OPINION_').setValue(getWBMapValueLocalData(tp,result));
 	opinionForm.form.findField('OPINION').setValue(result);
 	opinionForm.form.findField('OPINION_VAL').setValue(getWBMapValueLocalData(tp,result));
 	opinionForm.form.findField('CHECK_RESULT').setValue(getWBMapValueLocalData(tp,result));

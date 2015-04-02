@@ -350,7 +350,7 @@
 		<component>
 			<item name="CREATE_DATE" type="time" label="Create Date" param="{readOnly:true}" dv="#nowTime" idx="000"/>
 			<item name="CHECK_RESULT"  type="input" label="Check Result" param="{readOnly:true}" idx="001"/>
-			<item name="OPINION"  type="select" label="Opinion" param="{readOnly:true,wordbook:'mapscore_opinion',target:'OPINION_VAL',allowBlank:false,returnFunc:'scoreOpinionCheck'}" idx="002"/>
+			<item name="OPINION"  type="select" label="Opinion" param="{wordbook:'mapscore_opinion',target:'OPINION_VAL',allowBlank:false}" idx="002"/>
 			<item name="OPINION_VAL" type="hidden" param="{}" idx="003"/>
 			<item name="OPINION_TXT" type="textarea" label="Remark" param="{columnSubCount:2,height:200}" idx="004"/>
 			<item name="USER_ID" type="hidden" param="{}" dv="@userId" idx="004"/>

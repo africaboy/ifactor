@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.entrofine.ifactor.gbv.init.ParamSettingCenter;
+import com.entrofine.ifactor.gbv.utils.Getter;
+
 /**
  * 评分处理
  * 
@@ -59,4 +62,26 @@ public class ScoreController {
 
 	}
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@RequestMapping(value = "isSystemCalculate")
+	@ResponseBody
+	public Object isSystemCalculate() {
+
+		Map<String, Object> resultMap = new HashMap<String, Object>();
+
+		try {
+			ParamSettingCenter psCenter = ParamSettingCenter.getInsance();
+			String ifSystemCheck = Getter.string(psCenter.get("IPS0006"));
+			Map result = new HashMap();
+			result.put("ifSystemCheck", ifSystemCheck);
+			resultMap.put("success", true);
+			resultMap.put("data", result);
+
+		} catch (Exception e) {
+			resultMap.put("success", false);
+			e.printStackTrace();
+		}
+		return resultMap;
+
+	}
 }

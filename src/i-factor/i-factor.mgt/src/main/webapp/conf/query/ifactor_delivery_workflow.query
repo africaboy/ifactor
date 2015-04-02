@@ -55,6 +55,7 @@
 		</result-item>  
 		<restraint-item>
 			<item name="INS_STATE" tableName="WF_INSTANCE" mode="01" param="0"/>
+			<item name="ISVERIFICATION" tableName="IF_MGT_INVOICE_APPLY" mode="01" param="@isVerification"/>
 			<item name="S_KEY" tableName="WF_STEP" mode="11" param="@stepKeys"/>
 		</restraint-item>
 		<orderby-item>

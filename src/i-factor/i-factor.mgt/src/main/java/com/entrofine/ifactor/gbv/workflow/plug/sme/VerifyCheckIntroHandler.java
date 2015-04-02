@@ -23,6 +23,7 @@ import org.limp.mine.RandomUtil;
 import org.limp.mine.StringTool;
 
 import com.entrofine.ifactor.api.entity.TableSyncEvent;
+import com.entrofine.ifactor.gbv.init.ParamSettingCenter;
 import com.entrofine.ifactor.gbv.manager.SMEApplyManager;
 import com.entrofine.ifactor.gbv.utils.Getter;
 import com.entrofine.ifactor.gbv.utils.WorkflowProxy;
@@ -78,8 +79,7 @@ public class VerifyCheckIntroHandler extends AbstractSimpleBean implements
 						"There cant not find score content in current activity!");
 			}
 
-			String riskLevelid = StringTool.checkString(scoreContent
-					.get("RISKLEVELID"));
+			String riskLevelid = Getter.string(scoreContent.get("RISKLEVELID"));
 			String appPkId = StringTool.checkString(content.get("APP_PK_ID"));
 			sb.getResource().put("APPLY_ID", pkid);
 			sb.getResource().put("PROFILE_APP_ID", appPkId);
@@ -115,13 +115,20 @@ public class VerifyCheckIntroHandler extends AbstractSimpleBean implements
 				dar = WordBookUtil.getWordBookItemName("dar", "02");
 				darid = "02";
 			}
+			ParamSettingCenter psCenter = ParamSettingCenter.getInsance();
+			String ifSystemCheck = Getter.string(psCenter.get("IPS0006"));
+			if (!ifSystemCheck.equals("yes")) {
+				dar = WordBookUtil.getWordBookItemName("dar", "01");
+				darid = "01";
+			}
 			sb.getResource().put("DAR", dar);
 			sb.getResource().put("DARID", darid);
-			sb.getResource().put("RATING", scoreContent.get("RATING"));
+			sb.getResource().put("RATING",
+					Getter.string(scoreContent.get("RATING")));
 			sb.getResource().put("RISKLEVEL",
-					scoreContent.get("RISKLEVELLABEL"));
-			sb.getResource()
-					.put("RISKLEVELID", scoreContent.get("RISKLEVELID"));
+					Getter.string(scoreContent.get("RISKLEVELLABEL")));
+			sb.getResource().put("RISKLEVELID",
+					Getter.string(scoreContent.get("RISKLEVELID")));
 			sb.getResource().put("OILIMIT", 0);
 			String enterprise = StringTool.checkString(content
 					.get("COMPANIESTYPEID"));
@@ -151,6 +158,15 @@ public class VerifyCheckIntroHandler extends AbstractSimpleBean implements
 			} else if (enterprise.equals("SME") && riskLevelid.equals("01")) {
 				maxamount = WordBookUtil.getWordBookItemName("invoiceLimit",
 						"smelmax");
+			}
+			if (!ifSystemCheck.equals("yes")) {
+				if (enterprise.equals("MSME")) {
+					maxamount = WordBookUtil.getWordBookItemName(
+							"invoiceLimit", "msmelmax");
+				} else {
+					maxamount = WordBookUtil.getWordBookItemName(
+							"invoiceLimit", "smelmax");
+				}
 			}
 			sb.getResource().put("MAAMOUNT", maxamount);
 			sb.getResource().put("INVOICELIMIT", invoiceLimit);

@@ -28,6 +28,7 @@ import com.entrofine.ifactor.app.entity.BuyerApply;
 import com.entrofine.ifactor.app.entity.BuyerApplyQuestion;
 import com.entrofine.ifactor.app.entity.Invoice;
 import com.entrofine.ifactor.app.entity.SellerApply;
+import com.entrofine.ifactor.gbv.init.ParamSettingCenter;
 import com.entrofine.ifactor.gbv.utils.Getter;
 import com.entrofine.ifactor.gbv.utils.ImageUploadHelper;
 import com.entrofine.ifactor.gbv.utils.WorkflowProxy;
@@ -511,6 +512,11 @@ public class WorkflowServiceImpl implements WorkflowService {
 							context.put("IDA_CODE",
 									"IDA_" + DateTrimmer.getYMDHMS());
 							context.put("SME_APP_PK_ID", apply.getSellerIdKey());
+							ParamSettingCenter psCenter = ParamSettingCenter
+									.getInsance();
+							String ifSystemCheck = Getter.string(psCenter
+									.get("IPS0006"));
+
 							try {
 								Connection conn = SystemDataSource
 										.getInstance().getConnection();
@@ -524,10 +530,13 @@ public class WorkflowServiceImpl implements WorkflowService {
 													"common_yesorno",
 													Getter.string(map
 															.get("DARID"))));
-									context.put("RATING",
-											Getter.string(map.get("RATING")));
-									context.put("RISKLEVEL", (Getter.string(map
-											.get("RISKLEVEL"))).substring(0, 1));
+									if (ifSystemCheck.equals("yes")) {
+										context.put("RATING", Getter.string(map
+												.get("RATING")));
+										context.put("RISKLEVEL", (Getter
+												.string(map.get("RISKLEVEL")))
+												.substring(0, 1));
+									}
 								}
 							} catch (SystemDataSourceException e) {
 								// TODO Auto-generated catch block
@@ -597,16 +606,23 @@ public class WorkflowServiceImpl implements WorkflowService {
 								String sql = "SELECT P.DARID,P.RATING,P.RISKLEVEL FROM IF_MGT_CP_PROFILE P WHERE P.PROFILE_APP_ID = ?";
 								Map map = trimmerI.searchSingleData(sql,
 										apply.getSellerIdKey());
+								ParamSettingCenter psCenter = ParamSettingCenter
+										.getInsance();
+								String ifSystemCheck = Getter.string(psCenter
+										.get("IPS0006"));
 								if (map != null) {
 									context.put("DAR", WordBookUtil
 											.getWordBookItemName(
 													"common_yesorno",
 													Getter.string(map
 															.get("DARID"))));
-									context.put("RATING",
-											Getter.string(map.get("RATING")));
-									context.put("RISKLEVEL", (Getter.string(map
-											.get("RISKLEVEL"))).substring(0, 1));
+									if (ifSystemCheck.equals("yes")) {
+										context.put("RATING", Getter.string(map
+												.get("RATING")));
+										context.put("RISKLEVEL", (Getter
+												.string(map.get("RISKLEVEL")))
+												.substring(0, 1));
+									}
 								}
 							} catch (SystemDataSourceException e) {
 								// TODO Auto-generated catch block
