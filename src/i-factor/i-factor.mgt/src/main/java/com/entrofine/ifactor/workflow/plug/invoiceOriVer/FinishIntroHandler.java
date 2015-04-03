@@ -5,16 +5,22 @@ import java.util.Map;
 
 import jt.classic.system.wordbook.WordBookUtil;
 import jt.classic.system.workflow.WActivity;
+import jt.classic.system.workflow.WFlow;
+import jt.classic.system.workflow.WInstance;
 import jt.classic.system.workflow.WInstanceManager;
 import jt.classic.system.workflow.WPlugHandler;
 import jt.classic.system.workflow.WStep;
 import jt.classic.system.workflow.WorkflowException;
+import jt.classic.system.workflow.WorkflowManager;
+import jt.classic.system.workflow.engine.GrooveWorkflowEngine;
 
 import org.limp.basework.AbstractSimpleBean;
 import org.limp.basework.SimpleBean;
+import org.limp.basework.impl.CommonBean4HSQ;
 import org.limp.mine.DataTrimmerI;
 
 import com.entrofine.ifactor.gbv.manager.OriVerInvoiceManager;
+import com.entrofine.ifactor.gbv.utils.Getter;
 import com.entrofine.ifactor.gbv.utils.WorkflowProxy;
 
 public class FinishIntroHandler extends AbstractSimpleBean implements
@@ -50,13 +56,31 @@ public class FinishIntroHandler extends AbstractSimpleBean implements
 		DataTrimmerI trimmerI = new DataTrimmerI(conn);
 		OriVerInvoiceManager.updateOriVerInvoiceStatus(ovStatus, ovStatusVal,
 				iovPkId, trimmerI);
+		Map map = wim.getInstanceContent(insId, theActivity.instance().iflow()
+				.iobject().itableView("ifactor_invoice_oriver"));
+		String appPkId = WorkflowProxy.getAppPkId(map);
+		String yesorno = "no";
 		if (isConfirm) {
-			Map map = wim.getInstanceContent(insId, theActivity.instance()
-					.iflow().iobject().itableView("ifactor_invoice_oriver"));
-			String appPkId = WorkflowProxy.getAppPkId(map);
+			yesorno = "yes";
 			String sql = "UPDATE IF_MGT_INVOICE_APPLY SET ISVERIFICATION = ? WHERE APP_PK_ID=?";
 			trimmerI.execute(sql, "1", appPkId);
 		}
+		String sql = "SELECT T.IIDA_PK_ID FROM IF_MGT_INVOICE_APPLY T WHERE T.APP_PK_ID = ?";
+		Map invoiceMap = trimmerI.searchSingleData(sql, appPkId);
+		String iidaPkId = Getter.string(invoiceMap.get("IIDA_PK_ID"));
+		CommonBean4HSQ cbh = (CommonBean4HSQ) bean.getResource().get("CBH");
+		cbh.getResource().put("yesorno", yesorno);
+		WInstance instance = wim.getInstanceByObjectData(
+				"IF_MGT_INVOICE_APPLY", iidaPkId);
+		WActivity activity = instance.imaxactivity();
+		cbh.getResource().put("actId", activity.id());
+		WStep wstep = activity.istep();
+		cbh.getResource().put("theStepId", wstep.id());
+		cbh.getResource().put("nextStepId", "");
+		GrooveWorkflowEngine gwe = new GrooveWorkflowEngine(conn);
+		WorkflowManager wm = new WorkflowManager(conn);
+		WFlow flow = wm.getWFlowByKey("invoiceDeliveryFlow");
+		gwe.run(flow, null, cbh);
 		return true;
 	}
 

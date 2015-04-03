@@ -512,6 +512,7 @@ public class WorkflowServiceImpl implements WorkflowService {
 							context.put("IDA_CODE",
 									"IDA_" + DateTrimmer.getYMDHMS());
 							context.put("SME_APP_PK_ID", apply.getSellerIdKey());
+							context.put("ISVERIFICATION", "0");
 							ParamSettingCenter psCenter = ParamSettingCenter
 									.getInsance();
 							String ifSystemCheck = Getter.string(psCenter

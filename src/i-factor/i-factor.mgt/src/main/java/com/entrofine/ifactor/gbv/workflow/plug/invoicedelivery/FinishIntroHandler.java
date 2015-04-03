@@ -19,6 +19,7 @@ import org.limp.basework.MachiningException;
 import org.limp.basework.ProcessorException;
 import org.limp.basework.SimpleBean;
 import org.limp.basework.SimpleBean4Table;
+import org.limp.basework.impl.CommonBean4HSQ;
 import org.limp.basework.impl.SimpleBean4TableImpl;
 import org.limp.basework.impl.SimpleBeanImpl;
 import org.limp.basework.tools.BaseworkUtil;
@@ -58,19 +59,29 @@ public class FinishIntroHandler extends AbstractSimpleBean implements
 		boolean isConfirm = false;
 		if (theActivity.istep().ikey()
 				.equals(FlowStep.invoiceDelivery_step09.getKey())) {
-			Map opinionInfo = wim.getActivityOpinionContent(theActivity.id());
-
-			if (opinionInfo == null) {
-				throw new WorkflowException(
-						"There cant not find opinion in current activity!");
-			}
-			if (nextStep != null && "Accept".equals(opinionInfo.get("OPINION"))
-					&& "Accept".equals(opinionInfo.get("CHECK_RESULT"))) {
+			CommonBean4HSQ cbh = (CommonBean4HSQ) bean.getResource().get("CBH");
+			String yesorno = Getter.string(cbh.getResource().get("yesorno"));
+			if (yesorno.equals("yes")) {
 				apprState += "_" + nextStep.ikey();
 				isConfirm = true;
 			} else {
 				apprState += "_" + nextStep.ikey() + "_0";
 			}
+			// Map opinionInfo =
+			// wim.getActivityOpinionContent(theActivity.id());
+			//
+			// if (opinionInfo == null) {
+			// throw new WorkflowException(
+			// "There cant not find opinion in current activity!");
+			// }
+			// if (nextStep != null &&
+			// "Accept".equals(opinionInfo.get("OPINION"))
+			// && "Accept".equals(opinionInfo.get("CHECK_RESULT"))) {
+			// apprState += "_" + nextStep.ikey();
+			// isConfirm = true;
+			// } else {
+			// apprState += "_" + nextStep.ikey() + "_0";
+			// }
 		} else if (nextStep != null) {
 			apprState += "_" + nextStep.ikey();
 		}
