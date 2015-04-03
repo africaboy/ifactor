@@ -31,7 +31,7 @@ public class TakeOriginalInvoiceScheduled {
 		try {
 			conn = SystemDataSource.getInstance().getConnection();
 			DataTrimmerI trimmerI = new DataTrimmerI(conn);
-			String sql = "SELECT T.* FROM IF_MGT_INVOICE_APPLY T WHERE T.IDA_STATUS = 'xhLGTcqzFh_dSHAvdyhfW' AND T.ISVERIFICATION IS NULL";
+			String sql = "SELECT T.* FROM IF_MGT_INVOICE_APPLY T WHERE T.IDA_STATUS = 'YCcCAeFtUg_xhLGTcqzFh'";
 			List invoiceInLastStepList = trimmerI.searchMultiData(sql);
 			SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
 			Date date = new Date();
@@ -40,7 +40,7 @@ public class TakeOriginalInvoiceScheduled {
 				String delistDate = Getter.string(map.get("IDA_CYCLEEND"));
 				Date dd = df.parse(delistDate);
 				long days = DateTrimmer.getDateMargin(date, dd);
-				if (days < 5) {
+				if (days < 10) {
 					String appPkId = Getter.string(map.get("APP_PK_ID"));
 					String originalInvoiceSql = "SELECT T.IOV_PK_ID FROM IF_MGT_INVOICE_ORIVER T WHERE T.ISACCEPTED <> ? AND T.APP_PK_ID = ?";
 					Map orginalMapInfo = trimmerI.searchSingleData(

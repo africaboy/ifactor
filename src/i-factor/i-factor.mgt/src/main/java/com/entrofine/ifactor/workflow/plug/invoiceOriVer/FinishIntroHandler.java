@@ -62,8 +62,9 @@ public class FinishIntroHandler extends AbstractSimpleBean implements
 		String yesorno = "no";
 		if (isConfirm) {
 			yesorno = "yes";
-			String sql = "UPDATE IF_MGT_INVOICE_APPLY SET ISVERIFICATION = ? WHERE APP_PK_ID=?";
-			trimmerI.execute(sql, "1", appPkId);
+			// String sql =
+			// "UPDATE IF_MGT_INVOICE_APPLY SET ISVERIFICATION = ? WHERE APP_PK_ID=?";
+			// trimmerI.execute(sql, "1", appPkId);
 		}
 		String sql = "SELECT T.IIDA_PK_ID FROM IF_MGT_INVOICE_APPLY T WHERE T.APP_PK_ID = ?";
 		Map invoiceMap = trimmerI.searchSingleData(sql, appPkId);

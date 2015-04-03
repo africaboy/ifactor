@@ -9,7 +9,10 @@ import jt.classic.system.workflow.WPlugHandler;
 import jt.classic.system.workflow.WorkflowException;
 
 import org.limp.basework.AbstractSimpleBean;
+import org.limp.basework.ProcessorException;
 import org.limp.basework.SimpleBean;
+import org.limp.basework.impl.SimpleBeanImpl;
+import org.limp.basework.tools.BaseworkUtil;
 import org.limp.mine.DataTrimmerI;
 import org.limp.mine.DateTrimmer;
 
@@ -48,6 +51,17 @@ public class OriginalInvoiceIntroHandler extends AbstractSimpleBean implements
 			String sql = "UPDATE IF_MGT_INVOICE_ORIVER SET ISACCEPTED = ?,RELEASE_DATE=?,IOV_CYCLESTART=?,IOV_CYCLEEND=? WHERE APP_PK_ID=?";
 			DataTrimmerI trimmerI = new DataTrimmerI(conn);
 			trimmerI.execute(sql, "1", releaseDate, startDate, endDate, appPkId);
+
+			SimpleBean sb = new SimpleBeanImpl();
+			BaseworkUtil util = new BaseworkUtil();
+			sb.getResource().putAll(map);
+			sb.getResource().put("ISVERIFICATION", "1");
+			try {
+				util.manualUpdate("IF_MGT_INVOICE_APPLY", sb, conn);
+			} catch (ProcessorException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			return true;
 		}
 
