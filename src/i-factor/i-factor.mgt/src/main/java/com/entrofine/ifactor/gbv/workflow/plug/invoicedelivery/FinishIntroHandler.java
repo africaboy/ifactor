@@ -124,6 +124,8 @@ public class FinishIntroHandler extends AbstractSimpleBean implements
 			events.add(generateInvoiceAuctionInfo(map, bean, conn, startDate,
 					endDate));
 		} else {
+			String sql = "UPDATE IF_MGT_INVOICE_ORIVER SET ISACCEPTED = ? WHERE APP_PK_ID=?";
+			trimmerI.execute(sql, "2");
 			events.add(new TableSyncEvent("IF_MGT_INVOICE_APPLY", id,
 					"IDA_STATUS", apprState));
 		}
